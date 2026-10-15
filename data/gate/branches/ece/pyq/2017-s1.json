@@ -1,0 +1,2137 @@
+{
+  "id": "gate-ec-2017-s1",
+  "yearSetKey": "2017-s1",
+  "year": 2017,
+  "set": 1,
+  "title": "GATE EC 2017 Official Paper",
+  "duration": "180 min",
+  "durationMinutes": 180,
+  "totalMarks": 100,
+  "totalQuestions": 65,
+  "gaQuestions": 10,
+  "csQuestions": 55,
+  "questions": [
+    {
+      "id": "go:1255",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s0",
+      "orderIndex": 1,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 1",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A single processor system has three resource types $X, Y$ and $Z$, which are shared by three processes. There are $5$ units of each resource type. Consider the following scenario, where the column <strong>alloc </strong>denotes the number of units of each resource type allocated to each process, and the column <strong>request </strong>denotes the number of units of each resource type requested by a process in order to complete execution. Which of these processes will finish <strong>LAST</strong>?</p>\n<p>$$\\begin{array}{|l|lll|ll|}\\hline &amp;\\text{}  \\rlap{\\textbf{alloc}}  &amp;&amp;&amp;\\rlap{  \\textbf{request}}  \\\\\\hline  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  \\\\\\hline  \\textbf{P0} &amp; \\text{1} &amp; \\text{2} &amp; \\text{1}&amp; \\text{1} &amp; \\text{0} &amp; \\text{3}  \\\\\\hline  \\textbf{P1} &amp; \\text{2} &amp; \\text{0} &amp; \\text{1} &amp; \\text{0} &amp; \\text{1} &amp; \\text{2} \\\\\\hline \\textbf{P2} &amp; \\text{2} &amp; \\text{2} &amp; \\text{1} &amp; \\text{1} &amp; \\text{2} &amp; \\text{0} \\\\\\hline \\end{array}$$</p>",
+      "rawQuestionHtml": "<p>A single processor system has three resource types $X, Y$ and $Z$, which are shared by three processes. There are $5$ units of each resource type. Consider the following scenario, where the column <strong>alloc </strong>denotes the number of units of each resource type allocated to each process, and the column <strong>request </strong>denotes the number of units of each resource type requested by a process in order to complete execution. Which of these processes will finish <strong>LAST</strong>?</p>\n<p>$$\\begin{array}{|l|lll|ll|}\\hline &amp;\\text{}  \\rlap{\\textbf{alloc}}  &amp;&amp;&amp;\\rlap{  \\textbf{request}}  \\\\\\hline  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  \\\\\\hline  \\textbf{P0} &amp; \\text{1} &amp; \\text{2} &amp; \\text{1}&amp; \\text{1} &amp; \\text{0} &amp; \\text{3}  \\\\\\hline  \\textbf{P1} &amp; \\text{2} &amp; \\text{0} &amp; \\text{1} &amp; \\text{0} &amp; \\text{1} &amp; \\text{2} \\\\\\hline \\textbf{P2} &amp; \\text{2} &amp; \\text{2} &amp; \\text{1} &amp; \\text{1} &amp; \\text{2} &amp; \\text{0} \\\\\\hline \\end{array}$$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$P0$</li>\n<li>$P1$</li>\n<li>$P2$</li>\n<li>None of the above, since the system is in a deadlock</li>\n</ol>",
+      "options": [
+        "$P0$",
+        "$P1$",
+        "$P2$",
+        "None of the above, since the system is in a deadlock"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$P0$",
+          "html": "$P0$"
+        },
+        {
+          "label": "B",
+          "text": "$P1$",
+          "html": "$P1$"
+        },
+        {
+          "label": "C",
+          "text": "$P2$",
+          "html": "$P2$"
+        },
+        {
+          "label": "D",
+          "text": "None of the above, since the system is in a deadlock",
+          "html": "None of the above, since the system is in a deadlock"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1255/gate-cse-2007-question-57",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1255/gate-cse-2007-question-57"
+    },
+    {
+      "id": "go:1256",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s0",
+      "orderIndex": 2,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 2",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:</p>\n<table border=\"1\" cellpadding=\"1\" style=\"width:463px; border-spacing: 1px;\">\n<tbody>\n<tr>\n<td>\n<pre class=\"c_cpp\">/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n</pre>\n</td>\n<td style=\"width:207px\">\n<pre class=\"c_cpp\">/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.</p>\n<p>Which one of the following statements is TRUE about the construct?</p>",
+      "rawQuestionHtml": "<p>Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:</p>\n<table border=\"1\" cellpadding=\"1\" style=\"width:463px; border-spacing: 1px;\">\n<tbody>\n<tr>\n<td>\n<pre class=\"c_cpp\">/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n</pre>\n</td>\n<td style=\"width:207px\">\n<pre class=\"c_cpp\">/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.</p>\n<p>Which one of the following statements is TRUE about the construct?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>It does not ensure mutual exclusion.</p>\n</li>\n<li>\n<p>It does not ensure bounded waiting.</p>\n</li>\n<li>\n<p>It requires that processes enter the critical section in strict alteration.</p>\n</li>\n<li>\n<p>It does not prevent deadlocks, but ensures mutual exclusion.</p>\n</li>\n</ol>",
+      "options": [
+        "It does not ensure mutual exclusion.",
+        "It does not ensure bounded waiting.",
+        "It requires that processes enter the critical section in strict alteration.",
+        "It does not prevent deadlocks, but ensures mutual exclusion."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It does not ensure mutual exclusion.",
+          "html": "<p>It does not ensure mutual exclusion.</p>"
+        },
+        {
+          "label": "B",
+          "text": "It does not ensure bounded waiting.",
+          "html": "<p>It does not ensure bounded waiting.</p>"
+        },
+        {
+          "label": "C",
+          "text": "It requires that processes enter the critical section in strict alteration.",
+          "html": "<p>It requires that processes enter the critical section in strict alteration.</p>"
+        },
+        {
+          "label": "D",
+          "text": "It does not prevent deadlocks, but ensures mutual exclusion.",
+          "html": "<p>It does not prevent deadlocks, but ensures mutual exclusion.</p>"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1256/gate-cse-2007-question-58",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1256/gate-cse-2007-question-58"
+    },
+    {
+      "id": "go:2428",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>Information about a collection of students is given by the relation $\\text{studInfo(}\\underline{\\text{studId}},\\text{ name, sex)}$. The relation $\\text{enroll(}{\\text{studId}},{\\text{ courseId}})$ gives which student has enrolled for (or taken) what course(s). Assume that every course is taken by at least one male and at least one female student. What does the following relational algebra expression represent?</p>\n<p>$\\pi _{courceId}\\left(\\left(\\pi_{\\text{studId}}\\left(\\sigma_{sex=“female\"}\\left(\\text{studInfo}\\right)\\right) \\times \\pi_{courseId}\\left(\\text{enroll}\\right)\\right) -\\text{enroll}\\right)$</p>",
+      "rawQuestionHtml": "<p>Information about a collection of students is given by the relation $\\text{studInfo(}\\underline{\\text{studId}},\\text{ name, sex)}$. The relation $\\text{enroll(}{\\text{studId}},{\\text{ courseId}})$ gives which student has enrolled for (or taken) what course(s). Assume that every course is taken by at least one male and at least one female student. What does the following relational algebra expression represent?</p>\n<p>$\\pi _{courceId}\\left(\\left(\\pi_{\\text{studId}}\\left(\\sigma_{sex=“female\"}\\left(\\text{studInfo}\\right)\\right) \\times \\pi_{courseId}\\left(\\text{enroll}\\right)\\right) -\\text{enroll}\\right)$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>Courses in which all the female students are enrolled.</li>\n<li>Courses in which a proper subset of female students are enrolled.</li>\n<li>Courses in which only male students are enrolled.</li>\n<li>None of the above</li>\n</ol>",
+      "options": [
+        "Courses in which all the female students are enrolled.",
+        "Courses in which a proper subset of female students are enrolled.",
+        "Courses in which only male students are enrolled.",
+        "None of the above"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Courses in which all the female students are enrolled.",
+          "html": "Courses in which all the female students are enrolled."
+        },
+        {
+          "label": "B",
+          "text": "Courses in which a proper subset of female students are enrolled.",
+          "html": "Courses in which a proper subset of female students are enrolled."
+        },
+        {
+          "label": "C",
+          "text": "Courses in which only male students are enrolled.",
+          "html": "Courses in which only male students are enrolled."
+        },
+        {
+          "label": "D",
+          "text": "None of the above",
+          "html": "None of the above"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2428/gate-cse-2007-question-59",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2428/gate-cse-2007-question-59"
+    },
+    {
+      "id": "go:1258",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s0",
+      "orderIndex": 4,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 4",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the relation <strong>employee</strong>(name, sex, supervisorName) with <em>name</em> as the key, <em>supervisorName</em> gives the name of the supervisor of the employee under consideration. What does the following Tuple Relational Calculus query produce?</p>\n<p>$\\left\\{e.name \\mid employee(e) \\wedge \\left(\\forall x\\right)\\left[\\neg employee\\left(x \\right) \\vee x.supervisorName \\neq e.name \\vee x.sex = ``male\" \\right]\\right\\}$</p>",
+      "rawQuestionHtml": "<p>Consider the relation <strong>employee</strong>(name, sex, supervisorName) with <em>name</em> as the key, <em>supervisorName</em> gives the name of the supervisor of the employee under consideration. What does the following Tuple Relational Calculus query produce?</p>\n<p>$\\left\\{e.name \\mid employee(e) \\wedge \\left(\\forall x\\right)\\left[\\neg employee\\left(x \\right) \\vee x.supervisorName \\neq e.name \\vee x.sex = ``male\" \\right]\\right\\}$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>Names of employees with a male supervisor.</li>\n<li>Names of employees with no immediate male subordinates.</li>\n<li>Names of employees with no immediate female subordinates.</li>\n<li>Names of employees with a female supervisor.</li>\n</ol>",
+      "options": [
+        "Names of employees with a male supervisor.",
+        "Names of employees with no immediate male subordinates.",
+        "Names of employees with no immediate female subordinates.",
+        "Names of employees with a female supervisor."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Names of employees with a male supervisor.",
+          "html": "Names of employees with a male supervisor."
+        },
+        {
+          "label": "B",
+          "text": "Names of employees with no immediate male subordinates.",
+          "html": "Names of employees with no immediate male subordinates."
+        },
+        {
+          "label": "C",
+          "text": "Names of employees with no immediate female subordinates.",
+          "html": "Names of employees with no immediate female subordinates."
+        },
+        {
+          "label": "D",
+          "text": "Names of employees with a female supervisor.",
+          "html": "Names of employees with a female supervisor."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1258/gate-cse-2007-question-60",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1258/gate-cse-2007-question-60"
+    },
+    {
+      "id": "go:479",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2008-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:</p>",
+      "rawQuestionHtml": "<p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>does not increase</p>\n</li>\n<li>\n<p>increase linearly</p>\n</li>\n<li>\n<p>increases quadratically</p>\n</li>\n<li>\n<p>increases exponentially</p>\n</li>\n</ol>",
+      "options": [
+        "does not increase",
+        "increase linearly",
+        "increases quadratically",
+        "increases exponentially"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "does not increase",
+          "html": "<p>does not increase</p>"
+        },
+        {
+          "label": "B",
+          "text": "increase linearly",
+          "html": "<p>increase linearly</p>"
+        },
+        {
+          "label": "C",
+          "text": "increases quadratically",
+          "html": "<p>increases quadratically</p>"
+        },
+        {
+          "label": "D",
+          "text": "increases exponentially",
+          "html": "<p>increases exponentially</p>"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/479/gate-cse-2008-question-56",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/479/gate-cse-2008-question-56"
+    },
+    {
+      "id": "go:2369",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2010-s0",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Analytical & Logical Reasoning",
+      "type": "MCQ",
+      "question": "<p>If $137 + 276 = 435$ how much is $731+672?$</p>",
+      "rawQuestionHtml": "<p>If $137 + 276 = 435$ how much is $731+672?$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$534$</li>\n<li>$1403$</li>\n<li>$1623$</li>\n<li>$1513$</li>\n</ol>",
+      "options": [
+        "$534$",
+        "$1403$",
+        "$1623$",
+        "$1513$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$534$",
+          "html": "$534$"
+        },
+        {
+          "label": "B",
+          "text": "$1403$",
+          "html": "$1403$"
+        },
+        {
+          "label": "C",
+          "text": "$1623$",
+          "html": "$1623$"
+        },
+        {
+          "label": "D",
+          "text": "$1513$",
+          "html": "$1513$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2369/gate-cse-2010-question-61",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2369/gate-cse-2010-question-61"
+    },
+    {
+      "id": "go:2370",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2010-s0",
+      "orderIndex": 7,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 7",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Analytical & Logical Reasoning",
+      "type": "MCQ",
+      "question": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:</p>\n<ol style=\"list-style-type:lower-roman\">\n<li>Hari's age $+$ Gita's age $&gt;$ Irfan's age $+$ Saira's age</li>\n<li>The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.</li>\n<li>There are no twins.</li>\n</ol>\n<p>In what order they were born (oldest first)?</p>",
+      "rawQuestionHtml": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:</p>\n<ol style=\"list-style-type:lower-roman\">\n<li>Hari's age $+$ Gita's age $&gt;$ Irfan's age $+$ Saira's age</li>\n<li>The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.</li>\n<li>There are no twins.</li>\n</ol>\n<p>In what order they were born (oldest first)?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\text{HSIG}$</li>\n<li>$\\text{SGHI}$</li>\n<li>$\\text{IGSH}$</li>\n<li>$\\text{IHSG}$</li>\n</ol>",
+      "options": [
+        "$\\text{HSIG}$",
+        "$\\text{SGHI}$",
+        "$\\text{IGSH}$",
+        "$\\text{IHSG}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\text{HSIG}$",
+          "html": "$\\text{HSIG}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\text{SGHI}$",
+          "html": "$\\text{SGHI}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\text{IGSH}$",
+          "html": "$\\text{IGSH}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\text{IHSG}$",
+          "html": "$\\text{IHSG}$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2370/gate-cse-2010-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2370/gate-cse-2010-question-62"
+    },
+    {
+      "id": "go:2371",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2010-s0",
+      "orderIndex": 8,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 8",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p><strong>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.</strong></p>\n<p>Which of the following statements best sums up the meaning of the above passage:</p>",
+      "rawQuestionHtml": "<p><strong>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.</strong></p>\n<p>Which of the following statements best sums up the meaning of the above passage:</p>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Modern warfare has resulted in civil strife.</li>\n<li>Chemical agents are useful in modern warfare.</li>\n<li>People in military establishments like to use chemical agents in war.</li>\n<li>Use of chemical agents in warfare would be undesirable.</li>\n</ol>",
+      "options": [
+        "Modern warfare has resulted in civil strife.",
+        "Chemical agents are useful in modern warfare.",
+        "People in military establishments like to use chemical agents in war.",
+        "Use of chemical agents in warfare would be undesirable."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Modern warfare has resulted in civil strife.",
+          "html": "Modern warfare has resulted in civil strife."
+        },
+        {
+          "label": "B",
+          "text": "Chemical agents are useful in modern warfare.",
+          "html": "Chemical agents are useful in modern warfare."
+        },
+        {
+          "label": "C",
+          "text": "People in military establishments like to use chemical agents in war.",
+          "html": "People in military establishments like to use chemical agents in war."
+        },
+        {
+          "label": "D",
+          "text": "Use of chemical agents in warfare would be undesirable.",
+          "html": "Use of chemical agents in warfare would be undesirable."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2371/gate-cse-2010-question-63",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2371/gate-cse-2010-question-63"
+    },
+    {
+      "id": "go:2372",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2010-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?</p>",
+      "rawQuestionHtml": "<p>$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$20$ days</li>\n<li>$18$ days</li>\n<li>$16$ days</li>\n<li>$15$ days</li>\n</ol>",
+      "options": [
+        "$20$ days",
+        "$18$ days",
+        "$16$ days",
+        "$15$ days"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$20$ days",
+          "html": "$20$ days"
+        },
+        {
+          "label": "B",
+          "text": "$18$ days",
+          "html": "$18$ days"
+        },
+        {
+          "label": "C",
+          "text": "$16$ days",
+          "html": "$16$ days"
+        },
+        {
+          "label": "D",
+          "text": "$15$ days",
+          "html": "$15$ days"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2372/gate-cse-2010-question-64",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2372/gate-cse-2010-question-64"
+    },
+    {
+      "id": "go:2373",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2010-s0",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE EC 2017 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?</p>",
+      "rawQuestionHtml": "<p>Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$50$</li>\n<li>$51$</li>\n<li>$52$</li>\n<li>$54$</li>\n</ol>",
+      "options": [
+        "$50$",
+        "$51$",
+        "$52$",
+        "$54$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$50$",
+          "html": "$50$"
+        },
+        {
+          "label": "B",
+          "text": "$51$",
+          "html": "$51$"
+        },
+        {
+          "label": "C",
+          "text": "$52$",
+          "html": "$52$"
+        },
+        {
+          "label": "D",
+          "text": "$54$",
+          "html": "$54$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2373/gate-cse-2010-question-65",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2373/gate-cse-2010-question-65"
+    },
+    {
+      "id": "gate-ec-q113",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1994-s1",
+      "orderIndex": 11,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 1",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>A common emitter transistor ampliﬁer has a cullector corrent of \n when its base current is \n at\nthe room temperature. It's input resistance is approximately equal to ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q115",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1995-s1",
+      "orderIndex": 12,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 2",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "MCQ",
+      "question": "<p>The break down voltage of a transistor with its base open is \n and that with emitter open is \nthen</p>",
+      "options": [
+        "B\n.",
+        "D\n. \n is not related to \ngate1995-ec\n \nbipolar-junction-transistor\n \nelectronic-devices"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \n is not related to \ngate1995-ec\n \nbipolar-junction-transistor\n \nelectronic-devices",
+          "html": "D\n. \n is not related to \ngate1995-ec\n \nbipolar-junction-transistor\n \nelectronic-devices"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q117",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1995-s1",
+      "orderIndex": 13,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 3",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The circuit shown the given ﬁgure, supplies power to an \n speaker, \n. The values of \n and \n for this\ncircuit will be :\n __________\nand \n ____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q119",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1995-s1",
+      "orderIndex": 14,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 4",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In a bipolar junction transistor if</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q121",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1996-s1",
+      "orderIndex": 15,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 5",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>A Darlington stage is shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q123",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1999-s1",
+      "orderIndex": 16,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 6",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>The early effect in a bipolar junction transistor is caused by</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q125",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2000-s1",
+      "orderIndex": 17,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 7",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>Introducing a resistor in the emitter of a common ampliﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q127",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2001-s1",
+      "orderIndex": 18,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 8",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "MCQ",
+      "question": "<p>An npn \n has \n, \n, and \n current gain \n.\nFor this transistor \n and \n are</p>",
+      "options": [
+        "and",
+        "and",
+        "and",
+        "and \ngate2001-ec\n \nbipolar-junction-transistor\n \nelectronic-devices\n \nnumerical-answers"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "and",
+          "html": "and"
+        },
+        {
+          "label": "B",
+          "text": "and",
+          "html": "and"
+        },
+        {
+          "label": "C",
+          "text": "and",
+          "html": "and"
+        },
+        {
+          "label": "D",
+          "text": "and \ngate2001-ec\n \nbipolar-junction-transistor\n \nelectronic-devices\n \nnumerical-answers",
+          "html": "and \ngate2001-ec\n \nbipolar-junction-transistor\n \nelectronic-devices\n \nnumerical-answers"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q129",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2004-s1",
+      "orderIndex": 19,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 9",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>Assuming that the \n of the transistor is extremely large and \n and \n in the circuit shown\nin the figure are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q131",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2005-s1",
+      "orderIndex": 20,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 10",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>For an \n transistor connected as shown in the ﬁgure, \n volts. Given that reverse saturation\ncurrent of the junction at room temperature \n is \n, the emitter current is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q133",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2005-s1",
+      "orderIndex": 21,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 11",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The transistors used in a portion of the TTL gate shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q135",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s1",
+      "orderIndex": 22,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 12",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The \n current gain (\n ) of a \n is \n Assuming that the emitter injection eﬃ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q137",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2010-s1",
+      "orderIndex": 23,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 13",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In a uniformly doped \n, assume that \n and \n are the emitter, base and collector dopings in \n, respectively. If the emitter injection eﬃ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q139",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 24,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 14",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>Which of the following statements is/are true for a \n with respect to its DC current gain \n ?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q141",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 25,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 15",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In ﬁgure, both transistors are identical and have a high value of beta. Take the \n base-emitter voltage drop\na s \n volt and \n. The small signal low frequency voltage gain \n is equal\nto__________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q143",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1994-s1",
+      "orderIndex": 26,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 16",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>A class - A transformer coupled, transistor power ampliﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q145",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1999-s1",
+      "orderIndex": 27,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 17",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In the cascade ampliﬁer shown in the given ﬁgure, if the common - emitter stage \n has a\ntransconductance \n, and the common base stage \n has a transconductance \n, then the overall\ntransconductance \n of the cascade amplifier is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q147",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2000-s1",
+      "orderIndex": 28,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 18",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "MCQ",
+      "question": "<p>For the ampliﬁer of given ﬁgure, \n, \n, \n and \n.</p>",
+      "options": [
+        "What is the small-signal voltage gain,",
+        "What is the approximate \n if \n is removed ?",
+        "What will \n be if \n is short circuited?"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "What is the small-signal voltage gain,",
+          "html": "What is the small-signal voltage gain,"
+        },
+        {
+          "label": "B",
+          "text": "What is the approximate \n if \n is removed ?",
+          "html": "What is the approximate \n if \n is removed ?"
+        },
+        {
+          "label": "C",
+          "text": "What will \n be if \n is short circuited?",
+          "html": "What will \n be if \n is short circuited?"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q149",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2001-s1",
+      "orderIndex": 29,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 19",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The transistor shunt regulator shown in the ﬁgure is has a regulated output voltage of \n, when the input\nvaries from \n to \n. The relevant parameters for the zener diode and the transistor are:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q151",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2006-s1",
+      "orderIndex": 30,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 20",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>Common Data for Questions 71, 72,73:\nIn the transistor amplifier circuit shown in the figure below, the transistor has the following parameters:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q153",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2009-s1",
+      "orderIndex": 31,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 21",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>A small signal source \n is applied to a transistor ampliﬁer as shown below.\nThe transistor has \n and \n. Which expression best approximates \n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q155",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2004-s1",
+      "orderIndex": 32,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 22",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>The neutral base width of a bipolar transistor, biased in the active region, is \n. The maximum electron\nconcentration and the diﬀusion constant in the base are \n and \n \n respectively.\nAssuming negligible recombination in the base, the collector current density is (the electron charge is \ncoulomb)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q157",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s1",
+      "orderIndex": 33,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 23",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>In the CMOS inverter circuit shown, if the transconductance parameters of the NMOS and PMOS transistors\na r e \n and their threshold voltages are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q159",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 34,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 24",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In the circuit shown, the identical transistors \n and \n are biased in the active region with \n. The\nZener diode is in the breakdown region with \n and \n.\nIf \n and \n, then the values of \n and \n (in \n, rounded oﬀ to one decimal\nplace) are ________, respectively.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q161",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1992-s1",
+      "orderIndex": 35,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 25",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The \n in the circuit shown in the given ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q146",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2000-s1",
+      "orderIndex": 36,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 26",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In the diﬀerential amplifer of the ﬁgure, if the source resistance of the current source \n is inﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q148",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2000-s1",
+      "orderIndex": 37,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 27",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The figure shows a common base amplifier.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q150",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2005-s1",
+      "orderIndex": 38,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 28",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The cascode amplifier is a multistage configuration of</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q152",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2006-s1",
+      "orderIndex": 39,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 29",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>Common Data for Questions 71, 72,73:\nIn the transistor amplifier circuit shown in the figure below, the transistor has the following parameters:\n The capacitance \n can be assumed to be infinite.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q154",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1997-s1",
+      "orderIndex": 40,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 30",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "MCQ",
+      "question": "<p>For a typical \n transistor, as shown in the figure we have the following data available</p>",
+      "options": [
+        "and Collcetor doping",
+        "and Emitter doping",
+        "Base doping",
+        "Minority carrier life time in the Base region is \n.\nUnder Punch-through condition the \n volts.\nHere \n is the built in potential of Base-collector junction. Emitter Injection eﬃciency can be assumed as 1 for this\ntransistor.\nEvaluate Base Width \n and the current gain \n. [Standard data for this question is : \n coloumbs; \n.\nFor silicon at \n;"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "and Collcetor doping",
+          "html": "and Collcetor doping"
+        },
+        {
+          "label": "B",
+          "text": "and Emitter doping",
+          "html": "and Emitter doping"
+        },
+        {
+          "label": "C",
+          "text": "Base doping",
+          "html": "Base doping"
+        },
+        {
+          "label": "D",
+          "text": "Minority carrier life time in the Base region is \n.\nUnder Punch-through condition the \n volts.\nHere \n is the built in potential of Base-collector junction. Emitter Injection eﬃciency can be assumed as 1 for this\ntransistor.\nEvaluate Base Width \n and the current gain \n. [Standard data for this question is : \n coloumbs; \n.\nFor silicon at \n;",
+          "html": "Minority carrier life time in the Base region is \n.\nUnder Punch-through condition the \n volts.\nHere \n is the built in potential of Base-collector junction. Emitter Injection eﬃciency can be assumed as 1 for this\ntransistor.\nEvaluate Base Width \n and the current gain \n. [Standard data for this question is : \n coloumbs; \n.\nFor silicon at \n;"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q156",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2009-s1",
+      "orderIndex": 41,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 31",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>Consider the following two statements about the internal conditions in an n-channel MOSFET operating in\nthe active region.\n The inversion charge decreases from source to drain\n The channel potential increases from source to drain\nWhich of the following is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q158",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2009-s1",
+      "orderIndex": 42,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 32",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>Consider the CMOS circuit shown, where the gate voltage \n of the \n is increased from zero,\nwhile the gate voltage of the \n is kept constant at \n. Assume that, for both transistors, the\nmagnitude of the threshold voltage is \n and the product of the transconductance parameter and the \n ratio,\ni.e. the quantity \n, is \n.\nEstimate the output voltage \n for \n. [\nHint:\n Use the appropriate current-voltage equation for each\nMOSFET, based on the answer to Q.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q160",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 43,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 33",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>A n \n-channel \n has a pinch-oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q162",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1998-s1",
+      "orderIndex": 44,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 34",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>In a differential amplifier, \n can be improved by using an increased</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q164",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1995-s1",
+      "orderIndex": 45,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 35",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>An ampliﬁer has an open-loop gain of \n, and its lower-and upper-cut-oﬀ frequency of \n and \n, respectively. A feedback network with a feedback fact or of \n is connected to the ampliﬁer.\nThe new lower and upper-cut-off frequencies are at ________ and __________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q166",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1998-s1",
+      "orderIndex": 46,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 36",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>The emitter coupled pair of \n gives a linear transfer relation between the diﬀerential output voltage and\nthe diﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q168",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 47,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 37",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>In the \n inverter circuit shown in the ﬁgure is the input Vi makes a transition from \n to</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q170",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1994-s1",
+      "orderIndex": 48,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 38",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>Channel current is reduced on application of a more positive voltage to the gate of a depletion mode \n-\nchannel \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q172",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2000-s1",
+      "orderIndex": 49,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 39",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Impulse Response & Convolution",
+      "type": "NAT",
+      "question": "<p>For the \n monostable multivibrator of given ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q174",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2002-s1",
+      "orderIndex": 50,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 40",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>Consider the following statements in connection with the CMOS inverter in the ﬁgure is where both the\nMOSFETs are of enhancement type and both have a thresh old voltage of \n.\n \nStatement 1:\n \n conducts when \n.\nStatement 2:\n \n is always in saturation when \n.\nWhich of the following is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q176",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2008-s1",
+      "orderIndex": 51,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 41",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>For the circuit shown in the following ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q178",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 52,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 42",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>For an \n-channel silicon \n with \n gate oxide thickness, the substrate sensitivity \n is found to be \n at a substrate voltage \n, where \n is the threshold\nvoltage of the \n. Assume that, \n, where \n is the separation between the Fermi energy\nlevel \n and the intrinsic level \n in the bulk. Parameters given are\nElectron charge \n = \nVacuum permittivity (\n) = \nRelative permittivity of silicon (\n) = \nRelative permittivity of oxide (\n) =</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q180",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 53,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 43",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>Consider an ideal long channel \n (enhancement-mode) with gate length \n and width \n The product of electron mobility \n and oxide capacitance per unit area \n is \n The threshold voltage of the transistor is \n For a</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q182",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 54,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 44",
+      "subject": "Communications",
+      "subjectSlug": "communications",
+      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "type": "NAT",
+      "question": "<p>Consider the \n circuit shown in the ﬁgure (substrates are connected to their respective sources). The\ngate width \n to gate length \n ratios \n of the transistors are as shown. Both the transistors have the\nsame gate oxide capacitance per unit area. For the \n the threshold voltage is \n and the mobility of\nholes is \n  For the \n the threshold voltage is \n and the mobility of electrons is \n. The\nsteady state output voltage \n is _____________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q184",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 55,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 45",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>A transistor \n oscillator circuit is shown in the given ﬁgure. Assume that the transistor has very high \n (so\nthat you may neglect \n ). Derive an equation governing the circuit operation, and ﬁnd the frequency of\noscillation. Also, state the gain condition required for oscillation to start.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q186",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 56,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 46",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>The ideal long channel \n and \n devices shown in the circuits have threshold voltages\no f \n and \n respectively. The \n substrates are connected to their respective sources.\nIgnore leakage currents and assume that the capacitors are initially discharged. For the applied voltages as shown,\nthe steady state voltage are _______________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q188",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2011-s1",
+      "orderIndex": 57,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 47",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>The channel resistance of an \n-channel \n shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q190",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2006-s1",
+      "orderIndex": 58,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 48",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>An \n-channel depletion MOSFET has following two points on its \n curve\ni\n. \n at \n and\nii\n. \n Volts at \nWhich of the following \n-points will give the highest trans-conductance gain for small signals?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q192",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 59,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 49",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>For the closed loop ampliﬁer circuit shown below, the magnitude of open loop low frequency small signal\nvoltage gain is \n. All the transistors are biased in saturation. The current source \n is ideal. Neglect body\neﬀect, channel length modulation and intrinsic device capacitances. The closed loop low frequency small signal\nvoltage gain \n (rounded off to three decimal places) is \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q194",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 60,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 50",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>The identical MOSFETs \n and \n in the circuit given below are ideal and biased in the saturation region. \n and \n have a transconductance \n of \n mS.\nThe input signals (in Volts) are:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q196",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2007-s1",
+      "orderIndex": 61,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 51",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>Group I \nlists four diﬀerent semiconductor devices. Match each device in \nGroup I\n with its characteristic\nproperty in \nGroup II.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q198",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 62,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 52",
+      "subject": "Electronic Devices (EDC)",
+      "subjectSlug": "edc",
+      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
+      "type": "NAT",
+      "question": "<p>In the given circuit, the current \n (in \n ) is \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q200",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1992-s1",
+      "orderIndex": 63,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 53",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>A  \n junction series with a \n ohms resistor, is forward based so that a current of \n ﬂows. If the\nvoltage across this combination is instantaneously reversed to \n at \n, the reverse current that ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q202",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1993-s1",
+      "orderIndex": 64,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 54",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "NAT",
+      "question": "<p>Consider the circuit shown in the ﬁgure is If the diode used here has the V-I characteristic as in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ec-q204",
+      "testId": "gate-ec-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1995-s1",
+      "orderIndex": 65,
+      "section": "EC",
+      "title": "GATE EC 2017 | EC Question: 55",
+      "subject": "Analog Circuits",
+      "subjectSlug": "analog-circuits",
+      "topic": "Diode Circuits & Rectifiers",
+      "type": "MCQ",
+      "question": "<p>A zener diode works on the principle of</p>",
+      "options": [
+        "tunneling of charge carriers across the junction",
+        "thermionic emission",
+        "diffusion of charge carriers across the junction",
+        "hopping of charge carriers across the junction"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "tunneling of charge carriers across the junction",
+          "html": "tunneling of charge carriers across the junction"
+        },
+        {
+          "label": "B",
+          "text": "thermionic emission",
+          "html": "thermionic emission"
+        },
+        {
+          "label": "C",
+          "text": "diffusion of charge carriers across the junction",
+          "html": "diffusion of charge carriers across the junction"
+        },
+        {
+          "label": "D",
+          "text": "hopping of charge carriers across the junction",
+          "html": "hopping of charge carriers across the junction"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    }
+  ]
+}

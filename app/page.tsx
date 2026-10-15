@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
 
           <p className="max-w-2xl text-base leading-7 text-gray-400 md:text-lg md:leading-8">
-            Master GATE CSE, placement aptitude tests, sharpen your DSA logic, and take live tech quizzes — all organized in dedicated, clean sections.
+            Your all-in-one platform for <span className="text-white font-medium">CSE GATE</span> <span className="text-white font-medium">PYQ(1987-2026) , Full Mock Test</span> with solutions, <span className="text-white font-medium">DSA </span>, Placement and campus tech interview Prepration.
           </p>
 
           <Link
@@ -41,7 +41,7 @@ export default function Home() {
       <section id="tracks" className="mx-auto w-full max-w-7xl scroll-mt-24 px-6 py-20 md:py-28">
         <div className="mb-10 text-center md:mb-14">
           <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-5xl">
-            What are you preparing?
+          Let’s Build Your Future
           </h2>
         </div>
 
@@ -86,7 +86,7 @@ export default function Home() {
               </p>
             </div>
             <span className="relative mt-7 w-fit rounded-full border border-purple-300/30 bg-purple-400/15 px-3.5 py-1.5 text-xs font-semibold text-purple-200 transition group-hover:border-purple-200/50 group-hover:bg-purple-400/20">
-              Explore DSA
+              Explore DSA Sheet
             </span>
           </Link>
 

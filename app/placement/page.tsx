@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -5,6 +6,23 @@ import TestCard from "@/components/TestCard";
 import placementData from "@/data/placement.json";
 import testsData from "@/data/tests.json";
 import BackButton from "@/components/BackButton";
+import SubNavPills from "@/components/SubNavPills";
+import { placementNavPills } from "@/lib/hubNav";
+
+export const metadata: Metadata = {
+  title: "Campus Placement Preparation - Aptitude, Reasoning, DSA & Tech Tests",
+  description:
+    "Comprehensive college placement preparation hub. Practice quantitative aptitude, logical reasoning, verbal ability, and technical interview questions for top tech companies.",
+  keywords: [
+    "placement preparation",
+    "DSA placement preparation",
+    "campus placement aptitude",
+    "technical interview preparation",
+    "campus placement mock test",
+    "software engineer placement",
+  ],
+};
+
 
 export default function PlacementPage() {
   const placementTests = testsData.filter((t) => t.category === "placement");
@@ -12,6 +30,7 @@ export default function PlacementPage() {
   return (
     <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
       <Navbar />
+      <SubNavPills categoryTitle="EXPLORE PLACEMENT" pills={placementNavPills} />
       <section className="mx-auto max-w-7xl px-6 py-4 md:py-16 w-full flex-1">
         {/* Header */}
         <div className="mb-12 flex items-center justify-between">

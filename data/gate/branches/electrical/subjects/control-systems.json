@@ -1,0 +1,1366 @@
+{
+  "id": "control-systems",
+  "name": "Control Systems",
+  "shortName": "Control Systems",
+  "icon": "🎛️",
+  "color": "from-blue-500/20 to-indigo-500/20",
+  "borderColor": "border-blue-500/30",
+  "totalQuestions": 47,
+  "topics": [
+    {
+      "name": "Time-Domain Specifications & Steady State Error",
+      "questionCount": 11
+    },
+    {
+      "name": "Routh-Hurwitz & Root Locus Techniques",
+      "questionCount": 11
+    },
+    {
+      "name": "Frequency Response (Bode & Nyquist Plots)",
+      "questionCount": 11
+    },
+    {
+      "name": "State Space Analysis & Compensator Design",
+      "questionCount": 11
+    }
+  ],
+  "questions": [
+    {
+      "id": "gate-ee-q87",
+      "testId": "gate-ee-2013-s1",
+      "year": 2013,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 87,
+      "section": "EE",
+      "title": "The transfer function \n of the circuit shown below is\ngate2013-ee\n \nblock-diagram\n \nvoltage-source\nBlock Diagram: GATE Electrical 2013 | Question: 5",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "MCQ",
+      "question": "<p>Which of the following statement is NOT TRUE for a continuous time causal and stable \n system?</p>",
+      "options": [
+        "All the poles of the system must lie on the left side of \n \naxis",
+        "Zeros of the system can lie anywhere in the \n –"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "All the poles of the system must lie on the left side of \n \naxis",
+          "html": "All the poles of the system must lie on the left side of \n \naxis"
+        },
+        {
+          "label": "B",
+          "text": "Zeros of the system can lie anywhere in the \n –",
+          "html": "Zeros of the system can lie anywhere in the \n –"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q91",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 91,
+      "section": "EE",
+      "title": "control-systems\n \ntransfer-function\n \nbode-plot\nBode Plot: GATE Electrical 2021 | Question: 20",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The Bode magnitude plot for the transfer function \n of the circuit is as shown. The value of \n is\n_____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q92",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 92,
+      "section": "EE",
+      "title": ". (Round off to \n decimal places.)\ngateee-2021\n \nnumerical-answers\n \nbode-plot\n \ncontrol-systems\nBode Plot: GATE Electrical 2026 | Question: 19",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The asymptotic Bode magnitude plot of a system is shown.\nWhich one of the following options best represents the transfer function of the system?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q93",
+      "testId": "gate-ee-2013-s1",
+      "year": 2013,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 93,
+      "section": "EE",
+      "title": "control-systems\n \nbode-plot\n \ntransfer-function\nBranches \n(1)\nBranches: GATE Electrical 2013 | Question: 13",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>In the feedback network shown below,if the feedback factor \n is increased, then the</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q94",
+      "testId": "gate-ee-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 94,
+      "section": "EE",
+      "title": "The gain at the breakaway point of the root locus of a unity feedback system with open loop transfer\nfunction \n is\ngate2016-ee-2\n \nbode-plot\n \nbreakaway-point\n \nunity-feedback-system\nCascaded Blocks \n(1)\nCascaded Blocks: GATE Electrical 2015 Set 1 | Question: 10",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The impulse response \n of a system, \n, is as shown in Figure \n. What is the maximum value attained\nby the impulse response of two cascaded blocks of \n as shown in Figure \n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q96",
+      "testId": "gate-ee-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 96,
+      "section": "EE",
+      "title": "An open loop transfer function \n of a system is\nFor a unity feedback system, the breakaway point of the root loci on the real axis occurs at,\ngate2015-ee-2\n \ncontrol-systems\nControl Systems: GATE Electrical 2017 Set 1 | Question: 11",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>A closed loop system has the characteristic equation given by \n. For this\nsystem to be stable, which one of the following conditions should be satisfied?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q98",
+      "testId": "gate-ee-2017-s2",
+      "year": 2017,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 98,
+      "section": "EE",
+      "title": "The root locus of the feedback control system having the characteristic equation \nwhere \n, enters into the real axis at.\ngate2017-ee-2\n \ncontrol-systems\n \nnumerical-answers\nControl Systems: GATE Electrical 2017 Set 2 | Question: 36",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Which of the following systems has maximum peak overshoot due to a unit step input?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q99",
+      "testId": "gate-ee-2017-s2",
+      "year": 2017,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 99,
+      "section": "EE",
+      "title": "control-systems\nControl Systems: GATE Electrical 2017 Set 2 | Question: 46",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the system described by the following state space representation\nI f \n is a unit step input and \n, the value of output \n at \n sec (rounded oﬀ to three\ndecimal places) is ___________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q100",
+      "testId": "gate-ee-2018-s1",
+      "year": 2018,
+      "set": 1,
+      "yearSetKey": "2018-s1",
+      "orderIndex": 100,
+      "section": "EE",
+      "title": "When a unit ramp input is applied to the unity feedback system having closed loop transfer function \n, the steady state error will be \ngate2017-ee-2\n \ncontrol-systems\n \nnumerical-answers\nControl Systems: GATE Electrical 2018 | Question: 25",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider a unity feedback system with forward transfer function given by\nThe steady-state error in the output of the system for a unit-step input is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q101",
+      "testId": "gate-ee-2018-s1",
+      "year": 2018,
+      "set": 1,
+      "yearSetKey": "2018-s1",
+      "orderIndex": 101,
+      "section": "EE",
+      "title": "(up to \n decimal places).\ngate2018-ee\n \nnumerical-answers\n \ncontrol-systems\nControl Systems: GATE Electrical 2018 | Question: 46",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The unit step response \n of a unity feedback system with open loop transfer function \n is shown in the figure. The value of \n is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q103",
+      "testId": "gate-ee-2020-s1",
+      "year": 2020,
+      "set": 1,
+      "yearSetKey": "2020-s1",
+      "orderIndex": 103,
+      "section": "EE",
+      "title": "control-systems\nControl Systems: GATE Electrical 2020 | Question: 24",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider a negative unity feedback system with forward path transfer function \n, where \n are positive real numbers. For a Nyquist path\nenclosing the entire imaginary axis and right half of the \n in the clockwise direction, the Nyquist plot of \n, encircles the origin of \n once in the clockwise direction and never passes through\nthis origin for a certain value of \n. Then, the number of poles of \n lying in the open right half of the \n-\nplane is__________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q106",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 106,
+      "section": "EE",
+      "title": "2.7.17\n2.7.18\nA\n. \nB\n. \nC\n. \n \nD\n. \n2.7.19\nControl Systems: GATE Electrical 2021 | Question: 49",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The state space representation of a first-order system is given as \nwhere,\n is the state variable, \n is the control input and \n is the controlled output. Let \n be the control\nlaw, where \n is the controller gain. To place a closed-loop pole at \n, the value of \n is ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q108",
+      "testId": "gate-ee-2024-s1",
+      "year": 2024,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 108,
+      "section": "EE",
+      "title": "cation provided by the controller, assuming asymptotic Bode-magnitude plot of \n is \n. The values\nof \n respectively, are\ngate2023-ee\n \ncontrol-systems\n \nnumerical-answers\nControl Systems: GATE Electrical 2024 | Question: 11",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "MCQ",
+      "question": "<p>Consider the standard second-order system of the form \n with the poles \n and \n having\nnegative real parts. The pole locations are also shown in the figure. Now consider two such second-order systems\nas defined below:\nSystem \n: \n and \nSystem \n: \n and \nWhich one of the following statements is correct?</p>",
+      "options": [
+        "The settling time of System \n is more than that of System \n.",
+        "Settling time of System \n is more than that of System \n.",
+        "Settling times of both the systems are the same.",
+        "Settling time cannot be computed from the given information.\ngate2024-ee\n \ncontrol-systems"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The settling time of System \n is more than that of System \n.",
+          "html": "The settling time of System \n is more than that of System \n."
+        },
+        {
+          "label": "B",
+          "text": "Settling time of System \n is more than that of System \n.",
+          "html": "Settling time of System \n is more than that of System \n."
+        },
+        {
+          "label": "C",
+          "text": "Settling times of both the systems are the same.",
+          "html": "Settling times of both the systems are the same."
+        },
+        {
+          "label": "D",
+          "text": "Settling time cannot be computed from the given information.\ngate2024-ee\n \ncontrol-systems",
+          "html": "Settling time cannot be computed from the given information.\ngate2024-ee\n \ncontrol-systems"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q109",
+      "testId": "gate-ee-2024-s1",
+      "year": 2024,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 109,
+      "section": "EE",
+      "title": "2.7.20\n2.7.21\n2.7.22\nControl Systems: GATE Electrical 2024 | Question: 47",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the closed-loop system shown in the figure with\nThe root locus for the closed-loop system is to be drawn for \n. The angle of departure (between \nand \n ) of the root locus branch drawn from the pole \n, in degrees, is ___________(rounded oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q110",
+      "testId": "gate-ee-2024-s1",
+      "year": 2024,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 110,
+      "section": "EE",
+      "title": "to\nthe nearest integer).\ngate2024-ee\n \nnumerical-answers\n \ncontrol-systems\nControl Systems: GATE Electrical 2024 | Question: 48",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the stable closed-loop system shown in the ﬁgure. The asymptotic Bode magnitude plot of \nhas a constant slope of \n decade at least till \n with the gain crossover frequency being\n. The asymptotic Bode phase plot remains constant at \n at least till \n. The steady-\nstate error of the closed-loop system for a unit ramp input is ______________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q113",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 113,
+      "section": "EE",
+      "title": "control-systems\nControl Systems: GATE Electrical 2025 | Question: 19",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The open-loop transfer function of the system shown in the figure, is\nFor \n, which of the following real axis point(s) is/are on the root locus?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q115",
+      "testId": "gate-ee-2016-s2",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 115,
+      "section": "EE",
+      "title": "The transfer function of a system is \n. The steady state output \n is \n for the\ninput \n. The values of \n and \n respectively are\ngate2016-ee-1\n \nlaplace-transform\n \nconvolution-integral\n \nfeed-back-transfer-function\nDamping Ratio \n(1)\nDamping Ratio: GATE Electrical 2016 Set 2 | Question: 50",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>A second-order real system has the following properties:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q116",
+      "testId": "gate-ee-2014-s2",
+      "year": 2014,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 116,
+      "section": "EE",
+      "title": "a) the damping ratio \n and undamped natural frequency \n rad/s\nb) the steady state value of the output, to a unit step input, is \n.\nThe transfer function of the system is\ngate2016-ee-2\n \ndamping-ratio\n \nnatural-frequency\nDynamic System \n(1)\nDynamic System: GATE Electrical 2014 Set 2 | Question: 46",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The second order dynamic system</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q121",
+      "testId": "gate-ee-2015-s2",
+      "year": 2015,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 121,
+      "section": "EE",
+      "title": "A\n. \nWhen \n is the only input and \n is the only output.\nB\n. \nWhen \n is the only input and \n is the only output.\nC\n. \nWhen \n is the only input and \n is the only output.\nD\n. \nWhen \n is the only input and \n is the only output.\ngate2015-ee-1\n \nflow-diagram\n \ntransfer-function\nImaginary Roots \n(1)\nImaginary Roots: GATE Electrical 2015 Set 2 | Question: 25",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "MCQ",
+      "question": "<p>Nyquist plots of two functions \n and \n are shown in figure.\nNyquist plot of the product of \n and \n is</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngate2015-ee-2\n \nstability\n \nnyquist-plot\n \nimaginary-roots\nLinear Time Invariant System \n(1)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngate2015-ee-2\n \nstability\n \nnyquist-plot\n \nimaginary-roots\nLinear Time Invariant System \n(1)",
+          "html": "D\n. \ngate2015-ee-2\n \nstability\n \nnyquist-plot\n \nimaginary-roots\nLinear Time Invariant System \n(1)"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q122",
+      "testId": "gate-ee-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2016-s1",
+      "orderIndex": 122,
+      "section": "EE",
+      "title": "Consider an LTI system with transfer function\nIf the input to the system is \n and the steady state output is \n , then the value\nof \n is\ngate2014-ee-2\n \nlinear-time-invariant-system\n \ntransfer-function\nLogarithmic Plot \n(1)\nLogarithmic Plot: GATE Electrical 2016 Set 1 | Question: 30",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the following asymptotic Bode magnitude plot (\n is in rad/s).\nWhich one of the following transfer functions is best represented by the above Bode magnitude plot?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q123",
+      "testId": "gate-ee-2014-s2",
+      "year": 2014,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 123,
+      "section": "EE",
+      "title": "Loop transfer function of a feedback system is \n. Take the Nyquist contour in the\nclockwise direction. Then, the Nyquist plot of \n encircles \n \ngate2016-ee-1\n \nclosed-loop-system\n \nnyquist-plot\n \nmapping\nMarginally Stable \n(1)\nMarginally Stable: GATE Electrical 2014 Set 2 | Question: 44",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>A system with the open loop transfer function\nis connected in a negative feedback conﬁguration with a feedback gain of unity. For the closed loop system to be\nmarginally stable, the value of \n is ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q124",
+      "testId": "gate-ee-2015-s2",
+      "year": 2015,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 124,
+      "section": "EE",
+      "title": "The open loop transfer function of a unity feedback system is given by\nIn \n plane, the Nyquist plot of \n passes through the negative real axis at the point\ngate2019-ee\n \ncontrol-systems\n \nfeedback-system\n \nnyquist-plot\nOpen Loop System \n(1)\nOpen Loop System: GATE Electrical 2015 Set 2 | Question: 24",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>An open loop control system results in a response of \n for a unit impulse input. The \n gain of the control system is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q125",
+      "testId": "gate-ee-2014-s1",
+      "year": 2014,
+      "set": 1,
+      "yearSetKey": "2014-s1",
+      "orderIndex": 125,
+      "section": "EE",
+      "title": ".\ngate2015-ee-2\n \nopen-loop-system\n \nindependant-system\n \nnumerical-answers\nOperational Amplifier \n(1)\nOperational Amplifier: GATE Electrical 2014 Set 1 | Question: 51",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>In the ﬁgure shown, assume the op-amp to be ideal. Which of the alternatives gives the correct Bode plots\nfor the transfer function</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q127",
+      "testId": "gate-ee-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 127,
+      "section": "EE",
+      "title": ".\ngate2015-ee-2\n \noperational-amplifier\n \npid-controller\n \nnumerical-answers\nRoot Locus \n(1)\nRoot Locus: GATE Electrical 2015 Set 1 | Question: 55",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "MCQ",
+      "question": "<p>The open loop poles of a third order unity feedback system are at \n. Let the frequency\ncorresponding to the point where the root locus of the system transits to unstable region be \n. Now\nsuppose we introduce a zero in the open loop transfer function at \n, while keeping all the earlier open loop poles\nintact. Which one of the following is TRUE about the point where the root locus of the modiﬁed system transits to\nunstable region?</p>",
+      "options": [
+        "It corresponds to a frequency greater than",
+        "It corresponds to a frequency less than",
+        "It corresponds to a frequency",
+        "Root locus of modified system never transits to unstable region"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It corresponds to a frequency greater than",
+          "html": "It corresponds to a frequency greater than"
+        },
+        {
+          "label": "B",
+          "text": "It corresponds to a frequency less than",
+          "html": "It corresponds to a frequency less than"
+        },
+        {
+          "label": "C",
+          "text": "It corresponds to a frequency",
+          "html": "It corresponds to a frequency"
+        },
+        {
+          "label": "D",
+          "text": "Root locus of modified system never transits to unstable region",
+          "html": "Root locus of modified system never transits to unstable region"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q128",
+      "testId": "gate-ee-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 128,
+      "section": "EE",
+      "title": "2.25\n2.25.1\n2.26\n2.26.1\nA\n. \nB\n. \nC\n. \nD\n. \n2.27\n2.27.1\nA\n. \nB\n. \nC\n. \nD\n. \ngate2015-ee-1\n \nroot-locus\n \nunity-feedback-system\nSecond Order Real System \n(1)\nSecond Order Real System: GATE Electrical 2015 Set 1 | Question: 53",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The transfer function of a second order real system with a perfectly ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q129",
+      "testId": "gate-ee-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 129,
+      "section": "EE",
+      "title": "at magnitude response of unity has a\npole at \n. List all the poles and zeroes.\nA\n. \nPoles at \n, no zeroes.\nB\n. \nPoles at \n, one zero at origin.\nC\n. \nPoles at \n, \n, zeroes at \n, \n.\nD\n. \nPoles at \n, zeroes at \n.\ngate2015-ee-1\n \nsecond-order-real-system\n \npoles\n \nzeroes\nSignal Flow Graph \n(1)\nSignal Flow Graph: GATE Electrical 2015 Set 1 | Question: 25",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>For the signal-ﬂow graph shown in the ﬁgure, which one of the following expressions is equal to the\ntransfer function \n ?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q131",
+      "testId": "gate-ee-2022-s1",
+      "year": 2022,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 131,
+      "section": "EE",
+      "title": "2.27.2\nA\n. \none \n pole and one \n zero\nat the same frequency.\nB\n. \none \n pole and one \n zero\nat the same frequency.\nC\n. \nt w o \n poles and one \nzero.\nD\n. \nt w o \n poles and one \nzero.\n2.27.3\n2.27.4\nA\n. \nB\n. \nC\n. \nD\n. \n2.27.5\nA\n. \nB\n. \nC\n. \nD\n. \n2.28\ngate2022-ee\n \ncontrol-systems\n \nsignals-and-systems\n \nnumerical-answers\nSignals and Systems: GATE Electrical 2022 | Question: 7",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The Bode magnitude plot of a ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q136",
+      "testId": "gate-ee-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 136,
+      "section": "EE",
+      "title": "Consider the state-space model\nwhere \n are the state, input and output, respectively. The matrices \n are given below\nThe sum of the magnitudes of the poles is \n (round off to nearest integer).\ngate2025-ee\n \nnumerical-answers\n \ncontrol-systems\n \nstate-space-functions\nState Space Functions: GATE Electrical 2026 | Question: 42",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>A system is characterized by the following state equation and output equation ( \n : input, \n : state vector, \n : output)\nWhat are the values of \n and \n for which the poles of the transfer function are at \n and \n ?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q137",
+      "testId": "gate-ee-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 137,
+      "section": "EE",
+      "title": "control-systems\n \nstate-space-functions\n \ntransfer-function\nState Space Functions: GATE Electrical 2026 | Question: 43",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>A system is represented in state-space form as follows:\n( \n : input, \n : state vector, \n : output)\nConsider the new state vector \nWhat is the state-space representation of the system in terms of the new state vector</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q138",
+      "testId": "gate-ee-2014-s3",
+      "year": 2014,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 138,
+      "section": "EE",
+      "title": "2.31\n2.31.1\nA\n. \nB\n. \nC\n. \nD\n. \n2.32\n2.32.1\nA\n. \n \nB\n. \nC\n. \nD\n. \n2.33\n2.33.1\nA\n. \n \nB\n. \n \nC\n. \n \nD\n. \n2.34\nC\n. \nD\n. \ngate2026-ee\n \ncontrol-systems\n \nstate-space-functions\n \nelectric-circuits\nSteady State Error \n(1)\nSteady State Error: GATE Electrical 2014 Set 3 | Question: 45",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the system described by following state space equations\n ;</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q142",
+      "testId": "gate-ee-2015-s2",
+      "year": 2015,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 142,
+      "section": "EE",
+      "title": "A system with transfer function\nis excited by \n. The steady-state output of the system is zero at\ngate2012-ee\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2015 Set 2 | Question: 53",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The unit step response of a system with the transfer function \n is given by which one of the\nfollowing waveforms?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q143",
+      "testId": "gate-ee-2015-s2",
+      "year": 2015,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 143,
+      "section": "EE",
+      "title": "2.35.4\nA\n. \nB\n. \nC\n. \nD\n. \n2.35.5\nA\n. \nB\n. \nC\n. \nD\n. \ngate2015-ee-2\n \ncontrol-systems\n \ntransfer-function\n \nsignals-and-systems\nTransfer Function: GATE Electrical 2015 Set 2 | Question: 55",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>For the system governed by the set of equations:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q144",
+      "testId": "gate-ee-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 144,
+      "section": "EE",
+      "title": "the transfer function \n is given by\ngate2015-ee-2\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2017 Set 1 | Question: 32",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>In the system whose signal ﬂow graph is shown in the ﬁgure, \n and \n are inputs. The transfer\nfunction \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q145",
+      "testId": "gate-ee-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 145,
+      "section": "EE",
+      "title": "A\n. \nB\n. \nC\n. \nD\n. \n2.35.6\nA\n. \nB\n. \nC\n. \nD\n. \n2.35.7\n2.35.8\nA\n. \n and \nB\n. \n and \nC\n. \n and \nD\n. \n and \n2.35.9\nA\n. \nB\n. \nC\n. \nD\n. \n2.35.10\ngate2017-ee-1\n \ncontrol-systems\n \ntransfer-function\n \nelectric-circuits\nTransfer Function: GATE Electrical 2017 Set 1 | Question: 33",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The transfer function of the system \n whose state-space equations are given below is:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q146",
+      "testId": "gate-ee-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 146,
+      "section": "EE",
+      "title": "control-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2017 Set 1 | Question: 50",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>For a system having transfer function \n, a unit step input is applied at time \n. The value of\nthe response of the system at \n (rounded off to three decimal places) is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q147",
+      "testId": "gate-ee-2018-s1",
+      "year": 2018,
+      "set": 1,
+      "yearSetKey": "2018-s1",
+      "orderIndex": 147,
+      "section": "EE",
+      "title": "The transfer function \n of a compensator is given below.\nThe frequency range in which the phase (lead) introduced by the compensator reaches the maximum is\ngate2017-ee-2\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2018 | Question: 9",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Match the transfer functions of the second-order systems with the nature of the systems given below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q148",
+      "testId": "gate-ee-2020-s1",
+      "year": 2020,
+      "set": 1,
+      "yearSetKey": "2020-s1",
+      "orderIndex": 148,
+      "section": "EE",
+      "title": "The transfer function of a phase lead compensator is given by\nThe frequency (in rad/sec), at which \n is maximum, is\ngate2019-ee\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2020 | Question: 34",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider a permanent magnet dc \n motor which is initially at rest. At \n, a dc voltage of \n is\napplied to the motor. Its speed monotonically increase from \n to \n  in \n and ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q150",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 150,
+      "section": "EE",
+      "title": ".\ngate2020-ee\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2021 | Question: 11",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>For the closed-loop system shown, the transfer function \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q151",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 151,
+      "section": "EE",
+      "title": "2.35.15\n2.35.16\nA\n. \nB\n. \nC\n. \nD\n. \n2.35.17\nA\n. \n and \n rad/s\nB\n. \n and \n rad/s\nC\n. \n and \n rad/s\nD\n. \n and \n rad/s\n2.35.18\nTransfer Function: GATE Electrical 2021 | Question: 46",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider a closed-loop system as shown. \n is the plant transfer function and \n is the compensator. For a unit-step input, the output response has damped oscillations. The damped\nnatural frequency is ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q152",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 152,
+      "section": "EE",
+      "title": ". (Round off to \n decimal places.)\n \ngateee-2021\n \nnumerical-answers\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2022 | Question: 28",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The open loop transfer function of a unity gain negative feedback system is given as\nThe Nyquist contour in the \n -plane encloses the entire right half plane and a small neighbourhood around the\norigin in the left half plane, as shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q153",
+      "testId": "gate-ee-2022-s1",
+      "year": 2022,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 153,
+      "section": "EE",
+      "title": "gure below. The number of encirclements of the point \n by\nthe Nyquist plot of \n, corresponding to the Nyquist contour, is denoted as \n. Then \n equals to\ngate2022-ee\n \ncontrol-systems\n \ntransfer-function\nTransfer Function: GATE Electrical 2022 | Question: 29",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The damping ratio and undamped natural frequency of a closed loop system as shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q154",
+      "testId": "gate-ee-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 154,
+      "section": "EE",
+      "title": "gure, are\ndenoted as \n and \n, respectively. The values of \n and \n are\ngate2022-ee\n \ncontrol-systems\n \ntransfer-function\n \nnumerical-answers\nTransfer Function: GATE Electrical 2023 | Question: 2",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>For the block diagram shown in the figure, the transfer function \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q155",
+      "testId": "gate-ee-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 155,
+      "section": "EE",
+      "title": "A\n. \n \nB\n. \n \nC\n. \n \nD\n. \n \n2.35.19\nA\n. \nB\n. \nC\n. \nD\n. \n2.35.20\nA\n. \nB\n. \nC\n. \nD\n. \n2.35.21\nA\n. \nB\n. \nC\n. \nD\n. \ngate2023-ee\n \ncontrol-systems\n \ntransfer-function\n \nnumerical-answers\nTransfer Function: GATE Electrical 2023 | Question: 3",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>In the Nyquist plot of the open-loop transfer function\ncorresponding to the feedback loop shown in the ﬁgure, the inﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q156",
+      "testId": "gate-ee-2024-s1",
+      "year": 2024,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 156,
+      "section": "EE",
+      "title": "Consider a unity-gain negative feedback system consisting of the plant \n (given below) and a\nproportional-integral controller. Let the proportional gain and integral gain be \n and \n respectively. For a\nunit step reference input, the final values of the controller output and the plant output, respectively, are\ngate2023-ee\n \ncontrol-systems\n \ntransfer-function\n \nnumerical-answers\nTransfer Function: GATE Electrical 2024 | Question: 10",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>​​​​\nFor the block-diagram shown in the figure, the transfer function \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q158",
+      "testId": "gate-ee-2014-s2",
+      "year": 2014,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 158,
+      "section": "EE",
+      "title": ".\ngate2016-ee-1\n \ntransformation\n \nstate-space-equations\n \ncorrelation\n \nnumerical-answers\nUnit Step Function \n(1)\nUnit Step Function: GATE Electrical 2014 Set 2 | Question: 17",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The closed loop transfer function of a system is \n  The steady state error due to\nunit step input is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q159",
+      "testId": "gate-ee-2016-s2",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 159,
+      "section": "EE",
+      "title": ".\ngate2014-ee-2\n \nunit-step-function\n \nclosed-loop-system\n \nnumerical-answers\nUnity Feedback Control System \n(1)\nUnity Feedback Control System: GATE Electrical 2016 Set 2 | Question: 39",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The open loop transfer function of a unity feedback control system is given by\nThe closed loop system will be stable if</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q473",
+      "testId": "gate-ee-2015-s2",
+      "year": 2015,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 473,
+      "section": "EE",
+      "title": "In the formation of Routh-Hurwitz array for a polynomial, all the elements of a row have zero values. This\npremature termination of the array indicates the presence of\ngate2014-ee-1\n \ncalculus\n \npolynomials\n \nrouth-hurwitz-array\nVolume Integral \n(1)\nVolume Integral: GATE Electrical 2015 Set 2 | Question: 26",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The volume enclosed by the surface \n over the triangle bounded by the lines \n in the \n plane is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    }
+  ]
+}

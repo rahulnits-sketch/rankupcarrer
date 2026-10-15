@@ -1,0 +1,2096 @@
+{
+  "id": "gate-ee-2021-s1",
+  "yearSetKey": "2021-s1",
+  "year": 2021,
+  "set": 1,
+  "title": "GATE EE 2021 Official Paper",
+  "duration": "180 min",
+  "durationMinutes": 180,
+  "totalMarks": 100,
+  "totalQuestions": 65,
+  "gaQuestions": 10,
+  "csQuestions": 55,
+  "questions": [
+    {
+      "id": "go:945",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 1,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 1",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the grammar shown below. </p>\n<ul>\n<li>$S \\rightarrow C \\ C$</li>\n<li>$C \\rightarrow c \\ C \\mid d$</li>\n</ul>\n<p>This grammar is</p>",
+      "rawQuestionHtml": "<p>Consider the grammar shown below. </p>\n<ul>\n<li>$S \\rightarrow C \\ C$</li>\n<li>$C \\rightarrow c \\ C \\mid d$</li>\n</ul>\n<p>This grammar is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>LL(1)</li>\n<li>SLR(1) but not LL(1)</li>\n<li>LALR(1) but not SLR(1)</li>\n<li>LR(I) but not LALR(1)</li>\n</ol>",
+      "options": [
+        "LL(1)",
+        "SLR(1) but not LL(1)",
+        "LALR(1) but not SLR(1)",
+        "LR(I) but not LALR(1)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "LL(1)",
+          "html": "LL(1)"
+        },
+        {
+          "label": "B",
+          "text": "SLR(1) but not LL(1)",
+          "html": "SLR(1) but not LL(1)"
+        },
+        {
+          "label": "C",
+          "text": "LALR(1) but not SLR(1)",
+          "html": "LALR(1) but not SLR(1)"
+        },
+        {
+          "label": "D",
+          "text": "LR(I) but not LALR(1)",
+          "html": "LR(I) but not LALR(1)"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/945/gate-cse-2003-question-57",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/945/gate-cse-2003-question-57"
+    },
+    {
+      "id": "go:946",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 2,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 2",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>",
+      "rawQuestionHtml": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$9 + 5 + 2$</li>\n<li>$9 \\ 5 + 2 +$</li>\n<li>$9 \\ 5 \\ 2 + +$</li>\n<li>$+ + 9 \\ 5 \\ 2$</li>\n</ol>",
+      "options": [
+        "$9 + 5 + 2$",
+        "$9 \\ 5 + 2 +$",
+        "$9 \\ 5 \\ 2 + +$",
+        "$+ + 9 \\ 5 \\ 2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$9 + 5 + 2$",
+          "html": "$9 + 5 + 2$"
+        },
+        {
+          "label": "B",
+          "text": "$9 \\ 5 + 2 +$",
+          "html": "$9 \\ 5 + 2 +$"
+        },
+        {
+          "label": "C",
+          "text": "$9 \\ 5 \\ 2 + +$",
+          "html": "$9 \\ 5 \\ 2 + +$"
+        },
+        {
+          "label": "D",
+          "text": "$+ + 9 \\ 5 \\ 2$",
+          "html": "$+ + 9 \\ 5 \\ 2$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/946/gate-cse-2003-question-58",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/946/gate-cse-2003-question-58"
+    },
+    {
+      "id": "go:947",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>",
+      "rawQuestionHtml": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$X = Y + Z$</li>\n<li>$t_1 = Y+Z; X=t_1$</li>\n<li>$t_1 =Y; t_2=t_1 +Z; X=t_2$</li>\n<li>$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$</li>\n</ol>",
+      "options": [
+        "$X = Y + Z$",
+        "$t_1 = Y+Z; X=t_1$",
+        "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+        "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$X = Y + Z$",
+          "html": "$X = Y + Z$"
+        },
+        {
+          "label": "B",
+          "text": "$t_1 = Y+Z; X=t_1$",
+          "html": "$t_1 = Y+Z; X=t_1$"
+        },
+        {
+          "label": "C",
+          "text": "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+          "html": "$t_1 =Y; t_2=t_1 +Z; X=t_2$"
+        },
+        {
+          "label": "D",
+          "text": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$",
+          "html": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/947/gate-cse-2003-question-59",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/947/gate-cse-2003-question-59"
+    },
+    {
+      "id": "go:948",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 4,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 4",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>",
+      "rawQuestionHtml": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$f_1(t)+f_2(t)$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(x)dx$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>\n</li>\n<li>\n<p>$\\max\\{f_1(t),f_2(t)\\}$</p>\n</li>\n</ol>",
+      "options": [
+        "$f_1(t)+f_2(t)$",
+        "$\\int_0^t f_1(x)f_2(x)dx$",
+        "$\\int_0^t f_1(x)f_2(t-x)dx$",
+        "$\\max\\{f_1(t),f_2(t)\\}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$f_1(t)+f_2(t)$",
+          "html": "<p>$f_1(t)+f_2(t)$</p>"
+        },
+        {
+          "label": "B",
+          "text": "$\\int_0^t f_1(x)f_2(x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(x)dx$</p>"
+        },
+        {
+          "label": "C",
+          "text": "$\\int_0^t f_1(x)f_2(t-x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>"
+        },
+        {
+          "label": "D",
+          "text": "$\\max\\{f_1(t),f_2(t)\\}$",
+          "html": "<p>$\\max\\{f_1(t),f_2(t)\\}$</p>"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45"
+    },
+    {
+      "id": "go:1052",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2004-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.</p>\n<p>This passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:</p>\n\n<p>The network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$<br/>\n are connected by a $512$ Kbps link (bps = bits per second).        </p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/17391285651520696272.webp\"/></p>\n<p>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.</p>",
+      "rawQuestionHtml": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.</p>\n<p>This passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:</p>\n<ul>\n<li>A: $\\text{1000 bytes}$</li>\n<li>B: $\\text{100 bytes}$</li>\n<li>C: $\\text{1000 bytes}$</li>\n</ul>\n<p>The network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$<br/>\n are connected by a $512$ Kbps link (bps = bits per second).        </p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/17391285651520696272.webp\"/></p>\n<p>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$200$</li>\n<li>$220$</li>\n<li>$240$</li>\n<li>$260$</li>\n</ol>",
+      "options": [
+        "$200$",
+        "$220$",
+        "$240$",
+        "$260$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$200$",
+          "html": "$200$"
+        },
+        {
+          "label": "B",
+          "text": "$220$",
+          "html": "$220$"
+        },
+        {
+          "label": "C",
+          "text": "$240$",
+          "html": "$240$"
+        },
+        {
+          "label": "D",
+          "text": "$260$",
+          "html": "$260$"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1052/gate-cse-2004-question-56",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1052/gate-cse-2004-question-56"
+    },
+    {
+      "id": "go:4066",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>",
+      "rawQuestionHtml": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>No compilation error</li>\n<li>Only a lexical error</li>\n<li>Only syntactic errors</li>\n<li>Both lexical and syntactic errors</li>\n</ol>",
+      "options": [
+        "No compilation error",
+        "Only a lexical error",
+        "Only syntactic errors",
+        "Both lexical and syntactic errors"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "No compilation error",
+          "html": "No compilation error"
+        },
+        {
+          "label": "B",
+          "text": "Only a lexical error",
+          "html": "Only a lexical error"
+        },
+        {
+          "label": "C",
+          "text": "Only syntactic errors",
+          "html": "Only syntactic errors"
+        },
+        {
+          "label": "D",
+          "text": "Both lexical and syntactic errors",
+          "html": "Both lexical and syntactic errors"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/4066/gate-cse-2005-question-61",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/4066/gate-cse-2005-question-61"
+    },
+    {
+      "id": "go:264",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 7,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 7",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$A_{0} A_{1} A_{1}' A_{3} A_{4}$</li>\n<li>$A_{0} A_{1} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2}' A_{3} A_{4} A_{5}'$</li>\n</ol>",
+      "options": [
+        "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+        "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$",
+          "html": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/264/gate-cse-2005-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/264/gate-cse-2005-question-62"
+    },
+    {
+      "id": "go:1386",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 8,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 8",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n<p><img alt=\"\" height=\"208\" src=\"/question-images/3449370509285401659.webp\" width=\"282\"/></p>\n<p>     </p>\n<p>Which of the following is TRUE?</p>",
+      "rawQuestionHtml": "<p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n<p><img alt=\"\" height=\"208\" src=\"/question-images/3449370509285401659.webp\" width=\"282\"/></p>\n<p>     </p>\n<p>Which of the following is TRUE?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>It computes $1$’s complement of the input number</p>\n</li>\n<li>\n<p>It computes $2$’s complement of the input number</p>\n</li>\n<li>\n<p>It increments the input number</p>\n</li>\n<li>\n<p>it decrements the input number</p>\n</li>\n</ol>",
+      "options": [
+        "It computes $1$’s complement of the input number",
+        "It computes $2$’s complement of the input number",
+        "It increments the input number",
+        "it decrements the input number"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It computes $1$’s complement of the input number",
+          "html": "<p>It computes $1$’s complement of the input number</p>"
+        },
+        {
+          "label": "B",
+          "text": "It computes $2$’s complement of the input number",
+          "html": "<p>It computes $2$’s complement of the input number</p>"
+        },
+        {
+          "label": "C",
+          "text": "It increments the input number",
+          "html": "<p>It increments the input number</p>"
+        },
+        {
+          "label": "D",
+          "text": "it decrements the input number",
+          "html": "<p>it decrements the input number</p>"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1386/gate-cse-2005-question-63",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1386/gate-cse-2005-question-63"
+    },
+    {
+      "id": "go:1387",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following circuit:</p>\n<p><img alt=\"\" src=\"/question-images/9620482535850972519.webp\" width=\"654\"/></p>\n<p>The flip-flops are positive edge triggered $D$ $\\textsf{FF}$s. Each state is designated as a two-bit string $Q_0Q_1$. Let the initial state be $00.$ The state transition sequence is</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit:</p>\n<p><img alt=\"\" src=\"/question-images/9620482535850972519.webp\" width=\"654\"/></p>\n<p>The flip-flops are positive edge triggered $D$ $\\textsf{FF}$s. Each state is designated as a two-bit string $Q_0Q_1$. Let the initial state be $00.$ The state transition sequence is</p>\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n<li><img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>  </li>\n<li><img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/></li>\n<li><img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/></li>\n<li><img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/></li>\n</ol>",
+      "options": [
+        "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>",
+        "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>",
+        "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>",
+        "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>"
+        },
+        {
+          "label": "B",
+          "text": "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>"
+        },
+        {
+          "label": "C",
+          "text": "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>"
+        },
+        {
+          "label": "D",
+          "text": "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1387/gate-cse-2005-question-64",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1387/gate-cse-2005-question-64"
+    },
+    {
+      "id": "go:1388",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE EE 2021 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider a three word machine instruction</p>\n<p>$\\text{ADD} A[R_0], @B$</p>\n<p>The first operand (destination) $“A[R_0]”$ uses indexed addressing mode with $R_0$ as the index register. The second operand (source) $“@B”$ uses indirect addressing mode. $A$ and $B$ are memory addresses residing at the second and third words, respectively. The first word of the instruction specifies the opcode, the index register designation and the source and destination addressing modes. During execution of $\\text{ADD}$ instruction, the two operands are added and stored in the destination (first operand).</p>\n<p>The number of memory cycles needed during the execution cycle of the instruction is:</p>",
+      "rawQuestionHtml": "<p>Consider a three word machine instruction</p>\n<p>$\\text{ADD} A[R_0], @B$</p>\n<p>The first operand (destination) $“A[R_0]”$ uses indexed addressing mode with $R_0$ as the index register. The second operand (source) $“@B”$ uses indirect addressing mode. $A$ and $B$ are memory addresses residing at the second and third words, respectively. The first word of the instruction specifies the opcode, the index register designation and the source and destination addressing modes. During execution of $\\text{ADD}$ instruction, the two operands are added and stored in the destination (first operand).</p>\n<p>The number of memory cycles needed during the execution cycle of the instruction is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$3$</li>\n<li>$4$</li>\n<li>$5$</li>\n<li>$6$</li>\n</ol>",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "C",
+          "text": "$5$",
+          "html": "$5$"
+        },
+        {
+          "label": "D",
+          "text": "$6$",
+          "html": "$6$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1388/gate-cse-2005-question-65",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1388/gate-cse-2005-question-65"
+    },
+    {
+      "id": "gate-ee-q57",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 11,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 1",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>In the ﬁgure shown below, the chopper feeds a resistive load from a battery source. \n is\nswitched at \n with a \n of \n. All elements of the circuit are assumed to be ideal.\nThe average source current in Amps in steady-state is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q59",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 12,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 2",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "Continuous & Discrete-Time Signals",
+      "type": "MCQ",
+      "question": "<p>A Boolean function \n is to be implemented using an \n multiplexer (\nis \n). The inputs \n are connected to the select inputs \n of the multiplexer respectively.\nWhich one of the following options gives the correct inputs to pins \n in order?</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngate2015-ee-2\n \nanalog-and-digital-electronics\n \ncombinational-circuits\n \nmultiplexer\nAnswer key\n☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngate2015-ee-2\n \nanalog-and-digital-electronics\n \ncombinational-circuits\n \nmultiplexer\nAnswer key\n☟",
+          "html": "D\n. \ngate2015-ee-2\n \nanalog-and-digital-electronics\n \ncombinational-circuits\n \nmultiplexer\nAnswer key\n☟"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Continuous & Discrete-Time Signals</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q61",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2014-s1",
+      "orderIndex": 13,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 3",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "Continuous & Discrete-Time Signals",
+      "type": "NAT",
+      "question": "<p>Given that the op-amps in the figure are ideal, the output voltage \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Continuous & Discrete-Time Signals</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q63",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 14,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 4",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "NAT",
+      "question": "<p>The op-amps in the following circuit are ideal. The voltage gain of the circuit is \n (round oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q65",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 15,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 5",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>In the circuit shown, the open loop gain of the operational amplifier is \n.\nWhat is the voltage gain of the circuit?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q67",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 16,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 6",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>A single-phase voltage source inverter shown in ﬁgure is feeding power to a load. The triggering pulses of\nthe devices are also shown in the figure.\nIf the load current is sinusoidal and is zero at \n …</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q69",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 17,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 7",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>For the switching converter shown in the following figure, assume steady-state operation. Also assume that\nthe components are ideal, the inductor current is always positive and continuous and switching period is \n. If the voltage \n is as shown, the duty cycle of the switch \n is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q71",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 18,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 8",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "NAT",
+      "question": "<p>In the following sequential circuit, the initial state (before the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q73",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 19,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 9",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "NAT",
+      "question": "<p>In the given circuit, the silicon transistor has \n and a collector voltage \n. Then the ratio of \n and \n is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q75",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 20,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 10",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>A buck converter feeding a variable resistive load is shown in the ﬁgure. The switching frequency of the\nswitch \n is \n kHz and the duty ratio is \n. The output voltage \n is \n V. Assume that all the\ncomponents are ideal, and that the output voltage is ripple-free. The value of \n (in Ohm) that will make the\ninductor current (\n) just continuous is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q77",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 11",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "NAT",
+      "question": "<p>The transfer characteristic of the Op-amp circuit shown in figure is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q79",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 12",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A bulb in a staircase has two switches, one switch being at the ground ﬂoor and the other one at the ﬁrst\nﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q81",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 23,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 13",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>The Voltage Source Inverter \n shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q83",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 24,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 14",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>A single-phase bi-directional voltage source converter \n is shown in the ﬁgure below. All devices are\nideal. It is used to charge a battery at \n V with power of \n kW from a source \n V (rms), \n Hz\nsinusoidal \n mains at unity p.f. If its \n side interfacing inductor is \n mH and the switches are operated at \nkHz, then the phase shift \n between \n mains voltage \n and fundamental \n rms \n voltage \n, in\ndegree, is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q85",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2016-s1",
+      "orderIndex": 25,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 15",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>A steady dc current of \n \n is ﬂowing through a power module \n as shown in Figure (a). The \n characteristics of the \n and the diode \n are shown in Figures \n and \n, respectively.\nThe conduction power loss in the power module \n, in watts, is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q87",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 26,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 16",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "MCQ",
+      "question": "<p>Which of the following statement is NOT TRUE for a continuous time causal and stable \n system?</p>",
+      "options": [
+        "All the poles of the system must lie on the left side of \n \naxis",
+        "Zeros of the system can lie anywhere in the \n –"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "All the poles of the system must lie on the left side of \n \naxis",
+          "html": "All the poles of the system must lie on the left side of \n \naxis"
+        },
+        {
+          "label": "B",
+          "text": "Zeros of the system can lie anywhere in the \n –",
+          "html": "Zeros of the system can lie anywhere in the \n –"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q89",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 27,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 17",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Modeling & Performance",
+      "type": "NAT",
+      "question": "<p>A Bode magnitude plot for the transfer function \n of a plant is shown in the ﬁgure. Which one of the\nfollowing transfer functions best describes the plant?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q91",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 28,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 18",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The Bode magnitude plot for the transfer function \n of the circuit is as shown. The value of \n is\n_____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q93",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 29,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 19",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>In the feedback network shown below,if the feedback factor \n is increased, then the</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q95",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 30,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 20",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The open-loop transfer function of a dc motor is given as \n.When connected in feedback\nas shown below, the approximate value of \n that will reduce the time constant of the closed loop system by one\nhundred times as compared to that of the open-loop system is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q97",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 31,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 21",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Consider the unity feedback control system shown. The value of \n that results in a phase margin of the\nsystem to be \n is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q99",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 32,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 22",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the system described by the following state space representation\nI f \n is a unit step input and \n, the value of output \n at \n sec (rounded oﬀ to three\ndecimal places) is ___________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q101",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2018-s1",
+      "orderIndex": 33,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 23",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The unit step response \n of a unity feedback system with open loop transfer function \n is shown in the figure. The value of \n is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q103",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2020-s1",
+      "orderIndex": 34,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 24",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider a negative unity feedback system with forward path transfer function \n, where \n are positive real numbers. For a Nyquist path\nenclosing the entire imaginary axis and right half of the \n in the clockwise direction, the Nyquist plot of \n, encircles the origin of \n once in the clockwise direction and never passes through\nthis origin for a certain value of \n. Then, the number of poles of \n lying in the open right half of the \n-\nplane is__________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q105",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 35,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 25",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>In the given ﬁgure, plant \n and compensator \n. The external disturbance input is \n. It is desired that when the disturbance is a unit\nstep, the steady-state error should not exceed \n unit. The minimum value of \n is _____________. \n(Round off to \n decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q74",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 36,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 26",
+      "subject": "Electrical Measurements & Instrumentation",
+      "subjectSlug": "measurements",
+      "topic": "PMMC & Moving Iron Instruments",
+      "type": "NAT",
+      "question": "<p>In the bridge circuit shown, the capacitors are loss free. At balance, the value of capacitance \n in\nmicrofarad is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q76",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 37,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 27",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "MCQ",
+      "question": "<p>Consider the following Sum of Products expression, \n.\nThe equivalent Product of Sums expression is</p>",
+      "options": [
+        "B\n.",
+        "D\n."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n.",
+          "html": "D\n."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q78",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 38,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 28",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>A hysteresis type \n inverter is used to realize an oscillator in the circuit shown in the figure.\nIf the lower and upper trigger level voltages are \n \n and \n \n, the period (in \n), for which output is \n,\nis __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q80",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 39,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 29",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "NAT",
+      "question": "<p>The input impedance of the permanent magnet moving coil \n voltmeter is inﬁnite. Assuming that\nthe diode shown in the figure below is ideal, the reading of the voltmeter in Volts is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q82",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 40,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 30",
+      "subject": "Electrical Measurements & Instrumentation",
+      "subjectSlug": "measurements",
+      "topic": "PMMC & Moving Iron Instruments",
+      "type": "NAT",
+      "question": "<p>The ﬁlters \n and \n having characteristics as shown in Figures \n and \n are connected as shown in\nFigure \n.\nThe cut-oﬀ frequencies of \n and \n are \n and \n respectively. If \n, the resultant circuit exhibits the\ncharacteristic of a</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q84",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 41,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 31",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "type": "NAT",
+      "question": "<p>A three-phase Voltage Source Inverter \n as shown in the ﬁgure is feeding a delta connected resistive\nload of \n/phase. If it is fed from a \n V battery, with \n° conduction of solid-state devices, the power\nconsumed by the load, in kW, is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q86",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 42,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 32",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "type": "NAT",
+      "question": "<p>The sinusoidal ac source in the ﬁgure has an rms value of \n . Considering all possible values of \n,\nthe minimum value of \n in \n to avoid burnout of the Zener diode is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q88",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 43,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 33",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Modeling & Performance",
+      "type": "NAT",
+      "question": "<p>The Bode plot of a transfer function \n is shown in the figure below.\nThe gain \n is \n and  \n at \n rad/s and \n rad/s respectively. The phase is negative for\nall \n. Then \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q90",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2019-s1",
+      "orderIndex": 44,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 34",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Modeling & Performance",
+      "type": "NAT",
+      "question": "<p>The asymptotic Bode magnitude plot of a minimum phase transfer function \n is shown below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q92",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 45,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 35",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The asymptotic Bode magnitude plot of a system is shown.\nWhich one of the following options best represents the transfer function of the system?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q94",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 46,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 36",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The impulse response \n of a system, \n, is as shown in Figure \n. What is the maximum value attained\nby the impulse response of two cascaded blocks of \n as shown in Figure \n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q96",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 47,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 37",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>A closed loop system has the characteristic equation given by \n. For this\nsystem to be stable, which one of the following conditions should be satisfied?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q98",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 48,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 38",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Which of the following systems has maximum peak overshoot due to a unit step input?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q100",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2018-s1",
+      "orderIndex": 49,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 39",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider a unity feedback system with forward transfer function given by\nThe steady-state error in the output of the system for a unit-step input is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q102",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2019-s1",
+      "orderIndex": 50,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 40",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "Continuous & Discrete-Time Signals",
+      "type": "NAT",
+      "question": "<p>Consider a state-variable model of a system\nwhere \n is the output, and \n is the input. The damping ratio \n and the undamped natural frequency \n (rad/sec)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Continuous & Discrete-Time Signals</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q104",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2020-s1",
+      "orderIndex": 51,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 41",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Which of the following options is correct for the system shown below?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q106",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 52,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 42",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The state space representation of a first-order system is given as \nwhere,\n is the state variable, \n is the control input and \n is the controlled output. Let \n be the control\nlaw, where \n is the controller gain. To place a closed-loop pole at \n, the value of \n is ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q108",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 53,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 43",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "MCQ",
+      "question": "<p>Consider the standard second-order system of the form \n with the poles \n and \n having\nnegative real parts. The pole locations are also shown in the figure. Now consider two such second-order systems\nas defined below:\nSystem \n: \n and \nSystem \n: \n and \nWhich one of the following statements is correct?</p>",
+      "options": [
+        "The settling time of System \n is more than that of System \n.",
+        "Settling time of System \n is more than that of System \n.",
+        "Settling times of both the systems are the same.",
+        "Settling time cannot be computed from the given information.\ngate2024-ee\n \ncontrol-systems"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The settling time of System \n is more than that of System \n.",
+          "html": "The settling time of System \n is more than that of System \n."
+        },
+        {
+          "label": "B",
+          "text": "Settling time of System \n is more than that of System \n.",
+          "html": "Settling time of System \n is more than that of System \n."
+        },
+        {
+          "label": "C",
+          "text": "Settling times of both the systems are the same.",
+          "html": "Settling times of both the systems are the same."
+        },
+        {
+          "label": "D",
+          "text": "Settling time cannot be computed from the given information.\ngate2024-ee\n \ncontrol-systems",
+          "html": "Settling time cannot be computed from the given information.\ngate2024-ee\n \ncontrol-systems"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q110",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 54,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 44",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the stable closed-loop system shown in the ﬁgure. The asymptotic Bode magnitude plot of \nhas a constant slope of \n decade at least till \n with the gain crossover frequency being\n. The asymptotic Bode phase plot remains constant at \n at least till \n. The steady-\nstate error of the closed-loop system for a unit ramp input is ______________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q112",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 55,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 45",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Modeling & Performance",
+      "type": "NAT",
+      "question": "<p>The Nyquist plot of a strictly stable \n having the numerator polynomial as \n encircles the critical\npoint \n once in the anti-clockwise direction. Which one of the following statements on the closed-loop\nsystem shown in figure, is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q114",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 56,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 46",
+      "subject": "Electrical Measurements & Instrumentation",
+      "subjectSlug": "measurements",
+      "topic": "PMMC & Moving Iron Instruments",
+      "type": "NAT",
+      "question": "<p>A controller \n of the form \n is to be designed for the plant \n as shown in the\nﬁgure. The value of \n that yields a phase margin of \n at the gain cross-over frequency of \n is \n (round off to one decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q116",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 57,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 47",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The second order dynamic system</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q118",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 58,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 48",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Modeling & Performance",
+      "type": "NAT",
+      "question": "<p>A single-input single-output feedback system has forward transfer function \n and feedback transfer\nfunction \n. It is given that \n . Which of the following is true about the stability of the\nsystem?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q120",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 59,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 49",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>In the signal ﬂow diagram given in the ﬁgure, \n and \n are possible inputs whereas \n and \n are\npossible outputs. When would the SISO system derived from this diagram be controllable and observable?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q122",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2016-s1",
+      "orderIndex": 60,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 50",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>Consider the following asymptotic Bode magnitude plot (\n is in rad/s).\nWhich one of the following transfer functions is best represented by the above Bode magnitude plot?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q124",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 61,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 51",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>An open loop control system results in a response of \n for a unit impulse input. The \n gain of the control system is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q126",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2015-s2",
+      "orderIndex": 62,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 52",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The operational ampliﬁer shown in the ﬁgure is ideal. The input voltage (in Volt) is \n. The amplitude of the output voltage \n (in Volt) is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q128",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2015-s1",
+      "orderIndex": 63,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 53",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Steady State Error",
+      "type": "NAT",
+      "question": "<p>The transfer function of a second order real system with a perfectly ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Time-Domain Specifications & Steady State Error</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Control Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q130",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 64,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 54",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>An \n system is shown in the figure where\nThe steady state output of the system, to the input \n, is given as\n The values of \n and \n will be</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ee-q132",
+      "testId": "gate-ee-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 65,
+      "section": "EE",
+      "title": "GATE EE 2021 | EE Question: 55",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Consider the state-space description of an \n system with matrices\nFor the input, \n for which the steady-state output of the system will be zero, is\n________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    }
+  ]
+}

@@ -144,10 +144,31 @@ export default function TestPage() {
       // 2. GATE Dataset Test (PYQ, Subject-wise, or Mock)
       if (testId.startsWith("gate-")) {
         try {
-          const gateData = await getGateQuestionsForTest(testId);
+          let gateData: {
+            title: string;
+            subject: string;
+            durationMinutes: number;
+            questions: any[];
+          } | null = null;
+
+          // Attempt fast server API load
+          try {
+            const apiRes = await fetch(`/api/gate/test/${encodeURIComponent(testId)}`);
+            if (apiRes.ok) {
+              gateData = await apiRes.json();
+            }
+          } catch (apiErr) {
+            console.warn("API route failed, falling back to module loader:", apiErr);
+          }
+
+          // Fallback to client module loader if API failed
+          if (!gateData || !gateData.questions || gateData.questions.length === 0) {
+            gateData = await getGateQuestionsForTest(testId);
+          }
+
           if (isMounted) {
             if (gateData && gateData.questions && gateData.questions.length > 0) {
-              const mapped: Question[] = gateData.questions.map((q) => ({
+              const mapped: Question[] = gateData.questions.map((q: any) => ({
                 id: q.id,
                 testId,
                 type: q.type,

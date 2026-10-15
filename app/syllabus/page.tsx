@@ -2,6 +2,8 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
+import SubNavPills from "@/components/SubNavPills";
+import { gateNavPills } from "@/lib/hubNav";
 import { ExternalLink } from "lucide-react";
 
 const syllabusData = [
@@ -60,6 +62,7 @@ export default function SyllabusPage() {
   return (
     <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
       <Navbar />
+      <SubNavPills categoryTitle="EXPLORE GATE" pills={gateNavPills} />
 
       <section className="mx-auto w-full max-w-7xl flex-1 px-4 py-8 sm:px-6 md:py-12">
         {/* Breadcrumb */}

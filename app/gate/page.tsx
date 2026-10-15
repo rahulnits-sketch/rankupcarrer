@@ -1,9 +1,36 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  ArrowRight,
+  Building2,
+  CircuitBoard,
+  Cog,
+  Cpu,
+  Zap,
+} from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
+import SubNavPills from "@/components/SubNavPills";
+import { gateNavPills } from "@/lib/hubNav";
 import subjectsManifest from "@/data/gate/subjects/manifest.json";
 import pyqManifest from "@/data/gate/pyq/manifest.json";
+import { gateBranches } from "@/data/gate/branches";
+
+export const metadata: Metadata = {
+  title: "CSE GATE Preparation - Free Test Series, PYQ & Subject-wise Practice",
+  description:
+    "Complete CSE GATE preparation hub. Practice year-wise GATE CSE previous year questions (PYQ) from 1987 to 2026, subject tests, syllabus, and mock exams.",
+  keywords: [
+    "CSE GATE",
+    "GATE CSE",
+    "GATE CSE test series",
+    "GATE CSE previous year papers",
+    "GATE CSE preparation",
+    "GATE Computer Science",
+  ],
+};
+
 
 const gateOptions = [
   {
@@ -62,10 +89,27 @@ const accentStyles = {
   },
 } as const;
 
+const branchIcons = {
+  cpu: Cpu,
+  circuit: CircuitBoard,
+  bolt: Zap,
+  building: Building2,
+  cog: Cog,
+} as const;
+
+const branchAccents = {
+  blue: "border-blue-400/20 bg-blue-400/10 text-blue-300",
+  cyan: "border-cyan-400/20 bg-cyan-400/10 text-cyan-300",
+  amber: "border-amber-400/20 bg-amber-400/10 text-amber-300",
+  emerald: "border-emerald-400/20 bg-emerald-400/10 text-emerald-300",
+  purple: "border-purple-400/20 bg-purple-400/10 text-purple-300",
+} as const;
+
 export default function GateMasterPage() {
   return (
     <main className="flex min-h-screen flex-col justify-between bg-[#08090b] text-white selection:bg-blue-500 selection:text-white">
       <Navbar />
+      <SubNavPills categoryTitle="EXPLORE GATE" pills={gateNavPills} />
 
       <section className="mx-auto w-full max-w-6xl flex-1 px-6 py-10 md:py-16">
         <div className="mb-10 flex flex-col gap-5 border-b border-white/10 pb-8 sm:flex-row sm:items-end sm:justify-between">
@@ -125,6 +169,52 @@ export default function GateMasterPage() {
             );
           })}
         </div>
+
+        <section id="branches" className="scroll-mt-24 pb-4 pt-16">
+          <div className="mb-6 border-b border-white/10 pb-6">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-300">
+              Find your stream
+            </p>
+            <h2 className="mt-2 text-2xl font-extrabold tracking-tight md:text-3xl">
+              Explore all GATE branches
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-gray-400">
+              Choose your engineering stream to open its dedicated preparation hub.
+            </p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {Object.values(gateBranches).map((branch) => {
+              const Icon = branchIcons[branch.icon];
+
+              return (
+                <Link
+                  key={branch.slug}
+                  href={`/gate/${branch.slug}`}
+                  className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4 transition hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.045] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400"
+                >
+                  <span
+                    className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border ${branchAccents[branch.accent]}`}
+                  >
+                    <Icon className="h-5 w-5" aria-hidden="true" />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-[10px] font-bold uppercase tracking-[0.15em] text-gray-500">
+                      GATE {branch.code}
+                    </span>
+                    <span className="mt-1 block truncate text-sm font-semibold text-gray-200 transition group-hover:text-white">
+                      {branch.shortTitle}
+                    </span>
+                  </span>
+                  <ArrowRight
+                    className="h-4 w-4 shrink-0 text-gray-600 transition group-hover:translate-x-1 group-hover:text-blue-300"
+                    aria-hidden="true"
+                  />
+                </Link>
+              );
+            })}
+          </div>
+        </section>
       </section>
 
       <Footer />

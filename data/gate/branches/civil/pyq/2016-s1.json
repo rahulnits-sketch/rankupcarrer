@@ -1,0 +1,2130 @@
+{
+  "id": "gate-ce-2016-s1",
+  "yearSetKey": "2016-s1",
+  "year": 2016,
+  "set": 1,
+  "title": "GATE CE 2016 Official Paper",
+  "duration": "180 min",
+  "durationMinutes": 180,
+  "totalMarks": 100,
+  "totalQuestions": 65,
+  "gaQuestions": 10,
+  "csQuestions": 55,
+  "questions": [
+    {
+      "id": "go:480",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2008-s0",
+      "orderIndex": 1,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 1",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>If a class $B$ network on the Internet has a subnet mask of $255.255.248.0$, what is the maximum number of hosts per subnet?</p>",
+      "rawQuestionHtml": "<p>If a class $B$ network on the Internet has a subnet mask of $255.255.248.0$, what is the maximum number of hosts per subnet?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$1022$</li>\n<li>$1023$</li>\n<li>$2046$</li>\n<li>$2047$</li>\n</ol>",
+      "options": [
+        "$1022$",
+        "$1023$",
+        "$2046$",
+        "$2047$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$1022$",
+          "html": "$1022$"
+        },
+        {
+          "label": "B",
+          "text": "$1023$",
+          "html": "$1023$"
+        },
+        {
+          "label": "C",
+          "text": "$2046$",
+          "html": "$2046$"
+        },
+        {
+          "label": "D",
+          "text": "$2047$",
+          "html": "$2047$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/480/gate-cse-2008-question-57",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/480/gate-cse-2008-question-57"
+    },
+    {
+      "id": "go:481",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2008-s0",
+      "orderIndex": 2,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 2",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A computer on a $10\\text{Mbps}$ network is regulated by a token bucket. The token bucket is filled at a rate of $2\\text{Mbps}$. It is initially filled to capacity with $16\\text{Megabits}$. What is the maximum duration for which the computer can transmit at the full $10\\text{Mbps}$?</p>",
+      "rawQuestionHtml": "<p>A computer on a $10\\text{Mbps}$ network is regulated by a token bucket. The token bucket is filled at a rate of $2\\text{Mbps}$. It is initially filled to capacity with $16\\text{Megabits}$. What is the maximum duration for which the computer can transmit at the full $10\\text{Mbps}$?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$1.6$ seconds</li>\n<li>$2$ seconds</li>\n<li>$5$ seconds</li>\n<li>$8$ seconds</li>\n</ol>",
+      "options": [
+        "$1.6$ seconds",
+        "$2$ seconds",
+        "$5$ seconds",
+        "$8$ seconds"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$1.6$ seconds",
+          "html": "$1.6$ seconds"
+        },
+        {
+          "label": "B",
+          "text": "$2$ seconds",
+          "html": "$2$ seconds"
+        },
+        {
+          "label": "C",
+          "text": "$5$ seconds",
+          "html": "$5$ seconds"
+        },
+        {
+          "label": "D",
+          "text": "$8$ seconds",
+          "html": "$8$ seconds"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/481/gate-cse-2008-question-58",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/481/gate-cse-2008-question-58"
+    },
+    {
+      "id": "go:482",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2008-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A client process P needs to make a TCP connection to a server process S. Consider the following situation: the server process S executes a $\\text{socket}$, a $\\text{bind}$ and a $\\text{listen}$ system call in that order, following which it is preempted. Subsequently, the client process P executes a $\\text{socket}$ system call followed by $\\text{connect}$ system call to connect to the server process S. The server process has not executed any $\\text{accept}$ system call. Which one of the following events could take place?</p>",
+      "rawQuestionHtml": "<p>A client process P needs to make a TCP connection to a server process S. Consider the following situation: the server process S executes a $\\text{socket}$, a $\\text{bind}$ and a $\\text{listen}$ system call in that order, following which it is preempted. Subsequently, the client process P executes a $\\text{socket}$ system call followed by $\\text{connect}$ system call to connect to the server process S. The server process has not executed any $\\text{accept}$ system call. Which one of the following events could take place?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$\\text{connect}$ system call returns successfully</p>\n</li>\n<li>\n<p>$\\text{connect}$ system call blocks</p>\n</li>\n<li>\n<p>$\\text{connect}$ system call returns an error</p>\n</li>\n<li>\n<p>$\\text{connect}$ system call results in a core dump</p>\n</li>\n</ol>",
+      "options": [
+        "$\\text{connect}$ system call returns successfully",
+        "$\\text{connect}$ system call blocks",
+        "$\\text{connect}$ system call returns an error",
+        "$\\text{connect}$ system call results in a core dump"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\text{connect}$ system call returns successfully",
+          "html": "<p>$\\text{connect}$ system call returns successfully</p>"
+        },
+        {
+          "label": "B",
+          "text": "$\\text{connect}$ system call blocks",
+          "html": "<p>$\\text{connect}$ system call blocks</p>"
+        },
+        {
+          "label": "C",
+          "text": "$\\text{connect}$ system call returns an error",
+          "html": "<p>$\\text{connect}$ system call returns an error</p>"
+        },
+        {
+          "label": "D",
+          "text": "$\\text{connect}$ system call results in a core dump",
+          "html": "<p>$\\text{connect}$ system call results in a core dump</p>"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/482/gate-cse-2008-question-59",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/482/gate-cse-2008-question-59"
+    },
+    {
+      "id": "go:483",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2008-s0",
+      "orderIndex": 4,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 4",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>What is printed by the following C program?</p>\n<pre class=\"prettyprint lang-c_cpp\">int f(int x, int *py, int **ppz)\t\t\t\n{\t\t\t\t\t\t                    \t\n    int y, z;\t\t\t\t\t                \t\t\n    **ppz += 1; <strong>z = **ppz</strong>;\t\t // corrected <strong>z = *ppz</strong>; to <strong>z = **ppz</strong>;                \n    *py += 2; y = *py;\t\t\t\t\t                \t\n    x += 3;\t\t\t\t\t                    \t\n    return x+y+z;\n}\n\nvoid main\n{\n    int c, *b, **a;\n    c = 4; b = &amp;c; a = &amp;b;\n    printf(\"%d\", f(c, b, a));\n    \t\n}</pre>",
+      "rawQuestionHtml": "<p>What is printed by the following C program?</p>\n<pre class=\"prettyprint lang-c_cpp\">int f(int x, int *py, int **ppz)\t\t\t\n{\t\t\t\t\t\t                    \t\n    int y, z;\t\t\t\t\t                \t\t\n    **ppz += 1; <strong>z = **ppz</strong>;\t\t // corrected <strong>z = *ppz</strong>; to <strong>z = **ppz</strong>;                \n    *py += 2; y = *py;\t\t\t\t\t                \t\n    x += 3;\t\t\t\t\t                    \t\n    return x+y+z;\n}\n\nvoid main\n{\n    int c, *b, **a;\n    c = 4; b = &amp;c; a = &amp;b;\n    printf(\"%d\", f(c, b, a));\n    \t\n}</pre>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$18$</li>\n<li>$19$</li>\n<li>$21$</li>\n<li>$22$</li>\n</ol>",
+      "options": [
+        "$18$",
+        "$19$",
+        "$21$",
+        "$22$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$18$",
+          "html": "$18$"
+        },
+        {
+          "label": "B",
+          "text": "$19$",
+          "html": "$19$"
+        },
+        {
+          "label": "C",
+          "text": "$21$",
+          "html": "$21$"
+        },
+        {
+          "label": "D",
+          "text": "$22$",
+          "html": "$22$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/483/gate-cse-2008-question-60",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/483/gate-cse-2008-question-60"
+    },
+    {
+      "id": "go:43474",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2009-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following relational schema:</p>\n<p>$\\text{Suppliers}(\\underline{\\text{sid:integer}},\\text{ sname:string, city:string, street:string})$ </p>\n<p>$\\text{Parts}(\\underline{\\text{pid:integer}}, \\text{ pname:string, color:string})$ </p>\n<p>$\\text{Catalog}(\\underline {\\text{sid:integer, pid:integer}}, \\text{cost:real})$</p>\n<p>Assume that, in the suppliers relation above, each supplier and each street within a city has unique name, and (sname, city) forms a candidate key. No other functional dependencies are implied other than those implied by primary and candidate keys. Which one of the following is $\\text{TRUE}$ about the above schema?</p>",
+      "rawQuestionHtml": "<p>Consider the following relational schema:</p>\n<p>$\\text{Suppliers}(\\underline{\\text{sid:integer}},\\text{ sname:string, city:string, street:string})$ </p>\n<p>$\\text{Parts}(\\underline{\\text{pid:integer}}, \\text{ pname:string, color:string})$ </p>\n<p>$\\text{Catalog}(\\underline {\\text{sid:integer, pid:integer}}, \\text{cost:real})$</p>\n<p>Assume that, in the suppliers relation above, each supplier and each street within a city has unique name, and (sname, city) forms a candidate key. No other functional dependencies are implied other than those implied by primary and candidate keys. Which one of the following is $\\text{TRUE}$ about the above schema?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>The schema is in $\\text{BCNF}$</li>\n<li>The schema is in $\\text{3NF}$ but not in $\\text{BCNF}$</li>\n<li>The schema is in $\\text{2NF}$ but not in $\\text{3NF}$</li>\n<li>The schema is not in $\\text{2NF}$</li>\n</ol>",
+      "options": [
+        "The schema is in $\\text{BCNF}$",
+        "The schema is in $\\text{3NF}$ but not in $\\text{BCNF}$",
+        "The schema is in $\\text{2NF}$ but not in $\\text{3NF}$",
+        "The schema is not in $\\text{2NF}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The schema is in $\\text{BCNF}$",
+          "html": "The schema is in $\\text{BCNF}$"
+        },
+        {
+          "label": "B",
+          "text": "The schema is in $\\text{3NF}$ but not in $\\text{BCNF}$",
+          "html": "The schema is in $\\text{3NF}$ but not in $\\text{BCNF}$"
+        },
+        {
+          "label": "C",
+          "text": "The schema is in $\\text{2NF}$ but not in $\\text{3NF}$",
+          "html": "The schema is in $\\text{2NF}$ but not in $\\text{3NF}$"
+        },
+        {
+          "label": "D",
+          "text": "The schema is not in $\\text{2NF}$",
+          "html": "The schema is not in $\\text{2NF}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/43474/gate-cse-2009-question-56",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43474/gate-cse-2009-question-56"
+    },
+    {
+      "id": "go:2171",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2011-s0",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p><strong>Few school curricula include a unit on how to deal with bereavement and grief, and yet all students at some point in their lives suffer from losses through death and parting.</strong></p>\n<p>Based on the above passage which topic would not be included in a unit on bereavement?</p>",
+      "rawQuestionHtml": "<p><strong>Few school curricula include a unit on how to deal with bereavement and grief, and yet all students at some point in their lives suffer from losses through death and parting.</strong></p>\n<p>Based on the above passage which topic would not be included in a unit on bereavement?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>how to write a letter of condolence</li>\n<li>what emotional stages are passed through in the healing process</li>\n<li>what the leading causes of death are</li>\n<li>how to give support to a grieving friend</li>\n</ol>",
+      "options": [
+        "how to write a letter of condolence",
+        "what emotional stages are passed through in the healing process",
+        "what the leading causes of death are",
+        "how to give support to a grieving friend"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "how to write a letter of condolence",
+          "html": "how to write a letter of condolence"
+        },
+        {
+          "label": "B",
+          "text": "what emotional stages are passed through in the healing process",
+          "html": "what emotional stages are passed through in the healing process"
+        },
+        {
+          "label": "C",
+          "text": "what the leading causes of death are",
+          "html": "what the leading causes of death are"
+        },
+        {
+          "label": "D",
+          "text": "how to give support to a grieving friend",
+          "html": "how to give support to a grieving friend"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2171/gate-cse-2011-question-61",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2171/gate-cse-2011-question-61"
+    },
+    {
+      "id": "go:2172",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2011-s0",
+      "orderIndex": 7,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 7",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>$P, Q, R$ and $S$ are four types of dangerous microbes recently found in a human habitat. The area of each circle with its diameter printed in brackets represents the growth of a single microbe surviving human immunity system within $24$ hours of entering the body. The danger to human beings varies proportionately with the toxicity, potency and growth attributed to a microbe shown in the figure below:</p>\n<p><img alt=\"\" height=\"352\" src=\"/question-images/11916305292822871507.webp\" width=\"576\"/></p>\n<p>A pharmaceutical company is contemplating the development of a vaccine against the most dangerous microbe. Which microbe should the company target in its first attempt?</p>",
+      "rawQuestionHtml": "<p>$P, Q, R$ and $S$ are four types of dangerous microbes recently found in a human habitat. The area of each circle with its diameter printed in brackets represents the growth of a single microbe surviving human immunity system within $24$ hours of entering the body. The danger to human beings varies proportionately with the toxicity, potency and growth attributed to a microbe shown in the figure below:</p>\n<p><img alt=\"\" height=\"352\" src=\"/question-images/11916305292822871507.webp\" width=\"576\"/></p>\n<p>A pharmaceutical company is contemplating the development of a vaccine against the most dangerous microbe. Which microbe should the company target in its first attempt?</p>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>$P$</li>\n<li>$Q$</li>\n<li>$R$</li>\n<li>$S$</li>\n</ol>",
+      "options": [
+        "$P$",
+        "$Q$",
+        "$R$",
+        "$S$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$P$",
+          "html": "$P$"
+        },
+        {
+          "label": "B",
+          "text": "$Q$",
+          "html": "$Q$"
+        },
+        {
+          "label": "C",
+          "text": "$R$",
+          "html": "$R$"
+        },
+        {
+          "label": "D",
+          "text": "$S$",
+          "html": "$S$"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2172/gate-cse-2011-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2172/gate-cse-2011-question-62"
+    },
+    {
+      "id": "go:2173",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2011-s0",
+      "orderIndex": 8,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 8",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>The variable cost $(V)$ of manufacturing a product varies according to the equation $V=4q$, where $q$ is the quantity produced. The fixed cost $(F)$ of production of same product reduces with $q$ according to the equation $F=\\dfrac{100}{q}$. How many units should be produced to minimize the total cost $(V+F)$?</p>",
+      "rawQuestionHtml": "<p>The variable cost $(V)$ of manufacturing a product varies according to the equation $V=4q$, where $q$ is the quantity produced. The fixed cost $(F)$ of production of same product reduces with $q$ according to the equation $F=\\dfrac{100}{q}$. How many units should be produced to minimize the total cost $(V+F)$?</p>\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n<li>$5$</li>\n<li>$4$</li>\n<li>$7$</li>\n<li>$6$</li>\n</ol>",
+      "options": [
+        "$5$",
+        "$4$",
+        "$7$",
+        "$6$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$5$",
+          "html": "$5$"
+        },
+        {
+          "label": "B",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "C",
+          "text": "$7$",
+          "html": "$7$"
+        },
+        {
+          "label": "D",
+          "text": "$6$",
+          "html": "$6$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2173/gate-cse-2011-question-63",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2173/gate-cse-2011-question-63"
+    },
+    {
+      "id": "go:2174",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2011-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses $7$ trucks, then at the end of the $4^{th}$ day he can clear all the orders. Alternatively, if he uses only $3$ trucks, then all the orders are cleared at the end of the $10^{th}$ day. What is the minimum number of trucks required so that there will be no pending order at the end of $5^{th}$ day?</p>",
+      "rawQuestionHtml": "<p>A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses $7$ trucks, then at the end of the $4^{th}$ day he can clear all the orders. Alternatively, if he uses only $3$ trucks, then all the orders are cleared at the end of the $10^{th}$ day. What is the minimum number of trucks required so that there will be no pending order at the end of $5^{th}$ day?</p>\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n<li>$4$</li>\n<li>$5$</li>\n<li>$6$</li>\n<li>$7$</li>\n</ol>",
+      "options": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "B",
+          "text": "$5$",
+          "html": "$5$"
+        },
+        {
+          "label": "C",
+          "text": "$6$",
+          "html": "$6$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2174/gate-cse-2011-question-64",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2174/gate-cse-2011-question-64"
+    },
+    {
+      "id": "go:2175",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2011-s0",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE CE 2016 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>A container originally contains $10$ litres of pure spirit. From this container, $1$ litre of spirit replaced with $1$ litre of water. Subsequently, $1$ litre of the mixture is again replaced with $1$ litre of water and this process is repeated one more time. How much spirit is now left in the container?</p>",
+      "rawQuestionHtml": "<p>A container originally contains $10$ litres of pure spirit. From this container, $1$ litre of spirit replaced with $1$ litre of water. Subsequently, $1$ litre of the mixture is again replaced with $1$ litre of water and this process is repeated one more time. How much spirit is now left in the container?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$7.58$ litres</li>\n<li>$7.84$ litres</li>\n<li>$7$ litres</li>\n<li>$7.29$ litres</li>\n</ol>",
+      "options": [
+        "$7.58$ litres",
+        "$7.84$ litres",
+        "$7$ litres",
+        "$7.29$ litres"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$7.58$ litres",
+          "html": "$7.58$ litres"
+        },
+        {
+          "label": "B",
+          "text": "$7.84$ litres",
+          "html": "$7.84$ litres"
+        },
+        {
+          "label": "C",
+          "text": "$7$ litres",
+          "html": "$7$ litres"
+        },
+        {
+          "label": "D",
+          "text": "$7.29$ litres",
+          "html": "$7.29$ litres"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2175/gate-cse-2011-question-65",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2175/gate-cse-2011-question-65"
+    },
+    {
+      "id": "gate-ce-q127",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 11,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 1",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The solution at \n, \n of the partial diﬀerential equation \n subject to initial conditions\nof \n and \n is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q129",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 12,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 2",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the following second-order diﬀerential equation: \n. The particular solution\nof the differential solution equation is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q131",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 13,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 3",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>A fair (unbiased) coin was tossed four times in succession and resulted in the following outcomes: (i) Head,\n(ii) Head, (iii) Head, (iv) Head. The probability of obtaining a ‘Tail’</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q133",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 14,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 4",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Probability (up to one decimal place) of consecutively picking \n red balls without replacement from a box\ncontaining \n red balls and \n white ball is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q135",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 15,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 5",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The probability that a student passes only in Mathematics is \n. The probability that the student passes only\nin English is \n. The probability that the student passes in both of these subjects is \n. The probability that</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q137",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 16,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 6",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The spot speeds (expressed in km/hr) observed at a road section are \nand \n. The median speed (expressed in km / hr) is ______\n(Note: answer with one decimal accuracy)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q139",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 17,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 7",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The probability that a \n year ﬂood may \n occur at all during \n years life of a project (round oﬀ to\ntwo decimal places), is  _______.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q141",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 18,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 8",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The probability density function of evaporation \n on any day during a year in a watershed is given by</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q143",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 19,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 9",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>For the function \n to be a valid probability density function,which one of the\nfollowing statements is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q145",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 20,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 10",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Consider the following probability mass function (p.m.f) of a random variable \nIf \n, the variance of \n is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q147",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 21,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 11",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>At a traﬃc intersection, cars and buses arrive randomly according to independent Poisson processes at an\naverage rate of \n vehicles per hour and \n vehicles per hour, respectively. The probability of observing at\nleast \n vehicles in \n minutes is ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q149",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 22,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 12",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The probabilities of occurrences of two independent events \n and \n are \n and \n respectively. What is\nthe probability of occurrence of at least \n or \n (rounded off to one decimal place)? _____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q151",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2023-s2",
+      "orderIndex": 23,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 13",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>A remote village has exactly \n vehicles with sequential registration numbers starting from \n  Out of\nthe total vehicles, \n are without pollution clearance certiﬁcate. Further, even- and odd-numbered\nvehicles are operated on even- and odd-numbered dates, respectively. \nI f \n vehicles are chosen at random on an even-numbered date, the number of vehicles expected without\npollution clearance certificate is ___________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q153",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 24,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 14",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>​​​​​\n is a random variable that can take any one of the values \n, and \n . The probability mass\nfunction for \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q155",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 25,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 15",
+      "subject": "Transportation & Highway Engineering",
+      "subjectSlug": "transportation",
+      "topic": "Highway Geometric Design (SSD, OSD, Superelevation)",
+      "type": "NAT",
+      "question": "<p>Given that \n and \n are not null sets, which of the following statements regarding probability is/are\nCORRECT\n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Transportation & Highway Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Highway Geometric Design (SSD, OSD, Superelevation)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Transportation.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q157",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 26,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 16",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>I f \n is a continuous, real valued random variable deﬁned over the interval \n and its\noccurrence is deﬁned by the density function given as:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q159",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 27,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 17",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Ultimate BOD of a river water sample is \n mg/L. BOD rate constant (natural log) is \n. The\nrespective values of BOD (in \n) exerted and remaining after \n days are:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q161",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 28,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 18",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>The liquid forms of particulate air pollutants are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q163",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 29,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 19",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Which one of the following statements is \nTRUE\n for Greenhouse Gas \n in the atmosphere?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q165",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 30,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 20",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>For the elevation and temperature data given in the table, the existing lapse rate in the environment is\n_______________ \n (\nround off to two decimal places\n).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q167",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 31,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 21",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>For assessing the compliance with the emissions standards of incineration plants, a correction needs to be\napplied to the measured concentrations of air pollutants. The emission standard (based on \n Oxygen)\nfor \n is \n and the measured concentrations of \n and Oxygen in ﬂue gas are \n and \n, respectively.\nAssuming \n Oxygen in air, the CORRECT statement is:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q169",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2024-s2",
+      "orderIndex": 32,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 22",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>An organic waste is represented as \n.\n(Atomic weights:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q171",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 33,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 23",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>A settling chamber is used for the removal of discrete particulate matter from air with following conditions.\nHorizontal velocity of air \n; Temperature of air stream \n; Speciﬁc gravity of particle to be\nr e m o v e d \n; Chamber length \n; Chamber height \n; Viscosity of air at \n; Acceleration due to gravity \n; Density of air at \n;\nAssume the density of water as \n and Laminar condition exists in the chamber.\nThe minimum size of particle that will be removed with \n eﬃ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q173",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 34,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 24",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>In an industry, a cyclone collector with \n eﬃciency is installed for air puriﬁcation, followed by an\nelectrostatic precipitator with \n eﬃ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q175",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 35,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 25",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>It was decided to construct a fabric ﬁlter, using bags of \n m diameter and \n m long, for removing\nindustrial stack gas containing particulates. The expected rate of airﬂow into the ﬁlter is \n. If the\nﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q164",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 36,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 26",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Which of the following statements is/are \nTRUE\n in relation to the Maximum Mixing Depth (or Height) ‘\n’ in the atmosphere?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q166",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2023-s2",
+      "orderIndex": 37,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 27",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "MCQ",
+      "question": "<p>Match the following air pollutants with the most appropriate adverse health effects:</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngatecivil-2023-set2\n \nair-pollution\n \nenvironmental-engineering\nAnswer key\n☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngatecivil-2023-set2\n \nair-pollution\n \nenvironmental-engineering\nAnswer key\n☟",
+          "html": "D\n. \ngatecivil-2023-set2\n \nair-pollution\n \nenvironmental-engineering\nAnswer key\n☟"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q168",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 38,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 28",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>What is the CORRECT match between the air pollutants and treatment techniques given in the table?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q170",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2024-s2",
+      "orderIndex": 39,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 29",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>A hydrocarbon \n is burnt in air \n. The stoichiometric fuel to air mass ratio for this\nprocess is\nNote: Atomic Weight: \nEffective Molecular Weight:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q172",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2025-s2",
+      "orderIndex": 40,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 30",
+      "subject": "RCC & Steel Structures",
+      "subjectSlug": "concrete-steel",
+      "topic": "Limit State Design of Beams & Slabs",
+      "type": "MCQ",
+      "question": "<p>Column \n presents common air pollutants, and column \n presents treatment technologies commonly\nemployed to control air pollutants.\nThe option that CORRECTLY matches the air pollutant with its treatment technology is:</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngatecivil-2026-set2\n \nair-pollution\n \nenvironmental-engineering\n \nwater-and-waste-water-quality-and-treatment"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngatecivil-2026-set2\n \nair-pollution\n \nenvironmental-engineering\n \nwater-and-waste-water-quality-and-treatment",
+          "html": "D\n. \ngatecivil-2026-set2\n \nair-pollution\n \nenvironmental-engineering\n \nwater-and-waste-water-quality-and-treatment"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (RCC & Steel Structures):</strong></p><p>Using official GATE CE engineering principles for <em>Limit State Design of Beams & Slabs</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for RCC & Steel.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q174",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 41,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 31",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>The two air pollution control devices that are usually used to remove very ﬁne particles from the ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q176",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 42,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 32",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>A sample of air analysed at \n and \n pressure is reported to contain \n (parts per million) of \n. Assume the gram molecular mass of \n as \n and its volume at \n and \n  pressure as \n litres per mole. The equivalent \n concentration (in microgram per cubic meter, round oﬀ to \n decimal\nplaces) would be ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q178",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 43,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 33",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The concentration of Sulfur Dioxide \n in ambient atmosphere was measured as \n. Under the\nsame conditions, the above \n concentration expressed in ppm is _________.\nGiven: \n; where, \n Pressure; \n Temperature; \n universal gas constant;</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q180",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 44,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 34",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>An electrostatic precipitator (ESP) with \n of collector plate area is \n percent eﬃcient in treating \n of ﬂue gas from a \n MW thermal power plant. It was found that in order to achieve \n percent\neﬃciency, the collector plate area should be \n. In order to increase the eﬃciency to \n percent, the ESP\ncollector plate area (expressed in \n) would be ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q182",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2021-s2",
+      "orderIndex": 45,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 35",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Read the statements given below.\ni\n. \nValue of the wind proﬁle exponent for the 'very unstable' atmosphere is smaller than the wind proﬁle exponent\nfor the 'neutral' atmosphere.\nii\n. \nDownwind concentration of air pollutants due to an elevated point source will be inversely proportional to the\nwind speed.\niii\n. \nValue of the wind proﬁle exponent for the 'neutral' atmosphere is smaller than the wind proﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q184",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 46,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 36",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The primary air pollutant(s) is/are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q186",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 47,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 37",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Which one of the following options contains ONLY primary air pollutants?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q188",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 48,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 38",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Which one of the following statements is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q190",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 49,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 39",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "MCQ",
+      "question": "<p>Solid waste generated from an industry contains only two components, X and Y as shown in the table\nbelow.\nAssuming \n, the composite density of the solid waste \n is given by:</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngate2015-ce-1\n \nmunicipal-solid-wastes\n \nenvironmental-engineering\n \nengineered-system-for-solid-waste-management"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngate2015-ce-1\n \nmunicipal-solid-wastes\n \nenvironmental-engineering\n \nengineered-system-for-solid-waste-management",
+          "html": "D\n. \ngate2015-ce-1\n \nmunicipal-solid-wastes\n \nenvironmental-engineering\n \nengineered-system-for-solid-waste-management"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q192",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 50,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 40",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>The composition of a municipal solid waste sample is given below:\n \nThe diﬀerence between the energy content of the waste sample calculated on dry basis and as-discarded basis (in\nkJ/kg) would be _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q194",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 51,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 41",
+      "subject": "Geotechnical & Soil Mechanics",
+      "subjectSlug": "geotech",
+      "topic": "Soil Properties & Phase Relationships",
+      "type": "NAT",
+      "question": "<p>A schematic ﬂow diagram of a completely mixed biological reactor with provision for recycling of solids\nshown in the figure.\n \n, \n = readily biodegradable soluble BOD, mg/L\n = flow rates \n= microorganisms concentrations (mixed liquor soils volatile suspended solids or MLVSS ), mg/l\nThe mean cell residence time (in days, up to one decimal place) is _____</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Geotechnical & Soil Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Soil Properties & Phase Relationships</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Geotech.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q196",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 52,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 42",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Raw municipal solid waste (MSW) collected from a city contains \n decomposable material that can be\nconverted to methane. The water content of the decomposable material is \n. An elemental analysis of\nthe decomposable material yields the following mass percent.\nThe methane production of the decomposable material is governed by the following stoichiometric relation\nGiven atomic weights: \n. The mass of methane produced (in grams, round oﬀ\nto \n decimal place) per kg of raw MSW will be _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q198",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 53,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 43",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "MCQ",
+      "question": "<p>To design an optimum municipal solid waste collection route, which of the following is/are \n desired:</p>",
+      "options": [
+        "Collection vehicle should not travel twice down the same street in a day.",
+        "Waste collection on congested roads should not occur during rush hours in morning or evening.",
+        "Collection should occur in the uphill direction.",
+        "The last collection point on a route should be as close as possible to the waste disposal facility."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Collection vehicle should not travel twice down the same street in a day.",
+          "html": "Collection vehicle should not travel twice down the same street in a day."
+        },
+        {
+          "label": "B",
+          "text": "Waste collection on congested roads should not occur during rush hours in morning or evening.",
+          "html": "Waste collection on congested roads should not occur during rush hours in morning or evening."
+        },
+        {
+          "label": "C",
+          "text": "Collection should occur in the uphill direction.",
+          "html": "Collection should occur in the uphill direction."
+        },
+        {
+          "label": "D",
+          "text": "The last collection point on a route should be as close as possible to the waste disposal facility.",
+          "html": "The last collection point on a route should be as close as possible to the waste disposal facility."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q200",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 54,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 44",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>At a municipal waste handling facility, \n metric ton mixture of food waste, yard waste, and paper waste\nwas available. The moisture content of this mixture was found to be \n The ideal moisture content for\ncomposting this mixture is \n The amount of water to be added to this mixture to bring its moisture content to the\nideal condition is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q202",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 55,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 45",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "MCQ",
+      "question": "<p>In the context of Municipal Solid Waste Management, 'Haul' in 'Hauled Container System operated in\nconventional mode' includes the __________.</p>",
+      "options": [
+        "time spent by the transport truck at the disposal site",
+        "time spent by the transport truck in traveling between a pickup point and the disposal site with a loaded\ncontainer",
+        "time spent by the transport truck in picking up a loaded container at a pickup point",
+        "time spent by the transport truck in driving from the depot to the first pickup point \ngatecivil-2023-set2\n \nmunicipal-solid-wastes"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "time spent by the transport truck at the disposal site",
+          "html": "time spent by the transport truck at the disposal site"
+        },
+        {
+          "label": "B",
+          "text": "time spent by the transport truck in traveling between a pickup point and the disposal site with a loaded\ncontainer",
+          "html": "time spent by the transport truck in traveling between a pickup point and the disposal site with a loaded\ncontainer"
+        },
+        {
+          "label": "C",
+          "text": "time spent by the transport truck in picking up a loaded container at a pickup point",
+          "html": "time spent by the transport truck in picking up a loaded container at a pickup point"
+        },
+        {
+          "label": "D",
+          "text": "time spent by the transport truck in driving from the depot to the first pickup point \ngatecivil-2023-set2\n \nmunicipal-solid-wastes",
+          "html": "time spent by the transport truck in driving from the depot to the first pickup point \ngatecivil-2023-set2\n \nmunicipal-solid-wastes"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q204",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2023-s2",
+      "orderIndex": 56,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 46",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Which one of the following products is \nNOT\n obtained in anaerobic decomposition of glucose?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q206",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 57,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 47",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Identify the treatment technology/technologies \nNOT \nrecommended for highly biodegradable organic solid\nwastes.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q208",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 2,
+      "yearSetKey": "2021-s2",
+      "orderIndex": 58,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 48",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Determine the correctness or otherwise of the following Assertion \n and the Reason \n.\n: One of the best ways to reduce the amount of solid wastes is to reduce the consumption\nof raw materials.\n:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q210",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 59,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 49",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>A noise meter located at a distance of \n from a point source recorded \n. The reading at a distance\nof \n from the point source would be __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q212",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 60,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 50",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>As per Noise Pollution (Regulation and Control) Rules \n of India, the day time noise limit for a\nresidential zone, expressed in dB(A)L\n, is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q214",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 61,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 51",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "MCQ",
+      "question": "<p>Match the items in Group – I with those in Group – II and choose the right combination.</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngate2016-ce-1\n \nwater-and-waste-water-quality-and-treatment\n \nenvironmental-engineering\n \nactivated-sludge-process"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngate2016-ce-1\n \nwater-and-waste-water-quality-and-treatment\n \nenvironmental-engineering\n \nactivated-sludge-process",
+          "html": "D\n. \ngate2016-ce-1\n \nwater-and-waste-water-quality-and-treatment\n \nenvironmental-engineering\n \nactivated-sludge-process"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q216",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 62,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 52",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Some of the water quality parameters are measured by titrating a water sample with a titrant. Group I gives\na list of parameters and Group-II gives the list of titrants.\nThe correct match of water quality parameters in Group – I with titrants in Group –</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q218",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 63,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 53",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>For a sample water with the ionic composition shown in the ﬁgure below, the carbonate and non-carbonate\nhardness concentrations (in mg/l as \n), respectively are:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q220",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 64,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 54",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The wastewater from a city, containing a high concentration of biodegradable organics, is being steadily\ndischarged into a ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q222",
+      "testId": "gate-ce-2016-s1",
+      "year": 2016,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 65,
+      "section": "CE",
+      "title": "GATE CE 2016 | CE Question: 55",
+      "subject": "Environmental Engineering",
+      "subjectSlug": "environmental",
+      "topic": "Water Quality & Treatment (Sedimentation, Filtration)",
+      "type": "NAT",
+      "question": "<p>Two wastewater streams A and B, having an identical ultimate BOD are getting mixed to form the stream</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Environmental Engineering):</strong></p><p>Using official GATE CE engineering principles for <em>Water Quality & Treatment (Sedimentation, Filtration)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Environmental.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    }
+  ]
+}

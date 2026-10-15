@@ -2,6 +2,8 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TestCard from "@/components/TestCard";
+import SubNavPills from "@/components/SubNavPills";
+import { placementNavPills } from "@/lib/hubNav";
 import placementData from "@/data/placement.json";
 
 export default function AptitudePage() {
@@ -10,6 +12,7 @@ export default function AptitudePage() {
   return (
     <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
       <Navbar />
+      <SubNavPills categoryTitle="EXPLORE PLACEMENT" pills={placementNavPills} />
 
       <section className="mx-auto max-w-7xl px-6 py-12 md:py-16 w-full flex-1">
         {/* Breadcrumb */}

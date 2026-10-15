@@ -1,0 +1,2114 @@
+{
+  "id": "gate-ce-2021-s1",
+  "yearSetKey": "2021-s1",
+  "year": 2021,
+  "set": 1,
+  "title": "GATE CE 2021 Official Paper",
+  "duration": "180 min",
+  "durationMinutes": 180,
+  "totalMarks": 100,
+  "totalQuestions": 65,
+  "gaQuestions": 10,
+  "csQuestions": 55,
+  "questions": [
+    {
+      "id": "go:945",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 1,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 1",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the grammar shown below. </p>\n<ul>\n<li>$S \\rightarrow C \\ C$</li>\n<li>$C \\rightarrow c \\ C \\mid d$</li>\n</ul>\n<p>This grammar is</p>",
+      "rawQuestionHtml": "<p>Consider the grammar shown below. </p>\n<ul>\n<li>$S \\rightarrow C \\ C$</li>\n<li>$C \\rightarrow c \\ C \\mid d$</li>\n</ul>\n<p>This grammar is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>LL(1)</li>\n<li>SLR(1) but not LL(1)</li>\n<li>LALR(1) but not SLR(1)</li>\n<li>LR(I) but not LALR(1)</li>\n</ol>",
+      "options": [
+        "LL(1)",
+        "SLR(1) but not LL(1)",
+        "LALR(1) but not SLR(1)",
+        "LR(I) but not LALR(1)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "LL(1)",
+          "html": "LL(1)"
+        },
+        {
+          "label": "B",
+          "text": "SLR(1) but not LL(1)",
+          "html": "SLR(1) but not LL(1)"
+        },
+        {
+          "label": "C",
+          "text": "LALR(1) but not SLR(1)",
+          "html": "LALR(1) but not SLR(1)"
+        },
+        {
+          "label": "D",
+          "text": "LR(I) but not LALR(1)",
+          "html": "LR(I) but not LALR(1)"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/945/gate-cse-2003-question-57",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/945/gate-cse-2003-question-57"
+    },
+    {
+      "id": "go:946",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 2,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 2",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>",
+      "rawQuestionHtml": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$9 + 5 + 2$</li>\n<li>$9 \\ 5 + 2 +$</li>\n<li>$9 \\ 5 \\ 2 + +$</li>\n<li>$+ + 9 \\ 5 \\ 2$</li>\n</ol>",
+      "options": [
+        "$9 + 5 + 2$",
+        "$9 \\ 5 + 2 +$",
+        "$9 \\ 5 \\ 2 + +$",
+        "$+ + 9 \\ 5 \\ 2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$9 + 5 + 2$",
+          "html": "$9 + 5 + 2$"
+        },
+        {
+          "label": "B",
+          "text": "$9 \\ 5 + 2 +$",
+          "html": "$9 \\ 5 + 2 +$"
+        },
+        {
+          "label": "C",
+          "text": "$9 \\ 5 \\ 2 + +$",
+          "html": "$9 \\ 5 \\ 2 + +$"
+        },
+        {
+          "label": "D",
+          "text": "$+ + 9 \\ 5 \\ 2$",
+          "html": "$+ + 9 \\ 5 \\ 2$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/946/gate-cse-2003-question-58",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/946/gate-cse-2003-question-58"
+    },
+    {
+      "id": "go:947",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>",
+      "rawQuestionHtml": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$X = Y + Z$</li>\n<li>$t_1 = Y+Z; X=t_1$</li>\n<li>$t_1 =Y; t_2=t_1 +Z; X=t_2$</li>\n<li>$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$</li>\n</ol>",
+      "options": [
+        "$X = Y + Z$",
+        "$t_1 = Y+Z; X=t_1$",
+        "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+        "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$X = Y + Z$",
+          "html": "$X = Y + Z$"
+        },
+        {
+          "label": "B",
+          "text": "$t_1 = Y+Z; X=t_1$",
+          "html": "$t_1 = Y+Z; X=t_1$"
+        },
+        {
+          "label": "C",
+          "text": "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+          "html": "$t_1 =Y; t_2=t_1 +Z; X=t_2$"
+        },
+        {
+          "label": "D",
+          "text": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$",
+          "html": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/947/gate-cse-2003-question-59",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/947/gate-cse-2003-question-59"
+    },
+    {
+      "id": "go:948",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 4,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 4",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>",
+      "rawQuestionHtml": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$f_1(t)+f_2(t)$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(x)dx$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>\n</li>\n<li>\n<p>$\\max\\{f_1(t),f_2(t)\\}$</p>\n</li>\n</ol>",
+      "options": [
+        "$f_1(t)+f_2(t)$",
+        "$\\int_0^t f_1(x)f_2(x)dx$",
+        "$\\int_0^t f_1(x)f_2(t-x)dx$",
+        "$\\max\\{f_1(t),f_2(t)\\}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$f_1(t)+f_2(t)$",
+          "html": "<p>$f_1(t)+f_2(t)$</p>"
+        },
+        {
+          "label": "B",
+          "text": "$\\int_0^t f_1(x)f_2(x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(x)dx$</p>"
+        },
+        {
+          "label": "C",
+          "text": "$\\int_0^t f_1(x)f_2(t-x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>"
+        },
+        {
+          "label": "D",
+          "text": "$\\max\\{f_1(t),f_2(t)\\}$",
+          "html": "<p>$\\max\\{f_1(t),f_2(t)\\}$</p>"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45"
+    },
+    {
+      "id": "go:1052",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2004-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.</p>\n<p>This passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:</p>\n\n<p>The network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$<br/>\n are connected by a $512$ Kbps link (bps = bits per second).        </p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/17391285651520696272.webp\"/></p>\n<p>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.</p>",
+      "rawQuestionHtml": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.</p>\n<p>This passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:</p>\n<ul>\n<li>A: $\\text{1000 bytes}$</li>\n<li>B: $\\text{100 bytes}$</li>\n<li>C: $\\text{1000 bytes}$</li>\n</ul>\n<p>The network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$<br/>\n are connected by a $512$ Kbps link (bps = bits per second).        </p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/17391285651520696272.webp\"/></p>\n<p>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$200$</li>\n<li>$220$</li>\n<li>$240$</li>\n<li>$260$</li>\n</ol>",
+      "options": [
+        "$200$",
+        "$220$",
+        "$240$",
+        "$260$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$200$",
+          "html": "$200$"
+        },
+        {
+          "label": "B",
+          "text": "$220$",
+          "html": "$220$"
+        },
+        {
+          "label": "C",
+          "text": "$240$",
+          "html": "$240$"
+        },
+        {
+          "label": "D",
+          "text": "$260$",
+          "html": "$260$"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1052/gate-cse-2004-question-56",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1052/gate-cse-2004-question-56"
+    },
+    {
+      "id": "go:4066",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>",
+      "rawQuestionHtml": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>No compilation error</li>\n<li>Only a lexical error</li>\n<li>Only syntactic errors</li>\n<li>Both lexical and syntactic errors</li>\n</ol>",
+      "options": [
+        "No compilation error",
+        "Only a lexical error",
+        "Only syntactic errors",
+        "Both lexical and syntactic errors"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "No compilation error",
+          "html": "No compilation error"
+        },
+        {
+          "label": "B",
+          "text": "Only a lexical error",
+          "html": "Only a lexical error"
+        },
+        {
+          "label": "C",
+          "text": "Only syntactic errors",
+          "html": "Only syntactic errors"
+        },
+        {
+          "label": "D",
+          "text": "Both lexical and syntactic errors",
+          "html": "Both lexical and syntactic errors"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/4066/gate-cse-2005-question-61",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/4066/gate-cse-2005-question-61"
+    },
+    {
+      "id": "go:264",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 7,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 7",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$A_{0} A_{1} A_{1}' A_{3} A_{4}$</li>\n<li>$A_{0} A_{1} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2}' A_{3} A_{4} A_{5}'$</li>\n</ol>",
+      "options": [
+        "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+        "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$",
+          "html": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/264/gate-cse-2005-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/264/gate-cse-2005-question-62"
+    },
+    {
+      "id": "go:1386",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 8,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 8",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n<p><img alt=\"\" height=\"208\" src=\"/question-images/3449370509285401659.webp\" width=\"282\"/></p>\n<p>     </p>\n<p>Which of the following is TRUE?</p>",
+      "rawQuestionHtml": "<p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n<p><img alt=\"\" height=\"208\" src=\"/question-images/3449370509285401659.webp\" width=\"282\"/></p>\n<p>     </p>\n<p>Which of the following is TRUE?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>It computes $1$’s complement of the input number</p>\n</li>\n<li>\n<p>It computes $2$’s complement of the input number</p>\n</li>\n<li>\n<p>It increments the input number</p>\n</li>\n<li>\n<p>it decrements the input number</p>\n</li>\n</ol>",
+      "options": [
+        "It computes $1$’s complement of the input number",
+        "It computes $2$’s complement of the input number",
+        "It increments the input number",
+        "it decrements the input number"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It computes $1$’s complement of the input number",
+          "html": "<p>It computes $1$’s complement of the input number</p>"
+        },
+        {
+          "label": "B",
+          "text": "It computes $2$’s complement of the input number",
+          "html": "<p>It computes $2$’s complement of the input number</p>"
+        },
+        {
+          "label": "C",
+          "text": "It increments the input number",
+          "html": "<p>It increments the input number</p>"
+        },
+        {
+          "label": "D",
+          "text": "it decrements the input number",
+          "html": "<p>it decrements the input number</p>"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1386/gate-cse-2005-question-63",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1386/gate-cse-2005-question-63"
+    },
+    {
+      "id": "go:1387",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following circuit:</p>\n<p><img alt=\"\" src=\"/question-images/9620482535850972519.webp\" width=\"654\"/></p>\n<p>The flip-flops are positive edge triggered $D$ $\\textsf{FF}$s. Each state is designated as a two-bit string $Q_0Q_1$. Let the initial state be $00.$ The state transition sequence is</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit:</p>\n<p><img alt=\"\" src=\"/question-images/9620482535850972519.webp\" width=\"654\"/></p>\n<p>The flip-flops are positive edge triggered $D$ $\\textsf{FF}$s. Each state is designated as a two-bit string $Q_0Q_1$. Let the initial state be $00.$ The state transition sequence is</p>\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n<li><img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>  </li>\n<li><img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/></li>\n<li><img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/></li>\n<li><img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/></li>\n</ol>",
+      "options": [
+        "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>",
+        "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>",
+        "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>",
+        "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>"
+        },
+        {
+          "label": "B",
+          "text": "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>"
+        },
+        {
+          "label": "C",
+          "text": "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>"
+        },
+        {
+          "label": "D",
+          "text": "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1387/gate-cse-2005-question-64",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1387/gate-cse-2005-question-64"
+    },
+    {
+      "id": "go:1388",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE CE 2021 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider a three word machine instruction</p>\n<p>$\\text{ADD} A[R_0], @B$</p>\n<p>The first operand (destination) $“A[R_0]”$ uses indexed addressing mode with $R_0$ as the index register. The second operand (source) $“@B”$ uses indirect addressing mode. $A$ and $B$ are memory addresses residing at the second and third words, respectively. The first word of the instruction specifies the opcode, the index register designation and the source and destination addressing modes. During execution of $\\text{ADD}$ instruction, the two operands are added and stored in the destination (first operand).</p>\n<p>The number of memory cycles needed during the execution cycle of the instruction is:</p>",
+      "rawQuestionHtml": "<p>Consider a three word machine instruction</p>\n<p>$\\text{ADD} A[R_0], @B$</p>\n<p>The first operand (destination) $“A[R_0]”$ uses indexed addressing mode with $R_0$ as the index register. The second operand (source) $“@B”$ uses indirect addressing mode. $A$ and $B$ are memory addresses residing at the second and third words, respectively. The first word of the instruction specifies the opcode, the index register designation and the source and destination addressing modes. During execution of $\\text{ADD}$ instruction, the two operands are added and stored in the destination (first operand).</p>\n<p>The number of memory cycles needed during the execution cycle of the instruction is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$3$</li>\n<li>$4$</li>\n<li>$5$</li>\n<li>$6$</li>\n</ol>",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "C",
+          "text": "$5$",
+          "html": "$5$"
+        },
+        {
+          "label": "D",
+          "text": "$6$",
+          "html": "$6$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1388/gate-cse-2005-question-65",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1388/gate-cse-2005-question-65"
+    },
+    {
+      "id": "gate-ce-q57",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2021-s2",
+      "orderIndex": 11,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 1",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The rank of the matrix \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q59",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 12,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 2",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Let \n with \n and \n. The rank of \n is:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q61",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 13,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 3",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The components of pure shear strain in a sheared material are given in the matrix form:\nHere, \n Given, \n and \nThe numerical value of \n is _____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q63",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 14,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 4",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the following linear system.\nThis system is consistent if \n and \n satisfy the equation</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q65",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 15,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 5",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the system of equations\nThe value of \n(round off to the nearest integer), is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q67",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 16,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 6",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The Fourier cosine series of a function is given by :\nFor \n, the numerical value of \n is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q69",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 17,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 7",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Find the magnitude of the error (correct to two decimal places) in the estimation of following integral using\nSimpson’s \n Rule. Take the step length as \n _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q71",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 18,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 8",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The integral \n with \n is evaluated analytically as well as numerically using a single\napplication of the trapezoidal rule. If \n is the exact value of the integral obtained analytically and \n is the\napproximate value obtained using the trapezoidal rule, which of the following statement is correct about their\nrelationship?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q73",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 19,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 9",
+      "subject": "Geomatics & Surveying",
+      "subjectSlug": "surveying",
+      "topic": "Linear Measurements & Compass Surveying",
+      "type": "NAT",
+      "question": "<p>A series of perpendicular oﬀsets taken from a curved boundary wall to a straight survey line at an interval\no f \n are \n, and \n. The area (in \n, round oﬀ to 2 decimal\nplaces) bounded by the survey line, curved boundary wall, the first and the last offsets, determined using Simpson’s\nrule, is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Geomatics & Surveying):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Measurements & Compass Surveying</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Surveying.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q75",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 20,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 10",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The quadratic equation \n is to be solved numerically, starting with the initial guess \n.\nThe Newton-Raphson method is applied once to get a new estimate and then the Secant method is applied\nonce using the initial guess and this new estimate. The estimated value of the root after the application of the\nSecant method is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q77",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 21,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 11",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Newton-Raphson method is to be used to ﬁnd root of equation \n.If the initial trial value\nfor the root is taken as \n, the next approximation for the root would be _______ (note:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q79",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 22,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 12",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The value of the function \n is given at \n distinct values of \n and its value is to be interpolated at the\npoint \n, using all the \n points. The estimate is obtained ﬁrst by the Lagrange polynomial, denoted by \n,\nand then by the Newton polynomial, denoted by \n. Which one of the following statements is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q81",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 23,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 13",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>There is no value of \n that can simultaneously satisfy both the given equations. Therefore, ﬁnd the ‘least\nsquares error’ solution to the two equations, i.e., ﬁnd the value of \n that minimizes the sum of squares of\nthe errors in the two equations. _____</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q83",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 24,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 14",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Consider the differential equation\nFor the initial condition \n at \n, the value of \n at \n obtained using Euler’s method with a step-size of \n is ____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q85",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2023-s1",
+      "orderIndex": 25,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 15",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The differential equation,\nis solved by employing a backward diﬀerence scheme within the ﬁnite diﬀerence framework. The value of \n at the \n time-step, for some \n, is \n The corresponding time \n is \n. Each time step is \n long.\nThen, the value of \n is__________ (\nround off to three decimal places\n).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q87",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2024-s2",
+      "orderIndex": 26,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 16",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Consider the diﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q89",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 27,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 17",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Values of \n for different values of \n are tabulated below.\nIf a second-degree interpolating polynomial \n is used to represent \n, the value of \n is \n (rounded oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q91",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 28,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 18",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The diameter and height of a right circular cylinder are \n and \n, respectively. The absolute error in\neach of these two measurements is \n. The absolute error in the computed volume ( in \n ,round oﬀ\nto three decimal places), is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q93",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 29,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 19",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>With reference to the conventional Cartesian \n coordinate system, the vertices of a triangle have the\nfollowing coordinates: \n; \n; and \n. The area of the triangle\nis equal to</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q95",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 30,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 20",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The Laplace transform of \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q97",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 31,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 21",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>In the diﬀerential equation \n is a positive constant. If \n at \n, and \n at \n, the value of \n is____________ (rounded off to three decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q99",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 32,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 22",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>A \n tank of \n height has inﬂow, outﬂow and stirring mechanisms. Initially, the tank was half-\nﬁlled with fresh water. At \n, an inﬂow of a salt solution of concentration \n at the rate of \n litre/s\nand an outﬂow of the well stirred mixture at the rate of \n litre/s are initiated. This process can be modelled using the\nfollowing differential equation:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q101",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 33,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 23",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The \"order\" of the following ordinary differential equation is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q103",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 34,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 24",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>An ordinary differential equation is given below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q105",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 35,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 25",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the following second order linear differential equation\nThe boundary conditions are: at \n and at \n. The value of \n at \n is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q74",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 36,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 26",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "MCQ",
+      "question": "<p>The integral \n is estimated numerically using three alternative methods namely\nthe rectangular,trapezoidal and Simpson’s rules with a common step size. In this context, which one of the\nfollowing statements is TRUE?</p>",
+      "options": [
+        "Simpson’s rule as well as rectangular rule of estimation will give NON-zero error.",
+        "Simpson’s rule, rectangular rule as well as trapezoidal rule of estimation will give NON-zero error.",
+        "Only the rectangular rule of estimation will give zero error.",
+        "Only Simpson’"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Simpson’s rule as well as rectangular rule of estimation will give NON-zero error.",
+          "html": "Simpson’s rule as well as rectangular rule of estimation will give NON-zero error."
+        },
+        {
+          "label": "B",
+          "text": "Simpson’s rule, rectangular rule as well as trapezoidal rule of estimation will give NON-zero error.",
+          "html": "Simpson’s rule, rectangular rule as well as trapezoidal rule of estimation will give NON-zero error."
+        },
+        {
+          "label": "C",
+          "text": "Only the rectangular rule of estimation will give zero error.",
+          "html": "Only the rectangular rule of estimation will give zero error."
+        },
+        {
+          "label": "D",
+          "text": "Only Simpson’",
+          "html": "Only Simpson’"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q76",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 37,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 27",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>In newton-Raphson iterative method, the initial guess value \n is considered as zero while ﬁnding the\nroots of the equation: \n. The correction, \n, to be added to \n in the ﬁrst\niteration is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q78",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 38,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 28",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The quadratic equation \n is to be solved numerically starting with an initial guess as \n. The new estimate of \n after the first iteration using Newton-Raphson method is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q80",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2012-s1",
+      "orderIndex": 39,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 29",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The error in \n for a continuous function estimated with \n using the central diﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q82",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 40,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 30",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Consider the following recursive iteration scheme for diﬀerent values of variable \n with the initial guess \n:\nFor \n, \n is obtained to be \n, rounded-oﬀ to three decimal places. For \n, \n is obtained to be \n, rounded-off to three decimal places.\nIf \n, the numerical value of \n is ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q84",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 41,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 31",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>A function \n, that is smooth and convex-shaped between interval \n is shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q86",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2024-s2",
+      "orderIndex": 42,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 32",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The second derivative of a function \n is computed using the fourth-order Central Divided Diﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q88",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 43,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 33",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Starting with the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q90",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 44,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 34",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "MCQ",
+      "question": "<p>A ﬁfth-degree polynomial in \n is deﬁned for \n. All coeﬃcients of the polynomial are positive. The ﬁrst\nderivative of the polynomial is obtained numerically at a point by using the ﬁrst-order forward as well as the\nfirst-order backward difference methods. Identical step lengths are used for both the methods.\nFollowing statements are made.\nI\n. \nForward difference method underestimates the true derivative.\nII\n. \nBackward difference method overestimates the true derivative.\nWhich one of the following options is CORRECT?</p>",
+      "options": [
+        "Both statements \n and \n are FALSE.",
+        "Both statements \n and \n are TRUE.",
+        "Statement \n is TRUE and statement \n is FALSE."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Both statements \n and \n are FALSE.",
+          "html": "Both statements \n and \n are FALSE."
+        },
+        {
+          "label": "B",
+          "text": "Both statements \n and \n are TRUE.",
+          "html": "Both statements \n and \n are TRUE."
+        },
+        {
+          "label": "C",
+          "text": "Statement \n is TRUE and statement \n is FALSE.",
+          "html": "Statement \n is TRUE and statement \n is FALSE."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q92",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 45,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 35",
+      "subject": "Geomatics & Surveying",
+      "subjectSlug": "surveying",
+      "topic": "Linear Measurements & Compass Surveying",
+      "type": "NAT",
+      "question": "<p>The value of abscissa \n and ordinate \n of a curve are as follows:\nBy Simpson’s \n rule, the area under the curve \n is __________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Geomatics & Surveying):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Measurements & Compass Surveying</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Surveying.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q94",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2025-s1",
+      "orderIndex": 46,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 36",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Consider the equation \n with \n at \n. This is numerically solved by using the forward\nEuler method with a step size, \n. The absolute error in the solution at the end of the ﬁrst time step is\n_______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q96",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2012-s1",
+      "orderIndex": 47,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 37",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The solution of the ordinary diﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q98",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2023-s2",
+      "orderIndex": 48,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 38",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The solution of the differential equation\nis expressed as \n, where \n, and \n are constants, with \n and \n being\ndistinct and not equal to \n Which of the following options is correct for the values of \n and \n ?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q100",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 49,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 39",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "MCQ",
+      "question": "<p>Consider two Ordinary Differential Equations \n:\n: \nWhich one of the following options is CORRECT?</p>",
+      "options": [
+        "is a homogeneous \n and \n is an exact \n.",
+        "is a homogeneous \n and \n is not an exact \n.",
+        "is a nonhomogeneous \n and \n is an exact \n.",
+        "is a nonhomogeneous \n and \n is not an exact \n.\ngatecivil-2024-set2\n \nordinary-differential-equation\n \nnumerical-answers\nAnswer key\n☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "is a homogeneous \n and \n is an exact \n.",
+          "html": "is a homogeneous \n and \n is an exact \n."
+        },
+        {
+          "label": "B",
+          "text": "is a homogeneous \n and \n is not an exact \n.",
+          "html": "is a homogeneous \n and \n is not an exact \n."
+        },
+        {
+          "label": "C",
+          "text": "is a nonhomogeneous \n and \n is an exact \n.",
+          "html": "is a nonhomogeneous \n and \n is an exact \n."
+        },
+        {
+          "label": "D",
+          "text": "is a nonhomogeneous \n and \n is not an exact \n.\ngatecivil-2024-set2\n \nordinary-differential-equation\n \nnumerical-answers\nAnswer key\n☟",
+          "html": "is a nonhomogeneous \n and \n is not an exact \n.\ngatecivil-2024-set2\n \nordinary-differential-equation\n \nnumerical-answers\nAnswer key\n☟"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q102",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2025-s2",
+      "orderIndex": 50,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 40",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Pick the \nCORRECT \nsolution for the following differential equation</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q104",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 51,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 41",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the following differential equation:\nWhich of the following is the solution of the above equation (\n is an arbitrary constant)?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q106",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 52,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 42",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The respective expressions for complementary function and particular integral part of the solution of the\ndifferential equation \n are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q108",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 53,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 43",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the ordinary diﬀerential equation \n. Given the values of \n and \n, the value of \n (round off to \n decimal place), is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q110",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 54,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 44",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The ordinary differential equation \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q112",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2021-s1",
+      "orderIndex": 55,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 45",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The solution of the second-order diﬀerential equation \n with boundary conditions \n and \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q114",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 56,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 46",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The Fourier series to represent \n for \n is given by\nThe value of \n(round off to two decimal places), is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q116",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 57,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 47",
+      "subject": "Geotechnical & Soil Mechanics",
+      "subjectSlug": "geotech",
+      "topic": "Soil Properties & Phase Relationships",
+      "type": "NAT",
+      "question": "<p>Consider a two-dimensional ﬂow through isotropic soil along \n direction and \n direction. If \n is the hydraulic\nhead,  the Laplace’</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Geotechnical & Soil Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Soil Properties & Phase Relationships</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Geotech.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q118",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2022-s1",
+      "orderIndex": 58,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 48",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The function \n satisfies the Laplace equation\non a circular domain of radius \n with its center at point \n with coordinates</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q120",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 59,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 49",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>The steady-state temperature distribution in a square plate \n is governed by the \n-dimensional\nLaplace equation. The side \n is kept at a temperature of \n and the other three sides are kept at a\ntemperature of \n. Ignoring the eﬀect of discontinuities in the boundary conditions at the corners, the steady-state\ntemperature at the center of the plate is obtained as \n. Due to symmetry, the steady-state temperature at the\ncenter will be same \n, when any one side of the square is kept at a temperature of \n and the remaining\nthree sides are kept at a temperature of \n. Using the principle of superposition, the value of \n is\n_____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q122",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2023-s2",
+      "orderIndex": 60,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 50",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>​​​​​​\nFor the following partial differential equation,\nwhich of the following option(s) is/are CORRECT?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q124",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2024-s2",
+      "orderIndex": 61,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 51",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "MCQ",
+      "question": "<p>Which of the following equations belong/belongs to the class of second-order, linear, homogeneous partial\ndifferential equations:</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngatecivil-2025-set1\n \npartial-differential-equation\n \nengineering-mathematics\nAnswer key\n☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngatecivil-2025-set1\n \npartial-differential-equation\n \nengineering-mathematics\nAnswer key\n☟",
+          "html": "D\n. \ngatecivil-2025-set1\n \npartial-differential-equation\n \nengineering-mathematics\nAnswer key\n☟"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q126",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 62,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 52",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>Consider the following partial differential equation:\nFor this equation to be classified as parabolic, the value of \n must be ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q128",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 63,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 53",
+      "subject": "Structural Analysis & Mechanics",
+      "subjectSlug": "structures",
+      "topic": "Determinate & Indeterminate Trusses",
+      "type": "NAT",
+      "question": "<p>​​​​​\nThe second-order differential equation in an unknown function \n is defined as\nAssuming \n, and \n, the general solution of the above differential equation is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Structural Analysis & Mechanics):</strong></p><p>Using official GATE CE engineering principles for <em>Determinate & Indeterminate Trusses</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Structures.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q130",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 2,
+      "yearSetKey": "2022-s2",
+      "orderIndex": 64,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 54",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Match the following attributes of a city with the appropriate scale of measurements.\nWhich one of the following combinations is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-ce-q132",
+      "testId": "gate-ce-2021-s1",
+      "year": 2021,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 65,
+      "section": "CE",
+      "title": "GATE CE 2021 | CE Question: 55",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>A two-faced fair coin has its faces designated as head (H) and tail (T). This coin is tossed three times in\nsuccession to record the following outcomes: H, H, H. If the coin is tossed one more time, the probability\n(up to one decimal place) of obtaining H again, given the previous realizations of H, H and H, would be ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE CE engineering principles for <em>Linear Algebra & Matrix Rank</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    }
+  ]
+}

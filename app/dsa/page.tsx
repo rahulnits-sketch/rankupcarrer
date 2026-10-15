@@ -3,6 +3,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import dsaData from "@/data/dsa.json";
 import BackButton from "@/components/BackButton";
+import SubNavPills from "@/components/SubNavPills";
+import { dsaNavPills } from "@/lib/hubNav";
 import {
   Rocket,
   ArrowRight,
@@ -12,6 +14,21 @@ import {
   Code2,
   Layers,
 } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DSA Placement Preparation - Data Structures & Algorithms Roadmaps",
+  description:
+    "Master Data Structures and Algorithms for campus placement preparation. Topic-wise practice, company-specific questions, Striver A2Z sheet, and coding interview guides.",
+  keywords: [
+    "DSA placement preparation",
+    "DSA roadmap for placement",
+    "Data structures and algorithms",
+    "campus placement coding questions",
+    "Striver A2Z sheet practice",
+    "coding interview preparation",
+  ],
+};
 
 const roadmaps = [
   { title: "Striver A2Z DSA Sheet", icon: Rocket, problems: "450+ curated problems", detail: "17 structured steps", href: "/dsa/roadmaps/striver-a2z", available: true },
@@ -20,10 +37,13 @@ const roadmaps = [
   { title: "NeetCode 150", icon: Brain, problems: "150 problems", detail: "Pattern based", href: "/dsa/roadmaps/neetcode-150", available: false },
   { title: "Blind 75", icon: Target, problems: "75 problems", detail: "Interview preparation", href: "/dsa/roadmaps/blind-75", available: false },
 ];
+
 export default function DSAPage() {
+
   return (
     <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
       <Navbar />
+      <SubNavPills categoryTitle="EXPLORE DSA" pills={dsaNavPills} />
 
       <section className="mx-auto max-w-7xl px-6 py-8 md:py-10 w-full flex-1">
         {/* Header */}

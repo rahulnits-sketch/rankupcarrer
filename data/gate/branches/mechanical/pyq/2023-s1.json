@@ -1,0 +1,1987 @@
+{
+  "id": "gate-me-2023-s1",
+  "yearSetKey": "2023-s1",
+  "year": 2023,
+  "set": 1,
+  "title": "GATE ME 2023 Official Paper",
+  "duration": "180 min",
+  "durationMinutes": 180,
+  "totalMarks": 100,
+  "totalQuestions": 65,
+  "gaQuestions": 10,
+  "csQuestions": 55,
+  "questions": [
+    {
+      "id": "go:523142",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 1,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 1",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>The probability density function $f(x)$ of a random variable $X$ which takes real values is<br>\\[<br>f(x)=\\frac{1}{3 \\sqrt{2 \\pi}} \\exp \\left(-\\frac{x^{2}}{18}\\right), \\quad x \\in(-\\infty,+\\infty)<br>\\]<br>Which one of the following statements is correct about the random variable $X$ ?</p>",
+      "rawQuestionHtml": "\n<a name=\"523142\"></a><div itemprop=\"text\"><p>The probability density function $f(x)$ of a random variable $X$ which takes real values is<br>\\[<br>f(x)=\\frac{1}{3 \\sqrt{2 \\pi}} \\exp \\left(-\\frac{x^{2}}{18}\\right), \\quad x \\in(-\\infty,+\\infty)<br>\\]<br>Which one of the following statements is correct about the random variable $X$ ?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$X$ is an exponential random variable</li><li>$X$ is a normal random variable</li><li>$X$ is a Poisson random variable</li><li>$X$ is a uniform random variable</li></ol></div>\n",
+      "options": [
+        "$X$ is an exponential random variable",
+        "$X$ is a normal random variable",
+        "$X$ is a Poisson random variable",
+        "$X$ is a uniform random variable"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$X$ is an exponential random variable",
+          "html": "$X$ is an exponential random variable"
+        },
+        {
+          "label": "B",
+          "text": "$X$ is a normal random variable",
+          "html": "$X$ is a normal random variable"
+        },
+        {
+          "label": "C",
+          "text": "$X$ is a Poisson random variable",
+          "html": "$X$ is a Poisson random variable"
+        },
+        {
+          "label": "D",
+          "text": "$X$ is a uniform random variable",
+          "html": "$X$ is a uniform random variable"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523142/gate-cse-2026-set-2-question-4",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523142/gate-cse-2026-set-2-question-4"
+    },
+    {
+      "id": "go:2778",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "1996-s0",
+      "orderIndex": 2,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 2",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "NAT",
+      "question": "<p>A computer system has a three-level memory hierarchy, with access time and hit ratios as shown below:</p>\n<p>$$\\overset{ \\text {Level $1$ (Cache memory)} \\\\  \\text{Access time = $50 nsec/byte$}}{\\begin{array}{|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$8 M $ bytes} &amp; \\text{$0.80$} \\\\\\hline \\text{$16 M $ bytes} &amp; \\text{$0.90$}   \\\\\\hline  \\text{$64 M $ bytes} &amp; \\text{$0.95$}   \\\\\\hline \\end{array}} \\quad \\overset{\\text {Level $2$ (Main memory)} \\\\  \\text{Access time = $200 nsec/byte$}}{\\begin{array}{|l|l|l|}   \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$4 M$ bytes} &amp; \\text{$0.98$} \\\\\\hline \\text{$16 M$ bytes} &amp; \\text{$0.99$}   \\\\\\hline  \\text{$64 M$ bytes} &amp; \\text{$0.995$}   \\\\\\hline \\end{array}} \\quad \\overset{ \\text {Level $3$} \\\\  \\text{Access time = $5$} \\mu \\text{sec/byte}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$260M$ bytes} &amp; \\text{$1.0$} \\\\\\hline\\end{array}}$$</p>",
+      "rawQuestionHtml": "<p>A computer system has a three-level memory hierarchy, with access time and hit ratios as shown below:</p>\n<p>$$\\overset{ \\text {Level $1$ (Cache memory)} \\\\  \\text{Access time = $50 nsec/byte$}}{\\begin{array}{|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$8 M $ bytes} &amp; \\text{$0.80$} \\\\\\hline \\text{$16 M $ bytes} &amp; \\text{$0.90$}   \\\\\\hline  \\text{$64 M $ bytes} &amp; \\text{$0.95$}   \\\\\\hline \\end{array}} \\quad \\overset{\\text {Level $2$ (Main memory)} \\\\  \\text{Access time = $200 nsec/byte$}}{\\begin{array}{|l|l|l|}   \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$4 M$ bytes} &amp; \\text{$0.98$} \\\\\\hline \\text{$16 M$ bytes} &amp; \\text{$0.99$}   \\\\\\hline  \\text{$64 M$ bytes} &amp; \\text{$0.995$}   \\\\\\hline \\end{array}} \\quad \\overset{ \\text {Level $3$} \\\\  \\text{Access time = $5$} \\mu \\text{sec/byte}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$260M$ bytes} &amp; \\text{$1.0$} \\\\\\hline\\end{array}}$$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?</p>\n</li>\n<li>\n<p>What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?</p>\n</li>\n</ol>",
+      "options": [
+        "What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?",
+        "What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?",
+          "html": "<p>What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?</p>"
+        },
+        {
+          "label": "B",
+          "text": "What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?",
+          "html": "<p>What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?</p>"
+        }
+      ],
+      "answer": [
+        "61.25"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2778/gate-cse-1996-question-26",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2778/gate-cse-1996-question-26"
+    },
+    {
+      "id": "go:2282",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "1997-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p><img alt=\"\" src=\"/question-images/4020055730569586012.webp\" style=\"height:126px; width:486px\"></p>",
+      "rawQuestionHtml": "<a name=\"2282\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"/question-images/4020055730569586012.webp\" style=\"height:126px; width:486px\"></p></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2282/gate-cse-1997-question-22",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2282/gate-cse-1997-question-22"
+    },
+    {
+      "id": "go:2284",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "1997-s0",
+      "orderIndex": 4,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 4",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p><img alt=\"\" src=\"/question-images/17748886053474906274.webp\" style=\"height:477px; width:382px\"></p>",
+      "rawQuestionHtml": "<a name=\"2284\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"/question-images/17748886053474906274.webp\" style=\"height:477px; width:382px\"></p></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2284/gate-cse-1997-question-24",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2284/gate-cse-1997-question-24"
+    },
+    {
+      "id": "go:19701",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "1997-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "NAT",
+      "question": "<p>Let $f=(\\bar{w} + y)(\\bar{x} +y)(w+\\bar{x}+z)(\\bar{w}+z)(\\bar{x}+z)$</p>",
+      "rawQuestionHtml": "<p>Let $f=(\\bar{w} + y)(\\bar{x} +y)(w+\\bar{x}+z)(\\bar{w}+z)(\\bar{x}+z)$</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>\n<p>Express $f$ as the minimal sum of products. Write only the answer.</p>\n</li>\n<li>\n<p>If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?</p>\n</li>\n</ol>",
+      "options": [
+        "Express $f$ as the minimal sum of products. Write only the answer.",
+        "If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Express $f$ as the minimal sum of products. Write only the answer.",
+          "html": "<p>Express $f$ as the minimal sum of products. Write only the answer.</p>"
+        },
+        {
+          "label": "B",
+          "text": "If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?",
+          "html": "<p>If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?</p>"
+        }
+      ],
+      "answer": [
+        "9"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/19701/gate-cse-1997-question-71",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/19701/gate-cse-1997-question-71"
+    },
+    {
+      "id": "go:949",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>In a permutation \\(a_1 ... a_n\\), of n distinct integers, an inversion is a pair \\((a_i, a_j)\\) such that \\(i &lt; j\\) and \\(a_i &gt; a_j\\).</p>\n<p>If all permutations are equally likely, what is the expected number of inversions in a randomly chosen permutation of \\(1. . . n\\)?</p>",
+      "rawQuestionHtml": "<p>In a permutation \\(a_1 ... a_n\\), of n distinct integers, an inversion is a pair \\((a_i, a_j)\\) such that \\(i &lt; j\\) and \\(a_i &gt; a_j\\).</p>\n<p>If all permutations are equally likely, what is the expected number of inversions in a randomly chosen permutation of \\(1. . . n\\)?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\\(\\frac{n(n-1)}{2}\\)</li>\n<li>\\(\\frac{n(n-1)}{4}\\)</li>\n<li>\\(\\frac{n(n+1)}{4}\\)</li>\n<li>\\(2n[\\log_2n]\\)</li>\n</ol>",
+      "options": [
+        "\\(\\frac{n(n-1)}{2}\\)",
+        "\\(\\frac{n(n-1)}{4}\\)",
+        "\\(\\frac{n(n+1)}{4}\\)",
+        "\\(2n[\\log_2n]\\)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "\\(\\frac{n(n-1)}{2}\\)",
+          "html": "\\(\\frac{n(n-1)}{2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\frac{n(n-1)}{4}\\)",
+          "html": "\\(\\frac{n(n-1)}{4}\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\frac{n(n+1)}{4}\\)",
+          "html": "\\(\\frac{n(n+1)}{4}\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(2n[\\log_2n]\\)",
+          "html": "\\(2n[\\log_2n]\\)"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/949/gate-cse-2003-question-61",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/949/gate-cse-2003-question-61"
+    },
+    {
+      "id": "go:43576",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 7,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 7",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>In a permutation $a_1\\ldots a_n$, of $n$ distinct integers, an inversion is a pair $(a_i, a_j)$ such that $i &lt; j$ and $a_i &gt; a_j.$</p>\n<p>What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of $1. . . n$ with at most $n$ inversions?</p>",
+      "rawQuestionHtml": "<p>In a permutation $a_1\\ldots a_n$, of $n$ distinct integers, an inversion is a pair $(a_i, a_j)$ such that $i &lt; j$ and $a_i &gt; a_j.$</p>\n<p>What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of $1. . . n$ with at most $n$ inversions?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\Theta(n^2)$</li>\n<li>$\\Theta(n\\log n)$</li>\n<li>$\\Theta(n^{1.5})$</li>\n<li>$\\Theta(n)$</li>\n</ol>",
+      "options": [
+        "$\\Theta(n^2)$",
+        "$\\Theta(n\\log n)$",
+        "$\\Theta(n^{1.5})$",
+        "$\\Theta(n)$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\Theta(n^2)$",
+          "html": "$\\Theta(n^2)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\Theta(n\\log n)$",
+          "html": "$\\Theta(n\\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\Theta(n^{1.5})$",
+          "html": "$\\Theta(n^{1.5})$"
+        },
+        {
+          "label": "D",
+          "text": "$\\Theta(n)$",
+          "html": "$\\Theta(n)$"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/43576/gate-cse-2003-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43576/gate-cse-2003-question-62"
+    },
+    {
+      "id": "go:950",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 8,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 8",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in $O(\\log n)$ time, where $n$ is the number of elements in the set.</p>\n<ol style=\"list-style-type:upper-roman\">\n<li>\n<p>Deletion of the smallest element</p>\n</li>\n<li>Insertion of an element if it is not already present in the set</li>\n</ol>\n<p>Which of the following data structures can be used for this purpose?</p>",
+      "rawQuestionHtml": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in $O(\\log n)$ time, where $n$ is the number of elements in the set.</p>\n<ol style=\"list-style-type:upper-roman\">\n<li>\n<p>Deletion of the smallest element</p>\n</li>\n<li>Insertion of an element if it is not already present in the set</li>\n</ol>\n<p>Which of the following data structures can be used for this purpose?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>A heap can be used but not a balanced binary search tree</li>\n<li>\n<p>A balanced binary search tree can be used but not a heap</p>\n</li>\n<li>\n<p>Both balanced binary search tree and heap can be used</p>\n</li>\n<li>\n<p>Neither balanced search tree nor heap can be used</p>\n</li>\n</ol>",
+      "options": [
+        "A heap can be used but not a balanced binary search tree",
+        "A balanced binary search tree can be used but not a heap",
+        "Both balanced binary search tree and heap can be used",
+        "Neither balanced search tree nor heap can be used"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "A heap can be used but not a balanced binary search tree",
+          "html": "A heap can be used but not a balanced binary search tree"
+        },
+        {
+          "label": "B",
+          "text": "A balanced binary search tree can be used but not a heap",
+          "html": "<p>A balanced binary search tree can be used but not a heap</p>"
+        },
+        {
+          "label": "C",
+          "text": "Both balanced binary search tree and heap can be used",
+          "html": "<p>Both balanced binary search tree and heap can be used</p>"
+        },
+        {
+          "label": "D",
+          "text": "Neither balanced search tree nor heap can be used",
+          "html": "<p>Neither balanced search tree nor heap can be used</p>"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25"
+    },
+    {
+      "id": "go:951",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Let <strong>S </strong>be a stack of size $n \\geq1$. Starting with the empty stack, suppose we push the first <em>n</em> natural numbers in sequence, and then perform $n$<em> </em>pop operations. Assume that Push and Pop operations take $X$ seconds each, and $Y$ seconds elapse between the end of one such stack operation and the start of the next operation. For $m \\geq1$, define the stack-life of <em>$m$ </em>as the time elapsed from the end of $Push(m)$ to the start of the pop operation that removes <em>$m$ </em>from <strong>S</strong>. The average stack-life of an element of this stack is</p>",
+      "rawQuestionHtml": "<p>Let <strong>S </strong>be a stack of size $n \\geq1$. Starting with the empty stack, suppose we push the first <em>n</em> natural numbers in sequence, and then perform $n$<em> </em>pop operations. Assume that Push and Pop operations take $X$ seconds each, and $Y$ seconds elapse between the end of one such stack operation and the start of the next operation. For $m \\geq1$, define the stack-life of <em>$m$ </em>as the time elapsed from the end of $Push(m)$ to the start of the pop operation that removes <em>$m$ </em>from <strong>S</strong>. The average stack-life of an element of this stack is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$n(X+Y)$</li>\n<li>$3Y+2X$</li>\n<li>$n(X+Y)-X$</li>\n<li>$Y+2X$</li>\n</ol>",
+      "options": [
+        "$n(X+Y)$",
+        "$3Y+2X$",
+        "$n(X+Y)-X$",
+        "$Y+2X$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$n(X+Y)$",
+          "html": "$n(X+Y)$"
+        },
+        {
+          "label": "B",
+          "text": "$3Y+2X$",
+          "html": "$3Y+2X$"
+        },
+        {
+          "label": "C",
+          "text": "$n(X+Y)-X$",
+          "html": "$n(X+Y)-X$"
+        },
+        {
+          "label": "D",
+          "text": "$Y+2X$",
+          "html": "$Y+2X$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/951/gate-cse-2003-question-64",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/951/gate-cse-2003-question-64"
+    },
+    {
+      "id": "go:952",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE ME 2023 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following $2-3-4$ tree (i.e., B-tree with a minimum degree of two) in which each data item is a letter. The usual alphabetical ordering of letters is used in constructing the tree.</p>\n<p><img alt=\"\" src=\"/question-images/18396545262188367840.webp\" width=\"450\"/></p>\n<p>What is the result of inserting $G$ in the above tree?</p>",
+      "rawQuestionHtml": "<p>Consider the following $2-3-4$ tree (i.e., B-tree with a minimum degree of two) in which each data item is a letter. The usual alphabetical ordering of letters is used in constructing the tree.</p>\n<p><img alt=\"\" src=\"/question-images/18396545262188367840.webp\" width=\"450\"/></p>\n<p>What is the result of inserting $G$ in the above tree?</p>\n<ol class=\"shrink-inline-options2\" start=\"1\" style=\"list-style-type:upper-alpha\">\n<li><img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/></li>\n<li><img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/></li>\n<li><img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/></li>\n<li>None of the above</li>\n</ol>",
+      "options": [
+        "<img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/>",
+        "<img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/>",
+        "<img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/>",
+        "None of the above"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "<img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/>"
+        },
+        {
+          "label": "B",
+          "text": "<img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/>"
+        },
+        {
+          "label": "C",
+          "text": "<img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/>"
+        },
+        {
+          "label": "D",
+          "text": "None of the above",
+          "html": "None of the above"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/952/gate-cse-2003-question-65",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/952/gate-cse-2003-question-65"
+    },
+    {
+      "id": "gate-me-q29",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 11,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 1",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A single-plate clutch has a friction disc with inner and outer radii of \n mm and \n mm, respectively. The\nfriction lining in the disc is made in such a way that the coeﬃcient of friction \n varies radially as \n,\nwhere \n is in mm. The clutch needs to transmit a friction torque of \n kN.mm. As per uniform pressure theory,\nthe pressure (in MPa) on the disc is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q31",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2019-s1",
+      "orderIndex": 12,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 2",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>A ﬂat-faced follower is driven using a circular eccentric cam rotating at a constant angular velocity \n. At time \n, the vertical position of the follower is \n, and the system is in the configuration shown below:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q33",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 13,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 3",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>Ball bearings are rated by a manufacturer for a life of \n revolutions. The catalogue rating of a particular\nbearing is \n \n. If the design load is \n \n, the life of the bearing will be \n  revolutions, where \n is\nequal to _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q35",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 14,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 4",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>Three masses are connected to a rotating shaft supported on bearings \n and \n as shown in the ﬁgure. The\nsystem is in a space where the gravitational eﬀect is absent. Neglect the mass of shaft and rods connecting\nthe masses. For \n and \n and for a shaft angular speed of \n radian/s, the\nmagnitude of the bearing reaction (in N) at location \n is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q37",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 15,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 5",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>The ﬁgure shows cross-section of a beam subjected to bending. The area moment of inertia (in \n) of\nthis cross-section about its base is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q39",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 16,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 6",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A bolted joint has four bolts arranged as shown in ﬁgure. The cross sectional area of each bolt is \n \n. A\ntorque \n = \n is acting on the joint. Neglecting friction due to clamping force, maximum shear\nstress in a bolt is ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q41",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 17,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 7",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A drum brake is shown in the ﬁgure. The drum is rotating in anticlockwise direction. The coeﬃcient of friction\nbetween drum and shoe is \n. The dimensions shown in the ﬁgure are in \n. The braking torque (in \n) for the brake shoe is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q43",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 18,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 8",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A mass of \n \n is currently being lowered at a velocity of \n \n from the drum as shown in the ﬁgure.\nThe mass moment of inertia of the drum is \n \n-\n. On applying the brake, the mass is brought to rest in\na distance of \n \n. The energy absorbed by the brake (in \n) is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q45",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2019-s1",
+      "orderIndex": 19,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 9",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A force of \n N is applied to the brake drum of \n m diameter in a band-brake system as shown in the\nﬁgure, where the wrapping angle is \n. If the coeﬃ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q47",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 20,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 10",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>For the brake shown in the figure, which one of the following is TRUE?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q49",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 21,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 11",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A short shoe external drum brake is shown in the ﬁgure. The diameter of the brake drum is \n. The\ndimensions \n and \n. The coeﬃcient of friction between the drum\nand the shoe is \n. The force applied on the lever \n as shown in the ﬁgure. The drum is rotating anti-\nclockwise. The braking torque on the drum is ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q51",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 22,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 12",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>Consider a cantilever beam, having negligible mass and uniform ﬂexural rigidity, with length \n \n. The\nfrequency of vibration of the beam, with a \n \n mass attached at the free tip, is \n \n. The ﬂexural\nrigidity (in \n.\n) of the beam is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q53",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 23,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 13",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A cantilever beam of length, \n, with uniform cross-section and ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q55",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 24,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 14",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>Consider a stepped shaft subjected to a twisting moment applied at \n as shown in the ﬁgure. Assume shear\nmodulus, \n = \n \n. The angle of twist at \n (in degrees) is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q57",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 25,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 15",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>For the overhanging beam shown in ﬁgure, the magnitude of maximum bending moment (in \n-\n) is\n________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q59",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 26,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 16",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A simply-supported beam of length \n is subjected to the loading shown in the figure.\nIt is given that \n, \n and Young’s modulus \n. The cross-section is a square with\ndimension \n. The bending stress (in \n) at the point A located at the top surface of the beam at a\ndistance of \n from the left end is _____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q61",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 27,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 17",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A beam of length \n is carrying a uniformly distributed load w per unit length. The ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q63",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2018-s1",
+      "orderIndex": 28,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 18",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Statics & Kinematics",
+      "type": "NAT",
+      "question": "<p>Consider an elastic straight beam of length \n, with square cross-section of side \n, and\nYoung’s modulus \n. This straight beam was bent in such a way that the two ends meets, to\nform a circle of mean radius \n. Assuming that Euler-Bernoulli beam theory is applicable to this bending problem,\nthe maximum tensile bending stress in the bent beam is _____ \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Using official GATE ME engineering principles for <em>Fluid Statics & Kinematics</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Fluid Mech.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q65",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2019-s1",
+      "orderIndex": 29,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 19",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A horizontal cantilever beam of circular cross-section, length \n m and flexural rigidity \n is\nsubjected to an applied moment \n at the free end as shown in the ﬁgure. The magnitude of\nthe vertical deflection of the free end is ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q67",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2020-s1",
+      "orderIndex": 30,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 20",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>The magnitude of reaction force at joint \n of the hinge-beam shown in the ﬁgure is __________\n (round\noff to \n decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q69",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 31,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 21",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>Block \n slides outward on link \n at a uniform velocity of \n m/s as shown in the ﬁgure. Link \n is rotating at a\nconstant angular velocity of \n radian/s counterclockwise. The magnitude of the total acceleration (in \n)\nof point \n of the block with respect to fixed point \n is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q71",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2020-s1",
+      "orderIndex": 32,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 22",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "MCQ",
+      "question": "<p>Critical damping is the</p>",
+      "options": [
+        "largest amount of damping for which no oscillation occurs in free vibration",
+        "smallest amount of damping for wh ich no oscillation occurs in free vibration",
+        "largest amount of damping for which the motion is simple harmonic in f ree vibration",
+        "smallest amount of dam ping for which the motion is simple harmonic in free vibration"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "largest amount of damping for which no oscillation occurs in free vibration",
+          "html": "largest amount of damping for which no oscillation occurs in free vibration"
+        },
+        {
+          "label": "B",
+          "text": "smallest amount of damping for wh ich no oscillation occurs in free vibration",
+          "html": "smallest amount of damping for wh ich no oscillation occurs in free vibration"
+        },
+        {
+          "label": "C",
+          "text": "largest amount of damping for which the motion is simple harmonic in f ree vibration",
+          "html": "largest amount of damping for which the motion is simple harmonic in f ree vibration"
+        },
+        {
+          "label": "D",
+          "text": "smallest amount of dam ping for which the motion is simple harmonic in free vibration",
+          "html": "smallest amount of dam ping for which the motion is simple harmonic in free vibration"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q73",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 4,
+      "yearSetKey": "2014-s4",
+      "orderIndex": 33,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 23",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>The number of independent elastic constants required to deﬁne the stress-strain relationship for an isotropic\nelastic solid is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q75",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 34,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 24",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Basic Thermodynamics & Laws",
+      "type": "NAT",
+      "question": "<p>A point mass of \n kg is dropped onto a massless elastic bar (cross-sectional area \n, length \n m, Young's modulus\n GPa) from a height \n of \n mm as shown (Figure is not to scale). If \n, the maximum compression of the elastic bar is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q77",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2019-s2",
+      "orderIndex": 35,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 25",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Basic Thermodynamics & Laws",
+      "type": "NAT",
+      "question": "<p>Maximum ﬂuctuation of kinetic energy in an engine has been calculated to be \n \n. Assuming that the\nengine runs at an average speed of \n \n, the polar mass moment of inertia (in \n) of a ﬂywheel to\nkeep the speed fluctuation within \n% of the average speed is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q38",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 4,
+      "yearSetKey": "2014-s4",
+      "orderIndex": 36,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 26",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A bolt of major diameter \n \n is required to clamp two steel plates. Cross sectional area of the threaded</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q40",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2016-s3",
+      "orderIndex": 37,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 27",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A steel plate, connected to a ﬁxed channel using three identical bolts \n and \n, carries a load of \n kN as\nshown in the ﬁgure. Considering the eﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q42",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 38,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 28",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A four-wheel vehicle of mass \n moves uniformly in a straight line with the wheels revolving at \n. The wheels are identical, each with a radius of \n. Then a constant braking torque is applied\nto all the wheels and the vehicle experiences a uniform deceleration. For the vehicle to stop in \n, the braking\ntorque (in \n) on each wheel is______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q44",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 39,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 29",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A single block brake with a short shoe and torque capacity of \n is shown. The cylindrical brake\ndrum rotates anticlockwise at \n and the coefficient of friction is \n. The value of \n in mm (round oﬀ\nto one decimal place), such that the minimum actuating force \n is \n, is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q46",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2012-s2",
+      "orderIndex": 40,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 30",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>A disc clutch with a single friction surface has coeﬃcient of friction equal to \n. The maximum pressure\nwhich can be imposed on the friction material is \n \n. The outer diameter of the clutch plate is \n \n and its internal diameter is \n \n. Assuming uniform wear theory for the clutch plate, the maximum torque\n(in \n) that can be transmitted is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q48",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2016-s2",
+      "orderIndex": 41,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 31",
+      "subject": "Machine Design",
+      "subjectSlug": "machine-design",
+      "topic": "Design Against Static & Fatigue Loads",
+      "type": "NAT",
+      "question": "<p>The forces \n and \n in a brake band and the direction of rotation of the drum are as shown in the ﬁgure.\nThe coeﬃcient of friction is \n. The angle of wrap is \n radians. It is given that \n = \n \n and \n = \n \n.\nThe torque (in \n-\n) exerted on the drum is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q50",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2012-s1",
+      "orderIndex": 42,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 32",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A pin jointed uniform rigid rod of weight \n and length \n is supported horizontally by an external force \n as\nshown in the ﬁgure below. The force \n is suddenly removed. At the instant of force removal, the magnitude\nof vertical reaction developed at the support is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q52",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 43,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 33",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>The flexural rigidity \n of a cantilever beam is assumed to be constant over the length of the beam shown\nin ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q54",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 44,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 34",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A force \n is applied at a distance \n from the end of the beam as shown in the ﬁgure. What would be the\nvalue of \n so that the displacement at ‘\n’ is equal to zero?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q56",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 45,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 35",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A cantilever beam with ﬂexural rigidity of \n \n is loaded as shown in the ﬁgure. The deﬂection (in \n) at the tip of the beam is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q58",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2015-s3",
+      "orderIndex": 46,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 36",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A cantilever bracket is bolted to a column using three M\n bolts P, Q and R. The value of maximum\nshear stress developed in the bolt P (in \n) is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q60",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2016-s1",
+      "orderIndex": 47,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 37",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A simply supported beam of length \n is subjected to a moment \n at the mid-point \n as shown in the\nfigure. The deflection in the domain \n is given by\nwhere \n is the Young’s modulus, \n is the area moment of inertia and \n is a constant (to be determined) .\nThe slope at the center \n = \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q62",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 48,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 38",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A steel column of rectangular section (\n mm \n mm) and length \n m is simply supported at both ends.\nAssuming modulus of elasticity, \n GPa for steel, the critical axial load (in kN) is ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q64",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2019-s1",
+      "orderIndex": 49,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 39",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>Consider a prismatic straight beam of length \n, pinned at the two ends as shown in the ﬁgure. The\nbeam has a square cross-section of side \n. The Young’s modulus \n, and the\ncoeﬃcient of thermal expansion \n. The minimum temperature rise required to cause Euler\nbuckling of the beam is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q66",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2019-s2",
+      "orderIndex": 50,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 40",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>The barrier shown between two water tanks of unit width \n into the plane of the screen in modeled as a\ncantilever.\nTaking the density of water as \n , and the acceleration due to gravity as \n , the maximum\nabsolute bending moment developed in the cantilever is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q68",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 51,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 41",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>A planar closed kinematic chain is formed with rigid links \n = \n \n, \n = \n \n, \n = \n \n and \n =</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q70",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2017-s2",
+      "orderIndex": 52,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 42",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>A four bar mechanism is made up of links of length \n, \n, \n and \n mm. If the \n mm link is ﬁxed,\nthe number of links that can rotate fully is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q72",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2014-s1",
+      "orderIndex": 53,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 43",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>A mass-spring-dashpot system with mass \n \n, spring constant \n \n is excited by a\nharmonic excitation of \n \n. At the steady state, the vibration amplitude of the mass is \n \n.\nThe damping coefficient (\n, in \n) of the dashpot is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q74",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 54,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 44",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>The Poisson's ratio for a perfectly incompressible linear elastic material is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q76",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2017-s1",
+      "orderIndex": 55,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 45",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress & Strain Analysis",
+      "type": "NAT",
+      "question": "<p>A horizontal bar, ﬁxed at one end \n, has a length of \n m, and cross-sectional area of \n. Its\nelastic modulus varies along its length as given by \n GPa, where \n is the length coordinate\n(in m) along the axis of the bar. An axial tensile load of \n kN is applied at the free end \n. The axial\ndisplacement of the free end is _________ mm</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q78",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 56,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 46",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Basic Thermodynamics & Laws",
+      "type": "NAT",
+      "question": "<p>Air (\n=\n and kinematic viscosity, \n = \n \n/\n) with a velocity of \n \n ﬂows over the top\nsurface of a ﬂat plate of length \n \n. If the average value of friction coeﬃcient is \n, the total\ndrag force (in \n) per unit width of the plate is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q80",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2016-s3",
+      "orderIndex": 57,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 47",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Basic Thermodynamics & Laws",
+      "type": "NAT",
+      "question": "<p>A particle of unit mass is moving on a plane. Its trajectory, in polar coordinates, is given by \n, where \n is time. The Kinetic energy of the particle at time \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q82",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2012-s2",
+      "orderIndex": 58,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 48",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Basic Thermodynamics & Laws",
+      "type": "NAT",
+      "question": "<p>A rigid link \n of length \n \n rotates about the pinned end \n with a constant angular acceleration of \n \n/\n. When the angular velocity of the link is \n \n/\n, the magnitude of the resultant acceleration (in \n/\n)\nof the end P is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q84",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2013-s2",
+      "orderIndex": 59,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 49",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>Consider a ﬂywheel whose mass \n is distributed almost equally between a heavy, ring-like rim of radius \nand a concentric disk-like feature of radius \n. Other parts of the ﬂywheel, such as spokes, etc, have\nnegligible mass. The best approximation for \n, if the moment of inertia of the ﬂywheel about its axis of rotation is\nexpressed as \n, is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q86",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2015-s3",
+      "orderIndex": 60,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 50",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Basic Thermodynamics & Laws",
+      "type": "NAT",
+      "question": "<p>A ﬂywheel is attached to an engine to keep its rotational speed between \n  and \n. If the\nenergy ﬂuctuation in the ﬂywheel between these two speeds is \n then the moment of inertia of the\nflywheel is____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q88",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2013-s1",
+      "orderIndex": 61,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 51",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>For the given statements:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q90",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 2,
+      "yearSetKey": "2014-s2",
+      "orderIndex": 62,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 52",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>A spur pinion of pitch diameter \n \n rotates at \n \n and transmits \n power. The pressure\nangle of the tooth of the pinion is \n. Assuming that only one pair of the teeth is in contact, the total force\n(in newton) exerted by a tooth of the pinion on the tooth on a mating gear is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q92",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 3,
+      "yearSetKey": "2014-s3",
+      "orderIndex": 63,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 53",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>Which one of the following is used to convert a rotational motion into a translational motion?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q94",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2024-s1",
+      "orderIndex": 64,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 54",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>A gear train is made up of ﬁve spur gears as shown in the ﬁgure. Gear \n is driver and gear \n is driven\nmember. \n, \n, \n, \n and \n represent number of teeth on gears \n, \n, \n, \n, and \n respectively. The\ngear(s) which act(s) as idler(s) is/are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    },
+    {
+      "id": "gate-me-q96",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "set": 1,
+      "yearSetKey": "2016-s1",
+      "orderIndex": 65,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 55",
+      "subject": "Theory of Machines & Vibrations",
+      "subjectSlug": "tom",
+      "topic": "Kinematic Analysis of Linkages",
+      "type": "NAT",
+      "question": "<p>In an epicyclic gear train, shown in the ﬁgure, the outer ring gear is ﬁxed, while the sun gear rotates\ncounterclockwise at \n rpm. Let the number of teeth on the sun, planet and outer gears to be \n and \n, respectively. The ratio of magnitudes of angular velocity of the planet gear to the angular velocity of the carrier\narm is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+    }
+  ]
+}

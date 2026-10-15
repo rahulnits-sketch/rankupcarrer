@@ -5,6 +5,8 @@ import { useSyncExternalStore } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
+import SubNavPills from "@/components/SubNavPills";
+import { dsaNavPills } from "@/lib/hubNav";
 import {
   ArrowRight,
   Brain,
@@ -98,6 +100,7 @@ export default function RoadmapsPage() {
   return (
     <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
       <Navbar />
+      <SubNavPills categoryTitle="EXPLORE DSA" pills={dsaNavPills} />
 
       <section className="mx-auto max-w-7xl px-6 py-8 md:py-12 w-full flex-1">
         {/* Header */}
