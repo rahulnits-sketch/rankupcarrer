@@ -132,7 +132,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Link
             href="/tests"
-            className="rounded-full bg-blue-600 px-4 py-2.5 text-xs font-bold text-white shadow-sm transition hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300 md:px-5"
+            className="inline-flex min-h-11 items-center rounded-lg bg-blue-600 px-4 py-2.5 text-xs font-bold text-white transition-colors hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300 md:px-5"
           >
             Explore
           </Link>
@@ -150,7 +150,7 @@ export default function Navbar() {
               setMenuOpen((open) => !open);
               setGateOpen(false);
             }}
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-gray-300 transition hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 md:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 text-gray-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 md:hidden"
           >
             {menuOpen ? (
               <X className="h-5 w-5" aria-hidden="true" />
@@ -177,7 +177,7 @@ export default function Navbar() {
               onClick={() => setGateOpen((open) => !open)}
               aria-expanded={gateOpen}
               aria-controls="mobile-gate-menu"
-              className="flex w-full items-center justify-between rounded-lg px-3 py-3 text-left text-sm font-medium text-gray-300 transition hover:bg-white/5 hover:text-white"
+              className="flex min-h-11 w-full items-center justify-between rounded-lg px-3 py-3 text-left text-sm font-medium text-gray-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
             >
               GATE Hub
 
@@ -202,7 +202,7 @@ export default function Navbar() {
                       setMenuOpen(false);
                       setGateOpen(false);
                     }}
-                    className="flex items-center gap-3 rounded-lg px-3 py-3 text-sm text-gray-300 transition hover:bg-blue-500/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                    className="flex min-h-11 items-center gap-3 rounded-lg px-3 py-3 text-sm text-gray-300 transition-colors hover:bg-blue-500/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                   >
                     <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-blue-400/15 bg-blue-400/[0.08] text-[10px] font-bold text-blue-200">
                       {link.code}
@@ -222,7 +222,7 @@ export default function Navbar() {
                   setMenuOpen(false);
                   setGateOpen(false);
                 }}
-                className="rounded-lg px-3 py-3 text-sm font-medium text-gray-300 transition hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                className="min-h-11 rounded-lg px-3 py-3 text-sm font-medium text-gray-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
               >
                 {link.label}
               </Link>

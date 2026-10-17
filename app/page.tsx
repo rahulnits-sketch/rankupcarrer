@@ -6,282 +6,447 @@ import {
   BriefcaseBusiness,
   Code2,
   GraduationCap,
+  Calculator,
+  Timer,
+  CheckCircle2,
+  FileCheck2,
+  Binary,
+  Layers,
 } from "lucide-react";
+
+const stats = [
+  { label: "Archive Span", value: "1987 – 2026", detail: "38 Years Continuous PYQ Data" },
+  { label: "Question Bank", value: "8,200+", detail: "MCQ, MSQ & NAT Formats" },
+  { label: "Curated Roadmaps", value: "100% Free", detail: "GATE, DSA & Placement Tracks" },
+  { label: "Exam Standard", value: "65 Qs / 100M", detail: "Realistic IIT/IISc Mock Interface" },
+];
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col overflow-hidden bg-[#08090b] text-white selection:bg-blue-500 selection:text-white">
+    <main className="flex min-h-screen flex-col overflow-x-hidden bg-[#07090e] text-[#f8fafc] selection:bg-indigo-600 selection:text-white">
       <Navbar />
-      <section className="relative isolate flex min-h-[min(760px,calc(100svh-4rem))] w-full items-center justify-center overflow-hidden border-b border-white/[0.06] px-6 py-24 text-center md:py-28">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_50%_38%,rgba(37,99,235,0.18),transparent_48%)]" />
-        <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[34rem] w-[34rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/[0.04]" />
-        <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[25rem] w-[25rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/[0.04]" />
-        <div className="mx-auto flex w-full max-w-5xl flex-col items-center gap-8 md:gap-10">
-          <h1 className="text-5xl font-extrabold leading-[0.98] tracking-[-0.055em] sm:text-6xl md:text-7xl lg:text-8xl">
-            <span className="block">Prepare Smarter</span>
-            <span className="mt-3 block bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">
-              Test Faster
-            </span>
+
+      {/* Hero Section */}
+      <section className="relative isolate overflow-hidden border-b border-white/[0.08] px-6 pt-16 pb-12 md:pt-24 md:pb-16">
+        {/* Ambient Grid & Glow Backdrops */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(99,102,241,0.18),transparent_65%)]"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"
+        />
+
+        <div className="mx-auto flex w-full max-w-6xl flex-col items-center text-center">
+
+          {/* Main Title */}
+          <h1 className="mt-8 max-w-5xl text-4xl font-extrabold tracking-[-0.04em] text-white sm:text-6xl md:text-7xl lg:text-[4.75rem] leading-[1.06]">
+            Your <span className="bg-gradient-to-r from-blue-400 via-indigo-300 to-cyan-300 bg-clip-text text-transparent">COLLEGE</span> Journey, Made Simpler
           </h1>
 
-          <p className="max-w-2xl text-base leading-7 text-gray-400 md:text-lg md:leading-8">
-            Your all-in-one platform for <span className="text-white font-medium">CSE GATE</span> <span className="text-white font-medium">PYQ(1987-2026) , Full Mock Test</span> with solutions, <span className="text-white font-medium">DSA </span>, Placement and campus tech interview Prepration.
+          {/* Subtitle with rigorous clarity */}
+         <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-300 sm:text-lg md:text-xl md:leading-8">
+            From GATE prep and DSA to placements and interviews — everything you need to learn, practice, and grow, all in one place.
           </p>
 
-          <Link
-            href="/tests"
-            className="group inline-flex min-h-14 items-center gap-3 rounded-full bg-white px-8 py-4 text-base font-bold text-black shadow-[0_12px_40px_rgba(255,255,255,0.12)] transition duration-200 hover:-translate-y-0.5 hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-          >
-            <span>Start Preparing</span>
-            <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-          </Link>
-        </div>
-      </section>
-
-      <section id="tracks" className="mx-auto w-full max-w-7xl scroll-mt-24 px-6 py-20 md:py-28">
-        <div className="mb-10 text-center md:mb-14">
-          <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-5xl">
-          Let’s Build Your Future
-          </h2>
-        </div>
-
-        <div className="grid gap-5 md:grid-cols-3 md:gap-6">
-          <Link
-            href="/gate"
-            className="group relative flex min-h-64 flex-col justify-between overflow-hidden rounded-3xl border border-white/[0.09] bg-gradient-to-br from-white/[0.045] to-white/[0.015] p-7 shadow-[0_16px_50px_rgba(0,0,0,0.18)] transition duration-300 hover:-translate-y-1 hover:border-blue-300/30 hover:from-blue-400/[0.08] hover:to-white/[0.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
-          >
-            <div className="pointer-events-none absolute -bottom-12 -right-8 h-40 w-40 rounded-full bg-blue-500/[0.06] blur-3xl transition group-hover:bg-blue-500/10" />
-            <div className="relative">
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl border border-blue-400/20 bg-blue-400/10 text-blue-300">
-                <GraduationCap className="h-6 w-6" aria-hidden="true" />
-              </span>
-              <h3 className="mt-5 flex items-center gap-3 text-2xl font-bold text-white">
-                GATE CSE
-                <ArrowRight className="h-5 w-5 text-blue-300 transition group-hover:translate-x-1" aria-hidden="true" />
-              </h3>
-              <p className="mt-2 max-w-xs text-sm leading-relaxed text-gray-400">
-                Practise by subject, explore previous-year questions, and take mock tests.
-              </p>
-            </div>
-            <span className="relative mt-6 w-fit rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-semibold text-emerald-300">
-              Explore GATE
-            </span>
-          </Link>
-
-          <Link
-            href="/dsa"
-            className="group relative flex min-h-64 flex-col justify-between overflow-hidden rounded-3xl border border-purple-400/20 bg-gradient-to-br from-purple-400/[0.07] via-white/[0.025] to-white/[0.015] p-7 shadow-[0_16px_50px_rgba(0,0,0,0.2)] transition duration-300 hover:-translate-y-1 hover:border-purple-300/45 hover:from-purple-400/[0.12] hover:to-purple-400/[0.03] hover:shadow-[0_20px_60px_rgba(168,85,247,0.12)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-purple-300"
-          >
-            <div className="pointer-events-none absolute -bottom-16 -right-10 h-48 w-48 rounded-full bg-purple-500/[0.12] blur-3xl transition duration-300 group-hover:bg-purple-400/20" />
-            <div className="relative">
-              <span className="flex h-14 w-14 items-center justify-center rounded-2xl border border-purple-300/30 bg-purple-400/15 text-purple-200 shadow-[0_8px_24px_rgba(168,85,247,0.12)] transition duration-300 group-hover:border-purple-200/50 group-hover:bg-purple-400/20">
-                <Code2 className="h-6 w-6" aria-hidden="true" />
-              </span>
-              <h3 className="mt-6 flex items-center gap-3 text-2xl font-bold text-white sm:text-[1.7rem]">
-                DSA
-                <ArrowRight className="h-5 w-5 text-purple-200 transition-transform duration-200 group-hover:translate-x-1" aria-hidden="true" />
-              </h3>
-              <p className="mt-3 max-w-sm text-sm leading-6 text-gray-300">
-                Build problem-solving skills with topic-wise practice and structured roadmaps.
-              </p>
-            </div>
-            <span className="relative mt-7 w-fit rounded-full border border-purple-300/30 bg-purple-400/15 px-3.5 py-1.5 text-xs font-semibold text-purple-200 transition group-hover:border-purple-200/50 group-hover:bg-purple-400/20">
-              Explore DSA Sheet
-            </span>
-          </Link>
-
-          <Link
-            href="/placement"
-            className="group relative flex min-h-64 flex-col justify-between overflow-hidden rounded-3xl border border-white/[0.09] bg-gradient-to-br from-white/[0.045] to-white/[0.015] p-7 shadow-[0_16px_50px_rgba(0,0,0,0.18)] transition duration-300 hover:-translate-y-1 hover:border-blue-300/30 hover:from-blue-400/[0.08] hover:to-white/[0.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
-          >
-            <div className="pointer-events-none absolute -bottom-12 -right-8 h-40 w-40 rounded-full bg-blue-500/[0.06] blur-3xl transition group-hover:bg-blue-500/10" />
-            <div className="relative">
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl border border-blue-400/20 bg-blue-400/10 text-blue-300">
-                <BriefcaseBusiness className="h-6 w-6" aria-hidden="true" />
-              </span>
-              <h3 className="mt-5 flex items-center gap-3 text-2xl font-bold text-white">
-                Placement
-                <ArrowRight className="h-5 w-5 text-blue-300 transition group-hover:translate-x-1" aria-hidden="true" />
-              </h3>
-              <p className="mt-2 max-w-xs text-sm leading-relaxed text-gray-400">
-                Prepare for hiring tests with aptitude, reasoning, and verbal practice.
-              </p>
-            </div>
-            <span className="relative mt-6 w-fit rounded-full border border-blue-400/20 bg-blue-400/10 px-3 py-1 text-xs font-semibold text-blue-300">
-              Explore Placement
-            </span>
-          </Link>
-        </div>
-
-        <div className="relative mt-12 overflow-hidden rounded-3xl border border-blue-300/15 bg-gradient-to-br from-[#101b2b] via-[#101827] to-[#11111c] p-7 shadow-[0_24px_80px_rgba(37,99,235,0.08)] md:mt-16 md:px-10 md:py-9">
-          <div className="pointer-events-none absolute -right-10 -top-24 h-64 w-64 rounded-full bg-blue-500/10 blur-3xl" />
-          <div className="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-            <div>
-              <p className="text-xs font-bold tracking-wide text-blue-300">
-                CheckMate College
-              </p>
-              <h3 className="mt-2 text-xl font-extrabold leading-tight text-white md:text-2xl">
-                One platform. Endless possibilities.
-              </h3>
-              <p className="mt-1 text-sm text-gray-400">
-                GATE, DSA, and Placement preparation, all in one place.
-              </p>
-            </div>
+          {/* Primary CTA Row */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4 sm:gap-5">
             <Link
               href="/tests"
-              className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-blue-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
+              className="group inline-flex min-h-13 items-center gap-2.5 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-slate-950 shadow-[0_0_30px_rgba(255,255,255,0.2)] transition-all duration-200 hover:bg-slate-100 hover:shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
             >
-              Start Preparing
-              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              <span>Start Practice Free</span>
+
+            </Link>
+          </div>
+
+          {/* Feature Checklist Tags */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-medium text-slate-400 md:mt-10">
+            <span className="flex items-center gap-1.5">
+              <CheckCircle2 className="h-4 w-4 text-indigo-300" /> 100% Free & Open
+            </span>
+            <span className="flex items-center gap-1.5">
+              <Timer className="h-4 w-4 text-indigo-300" /> Real Exam Timed Mocks
+            </span>
+            <span className="flex items-center gap-1.5">
+              <Calculator className="h-4 w-4 text-indigo-300" /> Virtual Calculator Ready
+            </span>
+            <span className="flex items-center gap-1.5">
+              <FileCheck2 className="h-4 w-4 text-indigo-400" /> Detailed Step-by-Step Solutions
+            </span>
+          </div>
+
+          <div className="mt-6 grid w-full grid-cols-2 gap-3 text-left sm:grid-cols-4">
+            {stats.map((item) => (
+              <div
+                key={item.label}
+                className="flex min-w-0 flex-col justify-center rounded-xl border border-white/[0.06] bg-white/[0.02] p-4"
+              >
+                <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                  {item.label}
+                </span>
+                <span className="mt-1 font-mono text-base font-extrabold leading-tight tracking-tight text-white sm:text-xl">
+                  {item.value}
+                </span>
+                <span className="mt-1 text-xs leading-relaxed text-slate-400">
+                  {item.detail}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    {/* The 3 Core Tracks Section */}
+    <section
+    id="tracks"
+  className="scroll-mt-24 bg-[#080a10] px-4 pt-8 pb-12 md:px-6 md:pt-10 md:pb-16"
+    >
+  <div className="mx-auto max-w-6xl">
+      {/* Section Heading */}
+      <div className="flex items-center justify-between border-b border-white/[0.08] pb-3">
+      <h2 className="text-xl font-extrabold tracking-tight text-white md:text-2xl">
+        Choose Your Goal
+      </h2>
+      </div>
+
+    {/* Track Cards */}
+    <div className="mt-6 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+      {/* GATE HUB */}
+      <div className="group relative flex h-full flex-col justify-between overflow-hidden rounded-xl border border-white/[0.08] bg-[#0d101a] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-[#101422]">
+        <div className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full bg-indigo-500/[0.05] blur-3xl transition duration-300 group-hover:bg-indigo-500/[0.09]" />
+
+        <div className="relative">
+          <div className="flex items-center justify-between gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-white transition group-hover:bg-white/[0.08]">
+              <GraduationCap className="h-5 w-5" />
+            </span>
+
+            <span className="rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1 font-mono text-[10px] font-medium text-gray-300">
+              IIT / IISc Grade
+            </span>
+          </div>
+
+          <h3 className="mt-4 text-lg font-bold tracking-tight text-white">
+            GATE Hub
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-slate-300">
+            Solve previous year questions, practice subject-wise chapter tests,
+            and take timed full mocks with virtual calculator integration.
+          </p>
+
+          <ul className="mt-4 space-y-2 border-t border-white/[0.07] pt-4 text-xs leading-5 text-slate-300">
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>1987–2026 Year-wise PYQ Papers</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>GATE-Style Exam Interface</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Subject-wise Topic Breakdown</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="relative mt-5 border-t border-white/[0.07] pt-4">
+          <Link
+            href="/gate"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-[#0d101a] transition hover:bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            <span>Explore GATE Hub</span>
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+      </div>
+
+      {/* DSA PROBLEM MATRIX */}
+      <div className="group relative flex h-full flex-col justify-between overflow-hidden rounded-xl border border-white/[0.08] bg-[#0d101a] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-[#101422]">
+        <div className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full bg-indigo-500/[0.05] blur-3xl transition duration-300 group-hover:bg-indigo-500/[0.09]" />
+
+        <div className="relative">
+          <div className="flex items-center justify-between gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-white transition group-hover:bg-white/[0.08]">
+              <Code2 className="h-5 w-5" />
+            </span>
+
+            <span className="rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1 font-mono text-[10px] font-medium text-gray-300">
+              SDE SHEETS
+            </span>
+          </div>
+
+          <h3 className="mt-4 text-lg font-bold tracking-tight text-white">
+            DSA Problem Matrix
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-slate-300">
+            Build algorithmic intuition with curated topic-wise problems,
+            Blind 75 / Top 150 patterns, and structured coding roadmaps.
+          </p>
+
+          <ul className="mt-4 space-y-2 border-t border-white/[0.07] pt-4 text-xs leading-5 text-slate-300">
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Pattern-Oriented Problem Grouping</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Time &amp; Space Complexity Insights</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Interactive Progress Checklist</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="relative mt-5 border-t border-white/[0.07] pt-4">
+          <Link
+            href="/dsa"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-[#0d101a] transition hover:bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            <span>Explore DSA Sheet</span>
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+      </div>
+
+      {/* PLACEMENT TRACK */}
+      <div className="group relative flex h-full flex-col justify-between overflow-hidden rounded-xl border border-white/[0.08] bg-[#0d101a] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-[#101422]">
+        <div className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full bg-indigo-500/[0.05] blur-3xl transition duration-300 group-hover:bg-indigo-500/[0.09]" />
+
+        <div className="relative">
+          <div className="flex items-center justify-between gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-white transition group-hover:bg-white/[0.08]">
+              <BriefcaseBusiness className="h-5 w-5" />
+            </span>
+
+            <span className="rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1 font-mono text-[10px] font-medium text-gray-300">
+              TECH HIRING
+            </span>
+          </div>
+
+          <h3 className="mt-4 text-lg font-bold tracking-tight text-white">
+            Placement &amp; Campus Tests
+          </h3>
+
+          <p className="mt-2 text-sm leading-6 text-slate-300">
+            Prepare for recruitment with aptitude drills, logical reasoning,
+            core CS fundamentals, and online assessment simulations.
+          </p>
+
+          <ul className="mt-4 space-y-2 border-t border-white/[0.07] pt-4 text-xs leading-5 text-slate-300">
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Company-Specific OA Patterns</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Quantitative, Verbal &amp; Logical Aptitude</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-white/70" />
+              <span>Core CS Quick Revision Notes</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className="relative mt-5 border-t border-white/[0.07] pt-4">
+          <Link
+            href="/placement"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-[#0d101a] transition hover:bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            <span>Explore Placement</span>
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      {/* Strategic Roadmaps Section */}
+      <section aria-labelledby="roadmaps-heading" className="border-t border-white/[0.08] bg-[#0a0d15] px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-6xl">
+          <h2 id="roadmaps-heading" className="max-w-3xl text-3xl font-extrabold leading-tight tracking-tight text-white md:text-4xl">
+            Engineering students often fail because they practice without strategy
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7 text-slate-400">
+            Follow field-tested milestones created by previous top rankers
+          </p>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <Link
+              href="/gate/preparation-guide"
+              className="group flex flex-col justify-between rounded-2xl border border-white/[0.08] bg-[#0d101a] p-7 transition duration-200 hover:border-indigo-400/40 hover:bg-[#111624]"
+            >
+              <div>
+                <span className="font-mono text-xs font-semibold text-indigo-400">
+                  ROADMAP 01
+                </span>
+                <h3 className="mt-3 text-xl font-bold text-white group-hover:text-indigo-200 transition">
+                  How to Crack GATE CSE
+                </h3>
+                <p className="mt-3 text-xs leading-relaxed text-slate-400">
+                  Balancing college semester exams with GATE prep, mastering high-weightage subjects first, and optimal PYQ revision cycles.
+                </p>
+              </div>
+              <div className="mt-6 flex items-center justify-between border-t border-white/[0.06] pt-4 text-xs font-semibold text-indigo-300">
+                <span>View GATE Blueprint</span>
+                <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
+              </div>
+            </Link>
+
+            <Link
+              href="/dsa/roadmaps"
+              className="group flex flex-col justify-between rounded-2xl border border-white/[0.08] bg-[#0d101a] p-7 transition duration-200 hover:border-cyan-400/40 hover:bg-[#111624]"
+            >
+              <div>
+                <span className="font-mono text-xs font-semibold text-cyan-400">
+                  ROADMAP 02
+                </span>
+                <h3 className="mt-3 text-xl font-bold text-white group-hover:text-cyan-200 transition">
+                  Structured DSA Learning
+                </h3>
+                <p className="mt-3 text-xs leading-relaxed text-slate-400">
+                  Stop random LeetCoding. Master patterns like Two Pointers, Sliding Window, DP on Trees, and Graph Traversal in order.
+                </p>
+              </div>
+              <div className="mt-6 flex items-center justify-between border-t border-white/[0.06] pt-4 text-xs font-semibold text-cyan-300">
+                <span>View DSA Strategy</span>
+                <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
+              </div>
+            </Link>
+
+            <Link
+              href="/placement/preparation-guide"
+              className="group flex flex-col justify-between rounded-2xl border border-white/[0.08] bg-[#0d101a] p-7 transition duration-200 hover:border-emerald-400/40 hover:bg-[#111624]"
+            >
+              <div>
+                <span className="font-mono text-xs font-semibold text-emerald-400">
+                  ROADMAP 03
+                </span>
+                <h3 className="mt-3 text-xl font-bold text-white group-hover:text-emerald-200 transition">
+                  Campus Placement Master Plan
+                </h3>
+                <p className="mt-3 text-xs leading-relaxed text-slate-400">
+                  Step-by-step roadmap covering CS fundamentals, live coding tests, resume review checkpoints, and behavioral interviews.
+                </p>
+              </div>
+              <div className="mt-6 flex items-center justify-between border-t border-white/[0.06] pt-4 text-xs font-semibold text-emerald-300">
+                <span>View Placement Plan</span>
+                <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
+              </div>
             </Link>
           </div>
         </div>
-
-      <section aria-labelledby="roadmaps-heading" className="mt-20 border-t border-white/10 pt-16 md:mt-28 md:pt-20">
-      <div className="mx-auto max-w-7xl">
-      <div className="mx-auto max-w-2xl text-center">
-       <h2 id="roadmaps-heading" className="text-3xl font-extrabold tracking-tight text-white md:text-5xl">
-        Don&apos;t just study.
-        <span className="block text-gray-400">
-        Know what to study.
-      </span>
-      </h2>
-
-    </div>
-
-    <div className="mt-10 grid gap-5 md:mt-14 md:grid-cols-3 md:gap-6">
-
-    <Link
-      href="/roadmaps/gate"
-      className="group flex min-h-64 flex-col rounded-3xl border border-white/[0.09] bg-gradient-to-br from-white/[0.045] to-white/[0.015] p-7 shadow-[0_16px_50px_rgba(0,0,0,0.18)] transition duration-300 hover:-translate-y-1 hover:border-blue-400/30 hover:from-blue-400/[0.08] hover:to-white/[0.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
-    >
-      <span className="text-sm font-semibold text-blue-400">
-        GATE
-      </span>
-
-      <h3 className="mt-4 text-2xl font-bold">
-        How to prepare for GATE
-      </h3>
-
-      <p className="mt-3 text-sm leading-6 text-gray-400">
-        Understand subjects, PYQs, revision, mock tests and how to
-        prepare alongside college.
-      </p>
-
-      <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue-300">
-        View roadmap
-        <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
-      </span>
-    </Link>
-
-    <Link
-      href="/roadmaps/dsa"
-      className="group relative flex min-h-64 flex-col overflow-hidden rounded-3xl border border-purple-400/20 bg-gradient-to-br from-purple-400/[0.07] via-white/[0.025] to-white/[0.015] p-7 shadow-[0_16px_50px_rgba(0,0,0,0.2)] transition duration-300 hover:-translate-y-1 hover:border-purple-300/40 hover:from-purple-400/[0.11] hover:to-purple-400/[0.025] hover:shadow-[0_20px_60px_rgba(168,85,247,0.1)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-purple-300"
-    >
-      <div className="pointer-events-none absolute -right-12 -top-16 h-48 w-48 rounded-full bg-purple-500/[0.1] blur-3xl transition duration-300 group-hover:bg-purple-400/[0.18]" />
-      <div className="relative flex flex-1 flex-col">
-        <span className="text-sm font-semibold tracking-wide text-purple-300">
-          DSA
-        </span>
-
-        <h3 className="mt-4 text-2xl font-bold text-white">
-          How to learn DSA
-        </h3>
-
-        <p className="mt-3 text-sm leading-6 text-gray-300">
-          Follow patterns, roadmaps and problem-solving strategies
-          instead of randomly solving questions.
-        </p>
-
-        <span className="mt-auto inline-flex items-center gap-2 pt-8 text-sm font-semibold text-purple-200">
-          Start DSA
-          <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
-        </span>
-      </div>
-    </Link>
-
-      <Link
-        href="/roadmaps/placement"
-        className="group flex min-h-64 flex-col rounded-3xl border border-white/[0.09] bg-gradient-to-br from-white/[0.045] to-white/[0.015] p-7 shadow-[0_16px_50px_rgba(0,0,0,0.18)] transition duration-300 hover:-translate-y-1 hover:border-emerald-400/30 hover:from-emerald-400/[0.07] hover:to-white/[0.02] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-300"
-      >
-        <span className="text-sm font-semibold text-emerald-400">
-         PLACEMENT
-        </span>
-
-        <h3 className="mt-4 text-2xl font-bold">
-          How to crack placements
-        </h3>
-
-        <p className="mt-3 text-sm leading-6 text-gray-400">
-          Build DSA, aptitude, CS fundamentals, projects and interview
-          skills step by step.
-        </p>
-
-        <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-emerald-300">
-          View placement plan
-          <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
-        </span>
-      </Link>
-
-    </div>
-      </div>
       </section>
 
-        <div className="mt-20 border-t border-white/10 pt-12 md:mt-28 md:pt-16">
-          <div className="mb-8 max-w-2xl">
-            <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
-              How it works
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-gray-400">
-              Choose a preparation area, find a practice format, and start a test when you are ready.
-            </p>
+      {/* Exam Simulation Workflow (Replaces generic 01, 02, 03) */}
+      <section className="px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-white/[0.08] pb-8">
+            <div>
+              <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-white md:text-4xl">
+                How CheckMate Prepares You for D-Day
+              </h2>
+            </div>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3 md:gap-10">
-            <article className="flex flex-col rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 md:p-7">
-              <span className="font-mono text-sm font-semibold text-blue-400">01</span>
-              <h3 className="mt-3 text-lg font-bold text-white">Choose your track</h3>
-              <p className="mt-2 text-sm leading-relaxed text-gray-400">
-                Start with GATE CSE, DSA, or Placement based on what you are preparing for.
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="relative rounded-2xl border border-white/[0.08] bg-[#0d101a] p-7">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-400 font-mono text-sm font-bold">
+                <Binary className="h-5 w-5" />
+              </div>
+              <h3 className="mt-5 text-lg font-bold text-white">1. Select Target & Scope</h3>
+              <p className="mt-2 text-xs leading-relaxed text-slate-400">
+                Choose a full 65-question mock paper, a single year (e.g. 2024 Set 1), or a targeted subject like Operating Systems to focus on your weakest links.
               </p>
-              <Link
-                href="#tracks"
-                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
-              >
-                View preparation tracks <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </Link>
-            </article>
+              <div className="mt-5">
+                <Link
+                  href="/gate/pyq"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-300 hover:text-indigo-200"
+                >
+                  Browse archive <ArrowRight className="h-3 w-3" />
+                </Link>
+              </div>
+            </div>
 
-            <article className="flex flex-col rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 md:p-7">
-              <span className="font-mono text-sm font-semibold text-blue-400">02</span>
-              <h3 className="mt-3 text-lg font-bold text-white">Pick a practice format</h3>
-              <p className="mt-2 text-sm leading-relaxed text-gray-400">
-                Browse GATE papers by year, practise by subject, or explore DSA roadmaps and placement topics.
+            <div className="relative rounded-2xl border border-white/[0.08] bg-[#0d101a] p-7">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-400 font-mono text-sm font-bold">
+                <Timer className="h-5 w-5" />
+              </div>
+              <h3 className="mt-5 text-lg font-bold text-white">2. Timed CBT Interface</h3>
+              <p className="mt-2 text-xs leading-relaxed text-slate-400">
+                Experience real GATE conditions: 180-minute countdown, virtual numerical on-screen keypad, question palette, and negative marking enforcement.
               </p>
-              <Link
-                href="/gate/pyq"
-                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
-              >
-                Browse GATE papers <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </Link>
-            </article>
+              <div className="mt-5">
+                <Link
+                  href="/gate/mock"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-300 hover:text-indigo-200"
+                >
+                  Launch mock test <ArrowRight className="h-3 w-3" />
+                </Link>
+              </div>
+            </div>
 
-            <article className="flex flex-col rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 md:p-7">
-              <span className="font-mono text-sm font-semibold text-blue-400">03</span>
-              <h3 className="mt-3 text-lg font-bold text-white">Start a practice session</h3>
-              <p className="mt-2 text-sm leading-relaxed text-gray-400">
-                Open a mock test or practice set and work through questions at your own pace.
+            <div className="relative rounded-2xl border border-white/[0.08] bg-[#0d101a] p-7">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-400 font-mono text-sm font-bold">
+                <Layers className="h-5 w-5" />
+              </div>
+              <h3 className="mt-5 text-lg font-bold text-white">3. Granular Derivations & Keys</h3>
+              <p className="mt-2 text-xs leading-relaxed text-slate-400">
+                Instantly compare your answers against official IIT answer keys, NAT numerical tolerances, and comprehensive step-by-step mathematical explanations.
               </p>
-              <Link
-                href="/gate/mock"
-                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
-              >
-                View GATE mock tests <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </Link>
-            </article>
+              <div className="mt-5">
+                <Link
+                  href="/tests"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-300 hover:text-indigo-200"
+                >
+                  Explore solutions <ArrowRight className="h-3 w-3" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      {/* Callout Banner */}
+      <section className="px-6 pb-20 md:pb-28">
+        <div className="mx-auto max-w-6xl overflow-hidden rounded-3xl border border-indigo-400/20 bg-gradient-to-r from-indigo-950/60 via-[#0d101a] to-blue-950/40 p-8 md:p-12 shadow-2xl">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
+            <div className="max-w-2xl">
+              <h2 className="mt-2 text-2xl font-extrabold text-white sm:text-3xl md:text-4xl">
+                Ready to Test Your Conceptual Depth?
+              </h2>
+              <p className="mt-3 text-sm text-slate-300 leading-relaxed">
+                Join thousands of aspirants practicing with authentic GATE papers and structured coding sheets.
+              </p>
+            </div>
+            <div className="shrink-0 flex flex-col sm:flex-row gap-3">
+              <Link
+                href="/tests"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-slate-950 transition hover:bg-slate-100 hover:shadow-lg"
+              >
+                <span>Start Practice Now</span>
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                href="/syllabus"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white/10"
+              >
+                <span>View Full Syllabus</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </main>
   );
