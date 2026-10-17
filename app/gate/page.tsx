@@ -7,10 +7,12 @@ import {
   Cog,
   Cpu,
   Zap,
+  Sparkles,
+  Timer,
+  BookOpen,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import BackButton from "@/components/BackButton";
 import SubNavPills from "@/components/SubNavPills";
 import { gateNavPills } from "@/lib/hubNav";
 import subjectsManifest from "@/data/gate/subjects/manifest.json";
@@ -31,7 +33,6 @@ export const metadata: Metadata = {
   ],
 };
 
-
 const gateOptions = [
   {
     href: "/gate/pyq",
@@ -39,8 +40,8 @@ const gateOptions = [
     icon: "📅",
     title: "Year-wise PYQs",
     description:
-      "Choose a GATE CSE paper by year and attempt it like a timed exam.",
-    detail: `${pyqManifest.length} papers · 1987–2026`,
+      "Choose a GATE CSE paper by year (1987–2026) and attempt it in full TCS iON timed CBT interface.",
+    detail: `${pyqManifest.length} papers · 1987–2026 Archives`,
     accent: "blue",
   },
   {
@@ -49,43 +50,43 @@ const gateOptions = [
     icon: "📚",
     title: "Subject-wise Practice",
     description:
-      "Pick a subject to practise its topics and previous year questions.",
-    detail: `${subjectsManifest.length} subjects · Topic-wise practice`,
+      "Pick any of the 10 core CS subjects to drill chapter-level conceptual questions and PYQs.",
+    detail: `${subjectsManifest.length} subjects · Topic-wise drills`,
     accent: "purple",
   },
   {
     href: "/gate/mock",
     number: "03",
     icon: "🎯",
-    title: "Mock Tests",
+    title: "All-India Mock Tests",
     description:
-      "Take a full-length mock, a subject mock, or a quick practice drill.",
-    detail: "Full mocks · Subject mocks · Practice drills",
+      "Take a realistic 65-question / 100-mark mock with virtual scientific calculator and verified derivations.",
+    detail: "Full mocks · 180 min · Exact marking",
     accent: "emerald",
   },
 ] as const;
 
 const accentStyles = {
   blue: {
-    border: "hover:border-blue-500/40",
-    icon: "border-blue-500/20 bg-blue-500/10",
-    number: "text-blue-400",
-    title: "group-hover:text-blue-300",
-    button: "bg-blue-600 hover:bg-blue-500",
+    border: "hover:border-blue-400",
+    icon: "border-blue-200 bg-blue-50 text-blue-700",
+    number: "text-blue-600",
+    title: "group-hover:text-blue-700",
+    button: "bg-blue-600 hover:bg-blue-700 text-white",
   },
   purple: {
-    border: "hover:border-purple-500/40",
-    icon: "border-purple-500/20 bg-purple-500/10",
-    number: "text-purple-400",
-    title: "group-hover:text-purple-300",
-    button: "bg-purple-600 hover:bg-purple-500",
+    border: "hover:border-purple-400",
+    icon: "border-purple-200 bg-purple-50 text-purple-700",
+    number: "text-purple-600",
+    title: "group-hover:text-purple-700",
+    button: "bg-purple-600 hover:bg-purple-700 text-white",
   },
   emerald: {
-    border: "hover:border-emerald-500/40",
-    icon: "border-emerald-500/20 bg-emerald-500/10",
-    number: "text-emerald-400",
-    title: "group-hover:text-emerald-300",
-    button: "bg-emerald-600 hover:bg-emerald-500",
+    border: "hover:border-emerald-400",
+    icon: "border-emerald-200 bg-emerald-50 text-emerald-700",
+    number: "text-emerald-600",
+    title: "group-hover:text-emerald-700",
+    button: "bg-emerald-600 hover:bg-emerald-700 text-white",
   },
 } as const;
 
@@ -98,34 +99,46 @@ const branchIcons = {
 } as const;
 
 const branchAccents = {
-  blue: "border-blue-400/20 bg-blue-400/10 text-blue-300",
-  cyan: "border-cyan-400/20 bg-cyan-400/10 text-cyan-300",
-  amber: "border-amber-400/20 bg-amber-400/10 text-amber-300",
-  emerald: "border-emerald-400/20 bg-emerald-400/10 text-emerald-300",
-  purple: "border-purple-400/20 bg-purple-400/10 text-purple-300",
+  blue: "border-blue-200 bg-blue-50 text-blue-700",
+  cyan: "border-cyan-200 bg-cyan-50 text-cyan-700",
+  amber: "border-amber-200 bg-amber-50 text-amber-700",
+  emerald: "border-emerald-200 bg-emerald-50 text-emerald-700",
+  purple: "border-purple-200 bg-purple-50 text-purple-700",
 } as const;
 
 export default function GateMasterPage() {
   return (
-    <main className="flex min-h-screen flex-col justify-between bg-[#08090b] text-white selection:bg-blue-500 selection:text-white">
+    <main className="flex min-h-screen flex-col justify-between bg-[#f8fafc] text-slate-900 selection:bg-blue-600 selection:text-white">
       <Navbar />
       <SubNavPills categoryTitle="EXPLORE GATE" pills={gateNavPills} />
 
-      <section className="mx-auto w-full max-w-6xl flex-1 px-6 py-10 md:py-16">
-        <div className="mb-10 flex flex-col gap-5 border-b border-white/10 pb-8 sm:flex-row sm:items-end sm:justify-between">
+      <section className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 md:px-6 md:py-14">
+        {/* Header */}
+        <div className="mb-10 flex flex-col gap-4 border-b border-slate-200 pb-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
-         
-            <h1 className="text-3xl font-black tracking-tight md:text-5xl">
-              What would you like to{" "}
-              <span className="bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">
-                practise today?
-              </span>
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
+              <Sparkles className="h-3.5 w-3.5 text-blue-600" />
+              <span>Target: IIT Bombay • IISc Bangalore • IIT Madras • ISRO</span>
+            </div>
+            <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+              What would you like to <span className="text-blue-600">practise today?</span>
             </h1>
-        
+            <p className="mt-2 text-sm text-slate-600">
+              Select your practice modality: Full 180-min mocks, year-wise PYQ sets, or subject chapter drills.
+            </p>
           </div>
+
+          <Link
+            href="/test/gate-mock-full-2026-1"
+            className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow-sm shadow-blue-500/20 hover:bg-blue-700 transition"
+          >
+            <Timer className="h-4 w-4" />
+            <span>2026 Full CBT Mock</span>
+          </Link>
         </div>
 
-        <div className="grid gap-5 md:grid-cols-3">
+        {/* 3 GATE Modalities */}
+        <div className="grid gap-6 md:grid-cols-3">
           {gateOptions.map((option) => {
             const styles = accentStyles[option.accent];
 
@@ -133,11 +146,11 @@ export default function GateMasterPage() {
               <Link
                 key={option.href}
                 href={option.href}
-                className={`group flex min-h-72 flex-col rounded-3xl border border-white/10 bg-white/[0.02] p-6 transition duration-200 hover:-translate-y-1 hover:bg-white/[0.04] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400 sm:p-7 ${styles.border}`}
+                className={`group flex min-h-72 flex-col rounded-3xl border border-slate-200 bg-white p-6 transition duration-200 hover:-translate-y-1 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600 sm:p-7 ${styles.border}`}
               >
                 <div className="flex items-center justify-between">
                   <span
-                    className={`flex h-14 w-14 items-center justify-center rounded-2xl border text-2xl ${styles.icon}`}
+                    className={`flex h-12 w-12 items-center justify-center rounded-2xl border text-2xl ${styles.icon}`}
                     aria-hidden="true"
                   >
                     {option.icon}
@@ -148,21 +161,21 @@ export default function GateMasterPage() {
                 </div>
 
                 <h2
-                  className={`mt-6 text-xl font-bold text-white transition ${styles.title}`}
+                  className={`mt-6 text-xl font-bold text-slate-900 transition ${styles.title}`}
                 >
                   {option.title}
                 </h2>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-gray-400">
+                <p className="mt-2 flex-1 text-xs leading-relaxed text-slate-600">
                   {option.description}
                 </p>
-                <p className="mt-5 border-t border-white/10 pt-4 text-xs text-gray-500">
+                <p className="mt-5 border-t border-slate-100 pt-3 text-[11px] font-medium text-slate-500">
                   {option.detail}
                 </p>
 
                 <span
-                  className={`mt-5 flex items-center justify-between rounded-xl px-4 py-3 text-sm font-bold text-white transition ${styles.button}`}
+                  className={`mt-4 flex items-center justify-between rounded-xl px-4 py-2.5 text-xs font-bold transition shadow-2xs ${styles.button}`}
                 >
-                  <span>Explore</span>
+                  <span>Explore Mode</span>
                   <span aria-hidden="true">→</span>
                 </span>
               </Link>
@@ -170,16 +183,17 @@ export default function GateMasterPage() {
           })}
         </div>
 
+        {/* All GATE Branches */}
         <section id="branches" className="scroll-mt-24 pb-4 pt-16">
-          <div className="mb-6 border-b border-white/10 pb-6">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-300">
-              Find your stream
+          <div className="mb-6 border-b border-slate-200 pb-4">
+            <p className="text-xs font-bold uppercase tracking-wider text-blue-600">
+              Find Your Engineering Stream
             </p>
-            <h2 className="mt-2 text-2xl font-extrabold tracking-tight md:text-3xl">
-              Explore all GATE branches
+            <h2 className="mt-1 text-2xl font-extrabold tracking-tight text-slate-900 md:text-3xl">
+              Explore All GATE Branches
             </h2>
-            <p className="mt-2 max-w-2xl text-sm leading-6 text-gray-400">
-              Choose your engineering stream to open its dedicated preparation hub.
+            <p className="mt-1 text-xs text-slate-500">
+              Access 1987–2026 PYQs and tests across all major engineering disciplines.
             </p>
           </div>
 
@@ -191,7 +205,7 @@ export default function GateMasterPage() {
                 <Link
                   key={branch.slug}
                   href={`/gate/${branch.slug}`}
-                  className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4 transition hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.045] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400"
+                  className="group flex items-center gap-4 rounded-2xl border border-slate-200 bg-white p-4 transition hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md"
                 >
                   <span
                     className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border ${branchAccents[branch.accent]}`}
@@ -199,15 +213,15 @@ export default function GateMasterPage() {
                     <Icon className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block text-[10px] font-bold uppercase tracking-[0.15em] text-gray-500">
+                    <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400">
                       GATE {branch.code}
                     </span>
-                    <span className="mt-1 block truncate text-sm font-semibold text-gray-200 transition group-hover:text-white">
+                    <span className="mt-0.5 block truncate text-sm font-bold text-slate-800 transition group-hover:text-blue-600">
                       {branch.shortTitle}
                     </span>
                   </span>
                   <ArrowRight
-                    className="h-4 w-4 shrink-0 text-gray-600 transition group-hover:translate-x-1 group-hover:text-blue-300"
+                    className="h-4 w-4 shrink-0 text-slate-400 transition group-hover:translate-x-1 group-hover:text-blue-600"
                     aria-hidden="true"
                   />
                 </Link>

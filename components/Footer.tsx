@@ -3,49 +3,56 @@ import { Check, Mail, MessageCircle, Phone } from "lucide-react";
 
 const footerLinks = [
   { href: "/", label: "Home" },
-  { href: "/gate", label: "GATE" },
-  { href: "/dsa", label: "DSA" },
+  { href: "/gate", label: "GATE Hub" },
+  { href: "/dsa", label: "DSA Sheet" },
+  { href: "/dsa/sandbox", label: "IDE Sandbox" },
   { href: "/placement", label: "Placement" },
+  { href: "/analytics", label: "Study Analytics" },
   { href: "/syllabus", label: "Syllabus" },
-  { href: "/general", label: "Quiz" },
+  { href: "/tests", label: "Practice Tests" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-[#08090b] text-gray-400">
-      <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-5 md:flex-row md:items-center md:justify-between">
-        <Link
-          href="/"
-          className="flex shrink-0 items-center gap-2 text-sm font-extrabold tracking-tight text-white"
-        >
-          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-blue-600 text-white shadow-lg shadow-blue-500/20">
-            <Check className="h-4 w-4" strokeWidth={3} aria-hidden="true" />
-          </span>
-          <span>
-            CheckMate <span className="text-blue-500">College</span>
-          </span>
-        </Link>
+    <footer className="border-t border-slate-200 bg-white text-slate-600">
+      <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-8 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-1">
+          <Link
+            href="/"
+            className="flex shrink-0 items-center gap-2 text-base font-extrabold tracking-tight text-slate-900"
+          >
+            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-blue-600 text-white shadow-sm shadow-blue-500/20">
+              <Check className="h-4 w-4" strokeWidth={3} aria-hidden="true" />
+            </span>
+            <span>
+              CheckMate <span className="text-blue-600">College</span>
+            </span>
+          </Link>
+          <p className="text-xs text-slate-500">
+            Unified Academic Preparation Portal & CBT Examination Engine
+          </p>
+        </div>
 
         <nav
           aria-label="Footer navigation"
-          className="flex flex-wrap items-center gap-x-5 gap-y-3 text-xs font-semibold"
+          className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs font-semibold text-slate-600"
         >
           {footerLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400"
+              className="transition-colors hover:text-blue-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               {link.label}
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2.5">
           <a
             href="tel:9708915535"
             aria-label="Call CheckMate GATE"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-gray-400 transition hover:border-blue-400/40 hover:bg-blue-500/10 hover:text-blue-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-600"
           >
             <Phone className="h-4 w-4" aria-hidden="true" />
           </a>
@@ -54,18 +61,21 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat with CheckMate GATE on WhatsApp"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-gray-400 transition hover:border-emerald-400/40 hover:bg-emerald-500/10 hover:text-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-600"
           >
             <MessageCircle className="h-4 w-4" aria-hidden="true" />
           </a>
           <a
             href="mailto:rkumarraj733@gmail.com"
             aria-label="Email CheckMate GATE"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-gray-400 transition hover:border-purple-400/40 hover:bg-purple-500/10 hover:text-purple-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600"
           >
             <Mail className="h-4 w-4" aria-hidden="true" />
           </a>
         </div>
+      </div>
+      <div className="border-t border-slate-100 py-3 text-center text-[11px] text-slate-400">
+        © 2026 CheckMate College. Built for GATE CSE, PSU & Tier-1 Tech Placement Aspirants.
       </div>
     </footer>
   );

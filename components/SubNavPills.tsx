@@ -18,9 +18,9 @@ export default function SubNavPills({ categoryTitle, pills }: SubNavPillsProps) 
   const pathname = usePathname();
 
   return (
-    <div className="w-full border-y border-white/10 bg-[#08090b]/90 py-3 backdrop-blur-md">
+    <div className="w-full border-y border-slate-200 bg-slate-50/90 py-3 backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-gray-400">
+        <p className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">
           {categoryTitle}
         </p>
         <div className="flex items-center gap-2 overflow-x-auto pb-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
@@ -33,19 +33,19 @@ export default function SubNavPills({ categoryTitle, pills }: SubNavPillsProps) 
               <Link
                 key={pill.href}
                 href={pill.href}
-                className={`inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-lg px-3.5 py-1.5 text-xs font-semibold transition duration-150 sm:text-sm ${
+                className={`inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-xl px-3.5 py-1.5 text-xs font-semibold transition duration-150 sm:text-sm ${
                   isActive
-                    ? "bg-blue-600 text-white shadow-lg shadow-blue-600/30"
-                    : "border border-white/10 bg-white/[0.04] text-gray-300 hover:bg-white/[0.08] hover:text-white"
+                    ? "bg-blue-600 text-white shadow-xs shadow-blue-500/20"
+                    : "border border-slate-200 bg-white text-slate-700 hover:bg-slate-100 hover:text-slate-900"
                 }`}
               >
                 <span>{pill.label}</span>
                 {pill.badge && (
                   <span
-                    className={`rounded px-1.5 py-0.2 text-[10px] font-bold uppercase ${
+                    className={`rounded px-1.5 py-0.5 text-[10px] font-bold uppercase ${
                       isActive
                         ? "bg-white/20 text-white"
-                        : "bg-blue-500/20 text-blue-300"
+                        : "bg-blue-100 text-blue-700"
                     }`}
                   >
                     {pill.badge}

@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
         <script
@@ -96,7 +96,7 @@ export default function RootLayout({
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
         />
       </head>
-      <body className="min-h-full flex flex-col bg-[#08090b] text-white selection:bg-blue-500 selection:text-white">
+      <body className="min-h-full flex flex-col bg-[#f8fafc] text-[#0f172a] selection:bg-blue-600 selection:text-white">
         {children}
       </body>
     </html>

@@ -9,6 +9,8 @@ import {
   Menu,
   X,
   ChevronDown,
+  BarChart3,
+  Code2,
 } from "lucide-react";
 
 const gateLinks = [
@@ -20,9 +22,10 @@ const gateLinks = [
 ];
 
 const navigationLinks = [
-  { href: "/dsa", label: "DSA" },
+  { href: "/dsa", label: "DSA Sheet" },
+  { href: "/dsa/sandbox", label: "IDE Sandbox", icon: Code2 },
   { href: "/placement", label: "Placement" },
-  { href: "/general", label: "Quiz" },
+  { href: "/analytics", label: "Study Analytics", icon: BarChart3 },
   { href: "/syllabus", label: "Syllabus" },
 ];
 
@@ -31,7 +34,7 @@ export default function Navbar() {
   const [gateOpen, setGateOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#08090b]/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-md shadow-xs">
       <nav
         aria-label="Main navigation"
         className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6"
@@ -39,13 +42,13 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="flex shrink-0 items-center gap-2.5 whitespace-nowrap text-base font-bold tracking-tight text-white md:text-xl"
+          className="flex shrink-0 items-center gap-2.5 whitespace-nowrap text-base font-extrabold tracking-tight text-slate-900 md:text-xl"
           onClick={() => {
             setMenuOpen(false);
             setGateOpen(false);
           }}
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white shadow-lg shadow-blue-500/20">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white shadow-md shadow-blue-500/20">
             <Check
               className="h-5 w-5"
               strokeWidth={3}
@@ -54,13 +57,12 @@ export default function Navbar() {
           </span>
 
           <span>
-            CheckMate <span className="text-blue-500">College</span>
+            CheckMate <span className="text-blue-600">College</span>
           </span>
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden items-center gap-5 text-sm font-medium text-gray-300 md:flex lg:gap-7">
-
+        <div className="hidden items-center gap-5 text-sm font-semibold text-slate-600 md:flex lg:gap-6">
           {/* GATE Hub Dropdown */}
           <div className="relative">
             <button
@@ -68,12 +70,11 @@ export default function Navbar() {
               onClick={() => setGateOpen((open) => !open)}
               aria-expanded={gateOpen}
               aria-controls="desktop-gate-menu"
-              className="flex items-center gap-1 rounded-sm transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
+              className="flex items-center gap-1.5 rounded-md px-2 py-1.5 transition-colors hover:text-slate-900 hover:bg-slate-100/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
-              GATE Hub
-
+              <span>GATE Hub</span>
               <ChevronDown
-                className={`h-4 w-4 transition-transform ${
+                className={`h-4 w-4 text-slate-500 transition-transform ${
                   gateOpen ? "rotate-180" : ""
                 }`}
                 aria-hidden="true"
@@ -83,30 +84,30 @@ export default function Navbar() {
             {gateOpen && (
               <div
                 id="desktop-gate-menu"
-                className="absolute left-1/2 top-full z-50 mt-4 w-72 -translate-x-1/2 rounded-2xl border border-white/10 bg-[#10141c] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.65)] ring-1 ring-blue-400/10"
+                className="absolute left-0 top-full z-50 mt-2 w-72 rounded-2xl border border-slate-200 bg-white p-2.5 shadow-xl shadow-slate-300/40 ring-1 ring-slate-900/5 animate-in fade-in slide-in-from-top-2 duration-150"
               >
-                <div className="px-3 pb-3 pt-2">
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-blue-300">
-                    GATE branches
+                <div className="px-3 pb-2 pt-1 border-b border-slate-100">
+                  <p className="text-[11px] font-bold uppercase tracking-wider text-blue-600">
+                    GATE Branches
                   </p>
-                  <p className="mt-1 text-sm text-gray-400">
-                    Choose your exam stream
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    1987–2026 PYQs & Mocks
                   </p>
                 </div>
-                <div className="grid gap-1">
+                <div className="mt-1 grid gap-0.5">
                   {gateLinks.map((link) => (
                     <Link
                       key={link.code}
                       href={link.href}
                       onClick={() => setGateOpen(false)}
-                      className="group flex items-center gap-3 rounded-xl px-3 py-3 text-sm text-gray-200 transition-colors hover:bg-blue-500/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                      className="group flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-blue-50 hover:text-blue-700"
                     >
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-blue-400/15 bg-blue-400/[0.08] text-[11px] font-bold tracking-wide text-blue-200 transition-colors group-hover:border-blue-300/30 group-hover:bg-blue-400/15">
+                      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-blue-200 bg-blue-50 text-[11px] font-bold text-blue-700 transition-colors group-hover:border-blue-400 group-hover:bg-blue-600 group-hover:text-white">
                         {link.code}
                       </span>
                       <span className="flex-1">{link.label}</span>
                       <ArrowRight
-                        className="h-4 w-4 text-gray-500 transition group-hover:translate-x-0.5 group-hover:text-blue-300"
+                        className="h-3.5 w-3.5 text-slate-400 transition group-hover:translate-x-0.5 group-hover:text-blue-600"
                         aria-hidden="true"
                       />
                     </Link>
@@ -121,20 +122,21 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-sm transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300"
+              className="flex items-center gap-1.5 rounded-md px-2 py-1.5 transition-colors hover:text-slate-900 hover:bg-slate-100/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
-              {link.label}
+              {link.icon && <link.icon className="h-4 w-4 text-slate-400" />}
+              <span>{link.label}</span>
             </Link>
           ))}
         </div>
 
         {/* Explore + Mobile Toggle */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2.5">
           <Link
             href="/tests"
-            className="inline-flex min-h-11 items-center rounded-lg bg-blue-600 px-4 py-2.5 text-xs font-bold text-white transition-colors hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-300 md:px-5"
+            className="inline-flex min-h-10 items-center justify-center rounded-xl bg-blue-600 px-4 py-2 text-xs font-bold text-white shadow-sm shadow-blue-500/20 transition-all hover:bg-blue-700 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 md:px-5"
           >
-            Explore
+            Start Practice Free
           </Link>
 
           <button
@@ -150,7 +152,7 @@ export default function Navbar() {
               setMenuOpen((open) => !open);
               setGateOpen(false);
             }}
-            className="flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 text-gray-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 md:hidden"
           >
             {menuOpen ? (
               <X className="h-5 w-5" aria-hidden="true" />
@@ -165,11 +167,11 @@ export default function Navbar() {
       {menuOpen && (
         <div
           id="mobile-navigation"
-          className="border-t border-white/10 bg-[#08090b] px-6 py-3 md:hidden"
+          className="border-t border-slate-200 bg-white px-5 py-3 md:hidden shadow-lg"
         >
           <nav
             aria-label="Mobile navigation"
-            className="mx-auto grid max-w-7xl gap-1"
+            className="grid gap-1"
           >
             {/* Mobile GATE Dropdown */}
             <button
@@ -177,12 +179,11 @@ export default function Navbar() {
               onClick={() => setGateOpen((open) => !open)}
               aria-expanded={gateOpen}
               aria-controls="mobile-gate-menu"
-              className="flex min-h-11 w-full items-center justify-between rounded-lg px-3 py-3 text-left text-sm font-medium text-gray-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+              className="flex min-h-11 w-full items-center justify-between rounded-xl px-3 py-2 text-left text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100"
             >
-              GATE Hub
-
+              <span>GATE Hub</span>
               <ChevronDown
-                className={`h-4 w-4 transition-transform ${
+                className={`h-4 w-4 text-slate-500 transition-transform ${
                   gateOpen ? "rotate-180" : ""
                 }`}
                 aria-hidden="true"
@@ -192,7 +193,7 @@ export default function Navbar() {
             {gateOpen && (
               <div
                 id="mobile-gate-menu"
-                className="mx-2 mb-2 grid gap-1 rounded-xl border border-white/10 bg-[#10141c] p-2"
+                className="ml-2 mb-2 grid gap-1 border-l-2 border-blue-500 pl-3 py-1"
               >
                 {gateLinks.map((link) => (
                   <Link
@@ -202,9 +203,9 @@ export default function Navbar() {
                       setMenuOpen(false);
                       setGateOpen(false);
                     }}
-                    className="flex min-h-11 items-center gap-3 rounded-lg px-3 py-3 text-sm text-gray-300 transition-colors hover:bg-blue-500/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                    className="flex min-h-10 items-center gap-2.5 rounded-lg px-2 py-1.5 text-xs font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700"
                   >
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-blue-400/15 bg-blue-400/[0.08] text-[10px] font-bold text-blue-200">
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded border border-blue-200 bg-blue-50 text-[10px] font-bold text-blue-700">
                       {link.code}
                     </span>
                     {link.label}
@@ -222,11 +223,22 @@ export default function Navbar() {
                   setMenuOpen(false);
                   setGateOpen(false);
                 }}
-                className="min-h-11 rounded-lg px-3 py-3 text-sm font-medium text-gray-300 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+                className="flex min-h-11 items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100 hover:text-slate-900"
               >
-                {link.label}
+                {link.icon && <link.icon className="h-4 w-4 text-slate-500" />}
+                <span>{link.label}</span>
               </Link>
             ))}
+
+            <div className="pt-2">
+              <Link
+                href="/tests"
+                onClick={() => setMenuOpen(false)}
+                className="flex w-full items-center justify-center rounded-xl bg-blue-600 py-3 text-xs font-bold text-white shadow-sm"
+              >
+                Start Practice Free
+              </Link>
+            </div>
           </nav>
         </div>
       )}
