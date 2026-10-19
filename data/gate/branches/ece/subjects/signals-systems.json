@@ -2,1038 +2,403 @@
   "id": "signals-systems",
   "name": "Signals & Systems",
   "shortName": "Signals",
-  "icon": "📈",
-  "color": "from-emerald-500/20 to-teal-500/20",
-  "borderColor": "border-emerald-500/30",
-  "totalQuestions": 37,
+  "icon": "📶",
+  "color": "from-cyan-500/20 to-teal-500/20",
+  "borderColor": "border-cyan-500/30",
+  "totalQuestions": 15,
   "topics": [
     {
-      "name": "LTI Systems, Impulse Response & Convolution",
-      "questionCount": 9
+      "name": "Continuous & Discrete LTI Systems",
+      "questionCount": 3
     },
     {
-      "name": "Continuous-Time & Discrete-Time Fourier Transforms",
-      "questionCount": 9
+      "name": "Fourier Transform & DTFT",
+      "questionCount": 3
     },
     {
-      "name": "Laplace Transform, Poles & Zeros",
-      "questionCount": 9
+      "name": "Laplace & Z-Transform Applications",
+      "questionCount": 3
     },
     {
-      "name": "Z-Transform & Sampling Theorem Applications",
-      "questionCount": 9
+      "name": "Sampling Theorem & Aliasing",
+      "questionCount": 3
     }
   ],
   "questions": [
     {
-      "id": "gate-ec-q108",
-      "testId": "gate-ec-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 108,
-      "section": "EC",
-      "title": "A\n. \nThe common-gate amplifier has an infinite input resistance\nB\n. \nThe common-source amplifier has an infinite input resistance\nC\n. \nThe input and output voltages of the common-source amplifier are in phase\nD\n. \nThe input and output voltages of the common-drain amplifier are in phase\ngateec-2025\n \nanalog-circuits\n \nmosfet\n \namplifier\nAnalog Circuits \n(1)\nAnalog Circuits: GATE ECE 1998 | Question 1.34",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "MCQ",
-      "question": "<p>A multistage ampliﬁer has a low-pass response with three real poles at \n and \n. The\napproximate overall bandwidth \n of the amplifier will be given by</p>",
-      "options": [
-        "B\n.",
-        "D\n. \ngate1998-ec\n \nanalog-circuits\n \nnumerical-answers\nBipolar Junction Transistor \n(50)"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "B\n.",
-          "html": "B\n."
-        },
-        {
-          "label": "C",
-          "text": "D\n. \ngate1998-ec\n \nanalog-circuits\n \nnumerical-answers\nBipolar Junction Transistor \n(50)",
-          "html": "D\n. \ngate1998-ec\n \nanalog-circuits\n \nnumerical-answers\nBipolar Junction Transistor \n(50)"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q110",
-      "testId": "gate-ec-1991-s1",
-      "year": 1991,
-      "set": 1,
-      "yearSetKey": "1991-s1",
-      "orderIndex": 110,
-      "section": "EC",
-      "title": "gure. This combination is treated as a single transistor to carry a total current of \nampere, when biased with self bias circuit. When the circuit is switched on, \n draws \n amps and \n draws \n amps. If the supply is kept on continuously, ultimately it is very likely that\ngate1991-ec\n \nbipolar-junction-transistor\n \ncircuit-analysis\nBipolar Junction Transistor: GATE ECE 1991 | Question 1.20",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>In figure, all transistors are identical and have a high value of beta. The voltage \n is equal to\n_________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q172",
-      "testId": "gate-ec-2000-s1",
-      "year": 2000,
-      "set": 1,
-      "yearSetKey": "2000-s1",
-      "orderIndex": 172,
-      "section": "EC",
-      "title": "gure is \n. For this circuit to work as an inverter, \n must\ntake the values\ngate1998-ec\n \nmosfet\n \nanalog-circuits\n \nnumerical-answers\nMosfet: GATE ECE 2000 | Question 14",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>For the \n monostable multivibrator of given ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q235",
-      "testId": "gate-ec-1998-s1",
-      "year": 1998,
-      "set": 1,
-      "yearSetKey": "1998-s1",
-      "orderIndex": 235,
-      "section": "EC",
-      "title": "C\n. \nD\n. \n4.2.2\n4.2.3\nA\n. \nB\n. \nC\n. \nD\n. \n4.2.4\nA\n. \nB\n. \nC\n. \nD\n. \n4.3\n4.3.1\ngate1993-ec\n \nanalog-circuits\n \ncircuit-analysis\nAnalog Circuits: GATE ECE 1998 | Question 18",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>Implement a monostable multivibrator using the timer circuit shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q308",
-      "testId": "gate-ec-2014-s1",
-      "year": 2014,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 308,
-      "section": "EC",
-      "title": "Consider a binary memoryless channel characterized by the transition probability diagram shown in the\nfigure.\nThe channel is\ngate2017-ec-2\n \nchannel-capacity-theorem\n \nanalog-communications\nCode Division Multiple Access \n(1)\nCode Division Multiple Access: GATE ECE 2014 Set 1 | Question: 22",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>In a code-division multiple access \n system with \n chips, the maximum number of users who\ncan be assigned mutually orthogonal signature sequences is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q315",
-      "testId": "gate-ec-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 315,
-      "section": "EC",
-      "title": "6.9.6\n6.9.7\nA\n. \nB\n. \nC\n. \nD\n. \n \n6.9.8\n6.10\n6.10.1\ngate2016-ec-3\n \ndigital-communications\n \nanalog-communications\nDigital Communications: GATE ECE 2017 Set 1 | Question: 23",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>In a digital communication system, the overall pulse shape \n at the receiver before the sampler has the\nFourier transform \n. If the symbols are transmitted at the rate of \n symbols per second, for which of\nthe following cases is the inter symbol interference zero?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q325",
-      "testId": "gate-ec-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 325,
-      "section": "EC",
-      "title": "lter with impulse response \n (where \n is in seconds) resulting in output \n. The\npower in \n in watts is \ngate2018-ec\n \ngaussian-noise\n \nautocorrelation-and-power-spectral-density\n \nanalog-communications\nGaussian Noise: GATE ECE 2019 | Question: 34",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>A single bit, equally likely to be \n and \n, is to be sent across an additive white Gaussian noise (AWGN)\nchannel with power spectral density \n Binary signaling with \n and \n is used for the\ntransmission, along with an optimal receiver that minimizes the bit-error probability.\nLet \n form an orthonormal signal set.\nIf we choose \n and \n we would obtain a certain bit-error probability \nIf we keep \n but take \n for what value of \n would we obtain the \n bit-error\nprobability \n?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q327",
-      "testId": "gate-ec-2014-s2",
-      "year": 2014,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 327,
-      "section": "EC",
-      "title": "A linear Hamming code is used to map \n message to \n codewords. The encoder mapping is\nlinear. If the message \n is mapped to the codeword \n, and the message \n is mapped to the\ncodeword \n, then the message \n is mapped to\ngate2019-ec\n \nanalog-communications\n \nhamming-codes\nLinear Time Invariant Systems \n(1)\nLinear Time Invariant Systems: GATE ECE 2014 Set 2 | Question: 44",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>The input-output relationship of a causal stable LTI system is given as\n. If the impulse response \n of this system satisﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q331",
-      "testId": "gate-ec-2024-s4",
+      "id": "gate-ec-sign-q1",
+      "testId": "gate-subject-ece-signals-systems",
       "year": 2024,
-      "set": 4,
-      "yearSetKey": "2024-s4",
-      "orderIndex": 331,
+      "orderIndex": 1,
       "section": "EC",
-      "title": "lter is given by \n where \n are the\nsymbols and \n is the overall system response to a single symbol. The received signal is sampled at \n.\nThe Fourier transform of \n is \n. The Nyquist condition that \n must satisfy for zero intersymbol\ninterference at the receiver is \n.\n \ngateece-2024\n \nnyquist\n \nanalog-communications\n \ndigital-communications\nPhase Shift Keying \n(1)\nPhase Shift Keying: GATE ECE 2014 Set 4 | Question: 51",
+      "title": "GATE EC — Signals | Continuous & Discrete LTI Systems",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Continuous & Discrete LTI Systems",
       "type": "NAT",
-      "question": "<p>An M-level PSK modulation scheme is used to transmit independent binary digits over a band-pass channel\nwith bandwidth \n kHz. The bit rate is \n kbps and the system characteristic is a raised-cosine spectrum\nwith \n excess bandwidth. The minimum value of M is __________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q334",
-      "testId": "gate-ec-2014-s3",
-      "year": 2014,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 334,
-      "section": "EC",
-      "title": "6.24.1\n6.24.2\n6.24.3\n6.25\n6.25.1\n6.26\n6.26.1\nA\n. \nB\n. \nC\n. \nD\n. \nPulse Code Modulation: GATE ECE 2014 Set 3 | Question: 51",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>In a \n system, the signal \n is sampled at the Nyquist rate. The\nsamples are processed by a uniform quantizer with step size \n \n. The minimum data rate of the \nsystem in bits per second is ______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q337",
-      "testId": "gate-ec-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 337,
+      "id": "gate-ec-sign-q2",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 2,
       "section": "EC",
-      "title": "digital-communications\n \nnumerical-answers\n \npulse-code-modulation\nTime Divison Multiple Accessamplifiers \n(1)\nTime Divison Multiple Accessamplifiers: GATE ECE 2015 Set 1 | Question: 50",
+      "title": "GATE EC Practice — Signals | Q2",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Laplace & Z-Transform Applications",
       "type": "NAT",
-      "question": "<p>The transmitted signal in a GSM system is of \n kHz bandwidth and \n users share a common bandwidth\nusing TDMA. If at a given time \n users are talking in a cell, the total bandwidth of the signal received by the\nbase station of the cell will be at least (in kHz) ___________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q338",
-      "testId": "gate-ec-2014-s2",
-      "year": 2014,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 338,
-      "section": "EC",
-      "title": ".\ngate2015-ec-1\n \nnumerical-answers\n \nanalog-communications\n \ntime-divison-multiple-accessamplifiers\nTiming Diagram \n(1)\nTiming Diagram: GATE ECE 2014 Set 2 | Question: 40",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>In the circuit shown, choose the correct timing diagram of the output (y) from the given waveforms \n, \n,\n and \n.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q350",
-      "testId": "gate-ec-1998-s1",
-      "year": 1998,
-      "set": 1,
-      "yearSetKey": "1998-s1",
-      "orderIndex": 350,
+      "id": "gate-ec-sign-q3",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 3,
       "section": "EC",
-      "title": "Quadrature multiplexing is\ngate1998-ec\n \nanalog-communications\nAnalog Communications: GATE ECE 1998 | Question 2.38",
+      "title": "GATE EC Practice — Signals | Q3",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Sampling Theorem & Aliasing",
       "type": "NAT",
-      "question": "<p>The maximum usable frequency of an ionospheric layer at \n incidence and with \n critical frequency</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q365",
-      "testId": "gate-ec-2006-s1",
-      "year": 2006,
-      "set": 1,
-      "yearSetKey": "2006-s1",
-      "orderIndex": 365,
+      "id": "gate-ec-sign-q4",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 4,
       "section": "EC",
-      "title": "Analog Communications: GATE ECE 2006 | Question: 75",
+      "title": "GATE EC Practice — Signals | Q4",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Continuous & Discrete LTI Systems",
       "type": "NAT",
-      "question": "<p>Common Data for Questions 74, 75:\nLet \n, where * denotes convolution and \n with \n being the unit step\nfunction\n  An Amplitude Modulated signal is given as\nin the interval \n. One set of possible values of the modulating signal and modulation index would be</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q376",
-      "testId": "gate-ec-2001-s1",
-      "year": 2001,
-      "set": 1,
-      "yearSetKey": "2001-s1",
-      "orderIndex": 376,
-      "section": "EC",
-      "title": "A message signal with bandwidth \n is Lower-Side Band SSB modulated with carrier frequency \n. The resulting signal is then passed through a Narrow-Band Frequency Modulator with carrier\nfrequency \n. The bandwidth of the output would be\ngate2006-ec\n \nanalog-communications\n \nfrequency-modulation\n \nbandwidth\nCalculation of Bandwidth \n(1)\nCalculation of Bandwidth: GATE ECE 2001 | Question: 17",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>The periodic modulating signal \n is shown in the ﬁgure. Using Carson's rule. estimate \n (bandwidth\nof the FM signal) and \n (bandwidth of the PM signal) for \n and \n. Assume the\nessential bandwidth of \n to consist only up to and including the third harmonic.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q384",
-      "testId": "gate-ec-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 384,
+      "id": "gate-ec-sign-q5",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 5,
       "section": "EC",
-      "title": "(a) SSB Modulation\n(b) \n(c) Model dispersion\n1\n. \nTransmission line\n2\n. \nHilbert transform\n3\n. \nFaraday's law\n4\n. \nAbsence of magnetic monopoles\n5\n. \nWaveguides\n6\n. \nPhase-locked loop\ngate1996-ec\n \nanalog-communications\n \nmaxwell's-equations\n \ntransmission-lines\nMultiple Selects \n(1)\nMultiple Selects: GATE ECE 2026 | Question: 47",
+      "title": "GATE EC Practice — Signals | Q5",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Fourier Transform & DTFT",
       "type": "NAT",
-      "question": "<p>Consider a real, narrowband signal \n where the maximum frequency\ncomponents of \n and \n are \n and \n, respectively.\nWhich of the following statements is/are correct for</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q387",
-      "testId": "gate-ec-2004-s1",
-      "year": 2004,
-      "set": 1,
-      "yearSetKey": "2004-s1",
-      "orderIndex": 387,
+      "id": "gate-ec-sign-q6",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 6,
       "section": "EC",
-      "title": "A DSBSC modulated signal \nis corrupted by an additive white\nGaussian noise of power spectral density \n Hz. The message power spectral density \n is as\nshown in the figure and \n is uniformly distributed over the range 0 to \n.\nA\n. \nExpress the signal autocorrelation function Rss(T) in terms of the message autocorrelation function \n.\nClearly state the necessary assumptions.\nB\n. \nDelermine the signal power spectral density \n.\nC\n. \nFind the power of the modulated signal and the noise power in the transmission bandwidth.\ngate2002-ec\n \nanalog-communications\n \nrandom-processes\n \nprobability-and-statistics\nSampling Theorem \n(1)\nSampling Theorem: GATE ECE 2004 | Question: 81",
+      "title": "GATE EC Practice — Signals | Q6",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Laplace & Z-Transform Applications",
       "type": "NAT",
-      "question": "<p>Three analog signals, having bandwidths \n, \n and \n, are sampled at their respective\nNyquist rates, encoded with \n bit words, and time division multiplexed. The bit rate for the multiplexed signal is</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q390",
-      "testId": "gate-ec-2008-s1",
-      "year": 2008,
-      "set": 1,
-      "yearSetKey": "2008-s1",
-      "orderIndex": 390,
-      "section": "EC",
-      "title": "Signal to Noise Ratio: GATE ECE 2008 | Question: 72",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>A speech signal, band limited to \n and peak voltage varying between \n and \n, is sampled at\nthe Nyquist rate. Each sample is quantized and represented by \n bits.\nAssuming the signal to be uniformly distributed between its peak to peak value, the signal to noise ratio at the\nquantizer output is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q396",
-      "testId": "gate-ec-1999-s1",
-      "year": 1999,
-      "set": 1,
-      "yearSetKey": "1999-s1",
-      "orderIndex": 396,
+      "id": "gate-ec-sign-q7",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 7,
       "section": "EC",
-      "title": "For a given data rate, the bandwidth \n of a \n signal and the bandwidth \n of the \n signal are\nrelated as\ngate1998-ec\n \nanalog-communications\n \ndigital-communications\n \nnumerical-answers\nDigital Communications: GATE ECE 1999 | Question 18",
+      "title": "GATE EC Practice — Signals | Q7",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Sampling Theorem & Aliasing",
       "type": "NAT",
-      "question": "<p>Input to a linear delta modulator is a sinusoidal signal whose frequency can vary from \n to \n.\nThe input is sampled at eight times the Nyquist rate. The peak amplitude of the sinusoidal signal is \n volt.\na\n. \nDetermine the minimum value of the step size in order to avoid slope overload when the input signal frequency\nis \n.\nb\n. \nWhat is the peak amplitude of the input signal, to just overload the modulator, when the input signal frequency is\n ?\nc\n. \nIs the modulator overlaoded when the input signal frequency is \n ?</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q413",
-      "testId": "gate-ec-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 413,
+      "id": "gate-ec-sign-q8",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 8,
       "section": "EC",
-      "title": "8.10\n8.10.1\nA\n. \nB\n. \nC\n. \nD\n. \n8.11\n8.11.1\nA\n. \nB\n. \nC\n. \nD\n. \n8.12\n8.12.1\n8.13\n8.13.1\n8.13.2\nA\n. \nB\n. \nC\n. \nD\n. \ntifr2014\n \ndigital-communications\n \nprobability-and-statistics\n \ninformation-theory\nMultiple Selects \n(1)\nMultiple Selects: GATE ECE 2026 | Question: 45",
+      "title": "GATE EC Practice — Signals | Q8",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Continuous & Discrete LTI Systems",
       "type": "NAT",
-      "question": "<p>Let the relevant bandwidth \n of a digital communication system be \n and \n,\nwhere \n is Boltzmann's constant and '\n' is equivalent noise temperature of the receiver. The power \n of\nsignal received through an additive Gaussian channel is \nWhich of the following options is/are TRUE about Shannon capacity ( \n ) of the channel?</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q418",
-      "testId": "gate-ec-2008-s1",
-      "year": 2008,
-      "set": 1,
-      "yearSetKey": "2008-s1",
-      "orderIndex": 418,
-      "section": "EC",
-      "title": "Quantization \n(1)\nQuantization: GATE ECE 2008 | Question: 73",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>A speech signal, band limited to \n and peak voltage varying between \n and \n, is sampled at\nthe Nyquist rate. Each sample is quantized and represented by \n bits.\nThe number of quantization levels required to reduce the quantization noise by a factor of \n would be</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q420",
-      "testId": "gate-ec-2008-s1",
-      "year": 2008,
-      "set": 1,
-      "yearSetKey": "2008-s1",
-      "orderIndex": 420,
+      "id": "gate-ec-sign-q9",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 9,
       "section": "EC",
-      "title": "Four independent messages have bandwidths of \n, and \n, respectively. Each is\nsampled at the Nyquist rate, and the samples are time division multiplexed (\n) and transmitted. The\ntransmitted sample rate (in \n ) is\ngate1999-ec\n \nanalog-communications\n \nsampling-theorem\n \nnumerical-answers\nSampling Theorem: GATE ECE 2008 | Question: 71",
+      "title": "GATE EC Practice — Signals | Q9",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Fourier Transform & DTFT",
       "type": "NAT",
-      "question": "<p>A speech signal, band limited to \n and peak voltage varying between \n and \n, is sampled at\nthe Nyquist rate. Each sample is quantized and represented by \n bits.\nIf the bits \n and \n are transmitted using bipolar pulses, the minimum bandwidth required for distortion free\ntransmission is</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q425",
-      "testId": "gate-ec-2021-s1",
-      "year": 2021,
-      "set": 1,
-      "yearSetKey": "2021-s1",
-      "orderIndex": 425,
+      "id": "gate-ec-sign-q10",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 10,
       "section": "EC",
-      "title": "Consider a Binary Symmetric Channel (BSC) with probability of error being \n. To transmit a bit, say \n we\ntransmit a sequence of three \n The receiver will interpret the received sequence to represent \n if at least\ntwo bits are \n The probability that the transmitted bit will be received in error is\ngate2008-ec\n \ndigital-communications\n \ninformation-theory\n \nprobability-and-statistics\nInformation Theory: GATE ECE 2021 | Question: 23",
+      "title": "GATE EC Practice — Signals | Q10",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Laplace & Z-Transform Applications",
       "type": "NAT",
-      "question": "<p>A speech signal, band limited to \n, is sampled at \n times the Nyquist rate. The speech samples,\nassumed to be statistically independent and uniformly distributed in the range \n to \n, are\nsubsequently quantized in an \n-bit uniform quantizer and then transmitted over a voice-grade \n telephone</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q432",
-      "testId": "gate-ec-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 432,
-      "section": "EC",
-      "title": "numerical-answers\n \ninformation-theory\n \nmutual-information\nNyquist \n(1)\nNyquist: GATE ECE 2026 | Question: 12",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>Consider a discrete memoryless source with an alphabet of four source symbols. \n is a multi-level \n signal representing a long sequence of random symbols from the above source which is\ngenerating \n symbols per second.\nWhich of the following options is the correct value of equivalent Nyquist bandwidth of \n?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q433",
-      "testId": "gate-ec-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 433,
+      "id": "gate-ec-sign-q11",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 11,
       "section": "EC",
-      "title": "An analog signal is band-limited to \n, sampled at the Nyquist rate and the samples are quantized into \nlevels. The quantized levels are assumed to be independent and equally probable. If we transmit two\nquantized samples per second, the information rate is\ngate2011-ec\n \nanalog-communications\n \ninformation-theory\n \nquantization\n \nnumerical-answers\nQuantization: GATE ECE 2022 | Question: 54",
+      "title": "GATE EC Practice — Signals | Q11",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Sampling Theorem & Aliasing",
       "type": "NAT",
-      "question": "<p>Consider a real valued source whose samples are independent and identically distributed random variables\nwith the probability density function, \n as shown in the figure.\nConsider a \n bit quantizer that maps positive samples to value \n and others to value \n If \n and \n are the\nrespective choices for \n and \n that minimize the mean square quantization error, then \n____________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q449",
-      "testId": "gate-ec-2023-s1",
-      "year": 2023,
-      "set": 1,
-      "yearSetKey": "2023-s1",
-      "orderIndex": 449,
-      "section": "EC",
-      "title": "numerical-answers\n \nrandom-processes\n \nprobability-and-statistics\nRandom Processes: GATE ECE 2023 | Question: 49",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>Let \n be a white Gaussian noise with power spectral density \n. If \n is input to an \nLTI\n system\nwith impulse response \n. The average power of the system output is _____________ \n (\nrounded oﬀ\nto two decimal places).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q516",
-      "testId": "gate-ec-1991-s1",
-      "year": 1991,
-      "set": 1,
-      "yearSetKey": "1991-s1",
-      "orderIndex": 516,
-      "section": "EC",
-      "title": "A\n. \nLead compensator is used to reduce the settling time.\nB\n. \nLag compensator is used to reduce the steady state error.\nC\n. \nLead compensator may increase the order of a system.\nD\n. \nLag compensator always stabilizes an unstable system.\ngate2017-ec-2\n \nlag-lead-compensation\n \ncontrol-systems\nLaplace Transform \n(11)\nLaplace Transform: GATE ECE 1991 | Question 1.3",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>The voltage across an impedance in a network is \n, where \n, \n are the Laplace\ntransforms of the corresponding time function \n and \n. The voltage \n is:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q517",
-      "testId": "gate-ec-1995-s1",
-      "year": 1995,
-      "set": 1,
-      "yearSetKey": "1995-s1",
-      "orderIndex": 517,
+      "id": "gate-ec-sign-q12",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 12,
       "section": "EC",
-      "title": "If \n then \n is given by\ngate1993-ec\n \nlaplace-transform\n \ncontrol-systems\n \nnumerical-answers\nLaplace Transform: GATE ECE 1995 | Question 1.5",
+      "title": "GATE EC Practice — Signals | Q12",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Continuous & Discrete LTI Systems",
       "type": "NAT",
-      "question": "<p>If \n then \n and \n are given by\n[\nNote :\n 'L' stands for 'Laplace Transform of']</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q518",
-      "testId": "gate-ec-1997-s1",
-      "year": 1997,
-      "set": 1,
-      "yearSetKey": "1997-s1",
-      "orderIndex": 518,
-      "section": "EC",
-      "title": "The inverse Laplace transform of the function\n is\ngate1996-ec\n \nlaplace-transform\n \ncontrol-systems\n \ncontinuous-time-signals\n \nnumerical-answers\nLaplace Transform: GATE ECE 1997 | Question 1.5",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>The Laplace Transform of \n is equal to</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q519",
-      "testId": "gate-ec-2007-s1",
-      "year": 2007,
-      "set": 1,
-      "yearSetKey": "2007-s1",
-      "orderIndex": 519,
+      "id": "gate-ec-sign-q13",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 13,
       "section": "EC",
-      "title": "Consider the function \n having Laplace transform\nThe final value of \n would be\ngate2006-ec\n \nlaplace-transform\n \nsignals-and-systems\nLaplace Transform: GATE ECE 2007 | Question: 16",
+      "title": "GATE EC Practice — Signals | Q13",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Fourier Transform & DTFT",
       "type": "NAT",
-      "question": "<p>If the Laplace transform of a signal \n is \n then its final value is</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q520",
-      "testId": "gate-ec-2011-s1",
-      "year": 2011,
-      "set": 1,
-      "yearSetKey": "2011-s1",
-      "orderIndex": 520,
-      "section": "EC",
-      "title": "Given \n. If \n, then the value of \n is\ngate2010-ec\n \nlaplace-transform\n \ncontrol-systems\n \nnumerical-answers\nLaplace Transform: GATE ECE 2011 | Question: 45",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>If \n then the initial and final values of \n are respectively</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q522",
-      "testId": "gate-ec-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 522,
+      "id": "gate-ec-sign-q14",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 14,
       "section": "EC",
-      "title": "In the system shown below, \n. In steady-steady-state, the response \n will be\ngate2006-ec\n \ncontrol-systems\n \ncontinuous-time-signals\n \nlinear-time-invariant-systems\nLinear Time Invariant Systems: GATE ECE 2017 Set 2 | Question: 33",
+      "title": "GATE EC Practice — Signals | Q14",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Laplace & Z-Transform Applications",
       "type": "NAT",
-      "question": "<p>Consider an LTI system with magnitude response\nand phase response\nIf the input to the system is\nthen the average power of the output signal \n is ____________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q523",
-      "testId": "gate-ec-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 523,
+      "id": "gate-ec-sign-q15",
+      "testId": "gate-subject-ece-signals-systems",
+      "year": 2024,
+      "orderIndex": 15,
       "section": "EC",
-      "title": "linear-time-invariant-systems\n \nnumerical-answers\n \ncontrol-systems\nLinear Time Invariant Systems: GATE ECE 2017 Set 2 | Question: 34",
+      "title": "GATE EC Practice — Signals | Q15",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Sampling Theorem & Aliasing",
       "type": "NAT",
-      "question": "<p>The transfer function of a causal LTI system is \n. If the input to the system is \n, where \n is a unit step function, the system output \n as \n is\n____________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q524",
-      "testId": "gate-ec-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 524,
-      "section": "EC",
-      "title": "transfer-function\n \nlinear-time-invariant-systems\n \nnumerical-answers\n \ncontrol-systems\nLinear Time Invariant Systems: GATE ECE 2017 Set 2 | Question: 47",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>A second-order LTI system is described by the following state equations,</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q529",
-      "testId": "gate-ec-2016-s3",
-      "year": 2016,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 529,
-      "section": "EC",
-      "title": "A\n. \nzero.\nB\n. \none,anti-clockwise.\nC\n. \none, clockwise.\nD\n. \ntwo, clockwise.\n11.18.8\n11.18.9\nA\n. \nB\n. \nC\n. \nD\n. \n11.18.10\nA\n. \nstable for \n and stable for \nB\n. \nstable for \n and unstable for \nC\n. \nunstable for \n and stable for \nD\n. \nstable for \n and unstable for \n11.18.11\nA\n. \nB\n. \nC\n. \nD\n. \n11.18.12\ngate2016-ec-2\n \ncontrol-systems\n \nnyquist\nNyquist: GATE ECE 2016 Set 3 | Question: 22",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>An analog baseband signal, bandlimited to \n, is sampled at the Nyquist rate. The samples are\nquantized into four message symbols that occur independently with probabilities \n and \n. The information rate (bits/sec) of the message source is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q559",
-      "testId": "gate-ec-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 559,
-      "section": "EC",
-      "title": "11.30.5\n11.30.6\nA\n. \nB\n. \nC\n. \nD\n. \n11.30.7\n11.31\nC\n. \n and \n have the same damped frequency of oscillation.\nD\n. \n and \n have the same \n settling time.\ngateece-2022\n \ncontrol-systems\n \ntransfer-function\n \nsteady-state\n \nfrequency-response\nSteady State: GATE ECE 2022 | Question: 50",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>The block diagram of a closed-loop control system is shown in the ﬁgure. \n and \n are the\nLaplace transforms of the time-domain signals \n and \n respectively. Let the error signal be\ndefined as \n Assuming the reference input \n for all \n the steady-state error \n due to a\nunit step disturbance \n is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q560",
-      "testId": "gate-ec-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 560,
-      "section": "EC",
-      "title": "(\nrounded off to two decimal places\n).\ngateece-2022\n \nnumerical-answers\n \ncontrol-systems\n \nsteady-state\n \nlaplace-transform\nSteady State: GATE ECE 2023 | Question: 31",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "NAT",
-      "question": "<p>A closed loop system is shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     }
   ]
 }

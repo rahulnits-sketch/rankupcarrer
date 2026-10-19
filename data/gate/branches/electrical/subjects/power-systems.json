@@ -1,326 +1,565 @@
 {
   "id": "power-systems",
   "name": "Power Systems & Protection",
-  "shortName": "Power Systems",
-  "icon": "💡",
-  "color": "from-orange-500/20 to-amber-500/20",
-  "borderColor": "border-orange-500/30",
-  "totalQuestions": 11,
+  "shortName": "Power Sys",
+  "icon": "🔌",
+  "color": "from-red-500/20 to-orange-500/20",
+  "borderColor": "border-red-500/30",
+  "totalQuestions": 15,
   "topics": [
     {
-      "name": "Transmission Line Modeling & Performance",
-      "questionCount": 2
-    },
-    {
-      "name": "Power Flow Studies (Gauss-Seidel, Newton-Raphson)",
-      "questionCount": 2
+      "name": "Transmission Line Models & Performance",
+      "questionCount": 3
     },
     {
       "name": "Symmetrical & Unsymmetrical Fault Analysis",
-      "questionCount": 2
+      "questionCount": 3
     },
     {
-      "name": "Power System Protection & Circuit Breakers",
-      "questionCount": 2
+      "name": "Power System Stability & Swing Equation",
+      "questionCount": 3
+    },
+    {
+      "name": "Economic Load Dispatch & Protection Relays",
+      "questionCount": 3
     }
   ],
   "questions": [
     {
-      "id": "gate-ee-q88",
-      "testId": "gate-ee-2013-s1",
-      "year": 2013,
-      "set": 1,
-      "yearSetKey": "2013-s1",
-      "orderIndex": 88,
-      "section": "EE",
-      "title": "plane\nC\n. \nAll the poles must lie within \nD\n. \nAll the roots of the characteristic equation must be located on the left side of \n axis\ngate2013-ee\n \nstability\n \nblock-diagram\nBode Plot \n(7)\nBode Plot: GATE Electrical 2013 | Question: 15",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>The Bode plot of a transfer function \n is shown in the figure below.\nThe gain \n is \n and  \n at \n rad/s and \n rad/s respectively. The phase is negative for\nall \n. Then \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q89",
-      "testId": "gate-ee-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 89,
-      "section": "EE",
-      "title": "The magnitude Bode plot of a network is shown in the figure\nThe maximum phase angle \n and the corresponding gain \n respectively, are\ngate2014-ee-3\n \nbode-plot\n \nstability\nBode Plot: GATE Electrical 2015 Set 1 | Question: 24",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>A Bode magnitude plot for the transfer function \n of a plant is shown in the ﬁgure. Which one of the\nfollowing transfer functions best describes the plant?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q90",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 90,
-      "section": "EE",
-      "title": "bode-plot\n \nstability\nBode Plot: GATE Electrical 2019 | Question: 29",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>The asymptotic Bode magnitude plot of a minimum phase transfer function \n is shown below.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q112",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 112,
-      "section": "EE",
-      "title": "2.7.23\nA\n. \nThe system stability cannot be\nascertained.\nB\n. \nThe system is marginally stable.\nC\n. \nThe system is stable.\nD\n. \nThe system is unstable.\n2.7.24\nA\n. \nB\n. \nC\n. \nD\n. \n2.7.25\nA\n. \nstable for all \n.\nB\n. \nunstable for all \n.\nC\n. \nunstable for all \n.\nD\n. \nstable for all \n2.7.26\ngate2024-ee\n \nnumerical-answers\n \ncontrol-systems\nControl Systems: GATE Electrical 2025 | Question: 13",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>The Nyquist plot of a strictly stable \n having the numerator polynomial as \n encircles the critical\npoint \n once in the anti-clockwise direction. Which one of the following statements on the closed-loop\nsystem shown in figure, is correct?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q118",
-      "testId": "gate-ee-2014-s3",
-      "year": 2014,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 118,
-      "section": "EE",
-      "title": ".\n.\ngate2014-ee-1\n \nfeedback-system\n \nstability\n \nnumerical-answers\nFeedback System: GATE Electrical 2014 Set 3 | Question: 18",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>A single-input single-output feedback system has forward transfer function \n and feedback transfer\nfunction \n. It is given that \n . Which of the following is true about the stability of the\nsystem?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q135",
-      "testId": "gate-ee-2014-s2",
-      "year": 2014,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 135,
-      "section": "EE",
-      "title": "The open loop transfer function of a unity gain negative feedback system is given by \n. The range of \n for which the system is stable, is\ngate2022-ee\n \ncontrol-systems\n \nstability\n \ntransfer-function\nStability Study \n(1)\nStability Study: GATE Electrical 2014 Set 2 | Question: 33",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>A discrete system is represented by the difference equation\nIt has initial conditions \n = \n; \n = \n. The pole locations of the system for \n = \n, are</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q167",
-      "testId": "gate-ee-2021-s2",
-      "year": 2021,
-      "set": 2,
-      "yearSetKey": "2021-s2",
-      "orderIndex": 167,
-      "section": "EE",
-      "title": "3.7\n3.7.1\n3.8\n3.8.1\nA\n. \nB\n. \nC\n. \nD\n. \n3.9\n3.9.1\n \ngateee-2021\n \nnumerical-answers\n \nbjt\n \nelectric-circuits\nCapacitive Voltage Divider \n(1)\nCapacitive Voltage Divider: GATE Electrical 2015 Set 2 | Question: 7",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>A capacitive voltage divider is used to measure the bus voltage \n in a high-voltage \n Hz AC system as\nshown in the ﬁgure. The measurement capacitors \n and \n have tolerances of \n on their nominal\ncapacitance values. If the bus voltage \n is \n rms, the maximum rms output voltage \n (in \n),\nconsidering the capacitor tolerances, is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q297",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 297,
-      "section": "EE",
-      "title": "A \n Ampere moving iron ammeter has an internal resistance of \n and inductance of \n. A\nshunt coil is connected to extend its range to \n Ampere for all operating frequencies. The time\nconstant in milliseconds and resistance in \n of the shunt coil respectively are\ngate2018-ee\n \nelectrical-and-electronic-measurements\n \nelectric-circuits\n \nnumerical-answers\nElectrical and Electronic Measurements: GATE Electrical 2019 | Question: 23",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>The total impedance of the secondary winding, leads, and burden of a \n A CT is \n. If the fault current\nis \n times the rated primary current of the CT, the VA output of the CT is_________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q531",
-      "testId": "gate-ee-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 531,
-      "section": "EE",
-      "title": ".\ngate2014-ee-3\n \nnumerical-methods\n \nnewton-raphson-method\nNewton Raphson Method: GATE Electrical 2017 Set 2 | Question: 25",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>In a load ﬂow problem solved by Newton-Raphson method with polar coordinates, the size of the Jacobian\nis \n. If there are \nPV buses in addition to \n buses and a slack bus, the total number of buses\nin the system is ______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q633",
-      "testId": "gate-ee-2024-s1",
+      "id": "gate-ee-powe-q1",
+      "testId": "gate-subject-electrical-power-systems",
       "year": 2024,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 633,
+      "orderIndex": 1,
       "section": "EE",
-      "title": "Geometry: GATE Electrical 2024 | GA | Question: 7",
+      "title": "GATE EE — Power Sys | Power System Stability & Swing Equation",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
-      "type": "NAT",
-      "question": "<p>​​​​\nIn the following figure,\nPoints \n create a rhombus.\nThe length of \n (in \n ) is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
     },
     {
-      "id": "gate-ee-q689",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 689,
+      "id": "gate-ee-powe-q2",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 2,
       "section": "EE",
-      "title": "General Aptitude: GATE Electrical 2019 | GA | Question: 1",
+      "title": "GATE EE — Power Sys | Transmission Line Models & Performance",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Transmission Line Modeling & Performance",
+      "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>I am not sure if the bus that has been booked will be able to ______ all the students.</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
-      "marks": 1,
+      "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Using official GATE EE engineering principles for <em>Transmission Line Modeling & Performance</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Systems.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q3",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 3,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q3",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q4",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 4,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q4",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q5",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 5,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q5",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q6",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 6,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q6",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q7",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 7,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q7",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q8",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 8,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q8",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q9",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 9,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q9",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q10",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 10,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q10",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q11",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 11,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q11",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q12",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 12,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q12",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q13",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 13,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q13",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q14",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 14,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q14",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q15",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2024,
+      "orderIndex": 15,
+      "section": "EE",
+      "title": "GATE EE Practice — Power Sys | Q15",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
+      "type": "NAT",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "316.2"
+      ],
+      "tolerance": {
+        "min": 314.0,
+        "max": 318.0
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     }
   ]
 }

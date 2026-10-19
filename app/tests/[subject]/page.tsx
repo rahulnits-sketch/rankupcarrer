@@ -37,38 +37,38 @@ export default async function SubjectChaptersPage({ params }: PageProps) {
   const chapters = (chaptersData as Record<string, Chapter[]>)[subject] || [];
 
   return (
-    <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
+    <main className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col justify-between">
       <Navbar />
 
       <section className="mx-auto max-w-7xl px-6 py-12 md:py-16 w-full flex-1">
         {/* Breadcrumb */}
-        <div className="mb-6 flex items-center gap-2 text-xs text-gray-500">
-          <Link href="/" className="hover:text-white transition">Home</Link>
+        <div className="mb-6 flex items-center gap-2 text-xs text-slate-500">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <span>/</span>
-          <Link href="/tests" className="hover:text-white transition">Explore Hub</Link>
+          <Link href="/tests" className="hover:text-slate-900 transition">Explore Hub</Link>
           <span>/</span>
-          <span className="text-blue-400 font-medium">{subjectInfo.name}</span>
+          <span className="text-blue-700 font-medium">{subjectInfo.name}</span>
         </div>
 
         {/* Subject Header */}
-        <div className="mb-12 flex flex-col gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-8 md:flex-row md:items-center md:justify-between">
+        <div className="mb-12 flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-8 md:flex-row md:items-center md:justify-between">
           <div>
             <div className="flex items-center gap-3">
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/5 text-2xl shadow-inner">
+              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-50 text-2xl shadow-inner">
                 {subjectInfo.icon}
               </span>
               <div>
-                <span className="text-xs font-semibold uppercase tracking-wider text-blue-400">
+                <span className="text-xs font-semibold uppercase tracking-wider text-blue-700">
                   {subjectInfo.category}
                 </span>
-                <h1 className="text-2xl font-bold tracking-tight text-white md:text-3xl">
+                <h1 className="text-2xl font-bold tracking-tight text-slate-900 md:text-3xl">
                   {subjectInfo.name}
                 </h1>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3 border-t border-white/10 pt-4 md:border-t-0 md:pt-0">
+          <div className="flex flex-wrap items-center gap-3 border-t border-slate-200 pt-4 md:border-t-0 md:pt-0">
             <BackButton />
             <Link
               href={`/test/${subject}-01`}
@@ -81,8 +81,8 @@ export default async function SubjectChaptersPage({ params }: PageProps) {
 
         {/* Chapters Grid */}
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-xl font-bold text-white">Chapters & Units ({chapters.length})</h2>
-          <span className="text-xs text-gray-400">Click a chapter to view its tests</span>
+          <h2 className="text-xl font-bold text-slate-900">Chapters & Units ({chapters.length})</h2>
+          <span className="text-xs text-slate-600">Click a chapter to view its tests</span>
         </div>
 
         {chapters.length > 0 ? (
@@ -99,13 +99,13 @@ export default async function SubjectChaptersPage({ params }: PageProps) {
             ))}
           </div>
         ) : (
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-12 text-center">
-            <p className="text-sm text-gray-400">
+          <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center">
+            <p className="text-sm text-slate-600">
               Chapters for this subject are being updated. You can still practice the general subject test.
             </p>
             <Link
               href="/tests"
-              className="mt-4 inline-block text-xs font-semibold text-blue-400 hover:text-blue-300"
+              className="mt-4 inline-block text-xs font-semibold text-blue-700 hover:text-blue-700"
             >
               ← Back to Explore Hub
             </Link>

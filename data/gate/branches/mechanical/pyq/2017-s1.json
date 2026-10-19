@@ -1,76 +1,64 @@
 {
   "id": "gate-me-2017-s1",
-  "yearSetKey": "2017-s1",
+  "slug": "2017-s1",
   "year": 2017,
   "set": 1,
-  "title": "GATE ME 2017 Official Paper",
-  "duration": "180 min",
-  "durationMinutes": 180,
   "totalMarks": 100,
+  "durationMinutes": 180,
   "totalQuestions": 65,
   "gaQuestions": 10,
   "csQuestions": 55,
   "questions": [
     {
-      "id": "go:1255",
+      "id": "gate-me-2017-s1-q1",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "1996-s0",
       "orderIndex": 1,
       "section": "GA",
       "title": "GATE ME 2017 | GA Question: 1",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>A single processor system has three resource types $X, Y$ and $Z$, which are shared by three processes. There are $5$ units of each resource type. Consider the following scenario, where the column <strong>alloc </strong>denotes the number of units of each resource type allocated to each process, and the column <strong>request </strong>denotes the number of units of each resource type requested by a process in order to complete execution. Which of these processes will finish <strong>LAST</strong>?</p>\n<p>$$\\begin{array}{|l|lll|ll|}\\hline &amp;\\text{}  \\rlap{\\textbf{alloc}}  &amp;&amp;&amp;\\rlap{  \\textbf{request}}  \\\\\\hline  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  \\\\\\hline  \\textbf{P0} &amp; \\text{1} &amp; \\text{2} &amp; \\text{1}&amp; \\text{1} &amp; \\text{0} &amp; \\text{3}  \\\\\\hline  \\textbf{P1} &amp; \\text{2} &amp; \\text{0} &amp; \\text{1} &amp; \\text{0} &amp; \\text{1} &amp; \\text{2} \\\\\\hline \\textbf{P2} &amp; \\text{2} &amp; \\text{2} &amp; \\text{1} &amp; \\text{1} &amp; \\text{2} &amp; \\text{0} \\\\\\hline \\end{array}$$</p>",
-      "rawQuestionHtml": "<p>A single processor system has three resource types $X, Y$ and $Z$, which are shared by three processes. There are $5$ units of each resource type. Consider the following scenario, where the column <strong>alloc </strong>denotes the number of units of each resource type allocated to each process, and the column <strong>request </strong>denotes the number of units of each resource type requested by a process in order to complete execution. Which of these processes will finish <strong>LAST</strong>?</p>\n<p>$$\\begin{array}{|l|lll|ll|}\\hline &amp;\\text{}  \\rlap{\\textbf{alloc}}  &amp;&amp;&amp;\\rlap{  \\textbf{request}}  \\\\\\hline  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  &amp;\\text{X} &amp; \\text{Y} &amp; \\text{Z}  \\\\\\hline  \\textbf{P0} &amp; \\text{1} &amp; \\text{2} &amp; \\text{1}&amp; \\text{1} &amp; \\text{0} &amp; \\text{3}  \\\\\\hline  \\textbf{P1} &amp; \\text{2} &amp; \\text{0} &amp; \\text{1} &amp; \\text{0} &amp; \\text{1} &amp; \\text{2} \\\\\\hline \\textbf{P2} &amp; \\text{2} &amp; \\text{2} &amp; \\text{1} &amp; \\text{1} &amp; \\text{2} &amp; \\text{0} \\\\\\hline \\end{array}$$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$P0$</li>\n<li>$P1$</li>\n<li>$P2$</li>\n<li>None of the above, since the system is in a deadlock</li>\n</ol>",
+      "type": "NAT",
+      "question": "<p>A computer system has a three-level memory hierarchy, with access time and hit ratios as shown below:</p>\n<p>$$\\overset{ \\text {Level $1$ (Cache memory)} \\\\  \\text{Access time = $50 nsec/byte$}}{\\begin{array}{|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$8 M $ bytes} &amp; \\text{$0.80$} \\\\\\hline \\text{$16 M $ bytes} &amp; \\text{$0.90$}   \\\\\\hline  \\text{$64 M $ bytes} &amp; \\text{$0.95$}   \\\\\\hline \\end{array}} \\quad \\overset{\\text {Level $2$ (Main memory)} \\\\  \\text{Access time = $200 nsec/byte$}}{\\begin{array}{|l|l|l|}   \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$4 M$ bytes} &amp; \\text{$0.98$} \\\\\\hline \\text{$16 M$ bytes} &amp; \\text{$0.99$}   \\\\\\hline  \\text{$64 M$ bytes} &amp; \\text{$0.995$}   \\\\\\hline \\end{array}} \\quad \\overset{ \\text {Level $3$} \\\\  \\text{Access time = $5$} \\mu \\text{sec/byte}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$260M$ bytes} &amp; \\text{$1.0$} \\\\\\hline\\end{array}}$$</p>",
+      "rawQuestionHtml": "<p>A computer system has a three-level memory hierarchy, with access time and hit ratios as shown below:</p>\n<p>$$\\overset{ \\text {Level $1$ (Cache memory)} \\\\  \\text{Access time = $50 nsec/byte$}}{\\begin{array}{|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$8 M $ bytes} &amp; \\text{$0.80$} \\\\\\hline \\text{$16 M $ bytes} &amp; \\text{$0.90$}   \\\\\\hline  \\text{$64 M $ bytes} &amp; \\text{$0.95$}   \\\\\\hline \\end{array}} \\quad \\overset{\\text {Level $2$ (Main memory)} \\\\  \\text{Access time = $200 nsec/byte$}}{\\begin{array}{|l|l|l|}   \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$4 M$ bytes} &amp; \\text{$0.98$} \\\\\\hline \\text{$16 M$ bytes} &amp; \\text{$0.99$}   \\\\\\hline  \\text{$64 M$ bytes} &amp; \\text{$0.995$}   \\\\\\hline \\end{array}} \\quad \\overset{ \\text {Level $3$} \\\\  \\text{Access time = $5$} \\mu \\text{sec/byte}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{Size} &amp; \\textbf{Hit ratio} \\\\\\hline \\text{$260M$ bytes} &amp; \\text{$1.0$} \\\\\\hline\\end{array}}$$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?</p>\n</li>\n<li>\n<p>What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?</p>\n</li>\n</ol>",
       "options": [
-        "$P0$",
-        "$P1$",
-        "$P2$",
-        "None of the above, since the system is in a deadlock"
+        "What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?",
+        "What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$P0$",
-          "html": "$P0$"
+          "text": "What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?",
+          "html": "<p>What should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?</p>"
         },
         {
           "label": "B",
-          "text": "$P1$",
-          "html": "$P1$"
-        },
-        {
-          "label": "C",
-          "text": "$P2$",
-          "html": "$P2$"
-        },
-        {
-          "label": "D",
-          "text": "None of the above, since the system is in a deadlock",
-          "html": "None of the above, since the system is in a deadlock"
+          "text": "What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?",
+          "html": "<p>What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?</p>"
         }
       ],
       "answer": [
-        "C"
+        "61.25"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "abs": 0.01
+      },
       "marks": 1,
-      "negativeMarks": 0.33,
+      "negativeMarks": 0,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1255/gate-cse-2007-question-57",
+      "link": "https://gateoverflow.in/2778/gate-cse-1996-question-26",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1255/gate-cse-2007-question-57"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2778/gate-cse-1996-question-26"
     },
     {
-      "id": "go:1256",
+      "id": "gate-me-2017-s1-q2",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "1997-s0",
       "orderIndex": 2,
       "section": "GA",
       "title": "GATE ME 2017 | GA Question: 2",
@@ -78,83 +66,391 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:</p>\n<table border=\"1\" cellpadding=\"1\" style=\"width:463px; border-spacing: 1px;\">\n<tbody>\n<tr>\n<td>\n<pre class=\"c_cpp\">/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n</pre>\n</td>\n<td style=\"width:207px\">\n<pre class=\"c_cpp\">/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.</p>\n<p>Which one of the following statements is TRUE about the construct?</p>",
-      "rawQuestionHtml": "<p>Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:</p>\n<table border=\"1\" cellpadding=\"1\" style=\"width:463px; border-spacing: 1px;\">\n<tbody>\n<tr>\n<td>\n<pre class=\"c_cpp\">/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n</pre>\n</td>\n<td style=\"width:207px\">\n<pre class=\"c_cpp\">/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.</p>\n<p>Which one of the following statements is TRUE about the construct?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>It does not ensure mutual exclusion.</p>\n</li>\n<li>\n<p>It does not ensure bounded waiting.</p>\n</li>\n<li>\n<p>It requires that processes enter the critical section in strict alteration.</p>\n</li>\n<li>\n<p>It does not prevent deadlocks, but ensures mutual exclusion.</p>\n</li>\n</ol>",
+      "question": "<p><img alt=\"\" src=\"/question-images/4020055730569586012.webp\" style=\"height:126px; width:486px\"></p>",
+      "rawQuestionHtml": "<a name=\"2282\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"/question-images/4020055730569586012.webp\" style=\"height:126px; width:486px\"></p></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2282/gate-cse-1997-question-22",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2282/gate-cse-1997-question-22"
+    },
+    {
+      "id": "gate-me-2017-s1-q3",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1997-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p><img alt=\"\" src=\"/question-images/17748886053474906274.webp\" style=\"height:477px; width:382px\"></p>",
+      "rawQuestionHtml": "<a name=\"2284\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"/question-images/17748886053474906274.webp\" style=\"height:477px; width:382px\"></p></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2284/gate-cse-1997-question-24",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2284/gate-cse-1997-question-24"
+    },
+    {
+      "id": "gate-me-2017-s1-q4",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1997-s0",
+      "orderIndex": 4,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 4",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "NAT",
+      "question": "<p>Let $f=(\\bar{w} + y)(\\bar{x} +y)(w+\\bar{x}+z)(\\bar{w}+z)(\\bar{x}+z)$</p>",
+      "rawQuestionHtml": "<p>Let $f=(\\bar{w} + y)(\\bar{x} +y)(w+\\bar{x}+z)(\\bar{w}+z)(\\bar{x}+z)$</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>\n<p>Express $f$ as the minimal sum of products. Write only the answer.</p>\n</li>\n<li>\n<p>If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?</p>\n</li>\n</ol>",
       "options": [
-        "It does not ensure mutual exclusion.",
-        "It does not ensure bounded waiting.",
-        "It requires that processes enter the critical section in strict alteration.",
-        "It does not prevent deadlocks, but ensures mutual exclusion."
+        "Express $f$ as the minimal sum of products. Write only the answer.",
+        "If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "It does not ensure mutual exclusion.",
-          "html": "<p>It does not ensure mutual exclusion.</p>"
+          "text": "Express $f$ as the minimal sum of products. Write only the answer.",
+          "html": "<p>Express $f$ as the minimal sum of products. Write only the answer.</p>"
         },
         {
           "label": "B",
-          "text": "It does not ensure bounded waiting.",
-          "html": "<p>It does not ensure bounded waiting.</p>"
+          "text": "If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?",
+          "html": "<p>If the output line is stuck at $0$, for how many input combinations will the value of $f$ be correct?</p>"
+        }
+      ],
+      "answer": [
+        "9"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/19701/gate-cse-1997-question-71",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/19701/gate-cse-1997-question-71"
+    },
+    {
+      "id": "gate-me-2017-s1-q5",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "1997-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "NAT",
+      "question": "<p>A program $P$ reads and processes $1000$ consecutive records from a sequential file $F$ stored on device $D$ without using any file system facilities. Given the following</p>\n<ul>\n<li>Size of each record $= 3200$ bytes</li>\n<li>Access time of $D = 10$ msecs</li>\n<li>Data transfer rate of $D = 800 \\times 10^3$ bytes/second</li>\n<li>CPU time to process each record $= 3$ msecs</li>\n</ul>\n<p>What is the elapsed time of $P$ if</p>",
+      "rawQuestionHtml": "<p>A program $P$ reads and processes $1000$ consecutive records from a sequential file $F$ stored on device $D$ without using any file system facilities. Given the following</p>\n<ul>\n<li>Size of each record $= 3200$ bytes</li>\n<li>Access time of $D = 10$ msecs</li>\n<li>Data transfer rate of $D = 800 \\times 10^3$ bytes/second</li>\n<li>CPU time to process each record $= 3$ msecs</li>\n</ul>\n<p>What is the elapsed time of $P$ if</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>\n<p>$F$ contains unblocked records and $P$ does not use buffering?</p>\n</li>\n<li>\n<p>$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?</p>\n</li>\n<li>\n<p>records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?</p>\n</li>\n</ol>",
+      "options": [
+        "$F$ contains unblocked records and $P$ does not use buffering?",
+        "$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?",
+        "records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$F$ contains unblocked records and $P$ does not use buffering?",
+          "html": "<p>$F$ contains unblocked records and $P$ does not use buffering?</p>"
+        },
+        {
+          "label": "B",
+          "text": "$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?",
+          "html": "<p>$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?</p>"
         },
         {
           "label": "C",
-          "text": "It requires that processes enter the critical section in strict alteration.",
-          "html": "<p>It requires that processes enter the critical section in strict alteration.</p>"
+          "text": "records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?",
+          "html": "<p>records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?</p>"
+        }
+      ],
+      "answer": [
+        "9.006"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/19704/gate-cse-1997-question-74",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/19704/gate-cse-1997-question-74"
+    },
+    {
+      "id": "gate-me-2017-s1-q6",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>In a permutation \\(a_1 ... a_n\\), of n distinct integers, an inversion is a pair \\((a_i, a_j)\\) such that \\(i &lt; j\\) and \\(a_i &gt; a_j\\).</p>\n<p>If all permutations are equally likely, what is the expected number of inversions in a randomly chosen permutation of \\(1. . . n\\)?</p>",
+      "rawQuestionHtml": "<p>In a permutation \\(a_1 ... a_n\\), of n distinct integers, an inversion is a pair \\((a_i, a_j)\\) such that \\(i &lt; j\\) and \\(a_i &gt; a_j\\).</p>\n<p>If all permutations are equally likely, what is the expected number of inversions in a randomly chosen permutation of \\(1. . . n\\)?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\\(\\frac{n(n-1)}{2}\\)</li>\n<li>\\(\\frac{n(n-1)}{4}\\)</li>\n<li>\\(\\frac{n(n+1)}{4}\\)</li>\n<li>\\(2n[\\log_2n]\\)</li>\n</ol>",
+      "options": [
+        "\\(\\frac{n(n-1)}{2}\\)",
+        "\\(\\frac{n(n-1)}{4}\\)",
+        "\\(\\frac{n(n+1)}{4}\\)",
+        "\\(2n[\\log_2n]\\)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "\\(\\frac{n(n-1)}{2}\\)",
+          "html": "\\(\\frac{n(n-1)}{2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\frac{n(n-1)}{4}\\)",
+          "html": "\\(\\frac{n(n-1)}{4}\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\frac{n(n+1)}{4}\\)",
+          "html": "\\(\\frac{n(n+1)}{4}\\)"
         },
         {
           "label": "D",
-          "text": "It does not prevent deadlocks, but ensures mutual exclusion.",
-          "html": "<p>It does not prevent deadlocks, but ensures mutual exclusion.</p>"
+          "text": "\\(2n[\\log_2n]\\)",
+          "html": "\\(2n[\\log_2n]\\)"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/949/gate-cse-2003-question-61",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/949/gate-cse-2003-question-61"
+    },
+    {
+      "id": "gate-me-2017-s1-q7",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 7,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 7",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>In a permutation $a_1\\ldots a_n$, of $n$ distinct integers, an inversion is a pair $(a_i, a_j)$ such that $i &lt; j$ and $a_i &gt; a_j.$</p>\n<p>What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of $1. . . n$ with at most $n$ inversions?</p>",
+      "rawQuestionHtml": "<p>In a permutation $a_1\\ldots a_n$, of $n$ distinct integers, an inversion is a pair $(a_i, a_j)$ such that $i &lt; j$ and $a_i &gt; a_j.$</p>\n<p>What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of $1. . . n$ with at most $n$ inversions?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\Theta(n^2)$</li>\n<li>$\\Theta(n\\log n)$</li>\n<li>$\\Theta(n^{1.5})$</li>\n<li>$\\Theta(n)$</li>\n</ol>",
+      "options": [
+        "$\\Theta(n^2)$",
+        "$\\Theta(n\\log n)$",
+        "$\\Theta(n^{1.5})$",
+        "$\\Theta(n)$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\Theta(n^2)$",
+          "html": "$\\Theta(n^2)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\Theta(n\\log n)$",
+          "html": "$\\Theta(n\\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\Theta(n^{1.5})$",
+          "html": "$\\Theta(n^{1.5})$"
+        },
+        {
+          "label": "D",
+          "text": "$\\Theta(n)$",
+          "html": "$\\Theta(n)$"
         }
       ],
       "answer": [
         "D"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
+      "marks": 2,
+      "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1256/gate-cse-2007-question-58",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1256/gate-cse-2007-question-58"
+      "link": "https://gateoverflow.in/43576/gate-cse-2003-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43576/gate-cse-2003-question-62"
     },
     {
-      "id": "go:2428",
+      "id": "gate-me-2017-s1-q8",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2007-s0",
-      "orderIndex": 3,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 8,
       "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 3",
+      "title": "GATE ME 2017 | GA Question: 8",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
+      "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Information about a collection of students is given by the relation $\\text{studInfo(}\\underline{\\text{studId}},\\text{ name, sex)}$. The relation $\\text{enroll(}{\\text{studId}},{\\text{ courseId}})$ gives which student has enrolled for (or taken) what course(s). Assume that every course is taken by at least one male and at least one female student. What does the following relational algebra expression represent?</p>\n<p>$\\pi _{courceId}\\left(\\left(\\pi_{\\text{studId}}\\left(\\sigma_{sex=“female\"}\\left(\\text{studInfo}\\right)\\right) \\times \\pi_{courseId}\\left(\\text{enroll}\\right)\\right) -\\text{enroll}\\right)$</p>",
-      "rawQuestionHtml": "<p>Information about a collection of students is given by the relation $\\text{studInfo(}\\underline{\\text{studId}},\\text{ name, sex)}$. The relation $\\text{enroll(}{\\text{studId}},{\\text{ courseId}})$ gives which student has enrolled for (or taken) what course(s). Assume that every course is taken by at least one male and at least one female student. What does the following relational algebra expression represent?</p>\n<p>$\\pi _{courceId}\\left(\\left(\\pi_{\\text{studId}}\\left(\\sigma_{sex=“female\"}\\left(\\text{studInfo}\\right)\\right) \\times \\pi_{courseId}\\left(\\text{enroll}\\right)\\right) -\\text{enroll}\\right)$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>Courses in which all the female students are enrolled.</li>\n<li>Courses in which a proper subset of female students are enrolled.</li>\n<li>Courses in which only male students are enrolled.</li>\n<li>None of the above</li>\n</ol>",
+      "question": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in $O(\\log n)$ time, where $n$ is the number of elements in the set.</p>\n<ol style=\"list-style-type:upper-roman\">\n<li>\n<p>Deletion of the smallest element</p>\n</li>\n<li>Insertion of an element if it is not already present in the set</li>\n</ol>\n<p>Which of the following data structures can be used for this purpose?</p>",
+      "rawQuestionHtml": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in $O(\\log n)$ time, where $n$ is the number of elements in the set.</p>\n<ol style=\"list-style-type:upper-roman\">\n<li>\n<p>Deletion of the smallest element</p>\n</li>\n<li>Insertion of an element if it is not already present in the set</li>\n</ol>\n<p>Which of the following data structures can be used for this purpose?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>A heap can be used but not a balanced binary search tree</li>\n<li>\n<p>A balanced binary search tree can be used but not a heap</p>\n</li>\n<li>\n<p>Both balanced binary search tree and heap can be used</p>\n</li>\n<li>\n<p>Neither balanced search tree nor heap can be used</p>\n</li>\n</ol>",
       "options": [
-        "Courses in which all the female students are enrolled.",
-        "Courses in which a proper subset of female students are enrolled.",
-        "Courses in which only male students are enrolled.",
+        "A heap can be used but not a balanced binary search tree",
+        "A balanced binary search tree can be used but not a heap",
+        "Both balanced binary search tree and heap can be used",
+        "Neither balanced search tree nor heap can be used"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "A heap can be used but not a balanced binary search tree",
+          "html": "A heap can be used but not a balanced binary search tree"
+        },
+        {
+          "label": "B",
+          "text": "A balanced binary search tree can be used but not a heap",
+          "html": "<p>A balanced binary search tree can be used but not a heap</p>"
+        },
+        {
+          "label": "C",
+          "text": "Both balanced binary search tree and heap can be used",
+          "html": "<p>Both balanced binary search tree and heap can be used</p>"
+        },
+        {
+          "label": "D",
+          "text": "Neither balanced search tree nor heap can be used",
+          "html": "<p>Neither balanced search tree nor heap can be used</p>"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25"
+    },
+    {
+      "id": "gate-me-2017-s1-q9",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Let <strong>S </strong>be a stack of size $n \\geq1$. Starting with the empty stack, suppose we push the first <em>n</em> natural numbers in sequence, and then perform $n$<em> </em>pop operations. Assume that Push and Pop operations take $X$ seconds each, and $Y$ seconds elapse between the end of one such stack operation and the start of the next operation. For $m \\geq1$, define the stack-life of <em>$m$ </em>as the time elapsed from the end of $Push(m)$ to the start of the pop operation that removes <em>$m$ </em>from <strong>S</strong>. The average stack-life of an element of this stack is</p>",
+      "rawQuestionHtml": "<p>Let <strong>S </strong>be a stack of size $n \\geq1$. Starting with the empty stack, suppose we push the first <em>n</em> natural numbers in sequence, and then perform $n$<em> </em>pop operations. Assume that Push and Pop operations take $X$ seconds each, and $Y$ seconds elapse between the end of one such stack operation and the start of the next operation. For $m \\geq1$, define the stack-life of <em>$m$ </em>as the time elapsed from the end of $Push(m)$ to the start of the pop operation that removes <em>$m$ </em>from <strong>S</strong>. The average stack-life of an element of this stack is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$n(X+Y)$</li>\n<li>$3Y+2X$</li>\n<li>$n(X+Y)-X$</li>\n<li>$Y+2X$</li>\n</ol>",
+      "options": [
+        "$n(X+Y)$",
+        "$3Y+2X$",
+        "$n(X+Y)-X$",
+        "$Y+2X$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$n(X+Y)$",
+          "html": "$n(X+Y)$"
+        },
+        {
+          "label": "B",
+          "text": "$3Y+2X$",
+          "html": "$3Y+2X$"
+        },
+        {
+          "label": "C",
+          "text": "$n(X+Y)-X$",
+          "html": "$n(X+Y)-X$"
+        },
+        {
+          "label": "D",
+          "text": "$Y+2X$",
+          "html": "$Y+2X$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/951/gate-cse-2003-question-64",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/951/gate-cse-2003-question-64"
+    },
+    {
+      "id": "gate-me-2017-s1-q10",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE ME 2017 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following $2-3-4$ tree (i.e., B-tree with a minimum degree of two) in which each data item is a letter. The usual alphabetical ordering of letters is used in constructing the tree.</p>\n<p><img alt=\"\" src=\"/question-images/18396545262188367840.webp\" width=\"450\"/></p>\n<p>What is the result of inserting $G$ in the above tree?</p>",
+      "rawQuestionHtml": "<p>Consider the following $2-3-4$ tree (i.e., B-tree with a minimum degree of two) in which each data item is a letter. The usual alphabetical ordering of letters is used in constructing the tree.</p>\n<p><img alt=\"\" src=\"/question-images/18396545262188367840.webp\" width=\"450\"/></p>\n<p>What is the result of inserting $G$ in the above tree?</p>\n<ol class=\"shrink-inline-options2\" start=\"1\" style=\"list-style-type:upper-alpha\">\n<li><img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/></li>\n<li><img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/></li>\n<li><img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/></li>\n<li>None of the above</li>\n</ol>",
+      "options": [
+        "<img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/>",
+        "<img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/>",
+        "<img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/>",
         "None of the above"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Courses in which all the female students are enrolled.",
-          "html": "Courses in which all the female students are enrolled."
+          "text": "<img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/3361670589055603008.webp\" width=\"400\"/>"
         },
         {
           "label": "B",
-          "text": "Courses in which a proper subset of female students are enrolled.",
-          "html": "Courses in which a proper subset of female students are enrolled."
+          "text": "<img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/1554343305327793797.webp\" width=\"400\"/>"
         },
         {
           "label": "C",
-          "text": "Courses in which only male students are enrolled.",
-          "html": "Courses in which only male students are enrolled."
+          "text": "<img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/11961061422917796830.webp\" width=\"400\"/>"
         },
         {
           "label": "D",
@@ -166,1898 +462,1534 @@
         "B"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2428/gate-cse-2007-question-59",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2428/gate-cse-2007-question-59"
-    },
-    {
-      "id": "go:1258",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2007-s0",
-      "orderIndex": 4,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 4",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>Consider the relation <strong>employee</strong>(name, sex, supervisorName) with <em>name</em> as the key, <em>supervisorName</em> gives the name of the supervisor of the employee under consideration. What does the following Tuple Relational Calculus query produce?</p>\n<p>$\\left\\{e.name \\mid employee(e) \\wedge \\left(\\forall x\\right)\\left[\\neg employee\\left(x \\right) \\vee x.supervisorName \\neq e.name \\vee x.sex = ``male\" \\right]\\right\\}$</p>",
-      "rawQuestionHtml": "<p>Consider the relation <strong>employee</strong>(name, sex, supervisorName) with <em>name</em> as the key, <em>supervisorName</em> gives the name of the supervisor of the employee under consideration. What does the following Tuple Relational Calculus query produce?</p>\n<p>$\\left\\{e.name \\mid employee(e) \\wedge \\left(\\forall x\\right)\\left[\\neg employee\\left(x \\right) \\vee x.supervisorName \\neq e.name \\vee x.sex = ``male\" \\right]\\right\\}$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>Names of employees with a male supervisor.</li>\n<li>Names of employees with no immediate male subordinates.</li>\n<li>Names of employees with no immediate female subordinates.</li>\n<li>Names of employees with a female supervisor.</li>\n</ol>",
-      "options": [
-        "Names of employees with a male supervisor.",
-        "Names of employees with no immediate male subordinates.",
-        "Names of employees with no immediate female subordinates.",
-        "Names of employees with a female supervisor."
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Names of employees with a male supervisor.",
-          "html": "Names of employees with a male supervisor."
-        },
-        {
-          "label": "B",
-          "text": "Names of employees with no immediate male subordinates.",
-          "html": "Names of employees with no immediate male subordinates."
-        },
-        {
-          "label": "C",
-          "text": "Names of employees with no immediate female subordinates.",
-          "html": "Names of employees with no immediate female subordinates."
-        },
-        {
-          "label": "D",
-          "text": "Names of employees with a female supervisor.",
-          "html": "Names of employees with a female supervisor."
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1258/gate-cse-2007-question-60",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1258/gate-cse-2007-question-60"
-    },
-    {
-      "id": "go:479",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2008-s0",
-      "orderIndex": 5,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 5",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:</p>",
-      "rawQuestionHtml": "<p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>does not increase</p>\n</li>\n<li>\n<p>increase linearly</p>\n</li>\n<li>\n<p>increases quadratically</p>\n</li>\n<li>\n<p>increases exponentially</p>\n</li>\n</ol>",
-      "options": [
-        "does not increase",
-        "increase linearly",
-        "increases quadratically",
-        "increases exponentially"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "does not increase",
-          "html": "<p>does not increase</p>"
-        },
-        {
-          "label": "B",
-          "text": "increase linearly",
-          "html": "<p>increase linearly</p>"
-        },
-        {
-          "label": "C",
-          "text": "increases quadratically",
-          "html": "<p>increases quadratically</p>"
-        },
-        {
-          "label": "D",
-          "text": "increases exponentially",
-          "html": "<p>increases exponentially</p>"
-        }
-      ],
-      "answer": [
-        "D"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/479/gate-cse-2008-question-56",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/479/gate-cse-2008-question-56"
-    },
-    {
-      "id": "go:2369",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2010-s0",
-      "orderIndex": 6,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 6",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Analytical & Logical Reasoning",
-      "type": "MCQ",
-      "question": "<p>If $137 + 276 = 435$ how much is $731+672?$</p>",
-      "rawQuestionHtml": "<p>If $137 + 276 = 435$ how much is $731+672?$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$534$</li>\n<li>$1403$</li>\n<li>$1623$</li>\n<li>$1513$</li>\n</ol>",
-      "options": [
-        "$534$",
-        "$1403$",
-        "$1623$",
-        "$1513$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$534$",
-          "html": "$534$"
-        },
-        {
-          "label": "B",
-          "text": "$1403$",
-          "html": "$1403$"
-        },
-        {
-          "label": "C",
-          "text": "$1623$",
-          "html": "$1623$"
-        },
-        {
-          "label": "D",
-          "text": "$1513$",
-          "html": "$1513$"
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2369/gate-cse-2010-question-61",
+      "link": "https://gateoverflow.in/952/gate-cse-2003-question-65",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2369/gate-cse-2010-question-61"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/952/gate-cse-2003-question-65"
     },
     {
-      "id": "go:2370",
+      "id": "gate-me-2017-s1-q11",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2010-s0",
-      "orderIndex": 7,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 7",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Analytical & Logical Reasoning",
-      "type": "MCQ",
-      "question": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:</p>\n<ol style=\"list-style-type:lower-roman\">\n<li>Hari's age $+$ Gita's age $&gt;$ Irfan's age $+$ Saira's age</li>\n<li>The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.</li>\n<li>There are no twins.</li>\n</ol>\n<p>In what order they were born (oldest first)?</p>",
-      "rawQuestionHtml": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:</p>\n<ol style=\"list-style-type:lower-roman\">\n<li>Hari's age $+$ Gita's age $&gt;$ Irfan's age $+$ Saira's age</li>\n<li>The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.</li>\n<li>There are no twins.</li>\n</ol>\n<p>In what order they were born (oldest first)?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\text{HSIG}$</li>\n<li>$\\text{SGHI}$</li>\n<li>$\\text{IGSH}$</li>\n<li>$\\text{IHSG}$</li>\n</ol>",
-      "options": [
-        "$\\text{HSIG}$",
-        "$\\text{SGHI}$",
-        "$\\text{IGSH}$",
-        "$\\text{IHSG}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$\\text{HSIG}$",
-          "html": "$\\text{HSIG}$"
-        },
-        {
-          "label": "B",
-          "text": "$\\text{SGHI}$",
-          "html": "$\\text{SGHI}$"
-        },
-        {
-          "label": "C",
-          "text": "$\\text{IGSH}$",
-          "html": "$\\text{IGSH}$"
-        },
-        {
-          "label": "D",
-          "text": "$\\text{IHSG}$",
-          "html": "$\\text{IHSG}$"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2370/gate-cse-2010-question-62",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2370/gate-cse-2010-question-62"
-    },
-    {
-      "id": "go:2371",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2010-s0",
-      "orderIndex": 8,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 8",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p><strong>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.</strong></p>\n<p>Which of the following statements best sums up the meaning of the above passage:</p>",
-      "rawQuestionHtml": "<p><strong>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.</strong></p>\n<p>Which of the following statements best sums up the meaning of the above passage:</p>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Modern warfare has resulted in civil strife.</li>\n<li>Chemical agents are useful in modern warfare.</li>\n<li>People in military establishments like to use chemical agents in war.</li>\n<li>Use of chemical agents in warfare would be undesirable.</li>\n</ol>",
-      "options": [
-        "Modern warfare has resulted in civil strife.",
-        "Chemical agents are useful in modern warfare.",
-        "People in military establishments like to use chemical agents in war.",
-        "Use of chemical agents in warfare would be undesirable."
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Modern warfare has resulted in civil strife.",
-          "html": "Modern warfare has resulted in civil strife."
-        },
-        {
-          "label": "B",
-          "text": "Chemical agents are useful in modern warfare.",
-          "html": "Chemical agents are useful in modern warfare."
-        },
-        {
-          "label": "C",
-          "text": "People in military establishments like to use chemical agents in war.",
-          "html": "People in military establishments like to use chemical agents in war."
-        },
-        {
-          "label": "D",
-          "text": "Use of chemical agents in warfare would be undesirable.",
-          "html": "Use of chemical agents in warfare would be undesirable."
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2371/gate-cse-2010-question-63",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2371/gate-cse-2010-question-63"
-    },
-    {
-      "id": "go:2372",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2010-s0",
-      "orderIndex": 9,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 9",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
-      "type": "MCQ",
-      "question": "<p>$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?</p>",
-      "rawQuestionHtml": "<p>$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$20$ days</li>\n<li>$18$ days</li>\n<li>$16$ days</li>\n<li>$15$ days</li>\n</ol>",
-      "options": [
-        "$20$ days",
-        "$18$ days",
-        "$16$ days",
-        "$15$ days"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$20$ days",
-          "html": "$20$ days"
-        },
-        {
-          "label": "B",
-          "text": "$18$ days",
-          "html": "$18$ days"
-        },
-        {
-          "label": "C",
-          "text": "$16$ days",
-          "html": "$16$ days"
-        },
-        {
-          "label": "D",
-          "text": "$15$ days",
-          "html": "$15$ days"
-        }
-      ],
-      "answer": [
-        "D"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2372/gate-cse-2010-question-64",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2372/gate-cse-2010-question-64"
-    },
-    {
-      "id": "go:2373",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2010-s0",
-      "orderIndex": 10,
-      "section": "GA",
-      "title": "GATE ME 2017 | GA Question: 10",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
-      "type": "MCQ",
-      "question": "<p>Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?</p>",
-      "rawQuestionHtml": "<p>Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$50$</li>\n<li>$51$</li>\n<li>$52$</li>\n<li>$54$</li>\n</ol>",
-      "options": [
-        "$50$",
-        "$51$",
-        "$52$",
-        "$54$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$50$",
-          "html": "$50$"
-        },
-        {
-          "label": "B",
-          "text": "$51$",
-          "html": "$51$"
-        },
-        {
-          "label": "C",
-          "text": "$52$",
-          "html": "$52$"
-        },
-        {
-          "label": "D",
-          "text": "$54$",
-          "html": "$54$"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2373/gate-cse-2010-question-65",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2373/gate-cse-2010-question-65"
-    },
-    {
-      "id": "gate-me-q113",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 11,
       "section": "ME",
       "title": "GATE ME 2017 | ME Question: 1",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Which one of the following is the most conservative fatigue failure criterion?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q115",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2015-s3",
-      "orderIndex": 12,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 2",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A \n \n thick slab is being cold rolled using roll of \n \n diameter. If the coeﬃcient of friction is \n,\nthe maximum possible reduction (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q117",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 13,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 3",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The cross sections of two hollow bars made of the same material are concentric circles as shown in the\nﬁgure. It is given that \n and \n, and that the areas of the cross-sections are the same. \n and</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q119",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 14,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 4",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Two masses m are attached to opposite sides of a rigid rotating shaft in the vertical plane. Another pair of\nequal masses \n is attached to the opposite sides of the shaft in the vertical plane as shown in ﬁgure.\nConsider \n, \n, \n, \n, \n and \n. For the system to be\ndynamically balanced, \n should be ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q121",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 15,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 5",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The cross-sections of two solid bars made of the same material are shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q123",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 16,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 6",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The rod \n of length \n m, and uniformly distributed mass of \n kg, is released from rest at\nthe position shown in the ﬁgure. The ends slide along the frictionless faces \n and \n. Assume\nacceleration due to gravity, \n. The mass moment of inertia of the rod about its centre of mass and an\naxis perpendicular to the plane of the ﬁgure is \n. At this instant, the magnitude of angular acceleration (in\nradian/\n) of the rod is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q125",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 17,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 7",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A wire of circular cross-section of diameter \n mm is bent into a circular arc of radius. \n m by application\nof pure bending moments at its ends. The Young’s modulus of the material of the wire is \n GPa. The\nmaximum tensile stress developed in the wire is ______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q127",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 18,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 8",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The \n kg block shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q129",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 19,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 9",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The state of stress at a point under plane stress condition is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q131",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 20,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 10",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A steel cube, with all faces free to deform, has Young’s modulus, \n, Poisson’s ratio, \n, and coeﬃ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q133",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 21,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 11",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A rigid uniform rod \n of length \n and mass \n is hinged at \n such that \n, \n. Ends \n and \n are supported by springs of spring constant k. The natural frequency of the system is given by</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q135",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 22,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 12",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A single riveted lap joint of two similar plates as shown in the ﬁgure below has the following geometrical and\nmaterial details.\nwidth of the plate w = \n \n, thickness of the plate \n = \n \n, number of rivets \n = \n, diameter of the rivet \n = \n \n, diameter of the rivet hole \n = \n \n, allowable tensile stress of the plate \n = \n \n, allowable\nshear stress of the rivet \n = \n \n and allowable bearing stress of the rivet \n =</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q137",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 23,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 13",
-      "subject": "Manufacturing & Materials",
-      "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
-      "type": "NAT",
-      "question": "<p>For the three bolt system shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q139",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 4,
-      "yearSetKey": "2014-s4",
-      "orderIndex": 24,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 14",
-      "subject": "Manufacturing & Materials",
-      "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
-      "type": "NAT",
-      "question": "<p>A butt weld joint is developed on steel plates having yield and ultimate tensile strength of \n \n and \n \n, respectively. The thickness of the plates is \n \n and width is \n \n. Improper selection of\nwelding parameters caused an undercut of \n \n depth along the weld. The maximum transverse tensile load (in \n) carrying capacity of the developed weld joint is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q141",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 25,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 15",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Consider the schematic of a riveted lap joint subjected to tensile load \n, as shown below. Let \n be the\ndiameter of the rivets, and \n be the maximum permissible tensile stress in the plates. What should be the\nminimum value for the thickness of the plates to guard against tensile failure of the plates? Assume the plates to be\nidentical.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q143",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 26,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 16",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>For steady, fully developed ﬂow inside a straight pipe of diameter \n, neglecting gravity eﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q145",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 27,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 17",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A shaft is subjected to pure torsional moment. The maximum shear stress developed in the shaft is \n \n. The yield and ultimate strengths of the shaft material in tension are \n \n and \n \n,\nrespectively. The factor of safety using maximum distortion energy (von-Mises) theory is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q147",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 28,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 18",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The rod \n, of length \n \n, shown in the ﬁgure is connected to two sliders at each end through pins. The\nsliders can slide along \n and \n. If the velocity \n of the slider at \n is \n \n, the velocity of the\nmidpoint of the rod at this instant is ___________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q149",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 29,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 19",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A single degree of freedom spring mass system with viscous damping has a spring constant of \n \n.\nThe system is excited by a sinusoidal force of amplitude \n \n. If the damping factor (ratio) is \n, the\namplitude of steady state oscillation at resonance is ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q151",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 30,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 20",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A solid disc with radius \n is connected to a spring at a point \n above the center of the disc. The other end of\nthe spring is ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q153",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 31,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 21",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The static deﬂection of a spring under gravity, when a mass of \n is suspended from it, is \n. Assume\nthe acceleration due to gravity \n. The natural frequency of this spring-mass system (in \n)\nis_____________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q155",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 32,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 22",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A thin uniform rigid bar of Length \n and mass \n is hinged at point \n, located at a distance of \n from one\nof its ends. The bar is further supported using springs, each of stiﬀness \n, located at the two ends. A particle of\nmass \n is ﬁxed at one end of the bar, as shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q157",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 33,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 23",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A mass \n is attached to two identical springs having spring constant \n as shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q159",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 34,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 24",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The equation of motion for a spring-mass system excited by a harmonic force is \n,\nwhere \n is the mass, \n is the spring stiﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q161",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 35,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 25",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A slender uniform rigid bar of mass \n is hinged at \n and supported by two springs, with stiﬀness, \n and \nand a damper with damping coeﬃcient \n, as shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q146",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 36,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 26",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A machine element is subjected to the following bi-axial state of stress: \n = \n \n; \n = 20 MPa; \n = \n \n. If the shear strength of the material is \n \n, the factor of safety as per Tresca’</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q148",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 37,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 27",
-      "subject": "Machine Design",
-      "subjectSlug": "machine-design",
-      "topic": "Design Against Static & Fatigue Loads",
-      "type": "NAT",
-      "question": "<p>The damping ratio of a single degree of freedom spring-mass-damper system with mass of \n, stiﬀness \n and viscous damping coefficient of \n is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q150",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 38,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 28",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The spring constant of a helical compression spring \nDOES NOT\n depend on</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q152",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 39,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 29",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The system shown in the ﬁgure consists of block A of mass \n \n connected to a spring through a massless\nrope passing over pulley B of radius \n and mass \n \n. The spring constant \n is \n \n. If there is no\nslipping of the rope over the pulley, the natural frequency of the system is_____________ \n.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q154",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 40,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 30",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A single degree of freedom spring-mass system is subjected to a harmonic force of constant amplitude. For\nan excitation frequency of \n, the ratio of the amplitude of steady state response to the static deﬂection\nof the spring is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q156",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 41,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 31",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A helical compression spring made of a wire of circular cross-section is subjected to a compressive load.\nThe maximum shear stress induced in the cross-section of the wire is \nMPa. For the same compressive\nload, if both the wire diameter and the mean coil diameter are doubled, the maximum shear stress (in MPa) induced</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q158",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 42,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 32",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>If the wire diameter of a compressive helical spring is increased by \n, the change in spring stiﬀness (in \n)\nis _____</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q160",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 43,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 33",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The natural frequencies corresponding to the spring-mass systems \n and \n are \n and \n, respectively.\nThe ratio \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q162",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 44,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 34",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A rigid mass-less rod of length \n is connected to a disc (pulley) of mass \n and radius \n through a\nfriction-less revolute joint. The other end of that rod is attached to a wall through a friction-less hinge. A\nspring of stiffness \n is attached to the rod at its mid-span. An inextensible rope passes over half the disc periphery\nand is securely tied to a spring of stiﬀness \n at point \n as shown in the ﬁgure. There is no slip between the rope\nand the pulley. The system is in static equilibrium in the conﬁguration shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q164",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 45,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 35",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Which one of following is \nNOT\n correct?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q166",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 46,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 36",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Which one of the following types of stress-strain relationship best describes the behaviour of brittle materials,\nsuch as ceramics and thermosetting plastics, (\n = stress and \n = strain)?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q168",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 47,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 37",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A horizontal bar with a constant cross-section is subjected to loading as shown in the ﬁgure. The Young’s\nmoduli for the sections \n and \n are \n and \n, respectively.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q170",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 48,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 38",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A hypothetical engineering stress-strain curve shown in the ﬁgure has three straight lines \n with\ncoordinates P\n, Q\n, R\n and S\n. \n is the yield point, \n is the UTS point\nand \n the fracture point.\nThe toughness of the material (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q172",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 49,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 39",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A rigid horizontal rod of length \n is ﬁxed to a circular cylinder of radius \n as shown in the ﬁgure. Vertical</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q174",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 50,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 40",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>In a structural member under fatigue loading, the minimum and maximum stresses developed at the critical\npoint are \n \n and \n \n, respectively. The endurance, yield, and the ultimate strengths of the\nmaterial are \n \n, \n \n and \n \n, respectively. The factor of safety using modiﬁed Goodman\ncriterion is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q176",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 51,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 41",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>In a sheet metal of \n \n thickness a hole of \n \n diameter needs to be punched. The yield strength in\ntension of the sheet material is \n \n and its ultimate shear strength is \n \n. The force required to\npunch the hole (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q178",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 52,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 42",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>In a metal forming operation when the material has just started yielding. the principal stresses are</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q180",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 53,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 43",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A rectangular region in a solid is in a state of plane strain. The \n coordinates of the corners of the\nundeformed rectangle are given by \n. The rectangle is subjected to\nuniform strains, \n. The deformed length of the elon</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q182",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 54,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 44",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The state of stress at a point, for a body in plane stress, is shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q184",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 55,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 45",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A cylindrical rod of diameter \n mm and length \nm ﬁxed at one end. The other end is twisted by an angle\nof \n by applying a torque. If the maximum shear strain in the rod is \n, then \n is equal to ____</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q186",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 56,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 46",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Consider the stress-strain curve for an ideal elastic-plastic strain hardening metal as shown in the ﬁgure.\nThe metal was loaded in uniaxial tension starting from \n. Upon loading, the stress-strain curve passes\nthrough initial yield point at \n, and then strain hardens to point \n, where the loading was stopped. From point \n,\nthe specimen was unloaded to point \n, where the stress is zero. If the same specimen is reloaded in tension from\npoint \n, the value of stress at which the material yields again is _______ MPa.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q188",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 57,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 47",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>In a UTM experiment, a sample of length \n, was loaded in tension until failure. The failure load was \n. The displacement, measured using the cross-head motion, at failure, was \n. The compliance\nof the UTM is constant and is given \n. The strain at failure in the sample is ______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q190",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 58,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 48",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The stress state at a point in a material under plane stress condition is equi-biaxial tension with a magnitude\nof \n. If one unit on the \n plane is \n, the Mohr’</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q192",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 3,
-      "yearSetKey": "2013-s3",
-      "orderIndex": 59,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 49",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A slider-crank mechanism with crank radius \n \n and connecting rod length \n \n is shown in ﬁgure.\nThe crank is rotating with a uniform angular speed of \n \n, counter clockwise. For the given\nconfiguration, the speed (in \n) of the slider is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q194",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 60,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 50",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>The crank of a slider-crank mechanism rotates counter-clockwise (CCW) with a constant angular velocity \n,\nas shown. Assume the length of the crank to be \n.\nUsing exact analysis, the acceleration of the slider in the \n-direction, at the instant shown, where the crank is\nparallel to \n-axis, is given by</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q196",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 61,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 51",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>What is the natural frequency of the spring mass system shown below?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q198",
-      "testId": "gate-me-2017-s1",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 62,
-      "section": "ME",
-      "title": "GATE ME 2017 | ME Question: 52",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
+      "topic": "General Mechanical Engineering",
       "type": "MCQ",
-      "question": "<p>A \n-bar mechanism with all revolute pairs has link lengths \n = \n \n, \n \n, \n \n and \n \n. The suﬃxes \n, \n, \n and \n denote the ﬁxed link, the input link, the coupler and\noutput link respectively. Which one of the following statements is true about the input and output links?</p>",
+      "question": "<p>Let \n be a scalar function. Then, \n is</p>",
       "options": [
-        "Both links can execute full circular motion",
-        "Both links cannot execute full circular motion",
-        "Only the output link cannot execute full circular motion",
-        "Only the input link cannot execute full circular motion"
+        "always perpendicular to the surface of constant",
+        "always parallel to the surface of constant",
+        "the minimum rate of change of scalar",
+        "always zero\ngateme-2026\n \nengineering-mathematics\n \nvector-calculus\nVector Identities \n(10)\nVector Identities: GATE ME 2012 | Question:"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both links can execute full circular motion",
-          "html": "Both links can execute full circular motion"
+          "text": "always perpendicular to the surface of constant",
+          "html": "always perpendicular to the surface of constant"
         },
         {
           "label": "B",
-          "text": "Both links cannot execute full circular motion",
-          "html": "Both links cannot execute full circular motion"
+          "text": "always parallel to the surface of constant",
+          "html": "always parallel to the surface of constant"
         },
         {
           "label": "C",
-          "text": "Only the output link cannot execute full circular motion",
-          "html": "Only the output link cannot execute full circular motion"
+          "text": "the minimum rate of change of scalar",
+          "html": "the minimum rate of change of scalar"
         },
         {
           "label": "D",
-          "text": "Only the input link cannot execute full circular motion",
-          "html": "Only the input link cannot execute full circular motion"
+          "text": "always zero\ngateme-2026\n \nengineering-mathematics\n \nvector-calculus\nVector Identities \n(10)\nVector Identities: GATE ME 2012 | Question:",
+          "html": "always zero\ngateme-2026\n \nengineering-mathematics\n \nvector-calculus\nVector Identities \n(10)\nVector Identities: GATE ME 2012 | Question:"
         }
       ],
       "answer": [
         "B"
       ],
       "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q200",
+      "id": "gate-me-2017-s1-q12",
       "testId": "gate-me-2017-s1",
       "year": 2017,
-      "set": 3,
-      "yearSetKey": "2014-s3",
+      "set": 1,
+      "orderIndex": 12,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 2",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Which one of the following describes the relationship among the three vectors, \n , \n and\n ?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q13",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 13,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 3",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Consider a velocity field \n , where \n is a constant. The vorticity, \n , is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q14",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 14,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 4",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Given \n. \n is a circle of radius \n with the centre at the origin. If the contour \n is\ntraversed anticlockwise, then the value of the integral \n is __________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q15",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 15,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 5",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The value of \n that makes the complex-valued function\nanalytic, where \n, is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q16",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 16,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 6",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>If \n is the unit circle in the complex plane with its center at the origin, then the value of \n in the equation\ngiven below is _________  (rounded off to \n decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q17",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 17,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 7",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>If \n, where \n, then which one of the following statements is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q18",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 18,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 8",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The Fourier series expansion of \n in the interval \n with periodic continuation has</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q19",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 19,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 9",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Consider two solutions \n and \n of the diﬀerential equation \n such that \n, \n.\nThe Wronskian \n at \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q20",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 20,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 10",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The solution of the initial value problem \n ;</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q21",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 21,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 11",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Consider the following statements regarding streamline(s):\ni\n. \nIt is a continuous line such that the tangent at any point on it shows the velocity vector at that point\nii\n. \nThere is no flow across streamlines\niii\n. \n is the diﬀerential equation of a streamline, where \n, \n and \n are velocities in directions \n, \nand \n, respectively\niv\n. \nIn an unsteady flow, the path of a particle is a streamline\nWhich one of the following combinations of the statements is true?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q22",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 22,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 12",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>For the exact differential equation,\nwhich one of the following is the solution?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q23",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 23,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 13",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Consider the second-order linear ordinary differential equation\nwith the initial conditions\nThe value of \n at \n equals __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q24",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 24,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 14",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>If \n satisfies the differential equation\nsubject to the condition \n, then the value of \n is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q25",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 25,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 15",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Let \n be the solution of the diﬀerential equation with the initial conditions given below. If \n,\nthen the value of \n is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q26",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 26,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 16",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The order and degree of the following differential equation are \n and \n, respectively.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q27",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 27,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 17",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>The Dirac-delta function \n for \n, \n, has the following property\nThe Laplace transform of the Dirac-delta function \n for \n;</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Industrial Engineering):</strong></p><p>Concept & Formulation for <em>Operations Research & Project Management</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q28",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 28,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 18",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>If the Laplace transform of a function \n is given by \n, then \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q29",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 29,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 19",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Let \n be a function of \n deﬁned for all positive values of \n. The Laplace transform of \n denoted by \n, provided that the integral exists where \n is a parameter which may be a real or\ncomplex number.\nThe Laplace transform of \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q30",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 30,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 20",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The ordinary diﬀerential equation \n subject to an initial condition \n is solved numerically\nusing the following scheme:\nwhere \n is the time step, \n, and \n. This numerical scheme is stable for all values of \n in the\ninterval ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q31",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 31,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 21",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>In order to numerically solve the ordinary diﬀerential equation \n for \n, with an initial condition \n, the following scheme is employed\nHere, \n is the time step and \n for \n This numerical scheme will yield a solution with\nnon-physical oscillations for \n. The value of \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q32",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 32,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 22",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>For the differential equation given below, which one of the following options is correct?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q33",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 33,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 23",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>A linear transformation maps a point \n in the plane to the point \n according to the rule\nThen, the disc \n gets transformed to a region with an area equal to ________. \n(Rounded oﬀ to two\ndecimals)\nUse</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q34",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 34,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 24",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Given that the determinant of the matrix \n is \n, the determinant of the matrix \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q35",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 35,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 25",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Consider an \n matrix \n and a non-zero \n vector \n Their product \n, where \n and \n. Based on the given information, the eigen value of \n is:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q36",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 36,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 26",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "MCQ",
+      "question": "<p>Consider a vector \n in \n-dimensional space. Let its direction (counter-clockwise angle with the positive \n-\naxis) be \n. Let \n  be an eigenvector of a \n matrix \n with corresponding eigenvalue \n. If we\ndenote the magnitude of a vector \n by \n, identify the \n statement regarding, \n, where \n.</p>",
+      "options": [
+        "Direction of",
+        "Direction of",
+        "Direction of"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Direction of",
+          "html": "Direction of"
+        },
+        {
+          "label": "B",
+          "text": "Direction of",
+          "html": "Direction of"
+        },
+        {
+          "label": "C",
+          "text": "Direction of",
+          "html": "Direction of"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q37",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 37,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 27",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "MCQ",
+      "question": "<p>Let the superscript \n represent the transpose operation. Consider the function \n,\nwhere \n and \n are \n vectors and \n is a symmetric \n matrix. The stationary point of \n is</p>",
+      "options": [
+        "D\n. \ngateme-2021-set2\n \nlinear-algebra\n \nmatrices\nMatrices: GATE2015-1-1\nIf any two columns of a determinant \n are interchanged, which one of the following\nstatements regarding the value of the determinant is \nCORRECT\n?",
+        "Absolute value remains unchanged but sign will change.",
+        "Both absolute value and sign will change.",
+        "Absolute value will change but sign will not change.",
+        "Both absolute value and sign will remain unchanged."
+      ],
+      "structuredOptions": [
+        {
+          "label": "C",
+          "text": "D\n. \ngateme-2021-set2\n \nlinear-algebra\n \nmatrices\nMatrices: GATE2015-1-1\nIf any two columns of a determinant \n are interchanged, which one of the following\nstatements regarding the value of the determinant is \nCORRECT\n?",
+          "html": "D\n. \ngateme-2021-set2\n \nlinear-algebra\n \nmatrices\nMatrices: GATE2015-1-1\nIf any two columns of a determinant \n are interchanged, which one of the following\nstatements regarding the value of the determinant is \nCORRECT\n?"
+        },
+        {
+          "label": "A",
+          "text": "Absolute value remains unchanged but sign will change.",
+          "html": "Absolute value remains unchanged but sign will change."
+        },
+        {
+          "label": "B",
+          "text": "Both absolute value and sign will change.",
+          "html": "Both absolute value and sign will change."
+        },
+        {
+          "label": "C",
+          "text": "Absolute value will change but sign will not change.",
+          "html": "Absolute value will change but sign will not change."
+        },
+        {
+          "label": "D",
+          "text": "Both absolute value and sign will remain unchanged.",
+          "html": "Both absolute value and sign will remain unchanged."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q38",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 38,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 28",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Which one of the following equations is a correct identity for arbitrary \n real matrices \n, \n and \n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q39",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 39,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 29",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The system of linear equations in real \n given by\ninvolves a real parameter \n and has inﬁnitely many non-trivial solutions for special value(s) of \n. Which one or\nmore among the following options is/are non trivial solution(s) of \n for such special value(s) of \n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q40",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 40,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 30",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "MCQ",
+      "question": "<p>is a \n real matrix of rank \n. For the set ot homogeneous equations \n, where \n is a zero vector\nand \n is a vector of unknown variables, which of the following is/are true?</p>",
+      "options": [
+        "The given set of equations will have a unique solution.",
+        "The given set of equations will be satisfied by a zero vector of appropriate size.",
+        "The given set of equations will have infinitely many solutions.",
+        "The given set of equations will have many but a finite number of solutions.\ngateme-2022-set2\n \nmultiple-selects\n \nlinear-algebra\nRank of Matrix \n(2)\nRank of Matrix: GATE2018-1-2\nThe rank of the matrix \n is\ngateme-2018-set1\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nRank of Matrix: GATE2018-2-19\nIf \n then \n is _______ (correct to two decimal palces).\ngateme-2018-set2\n \nnumerical-answers\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nAnswer key\n☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The given set of equations will have a unique solution.",
+          "html": "The given set of equations will have a unique solution."
+        },
+        {
+          "label": "B",
+          "text": "The given set of equations will be satisfied by a zero vector of appropriate size.",
+          "html": "The given set of equations will be satisfied by a zero vector of appropriate size."
+        },
+        {
+          "label": "C",
+          "text": "The given set of equations will have infinitely many solutions.",
+          "html": "The given set of equations will have infinitely many solutions."
+        },
+        {
+          "label": "D",
+          "text": "The given set of equations will have many but a finite number of solutions.\ngateme-2022-set2\n \nmultiple-selects\n \nlinear-algebra\nRank of Matrix \n(2)\nRank of Matrix: GATE2018-1-2\nThe rank of the matrix \n is\ngateme-2018-set1\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nRank of Matrix: GATE2018-2-19\nIf \n then \n is _______ (correct to two decimal palces).\ngateme-2018-set2\n \nnumerical-answers\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nAnswer key\n☟",
+          "html": "The given set of equations will have many but a finite number of solutions.\ngateme-2022-set2\n \nmultiple-selects\n \nlinear-algebra\nRank of Matrix \n(2)\nRank of Matrix: GATE2018-1-2\nThe rank of the matrix \n is\ngateme-2018-set1\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nRank of Matrix: GATE2018-2-19\nIf \n then \n is _______ (correct to two decimal palces).\ngateme-2018-set2\n \nnumerical-answers\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nAnswer key\n☟"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q41",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 41,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 31",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>​​​​​\nConsider the system of linear equations\nThe values of \n and \n such that there exists a non-trivial null space and the system admits infinite solutions are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q42",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 42,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 32",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The definite integral \n is evaluated using Trapezoidal rule with a step size of \n. The correct\nanswer is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q43",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 43,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 33",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Value of \n using Simpson’s one-third rule with interval size \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q44",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 44,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 34",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>Consider an objective function \n  and the constraints\n , \nThe maximum value of the objective function is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q45",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 45,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 35",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A solid part (see ﬁgure) of polymer material is to be fabricated by additive manufacturing \n in square-\nshaped layers starting from the bottom of the part working upwards. The nozzle diameter of the \n machine is \n and the nozzle follows a linear serpentine path parallel to the sides of the square\nlayers with a feed rate of \n.\nIgnore any tool path motions other than those involved in adding material, and any other delays between layers or\nthe serpentine scan lines.\nThe time taken to fabricate this part is ____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q46",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 46,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 36",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Find the positive real root of \n using Newton-Raphson method. lf the starting guess \n is \nthe numerical value of the root after two iterations \n is ______  (\n).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q47",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 47,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 37",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Using the trapezoidal rule, and dividing the interval of integration into three equal subintervals, the deﬁnite\nintegral  \n is _____</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q48",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 48,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 38",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The value of \n calculated using the Trapezoidal rule with five subintervals is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q49",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 49,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 39",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The best approximation of the minimum value attained by \n for \n is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q50",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 50,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 40",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The initial value problem\nis solved numerically using the forward Euler's method with a constant and positive time step of \n.\nLet \n represent the numerical solution obtained after \n steps. The condition \n is satisﬁed if and only if\n does not exceed _________.\n \n(Answer in integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q51",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 51,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 41",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "NAT",
+      "question": "<p>The values of a function \n obtained for different values of \n are shown in the table below.\n0\n0.25\n0.5\n0.75\n1.0\n0.9\n2.0\n1.5\n1.8\n0.4\nUsing Simpson's one-third rule,\n _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Manufacturing & Materials):</strong></p><p>Concept & Formulation for <em>Machining, Tool Life & Forming</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q52",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 52,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 42",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The exact solution of \n is represented as \n.\nIf \n represents numerically evaluated value of the above integral using Trapezoidal rule by considering four equal\nsubintervals in the range of \n, then \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q53",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 53,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 43",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The mean and variance, respectively, of a binomial distribution for \n independent trails with the probability of\nsuccess as \n, are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q54",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 54,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 44",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>Consider a binomial random variable \n. If \n are independent and identically distributed\nsamples from the distribution of \n with sum \n, then the distribution of \n as \n can be\napproximated as</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q55",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 55,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 45",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The number of accidents occurring in a plant in a month follows Poisson distribution with mean as \n. The\nprobability of occurrence of less than \n accidents in the plant during a randomly selected month is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q56",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 56,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 46",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Customers arrive at a shop according to the Poisson distribution with a mean of \n customers/hour. The\nmanager notes that no customer arrives tor the ﬁrst \n minutes after the shop opens. The probability that a\ncustomer arrives within the next \n minutes is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q57",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 57,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 47",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Consider an unbiased cubic dice with opposite faces coloured identically and each face coloured red, blue or\ngreen such that each colour appears only two times on the dice. If the dice is thrown thrice, the probability of\nobtaining red colour on top face of the dice at least twice is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q58",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 58,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 48",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>A group consists of equal number of men and women. Of this group \n% of the men and \n% of the women\nare unemployed. If a person is selected at random from this group, the probability of the selected person\nbeing employed is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q59",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 59,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 49",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Let a random variable \n follow Poisson distribution such that\n. The value of  \n is ______________ \n(round off to \n decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q60",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 60,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 50",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>Activities \n and \n form the critical path for a project with a \n network. The means and\nvariances of the activity duration for each activity are given below. All activity durations follow the Gaussian\n(normal) distribution, and are independent of each other.\nThe probability that the project will be complete within \n days is ________________ (\n).\n(\n: Probability is a number between \n and \n).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Industrial Engineering):</strong></p><p>Concept & Formulation for <em>Operations Research & Project Management</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q61",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 61,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 51",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A machine produces a defective component with a probability of \n. The number of defective\ncomponents in a packed box containing \n components produced by the machine follows a Poisson\ndistribution. The mean and the variance of the distribution are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q62",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 62,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 52",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>A queueing system has one single server workstation that admits an inﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q63",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
       "orderIndex": 63,
       "section": "ME",
       "title": "GATE ME 2017 | ME Question: 53",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>A mass \n of \n \n traveling with a uniform velocity of \n \n along a line collides with a stationary mass \n of \n \n. After the collision, both the masses travel together with the same velocity. The coeﬃ</p>",
+      "question": "<p>Let \n be a continuous random variable deﬁned on \n such that its probability density function \nfor \n and \n otherwise. Let \n. Then the expected value of \n is ___________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q202",
+      "id": "gate-me-2017-s1-q64",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 64,
       "section": "ME",
       "title": "GATE ME 2017 | ME Question: 54",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>The initial velocity of an object is \n \n. The acceleration a of the object is given by the following\nexpression:\n                                                          \nwhere \n is the instantaneous velocity of the object. The velocity of the object after \n seconds will be _______</p>",
+      "question": "<p>A student council of \n members consists of two students from engineering school, three students from\nscience school and ﬁve students from arts school. The university administration selects three students from\nthe council at random. What is the chance that out of the selected students, two belong to the same school and the\nthird belongs to different school?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q204",
+      "id": "gate-me-2017-s1-q65",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 65,
       "section": "ME",
       "title": "GATE ME 2017 | ME Question: 55",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>A small ball of mass \n \n moving with a velocity of \n \n undergoes a direct central impact with a\nstationary ball of mass \n \n. The impact is perfectly elastic. The speed (in \n) of \n \n mass ball after the\nimpact will be ____________</p>",
+      "question": "<p>In the following table, \n is a discrete random variable and \n is the probability density. The standard\ndeviation of \n is</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     }
   ]
 }

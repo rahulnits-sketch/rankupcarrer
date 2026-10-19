@@ -75,18 +75,18 @@ const accentStyles = {
     button: "bg-blue-600 hover:bg-blue-700 text-white",
   },
   purple: {
-    border: "hover:border-purple-400",
-    icon: "border-purple-200 bg-purple-50 text-purple-700",
-    number: "text-purple-600",
-    title: "group-hover:text-purple-700",
-    button: "bg-purple-600 hover:bg-purple-700 text-white",
+    border: "hover:border-blue-400",
+    icon: "border-blue-200 bg-blue-50 text-blue-700",
+    number: "text-blue-600",
+    title: "group-hover:text-blue-700",
+    button: "bg-blue-600 hover:bg-blue-700 text-white",
   },
   emerald: {
-    border: "hover:border-emerald-400",
-    icon: "border-emerald-200 bg-emerald-50 text-emerald-700",
-    number: "text-emerald-600",
-    title: "group-hover:text-emerald-700",
-    button: "bg-emerald-600 hover:bg-emerald-700 text-white",
+    border: "hover:border-blue-400",
+    icon: "border-blue-200 bg-blue-50 text-blue-700",
+    number: "text-blue-600",
+    title: "group-hover:text-blue-700",
+    button: "bg-blue-600 hover:bg-blue-700 text-white",
   },
 } as const;
 
@@ -100,10 +100,10 @@ const branchIcons = {
 
 const branchAccents = {
   blue: "border-blue-200 bg-blue-50 text-blue-700",
-  cyan: "border-cyan-200 bg-cyan-50 text-cyan-700",
-  amber: "border-amber-200 bg-amber-50 text-amber-700",
-  emerald: "border-emerald-200 bg-emerald-50 text-emerald-700",
-  purple: "border-purple-200 bg-purple-50 text-purple-700",
+  cyan: "border-blue-200 bg-blue-50 text-blue-700",
+  amber: "border-blue-200 bg-blue-50 text-blue-700",
+  emerald: "border-blue-200 bg-blue-50 text-blue-700",
+  purple: "border-blue-200 bg-blue-50 text-blue-700",
 } as const;
 
 export default function GateMasterPage() {
@@ -116,10 +116,6 @@ export default function GateMasterPage() {
         {/* Header */}
         <div className="mb-10 flex flex-col gap-4 border-b border-slate-200 pb-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <div className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-              <Sparkles className="h-3.5 w-3.5 text-blue-600" />
-              <span>Target: IIT Bombay • IISc Bangalore • IIT Madras • ISRO</span>
-            </div>
             <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
               What would you like to <span className="text-blue-600">practise today?</span>
             </h1>

@@ -110,29 +110,28 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
     }
 
     // 5. Branch-specific Full Mocks
-    // e.g. gate-mock-mechanical-full-1
+    // e.g. gate-mock-mechanical-full-1, gate-mock-civil-full-2, etc.
     for (const bSlug of ["mechanical", "civil", "electrical", "ece"]) {
       const prefix = `gate-mock-${bSlug}-full-`;
       if (testId.startsWith(prefix)) {
-        const subjDir = path.join(ROOT_DIR, "data/gate/branches", bSlug, "subjects");
-        let allBranchQuestions: any[] = [];
-        if (fs.existsSync(subjDir)) {
-          const files = fs.readdirSync(subjDir).filter((f) => f.endsWith(".json") && f !== "manifest.json");
-          for (const f of files) {
-            try {
-              const raw = fs.readFileSync(path.join(subjDir, f), "utf-8");
-              const d = JSON.parse(raw);
-              if (d.questions) allBranchQuestions.push(...d.questions);
-            } catch {}
+        const pyqDir = path.join(ROOT_DIR, "data/gate/branches", bSlug, "pyq");
+        if (fs.existsSync(pyqDir)) {
+          const files = fs.readdirSync(pyqDir).filter((f) => f.endsWith(".json") && f !== "manifest.json");
+          if (files.length > 0) {
+            // Determine paper index from testId or pick the first/matching paper
+            const mockNumMatch = testId.match(/-(\d+)$/);
+            const mockIdx = mockNumMatch ? (parseInt(mockNumMatch[1], 10) - 1) % files.length : 0;
+            const chosenFile = files[mockIdx] || files[0];
+            const raw = fs.readFileSync(path.join(pyqDir, chosenFile), "utf-8");
+            const paper = JSON.parse(raw);
+            return NextResponse.json({
+              title: `GATE ${bSlug.toUpperCase()} All-India Full Mock Exam`,
+              subject: `GATE ${bSlug.toUpperCase()} Official Pattern`,
+              durationMinutes: 180,
+              questions: paper.questions || [],
+            });
           }
         }
-        const sampled = sampleItems(allBranchQuestions, 65);
-        return NextResponse.json({
-          title: `GATE ${bSlug.toUpperCase()} Full Mock Exam`,
-          subject: `GATE ${bSlug.toUpperCase()} Mock`,
-          durationMinutes: 180,
-          questions: sampled.map((q: any, i: number) => ({ ...q, orderIndex: i + 1 })),
-        });
       }
     }
 

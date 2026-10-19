@@ -372,7 +372,7 @@ export default function ResultPage() {
                             text: opt,
                             html: opt,
                           }))
-                      ).map((opt) => {
+                      ).map((opt, optionIndex) => {
                         const isCorrectOption = Array.isArray(q.answer)
                           ? q.answer.includes(opt.label) || q.answer.includes(opt.text)
                           : q.answer === opt.label || q.answer === opt.text;
@@ -390,7 +390,7 @@ export default function ResultPage() {
 
                         return (
                           <div
-                            key={opt.label}
+                            key={`${opt.label}-${optionIndex}`}
                             className={`flex items-start gap-3 rounded-xl border p-3 text-xs md:text-sm ${optClass}`}
                           >
                             <span className="font-bold shrink-0">({opt.label})</span>

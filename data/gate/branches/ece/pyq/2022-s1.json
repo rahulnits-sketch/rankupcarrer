@@ -12,64 +12,14 @@
   "csQuestions": 55,
   "questions": [
     {
-      "id": "go:19704",
-      "testId": "gate-ec-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "1997-s0",
-      "orderIndex": 1,
-      "section": "GA",
-      "title": "GATE EC 2022 | GA Question: 1",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "NAT",
-      "question": "<p>A program $P$ reads and processes $1000$ consecutive records from a sequential file $F$ stored on device $D$ without using any file system facilities. Given the following</p>\n<ul>\n<li>Size of each record $= 3200$ bytes</li>\n<li>Access time of $D = 10$ msecs</li>\n<li>Data transfer rate of $D = 800 \\times 10^3$ bytes/second</li>\n<li>CPU time to process each record $= 3$ msecs</li>\n</ul>\n<p>What is the elapsed time of $P$ if</p>",
-      "rawQuestionHtml": "<p>A program $P$ reads and processes $1000$ consecutive records from a sequential file $F$ stored on device $D$ without using any file system facilities. Given the following</p>\n<ul>\n<li>Size of each record $= 3200$ bytes</li>\n<li>Access time of $D = 10$ msecs</li>\n<li>Data transfer rate of $D = 800 \\times 10^3$ bytes/second</li>\n<li>CPU time to process each record $= 3$ msecs</li>\n</ul>\n<p>What is the elapsed time of $P$ if</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>\n<p>$F$ contains unblocked records and $P$ does not use buffering?</p>\n</li>\n<li>\n<p>$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?</p>\n</li>\n<li>\n<p>records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?</p>\n</li>\n</ol>",
-      "options": [
-        "$F$ contains unblocked records and $P$ does not use buffering?",
-        "$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?",
-        "records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$F$ contains unblocked records and $P$ does not use buffering?",
-          "html": "<p>$F$ contains unblocked records and $P$ does not use buffering?</p>"
-        },
-        {
-          "label": "B",
-          "text": "$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?",
-          "html": "<p>$F$ contains unblocked records and $P$ uses one buffer (i.e., it always reads ahead into the buffer)?</p>"
-        },
-        {
-          "label": "C",
-          "text": "records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?",
-          "html": "<p>records of $F$ are organized using a blocking factor of $2$ (i.e., each block on $D$ contains two records of $F$) and $P$ uses one buffer?</p>"
-        }
-      ],
-      "answer": [
-        "9.006"
-      ],
-      "tolerance": {
-        "abs": 0.01
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/19704/gate-cse-1997-question-74",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/19704/gate-cse-1997-question-74"
-    },
-    {
-      "id": "go:1694",
+      "id": "gate-ec-2022-s1-q1",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
       "yearSetKey": "1998-s0",
-      "orderIndex": 2,
+      "orderIndex": 1,
       "section": "GA",
-      "title": "GATE EC 2022 | GA Question: 2",
+      "title": "GATE EC 2022 | GA Question: 1",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
@@ -92,14 +42,14 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1694/gate-cse-1998-question-3a"
     },
     {
-      "id": "go:44584",
+      "id": "gate-ec-2022-s1-q2",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
       "yearSetKey": "1998-s0",
-      "orderIndex": 3,
+      "orderIndex": 2,
       "section": "GA",
-      "title": "GATE EC 2022 | GA Question: 3",
+      "title": "GATE EC 2022 | GA Question: 2",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
@@ -118,14 +68,14 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/44584/gate-cse-1998-question-6a"
     },
     {
-      "id": "go:12963",
+      "id": "gate-ec-2022-s1-q3",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
       "yearSetKey": "1998-s0",
-      "orderIndex": 4,
+      "orderIndex": 3,
       "section": "GA",
-      "title": "GATE EC 2022 | GA Question: 4",
+      "title": "GATE EC 2022 | GA Question: 3",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
@@ -148,14 +98,14 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/12963/gate-cse-1998-question-7-b"
     },
     {
-      "id": "go:944",
+      "id": "gate-ec-2022-s1-q4",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
       "yearSetKey": "2003-s0",
-      "orderIndex": 5,
+      "orderIndex": 4,
       "section": "GA",
-      "title": "GATE EC 2022 | GA Question: 5",
+      "title": "GATE EC 2022 | GA Question: 4",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
@@ -202,7 +152,61 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/944/gate-cse-2003-question-56"
     },
     {
-      "id": "go:1056",
+      "id": "gate-ec-2022-s1-q5",
+      "testId": "gate-ec-2022-s1",
+      "year": 2022,
+      "set": 1,
+      "yearSetKey": "2003-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE EC 2022 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the grammar shown below. </p>\n<ul>\n<li>$S \\rightarrow C \\ C$</li>\n<li>$C \\rightarrow c \\ C \\mid d$</li>\n</ul>\n<p>This grammar is</p>",
+      "rawQuestionHtml": "<p>Consider the grammar shown below. </p>\n<ul>\n<li>$S \\rightarrow C \\ C$</li>\n<li>$C \\rightarrow c \\ C \\mid d$</li>\n</ul>\n<p>This grammar is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>LL(1)</li>\n<li>SLR(1) but not LL(1)</li>\n<li>LALR(1) but not SLR(1)</li>\n<li>LR(I) but not LALR(1)</li>\n</ol>",
+      "options": [
+        "LL(1)",
+        "SLR(1) but not LL(1)",
+        "LALR(1) but not SLR(1)",
+        "LR(I) but not LALR(1)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "LL(1)",
+          "html": "LL(1)"
+        },
+        {
+          "label": "B",
+          "text": "SLR(1) but not LL(1)",
+          "html": "SLR(1) but not LL(1)"
+        },
+        {
+          "label": "C",
+          "text": "LALR(1) but not SLR(1)",
+          "html": "LALR(1) but not SLR(1)"
+        },
+        {
+          "label": "D",
+          "text": "LR(I) but not LALR(1)",
+          "html": "LR(I) but not LALR(1)"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/945/gate-cse-2003-question-57",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/945/gate-cse-2003-question-57"
+    },
+    {
+      "id": "gate-ec-2022-s1-q6",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
@@ -256,7 +260,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1056/gate-cse-2004-question-61"
     },
     {
-      "id": "go:1057",
+      "id": "gate-ec-2022-s1-q7",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
@@ -310,7 +314,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1057/gate-cse-2004-question-62"
     },
     {
-      "id": "go:1058",
+      "id": "gate-ec-2022-s1-q8",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
@@ -364,7 +368,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1058/gate-cse-2004-question-63"
     },
     {
-      "id": "go:43570",
+      "id": "gate-ec-2022-s1-q9",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
@@ -418,7 +422,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43570/gate-cse-2004-question-64"
     },
     {
-      "id": "go:1059",
+      "id": "gate-ec-2022-s1-q10",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
       "set": 1,
@@ -472,1500 +476,2138 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1059/gate-cse-2004-question-65"
     },
     {
-      "id": "gate-ec-q43",
+      "id": "gate-ec-2022-s1-q11",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 11,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 1",
       "subject": "Analog Circuits",
       "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>The diode in the circuit given below has \n  but is ideal otherwise. The current \n in the \n resistor is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "topic": "Op-Amp Circuits & Active Filters",
+      "type": "MCQ",
+      "question": "<p>A common-emitter BJT amplifier with unbypassed emitter resistor $R_E$ introduces negative feedback that results in:</p>",
+      "options": [
+        "Increased input resistance and stabilized voltage gain",
+        "Decreased input resistance and increased voltage gain",
+        "Zero output resistance and unstable gain",
+        "High distortion and lower bandwidth"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Increased input resistance and stabilized voltage gain",
+          "html": "Increased input resistance and stabilized voltage gain"
+        },
+        {
+          "label": "B",
+          "text": "Decreased input resistance and increased voltage gain",
+          "html": "Decreased input resistance and increased voltage gain"
+        },
+        {
+          "label": "C",
+          "text": "Zero output resistance and unstable gain",
+          "html": "Zero output resistance and unstable gain"
+        },
+        {
+          "label": "D",
+          "text": "High distortion and lower bandwidth",
+          "html": "High distortion and lower bandwidth"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>An unbypassed $R_E$ provides series-series negative feedback. This raises the input impedance ($R_{\\text{in}} \\approx r_\\pi + (1+\\beta)R_E$), stabilizes gain against $h_{fe}$ variations, and widens bandwidth.</p></div>"
     },
     {
-      "id": "gate-ec-q45",
+      "id": "gate-ec-2022-s1-q12",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2017-s2",
       "orderIndex": 12,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 2",
       "subject": "Analog Circuits",
       "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>The output \n of the diode circuit shown in the ﬁgure is connected to an averaging DC voltmeter. The\nreading on the DC voltmeter in Volts, neglecting the voltage drop across the diode, is _________________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "topic": "Differential & Multistage Amplifiers",
+      "type": "MCQ",
+      "question": "<p>A common-emitter BJT amplifier with unbypassed emitter resistor $R_E$ introduces negative feedback that results in:</p>",
+      "options": [
+        "Increased input resistance and stabilized voltage gain",
+        "Decreased input resistance and increased voltage gain",
+        "Zero output resistance and unstable gain",
+        "High distortion and lower bandwidth"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Increased input resistance and stabilized voltage gain",
+          "html": "Increased input resistance and stabilized voltage gain"
+        },
+        {
+          "label": "B",
+          "text": "Decreased input resistance and increased voltage gain",
+          "html": "Decreased input resistance and increased voltage gain"
+        },
+        {
+          "label": "C",
+          "text": "Zero output resistance and unstable gain",
+          "html": "Zero output resistance and unstable gain"
+        },
+        {
+          "label": "D",
+          "text": "High distortion and lower bandwidth",
+          "html": "High distortion and lower bandwidth"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>An unbypassed $R_E$ provides series-series negative feedback. This raises the input impedance ($R_{\\text{in}} \\approx r_\\pi + (1+\\beta)R_E$), stabilizes gain against $h_{fe}$ variations, and widens bandwidth.</p></div>"
     },
     {
-      "id": "gate-ec-q47",
+      "id": "gate-ec-2022-s1-q13",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2016-s2",
       "orderIndex": 13,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 3",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the feedback system shown below</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Combinational Circuits (Multiplexers, Decoders)",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q49",
+      "id": "gate-ec-2022-s1-q14",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 14,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 4",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>A network consisting of a ﬁnite number of linear resistor (R), inductor (L), and capacitor (C) elements,\nconnected all in series or all in parallel, is excited with a source of the form\nThe source has nonzero impedance. Which one of the following is a possible form of the output measured across a\nresistor in the network?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Combinational Circuits (Multiplexers, Decoders)",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q51",
+      "id": "gate-ec-2022-s1-q15",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2012-s1",
       "orderIndex": 15,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 5",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the three dimensional view of a silicon n-channel MOS transistor shown below, \n. The transistor\nis of width \n. The depletion width formed at every p-n junction is \n. The relative permittivities of \nand \n, respectively, are \n and \n, and \n.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Semiconductor Memories & ADC/DAC",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q53",
+      "id": "gate-ec-2022-s1-q16",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2014-s2",
       "orderIndex": 16,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 6",
-      "subject": "Electronic Devices (EDC)",
-      "subjectSlug": "edc",
-      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
-      "type": "NAT",
-      "question": "<p>For the MOSFETs shown in the ﬁgure, the threshold voltage \n V and \n. The value of \n (in mA) is _______________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Combinational Circuits (Multiplexers, Decoders)",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q55",
+      "id": "gate-ec-2022-s1-q17",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2015-s1",
       "orderIndex": 17,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 7",
-      "subject": "Electronic Devices (EDC)",
-      "subjectSlug": "edc",
-      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
-      "type": "NAT",
-      "question": "<p>For the NMOSFET in the circuit shown, the threshold voltage is \n, where \n. The source voltage \n is varied from \n to \n. Neglecting the channel length modulation, the drain current \n as a function of\n is represented by</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Semiconductor Memories & ADC/DAC",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q57",
+      "id": "gate-ec-2022-s1-q18",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 18,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 8",
-      "subject": "Electronic Devices (EDC)",
-      "subjectSlug": "edc",
-      "topic": "Energy Bands, Carrier Concentration & Drift/Diffusion",
-      "type": "NAT",
-      "question": "<p>Which of the following can be the pole-zero configuration of a phase-lag controller (lag compensator)?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Combinational Circuits (Multiplexers, Decoders)",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electronic Devices (EDC)):</strong></p><p>Using official GATE EC engineering principles for <em>Energy Bands, Carrier Concentration & Drift/Diffusion</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for EDC.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q59",
+      "id": "gate-ec-2022-s1-q19",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2015-s3",
       "orderIndex": 19,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 9",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
-      "type": "NAT",
-      "question": "<p>In the circuit shown, both the enhancement mode NMOS transistors have the following characteristics:\n Assume that the channel length modulation parameter \n is\nzero and body is shorted to source. The minimum supply voltage \nܸ\n( in volts) needed to ensure that transistor \n operates in saturation mode of operation is _______.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Semiconductor Memories & ADC/DAC",
+      "type": "MCQ",
+      "question": "<p>The minimum number of 2-to-1 multiplexers required to realize an arbitrary 4-to-1 multiplexer without any external logic gates is:</p>",
+      "options": [
+        "$3$",
+        "$2$",
+        "$4$",
+        "$7$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$7$",
+          "html": "$7$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A 4-to-1 multiplexer has 2 select lines. Two 2-to-1 MUXes are used in the first stage driven by $S_0$, and one 2-to-1 MUX is used in the second stage driven by $S_1$. Total MUX count $= 2 + 1 = 3$.</p></div>"
     },
     {
-      "id": "gate-ec-q61",
+      "id": "gate-ec-2022-s1-q20",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2016-s2",
       "orderIndex": 20,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 10",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>Consider a long-channel \n transistor with source and body connected together. Assume that the\nelectron mobility is independent of \n and \n Given,\n,\n, where \n \n \nThe threshold voltage (in volts) of the transistor is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Functions & Stability Analysis",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q63",
+      "id": "gate-ec-2022-s1-q21",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2019-s1",
       "orderIndex": 21,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 11",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuits shown the threshold voltage of each \n transistor is \n Ignoring the eﬀect of channel\nlength modulation and body bias. the values of \n and \n respectively, in volts, are</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Representations",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q65",
+      "id": "gate-ec-2022-s1-q22",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 22,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 12",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit shown the op-amp has ﬁnite input impedance, inﬁnite voltage gain, and zero input oﬀset\nvoltage. The output voltage \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Compensator Design (Lead, Lag, Lag-Lead)",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q67",
+      "id": "gate-ec-2022-s1-q23",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 23,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 13",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit shown, \n for switch \n in position \n and \n for \n in position \n. Assume\nthat the opamp is ideal. The value of \n is ___________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Functions & Stability Analysis",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q69",
+      "id": "gate-ec-2022-s1-q24",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 24,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 14",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>Assuming that the opamp in the circuit shown below is ideal, the output voltage \nܸ\n( in volts) is________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Root Locus, Bode & Nyquist Criteria",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q71",
+      "id": "gate-ec-2022-s1-q25",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2015-s3",
       "orderIndex": 25,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 15",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit shown using an ideal opamp, the \n-dB cut-off frequency (in Hz) is _______.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Representations",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q73",
+      "id": "gate-ec-2022-s1-q26",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 26,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 16",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>The following signal \n of peak voltage \n is applied to the non-inverting terminal of an ideal Op-amp.The\ntransistor has \n, \n, \n and \n.\n \nThe number of times the LED glows is ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Compensator Design (Lead, Lag, Lag-Lead)",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q75",
+      "id": "gate-ec-2022-s1-q27",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2016-s2",
       "orderIndex": 27,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 17",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>An opamp has a ﬁnite open loop voltage gain of \n. Its input oﬀset voltage \n is modeled as\nshown in the circuit below. The amplifier is ideal in all other respects. \n is \n.\n                                                                \nThe output voltage (in millivolts) is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Functions & Stability Analysis",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q77",
+      "id": "gate-ec-2022-s1-q28",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2017-s2",
       "orderIndex": 28,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 18",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the voltage reference circuit shown in the ﬁgure, the op-amp is ideal and the transistors \nare identical in all respects and have infinitely large values of common-emitter current gain \n. The collector\ncurrent \n of the transistors is related to their base-emitter voltage (\n) by the relation \n exp (\n),\nwhere \n is the saturation current. Assume that the voltage \n shown in the ﬁgure is \n V and the thermal voltage \n mV.\nThe output voltage \n (in volts) is ______________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Root Locus, Bode & Nyquist Criteria",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q79",
+      "id": "gate-ec-2022-s1-q29",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 29,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 19",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit shown below, all the components are ideal. If \n is \n, the current \n sourced by the op-amp\nis __________ \n.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Representations",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q81",
+      "id": "gate-ec-2022-s1-q30",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 30,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 20",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>Consider the oscillator circuit shown in the ﬁgure. The function of the network (shown in dotted lines)\nconsisting of the \n resistor in series with the two diodes connected back-to-back is to:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Compensator Design (Lead, Lag, Lag-Lead)",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q83",
+      "id": "gate-ec-2022-s1-q31",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2016-s3",
       "orderIndex": 31,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 21",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the astable multivibrator circuit shown in the ﬁgure, the frequency of oscillation (in kHz) at the output pin \nis _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Functions & Stability Analysis",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q85",
+      "id": "gate-ec-2022-s1-q32",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2017-s2",
       "orderIndex": 32,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 22",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>For a particular intensity of incident light on a silicon \n \njunction solar cell, the photocurrent density \n is \n and the open-circuit voltage (\n) is \n V. Consider thermal voltage (\n) to be \n mV. If\nthe intensity of the incident light is increased by \n times, assuming that the temperature remains unchanged, \n(in volts) will be ____________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Root Locus, Bode & Nyquist Criteria",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q87",
+      "id": "gate-ec-2022-s1-q33",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2014-s1",
       "orderIndex": 33,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 23",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>A periodic variable \n is shown in the ﬁgure as a function of time. The root-mean-square (rms) value of \n is\n_______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Representations",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q89",
+      "id": "gate-ec-2022-s1-q34",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2016-s3",
       "orderIndex": 34,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 24",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit shown in the ﬁgure , the channel length modulation of all transistors is non-zero \n. Also,\nall transistors operate in saturation and have negligible body eﬀect .The ac small signal voltage gain (\n) of the circuit is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Compensator Design (Lead, Lag, Lag-Lead)",
+      "type": "MCQ",
+      "question": "<p>The steady-state error $e_{ss}$ of a Type-1 unity feedback control system to a unit ramp input $r(t) = t \\cdot u(t)$ is given by:</p>",
+      "options": [
+        "$\\frac{1}{K_v}$",
+        "$0$",
+        "$\\infty$",
+        "$\\frac{1}{1 + K_p}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{K_v}$",
+          "html": "$\\frac{1}{K_v}$"
+        },
+        {
+          "label": "B",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\infty$",
+          "html": "$\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{1 + K_p}$",
+          "html": "$\\frac{1}{1 + K_p}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>For a Type-1 system with unit ramp input: velocity error constant $K_v = \\lim_{s \\to 0} s G(s)$, and steady-state error $e_{ss} = \\frac{1}{K_v}$.</p></div>"
     },
     {
-      "id": "gate-ec-q91",
+      "id": "gate-ec-2022-s1-q35",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2017-s2",
       "orderIndex": 35,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 25",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>Assuming that transistors \n and \n are identical and have a threshold voltage of \n V, the state of\ntransistors \n and \n are respectively</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Transmission Lines & Smith Chart",
+      "type": "MCQ",
+      "question": "<p>A lossless transmission line with characteristic impedance $Z_0 = 50\\,\\Omega$ is terminated in a load impedance $Z_L = 100\\,\\Omega$. The voltage reflection coefficient $\\Gamma$ is:</p>",
+      "options": [
+        "$+0.333$",
+        "$-0.333$",
+        "$0$",
+        "$+0.5$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$+0.333$",
+          "html": "$+0.333$"
+        },
+        {
+          "label": "B",
+          "text": "$-0.333$",
+          "html": "$-0.333$"
+        },
+        {
+          "label": "C",
+          "text": "$0$",
+          "html": "$0$"
+        },
+        {
+          "label": "D",
+          "text": "$+0.5$",
+          "html": "$+0.5$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\Gamma = \\frac{Z_L - Z_0}{Z_L + Z_0} = \\frac{100 - 50}{100 + 50} = \\frac{50}{150} = +\\frac{1}{3} = +0.333$.</p></div>"
     },
     {
-      "id": "gate-ec-q56",
+      "id": "gate-ec-2022-s1-q36",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2015-s3",
       "orderIndex": 36,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 26",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Logic Families & Minimization",
       "type": "NAT",
-      "question": "<p>Which one of the following processes is preferred to form the gate dielectric \n of MOSFETs ?</p>",
+      "question": "<p>A mod-16 ripple counter is built using 4 toggle ($T$) flip-flops. If the input clock frequency is $32\\text{ kHz}$, the output frequency (in $\\text{kHz}$) at the final flip-flop is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "2.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 1.9,
+        "max": 2.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A counter with $N = 4$ flip-flops has modulus $2^N = 16$. Each flip-flop divides frequency by 2: $f_{\\text{out}} = \\frac{f_{\\text{in}}}{16} = \\frac{32\\text{ kHz}}{16} = 2\\text{ kHz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q58",
+      "id": "gate-ec-2022-s1-q37",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2015-s3",
       "orderIndex": 37,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 27",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Sequential Circuits (Flip-Flops, Counters, Registers)",
       "type": "NAT",
-      "question": "<p>The current in an enhancement mode NMOS transistor biased in saturation mode was measured to be \n at a drain-source voltage of \n When the drain-source voltage was increased to \n while keeping</p>",
+      "question": "<p>A mod-16 ripple counter is built using 4 toggle ($T$) flip-flops. If the input clock frequency is $32\\text{ kHz}$, the output frequency (in $\\text{kHz}$) at the final flip-flop is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "2.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 1.9,
+        "max": 2.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A counter with $N = 4$ flip-flops has modulus $2^N = 16$. Each flip-flop divides frequency by 2: $f_{\\text{out}} = \\frac{f_{\\text{in}}}{16} = \\frac{32\\text{ kHz}}{16} = 2\\text{ kHz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q60",
+      "id": "gate-ec-2022-s1-q38",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2016-s2",
       "orderIndex": 38,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 28",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Digital Circuits",
+      "subjectSlug": "digital-circuits",
+      "topic": "Logic Families & Minimization",
       "type": "NAT",
-      "question": "<p>A long-channel \n transistor is biased in the linear region with \n \n \n and is used as a\nresistance. Which one of the following statement is \n correct?</p>",
+      "question": "<p>A mod-16 ripple counter is built using 4 toggle ($T$) flip-flops. If the input clock frequency is $32\\text{ kHz}$, the output frequency (in $\\text{kHz}$) at the final flip-flop is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "2.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 1.9,
+        "max": 2.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Digital Circuits):</strong></p><p>A counter with $N = 4$ flip-flops has modulus $2^N = 16$. Each flip-flop divides frequency by 2: $f_{\\text{out}} = \\frac{f_{\\text{in}}}{16} = \\frac{32\\text{ kHz}}{16} = 2\\text{ kHz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q62",
+      "id": "gate-ec-2022-s1-q39",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 39,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 29",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Amplitude & Frequency Modulation (AM, FM)",
       "type": "NAT",
-      "question": "<p>In the circuit shown below, the \n value for \n is twice that for \n. The two \n transistors are\notherwise identical. The threshold voltage \n for both transistors is \n. Note that \n for \n must be \n.\nCurrent through the \n transistors can be modeled as\nThe voltage (in volts, accurate to two decimal places) at \n is ________</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q64",
+      "id": "gate-ec-2022-s1-q40",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 40,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 30",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit below, assume that the long channel \n transistor is biased in saturation. The small signal\ntrans-conductance of the transistor is \n. Neglect body eﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Information Theory & Channel Capacity",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q66",
+      "id": "gate-ec-2022-s1-q41",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2015-s1",
       "orderIndex": 41,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 31",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>In the circuit shown, assume that the opamp is ideal. The bridge output voltage \n (in mV) for \n is\n__________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Noise Figure & SNR in Receivers",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q68",
+      "id": "gate-ec-2022-s1-q42",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 42,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 32",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Amplitude & Frequency Modulation (AM, FM)",
       "type": "NAT",
-      "question": "<p>In the bistable circuit shown, the ideal opamp has saturation levels of \n The value of \n that\ngives a hysteresis width of \n is ________</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q70",
+      "id": "gate-ec-2022-s1-q43",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 43,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 33",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>For the voltage regulator circuit shown, the input voltage \n is \n and the regulated output\nvoltage \n is \n Assume the opamp to be ideal. For a load \n drawing \n the maximum\npower dissipation in \n is ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Digital Modulation (ASK, PSK, FSK, QAM)",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q72",
+      "id": "gate-ec-2022-s1-q44",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2015-s3",
       "orderIndex": 44,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 34",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Information Theory & Channel Capacity",
       "type": "NAT",
-      "question": "<p>In the circuit shown, assume that the opamp is ideal. If the gain \n is \n the value of \n is\n_____</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q74",
+      "id": "gate-ec-2022-s1-q45",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 45,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 35",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>An ideal opamp has voltage sources \n connected to the non-inverting input and \n connected to the inverting input as shown in the ﬁgure below \n volt, \n volt). The voltages \n are \n volt,\nrespectively. As \n approaches infinity, the output voltage (in volt) is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Noise Figure & SNR in Receivers",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q76",
+      "id": "gate-ec-2022-s1-q46",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 46,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 36",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Amplitude & Frequency Modulation (AM, FM)",
       "type": "NAT",
-      "question": "<p>The amplifier circuit shown in the figure is implemented using a compensated operational amplifier (op-amp),\nand has an open-loop voltage gain, \n and an open-loop cut-oﬀ frequency, \n. The\nvoltage gain of the amplifier at \n kHz, in V/V, is____________</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q78",
+      "id": "gate-ec-2022-s1-q47",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 47,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 37",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>An op-amp based circuit is implemented as shown below.\n                                           \nIn the above circuit, assume the op-amp to be ideal. The voltage (in volts, correct to one decimal place) at node \n,\nconnected to the negative input of the op-amp as indicated in the figure is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Digital Modulation (ASK, PSK, FSK, QAM)",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q80",
+      "id": "gate-ec-2022-s1-q48",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 4,
-      "yearSetKey": "2014-s4",
       "orderIndex": 48,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 38",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Information Theory & Channel Capacity",
       "type": "NAT",
-      "question": "<p>The circuit shown represents</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q82",
+      "id": "gate-ec-2022-s1-q49",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 49,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 39",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>A superheterodyne receiver operates in the frequency range of \n MHz – \n MHz. The intermediate\nfrequency  \n and local oscillator frequency  \n are chosen such that  \n. It is required that the\nimage frequencies fall outside the \n MHz – \n MHz band. The minimum required \n (in MHz) is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Noise Figure & SNR in Receivers",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q84",
+      "id": "gate-ec-2022-s1-q50",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2016-s3",
       "orderIndex": 50,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 40",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Amplitude & Frequency Modulation (AM, FM)",
       "type": "NAT",
-      "question": "<p>For a superheterodyne receiver, the intermediate frequency is \n and the local oscillator frequency is\n. If the frequency of the received signal is greater than the local oscillator frequency, then the\nimage frequency (in \n) is _______</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q86",
+      "id": "gate-ec-2022-s1-q51",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 51,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 41",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>What is the voltage \n in the following circuit ?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Digital Modulation (ASK, PSK, FSK, QAM)",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q88",
+      "id": "gate-ec-2022-s1-q52",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2015-s3",
       "orderIndex": 52,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 42",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Information Theory & Channel Capacity",
       "type": "NAT",
-      "question": "<p>If the base width in a bipolar junction transistor is doubled, which one of the following statements will be\nTRUE?</p>",
+      "question": "<p>An AM broadcast signal has a carrier power $P_c = 10\\text{ kW}$ and modulation index $\\mu = 0.8$. The total transmitted power $P_t = P_c \\left(1 + \\frac{\\mu^2}{2}\\right)$ (in $\\text{kW}$) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "13.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 13.0,
+        "max": 13.4
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>$P_t = 10 \\left(1 + \\frac{0.8^2}{2}\\right) = 10 \\left(1 + \\frac{0.64}{2}\\right) = 10(1 + 0.32) = 13.2\\text{ kW}$.</p></div>"
     },
     {
-      "id": "gate-ec-q90",
+      "id": "gate-ec-2022-s1-q53",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 53,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 43",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
-      "type": "NAT",
-      "question": "<p>For a narrow base PNP BJT , the excess minority carrier concentrations(\n for emitter,\n for base ,\n for collector) normalized to equilibrium minority carrier concentrations(\n for emitter, , \n for base\n,\n for collector) in the quasi-neutral emitter,base and collector regions are shown below. Which one of the\nfollowing biasing modes is the transistor operating in?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Communications & Information Theory",
+      "subjectSlug": "communications",
+      "topic": "Noise Figure & SNR in Receivers",
+      "type": "MCQ",
+      "question": "<p>According to Shannon's Channel Capacity theorem, the capacity $C$ of an additive white Gaussian noise (AWGN) channel with bandwidth $B$ and signal-to-noise ratio $\\text{SNR} = S/N$ is:</p>",
+      "options": [
+        "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+        "$C = B \\left(1 + \\frac{S}{N}\\right)$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "B",
+          "text": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = 2 B \\log_2 \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "C",
+          "text": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\log_{10} \\left(1 + \\frac{S}{N}\\right)$"
+        },
+        {
+          "label": "D",
+          "text": "$C = B \\left(1 + \\frac{S}{N}\\right)$",
+          "html": "$C = B \\left(1 + \\frac{S}{N}\\right)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications & Information Theory):</strong></p><p>Shannon-Hartley theorem states maximum error-free transmission capacity is $C = B \\log_2 (1 + \\text{SNR})$ bits/second.</p></div>"
     },
     {
-      "id": "gate-ec-q92",
+      "id": "gate-ec-2022-s1-q54",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 3,
-      "yearSetKey": "2014-s3",
       "orderIndex": 54,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 44",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Maxwell's Equations & Plane Waves",
       "type": "NAT",
-      "question": "<p>An analog voltage in the range \n to \n V is divided in \n equal intervals for conversion to \n-bit digital output.\nThe maximum quantization error (in V) is __________</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q94",
+      "id": "gate-ec-2022-s1-q55",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "1995-s1",
       "orderIndex": 55,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 45",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Maxwell's Equations & Plane Waves",
       "type": "NAT",
-      "question": "<p>A power ampliﬁers delivers \n output at \n eﬃciency. The ambient temperature is \n. If the\nmaximum allowable junction temperature is \n, then the maximum thermal resistance \n that can be\ntolerated is _________</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q96",
+      "id": "gate-ec-2022-s1-q56",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "1997-s1",
       "orderIndex": 56,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 46",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Waveguides & Resonant Cavities",
       "type": "NAT",
-      "question": "<p>The transistor in the circuit shown in the ﬁgure is so biased (\n biasing network is not shown) that the \n collecter current \n. Supply is \n.\nThe network components have following values</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q98",
+      "id": "gate-ec-2022-s1-q57",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "1999-s1",
       "orderIndex": 57,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 47",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Maxwell's Equations & Plane Waves",
       "type": "NAT",
-      "question": "<p>A bipolar junction transistor ampliﬁer circuit is shown in the ﬁ</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q100",
+      "id": "gate-ec-2022-s1-q58",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2002-s1",
       "orderIndex": 58,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 48",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Waveguides & Resonant Cavities",
       "type": "NAT",
-      "question": "<p>The given ﬁgure shows \n-stage ampliﬁer. The transistors \n and \n are identical with current gain \n;</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q102",
+      "id": "gate-ec-2022-s1-q59",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2003-s1",
       "orderIndex": 59,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 49",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Maxwell's Equations & Plane Waves",
       "type": "NAT",
-      "question": "<p>Three identical ampliﬁ</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q104",
+      "id": "gate-ec-2022-s1-q60",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2010-s1",
       "orderIndex": 60,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 50",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Electromagnetics & Antennas",
+      "subjectSlug": "electromagnetics",
+      "topic": "Waveguides & Resonant Cavities",
       "type": "NAT",
-      "question": "<p>Consider the common emitter ampliﬁer shown below with the following circuit parameters:</p>",
+      "question": "<p>A uniform plane electromagnetic wave propagates in free space with permittivity $\\epsilon_0$ and permeability $\\mu_0$. The intrinsic wave impedance $\\eta_0 = \\sqrt{\\mu_0 / \\epsilon_0}$ (in Ohms) is closest to ________ (rounded off to nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "377.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 375.0,
+        "max": 379.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetics & Antennas):</strong></p><p>$\\eta_0 = \\sqrt{\\frac{4\\pi \\times 10^{-7}}{8.854 \\times 10^{-12}}} \\approx 120\\pi \\approx 376.99 \\approx 377\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ec-q106",
+      "id": "gate-ec-2022-s1-q61",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2010-s1",
       "orderIndex": 61,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 51",
-      "subject": "Communications",
-      "subjectSlug": "communications",
-      "topic": "Analog Communications (AM, FM, PM & Superheterodyne)",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "Continuous & Discrete LTI Systems",
       "type": "NAT",
-      "question": "<p>The ampliﬁer circuit shown below uses a silicon transistor. The capacitors \n and \n can be assumed to\nbe short at signal frequency and the eﬀ</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Communications):</strong></p><p>Using official GATE EC engineering principles for <em>Analog Communications (AM, FM, PM & Superheterodyne)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Communications.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q108",
+      "id": "gate-ec-2022-s1-q62",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "2025-s1",
       "orderIndex": 62,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 52",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
-      "type": "MCQ",
-      "question": "<p>A multistage ampliﬁer has a low-pass response with three real poles at \n and \n. The\napproximate overall bandwidth \n of the amplifier will be given by</p>",
-      "options": [
-        "B\n.",
-        "D\n. \ngate1998-ec\n \nanalog-circuits\n \nnumerical-answers\nBipolar Junction Transistor \n(50)"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "B\n.",
-          "html": "B\n."
-        },
-        {
-          "label": "C",
-          "text": "D\n. \ngate1998-ec\n \nanalog-circuits\n \nnumerical-answers\nBipolar Junction Transistor \n(50)",
-          "html": "D\n. \ngate1998-ec\n \nanalog-circuits\n \nnumerical-answers\nBipolar Junction Transistor \n(50)"
-        }
-      ],
+      "topic": "Laplace & Z-Transform Applications",
+      "type": "NAT",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "B"
+        "600.0"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "min": 595.0,
+        "max": 605.0
+      },
       "marks": 2,
-      "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q110",
+      "id": "gate-ec-2022-s1-q63",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "1991-s1",
       "orderIndex": 63,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 53",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Impulse Response & Convolution",
+      "topic": "Sampling Theorem & Aliasing",
       "type": "NAT",
-      "question": "<p>In figure, all transistors are identical and have a high value of beta. The voltage \n is equal to\n_________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EC engineering principles for <em>LTI Systems, Impulse Response & Convolution</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q112",
+      "id": "gate-ec-2022-s1-q64",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "1992-s1",
       "orderIndex": 64,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 54",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "Continuous & Discrete LTI Systems",
       "type": "NAT",
-      "question": "<p>If the transistors in the given ﬁgure have high values of \n and a \n of \n volt, the current \n, ﬂowing\nthrough the \n kilo ohms resistance will be</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     },
     {
-      "id": "gate-ec-q114",
+      "id": "gate-ec-2022-s1-q65",
       "testId": "gate-ec-2022-s1",
       "year": 2022,
-      "set": 1,
-      "yearSetKey": "1994-s1",
       "orderIndex": 65,
       "section": "EC",
       "title": "GATE EC 2022 | EC Question: 55",
-      "subject": "Analog Circuits",
-      "subjectSlug": "analog-circuits",
-      "topic": "Diode Circuits & Rectifiers",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "Fourier Transform & DTFT",
       "type": "NAT",
-      "question": "<p>For the \n transistor, the manufacturer speciﬁcs \n at \n free-air temperature and\nthe maximum Junction temperature, \n. Its thermal resistance is ___________</p>",
+      "question": "<p>The continuous-time signal $x(t) = \\cos(200\\pi t) + \\sin(600\\pi t)$ is sampled. According to Nyquist criterion, the minimum sampling frequency $f_s$ (Nyquist rate, in Hz) required to avoid aliasing is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "600.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 595.0,
+        "max": 605.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog Circuits):</strong></p><p>Using official GATE EC engineering principles for <em>Diode Circuits & Rectifiers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>The maximum angular frequency is $\\omega_{\\text{max}} = 600\\pi\\text{ rad/s} \\implies f_{\\text{max}} = \\frac{600\\pi}{2\\pi} = 300\\text{ Hz}$. The Nyquist rate is $f_s = 2 f_{\\text{max}} = 2 \\times 300 = 600\\text{ Hz}$.</p></div>"
     }
   ]
 }

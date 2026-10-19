@@ -82,38 +82,29 @@ function GateMockContent() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-10 md:py-16 w-full flex-1">
       {/* Breadcrumb */}
-      <div className="mb-6 flex items-center gap-2 text-xs text-gray-500">
-        <Link href="/" className="hover:text-white transition">Home</Link>
+      <div className="mb-6 flex items-center gap-2 text-xs text-slate-500">
+        <Link href="/" className="hover:text-slate-900 transition">Home</Link>
         <span>/</span>
-        <Link href={`/gate/${selectedBranch}`} className="hover:text-white transition">
+        <Link href={`/gate/${selectedBranch}`} className="hover:text-slate-900 transition">
           GATE {currentBranch.code}
         </Link>
         <span>/</span>
-        <span className="text-blue-400 font-medium">Mock Tests</span>
+        <span className="text-blue-700 font-medium">Mock Tests</span>
       </div>
 
       {/* Header */}
-      <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-white/10 pb-8">
+      <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-slate-200 pb-8">
         <div>
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2">
-            <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>Full-Length &amp; Subject Mock Engine</span>
-          </div>
-
-          <h1 className="text-3xl font-black tracking-tight text-white md:text-5xl">
+          <h1 className="text-3xl font-black tracking-tight text-slate-900 md:text-5xl">
             GATE {currentBranch.shortTitle} Mock Tests
           </h1>
-
-          <p className="mt-3 text-sm text-gray-400 max-w-3xl leading-relaxed">
-            Standardized full-length mock exams, topic &amp; subject mocks, and practice drills with exact GATE evaluation, negative marking, and step-by-step solutions for {currentBranch.title}.
-          </p>
         </div>
 
         <div className="flex items-center gap-3">
           <BackButton />
           <Link
             href={selectedBranch === "cse-it" ? "/gate/pyq" : `/gate/pyq?branch=${selectedBranch}`}
-            className="rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-xs font-semibold text-gray-300 hover:bg-white/10 hover:text-white transition"
+            className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 hover:text-slate-900 transition"
           >
             📅 Official PYQs
           </Link>
@@ -121,7 +112,7 @@ function GateMockContent() {
       </div>
 
       {/* Engineering Branch Selector */}
-      <div className="mb-10 rounded-2xl border border-white/10 bg-white/[0.02] p-4 sm:p-5">
+      <div className="mb-10 rounded-2xl border border-slate-200 bg-white p-4 sm:p-5">
         <BranchSelector
           selectedBranch={selectedBranch}
           onChangeBranch={handleBranchChange}
@@ -142,7 +133,7 @@ function GateMockContent() {
             className={`rounded-xl px-4 py-2 text-xs font-bold transition ${
               selectedCategory === tab.id
                 ? "bg-blue-600 text-white shadow-md shadow-blue-600/30"
-                : "border border-white/10 bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"
+                : "border border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100 hover:text-slate-900"
             }`}
           >
             {tab.label}
@@ -159,47 +150,47 @@ function GateMockContent() {
           return (
             <div
               key={mock.id}
-              className="group relative flex flex-col justify-between rounded-3xl border border-white/10 bg-white/[0.02] p-6 transition duration-200 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.04]"
+              className="group relative flex flex-col justify-between rounded-3xl border border-slate-200 bg-white p-6 transition duration-200 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-slate-50"
             >
               <div>
                 <div className="flex items-center justify-between mb-3">
                   <span
                     className={`rounded-full px-3 py-0.5 text-xs font-bold uppercase tracking-wider ${
                       isFull
-                        ? "bg-blue-500/10 text-blue-400 border border-blue-500/20"
+                        ? "bg-blue-50 text-blue-700 border border-blue-200"
                         : isRandom
-                        ? "bg-amber-500/10 text-amber-400 border border-amber-500/20"
-                        : "bg-purple-500/10 text-purple-400 border border-purple-500/20"
+                        ? "bg-amber-50 text-amber-700 border border-amber-200"
+                        : "bg-blue-50 text-blue-700 border border-blue-200"
                     }`}
                   >
                     {mock.type}
                   </span>
-                  <span className="text-xs font-mono text-gray-400">
+                  <span className="text-xs font-mono text-slate-600">
                     ⏱ {mock.duration}
                   </span>
                 </div>
 
-                <h3 className="text-lg font-bold text-white group-hover:text-blue-400 transition">
+                <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition">
                   {mock.title}
                 </h3>
 
-                <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+                <p className="text-xs text-slate-600 mt-2 leading-relaxed">
                   {mock.description}
                 </p>
 
-                <div className="mt-4 grid grid-cols-2 gap-2 border-t border-white/5 pt-3 text-xs text-gray-300">
+                <div className="mt-4 grid grid-cols-2 gap-2 border-t border-slate-200/70 pt-3 text-xs text-slate-700">
                   <div>
-                    <span className="text-gray-500">Questions: </span>
-                    <span className="font-semibold text-white">{mock.questionsCount}</span>
+                    <span className="text-slate-500">Questions: </span>
+                    <span className="font-semibold text-slate-900">{mock.questionsCount}</span>
                   </div>
                   <div>
-                    <span className="text-gray-500">Total Marks: </span>
-                    <span className="font-semibold text-emerald-400">{mock.totalMarks}</span>
+                    <span className="text-slate-500">Total Marks: </span>
+                    <span className="font-semibold text-emerald-700">{mock.totalMarks}</span>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-6 border-t border-white/10 pt-4">
+              <div className="mt-6 border-t border-slate-200 pt-4">
                 <Link
                   href={`/test/${mock.id}`}
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-blue-600 py-3 text-xs font-bold text-white shadow-lg shadow-blue-600/30 transition hover:bg-blue-500"
@@ -214,16 +205,16 @@ function GateMockContent() {
       </div>
 
       {/* Quick Launch Banner */}
-      <div className="rounded-3xl border border-white/10 bg-gradient-to-r from-blue-900/20 via-indigo-900/20 to-purple-900/20 p-8 md:p-10 backdrop-blur">
+      <div className="rounded-3xl border border-blue-200 bg-gradient-to-r from-blue-50 via-white to-slate-50 p-8 md:p-10">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-blue-700">
               ⚡ Instant Simulation
             </span>
-            <h2 className="text-2xl font-bold text-white mt-1">
+            <h2 className="text-2xl font-bold text-slate-900 mt-1">
               GATE {currentBranch.shortTitle} Exam Simulator
             </h2>
-            <p className="text-xs text-gray-300 mt-2 max-w-xl leading-relaxed">
+            <p className="text-xs text-slate-700 mt-2 max-w-xl leading-relaxed">
               Experience the actual exam environment with official pattern questions, instant evaluation, negative marking, and complete solutions.
             </p>
           </div>
@@ -232,7 +223,7 @@ function GateMockContent() {
             {firstSubj && (
               <Link
                 href={`/test/${sampleSubjectTestId}`}
-                className="rounded-xl border border-white/20 bg-white/5 px-5 py-3 text-xs font-semibold text-white hover:bg-white/10 transition"
+                className="rounded-xl border border-slate-300 bg-slate-50 px-5 py-3 text-xs font-semibold text-slate-900 hover:bg-slate-100 transition"
               >
                 Subject Mock ({firstSubj.shortName})
               </Link>
@@ -252,10 +243,10 @@ function GateMockContent() {
 
 export default function GateMockPage() {
   return (
-    <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between selection:bg-blue-500 selection:text-white">
+    <main className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col justify-between selection:bg-blue-600 selection:text-white">
       <Navbar />
       <SubNavPills categoryTitle="EXPLORE GATE" pills={gateNavPills} />
-      <Suspense fallback={<div className="p-12 text-center text-gray-400">Loading GATE Mock Tests...</div>}>
+      <Suspense fallback={<div className="p-12 text-center text-slate-600">Loading GATE Mock Tests...</div>}>
         <GateMockContent />
       </Suspense>
       <Footer />

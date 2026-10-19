@@ -5,7 +5,6 @@ const footerLinks = [
   { href: "/", label: "Home" },
   { href: "/gate", label: "GATE Hub" },
   { href: "/dsa", label: "DSA Sheet" },
-  { href: "/dsa/sandbox", label: "IDE Sandbox" },
   { href: "/placement", label: "Placement" },
   { href: "/analytics", label: "Study Analytics" },
   { href: "/syllabus", label: "Syllabus" },
@@ -14,7 +13,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-200 bg-white text-slate-600">
+    <footer className="border-t border-slate-200/80 bg-white/80 backdrop-blur-md text-slate-600">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-8 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col gap-1">
           <Link
@@ -74,7 +73,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="border-t border-slate-100 py-3 text-center text-[11px] text-slate-400">
+      <div className="border-t border-slate-100 py-3 text-center text-xs text-slate-600">
         © 2026 CheckMate College. Built for GATE CSE, PSU & Tier-1 Tech Placement Aspirants.
       </div>
     </footer>

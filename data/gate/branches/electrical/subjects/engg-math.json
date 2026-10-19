@@ -1,297 +1,1312 @@
 {
   "id": "engg-math",
   "name": "Engineering Mathematics",
-  "shortName": "Maths",
-  "icon": "🧮",
-  "color": "from-slate-500/20 to-zinc-500/20",
-  "borderColor": "border-slate-500/30",
-  "totalQuestions": 67,
+  "shortName": "Engg Math",
+  "icon": "📐",
+  "color": "from-violet-500/20 to-purple-500/20",
+  "borderColor": "border-violet-500/30",
+  "totalQuestions": 30,
   "topics": [
     {
-      "name": "Linear Algebra & Eigenvalues",
-      "questionCount": 16
+      "name": "Linear Algebra & Matrix Rank",
+      "questionCount": 7
     },
     {
-      "name": "Calculus & Vector Analysis",
-      "questionCount": 16
+      "name": "Calculus & Multiple Integrals",
+      "questionCount": 7
     },
     {
-      "name": "Differential Equations & Complex Analysis",
-      "questionCount": 16
+      "name": "Differential Equations & Laplace",
+      "questionCount": 7
     },
     {
-      "name": "Probability & Numerical Techniques",
-      "questionCount": 16
+      "name": "Probability & Numerical Methods",
+      "questionCount": 7
     }
   ],
   "questions": [
     {
-      "id": "gate-ee-q409",
-      "testId": "gate-ee-2020-s1",
-      "year": 2020,
-      "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 409,
-      "section": "EE",
-      "title": "to \n decimal\nplaces).\n         \ngate2020-ee\n \nelectromagnetic-fields\n \ncalculus\n \nnumerical-answers\nElectromagnetic Fields: GATE Electrical 2020 | Question: 55",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A conducting square loop of side length \n is placed at a distance of \n from a long straight wire\ncarrying a current \n as shown below. The mutual inductance, in \n (rounded oﬀ to \n decimal\nplaces), between the conducting loop and the long wire is __________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q414",
-      "testId": "gate-ee-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 414,
-      "section": "EE",
-      "title": "Let \n. The value of \n, where \n is the volume enclosed by\nthe unit cube defined by \n and \n, is\ngate2022-ee\n \nelectromagnetic-fields\n \nnumerical-answers\n \ncalculus\nElectromagnetic Fields: GATE Electrical 2022 | Question: 43",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>As shown in the ﬁgure below, two concentric conducting spherical shells, centered at \n and having\nradii \n and \n are maintained at potentials such that the potential \n at \n is \n and \n at \n is \n. Assume that \n depends only on \n, where \n is the radial distance, The expression for \n in the\nregion between \n and \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q418",
-      "testId": "gate-ee-2024-s1",
-      "year": 2024,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 418,
-      "section": "EE",
-      "title": "(Round off to \n decimal places).\ngate2023-ee\n \nelectromagnetic-fields\n \ncalculus\n \nnumerical-answers\nElectromagnetic Fields: GATE Electrical 2024 | Question: 41",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>In the \n coordinate system, three point-charges \n, and \n are located in free space at \n, and \n, respectively. The value of \n for the electric ﬁeld to be zero at \n is ____________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q422",
-      "testId": "gate-ee-2026-s1",
+      "id": "gate-ee-math-1",
+      "testId": "gate-2026-s1",
       "year": 2026,
       "set": 1,
       "yearSetKey": "2026-s1",
-      "orderIndex": 422,
+      "orderIndex": 1,
       "section": "EE",
-      "title": "Given that \n, the integral \n over the unit sphere \ncentered at the origin evaluates to \n(Round off to one decimal place)\ngate2026-ee\n \nnumerical-answers\n \nelectromagnetic-fields\n \ncalculus\nElectromagnetic Fields: GATE Electrical 2026 | Question: 41",
+      "title": "GATE CSE 2026 | Set 1 | Question: 1",
       "subject": "Engineering Mathematics",
       "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The ﬁgure shows an arbitrarily shaped planar conducting loop A in the XY plane. Two nonintersecting\nregions with areas \n and \n within the loop are subjected to magnetic ﬁelds \n, and \n, respectively.\nWhat is the expression for the induced rms voltage in loop A?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q440",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 440,
-      "section": "EE",
-      "title": "calculus\n \ncontinuity\nContinuity and Differentiability \n(2)\nContinuity and Differentiability: GATE Electrical 2017 Set 1 | Question: 26",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
+      "topic": "Probability & Statistics",
       "type": "MCQ",
-      "question": "<p>A function \n is defined as\n, where \nWhich one of the following statement is TRUE?</p>",
+      "question": "<p>An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is</p>",
+      "rawQuestionHtml": "\n<a name=\"523079\"></a><div itemprop=\"text\"><p>An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1 / 4$</li><li>$1 / 3$</li><li>$1 / 2$</li><li>$2 / 3$</li></ol></div>\n",
       "options": [
-        "is NOT differentiable at \n for any values of \n and \n.",
-        "is differentiable at \n for the unique values of \n and \n.",
-        "is differentiable at \n for all values of \n and \n such that \n.",
-        "is differentiable at \n for all values of \n and \n.\ngate2017-ee-1\n \ncalculus\n \ncontinuity-and-differentiability\nAnswer key\n☟"
+        "$1 / 4$",
+        "$1 / 3$",
+        "$1 / 2$",
+        "$2 / 3$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "is NOT differentiable at \n for any values of \n and \n.",
-          "html": "is NOT differentiable at \n for any values of \n and \n."
+          "text": "$1 / 4$",
+          "html": "$1 / 4$"
         },
         {
           "label": "B",
-          "text": "is differentiable at \n for the unique values of \n and \n.",
-          "html": "is differentiable at \n for the unique values of \n and \n."
+          "text": "$1 / 3$",
+          "html": "$1 / 3$"
         },
         {
           "label": "C",
-          "text": "is differentiable at \n for all values of \n and \n such that \n.",
-          "html": "is differentiable at \n for all values of \n and \n such that \n."
+          "text": "$1 / 2$",
+          "html": "$1 / 2$"
         },
         {
           "label": "D",
-          "text": "is differentiable at \n for all values of \n and \n.\ngate2017-ee-1\n \ncalculus\n \ncontinuity-and-differentiability\nAnswer key\n☟",
-          "html": "is differentiable at \n for all values of \n and \n.\ngate2017-ee-1\n \ncalculus\n \ncontinuity-and-differentiability\nAnswer key\n☟"
+          "text": "$2 / 3$",
+          "html": "$2 / 3$"
         }
       ],
       "answer": [
         "B"
       ],
       "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q443",
-      "testId": "gate-ee-2021-s2",
-      "year": 2021,
-      "set": 2,
-      "yearSetKey": "2021-s2",
-      "orderIndex": 443,
-      "section": "EE",
-      "title": "A\n. \nB\n. \nC\n. \nD\n. \n7.7\n7.7.1\n7.7.2\n7.7.3\n7.8\n7.8.1\ngateee-2021\n \ncalculus\n \ncontour-plots\nCurves \n(3)\nCurves: GATE Electrical 2017 Set 2 | Question: 19",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let \n and \n be integers satisfying the following equations\nThe value of \n is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1"
     },
     {
-      "id": "gate-ee-q444",
-      "testId": "gate-ee-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 444,
-      "section": "EE",
-      "title": ".\ngate2017-ee-2\n \nnumerical-answers\n \ncalculus\n \ncurves\nCurves: GATE Electrical 2017 Set 2 | Question: 20",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let \n and \n. The value of \n equals _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q445",
-      "testId": "gate-ee-2021-s1",
-      "year": 2021,
+      "id": "gate-ee-math-2",
+      "testId": "gate-2026-s1",
+      "year": 2026,
       "set": 1,
-      "yearSetKey": "2021-s1",
-      "orderIndex": 445,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 3,
       "section": "EE",
-      "title": ". (Give the answer up to\nthree decimal places).\ngate2017-ee-2\n \nnumerical-answers\n \ncalculus\n \ncurves\nCurves: GATE Electrical 2021 | Question: 13",
+      "title": "GATE CSE 2026 | Set 1 | Question: 3",
       "subject": "Engineering Mathematics",
       "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Suppose the circles \n and \n intersect each other orthogonally at the\npoint \n. Then  \n _______________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q446",
-      "testId": "gate-ee-2021-s1",
-      "year": 2021,
-      "set": 1,
-      "yearSetKey": "2021-s1",
-      "orderIndex": 446,
-      "section": "EE",
-      "title": ".\ngateee-2021\n \nnumerical-answers\n \ncalculus\n \ncurves\nDefinite Integral \n(6)\nDefinite Integral: GATE Electrical 2016 Set 1 | Question: 5",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
+      "topic": "Linear Algebra & Matrices",
       "type": "MCQ",
-      "question": "<p>The value of the integral\nover the contour \n, taken in the anti-clockwise direction, would be</p>",
+      "question": "<p>For $n&gt;1$, the maximum multiplicity of any eigenvalue of an $n \\times n$ matrix with elements from $\\mathbb{R}$ is</p>",
+      "rawQuestionHtml": "\n<a name=\"523077\"></a><div itemprop=\"text\"><p>For $n&gt;1$, the maximum multiplicity of any eigenvalue of an $n \\times n$ matrix with elements from $\\mathbb{R}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n$</li><li>$n-1$</li><li>$1$</li><li>$n+1$</li></ol></div>\n",
       "options": [
-        "B.",
-        "D. \ngate2016-ee-1\n \ncalculus\n \ndefinite-integral"
+        "$n$",
+        "$n-1$",
+        "$1$",
+        "$n+1$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "B.",
-          "html": "B."
+          "text": "$n$",
+          "html": "$n$"
+        },
+        {
+          "label": "B",
+          "text": "$n-1$",
+          "html": "$n-1$"
         },
         {
           "label": "C",
-          "text": "D. \ngate2016-ee-1\n \ncalculus\n \ndefinite-integral",
-          "html": "D. \ngate2016-ee-1\n \ncalculus\n \ndefinite-integral"
+          "text": "$1$",
+          "html": "$1$"
+        },
+        {
+          "label": "D",
+          "text": "$n+1$",
+          "html": "$n+1$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523077/gate-cse-2026-set-1-question-3",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523077/gate-cse-2026-set-1-question-3"
+    },
+    {
+      "id": "gate-ee-math-3",
+      "testId": "gate-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 10,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 1 | Question: 10",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MSQ",
+      "question": "<p>Let $n&gt;1$. Consider an $n \\times n$ matrix $M$ with its elements from $\\mathbb{R}$. Let the vector $(0,1,0,0, \\ldots, 0) \\in \\mathbb{R}^{n}$ be in the null space of $M$.<br><br>Which of the following options is/are always correct?</p>",
+      "rawQuestionHtml": "\n<a name=\"523070\"></a><div itemprop=\"text\"><p>Let $n&gt;1$. Consider an $n \\times n$ matrix $M$ with its elements from $\\mathbb{R}$. Let the vector $(0,1,0,0, \\ldots, 0) \\in \\mathbb{R}^{n}$ be in the null space of $M$.<br><br>Which of the following options is/are always correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Determinant of $M$ is $1$</li><li>Determinant of $M$ is $0$</li><li>Rank of $M$ is $1$</li><li>There are at least two non-zero vectors in the null space of $M$</li></ol></div>\n",
+      "options": [
+        "Determinant of $M$ is $1$",
+        "Determinant of $M$ is $0$",
+        "Rank of $M$ is $1$",
+        "There are at least two non-zero vectors in the null space of $M$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Determinant of $M$ is $1$",
+          "html": "Determinant of $M$ is $1$"
+        },
+        {
+          "label": "B",
+          "text": "Determinant of $M$ is $0$",
+          "html": "Determinant of $M$ is $0$"
+        },
+        {
+          "label": "C",
+          "text": "Rank of $M$ is $1$",
+          "html": "Rank of $M$ is $1$"
+        },
+        {
+          "label": "D",
+          "text": "There are at least two non-zero vectors in the null space of $M$",
+          "html": "There are at least two non-zero vectors in the null space of $M$"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10"
+    },
+    {
+      "id": "gate-ee-math-4",
+      "testId": "gate-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 1 | Question: 22",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "NAT",
+      "question": "Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined as follows:<br>\n\\[<br>\nf(x)=\\left\\{\\begin{array}{lr}<br>\nc_{1} e^{x}-c_{2} \\log _{\\mathrm{e}}\\left(\\frac{1}{x}\\right), &amp; \\text { if } x&gt;0 \\\\<br>\n3 &amp; \\text { otherwise }<br>\n\\end{array}\\right.<br>\n\\]<br>\nwhere $c_{1}, c_{2} \\in \\mathbb{R}$.<br>\n<br>\nIf $f$ is continuous at $x=0$, then $c_{1}+c_{2}=$ $\\_\\_\\_\\_$. (answer in integer)",
+      "rawQuestionHtml": "\n<a name=\"523058\"></a><div itemprop=\"text\">Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined as follows:<br>\n\\[<br>\nf(x)=\\left\\{\\begin{array}{lr}<br>\nc_{1} e^{x}-c_{2} \\log _{\\mathrm{e}}\\left(\\frac{1}{x}\\right), &amp; \\text { if } x&gt;0 \\\\<br>\n3 &amp; \\text { otherwise }<br>\n\\end{array}\\right.<br>\n\\]<br>\nwhere $c_{1}, c_{2} \\in \\mathbb{R}$.<br>\n<br>\nIf $f$ is continuous at $x=0$, then $c_{1}+c_{2}=$ $\\_\\_\\_\\_$. (answer in integer)</div>\n",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "3"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523058/gate-cse-2026-set-1-question-22",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523058/gate-cse-2026-set-1-question-22"
+    },
+    {
+      "id": "gate-ee-math-5",
+      "testId": "gate-2026-s2",
+      "year": 2026,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 17,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 2 | Question: 17",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Calculus",
+      "type": "MSQ",
+      "question": "<p>For a real number $a$, let $I(a)=\\int_{-1}^{1}\\left(3 x^{2}-a x+1\\right) d x$. Which of the following statements is/are true?</p>",
+      "rawQuestionHtml": "\n<a name=\"523129\"></a><div itemprop=\"text\"><p>For a real number $a$, let $I(a)=\\int_{-1}^{1}\\left(3 x^{2}-a x+1\\right) d x$. Which of the following statements is/are true?</p><ol style=\"list-style-type:upper-alpha\"><li>The value of $I(a)$ is independent of the value of $a$</li><li>The value of $I(a)$ can vary with the value of $a$</li><li>There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a positive real number</li><li>There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a negative real number</li></ol></div>\n",
+      "options": [
+        "The value of $I(a)$ is independent of the value of $a$",
+        "The value of $I(a)$ can vary with the value of $a$",
+        "There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a positive real number",
+        "There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a negative real number"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The value of $I(a)$ is independent of the value of $a$",
+          "html": "The value of $I(a)$ is independent of the value of $a$"
+        },
+        {
+          "label": "B",
+          "text": "The value of $I(a)$ can vary with the value of $a$",
+          "html": "The value of $I(a)$ can vary with the value of $a$"
+        },
+        {
+          "label": "C",
+          "text": "There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a positive real number",
+          "html": "There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a positive real number"
+        },
+        {
+          "label": "D",
+          "text": "There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a negative real number",
+          "html": "There exists $a \\in(-\\infty,+\\infty)$ such that $I(a)$ is a negative real number"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523129/gate-cse-2026-set-2-question-17",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523129/gate-cse-2026-set-2-question-17"
+    },
+    {
+      "id": "gate-ee-math-6",
+      "testId": "gate-2026-s2",
+      "year": 2026,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 2 | Question: 21",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "NAT",
+      "question": "Consider the system of linear equations given below.<br>\n\\[<br>\n\\begin{array}{c}<br>\na x+y=b \\\\<br>\n16 x+a y=24<br>\n\\end{array}<br>\n\\]<br>\nSuppose the values of $a$ and $b$ are chosen such that the system of linear equations produce multiple solutions. Then the product of $a$ and $b$ is $\\_\\_\\_\\_$. (answer in integer)",
+      "rawQuestionHtml": "\n<a name=\"523125\"></a><div itemprop=\"text\">Consider the system of linear equations given below.<br>\n\\[<br>\n\\begin{array}{c}<br>\na x+y=b \\\\<br>\n16 x+a y=24<br>\n\\end{array}<br>\n\\]<br>\nSuppose the values of $a$ and $b$ are chosen such that the system of linear equations produce multiple solutions. Then the product of $a$ and $b$ is $\\_\\_\\_\\_$. (answer in integer)</div>\n",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523125/gate-cse-2026-set-2-question-21",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523125/gate-cse-2026-set-2-question-21"
+    },
+    {
+      "id": "gate-ee-math-7",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 1-xxi",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>If $a, b,$ and $c$ are constants, which of the following is a linear inequality?</p>",
+      "rawQuestionHtml": "<a name=\"80377\"></a><div itemprop=\"text\"><p>If $a, b,$ and $c$ are constants, which of the following is a linear inequality?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>$ax+bcy=0$</li>\n\t<li>$ax^{2}+cy^{2}=21$</li>\n\t<li>$abx+a^{2}y \\geq 15$</li>\n\t<li>$xy+ax \\geq 20$</li>\n</ol></div>",
+      "options": [
+        "$ax+bcy=0$",
+        "$ax^{2}+cy^{2}=21$",
+        "$abx+a^{2}y \\geq 15$",
+        "$xy+ax \\geq 20$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$ax+bcy=0$",
+          "html": "$ax+bcy=0$"
+        },
+        {
+          "label": "B",
+          "text": "$ax^{2}+cy^{2}=21$",
+          "html": "$ax^{2}+cy^{2}=21$"
+        },
+        {
+          "label": "C",
+          "text": "$abx+a^{2}y \\geq 15$",
+          "html": "$abx+a^{2}y \\geq 15$"
+        },
+        {
+          "label": "D",
+          "text": "$xy+ax \\geq 20$",
+          "html": "$xy+ax \\geq 20$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/80377/gate-cse-1987-question-1-xxi",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/80377/gate-cse-1987-question-1-xxi"
+    },
+    {
+      "id": "gate-ee-math-8",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 1-xxii",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Calculus",
+      "type": "MCQ",
+      "question": "<p>The equation $7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0$ has</p>",
+      "rawQuestionHtml": "<p>The equation $7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0$ has</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>All complex roots</li>\n<li>At least one real root</li>\n<li>Four pairs of imaginary roots</li>\n<li>None of the above</li>\n</ol>",
+      "options": [
+        "All complex roots",
+        "At least one real root",
+        "Four pairs of imaginary roots",
+        "None of the above"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "All complex roots",
+          "html": "All complex roots"
+        },
+        {
+          "label": "B",
+          "text": "At least one real root",
+          "html": "At least one real root"
+        },
+        {
+          "label": "C",
+          "text": "Four pairs of imaginary roots",
+          "html": "Four pairs of imaginary roots"
+        },
+        {
+          "label": "D",
+          "text": "None of the above",
+          "html": "None of the above"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/80379/gate-cse-1987-question-1-xxii",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/80379/gate-cse-1987-question-1-xxii"
+    },
+    {
+      "id": "gate-ee-math-9",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 23,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 1-xxiii",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>A square matrix is singular whenever </p>",
+      "rawQuestionHtml": "<p>A square matrix is singular whenever </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>The rows are linearly independent</li>\n<li>The columns are linearly independent</li>\n<li>The row are linearly dependent</li>\n<li>None of the above</li>\n</ol>",
+      "options": [
+        "The rows are linearly independent",
+        "The columns are linearly independent",
+        "The row are linearly dependent",
+        "None of the above"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The rows are linearly independent",
+          "html": "The rows are linearly independent"
+        },
+        {
+          "label": "B",
+          "text": "The columns are linearly independent",
+          "html": "The columns are linearly independent"
+        },
+        {
+          "label": "C",
+          "text": "The row are linearly dependent",
+          "html": "The row are linearly dependent"
+        },
+        {
+          "label": "D",
+          "text": "None of the above",
+          "html": "None of the above"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/80380/gate-cse-1987-question-1-xxiii",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/80380/gate-cse-1987-question-1-xxiii"
+    },
+    {
+      "id": "gate-ee-math-10",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 24,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 1-xxiv",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>The simplex method is so named because&nbsp;</p>",
+      "rawQuestionHtml": "<a name=\"80559\"></a><div itemprop=\"text\"><p>The simplex method is so named because&nbsp;</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>It is simple.</li>\n\t<li>It is based on the theory of algebraic complexes.</li>\n\t<li>The simple pendulum works on this method.</li>\n\t<li>No one thought of a&nbsp;better&nbsp;name.</li>\n</ol></div>",
+      "options": [
+        "It is simple.",
+        "It is based on the theory of algebraic complexes.",
+        "The simple pendulum works on this method.",
+        "No one thought of a better name."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It is simple.",
+          "html": "It is simple."
+        },
+        {
+          "label": "B",
+          "text": "It is based on the theory of algebraic complexes.",
+          "html": "It is based on the theory of algebraic complexes."
+        },
+        {
+          "label": "C",
+          "text": "The simple pendulum works on this method.",
+          "html": "The simple pendulum works on this method."
+        },
+        {
+          "label": "D",
+          "text": "No one thought of a better name.",
+          "html": "No one thought of a&nbsp;better&nbsp;name."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/80559/gate-cse-1987-question-1-xxiv",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/80559/gate-cse-1987-question-1-xxiv"
+    },
+    {
+      "id": "gate-ee-math-11",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 25,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 1-xxv",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>Which of the following statements is true in respect of the convergence of the Newton-Rephson procedure?</p>",
+      "rawQuestionHtml": "<a name=\"80562\"></a><div itemprop=\"text\"><p>Which of the following statements is true in respect of the convergence of the Newton-Rephson procedure?</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>It converges always under all circumstances.</li>\n\t<li>It does not converge to a tool where the second differential coefficient changes sign.</li>\n\t<li>It does not converge to a root where the second differential coefficient vanishes.</li>\n\t<li>None of the above.</li>\n</ol></div>",
+      "options": [
+        "It converges always under all circumstances.",
+        "It does not converge to a tool where the second differential coefficient changes sign.",
+        "It does not converge to a root where the second differential coefficient vanishes.",
+        "None of the above."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It converges always under all circumstances.",
+          "html": "It converges always under all circumstances."
+        },
+        {
+          "label": "B",
+          "text": "It does not converge to a tool where the second differential coefficient changes sign.",
+          "html": "It does not converge to a tool where the second differential coefficient changes sign."
+        },
+        {
+          "label": "C",
+          "text": "It does not converge to a root where the second differential coefficient vanishes.",
+          "html": "It does not converge to a root where the second differential coefficient vanishes."
+        },
+        {
+          "label": "D",
+          "text": "None of the above.",
+          "html": "None of the above."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/80562/gate-cse-1987-question-1-xxv",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/80562/gate-cse-1987-question-1-xxv"
+    },
+    {
+      "id": "gate-ee-math-12",
+      "testId": "gate-1993-s0",
+      "year": 1993,
+      "set": 1,
+      "yearSetKey": "1993-s0",
+      "orderIndex": 1,
+      "section": "EE",
+      "title": "GATE CSE 1993 | Question: 01.1",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MSQ",
+      "question": "<p>The eigen vector $(s)$ of the matrix $$\\begin{bmatrix} 0 &amp;0 &amp;\\alpha\\\\ 0 &amp;0 &amp;0\\\\ 0 &amp;0 &amp;0 \\end{bmatrix},\\alpha \\neq 0$$ is (are)</p>",
+      "rawQuestionHtml": "<p>The eigen vector $(s)$ of the matrix $$\\begin{bmatrix} 0 &amp;0 &amp;\\alpha\\\\ 0 &amp;0 &amp;0\\\\ 0 &amp;0 &amp;0 \\end{bmatrix},\\alpha \\neq 0$$ is (are)</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>$(0,0,\\alpha)$</li>\n<li>$(\\alpha,0,0)$</li>\n<li>$(0,0,1)$</li>\n<li>$(0,\\alpha,0)$</li>\n</ol>",
+      "options": [
+        "$(0,0,\\alpha)$",
+        "$(\\alpha,0,0)$",
+        "$(0,0,1)$",
+        "$(0,\\alpha,0)$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$(0,0,\\alpha)$",
+          "html": "$(0,0,\\alpha)$"
+        },
+        {
+          "label": "B",
+          "text": "$(\\alpha,0,0)$",
+          "html": "$(\\alpha,0,0)$"
+        },
+        {
+          "label": "C",
+          "text": "$(0,0,1)$",
+          "html": "$(0,0,1)$"
+        },
+        {
+          "label": "D",
+          "text": "$(0,\\alpha,0)$",
+          "html": "$(0,\\alpha,0)$"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/596/gate-cse-1993-question-01-1",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/596/gate-cse-1993-question-01-1"
+    },
+    {
+      "id": "gate-ee-math-13",
+      "testId": "gate-1993-s0",
+      "year": 1993,
+      "set": 1,
+      "yearSetKey": "1993-s0",
+      "orderIndex": 2,
+      "section": "EE",
+      "title": "GATE CSE 1993 | Question: 01.2",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>The differential equation&nbsp; $\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0$ is:</p>",
+      "rawQuestionHtml": "<a name=\"597\"></a><div itemprop=\"text\"><p>The differential equation&nbsp; $\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0$ is:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>linear</li>\n\t<li>non- linear &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>\n\t<li>homogeneous</li>\n\t<li>of degree two</li>\n</ol></div>",
+      "options": [
+        "linear",
+        "non- linear",
+        "homogeneous",
+        "of degree two"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "linear",
+          "html": "linear"
+        },
+        {
+          "label": "B",
+          "text": "non- linear",
+          "html": "non- linear &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;"
+        },
+        {
+          "label": "C",
+          "text": "homogeneous",
+          "html": "homogeneous"
+        },
+        {
+          "label": "D",
+          "text": "of degree two",
+          "html": "of degree two"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/597/gate-cse-1993-question-01-2",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/597/gate-cse-1993-question-01-2"
+    },
+    {
+      "id": "gate-ee-math-14",
+      "testId": "gate-1993-s0",
+      "year": 1993,
+      "set": 1,
+      "yearSetKey": "1993-s0",
+      "orderIndex": 3,
+      "section": "EE",
+      "title": "GATE CSE 1993 | Question: 01.3",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MSQ",
+      "question": "<p>Simpson's rule for integration gives exact result when $f(x)$ is a polynomial of degree</p>",
+      "rawQuestionHtml": "<a name=\"598\"></a><div itemprop=\"text\"><p>Simpson's rule for integration gives exact result when $f(x)$ is a polynomial of degree</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>$1$</li>\n\t<li>$2$</li>\n\t<li>$3$</li>\n\t<li>$4$</li>\n</ol></div>",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$1$",
+          "html": "$1$"
+        },
+        {
+          "label": "B",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "D",
+          "text": "$4$",
+          "html": "$4$"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/598/gate-cse-1993-question-01-3",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/598/gate-cse-1993-question-01-3"
+    },
+    {
+      "id": "gate-ee-math-15",
+      "testId": "gate-1993-s0",
+      "year": 1993,
+      "set": 1,
+      "yearSetKey": "1993-s0",
+      "orderIndex": 4,
+      "section": "EE",
+      "title": "GATE CSE 1993 | Question: 01.4",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MSQ",
+      "question": "<ol>\n\t<li>In questions 1.1 to 1.7 below, one or more of the alternatives are correct.&nbsp; Write the code letter(s) a, b, c, d corresponding to the correct alternative(s) in the answer book.&nbsp; Marks will be given only if all the correct alternatives have been selected and no incorrect alternative is picked up.</li>\n</ol>\n\n<p><img alt=\"\" src=\"/question-images/2509613817040982768.webp\" style=\"height:79px; width:524px\"></p>",
+      "rawQuestionHtml": "<a name=\"599\"></a><div itemprop=\"text\"><ol>\n\t<li>In questions 1.1 to 1.7 below, one or more of the alternatives are correct.&nbsp; Write the code letter(s) a, b, c, d corresponding to the correct alternative(s) in the answer book.&nbsp; Marks will be given only if all the correct alternatives have been selected and no incorrect alternative is picked up.</li>\n</ol>\n\n<p><img alt=\"\" src=\"/question-images/2509613817040982768.webp\" style=\"height:79px; width:524px\"></p></div>\n<ol style=\"list-style-type:upper-alpha\">\n<li>(A)</li>\n<li>(B)</li>\n<li>(C)</li>\n<li>(D)</li>\n</ol>",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "(A)",
+          "html": "(A)"
+        },
+        {
+          "label": "B",
+          "text": "(B)",
+          "html": "(B)"
+        },
+        {
+          "label": "C",
+          "text": "(C)",
+          "html": "(C)"
+        },
+        {
+          "label": "D",
+          "text": "(D)",
+          "html": "(D)"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/599/gate-cse-1993-question-01-4",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/599/gate-cse-1993-question-01-4"
+    },
+    {
+      "id": "gate-ee-math-16",
+      "testId": "gate-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 36,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 1 | Question: 36",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Calculus",
+      "type": "MSQ",
+      "question": "<p>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined as follows:<br>\\[<br>f(x)=\\left(\\frac{|x|}{2}-x\\right)\\left(x-\\frac{|x|}{2}\\right)<br>\\]<br>Which of the following statements is/are true?</p>",
+      "rawQuestionHtml": "\n<a name=\"523044\"></a><div itemprop=\"text\"><p>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined as follows:<br>\\[<br>f(x)=\\left(\\frac{|x|}{2}-x\\right)\\left(x-\\frac{|x|}{2}\\right)<br>\\]<br>Which of the following statements is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$f$ has a local maximum</li><li>$f$ has a local minimum</li><li>$f^{\\prime}$ is continuous over $\\mathbb{R}$</li><li>$f^{\\prime}$ is not differentiable over $\\mathbb{R}$</li></ol></div>\n",
+      "options": [
+        "$f$ has a local maximum",
+        "$f$ has a local minimum",
+        "$f^{\\prime}$ is continuous over $\\mathbb{R}$",
+        "$f^{\\prime}$ is not differentiable over $\\mathbb{R}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$f$ has a local maximum",
+          "html": "$f$ has a local maximum"
+        },
+        {
+          "label": "B",
+          "text": "$f$ has a local minimum",
+          "html": "$f$ has a local minimum"
+        },
+        {
+          "label": "C",
+          "text": "$f^{\\prime}$ is continuous over $\\mathbb{R}$",
+          "html": "$f^{\\prime}$ is continuous over $\\mathbb{R}$"
+        },
+        {
+          "label": "D",
+          "text": "$f^{\\prime}$ is not differentiable over $\\mathbb{R}$",
+          "html": "$f^{\\prime}$ is not differentiable over $\\mathbb{R}$"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523044/gate-cse-2026-set-1-question-36",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523044/gate-cse-2026-set-1-question-36"
+    },
+    {
+      "id": "gate-ee-math-17",
+      "testId": "gate-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 48,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 1 | Question: 48",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "NAT",
+      "question": "Let $X$ be a random variable which takes values in the set $\\{1,2,3,4,5,6,7,8\\}$. Further, $\\operatorname{Pr}(X=1)=\\operatorname{Pr}(X=2)=\\operatorname{Pr}(X=5)=\\operatorname{Pr}(X=7)=\\frac{1}{6}$ and $\\operatorname{Pr}(X=3)=\\operatorname{Pr}(X=4)=\\operatorname{Pr}(X=6)=\\operatorname{Pr}(X=8)=\\frac{1}{12}$.<br>\n<br>\nThe expected value of $X$, denoted by $E[X]$, is equal to $\\_\\_\\_\\_$. (rounded off to two decimal places)",
+      "rawQuestionHtml": "\n<a name=\"523032\"></a><div itemprop=\"text\">Let $X$ be a random variable which takes values in the set $\\{1,2,3,4,5,6,7,8\\}$. Further, $\\operatorname{Pr}(X=1)=\\operatorname{Pr}(X=2)=\\operatorname{Pr}(X=5)=\\operatorname{Pr}(X=7)=\\frac{1}{6}$ and $\\operatorname{Pr}(X=3)=\\operatorname{Pr}(X=4)=\\operatorname{Pr}(X=6)=\\operatorname{Pr}(X=8)=\\frac{1}{12}$.<br>\n<br>\nThe expected value of $X$, denoted by $E[X]$, is equal to $\\_\\_\\_\\_$. (rounded off to two decimal places)</div>\n",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "4.25"
+      ],
+      "tolerance": {
+        "abs": 0.009999999999999787
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48"
+    },
+    {
+      "id": "gate-ee-math-18",
+      "testId": "gate-2026-s2",
+      "year": 2026,
+      "set": 2,
+      "yearSetKey": "2026-s2",
+      "orderIndex": 52,
+      "section": "EE",
+      "title": "GATE CSE 2026 | Set 2 | Question: 52",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "NAT",
+      "question": "The determinant of a $4 \\times 4$ matrix $A$ is $3$. The value of the determinant of $2 A$ is $\\_\\_\\_\\_$. (answer in integer)",
+      "rawQuestionHtml": "\n<a name=\"523094\"></a><div itemprop=\"text\">The determinant of a $4 \\times 4$ matrix $A$ is $3$. The value of the determinant of $2 A$ is $\\_\\_\\_\\_$. (answer in integer)</div>\n",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "48"
+      ],
+      "tolerance": {
+        "abs": 0.01
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523094/gate-cse-2026-set-2-question-52",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523094/gate-cse-2026-set-2-question-52"
+    },
+    {
+      "id": "gate-ee-math-19",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 26,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 1-xxvi",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Calculus",
+      "type": "MCQ",
+      "question": "<p>If $f(x_{i}).f(x_{i+1})&lt; 0$ then</p>",
+      "rawQuestionHtml": "<p>If $f(x_{i}).f(x_{i+1})&lt; 0$ then</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>There must be a root of $f(x)$ between $x_i$ and $x_{i+1}$</li>\n<li>There need not be a root of $f(x)$ between $x_{i}$ and $x_{i+1}$</li>\n<li>There fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i}$</li>\n<li>The fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i+1}$</li>\n</ol>",
+      "options": [
+        "There must be a root of $f(x)$ between $x_i$ and $x_{i+1}$",
+        "There need not be a root of $f(x)$ between $x_{i}$ and $x_{i+1}$",
+        "There fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i}$",
+        "The fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i+1}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "There must be a root of $f(x)$ between $x_i$ and $x_{i+1}$",
+          "html": "There must be a root of $f(x)$ between $x_i$ and $x_{i+1}$"
+        },
+        {
+          "label": "B",
+          "text": "There need not be a root of $f(x)$ between $x_{i}$ and $x_{i+1}$",
+          "html": "There need not be a root of $f(x)$ between $x_{i}$ and $x_{i+1}$"
+        },
+        {
+          "label": "C",
+          "text": "There fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i}$",
+          "html": "There fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i}$"
+        },
+        {
+          "label": "D",
+          "text": "The fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i+1}$",
+          "html": "The fourth derivative of $f(x)$ with respect to $x$ vanishes at $x_{i+1}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/80571/gate-cse-1987-question-1-xxvi",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/80571/gate-cse-1987-question-1-xxvi"
+    },
+    {
+      "id": "gate-ee-math-20",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 39,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 11a",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "NAT",
+      "question": "Given $f(300)=2,4771; f(304) = 2.4829; f(305) = 2.4843$ and $f(307) = 2.4871$ find $f(301)$ using Lagrange's interpolation formula.",
+      "rawQuestionHtml": "<a name=\"82548\"></a><div itemprop=\"text\">Given $f(300)=2,4771; f(304) = 2.4829; f(305) = 2.4843$ and $f(307) = 2.4871$ find $f(301)$ using Lagrange's interpolation formula.</div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2.4785971428571423"
+      ],
+      "tolerance": {
+        "abs": 0.001
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/82548/gate-cse-1987-question-11a",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/82548/gate-cse-1987-question-11a"
+    },
+    {
+      "id": "gate-ee-math-21",
+      "testId": "gate-1987-s0",
+      "year": 1987,
+      "set": 1,
+      "yearSetKey": "1987-s0",
+      "orderIndex": 40,
+      "section": "EE",
+      "title": "GATE CSE 1987 | Question: 11b",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "NAT",
+      "question": "Use Simpson's rule with $h=0.25$ to evaluate $ V= \\int_{0}^{1} \\frac{1}{1+x} dx$ correct to three decimal places.",
+      "rawQuestionHtml": "<a name=\"82550\"></a><div itemprop=\"text\">Use Simpson's rule with $h=0.25$ to evaluate $ V= \\int_{0}^{1} \\frac{1}{1+x} dx$ correct to three decimal places.</div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.693"
+      ],
+      "tolerance": {
+        "abs": 0.001
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/82550/gate-cse-1987-question-11b",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/82550/gate-cse-1987-question-11b"
+    },
+    {
+      "id": "gate-ee-math-22",
+      "testId": "gate-1994-s0",
+      "year": 1994,
+      "set": 1,
+      "yearSetKey": "1994-s0",
+      "orderIndex": 30,
+      "section": "EE",
+      "title": "GATE CSE 1994 | Question: 3.4",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>Match the following items</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>(i) Newton-Raphson</td>\n\t\t\t<td>(a) Integration</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(ii) Runge-Kutta</td>\n\t\t\t<td>(b) Root finding</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(iii) Gauss-Seidel</td>\n\t\t\t<td>(c) Ordinary Differential Equations</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(iv) Simpson's Rule</td>\n\t\t\t<td>(d) Solution of Systems of Linear Equations</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+      "rawQuestionHtml": "<a name=\"2481\"></a><div itemprop=\"text\"><p>Match the following items</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>(i) Newton-Raphson</td>\n\t\t\t<td>(a) Integration</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(ii) Runge-Kutta</td>\n\t\t\t<td>(b) Root finding</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(iii) Gauss-Seidel</td>\n\t\t\t<td>(c) Ordinary Differential Equations</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(iv) Simpson's Rule</td>\n\t\t\t<td>(d) Solution of Systems of Linear Equations</td>\n\t\t</tr>\n\t</tbody>\n</table></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2481/gate-cse-1994-question-3-4",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2481/gate-cse-1994-question-3-4"
+    },
+    {
+      "id": "gate-ee-math-23",
+      "testId": "gate-1995-s0",
+      "year": 1995,
+      "set": 1,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 33,
+      "section": "EE",
+      "title": "GATE CSE 1995 | Question: 2.8",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>If the cube roots of unity are $1, \\omega$ and $\\omega^2$, then the roots of the following equation are $$(x-1)^3 +8 =0$$</p>",
+      "rawQuestionHtml": "<p>If the cube roots of unity are $1, \\omega$ and $\\omega^2$, then the roots of the following equation are $$(x-1)^3 +8 =0$$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$-1, 1 + 2\\omega, 1 + 2\\omega^2$   </li>\n<li>$1, 1 - 2\\omega, 1 - 2\\omega^2$</li>\n<li>$-1, 1 - 2\\omega, 1 - 2\\omega^2$</li>\n<li>$-1, 1 + 2\\omega, -1 + 2\\omega^2$    </li>\n</ol>",
+      "options": [
+        "$-1, 1 + 2\\omega, 1 + 2\\omega^2$",
+        "$1, 1 - 2\\omega, 1 - 2\\omega^2$",
+        "$-1, 1 - 2\\omega, 1 - 2\\omega^2$",
+        "$-1, 1 + 2\\omega, -1 + 2\\omega^2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$-1, 1 + 2\\omega, 1 + 2\\omega^2$",
+          "html": "$-1, 1 + 2\\omega, 1 + 2\\omega^2$"
+        },
+        {
+          "label": "B",
+          "text": "$1, 1 - 2\\omega, 1 - 2\\omega^2$",
+          "html": "$1, 1 - 2\\omega, 1 - 2\\omega^2$"
+        },
+        {
+          "label": "C",
+          "text": "$-1, 1 - 2\\omega, 1 - 2\\omega^2$",
+          "html": "$-1, 1 - 2\\omega, 1 - 2\\omega^2$"
+        },
+        {
+          "label": "D",
+          "text": "$-1, 1 + 2\\omega, -1 + 2\\omega^2$",
+          "html": "$-1, 1 + 2\\omega, -1 + 2\\omega^2$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2620/gate-cse-1995-question-2-8",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2620/gate-cse-1995-question-2-8"
+    },
+    {
+      "id": "gate-ee-math-24",
+      "testId": "gate-1995-s0",
+      "year": 1995,
+      "set": 1,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 36,
+      "section": "EE",
+      "title": "GATE CSE 1995 | Question: 2.11",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p><img alt=\"\" src=\"/question-images/15379021139215584265.webp\" style=\"height:219px; width:539px\"></p>",
+      "rawQuestionHtml": "<a name=\"2623\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"/question-images/15379021139215584265.webp\" style=\"height:219px; width:539px\"></p></div>\n<ol style=\"list-style-type:upper-alpha\">\n<li>(A)</li>\n<li>(B)</li>\n<li>(C)</li>\n<li>(D)</li>\n</ol>",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "(A)",
+          "html": "(A)"
+        },
+        {
+          "label": "B",
+          "text": "(B)",
+          "html": "(B)"
+        },
+        {
+          "label": "C",
+          "text": "(C)",
+          "html": "(C)"
+        },
+        {
+          "label": "D",
+          "text": "(D)",
+          "html": "(D)"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2623/gate-cse-1995-question-2-11",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2623/gate-cse-1995-question-2-11"
+    },
+    {
+      "id": "gate-ee-math-25",
+      "testId": "gate-1995-s0",
+      "year": 1995,
+      "set": 1,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 38,
+      "section": "EE",
+      "title": "GATE CSE 1995 | Question: 2.13",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>A unit vector perpendicular to both the vectors $a=2i-3j+k$ and $b=i+j-2k$ is:</p>",
+      "rawQuestionHtml": "<p>A unit vector perpendicular to both the vectors $a=2i-3j+k$ and $b=i+j-2k$ is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\frac{1}{\\sqrt{3}} (i+j+k)$</li>\n<li>$\\frac{1}{3} (i+j-k)$</li>\n<li>$\\frac{1}{3} (i-j-k)$</li>\n<li>$\\frac{1}{\\sqrt{3}} (i+j-k)$</li>\n</ol>",
+      "options": [
+        "$\\frac{1}{\\sqrt{3}} (i+j+k)$",
+        "$\\frac{1}{3} (i+j-k)$",
+        "$\\frac{1}{3} (i-j-k)$",
+        "$\\frac{1}{\\sqrt{3}} (i+j-k)$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{\\sqrt{3}} (i+j+k)$",
+          "html": "$\\frac{1}{\\sqrt{3}} (i+j+k)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3} (i+j-k)$",
+          "html": "$\\frac{1}{3} (i+j-k)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3} (i-j-k)$",
+          "html": "$\\frac{1}{3} (i-j-k)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{\\sqrt{3}} (i+j-k)$",
+          "html": "$\\frac{1}{\\sqrt{3}} (i+j-k)$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2625/gate-cse-1995-question-2-13",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2625/gate-cse-1995-question-2-13"
+    },
+    {
+      "id": "gate-ee-math-26",
+      "testId": "gate-1995-s0",
+      "year": 1995,
+      "set": 1,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 39,
+      "section": "EE",
+      "title": "GATE CSE 1995 | Question: 2.14",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>A bag contains $10$ white balls and $15$ black balls. Two balls are drawn in succession. The probability that one of them is black and the other is white is:</p>",
+      "rawQuestionHtml": "<p>A bag contains $10$ white balls and $15$ black balls. Two balls are drawn in succession. The probability that one of them is black and the other is white is:</p>\n<ol style=\"list-style-type: upper-alpha;\"><li>\n<p>$\\frac{2}{3}$</p>\n</li>\n<li>\n<p>$\\frac{4}{5}$</p>\n</li>\n<li>\n<p>$\\frac{1}{2}$</p>\n</li>\n<li>\n<p>$\\frac{1}{3}$</p>\n</li>\n</ol>",
+      "options": [
+        "$\\frac{2}{3}$",
+        "$\\frac{4}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{3}$",
+          "html": "<p>$\\frac{2}{3}$</p>"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$",
+          "html": "<p>$\\frac{4}{5}$</p>"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$",
+          "html": "<p>$\\frac{1}{2}$</p>"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$",
+          "html": "<p>$\\frac{1}{3}$</p>"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2626/gate-cse-1995-question-2-14",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2626/gate-cse-1995-question-2-14"
+    },
+    {
+      "id": "gate-ee-math-27",
+      "testId": "gate-1995-s0",
+      "year": 1995,
+      "set": 1,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 40,
+      "section": "EE",
+      "title": "GATE CSE 1995 | Question: 2.15",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p>The iteration formula to find the square root of a positive real number $b$ using the Newton Raphson method is</p>",
+      "rawQuestionHtml": "<a name=\"2627\"></a><div itemprop=\"text\"><p>The iteration formula to find the square root of a positive real number $b$ using the Newton Raphson method is</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\n\t<p>$x_{k+1} = 3(x_k+b)/2x_k$</p>\n\t</li>\n\t<li>\n\t<p>$x_{k+1} = (x_{k}^2+b)/2x_k$</p>\n\t</li>\n\t<li>\n\t<p>$x_{k+1} = x_k-2x_k/\\left(x^2_k+b\\right)$</p>\n\t</li>\n\t<li>\n\t<p>None of the above</p>\n\t</li>\n</ol></div>",
+      "options": [
+        "$x_{k+1} = 3(x_k+b)/2x_k$",
+        "$x_{k+1} = (x_{k}^2+b)/2x_k$",
+        "$x_{k+1} = x_k-2x_k/\\left(x^2_k+b\\right)$",
+        "None of the above"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$x_{k+1} = 3(x_k+b)/2x_k$",
+          "html": "<p>$x_{k+1} = 3(x_k+b)/2x_k$</p>"
+        },
+        {
+          "label": "B",
+          "text": "$x_{k+1} = (x_{k}^2+b)/2x_k$",
+          "html": "<p>$x_{k+1} = (x_{k}^2+b)/2x_k$</p>"
+        },
+        {
+          "label": "C",
+          "text": "$x_{k+1} = x_k-2x_k/\\left(x^2_k+b\\right)$",
+          "html": "<p>$x_{k+1} = x_k-2x_k/\\left(x^2_k+b\\right)$</p>"
+        },
+        {
+          "label": "D",
+          "text": "None of the above",
+          "html": "<p>None of the above</p>"
         }
       ],
       "answer": [
@@ -300,1573 +1315,96 @@
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2627/gate-cse-1995-question-2-15",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2627/gate-cse-1995-question-2-15"
     },
     {
-      "id": "gate-ee-q447",
-      "testId": "gate-ee-2018-s1",
-      "year": 2018,
+      "id": "gate-ee-math-28",
+      "testId": "gate-1995-s0",
+      "year": 1995,
       "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 447,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 51,
       "section": "EE",
-      "title": "The value of the integral \n is equal to\ngate2016-ee-2\n \ncalculus\n \ndefinite-integral\nDefinite Integral: GATE Electrical 2018 | Question: 18",
+      "title": "GATE CSE 1995 | Question: 7(B)",
       "subject": "Engineering Mathematics",
       "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
+      "topic": "Calculus",
       "type": "NAT",
-      "question": "<p>Let \n be a real-valued function of a real variable deﬁned as \n, where \n denotes the largest\ninteger less than or equal to \n. The value of \n is _______</p>",
+      "question": "Compute without using power series expansion $\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x}.$",
+      "rawQuestionHtml": "Compute without using power series expansion $\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x}.$",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q448",
-      "testId": "gate-ee-2018-s1",
-      "year": 2018,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 448,
-      "section": "EE",
-      "title": "(up to \n decimal places).\ngate2018-ee\n \nnumerical-answers\n \ncalculus\n \ndefinite-integral\nDefinite Integral: GATE Electrical 2018 | Question: 42",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>As shown in the ﬁgure, \n is the arc from the point \n to the point \n on the circle \n. The\nvalue of the integral \n is ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "abs": 0.01
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/359942/gate-cse-1995-question-7-b",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/359942/gate-cse-1995-question-7-b"
     },
     {
-      "id": "gate-ee-q449",
-      "testId": "gate-ee-2020-s1",
-      "year": 2020,
+      "id": "gate-ee-math-29",
+      "testId": "gate-1995-s0",
+      "year": 1995,
       "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 449,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 52,
       "section": "EE",
-      "title": "(up to \n decimal places).\ngate2018-ee\n \nnumerical-answers\n \ncalculus\n \ndefinite-integral\nDefinite Integral: GATE Electrical 2020 | Question: 2",
+      "title": "GATE CSE 1995 | Question: 10",
       "subject": "Engineering Mathematics",
       "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
+      "topic": "Linear Algebra & Matrices",
+      "type": "MCQ",
+      "question": "<p><img alt=\"\" src=\"/question-images/16305479397035313489.webp\" style=\"height:468px; width:536px\"></p>",
+      "rawQuestionHtml": "<a name=\"2645\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"/question-images/16305479397035313489.webp\" style=\"height:468px; width:536px\"></p></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2645/gate-cse-1995-question-10",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2645/gate-cse-1995-question-10"
+    },
+    {
+      "id": "gate-ee-math-30",
+      "testId": "gate-1995-s0",
+      "year": 1995,
+      "set": 1,
+      "yearSetKey": "1995-s0",
+      "orderIndex": 54,
+      "section": "EE",
+      "title": "GATE CSE 1995 | Question: 25a",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Calculus",
       "type": "NAT",
-      "question": "<p>Which of the following is true for all possible non-zero choices of integers \n or all possible\nnon-zero choices of real numbers \n as applicable?</p>",
+      "question": "Find the minimum value of $3-4x+2x^2$.",
+      "rawQuestionHtml": "Find the minimum value of $3-4x+2x^2$.",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q450",
-      "testId": "gate-ee-2016-s1",
-      "year": 2016,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 450,
-      "section": "EE",
-      "title": "7.9\n7.9.1\n7.10\n7.10.1\nA\n. \nB\n. \nC\n. \nD\n. \n7.11\n7.11.1\n7.12\n7.12.1\nA\n. \nB\n. \nC\n. \nD\n. \n7.13\n7.13.1\nA\n. \nB\n. \nC\n. \nD\n. \n7.14\nD\n. \ngate2020-ee\n \ncalculus\n \ndefinite-integral\nDegree of Polynomial \n(1)\nDegree of Polynomial: GATE Electrical 2016 Set 1 | Question: 33",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Given the following polynomial equation \n the number of roots of the\npolynomial, which have real parts strictly less than \n, is ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "abs": 0.01
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q451",
-      "testId": "gate-ee-2013-s1",
-      "year": 2013,
-      "set": 1,
-      "yearSetKey": "2013-s1",
-      "orderIndex": 451,
-      "section": "EE",
-      "title": ".\ngate2016-ee-1\n \ncalculus\n \ndegree-of-polynomial\n \nnumerical-answers\nDerivatives \n(1)\nDerivatives: GATE Electrical 2013 | Question: 46",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A function \n is deﬁned over an open interval \n =</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q452",
-      "testId": "gate-ee-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 452,
-      "section": "EE",
-      "title": ". At least at one point in this interval, \n is exactly\ngate2013-ee\n \ncalculus\n \nderivatives\nDeterminant \n(1)\nDeterminant: GATE Electrical 2015 Set 1 | Question: 3",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>If the sum of the diagonal elements of a \n matrix is \n, then the maximum possible value of\ndeterminant of the matrix is ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q453",
-      "testId": "gate-ee-2018-s1",
-      "year": 2018,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 453,
-      "section": "EE",
-      "title": "The direction of vector \n is radically outward from the origin, with \n where \n and\n is a constant. The value of \n for which \n is\ngate2012-ee\n \ncalculus\n \ndifferential-equations\nDirectional Derivatives \n(1)\nDirectional Derivatives: GATE Electrical 2018 | Question: 12",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The value of the directional derivative of the function \n at the point \n in the direction of the vector \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q454",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 454,
-      "section": "EE",
-      "title": "Match the following.\ngate2015-ee-2\n \ncalculus\n \ndivergence\nDivergence: GATE Electrical 2019 | Question: 39",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>If \n and \n, then \n at \n  is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q455",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 455,
-      "section": "EE",
-      "title": "To evaluate the double integral \n , we make the substitution \n and \n  The integral will reduce\nA\n. \nB\n. \nC\n. \nD\n. \ngate2014-ee-2\n \ncalculus\n \ndefinite-integral\n \ndouble-integral\nDouble Integral: GATE Electrical 2017 Set 1 | Question: 17",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let \n, where \n is the region shown in the ﬁgure and \n. The value of \nequals _________. (Give the answer up to two decimal places.)\n∯\n∯</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q456",
-      "testId": "gate-ee-2014-s3",
-      "year": 2014,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 456,
-      "section": "EE",
-      "title": "7.16\n7.16.1\nA\n. \nB\n. \nC\n. \nD\n. \n7.16.2\n7.16.3\nA\n. \nB\n. \nC\n. \nD\n. \n \ngate2017-ee-1\n \nnumerical-answers\n \ncalculus\n \ndouble-integral\nField Vectors \n(4)\nField Vectors: GATE Electrical 2014 Set 3 | Question: 3",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>L e t  \n , where \n and \n are scalar and vector ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q457",
-      "testId": "gate-ee-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 457,
-      "section": "EE",
-      "title": "elds respectively. If \n then \n is\ngate2014-ee-3\n \ncalculus\n \nfield-vectors\nField Vectors: GATE Electrical 2017 Set 2 | Question: 3",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The ﬁgures show diagramatic representations of vector ﬁelds \n respectively. Which one of the\nfollowing choices is true?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q458",
-      "testId": "gate-ee-2020-s1",
-      "year": 2020,
-      "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 458,
-      "section": "EE",
-      "title": "A\n. \nB\n. \nC\n. \nD\n. \ngate2017-ee-2\n \ncalculus\n \nfield-vectors\nField Vectors: GATE Electrical 2020 | Question: 27",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The vector function expressed by\nrepresents a conservative ﬁeld, where \n are unit vectors along \n and \n directions, respectively. The\nvalues of constants \n are given by:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q461",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 461,
-      "section": "EE",
-      "title": "eld \n the line integral \n evaluated along a segment on\nthe \n-axis from \n to \n is\ngate2013-ee\n \ncalculus\n \nfield-vectors\n \nintegral\nLimits \n(1)\nLimits: GATE Electrical 2017 Set 1 | Question: 2",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>For a complex number \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q462",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 462,
-      "section": "EE",
-      "title": "Consider the line integral \n, where \n. The line \n is shown in the figure below.\nThe value of \n is\ngate2017-ee-1\n \ncalculus\n \nline-integral\nLine Integral: GATE Electrical 2019 | Question: 18",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>If \n, the value of line integral \n evaluated over contour \n formed by the\nsegments \n is___________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q463",
-      "testId": "gate-ee-2012-s1",
-      "year": 2012,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 463,
-      "section": "EE",
-      "title": ".\ngate2019-ee\n \nnumerical-answers\n \ncalculus\n \nline-integral\nMaxima Minima \n(8)\nMaxima Minima: GATE Electrical 2012 | Question: 27",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The maximum value of \n in the interval \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q474",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 474,
-      "section": "EE",
-      "title": "Complex Variables\n \n(20)\nAnalytic Functions \n(2)\nAnalytic Functions: GATE Electrical 2019 | Question: 4",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Which one of the following functions is analytic in the region \n ?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q480",
-      "testId": "gate-ee-2012-s1",
-      "year": 2012,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 480,
-      "section": "EE",
-      "title": "The number of roots of the polynomial, \n, in the open\nleft half of the complex plane is\ngate2018-ee\n \ncomplex-variables\n \ncomplex-valued-functions\nComplex Variables \n(4)\nComplex Variables: GATE Electrical 2012 | Question: 2",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>If \n, then the value of \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q481",
-      "testId": "gate-ee-2016-s2",
-      "year": 2016,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 481,
-      "section": "EE",
-      "title": "Complex Variables: GATE Electrical 2016 Set 2 | Question: 6",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider the function \n where \n is a complex variable and \n denotes its complex conjugate.\nWhich one of the following is TRUE?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q482",
-      "testId": "gate-ee-2024-s1",
-      "year": 2024,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 482,
-      "section": "EE",
-      "title": "complex-variables\nComplex Variables: GATE Electrical 2024 | Question: 21",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider the complex function \n. The coeﬃcient of \n in the Taylor series expansion of \n about the origin is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q483",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 483,
-      "section": "EE",
-      "title": "(rounded off to \n decimal place).\ngate2024-ee\n \nnumerical-answers\n \ncomplex-variables\nComplex Variables: GATE Electrical 2025 | Question: 45",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>L e t \n be a clockwise oriented closed curve in the complex plane deﬁned by \n. Further, let \n be a complex function, where \n. Then, \n (round oﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q484",
-      "testId": "gate-ee-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 484,
-      "section": "EE",
-      "title": "to the\nnearest integer).\ngate2025-ee\n \nnumerical-answers\n \ncomplex-variables\n \ncalculus\nContour Integral \n(1)\nContour Integral: GATE Electrical 2026 | Question: 52",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The magnitude of the contour integral</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q486",
-      "testId": "gate-ee-2014-s1",
-      "year": 2014,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 486,
-      "section": "EE",
-      "title": "Differential Equations\n \n(20)\nBoundary Limits \n(1)\nBoundary Limits: GATE Electrical 2014 Set 1 | Question: 3",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The solution for the diﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q487",
-      "testId": "gate-ee-2012-s1",
-      "year": 2012,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 487,
-      "section": "EE",
-      "title": "With initial condition \n, the solution of the differential equation \n is\ngate2012-ee\n \ndifferential-equations\nDifferential Equations: GATE Electrical 2012 | Question: 39",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider the diﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q488",
-      "testId": "gate-ee-2015-s2",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2015-s2",
-      "orderIndex": 488,
-      "section": "EE",
-      "title": "erential equation \n with \n and \n. The numerical value of \n is\ngate2012-ee\n \ndifferential-equations\n \nanalytical-aptitude\nDifferential Equations: GATE Electrical 2015 Set 2 | Question: 28",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A diﬀerential equation \n is applicable over \n. If \n, then \n is\n_________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q489",
-      "testId": "gate-ee-2016-s1",
-      "year": 2016,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 489,
-      "section": "EE",
-      "title": ".\ngate2015-ee-2\n \ndifferential-equations\n \nnumerical-answers\nDifferential Equations: GATE Electrical 2016 Set 1 | Question: 4",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A function \n, such that \n and \n, is a solution of the differential equation\n. Then \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q490",
-      "testId": "gate-ee-2016-s2",
-      "year": 2016,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 490,
-      "section": "EE",
-      "title": "9.2.5\n9.2.6\nA\n. \nB\n. \nC\n. \nD\n. \n9.2.7\nA\n. \nB\n. \nC\n. \nD\n. \n9.2.8\nA\n. \nB\n. \nC\n. \nD\n. \n9.2.9\nA\n. \nB\n. \nC\n. \nD\n. \n9.2.10\nA\n. \nB\n. \nC\n. \nD\n. \nDifferential Equations: GATE Electrical 2016 Set 2 | Question: 30",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let \n be the solution of the diﬀerential equation \n with initial conditions \nand \n Then the value of \n is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q491",
-      "testId": "gate-ee-2016-s2",
-      "year": 2016,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 491,
-      "section": "EE",
-      "title": ".\ngate2016-ee-2\n \ndifferential-equations\n \nnumerical-answers\nDifferential Equations: GATE Electrical 2016 Set 2 | Question: 4",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider a causal \n system characterized by diﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q492",
-      "testId": "gate-ee-2016-s2",
-      "year": 2016,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 492,
-      "section": "EE",
-      "title": "erential equation \n The\nresponse of the system to the input \n, where \n denotes the unit step function, is\ngate2016-ee-2\n \ndifferential-equations\n \nsignals-and-systems\nDifferential Equations: GATE Electrical 2016 Set 2 | Question: 8",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The solution of the diﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q493",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 493,
-      "section": "EE",
-      "title": "erential equation, for \n with initial conditions \n and \n, is (\n denotes the unit step function),\ngate2016-ee-2\n \ndifferential-equations\nDifferential Equations: GATE Electrical 2017 Set 1 | Question: 27",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider the diﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q495",
-      "testId": "gate-ee-2023-s1",
-      "year": 2023,
-      "set": 1,
-      "yearSetKey": "2023-s1",
-      "orderIndex": 495,
-      "section": "EE",
-      "title": "9.2.11\n9.2.12\n9.2.13\n9.2.14\n9.2.15\nDifferential Equations: GATE Electrical 2023 | Question: 24",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>In the following diﬀerential equation, the numerically obtained value of \n at \n  is ___________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q496",
-      "testId": "gate-ee-2024-s1",
-      "year": 2024,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 496,
-      "section": "EE",
-      "title": "(Round off to \n decimal places). \n and \ngate2023-ee\n \ndifferential-equations\n \nnumerical-answers\nDifferential Equations: GATE Electrical 2024 | Question: 35",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Which of the following differential equations is/are nonlinear?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q497",
-      "testId": "gate-ee-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 497,
-      "section": "EE",
-      "title": "Consider ordinary differential equations given by\nwith initial conditions \n and \n.\nIf \n, then at \n \n (round off to the nearest integer).\ngate2025-ee\n \nnumerical-answers\n \ndifferential-equations\n \ncontrol-systems\nDifferential Equations: GATE Electrical 2026 | Question: 4",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider the following differential equation:\nWhich one of the following options is correct?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q498",
-      "testId": "gate-ee-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 498,
-      "section": "EE",
-      "title": "A\n. \nIt is a linear differential equation\nB\n. \nIt is a nonlinear differential equation\nC\n. \nIt is a time-invariant differential equation\nD\n. \nIt is a second-order partial differential equation\ngate2026-ee\n \ndifferential-equations\n \nanalytical-aptitude\nDifferential Equations: GATE Electrical 2026 | Question: 40",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider the second-order differential equation\nwith initial conditions</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q533",
-      "testId": "gate-ee-2014-s1",
-      "year": 2014,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 533,
-      "section": "EE",
-      "title": "Statistics\n \n(21)\nCoins \n(1)\nCoins: GATE Electrical 2014 Set 1 | Question: 27",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A fair coin is tossed \n times. The probability that the diﬀ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q534",
-      "testId": "gate-ee-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 534,
-      "section": "EE",
-      "title": "erence between the number of heads and tails is \n is\ngate2014-ee-1\n \nprobability-and-statistics\n \ncoins\nConditional Probability \n(3)\nConditional Probability: GATE Electrical 2015 Set 1 | Question: 29",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Two players, \n and \n, alternately keep rolling a fair dice. The person to get a six ﬁrst wins the game.\nGiven that player \n starts the game, the probability that \n wins the game is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q535",
-      "testId": "gate-ee-2016-s1",
-      "year": 2016,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 535,
-      "section": "EE",
-      "title": "Conditional Probability: GATE Electrical 2016 Set 1 | Question: 26",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Candidates were asked to come to an interview with \n pens each. Black, blue, green and red were the\npermitted pen colours that the candidate could bring. The probability that a candidate comes with all \npens having the same colour is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q536",
-      "testId": "gate-ee-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 536,
-      "section": "EE",
-      "title": ".\ngate2016-ee-1\n \nprobability-and-statistics\n \nconditional-probability\n \nnumerical-answers\nConditional Probability: GATE Electrical 2017 Set 2 | Question: 1",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>An urn contains \n red balls and \n black balls. In the ﬁrst draw, one ball is picked at random and discarded\nwithout noticing its colour. The probability to get a Red ball in the second draw is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q537",
-      "testId": "gate-ee-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 537,
-      "section": "EE",
-      "title": "Expectation \n(1)\nExpectation: GATE Electrical 2015 Set 1 | Question: 1",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A random variable \n has probability density function \n as given below:\nIf the expected value \n, then \n is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q539",
-      "testId": "gate-ee-2012-s1",
-      "year": 2012,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 539,
-      "section": "EE",
-      "title": "A\n. \nB\n. \nC\n. \nD\n. \ngate2025-ee\n \nprobability-and-statistics\n \nprobability-density-function\nProbability and Statistics \n(10)\nProbability and Statistics: GATE Electrical 2012 | Question: 37",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A fair coin is tossed till a head appears for the ﬁrst ime. The probability that the number of required tosses\nis odd, is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q540",
-      "testId": "gate-ee-2014-s2",
-      "year": 2014,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 540,
-      "section": "EE",
-      "title": "Probability and Statistics: GATE Electrical 2014 Set 2 | Question: 2",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Consider a dice with the property that the probability of a face with \n dots showing up is proportional to \n.\nThe probability of the face with three dots showing up is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q541",
-      "testId": "gate-ee-2015-s2",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2015-s2",
-      "orderIndex": 541,
-      "section": "EE",
-      "title": "Probability and Statistics: GATE Electrical 2015 Set 2 | Question: 27",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Two coins \n and \n are tossed. The \n joint events \n have probabilities \n, respectively, where \n represents head and \n represents tail. Which one of the\nfollowing is TRUE?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q542",
-      "testId": "gate-ee-2017-s2",
-      "year": 2017,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 542,
-      "section": "EE",
-      "title": "probability-and-statistics\nProbability and Statistics: GATE Electrical 2017 Set 2 | Question: 17",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Assume that in traﬃc junction, the cycle of the traﬃc signal lights is \n minutes of green (Vehicle does not\nstop) and \n minutes of red (Vehicle stops). Consider that the arrival time of vehicles at the junction is\nuniformly distributed over \n minute cycle. The expected waiting time (in minutes) for the vehicle at the junction is\n________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q543",
-      "testId": "gate-ee-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 543,
-      "section": "EE",
-      "title": ".\ngate2017-ee-2\n \nnumerical-answers\n \nprobability-and-statistics\nProbability and Statistics: GATE Electrical 2022 | Question: 44",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let the probability density function of a random variable \n be given as</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q544",
-      "testId": "gate-ee-2023-s1",
-      "year": 2023,
-      "set": 1,
-      "yearSetKey": "2023-s1",
-      "orderIndex": 544,
-      "section": "EE",
-      "title": ".\ngate2022-ee\n \nnumerical-answers\n \nprobability-and-statistics\nProbability and Statistics: GATE Electrical 2023 | Question: 15",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>One million random numbers are generated from a statistically stationary process with a Gaussian\ndistribution with mean zero and standard deviation \n.\nThe \n is estimated by randomly drawing out \n numbers of samples \n. The estimates \n are\ncomputed in the following two ways.\nWhich of the following statements is true?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q545",
-      "testId": "gate-ee-2023-s1",
-      "year": 2023,
-      "set": 1,
-      "yearSetKey": "2023-s1",
-      "orderIndex": 545,
-      "section": "EE",
-      "title": "probability-and-statistics\n \nsignals-and-systems\n \nnumerical-answers\nProbability and Statistics: GATE Electrical 2023 | Question: 35",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The expected number of trials for ﬁrst occurrence of a \"head\" in a biased coin is known to be \n The\nprobability of ﬁrst occurrence of a \"head\" in the second trial is ____________(Round oﬀ to \n decimal\nplaces).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q548",
-      "testId": "gate-ee-2026-s1",
-      "year": 2026,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 548,
-      "section": "EE",
-      "title": "Given \n, the expected value of \n is\ngate2025-ee\n \nprobability-and-statistics\n \nnumerical-answers\nProbability and Statistics: GATE Electrical 2026 | Question: 54",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let \n and \n be two real-valued random variables with \n,\nand \n, where \n denotes the expectation operator.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q550",
-      "testId": "gate-ee-2014-s3",
-      "year": 2014,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 550,
-      "section": "EE",
-      "title": ".\ngate2014-ee-2\n \nprobability-and-statistics\n \nrandom-variable\n \nprobability-density-function\n \nnumerical-answers\nRandom Variable: GATE Electrical 2014 Set 3 | Question: 4",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Lifetime of an electric bulb is a random variable with density \n , where \n is measured in years. If\nthe minimum and maximum lifetimes of bulb are \n and \n years respectively, then the value of \n is\n________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q551",
-      "testId": "gate-ee-2016-s2",
-      "year": 2016,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 551,
-      "section": "EE",
-      "title": ".\ngate2014-ee-3\n \nprobability-and-statistics\n \nrandom-variable\n \nprobability-density-function\n \nnumerical-answers\nRandom Variable: GATE Electrical 2016 Set 2 | Question: 33",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Let the probability density function of a random variable, \n, be given as:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q552",
-      "testId": "gate-ee-2012-s1",
-      "year": 2012,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 552,
-      "section": "EE",
-      "title": "where u(x) is the unit step function.\nThen the value of 'a' and prob \n, respectively are \ngate2016-ee-2\n \nprobability-and-statistics\n \nrandom-variable\n \nprobability-density-function\nUniform Distribution \n(1)\nUniform Distribution: GATE Electrical 2012 | Question: 1",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Two independent random variables \n and \n are uniformly distributed in the interval \n. The\nprobability that \n is less than \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q614",
-      "testId": "gate-ee-2016-s2",
-      "year": 2016,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 614,
-      "section": "EE",
-      "title": "Conditional Probability \n(2)\nConditional Probability: GATE Electrical 2016 Set 2 | GA | Question: 9",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Shaquille 'O' Neal is a \n career free throw shooter, meaning that he successfully makes \n free throws\nout of \n attempts on average. What is the probability that he will successfully make exactly \n free throws\nin \n attempts?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q615",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 615,
-      "section": "EE",
-      "title": "There are \n red socks, \n green socks and \n blue socks. You choose \n socks. The probability that they are\nof the same colour is\ngate2017-ee-2\n \nnumerical-ability\n \nprobability-and-statistics\n \nconditional-probability\nContour Plots \n(2)\nContour Plots: GATE Electrical 2017 Set 1 | GA | Question: 10",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A contour line joins locations having the same height above the mean sea level. The following is a contour\nplot of a geographical region. Contour lines are shown at \nm intervals in this plot. If in a ﬂood, the water\nlevel rises to \nm, which of the villages \n get submerged?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q651",
-      "testId": "gate-ee-2018-s1",
-      "year": 2018,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 651,
-      "section": "EE",
-      "title": "numerical-ability\n \ndata-interpretation\n \npie-chart\n \nnumerical-answers\nProbability \n(5)\nProbability: GATE Electrical 2018 | GA | Question: 8",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>A class of twelve children has two more boys than girls. A group of three children are randomly picked from\nthis class to accompany the teacher on a ﬁeld trip. What is the probability that the group accompanying the\nteacher contains more girls than boys?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q653",
-      "testId": "gate-ee-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 653,
-      "section": "EE",
-      "title": "15.30.3\nA\n. \nB\n. \nC\n. \nD\n. \n15.30.4\nA\n. \nB\n. \nC\n. \nD\n. \n15.30.5\nA\n. \nB\n. \nC\n. \n  \nD\n. \n15.31\n15.31.1\nA\n. \nB\n. \nC\n. \nD\n. \n15.31.2\nProbability: GATE Electrical 2022 | GA | Question: 5",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The ﬁgure below shows the front and rear view of a disc, which is shaded with identical patterns. The disc\nis ﬂipped once with respect to any one of the ﬁxed axes \n, \n or \n chosen uniformly at\nrandom.\nWhat is the probability that the disc \n retain the same front and rear views after the ﬂipping\noperation?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q654",
-      "testId": "gate-ee-2022-s1",
-      "year": 2022,
-      "set": 1,
-      "yearSetKey": "2022-s1",
-      "orderIndex": 654,
-      "section": "EE",
-      "title": "Probability: GATE Electrical 2022 | GA | Question: 7",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>There are two identical dice with a single letter on each of the faces. The following six letters: \n and \n, one on each of the faces. Any of the six outcomes are equally likely.\nThe two dice are thrown once independently at random.\nWhat is the probability that the outcomes on the dice were composed only of any combination of the following\npossible outcomes: \n and \n?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q655",
-      "testId": "gate-ee-2023-s1",
-      "year": 2023,
-      "set": 1,
-      "yearSetKey": "2023-s1",
-      "orderIndex": 655,
-      "section": "EE",
-      "title": "Probability: GATE Electrical 2023 | GA | Question: 3",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Given a fair six-faced dice where the faces are labelled \nwhat is the probability of getting a \n on the first roll of the dice and a \n on the second roll?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q656",
-      "testId": "gate-ee-2012-s1",
-      "year": 2012,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 656,
-      "section": "EE",
-      "title": "Probability and Statistics \n(4)\nProbability and Statistics: GATE Electrical 2012 | Question: 61",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>and \n are friends. They decide to meet between \n pm and \n pm on a given day. There is a\ncondition that whoever arrives ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q657",
-      "testId": "gate-ee-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 657,
-      "section": "EE",
-      "title": "rst will not wait for the other for more than \n minutes. The probability that\nthey will meet on that day is\ngate2012-ee\n \nnumerical-ability\n \nprobability-and-statistics\nProbability and Statistics: GATE Electrical 2015 Set 1 | GA | Question: 5",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>Given set \n and set \n, two numbers are randomly selected, one\nfrom each set. What is the probability that the sum of two numbers equal \n?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q658",
-      "testId": "gate-ee-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 658,
-      "section": "EE",
-      "title": "A\n. \nB\n. \nC\n. \nD\n. \n15.31.3\nA\n. \nOnly relation \n is true.\nB\n. \nOnly relation \n is true.\nC\n. \nRelations \n and \n are true.\nD\n. \nRelations \n and \n are true.\n15.31.4\nA\n. \nB\n. \nC\n. \nD\n. \n15.32\n15.32.1\nA\n. \nB\n. \nC\n. \nD\n. \n15.32.2\nA\n. \nno roots\nB\n. \n real roots\nC\n. \n real roots\nD\n. \n real roots\n15.32.3\nA\n. \nB\n. \nC\n. \nD\n. \n15.33\n15.33.1\nA\n. \nB\n. \nC\n. \nD\n. \ngate2015-ee-1\n \nnumerical-ability\n \nprobability-and-statistics\nProbability and Statistics: GATE Electrical 2015 Set 1 | GA | Question: 9",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Eigenvalues",
-      "type": "NAT",
-      "question": "<p>The probabilities that a student passes in Mathematics, Physics, and Chemistry are \n and \nrespectively. Of these subjects, the student has \n chance of passing in at least one, a \n chance of\npassing in at least two and a \n chance of passing in exactly two. Following relations are drawn in \n:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Engineering Mathematics):</strong></p><p>Using official GATE EE engineering principles for <em>Linear Algebra & Eigenvalues</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Maths.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/2664/gate-cse-1995-question-25a",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2664/gate-cse-1995-question-25a"
     }
   ]
 }

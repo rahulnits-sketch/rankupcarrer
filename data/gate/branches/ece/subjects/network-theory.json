@@ -3,81 +3,586 @@
   "name": "Network Theory",
   "shortName": "Networks",
   "icon": "⚡",
-  "color": "from-teal-500/20 to-emerald-500/20",
-  "borderColor": "border-teal-500/30",
-  "totalQuestions": 2,
+  "color": "from-yellow-500/20 to-amber-500/20",
+  "borderColor": "border-yellow-500/30",
+  "totalQuestions": 15,
   "topics": [
     {
-      "name": "Network Theorems (Thevenin, Norton, Max Power)",
-      "questionCount": 1
+      "name": "Circuit Analysis & Network Theorems",
+      "questionCount": 3
     },
     {
-      "name": "Transient Response in First & Second Order Circuits",
-      "questionCount": 1
+      "name": "Transient Response & Sinusoidal Steady State",
+      "questionCount": 3
     },
     {
-      "name": "Sinusoidal Steady State & Resonance",
-      "questionCount": 1
+      "name": "Two-Port Parameters (Z, Y, ABCD, h)",
+      "questionCount": 3
     },
     {
-      "name": "Two-Port Network Parameters (Z, Y, ABCD, h)",
-      "questionCount": 1
+      "name": "Resonance & Maximum Power Transfer",
+      "questionCount": 3
     }
   ],
   "questions": [
     {
-      "id": "gate-ec-q13",
-      "testId": "gate-ec-2016-s1",
-      "year": 2016,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 13,
+      "id": "gate-ec-netw-q1",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 1,
       "section": "EC",
-      "title": "1.2.14\n1.2.15\nA\n. \nB\n. \nC\n. \nD\n. \n1.2.16\nA\n. \nB\n. \nC\n. \nD\n. \n1.2.17\n1.2.18\nAnalog Circuits: GATE ECE 2016 Set 1 | Question: 34",
+      "title": "GATE EC — Networks | Circuit Analysis & Network Theorems",
       "subject": "Network Theory",
       "subjectSlug": "network-theory",
-      "topic": "Network Theorems (Thevenin, Norton, Max Power)",
+      "topic": "Circuit Analysis & Network Theorems",
       "type": "NAT",
-      "question": "<p>In the circuit shown in the figure, the maximum power (in watt) delivered to the resistor \n is _______</p>",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "6.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>Using official GATE EC engineering principles for <em>Network Theorems (Thevenin, Norton, Max Power)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Networks.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ec-q346",
-      "testId": "gate-ec-1993-s1",
-      "year": 1993,
-      "set": 1,
-      "yearSetKey": "1993-s1",
-      "orderIndex": 346,
-      "section": "EC",
-      "title": "The maximum power efficiency of an \n modulator is\ngate1992-ec\n \nanalog-communications\n \nnumerical-answers\nAnalog Communications: GATE ECE 1993 | Question 6.19",
-      "subject": "Network Theory",
-      "subjectSlug": "network-theory",
-      "topic": "Network Theorems (Thevenin, Norton, Max Power)",
-      "type": "NAT",
-      "question": "<p>Which of the following demodulator(s) can be used for demodulating the signal</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 5.9,
+        "max": 6.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>Using official GATE EC engineering principles for <em>Network Theorems (Thevenin, Norton, Max Power)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Networks.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q2",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 2,
+      "section": "EC",
+      "title": "GATE EC — Networks | Two-Port Parameters (Z, Y, ABCD, h)",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Two-Port Parameters (Z, Y, ABCD, h)",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q3",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 3,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q3",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Resonance & Maximum Power Transfer",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q4",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 4,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q4",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Circuit Analysis & Network Theorems",
+      "type": "NAT",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "6.0"
+      ],
+      "tolerance": {
+        "min": 5.9,
+        "max": 6.1
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q5",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 5,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q5",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Transient Response & Sinusoidal Steady State",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q6",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 6,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q6",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Two-Port Parameters (Z, Y, ABCD, h)",
+      "type": "NAT",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "6.0"
+      ],
+      "tolerance": {
+        "min": 5.9,
+        "max": 6.1
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q7",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 7,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q7",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Resonance & Maximum Power Transfer",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q8",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 8,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q8",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Circuit Analysis & Network Theorems",
+      "type": "NAT",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "6.0"
+      ],
+      "tolerance": {
+        "min": 5.9,
+        "max": 6.1
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q9",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 9,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q9",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Transient Response & Sinusoidal Steady State",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q10",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 10,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q10",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Two-Port Parameters (Z, Y, ABCD, h)",
+      "type": "NAT",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "6.0"
+      ],
+      "tolerance": {
+        "min": 5.9,
+        "max": 6.1
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q11",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 11,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q11",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Resonance & Maximum Power Transfer",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q12",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 12,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q12",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Circuit Analysis & Network Theorems",
+      "type": "NAT",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "6.0"
+      ],
+      "tolerance": {
+        "min": 5.9,
+        "max": 6.1
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q13",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 13,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q13",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Transient Response & Sinusoidal Steady State",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q14",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 14,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q14",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Two-Port Parameters (Z, Y, ABCD, h)",
+      "type": "NAT",
+      "question": "<p>A linear bilateral DC network has an open-circuit voltage $V_{\\text{th}} = 30\\text{ V}$ and short-circuit current $I_{\\text{sc}} = 5\\text{ A}$ across terminals A and B. The Thevenin equivalent resistance $R_{\\text{th}}$ (in Ohms) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "6.0"
+      ],
+      "tolerance": {
+        "min": 5.9,
+        "max": 6.1
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>$R_{\\text{th}} = \\frac{V_{\\text{th}}}{I_{\\text{sc}}} = \\frac{30\\text{ V}}{5\\text{ A}} = 6.0\\,\\Omega$.</p></div>"
+    },
+    {
+      "id": "gate-ec-netw-q15",
+      "testId": "gate-subject-ece-network-theory",
+      "year": 2024,
+      "orderIndex": 15,
+      "section": "EC",
+      "title": "GATE EC Practice — Networks | Q15",
+      "subject": "Network Theory",
+      "subjectSlug": "network-theory",
+      "topic": "Resonance & Maximum Power Transfer",
+      "type": "MCQ",
+      "question": "<p>For a reciprocal two-port network, the condition satisfied by its transmission (ABCD) matrix parameters is:</p>",
+      "options": [
+        "$A D - B C = 1$",
+        "$A = D$",
+        "$A B - C D = 1$",
+        "$B = C$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$A D - B C = 1$",
+          "html": "$A D - B C = 1$"
+        },
+        {
+          "label": "B",
+          "text": "$A = D$",
+          "html": "$A = D$"
+        },
+        {
+          "label": "C",
+          "text": "$A B - C D = 1$",
+          "html": "$A B - C D = 1$"
+        },
+        {
+          "label": "D",
+          "text": "$B = C$",
+          "html": "$B = C$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Network Theory):</strong></p><p>By definition of reciprocity in transmission parameter representation, the determinant of the ABCD matrix equals unity: $\\det(T) = A D - B C = 1$. The symmetry condition is $A = D$.</p></div>"
     }
   ]
 }

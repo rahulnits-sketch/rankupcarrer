@@ -22,40 +22,40 @@ export default function ResultCard({
   testId,
 }: ResultCardProps) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-white">
-      <div className="flex items-center justify-between border-b border-white/10 pb-4">
+    <div className="rounded-2xl border border-slate-200 bg-white p-6 text-slate-900">
+      <div className="flex items-center justify-between border-b border-slate-200 pb-4">
         <div>
-          <span className="text-xs font-semibold uppercase tracking-wider text-blue-400">
+          <span className="text-xs font-semibold uppercase tracking-wider text-blue-700">
             Performance Summary
           </span>
           <h3 className="mt-1 text-2xl font-bold">
             {score.toFixed(2)}{" "}
-            <span className="text-sm font-normal text-gray-400">/ {totalMarks} Marks</span>
+            <span className="text-sm font-normal text-slate-600">/ {totalMarks} Marks</span>
           </h3>
         </div>
 
         <div className="text-right">
-          <span className="text-xs text-gray-400">Accuracy</span>
-          <p className="text-xl font-bold text-emerald-400">{accuracy.toFixed(1)}%</p>
+          <span className="text-xs text-slate-600">Accuracy</span>
+          <p className="text-xl font-bold text-emerald-700">{accuracy.toFixed(1)}%</p>
         </div>
       </div>
 
       <div className="mt-5 grid grid-cols-4 gap-2 text-center">
-        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
-          <span className="text-xs text-gray-400">Correct</span>
-          <p className="mt-1 text-base font-bold text-emerald-400">+{correct}</p>
+        <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+          <span className="text-xs text-slate-600">Correct</span>
+          <p className="mt-1 text-base font-bold text-emerald-700">+{correct}</p>
         </div>
-        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
-          <span className="text-xs text-gray-400">Incorrect</span>
-          <p className="mt-1 text-base font-bold text-rose-400">-{incorrect}</p>
+        <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+          <span className="text-xs text-slate-600">Incorrect</span>
+          <p className="mt-1 text-base font-bold text-rose-700">-{incorrect}</p>
         </div>
-        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
-          <span className="text-xs text-gray-400">Skipped</span>
-          <p className="mt-1 text-base font-bold text-gray-400">{unattempted}</p>
+        <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+          <span className="text-xs text-slate-600">Skipped</span>
+          <p className="mt-1 text-base font-bold text-slate-700">{unattempted}</p>
         </div>
-        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
-          <span className="text-xs text-gray-400">Time</span>
-          <p className="mt-1 text-sm font-mono font-medium text-blue-300">{timeSpent}</p>
+        <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+          <span className="text-xs text-slate-600">Time</span>
+          <p className="mt-1 text-sm font-mono font-medium text-blue-700">{timeSpent}</p>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ export default function ResultCard({
         </Link>
         <Link
           href="/tests"
-          className="flex-1 rounded-xl border border-white/10 py-2.5 text-center text-xs font-semibold text-gray-300 transition hover:bg-white/5 hover:text-white"
+          className="flex-1 rounded-xl border border-slate-200 py-2.5 text-center text-xs font-semibold text-slate-700 transition hover:bg-slate-50 hover:text-slate-900"
         >
           Explore More Tests →
         </Link>

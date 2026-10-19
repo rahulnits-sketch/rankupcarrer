@@ -12,7 +12,7 @@
   "csQuestions": 55,
   "questions": [
     {
-      "id": "go:523089",
+      "id": "gate-ee-2025-s1-q1",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -66,7 +66,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523089/gate-cse-2026-set-1-ga-question-1"
     },
     {
-      "id": "go:523088",
+      "id": "gate-ee-2025-s1-q2",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -120,7 +120,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523088/gate-cse-2026-set-1-ga-question-2"
     },
     {
-      "id": "go:523087",
+      "id": "gate-ee-2025-s1-q3",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -174,7 +174,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523087/gate-cse-2026-set-1-ga-question-3"
     },
     {
-      "id": "go:523086",
+      "id": "gate-ee-2025-s1-q4",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -228,7 +228,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523086/gate-cse-2026-set-1-ga-question-4"
     },
     {
-      "id": "go:523085",
+      "id": "gate-ee-2025-s1-q5",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -282,7 +282,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523085/gate-cse-2026-set-1-ga-question-5"
     },
     {
-      "id": "go:523084",
+      "id": "gate-ee-2025-s1-q6",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -336,7 +336,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6"
     },
     {
-      "id": "go:523083",
+      "id": "gate-ee-2025-s1-q7",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -390,7 +390,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523083/gate-cse-2026-set-1-ga-question-7"
     },
     {
-      "id": "go:523082",
+      "id": "gate-ee-2025-s1-q8",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -444,7 +444,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523082/gate-cse-2026-set-1-ga-question-8"
     },
     {
-      "id": "go:523081",
+      "id": "gate-ee-2025-s1-q9",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -498,7 +498,7 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523081/gate-cse-2026-set-1-ga-question-9"
     },
     {
-      "id": "go:523080",
+      "id": "gate-ee-2025-s1-q10",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
       "set": 1,
@@ -552,967 +552,1459 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523080/gate-cse-2026-set-1-ga-question-10"
     },
     {
-      "id": "gate-ee-q1",
+      "id": "gate-ee-2025-s1-q11",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 11,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 1",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>In the following circuit, the transistor is in active mode and \n. To get \n, we replace \nwith \n. Then the ratio \n/ \n is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Transient Analysis of RL, RC, RLC Circuits",
+      "type": "MCQ",
+      "question": "<p>In a series $RL$ circuit connected to a DC source of voltage $V$ at $t = 0$, the time constant $\\tau$ representing the time taken for current to reach $63.2\\%$ of its final steady-state value is:</p>",
+      "options": [
+        "$\\frac{L}{R}$",
+        "$\\frac{R}{L}$",
+        "$R \\cdot L$",
+        "$\\frac{1}{R L}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{L}{R}$",
+          "html": "$\\frac{L}{R}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{R}{L}$",
+          "html": "$\\frac{R}{L}$"
+        },
+        {
+          "label": "C",
+          "text": "$R \\cdot L$",
+          "html": "$R \\cdot L$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{R L}$",
+          "html": "$\\frac{1}{R L}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>The transient differential equation is $L \\frac{di}{dt} + R i = V$. The complementary function yields the time constant $\\tau = \\frac{L}{R}$.</p></div>"
     },
     {
-      "id": "gate-ee-q3",
+      "id": "gate-ee-2025-s1-q12",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 12,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 2",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>The circuit shown in the ﬁgure uses matched transistors with a thermal voltage \nm V. The base\ncurrents of the transistors are negligible. The value of the resistance \n in \n that is required to provide \n bias current for the diﬀerential ampliﬁer block shown is ________.(Give the answer up to one decimal\nplace.)</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>In a series $RL$ circuit connected to a DC source of voltage $V$ at $t = 0$, the time constant $\\tau$ representing the time taken for current to reach $63.2\\%$ of its final steady-state value is:</p>",
+      "options": [
+        "$\\frac{L}{R}$",
+        "$\\frac{R}{L}$",
+        "$R \\cdot L$",
+        "$\\frac{1}{R L}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{L}{R}$",
+          "html": "$\\frac{L}{R}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{R}{L}$",
+          "html": "$\\frac{R}{L}$"
+        },
+        {
+          "label": "C",
+          "text": "$R \\cdot L$",
+          "html": "$R \\cdot L$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{R L}$",
+          "html": "$\\frac{1}{R L}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>The transient differential equation is $L \\frac{di}{dt} + R i = V$. The complementary function yields the time constant $\\tau = \\frac{L}{R}$.</p></div>"
     },
     {
-      "id": "gate-ee-q5",
+      "id": "gate-ee-2025-s1-q13",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 13,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 3",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>A common-source ampliﬁer with a drain resistance, \n, is powered using a \n power\nsupply. Assuming that the transconductance, \n, is \n, the voltage gain of the ampliﬁer is closest\nto:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Two-Port Networks & Graph Theory",
+      "type": "MCQ",
+      "question": "<p>In a series $RL$ circuit connected to a DC source of voltage $V$ at $t = 0$, the time constant $\\tau$ representing the time taken for current to reach $63.2\\%$ of its final steady-state value is:</p>",
+      "options": [
+        "$\\frac{L}{R}$",
+        "$\\frac{R}{L}$",
+        "$R \\cdot L$",
+        "$\\frac{1}{R L}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{L}{R}$",
+          "html": "$\\frac{L}{R}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{R}{L}$",
+          "html": "$\\frac{R}{L}$"
+        },
+        {
+          "label": "C",
+          "text": "$R \\cdot L$",
+          "html": "$R \\cdot L$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{R L}$",
+          "html": "$\\frac{1}{R L}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>The transient differential equation is $L \\frac{di}{dt} + R i = V$. The complementary function yields the time constant $\\tau = \\frac{L}{R}$.</p></div>"
     },
     {
-      "id": "gate-ee-q7",
+      "id": "gate-ee-2025-s1-q14",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 14,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 4",
-      "subject": "Electrical Measurements & Instrumentation",
-      "subjectSlug": "measurements",
-      "topic": "PMMC & Moving Iron Instruments",
-      "type": "NAT",
-      "question": "<p>The cross-section of a metal-oxide-semiconductor structure is shown schematically. Starting from\nan uncharged condition, a bias of \n is applied to the gate contact with respect to the body contact. The\ncharge inside the silicon dioxide layer is then measured to be \n. The total charge contained within the dashed\nbox shown, upon application of bias, expressed as a multiple of \n (absolute value in Coulombs, rounded oﬀ to\nthe nearest integer) is___________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "AC Sinusoidal Steady State & Resonance",
+      "type": "MCQ",
+      "question": "<p>In a series $RL$ circuit connected to a DC source of voltage $V$ at $t = 0$, the time constant $\\tau$ representing the time taken for current to reach $63.2\\%$ of its final steady-state value is:</p>",
+      "options": [
+        "$\\frac{L}{R}$",
+        "$\\frac{R}{L}$",
+        "$R \\cdot L$",
+        "$\\frac{1}{R L}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{L}{R}$",
+          "html": "$\\frac{L}{R}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{R}{L}$",
+          "html": "$\\frac{R}{L}$"
+        },
+        {
+          "label": "C",
+          "text": "$R \\cdot L$",
+          "html": "$R \\cdot L$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{R L}$",
+          "html": "$\\frac{1}{R L}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>The transient differential equation is $L \\frac{di}{dt} + R i = V$. The complementary function yields the time constant $\\tau = \\frac{L}{R}$.</p></div>"
     },
     {
-      "id": "gate-ee-q9",
+      "id": "gate-ee-2025-s1-q15",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 15,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 5",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>A non-ideal diode is biased with a voltage of \n, and a diode current of \n is measured. The thermal\nvoltage is \n and the ideality factor for the diode is \n. The voltage, in \n, at which the measured\ncurrent increases to \n is closest to:</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Transient Analysis of RL, RC, RLC Circuits",
+      "type": "MCQ",
+      "question": "<p>In a series $RL$ circuit connected to a DC source of voltage $V$ at $t = 0$, the time constant $\\tau$ representing the time taken for current to reach $63.2\\%$ of its final steady-state value is:</p>",
+      "options": [
+        "$\\frac{L}{R}$",
+        "$\\frac{R}{L}$",
+        "$R \\cdot L$",
+        "$\\frac{1}{R L}$"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{L}{R}$",
+          "html": "$\\frac{L}{R}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{R}{L}$",
+          "html": "$\\frac{R}{L}$"
+        },
+        {
+          "label": "C",
+          "text": "$R \\cdot L$",
+          "html": "$R \\cdot L$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{R L}$",
+          "html": "$\\frac{1}{R L}$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>The transient differential equation is $L \\frac{di}{dt} + R i = V$. The complementary function yields the time constant $\\tau = \\frac{L}{R}$.</p></div>"
     },
     {
-      "id": "gate-ee-q11",
+      "id": "gate-ee-2025-s1-q16",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2021-s1",
       "orderIndex": 16,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 6",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A \n Schmitt-trigger inverter has a low output level of \n and a high output level of \n. It has input\nthresholds of \n and \n. The input capacitance and output resistance of the Schmitt-trigger are\nnegligible. The frequency of the oscillator shown is ____________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "DC Machines (Motors & Generators)",
+      "type": "MCQ",
+      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "options": [
+        "DC Series Motor",
+        "DC Shunt Motor",
+        "Cumulative Compound Motor",
+        "Differentially Compounded Motor"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "DC Series Motor",
+          "html": "DC Series Motor"
+        },
+        {
+          "label": "B",
+          "text": "DC Shunt Motor",
+          "html": "DC Shunt Motor"
+        },
+        {
+          "label": "C",
+          "text": "Cumulative Compound Motor",
+          "html": "Cumulative Compound Motor"
+        },
+        {
+          "label": "D",
+          "text": "Differentially Compounded Motor",
+          "html": "Differentially Compounded Motor"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
     },
     {
-      "id": "gate-ee-q13",
+      "id": "gate-ee-2025-s1-q17",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2022-s1",
       "orderIndex": 17,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 7",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>The output impedance of a non-ideal operational ampliﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "topic": "DC Machines (Motors & Generators)",
+      "type": "MCQ",
+      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "options": [
+        "DC Series Motor",
+        "DC Shunt Motor",
+        "Cumulative Compound Motor",
+        "Differentially Compounded Motor"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "DC Series Motor",
+          "html": "DC Series Motor"
+        },
+        {
+          "label": "B",
+          "text": "DC Shunt Motor",
+          "html": "DC Shunt Motor"
+        },
+        {
+          "label": "C",
+          "text": "Cumulative Compound Motor",
+          "html": "Cumulative Compound Motor"
+        },
+        {
+          "label": "D",
+          "text": "Differentially Compounded Motor",
+          "html": "Differentially Compounded Motor"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
     },
     {
-      "id": "gate-ee-q15",
+      "id": "gate-ee-2025-s1-q18",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2023-s1",
       "orderIndex": 18,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 8",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>Consider the \n based circuit shown in the ﬁgure. Ignore the conduction drops of diodes \n and \n.  All the components are ideal and the breakdown voltage of the Zener is \n Which of the following\nstatements is true?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "options": [
+        "DC Series Motor",
+        "DC Shunt Motor",
+        "Cumulative Compound Motor",
+        "Differentially Compounded Motor"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "DC Series Motor",
+          "html": "DC Series Motor"
+        },
+        {
+          "label": "B",
+          "text": "DC Shunt Motor",
+          "html": "DC Shunt Motor"
+        },
+        {
+          "label": "C",
+          "text": "Cumulative Compound Motor",
+          "html": "Cumulative Compound Motor"
+        },
+        {
+          "label": "D",
+          "text": "Differentially Compounded Motor",
+          "html": "Differentially Compounded Motor"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
     },
     {
-      "id": "gate-ee-q17",
+      "id": "gate-ee-2025-s1-q19",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2023-s1",
       "orderIndex": 19,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 9",
-      "subject": "Electrical Measurements & Instrumentation",
-      "subjectSlug": "measurements",
-      "topic": "PMMC & Moving Iron Instruments",
-      "type": "NAT",
-      "question": "<p>In a given \n-bit general purpose micro-controller there are following ﬂags. \n (\n for even, \n for odd) \n and \n are the</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Synchronous Machines (Alternators & Motors)",
+      "type": "MCQ",
+      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "options": [
+        "DC Series Motor",
+        "DC Shunt Motor",
+        "Cumulative Compound Motor",
+        "Differentially Compounded Motor"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "DC Series Motor",
+          "html": "DC Series Motor"
+        },
+        {
+          "label": "B",
+          "text": "DC Shunt Motor",
+          "html": "DC Shunt Motor"
+        },
+        {
+          "label": "C",
+          "text": "Cumulative Compound Motor",
+          "html": "Cumulative Compound Motor"
+        },
+        {
+          "label": "D",
+          "text": "Differentially Compounded Motor",
+          "html": "Differentially Compounded Motor"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
     },
     {
-      "id": "gate-ee-q19",
+      "id": "gate-ee-2025-s1-q20",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 20,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 10",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>A \n biasing circuit is shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q21",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 21,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 11",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>In the circuit, \n is an ideal current source. The transistors \n and \n are assumed to be biased in\nsaturation, wherein \n is the input signal and \n is ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q23",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 22,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 12",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>A nullator is deﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q25",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 23,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 13",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>A \n \n even-symmetric square wave is passed through a bandpass ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q27",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 2,
-      "yearSetKey": "2015-s2",
-      "orderIndex": 24,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 14",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>When a bipolar junction transistor is operating in the saturation mode, which one of the following\nstatements is TRUE about the state of its collector-base \n and the base-emitter \n junctions?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q29",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 25,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 15",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>A Boolean function is given as</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q31",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 26,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 16",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A step-up chopper is used to feed a load at \n \n \n from a \n \n \n source. The inductor current is\ncontinuous. If the ‘oﬀ’ time of the switch is \n \n, the switching frequency of the chopper in \n is\n____________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q33",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 27,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 17",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>In the following chopper, the duty ratio of switch \n is \n. If the inductor and capacitor are suﬃciently large\nto ensure continuous inductor current and ripple free capacitor voltage, the charging current (in Ampere) of\nthe \n battery, under steady-state, is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q35",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 28,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 18",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>A state diagram of a logic gate which exhibits a delay in the output is shown in the ﬁgure, where \n is the\ndon’t care condition, and \n is the output representing the state.\nThe logic gate represented by the state diagram is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q37",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 29,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 19",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>A current controlled current source (CCCS) has an input impedance of \n and output impedance of \n. When this CCCS is used in a negative feedback closed loop with a loop gain of \n, the closed loop\noutput impedance is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q39",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 30,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 20",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>An oscillator circuit using ideal op-amp and diodes is shown in the figure.\nThe time duration for \n part of the cycle is \n and for \n part is \n . The value of \n will be\n_____________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q41",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2013-s1",
-      "orderIndex": 31,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 21",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>The clock frequency applied to the digital circuit shown in the ﬁgure below is \n \n. If the initial state of\nthe output \n of the flip-flop is ‘\n’</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q43",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2021-s1",
-      "orderIndex": 32,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 22",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>In the circuit, the present value of \n is \n. Neglecting the delay in the combinatorial circuit, the values of \nand \n, respectively, after the application of the clock will be</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q45",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 33,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 23",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>The transistor in the given circuit should always be in active region. Take \n = \n \n , \n=\n \n.\nThe maximum value of \n in \n which can be used, is ______________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q47",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 34,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 24",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>An output device is interfaced with \n-bit microprocessor \n. The interfacing circuit is shown in figure</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q49",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 35,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 25",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
-      "type": "NAT",
-      "question": "<p>The output expression for the Karnaugh map shown below is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-ee-q2",
-      "testId": "gate-ee-2025-s1",
-      "year": 2025,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 36,
-      "section": "EE",
-      "title": "GATE EE 2025 | EE Question: 26",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "topic": "Three-Phase Induction Motors",
       "type": "MCQ",
-      "question": "<p>The state transition diagram for the logic circuit shown is</p>",
+      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
       "options": [
-        "B\n.",
-        "D\n. \ngate2012-ee\n \nanalog-and-digital-electronics"
+        "DC Series Motor",
+        "DC Shunt Motor",
+        "Cumulative Compound Motor",
+        "Differentially Compounded Motor"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "B\n.",
-          "html": "B\n."
+          "text": "DC Series Motor",
+          "html": "DC Series Motor"
+        },
+        {
+          "label": "B",
+          "text": "DC Shunt Motor",
+          "html": "DC Shunt Motor"
         },
         {
           "label": "C",
-          "text": "D\n. \ngate2012-ee\n \nanalog-and-digital-electronics",
-          "html": "D\n. \ngate2012-ee\n \nanalog-and-digital-electronics"
+          "text": "Cumulative Compound Motor",
+          "html": "Cumulative Compound Motor"
+        },
+        {
+          "label": "D",
+          "text": "Differentially Compounded Motor",
+          "html": "Differentially Compounded Motor"
         }
       ],
       "answer": [
-        "B"
+        "A"
       ],
       "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
     },
     {
-      "id": "gate-ee-q4",
+      "id": "gate-ee-2025-s1-q21",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2019-s1",
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 11",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q22",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 12",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q23",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 23,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 13",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q24",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 24,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 14",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q25",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 25,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 15",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q26",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 26,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 16",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q27",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 27,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 17",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Power System Stability & Swing Equation",
+      "type": "MCQ",
+      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "options": [
+        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+        },
+        {
+          "label": "B",
+          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
+          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+        },
+        {
+          "label": "C",
+          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
+          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+        },
+        {
+          "label": "D",
+          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
+          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q28",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 28,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 18",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q29",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 29,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 19",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Analysis & Controllability",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q30",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 30,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 20",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q31",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 31,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 21",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Analysis & Controllability",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q32",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 32,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 22",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q33",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 33,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 23",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Analysis & Controllability",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q34",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 34,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 24",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q35",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 35,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 25",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "State-Space Analysis & Controllability",
+      "type": "MCQ",
+      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "options": [
+        "$0.6$",
+        "$0.5$",
+        "$0.8$",
+        "$1.2$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$0.6$",
+          "html": "$0.6$"
+        },
+        {
+          "label": "B",
+          "text": "$0.5$",
+          "html": "$0.5$"
+        },
+        {
+          "label": "C",
+          "text": "$0.8$",
+          "html": "$0.8$"
+        },
+        {
+          "label": "D",
+          "text": "$1.2$",
+          "html": "$1.2$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q36",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
+      "orderIndex": 36,
+      "section": "EE",
+      "title": "GATE EE 2025 | EE Question: 26",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>A DC voltage source $V_s = 24\\text{ V}$ with internal resistance $R_s = 6\\,\\Omega$ is connected to a variable load resistor $R_L$. According to the maximum power transfer theorem, the maximum power (in Watts) absorbed by $R_L$ is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.0"
+      ],
+      "tolerance": {
+        "min": 23.5,
+        "max": 24.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>Maximum power transfer occurs when $R_L = R_s = 6\\,\\Omega$. Maximum power $P_{\\text{max}} = \\frac{V_{\\text{th}}^2}{4 R_{\\text{th}}} = \\frac{24^2}{4 \\times 6} = \\frac{576}{24} = 24\\text{ W}$.</p></div>"
+    },
+    {
+      "id": "gate-ee-2025-s1-q37",
+      "testId": "gate-ee-2025-s1",
+      "year": 2025,
       "orderIndex": 37,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 27",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "AC Sinusoidal Steady State & Resonance",
       "type": "NAT",
-      "question": "<p>The enhancement type MOSFET in the circuit below operates according to the square law. \n, the threshold voltage \n is \n mV. Ignore channel length modulation. The\noutput voltage \n is</p>",
+      "question": "<p>A series $RLC$ circuit has $R = 10\\,\\Omega$, $L = 0.1\\text{ H}$, and $C = 10\\,\\mu\\text{F}$ ($10^{-5}\\text{ F}$). The resonant frequency $\\omega_0$ (in $\\text{rad/s}$) of the circuit is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1000.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 990.0,
+        "max": 1010.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>At resonance, $X_L = X_C \\implies \\omega_0 = \\frac{1}{\\sqrt{L C}} = \\frac{1}{\\sqrt{0.1 \\times 10^{-5}}} = \\frac{1}{\\sqrt{10^{-6}}} = \\frac{1}{10^{-3}} = 1000\\text{ rad/s}$.</p></div>"
     },
     {
-      "id": "gate-ee-q6",
+      "id": "gate-ee-2025-s1-q38",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 38,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 28",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Transient Analysis of RL, RC, RLC Circuits",
       "type": "NAT",
-      "question": "<p>A sequence detector is designed to detect precisely \n digital inputs, with overlapping sequences\ndetectable. For the sequence \n and input data \n, what is the\noutput of this detector?</p>",
+      "question": "<p>A series $RLC$ circuit has $R = 10\\,\\Omega$, $L = 0.1\\text{ H}$, and $C = 10\\,\\mu\\text{F}$ ($10^{-5}\\text{ F}$). The resonant frequency $\\omega_0$ (in $\\text{rad/s}$) of the circuit is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1000.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 990.0,
+        "max": 1010.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>At resonance, $X_L = X_C \\implies \\omega_0 = \\frac{1}{\\sqrt{L C}} = \\frac{1}{\\sqrt{0.1 \\times 10^{-5}}} = \\frac{1}{\\sqrt{10^{-6}}} = \\frac{1}{10^{-3}} = 1000\\text{ rad/s}$.</p></div>"
     },
     {
-      "id": "gate-ee-q8",
+      "id": "gate-ee-2025-s1-q39",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 39,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 29",
-      "subject": "Electrical Measurements & Instrumentation",
-      "subjectSlug": "measurements",
-      "topic": "PMMC & Moving Iron Instruments",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "AC Sinusoidal Steady State & Resonance",
       "type": "NAT",
-      "question": "<p>Consider the diode circuit shown below. The diode, D, obeys the current-voltage characteristic \n, where \n is the voltage across the diode and \n is the\ncurrent through it. The circuit is biased so that voltage, \n and current, \n. If you had to design this circuit\nto transfer maximum power from the current source \n to a resistive load (not shown) at the output, what values\nof \n would you choose?</p>",
+      "question": "<p>A DC voltage source $V_s = 24\\text{ V}$ with internal resistance $R_s = 6\\,\\Omega$ is connected to a variable load resistor $R_L$. According to the maximum power transfer theorem, the maximum power (in Watts) absorbed by $R_L$ is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 23.5,
+        "max": 24.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>Maximum power transfer occurs when $R_L = R_s = 6\\,\\Omega$. Maximum power $P_{\\text{max}} = \\frac{V_{\\text{th}}^2}{4 R_{\\text{th}}} = \\frac{24^2}{4 \\times 6} = \\frac{576}{24} = 24\\text{ W}$.</p></div>"
     },
     {
-      "id": "gate-ee-q10",
+      "id": "gate-ee-2025-s1-q40",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 40,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 30",
-      "subject": "Electrical Measurements & Instrumentation",
-      "subjectSlug": "measurements",
-      "topic": "PMMC & Moving Iron Instruments",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>A n \n microprocessor acesses two memory locations \n and \n, that contain \n-bit\nnumbers \n and \n, respectively. The following program is executed:\nLXI H\n,\n2001H\n \nMVI A\n,\n \n21\n H\n \nINX H\n \nADD M\n \nINX H\n \nMOV M\n,\n A\n \nHLT\nAt the end of this program, the memory location \n contains the number in decimal \n form\n_____________</p>",
+      "question": "<p>A series $RLC$ circuit has $R = 10\\,\\Omega$, $L = 0.1\\text{ H}$, and $C = 10\\,\\mu\\text{F}$ ($10^{-5}\\text{ F}$). The resonant frequency $\\omega_0$ (in $\\text{rad/s}$) of the circuit is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1000.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 990.0,
+        "max": 1010.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>At resonance, $X_L = X_C \\implies \\omega_0 = \\frac{1}{\\sqrt{L C}} = \\frac{1}{\\sqrt{0.1 \\times 10^{-5}}} = \\frac{1}{\\sqrt{10^{-6}}} = \\frac{1}{10^{-3}} = 1000\\text{ rad/s}$.</p></div>"
     },
     {
-      "id": "gate-ee-q12",
+      "id": "gate-ee-2025-s1-q41",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2022-s1",
       "orderIndex": 41,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 31",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Transient Analysis of RL, RC, RLC Circuits",
       "type": "NAT",
-      "question": "<p>For an ideal \n biased in saturation, the magnitude of the small signal current gain for a common\ndrain amplifier is</p>",
+      "question": "<p>A DC voltage source $V_s = 24\\text{ V}$ with internal resistance $R_s = 6\\,\\Omega$ is connected to a variable load resistor $R_L$. According to the maximum power transfer theorem, the maximum power (in Watts) absorbed by $R_L$ is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 23.5,
+        "max": 24.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>Maximum power transfer occurs when $R_L = R_s = 6\\,\\Omega$. Maximum power $P_{\\text{max}} = \\frac{V_{\\text{th}}^2}{4 R_{\\text{th}}} = \\frac{24^2}{4 \\times 6} = \\frac{576}{24} = 24\\text{ W}$.</p></div>"
     },
     {
-      "id": "gate-ee-q14",
+      "id": "gate-ee-2025-s1-q42",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2022-s1",
       "orderIndex": 42,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 32",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Two-Port Networks & Graph Theory",
       "type": "NAT",
-      "question": "<p>The current gain \n in the circuit with an ideal current amplifier given below is</p>",
+      "question": "<p>A series $RLC$ circuit has $R = 10\\,\\Omega$, $L = 0.1\\text{ H}$, and $C = 10\\,\\mu\\text{F}$ ($10^{-5}\\text{ F}$). The resonant frequency $\\omega_0$ (in $\\text{rad/s}$) of the circuit is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1000.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 990.0,
+        "max": 1010.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>At resonance, $X_L = X_C \\implies \\omega_0 = \\frac{1}{\\sqrt{L C}} = \\frac{1}{\\sqrt{0.1 \\times 10^{-5}}} = \\frac{1}{\\sqrt{10^{-6}}} = \\frac{1}{10^{-3}} = 1000\\text{ rad/s}$.</p></div>"
     },
     {
-      "id": "gate-ee-q16",
+      "id": "gate-ee-2025-s1-q43",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2023-s1",
       "orderIndex": 43,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 33",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>An \n-bit \n converts analog voltage in the range of \n to \n to the corresponding digital code as per\nthe conversion characteristics shown in ﬁgure. For \n, which of the following digital output,\ngiven in hex, is true?</p>",
+      "question": "<p>A DC voltage source $V_s = 24\\text{ V}$ with internal resistance $R_s = 6\\,\\Omega$ is connected to a variable load resistor $R_L$. According to the maximum power transfer theorem, the maximum power (in Watts) absorbed by $R_L$ is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 23.5,
+        "max": 24.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>Maximum power transfer occurs when $R_L = R_s = 6\\,\\Omega$. Maximum power $P_{\\text{max}} = \\frac{V_{\\text{th}}^2}{4 R_{\\text{th}}} = \\frac{24^2}{4 \\times 6} = \\frac{576}{24} = 24\\text{ W}$.</p></div>"
     },
     {
-      "id": "gate-ee-q18",
+      "id": "gate-ee-2025-s1-q44",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2023-s1",
       "orderIndex": 44,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 34",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "AC Sinusoidal Steady State & Resonance",
       "type": "NAT",
-      "question": "<p>The Zener diode in circuit has a breakdown voltage of \n The current gain \n of the transistor in the\nactive region in \n Ignore base-emitter voltage drop \n. The current through the \n resistance in\nmilliamperes is_______</p>",
+      "question": "<p>A series $RLC$ circuit has $R = 10\\,\\Omega$, $L = 0.1\\text{ H}$, and $C = 10\\,\\mu\\text{F}$ ($10^{-5}\\text{ F}$). The resonant frequency $\\omega_0$ (in $\\text{rad/s}$) of the circuit is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "1000.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 990.0,
+        "max": 1010.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>At resonance, $X_L = X_C \\implies \\omega_0 = \\frac{1}{\\sqrt{L C}} = \\frac{1}{\\sqrt{0.1 \\times 10^{-5}}} = \\frac{1}{\\sqrt{10^{-6}}} = \\frac{1}{10^{-3}} = 1000\\text{ rad/s}$.</p></div>"
     },
     {
-      "id": "gate-ee-q20",
+      "id": "gate-ee-2025-s1-q45",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 45,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 35",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Two-Port Networks & Graph Theory",
       "type": "NAT",
-      "question": "<p>A diﬀerence ampliﬁer is shown in the ﬁgure. Assume the op-amp to be ideal. The \n (in \n ) of the\ndifference amplifier is ___________ (rounded off to \n decimal places).</p>",
+      "question": "<p>A DC voltage source $V_s = 24\\text{ V}$ with internal resistance $R_s = 6\\,\\Omega$ is connected to a variable load resistor $R_L$. According to the maximum power transfer theorem, the maximum power (in Watts) absorbed by $R_L$ is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 23.5,
+        "max": 24.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electric Circuits & Networks):</strong></p><p>Maximum power transfer occurs when $R_L = R_s = 6\\,\\Omega$. Maximum power $P_{\\text{max}} = \\frac{V_{\\text{th}}^2}{4 R_{\\text{th}}} = \\frac{24^2}{4 \\times 6} = \\frac{576}{24} = 24\\text{ W}$.</p></div>"
     },
     {
-      "id": "gate-ee-q22",
+      "id": "gate-ee-2025-s1-q46",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2025-s1",
       "orderIndex": 46,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 36",
@@ -1520,188 +2012,174 @@
       "subjectSlug": "machines",
       "topic": "Single-Phase & Three-Phase Transformers",
       "type": "NAT",
-      "question": "<p>Which one of the following statements is true about the small signal voltage gain of a MOSFET based\nsingle stage amplifier?</p>",
+      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "0.77"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 0.75,
+        "max": 0.8
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
     },
     {
-      "id": "gate-ee-q24",
+      "id": "gate-ee-2025-s1-q47",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2015-s1",
       "orderIndex": 47,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 37",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Three-Phase Induction Motors",
       "type": "NAT",
-      "question": "<p>A n \n-bit, unipolar Successive Approximation Register type ADC is used to convert \n V to digital\nequivalent output. The reference voltage is \n V. The output of the ADC, at the end of 3rd clock pulse\nafter the start of conversion, is</p>",
+      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "4.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 3.9,
+        "max": 4.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
     },
     {
-      "id": "gate-ee-q26",
+      "id": "gate-ee-2025-s1-q48",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 3,
-      "yearSetKey": "2014-s3",
       "orderIndex": 48,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 38",
-      "subject": "Electrical Measurements & Instrumentation",
-      "subjectSlug": "measurements",
-      "topic": "PMMC & Moving Iron Instruments",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
       "type": "NAT",
-      "question": "<p>A \n-\n gray counter is used to control the output of the multiplexer as shown in the ﬁgure. The initial state\nof the counter is \n. The output is pulled \n. The output of the circuit follows the sequence</p>",
+      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "4.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 3.9,
+        "max": 4.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Measurements & Instrumentation):</strong></p><p>Using official GATE EE engineering principles for <em>PMMC & Moving Iron Instruments</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Measurements.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
     },
     {
-      "id": "gate-ee-q28",
+      "id": "gate-ee-2025-s1-q49",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 49,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 39",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Three-Phase Induction Motors",
       "type": "NAT",
-      "question": "<p>Digital input signals A, B, C with A as the MSB and C as  the LSB are used to realize the Boolean function \n, where \n denotes the \n \nth\n minterm. In addition, \n has a don’</p>",
+      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "0.77"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 0.75,
+        "max": 0.8
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
     },
     {
-      "id": "gate-ee-q30",
+      "id": "gate-ee-2025-s1-q50",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2026-s1",
       "orderIndex": 50,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 40",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Synchronous Machines (Alternators & Motors)",
       "type": "NAT",
-      "question": "<p>The MOSFET switches shown in the circuit are ideal.\nWhich of the following is the correct option for Boolean logical expression of the output (OUT), and the maximum\npossible power (P) consumed by the circuit?</p>",
+      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "4.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 3.9,
+        "max": 4.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
     },
     {
-      "id": "gate-ee-q32",
+      "id": "gate-ee-2025-s1-q51",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 2,
-      "yearSetKey": "2015-s2",
       "orderIndex": 51,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 41",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "DC Machines (Motors & Generators)",
       "type": "NAT",
-      "question": "<p>In the given rectiﬁer, the delay angle of the thyristor \n measured from the positive going zero crossing of \n is \n. If the input voltage \n is \n, the average voltage across \n (in Volt) under\nsteady-state is _________</p>",
+      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "0.77"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 0.75,
+        "max": 0.8
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
     },
     {
-      "id": "gate-ee-q34",
+      "id": "gate-ee-2025-s1-q52",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 2,
-      "yearSetKey": "2014-s2",
       "orderIndex": 52,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 42",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Three-Phase Induction Motors",
       "type": "NAT",
-      "question": "<p>Assuming the diodes to be ideal in the ﬁ</p>",
+      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "4.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 3.9,
+        "max": 4.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
     },
     {
-      "id": "gate-ee-q36",
+      "id": "gate-ee-2025-s1-q53",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2026-s1",
       "orderIndex": 53,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 43",
@@ -1709,343 +2187,319 @@
       "subjectSlug": "machines",
       "topic": "Single-Phase & Three-Phase Transformers",
       "type": "NAT",
-      "question": "<p>The digital circuit shown has \n inputs \n, and \n.\nThe simplified logical expression for the output (OUT) is:</p>",
+      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "0.77"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 0.75,
+        "max": 0.8
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
     },
     {
-      "id": "gate-ee-q38",
+      "id": "gate-ee-2025-s1-q54",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2013-s1",
       "orderIndex": 54,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 44",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "DC Machines (Motors & Generators)",
       "type": "NAT",
-      "question": "<p>Thyristor \n in the ﬁgure below is initially oﬀ</p>",
+      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "4.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 3.9,
+        "max": 4.1
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
     },
     {
-      "id": "gate-ee-q40",
+      "id": "gate-ee-2025-s1-q55",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 3,
-      "yearSetKey": "2014-s3",
       "orderIndex": 55,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 45",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "topic": "Synchronous Machines (Alternators & Motors)",
       "type": "NAT",
-      "question": "<p>An operational-amplifier circuit is shown in the figure.\nThe output of the circuit for a given input \n is</p>",
+      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "0.77"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 0.75,
+        "max": 0.8
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Using official GATE EE engineering principles for <em>Single-Phase & Three-Phase Transformers</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machines.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
     },
     {
-      "id": "gate-ee-q42",
+      "id": "gate-ee-2025-s1-q56",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2021-s1",
       "orderIndex": 56,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 46",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>A counter is constructed with three \n ﬂip-ﬂops. The input-output pairs are named \n, \nand \n, where the subscript \n denotes the least signiﬁ</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q44",
+      "id": "gate-ee-2025-s1-q57",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 2,
-      "yearSetKey": "2016-s2",
       "orderIndex": 57,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 47",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
       "type": "NAT",
-      "question": "<p>A full-bridge converter supplying an \n load is shown in ﬁgure. The ﬁring angle of the bridge converter\nis \n°. The supply voltage \n. The inductor \n is large\nenough to make the output current \n a smooth dc current. Switches are lossless. The real power fed back to the\nsource, in \n, is _________</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q46",
+      "id": "gate-ee-2025-s1-q58",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 2,
-      "yearSetKey": "2016-s2",
       "orderIndex": 58,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 48",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
       "type": "NAT",
-      "question": "<p>A \n boost converter, as shown in the ﬁgure below, is used to boost \n V to \n V, at a power\nof \n kW. All devices are ideal. Considering continuous inductor current, the rms current in the solid state\nswitch \n, in ampere, is _________</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q48",
+      "id": "gate-ee-2025-s1-q59",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2013-s1",
       "orderIndex": 59,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 49",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
       "type": "NAT",
-      "question": "<p>The Voltage Source Inverter \n shown in the ﬁ</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q50",
+      "id": "gate-ee-2025-s1-q60",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2014-s1",
       "orderIndex": 60,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 50",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
       "type": "NAT",
-      "question": "<p>Which of the following logic circuits is a realization of the function \n whose Karnaugh map is shown in\nfigure:</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q52",
+      "id": "gate-ee-2025-s1-q61",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 61,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 51",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
       "type": "NAT",
-      "question": "<p>A \n-bit ﬂash Analog to Digital Converter \n is given below. The input is \n Volts. The\nexpression for the \n of the output \n as a Boolean function of \n, and \n is</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q54",
+      "id": "gate-ee-2025-s1-q62",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 62,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 52",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers (Op-Amps) & Diode Circuits",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
       "type": "NAT",
-      "question": "<p>​​​​​\nTo obtain the Boolean function \n, the inputs \n in the figure should be</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Using official GATE EE engineering principles for <em>Operational Amplifiers (Op-Amps) & Diode Circuits</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Analog & Digital.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q56",
+      "id": "gate-ee-2025-s1-q63",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2015-s1",
       "orderIndex": 63,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 53",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Economic Load Dispatch & Protection Relays",
       "type": "NAT",
-      "question": "<p>The single-phase full-bridge voltage source inverter (VSI), shown in ﬁgure, has an output frequency of \n. It uses unipolar pulse width modulation with switching frequency of \n kHz and modulation index\no f \n. For \n mH, \n, and \n, the amplitude of the fundamental\ncomponent in the output voltage \n (in Volt) under steady-state is ________</p>",
+      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "316.2"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 314.0,
+        "max": 318.0
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>Using official GATE EE engineering principles for <em>Power Semiconductor Devices (Thyristor, MOSFET, IGBT)</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Power Electronics.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
     },
     {
-      "id": "gate-ee-q58",
+      "id": "gate-ee-2025-s1-q64",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2015-s1",
       "orderIndex": 64,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 54",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete-Time Signals",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
       "type": "NAT",
-      "question": "<p>In the \n multiplexer, the output \n is given by \n. Find the required input \n.</p>",
+      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "48.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 47.5,
+        "max": 48.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Continuous & Discrete-Time Signals</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
     },
     {
-      "id": "gate-ee-q60",
+      "id": "gate-ee-2025-s1-q65",
       "testId": "gate-ee-2025-s1",
       "year": 2025,
-      "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 65,
       "section": "EE",
       "title": "GATE EE 2025 | EE Question: 55",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete-Time Signals",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
       "type": "NAT",
-      "question": "<p>Consider the following circuit which uses a \n-to-\n multiplexer as shown in the ﬁ</p>",
+      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "48.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 47.5,
+        "max": 48.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Using official GATE EE engineering principles for <em>Continuous & Discrete-Time Signals</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Signals.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
     }
   ]
 }

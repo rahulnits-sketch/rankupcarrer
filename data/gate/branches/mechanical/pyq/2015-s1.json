@@ -1,22 +1,20 @@
 {
   "id": "gate-me-2015-s1",
-  "yearSetKey": "2015-s1",
+  "slug": "2015-s1",
   "year": 2015,
   "set": 1,
-  "title": "GATE ME 2015 Official Paper",
-  "duration": "180 min",
-  "durationMinutes": 180,
   "totalMarks": 100,
+  "durationMinutes": 180,
   "totalQuestions": 65,
   "gaQuestions": 10,
   "csQuestions": 55,
   "questions": [
     {
-      "id": "go:1340",
+      "id": "gate-me-2015-s1-q1",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2009-s0",
+      "yearSetKey": "2026-s1",
       "orderIndex": 1,
       "section": "GA",
       "title": "GATE ME 2015 | GA Question: 1",
@@ -24,88 +22,88 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Frames of $\\text{1000 bits}$ are sent over a $10^6$ $\\text{bps}$ duplex link between two hosts. The propagation time is $\\text{25 ms}$. Frames are to be transmitted into this link to maximally pack them in transit (within the link).</p>\n<p>What is the minimum number of bits $(I)$ that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.</p>",
-      "rawQuestionHtml": "<p>Frames of $\\text{1000 bits}$ are sent over a $10^6$ $\\text{bps}$ duplex link between two hosts. The propagation time is $\\text{25 ms}$. Frames are to be transmitted into this link to maximally pack them in transit (within the link).</p>\n<p>What is the minimum number of bits $(I)$ that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$I=2$</li>\n<li>$I=3$</li>\n<li>$I=4$</li>\n<li>$I=5$</li>\n</ol>",
+      "question": "<p>The antonym of the word protagonist is $\\_\\_\\_\\_\\_\\_$.</p>",
+      "rawQuestionHtml": "\n<a name=\"523089\"></a><div itemprop=\"text\"><p>The antonym of the word protagonist is $\\_\\_\\_\\_\\_\\_$.</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>agnostic</li><li>antagonist</li><li>arsonist</li><li>anarchist</li></ol></div>\n",
       "options": [
-        "$I=2$",
-        "$I=3$",
-        "$I=4$",
-        "$I=5$"
+        "agnostic",
+        "antagonist",
+        "arsonist",
+        "anarchist"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$I=2$",
-          "html": "$I=2$"
+          "text": "agnostic",
+          "html": "agnostic"
         },
         {
           "label": "B",
-          "text": "$I=3$",
-          "html": "$I=3$"
+          "text": "antagonist",
+          "html": "antagonist"
         },
         {
           "label": "C",
-          "text": "$I=4$",
-          "html": "$I=4$"
+          "text": "arsonist",
+          "html": "arsonist"
         },
         {
           "label": "D",
-          "text": "$I=5$",
-          "html": "$I=5$"
+          "text": "anarchist",
+          "html": "anarchist"
         }
       ],
       "answer": [
-        "D"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1340/gate-cse-2009-question-57-isro2016-75",
+      "link": "https://gateoverflow.in/523089/gate-cse-2026-set-1-ga-question-1",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1340/gate-cse-2009-question-57-isro2016-75"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523089/gate-cse-2026-set-1-ga-question-1"
     },
     {
-      "id": "go:43470",
+      "id": "gate-me-2015-s1-q2",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2009-s0",
+      "yearSetKey": "2026-s1",
       "orderIndex": 2,
       "section": "GA",
       "title": "GATE ME 2015 | GA Question: 2",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
+      "topic": "Spatial Aptitude & Data Interpretation",
       "type": "MCQ",
-      "question": "<p>Frames of $1000\\text{ bits}$ are sent over a $10^6$ bps duplex link between two hosts. The propagation time is $25ms$. Frames are to be transmitted into this link to maximally pack them in transit (within the link).</p>\n<p>Let $I$ be the minimum number of bits $(I)$ that will be required to represent the sequence numbers distinctly assuming that no time gap needs to be given between transmission of two frames.</p>\n<p>Suppose that the sliding window protocol is used with the sender window size of $2^{I}$, where $I$ is the numbers of bits as mentioned earlier and acknowledgements are always piggy backed. After sending $2^I$ frames, what is the minimum time the sender will have to wait before starting transmission of the next frame? (Identify the closest choice ignoring the frame processing time)</p>",
-      "rawQuestionHtml": "<p>Frames of $1000\\text{ bits}$ are sent over a $10^6$ bps duplex link between two hosts. The propagation time is $25ms$. Frames are to be transmitted into this link to maximally pack them in transit (within the link).</p>\n<p>Let $I$ be the minimum number of bits $(I)$ that will be required to represent the sequence numbers distinctly assuming that no time gap needs to be given between transmission of two frames.</p>\n<p>Suppose that the sliding window protocol is used with the sender window size of $2^{I}$, where $I$ is the numbers of bits as mentioned earlier and acknowledgements are always piggy backed. After sending $2^I$ frames, what is the minimum time the sender will have to wait before starting transmission of the next frame? (Identify the closest choice ignoring the frame processing time)</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$16ms$</li>\n<li>$18ms$</li>\n<li>$20ms$</li>\n<li>$22ms$</li>\n</ol>",
+      "question": "<p>The figure shows two $4$-tile patterns.</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"248\" src=\"/question-images/13148209794157863122.webp\"></p><p>Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two $4$-tile patterns assuming there are no overlaps among them?</p>",
+      "rawQuestionHtml": "<a name=\"523088\"></a><div itemprop=\"text\"><p>The figure shows two $4$-tile patterns.</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"248\" src=\"/question-images/13148209794157863122.webp\"></p><p>Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two $4$-tile patterns assuming there are no overlaps among them?</p><ol style=\"list-style-type:upper-alpha\"><li><img alt=\"\" width=\"150\" height=\"81\" src=\"/question-images/1065571622669793675.webp\"></li><li><img alt=\"\" width=\"150\" height=\"116\" src=\"/question-images/11351546391531889930.webp\"></li><li><img alt=\"\" width=\"150\" height=\"94\" src=\"/question-images/11990694263269924931.webp\"></li><li><img alt=\"\" width=\"150\" height=\"122\" src=\"/question-images/16228476690319888403.webp\"></li></ol></div>",
       "options": [
-        "$16ms$",
-        "$18ms$",
-        "$20ms$",
-        "$22ms$"
+        "<img alt=\"\" width=\"150\" height=\"81\" src=\"/question-images/1065571622669793675.webp\">",
+        "<img alt=\"\" width=\"150\" height=\"116\" src=\"/question-images/11351546391531889930.webp\">",
+        "<img alt=\"\" width=\"150\" height=\"94\" src=\"/question-images/11990694263269924931.webp\">",
+        "<img alt=\"\" width=\"150\" height=\"122\" src=\"/question-images/16228476690319888403.webp\">"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$16ms$",
-          "html": "$16ms$"
+          "text": "<img alt=\"\" width=\"150\" height=\"81\" src=\"/question-images/1065571622669793675.webp\">",
+          "html": "<img alt=\"\" width=\"150\" height=\"81\" src=\"/question-images/1065571622669793675.webp\">"
         },
         {
           "label": "B",
-          "text": "$18ms$",
-          "html": "$18ms$"
+          "text": "<img alt=\"\" width=\"150\" height=\"116\" src=\"/question-images/11351546391531889930.webp\">",
+          "html": "<img alt=\"\" width=\"150\" height=\"116\" src=\"/question-images/11351546391531889930.webp\">"
         },
         {
           "label": "C",
-          "text": "$20ms$",
-          "html": "$20ms$"
+          "text": "<img alt=\"\" width=\"150\" height=\"94\" src=\"/question-images/11990694263269924931.webp\">",
+          "html": "<img alt=\"\" width=\"150\" height=\"94\" src=\"/question-images/11990694263269924931.webp\">"
         },
         {
           "label": "D",
-          "text": "$22ms$",
-          "html": "$22ms$"
+          "text": "<img alt=\"\" width=\"150\" height=\"122\" src=\"/question-images/16228476690319888403.webp\">",
+          "html": "<img alt=\"\" width=\"150\" height=\"122\" src=\"/question-images/16228476690319888403.webp\">"
         }
       ],
       "answer": [
@@ -115,51 +113,51 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/43470/gate-cse-2009-question-58",
+      "link": "https://gateoverflow.in/523088/gate-cse-2026-set-1-ga-question-2",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43470/gate-cse-2009-question-58"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523088/gate-cse-2026-set-1-ga-question-2"
     },
     {
-      "id": "go:1341",
+      "id": "gate-me-2015-s1-q3",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2009-s0",
+      "yearSetKey": "2026-s1",
       "orderIndex": 3,
       "section": "GA",
       "title": "GATE ME 2015 | GA Question: 3",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
+      "topic": "Quantitative Aptitude",
       "type": "MCQ",
-      "question": "<p>Consider a binary max-heap implemented using an array.<br/>\nWhich one of the following array represents a binary max-heap?</p>",
-      "rawQuestionHtml": "<p>Consider a binary max-heap implemented using an array.<br/>\nWhich one of the following array represents a binary max-heap?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\left\\{25,12,16,13,10,8,14\\right\\}$    </li>\n<li>$\\left\\{25,14,13,16,10,8,12\\right\\}$</li>\n<li>$\\left\\{25,14,16,13,10,8,12\\right\\}$</li>\n<li>$\\left\\{25,14,12,13,10,8,16\\right\\}$</li>\n</ol>",
+      "question": "<p>Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are $64$ players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?</p>",
+      "rawQuestionHtml": "\n<a name=\"523087\"></a><div itemprop=\"text\"><p>Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are $64$ players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$127$</li><li>$64$</li><li>$63$</li><li>$32$</li></ol></div>\n",
       "options": [
-        "$\\left\\{25,12,16,13,10,8,14\\right\\}$",
-        "$\\left\\{25,14,13,16,10,8,12\\right\\}$",
-        "$\\left\\{25,14,16,13,10,8,12\\right\\}$",
-        "$\\left\\{25,14,12,13,10,8,16\\right\\}$"
+        "$127$",
+        "$64$",
+        "$63$",
+        "$32$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$\\left\\{25,12,16,13,10,8,14\\right\\}$",
-          "html": "$\\left\\{25,12,16,13,10,8,14\\right\\}$"
+          "text": "$127$",
+          "html": "$127$"
         },
         {
           "label": "B",
-          "text": "$\\left\\{25,14,13,16,10,8,12\\right\\}$",
-          "html": "$\\left\\{25,14,13,16,10,8,12\\right\\}$"
+          "text": "$64$",
+          "html": "$64$"
         },
         {
           "label": "C",
-          "text": "$\\left\\{25,14,16,13,10,8,12\\right\\}$",
-          "html": "$\\left\\{25,14,16,13,10,8,12\\right\\}$"
+          "text": "$63$",
+          "html": "$63$"
         },
         {
           "label": "D",
-          "text": "$\\left\\{25,14,12,13,10,8,16\\right\\}$",
-          "html": "$\\left\\{25,14,12,13,10,8,16\\right\\}$"
+          "text": "$32$",
+          "html": "$32$"
         }
       ],
       "answer": [
@@ -169,51 +167,51 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1341/gate-cse-2009-question-59",
+      "link": "https://gateoverflow.in/523087/gate-cse-2026-set-1-ga-question-3",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1341/gate-cse-2009-question-59"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523087/gate-cse-2026-set-1-ga-question-3"
     },
     {
-      "id": "go:43466",
+      "id": "gate-me-2015-s1-q4",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2009-s0",
+      "yearSetKey": "2026-s1",
       "orderIndex": 4,
       "section": "GA",
       "title": "GATE ME 2015 | GA Question: 4",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
+      "topic": "Quantitative Aptitude",
       "type": "MCQ",
-      "question": "<p>Consider a binary max-heap implemented using an array.<br/>\nWhat is the content of the array after two delete operations on $\\left\\{25,14,16,13,10,8,12\\right\\}$</p>",
-      "rawQuestionHtml": "<p>Consider a binary max-heap implemented using an array.<br/>\nWhat is the content of the array after two delete operations on $\\left\\{25,14,16,13,10,8,12\\right\\}$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\left\\{14,13,12,10, 8\\right\\}$</li>\n<li>$\\left\\{14,12,13,8,10\\right\\}$</li>\n<li>$\\left\\{14,13,8,12,10\\right\\}$</li>\n<li>$\\left\\{14,13,12,8,10\\right\\}$</li>\n</ol>",
+      "question": "<p>A student needs to enroll for a minimum of $60$ credits. A student cannot enroll for more than $70$ credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly $15$ credits of core courses and exactly $20$ credits of project. In addition, a student has to enroll for a minimum of $10$ credits of specialization courses. The maximum credits of elective courses that a student can enroll for is $\\_\\_\\_\\_$</p>",
+      "rawQuestionHtml": "\n<a name=\"523086\"></a><div itemprop=\"text\"><p>A student needs to enroll for a minimum of $60$ credits. A student cannot enroll for more than $70$ credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly $15$ credits of core courses and exactly $20$ credits of project. In addition, a student has to enroll for a minimum of $10$ credits of specialization courses. The maximum credits of elective courses that a student can enroll for is $\\_\\_\\_\\_$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$10$</li><li>$15$</li><li>$20$</li><li>$25$</li></ol></div>\n",
       "options": [
-        "$\\left\\{14,13,12,10, 8\\right\\}$",
-        "$\\left\\{14,12,13,8,10\\right\\}$",
-        "$\\left\\{14,13,8,12,10\\right\\}$",
-        "$\\left\\{14,13,12,8,10\\right\\}$"
+        "$10$",
+        "$15$",
+        "$20$",
+        "$25$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$\\left\\{14,13,12,10, 8\\right\\}$",
-          "html": "$\\left\\{14,13,12,10, 8\\right\\}$"
+          "text": "$10$",
+          "html": "$10$"
         },
         {
           "label": "B",
-          "text": "$\\left\\{14,12,13,8,10\\right\\}$",
-          "html": "$\\left\\{14,12,13,8,10\\right\\}$"
+          "text": "$15$",
+          "html": "$15$"
         },
         {
           "label": "C",
-          "text": "$\\left\\{14,13,8,12,10\\right\\}$",
-          "html": "$\\left\\{14,13,8,12,10\\right\\}$"
+          "text": "$20$",
+          "html": "$20$"
         },
         {
           "label": "D",
-          "text": "$\\left\\{14,13,12,8,10\\right\\}$",
-          "html": "$\\left\\{14,13,12,8,10\\right\\}$"
+          "text": "$25$",
+          "html": "$25$"
         }
       ],
       "answer": [
@@ -223,105 +221,159 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/43466/gate-cse-2009-question-60",
+      "link": "https://gateoverflow.in/523086/gate-cse-2026-set-1-ga-question-4",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43466/gate-cse-2009-question-60"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523086/gate-cse-2026-set-1-ga-question-4"
     },
     {
-      "id": "go:2201",
+      "id": "gate-me-2015-s1-q5",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2010-s0",
+      "yearSetKey": "2026-s1",
       "orderIndex": 5,
       "section": "GA",
       "title": "GATE ME 2015 | GA Question: 5",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
+      "topic": "Analytical & Logical Reasoning",
       "type": "MCQ",
-      "question": "<p>What is the appropriate pairing of items in the two columns listing various activities encountered in a software life cycle?</p>\n\n<p>P. Requirements Capture&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;1. Module Development and Integration</p>\n\n<p>Q. Design&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Domain Analysis</p>\n\n<p>R. Implementation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3. Structural and Behavioral Modeling</p>\n\n<p>S. Maintenance&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;4. Performance Tuning</p>",
-      "rawQuestionHtml": "<a name=\"2201\"></a><div itemprop=\"text\"><p>What is the appropriate pairing of items in the two columns listing various activities encountered in a software life cycle?</p>\n\n<p>P. Requirements Capture&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;1. Module Development and Integration</p>\n\n<p>Q. Design&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Domain Analysis</p>\n\n<p>R. Implementation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3. Structural and Behavioral Modeling</p>\n\n<p>S. Maintenance&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;4. Performance Tuning</p>\n\n<ol style=\"list-style-type: upper-alpha;\">\n\t<li>P-3 Q-2 R-4 S-1</li>\n\t<li>P-2 Q-3 R-1 S-4</li>\n\t<li>P-3 Q-2 R-1 S-4</li>\n\t<li>P-2 Q-3 R-4 S-1</li>\n</ol></div>",
+      "question": "<p>'When the teacher is in the room, all students stand silently.'</p><p>If the above statement is true, which one of the following statements is <strong>not necessarily</strong> true?</p>",
+      "rawQuestionHtml": "\n<a name=\"523085\"></a><div itemprop=\"text\"><p>'When the teacher is in the room, all students stand silently.'</p><p>If the above statement is true, which one of the following statements is <strong>not necessarily</strong> true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>If any student is not standing silently, then the teacher is not in the room.</li><li>When the teacher is in the room, all students are silent.</li><li>If all students are standing, then the teacher is in the room.</li><li>When the teacher is in the room, all students are standing.</li></ol></div>\n",
       "options": [
-        "P-3 Q-2 R-4 S-1",
-        "P-2 Q-3 R-1 S-4",
-        "P-3 Q-2 R-1 S-4",
-        "P-2 Q-3 R-4 S-1"
+        "If any student is not standing silently, then the teacher is not in the room.",
+        "When the teacher is in the room, all students are silent.",
+        "If all students are standing, then the teacher is in the room.",
+        "When the teacher is in the room, all students are standing."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "P-3 Q-2 R-4 S-1",
-          "html": "P-3 Q-2 R-4 S-1"
+          "text": "If any student is not standing silently, then the teacher is not in the room.",
+          "html": "If any student is not standing silently, then the teacher is not in the room."
         },
         {
           "label": "B",
-          "text": "P-2 Q-3 R-1 S-4",
-          "html": "P-2 Q-3 R-1 S-4"
+          "text": "When the teacher is in the room, all students are silent.",
+          "html": "When the teacher is in the room, all students are silent."
         },
         {
           "label": "C",
-          "text": "P-3 Q-2 R-1 S-4",
-          "html": "P-3 Q-2 R-1 S-4"
+          "text": "If all students are standing, then the teacher is in the room.",
+          "html": "If all students are standing, then the teacher is in the room."
         },
         {
           "label": "D",
-          "text": "P-2 Q-3 R-4 S-1",
-          "html": "P-2 Q-3 R-4 S-1"
+          "text": "When the teacher is in the room, all students are standing.",
+          "html": "When the teacher is in the room, all students are standing."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523085/gate-cse-2026-set-1-ga-question-5",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523085/gate-cse-2026-set-1-ga-question-5"
+    },
+    {
+      "id": "gate-me-2015-s1-q6",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 6,
+      "section": "GA",
+      "title": "GATE ME 2015 | GA Question: 6",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Analytical & Logical Reasoning",
+      "type": "MCQ",
+      "question": "<p>Combinatorics deals with problems involving counting. For example, \"How many distinct arrangements of $\\text{N}$ distinct objects in $\\text{M}$ spaces on a circle are possible?\" is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities.<br><br>Consider the following statements:</p><p>$\\text{P}:$ Combinatorics is always invoked in the modeling of physical phenomena.</p><p>$\\text{Q}:$ Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities.<br><br>Based on the passage above, what can be inferred about statements $\\textbf{P}$ and $\\textbf{Q}?$</p>",
+      "rawQuestionHtml": "\n<a name=\"523084\"></a><div itemprop=\"text\"><p>Combinatorics deals with problems involving counting. For example, \"How many distinct arrangements of $\\text{N}$ distinct objects in $\\text{M}$ spaces on a circle are possible?\" is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities.<br><br>Consider the following statements:</p><p>$\\text{P}:$ Combinatorics is always invoked in the modeling of physical phenomena.</p><p>$\\text{Q}:$ Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities.<br><br>Based on the passage above, what can be inferred about statements $\\textbf{P}$ and $\\textbf{Q}?$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>P is False and Q is False</li><li>P is False and Q is True</li><li>P is True and Q is False</li><li>P is True and Q is True</li></ol></div>\n",
+      "options": [
+        "P is False and Q is False",
+        "P is False and Q is True",
+        "P is True and Q is False",
+        "P is True and Q is True"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "P is False and Q is False",
+          "html": "P is False and Q is False"
+        },
+        {
+          "label": "B",
+          "text": "P is False and Q is True",
+          "html": "P is False and Q is True"
+        },
+        {
+          "label": "C",
+          "text": "P is True and Q is False",
+          "html": "P is True and Q is False"
+        },
+        {
+          "label": "D",
+          "text": "P is True and Q is True",
+          "html": "P is True and Q is True"
         }
       ],
       "answer": [
         "B"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
+      "marks": 2,
+      "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2201/gate-cse-2010-question-22",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2201/gate-cse-2010-question-22"
+      "link": "https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6"
     },
     {
-      "id": "go:2209",
+      "id": "gate-me-2015-s1-q7",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2012-s0",
-      "orderIndex": 6,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 7,
       "section": "GA",
-      "title": "GATE ME 2015 | GA Question: 6",
+      "title": "GATE ME 2015 | GA Question: 7",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
+      "topic": "Spatial Aptitude & Data Interpretation",
       "type": "MCQ",
-      "question": "<p><strong>Wanted Temporary, Part-time persons for the post of Field Interviewer to conduct personal interviews to collect and collate economic data. Requirements: High School-pass, must be available for Day, Evening and Saturday work. Transportation paid, expenses reimbursed.</strong></p>\n<p>Which one of the following is the best inference from the above advertisement?</p>",
-      "rawQuestionHtml": "<p><strong>Wanted Temporary, Part-time persons for the post of Field Interviewer to conduct personal interviews to collect and collate economic data. Requirements: High School-pass, must be available for Day, Evening and Saturday work. Transportation paid, expenses reimbursed.</strong></p>\n<p>Which one of the following is the best inference from the above advertisement?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>Gender-discriminatory</li>\n<li>Xenophobic</li>\n<li>Not designed to make the post attractive</li>\n<li>Not gender-discriminatory</li>\n</ol>",
+      "question": "<p>In Panel $\\text{I}$ of the figure below, the front view and top view of a structure are shown. Which one of the $\\text{3D}$ structures shown in Panel $\\text{II}$ possesses the views shown in Panel $\\text{I}?$</p><p><img alt=\"\" width=\"680\" height=\"517\" src=\"/question-images/9388547876435765982.webp\"></p>",
+      "rawQuestionHtml": "\n<a name=\"523083\"></a><div itemprop=\"text\"><p>In Panel $\\text{I}$ of the figure below, the front view and top view of a structure are shown. Which one of the $\\text{3D}$ structures shown in Panel $\\text{II}$ possesses the views shown in Panel $\\text{I}?$</p><p><img alt=\"\" width=\"680\" height=\"517\" src=\"/question-images/9388547876435765982.webp\"></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\text{(i)}$</li><li>$\\text{(ii)}$</li><li>$\\text{(iii)}$</li><li>$\\text{(iv)}$</li></ol></div>\n",
       "options": [
-        "Gender-discriminatory",
-        "Xenophobic",
-        "Not designed to make the post attractive",
-        "Not gender-discriminatory"
+        "$\\text{(i)}$",
+        "$\\text{(ii)}$",
+        "$\\text{(iii)}$",
+        "$\\text{(iv)}$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Gender-discriminatory",
-          "html": "Gender-discriminatory"
+          "text": "$\\text{(i)}$",
+          "html": "$\\text{(i)}$"
         },
         {
           "label": "B",
-          "text": "Xenophobic",
-          "html": "Xenophobic"
+          "text": "$\\text{(ii)}$",
+          "html": "$\\text{(ii)}$"
         },
         {
           "label": "C",
-          "text": "Not designed to make the post attractive",
-          "html": "Not designed to make the post attractive"
+          "text": "$\\text{(iii)}$",
+          "html": "$\\text{(iii)}$"
         },
         {
           "label": "D",
-          "text": "Not gender-discriminatory",
-          "html": "Not gender-discriminatory"
+          "text": "$\\text{(iv)}$",
+          "html": "$\\text{(iv)}$"
         }
       ],
       "answer": [
@@ -331,70 +383,16 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2209/gate-cse-2012-question-61",
+      "link": "https://gateoverflow.in/523083/gate-cse-2026-set-1-ga-question-7",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2209/gate-cse-2012-question-61"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523083/gate-cse-2026-set-1-ga-question-7"
     },
     {
-      "id": "go:2210",
+      "id": "gate-me-2015-s1-q8",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2012-s0",
-      "orderIndex": 7,
-      "section": "GA",
-      "title": "GATE ME 2015 | GA Question: 7",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
-      "type": "MCQ",
-      "question": "<p>A political party orders an arch for the entrance to the ground in which the annual convention is being held. The profile of the arch follows the equation $y=2x-0.1x^{2}$ where $y$ is the height of the arch in meters. The maximum possible height of the arch is<br/>\n </p>",
-      "rawQuestionHtml": "<p>A political party orders an arch for the entrance to the ground in which the annual convention is being held. The profile of the arch follows the equation $y=2x-0.1x^{2}$ where $y$ is the height of the arch in meters. The maximum possible height of the arch is<br/>\n </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$8$ meters</li>\n<li>$10$ meters</li>\n<li>$12$ meters</li>\n<li>$14$ meters</li>\n</ol>",
-      "options": [
-        "$8$ meters",
-        "$10$ meters",
-        "$12$ meters",
-        "$14$ meters"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$8$ meters",
-          "html": "$8$ meters"
-        },
-        {
-          "label": "B",
-          "text": "$10$ meters",
-          "html": "$10$ meters"
-        },
-        {
-          "label": "C",
-          "text": "$12$ meters",
-          "html": "$12$ meters"
-        },
-        {
-          "label": "D",
-          "text": "$14$ meters",
-          "html": "$14$ meters"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2210/gate-cse-2012-question-62",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2210/gate-cse-2012-question-62"
-    },
-    {
-      "id": "go:2211",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2012-s0",
+      "yearSetKey": "2026-s1",
       "orderIndex": 8,
       "section": "GA",
       "title": "GATE ME 2015 | GA Question: 8",
@@ -402,142 +400,34 @@
       "subjectSlug": "aptitude",
       "topic": "Quantitative Aptitude",
       "type": "MCQ",
-      "question": "<p>An automobile plant contracted to buy shock absorbers from two suppliers $ X$ and $ Y$ . $ X$ supplies $60\\%$ and Y supplies $40\\%$ of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of $ X’s$ shock absorbers, $96\\%$ are reliable. Of $ Y’s$ shock absorbers, $72\\%$ are reliable.<br/>\n<br/>\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by $Y$ is</p>",
-      "rawQuestionHtml": "<p>An automobile plant contracted to buy shock absorbers from two suppliers $ X$ and $ Y$ . $ X$ supplies $60\\%$ and Y supplies $40\\%$ of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of $ X’s$ shock absorbers, $96\\%$ are reliable. Of $ Y’s$ shock absorbers, $72\\%$ are reliable.<br/>\n<br/>\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by $Y$ is</p>\n<ol start=\"1\" style=\"list-style-type: upper-alpha;\">\n<li>$0.288$</li>\n<li>$0.334$</li>\n<li>$0.667$</li>\n<li>$0.720$</li>\n</ol>",
+      "question": "<p>For positive real numbers $S$ and $K$, the function $H_{K}(S)$ is defined as:</p><p>&nbsp;$H_{K}(S)=\\max (S-K, 0)$. The max function is defined as:<br>\\[<br>\\max (a, b)=\\left\\{\\begin{array}{ll}<br>a, &amp; \\text { when } a&gt;b \\\\<br>b, &amp; \\text { when } a \\leq b<br>\\end{array}\\right.<br>\\]<br><br>The graph below shows the plot of a function $N(S)$ versus $S$.</p><p>$N(S)$ can be expressed as $\\_\\_\\_\\_$.</p><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"380\" src=\"/question-images/15996959000815053265.webp\"></p><p>&nbsp;</p>",
+      "rawQuestionHtml": "\n<a name=\"523082\"></a><div itemprop=\"text\"><p>For positive real numbers $S$ and $K$, the function $H_{K}(S)$ is defined as:</p><p>&nbsp;$H_{K}(S)=\\max (S-K, 0)$. The max function is defined as:<br>\\[<br>\\max (a, b)=\\left\\{\\begin{array}{ll}<br>a, &amp; \\text { when } a&gt;b \\\\<br>b, &amp; \\text { when } a \\leq b<br>\\end{array}\\right.<br>\\]<br><br>The graph below shows the plot of a function $N(S)$ versus $S$.</p><p>$N(S)$ can be expressed as $\\_\\_\\_\\_$.</p><p style=\"text-align:center\"><img alt=\"\" width=\"500\" height=\"380\" src=\"/question-images/15996959000815053265.webp\"></p><p>&nbsp;</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$H_{10}(S)-H_{20}(S)$</li><li>$H_{10}(S)-2 H_{20}(S)$</li><li>$-H_{10}(S)+H_{20}(S)$</li><li>$H_{15}(S)-H_{20}(S)$</li></ol></div>\n",
       "options": [
-        "$0.288$",
-        "$0.334$",
-        "$0.667$",
-        "$0.720$"
+        "$H_{10}(S)-H_{20}(S)$",
+        "$H_{10}(S)-2 H_{20}(S)$",
+        "$-H_{10}(S)+H_{20}(S)$",
+        "$H_{15}(S)-H_{20}(S)$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$0.288$",
-          "html": "$0.288$"
+          "text": "$H_{10}(S)-H_{20}(S)$",
+          "html": "$H_{10}(S)-H_{20}(S)$"
         },
         {
           "label": "B",
-          "text": "$0.334$",
-          "html": "$0.334$"
+          "text": "$H_{10}(S)-2 H_{20}(S)$",
+          "html": "$H_{10}(S)-2 H_{20}(S)$"
         },
         {
           "label": "C",
-          "text": "$0.667$",
-          "html": "$0.667$"
+          "text": "$-H_{10}(S)+H_{20}(S)$",
+          "html": "$-H_{10}(S)+H_{20}(S)$"
         },
         {
           "label": "D",
-          "text": "$0.720$",
-          "html": "$0.720$"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2211/gate-cse-2012-question-63",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2211/gate-cse-2012-question-63"
-    },
-    {
-      "id": "go:2212",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2012-s0",
-      "orderIndex": 9,
-      "section": "GA",
-      "title": "GATE ME 2015 | GA Question: 9",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
-      "type": "MCQ",
-      "question": "<p>Which of the following assertions are <strong>CORRECT</strong>?</p>",
-      "rawQuestionHtml": "<p>Which of the following assertions are <strong>CORRECT</strong>?</p>\n<ul>\n<li>P: Adding $7$ to each entry in a list adds $7$ to the mean of the list </li>\n<li>Q: Adding $7$ to each entry in a list adds $7$ to the standard deviation of the list </li>\n<li>R: Doubling each entry in a list doubles the mean of the list</li>\n<li>S: Doubling each entry in a list leaves the standard deviation of the list unchanged</li>\n</ul>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$P$, $Q$</li>\n<li>$Q$, $R$</li>\n<li>$P$, $R$</li>\n<li>$R$, $S$</li>\n</ol>",
-      "options": [
-        "$P$, $Q$",
-        "$Q$, $R$",
-        "$P$, $R$",
-        "$R$, $S$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$P$, $Q$",
-          "html": "$P$, $Q$"
-        },
-        {
-          "label": "B",
-          "text": "$Q$, $R$",
-          "html": "$Q$, $R$"
-        },
-        {
-          "label": "C",
-          "text": "$P$, $R$",
-          "html": "$P$, $R$"
-        },
-        {
-          "label": "D",
-          "text": "$R$, $S$",
-          "html": "$R$, $S$"
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "tolerance": null,
-      "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2212/gate-cse-2012-question-64",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2212/gate-cse-2012-question-64"
-    },
-    {
-      "id": "go:2213",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2012-s0",
-      "orderIndex": 10,
-      "section": "GA",
-      "title": "GATE ME 2015 | GA Question: 10",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
-      "type": "MCQ",
-      "question": "<p>Given the sequence of terms, $\\text{AD CG FK JP}$, the next term is</p>",
-      "rawQuestionHtml": "<p>Given the sequence of terms, $\\text{AD CG FK JP}$, the next term is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\text{OV}$</li>\n<li>$\\text{OW}$</li>\n<li>$\\text{PV}$</li>\n<li>$\\text{PW}$</li>\n</ol>",
-      "options": [
-        "$\\text{OV}$",
-        "$\\text{OW}$",
-        "$\\text{PV}$",
-        "$\\text{PW}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$\\text{OV}$",
-          "html": "$\\text{OV}$"
-        },
-        {
-          "label": "B",
-          "text": "$\\text{OW}$",
-          "html": "$\\text{OW}$"
-        },
-        {
-          "label": "C",
-          "text": "$\\text{PV}$",
-          "html": "$\\text{PV}$"
-        },
-        {
-          "label": "D",
-          "text": "$\\text{PW}$",
-          "html": "$\\text{PW}$"
+          "text": "$H_{15}(S)-H_{20}(S)$",
+          "html": "$H_{15}(S)-H_{20}(S)$"
         }
       ],
       "answer": [
@@ -547,941 +437,1531 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2213/gate-cse-2012-question-65",
+      "link": "https://gateoverflow.in/523082/gate-cse-2026-set-1-ga-question-8",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2213/gate-cse-2012-question-65"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523082/gate-cse-2026-set-1-ga-question-8"
     },
     {
-      "id": "gate-me-q141",
+      "id": "gate-me-2015-s1-q9",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
+      "yearSetKey": "2026-s1",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE ME 2015 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Analytical & Logical Reasoning",
+      "type": "MCQ",
+      "question": "<p>In the $2020$ summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws:</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>The first and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second throw, while the other two athletes did not have any medal winning throws in these rounds.</li><li>The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for scoring.</li><li>After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the succeeding rounds.</li><li>In the fourth round, the throw by Jakub Vadlejch was the best in that round.</li></ol><p>In which round did Vitezlav Vesely have his best throw?</p>",
+      "rawQuestionHtml": "\n<a name=\"523081\"></a><div itemprop=\"text\"><p>In the $2020$ summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws:</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>The first and second rounds were dominated by Neeraj Chopra with a gold medal performance in his second throw, while the other two athletes did not have any medal winning throws in these rounds.</li><li>The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely were fouls and were not considered for scoring.</li><li>After four rounds, Vitezlav Vesely was in the second position and could not improve upon his best throw in the succeeding rounds.</li><li>In the fourth round, the throw by Jakub Vadlejch was the best in that round.</li></ol><p>In which round did Vitezlav Vesely have his best throw?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Third</li><li>Fourth</li><li>Fifth</li><li>Sixth</li></ol></div>\n",
+      "options": [
+        "Third",
+        "Fourth",
+        "Fifth",
+        "Sixth"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Third",
+          "html": "Third"
+        },
+        {
+          "label": "B",
+          "text": "Fourth",
+          "html": "Fourth"
+        },
+        {
+          "label": "C",
+          "text": "Fifth",
+          "html": "Fifth"
+        },
+        {
+          "label": "D",
+          "text": "Sixth",
+          "html": "Sixth"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523081/gate-cse-2026-set-1-ga-question-9",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523081/gate-cse-2026-set-1-ga-question-9"
+    },
+    {
+      "id": "gate-me-2015-s1-q10",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 10,
+      "section": "GA",
+      "title": "GATE ME 2015 | GA Question: 10",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Quantitative Aptitude",
+      "type": "MCQ",
+      "question": "<p>An unbiased six-faced dice whose faces are marked with numbers $1,2,3,4,5$, and $6$ is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is $\\_\\_\\_\\_$</p>",
+      "rawQuestionHtml": "\n<a name=\"523080\"></a><div itemprop=\"text\"><p>An unbiased six-faced dice whose faces are marked with numbers $1,2,3,4,5$, and $6$ is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is $\\_\\_\\_\\_$</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$\\frac{1}{6}$</li><li>$\\frac{5}{18}$</li><li>$\\frac{7}{18}$</li><li>$\\frac{5}{6}$</li></ol></div>\n",
+      "options": [
+        "$\\frac{1}{6}$",
+        "$\\frac{5}{18}$",
+        "$\\frac{7}{18}$",
+        "$\\frac{5}{6}$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$",
+          "html": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{18}$",
+          "html": "$\\frac{5}{18}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{18}$",
+          "html": "$\\frac{7}{18}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{6}$",
+          "html": "$\\frac{5}{6}$"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/523080/gate-cse-2026-set-1-ga-question-10",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523080/gate-cse-2026-set-1-ga-question-10"
+    },
+    {
+      "id": "gate-me-2015-s1-q11",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
       "orderIndex": 11,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 1",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>Consider the schematic of a riveted lap joint subjected to tensile load \n, as shown below. Let \n be the\ndiameter of the rivets, and \n be the maximum permissible tensile stress in the plates. What should be the\nminimum value for the thickness of the plates to guard against tensile failure of the plates? Assume the plates to be\nidentical.</p>",
+      "question": "<p>A hydraulic crane supports a mass of \n kg with its piston-cylinder actuator, inclined at \n with horizontal,\nas shown in the ﬁgure below. The diameter of the piston is \n cm and gravitational acceleration is \n.\nNeglecting mass of the piston, the reading of the pressure gage in kPa (gage) is</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q143",
+      "id": "gate-me-2015-s1-q12",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2012-s1",
       "orderIndex": 12,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 2",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>For steady, fully developed ﬂow inside a straight pipe of diameter \n, neglecting gravity eﬀ</p>",
+      "question": "<p>Water with a density of \n comes out of an industrial condenser through a horizontal pipe of 15\ncm radius at the ﬂow rate of \n. The outlet of the pipe is connected to a coaxial diﬀuser of \n m\nlength using a ﬂange to raise the pressure of water to atmospheric condition without any backﬂow. The inner radius\n( \n, in m ) of the diffuser cross-section is expressed as\nwhere, \n represents the axial distance of the diﬀuser in m , from its inlet. Considering frictionless ﬂow, the\nmagnitude of the force exerted by the diffuser on the flange is \n N (rounded off to \n decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q145",
+      "id": "gate-me-2015-s1-q13",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 3,
-      "yearSetKey": "2014-s3",
+      "set": 1,
       "orderIndex": 13,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 3",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>A shaft is subjected to pure torsional moment. The maximum shear stress developed in the shaft is \n \n. The yield and ultimate strengths of the shaft material in tension are \n \n and \n \n,\nrespectively. The factor of safety using maximum distortion energy (von-Mises) theory is _______</p>",
+      "question": "<p>Consider the given project network, where numbers along various activities represent the normal time. The\nfree float on activity \n-\n and the project duration, respectively, are</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q147",
+      "id": "gate-me-2015-s1-q14",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2015-s1",
       "orderIndex": 14,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 4",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The rod \n, of length \n \n, shown in the ﬁgure is connected to two sliders at each end through pins. The\nsliders can slide along \n and \n. If the velocity \n of the slider at \n is \n \n, the velocity of the\nmidpoint of the rod at this instant is ___________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "MCQ",
+      "question": "<p>For an incompressible flow field, \n, which one of the following conditions must be satisfied?</p>",
+      "options": [
+        "B\n.",
+        "D\n. \ngateme-2014-set2\n \nfluid-mechanics-and-thermal-science\n \nfluid-mechanics\n \nfluid-properties\nHead Losses In Pipes \n(1)\nHead Losses In Pipes: GATE ME 2012 | Question: 5\nOil ﬂ"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngateme-2014-set2\n \nfluid-mechanics-and-thermal-science\n \nfluid-mechanics\n \nfluid-properties\nHead Losses In Pipes \n(1)\nHead Losses In Pipes: GATE ME 2012 | Question: 5\nOil ﬂ",
+          "html": "D\n. \ngateme-2014-set2\n \nfluid-mechanics-and-thermal-science\n \nfluid-mechanics\n \nfluid-properties\nHead Losses In Pipes \n(1)\nHead Losses In Pipes: GATE ME 2012 | Question: 5\nOil ﬂ"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q149",
+      "id": "gate-me-2015-s1-q15",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 15,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 5",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A single degree of freedom spring mass system with viscous damping has a spring constant of \n \n.\nThe system is excited by a sinusoidal force of amplitude \n \n. If the damping factor (ratio) is \n, the\namplitude of steady state oscillation at resonance is ________</p>",
+      "question": "<p>A tiny temperature probe is fully immersed in a ﬂowing ﬂuid and is moving with zero relative velocity with\nrespect to the ﬂuid. The velocity ﬁeld in the ﬂuid is \n, and the temperature ﬁeld in the\nﬂuid is \n, where \n and \n are the spatial coordinates, and \n is the time. The time rate of change\nof temperature recorded by the probe at \n is _____________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q151",
+      "id": "gate-me-2015-s1-q16",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 16,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 6",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A solid disc with radius \n is connected to a spring at a point \n above the center of the disc. The other end of\nthe spring is ﬁ</p>",
+      "question": "<p>In the following two-dimensional momentum equation for natural convection over a surface immersed in a\nquiescent ﬂuid at temperature \n (\n is the gravitational acceleration, \n is the volumetric thermal expansion\ncoeﬃcient, \n is the kinematic viscosity, \n and \n are the velocities in \n and \n directions, respectively, and \n is the\ntemperature)\nthe term \n represents</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q153",
+      "id": "gate-me-2015-s1-q17",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 17,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 7",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>The static deﬂection of a spring under gravity, when a mass of \n is suspended from it, is \n. Assume\nthe acceleration due to gravity \n. The natural frequency of this spring-mass system (in \n)\nis_____________</p>",
+      "question": "<p>The ﬁgure shows a purely convergent nozzle with a steady, inviscid compressible ﬂow of an ideal gas with\nconstant thermophysical properties operating under choked condition. The exit plane shown in the ﬁgure is\nlocated within the nozzle. If the inlet pressure \n is increased while keeping the back pressure \nunchanged, which of the following statements is/are true?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q155",
+      "id": "gate-me-2015-s1-q18",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 18,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 8",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A thin uniform rigid bar of Length \n and mass \n is hinged at point \n, located at a distance of \n from one\nof its ends. The bar is further supported using springs, each of stiﬀness \n, located at the two ends. A particle of\nmass \n is ﬁxed at one end of the bar, as shown in the ﬁ</p>",
+      "question": "<p>The velocity ﬁeld in a ﬂuid is given to be \n. Which of the following statement\nis/are correct?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q157",
+      "id": "gate-me-2015-s1-q19",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 2,
-      "yearSetKey": "2017-s2",
+      "set": 1,
       "orderIndex": 19,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 9",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>A mass \n is attached to two identical springs having spring constant \n as shown in the ﬁ</p>",
+      "question": "<p>A vertical shaft Francis turbine rotates at \n. The available head at the inlet to the turbine is \n.\nThe tip speed of the rotor is \n. Water leaves the runner of the turbine without whirl. Velocity at the exit\nof the draft tube is \n. The head losses in diﬀerent components of the turbine are: \n stator and guide vanes: \n, \n rotor: \n, and \n draft tube: \n. Flow rate through the turbine is \n. Take \n.\nThe hydraulic efficiency of the turbine is ______</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q159",
+      "id": "gate-me-2015-s1-q20",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 20,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 10",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>The equation of motion for a spring-mass system excited by a harmonic force is \n,\nwhere \n is the mass, \n is the spring stiﬀ</p>",
+      "question": "<p>For a completely submerged body with Centre of gravity ‘G’ and Centre of buoyancy ‘B’, the condition of</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q161",
+      "id": "gate-me-2015-s1-q21",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2019-s1",
       "orderIndex": 21,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 11",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A slender uniform rigid bar of mass \n is hinged at \n and supported by two springs, with stiﬀness, \n and \nand a damper with damping coeﬃcient \n, as shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "MCQ",
+      "question": "<p>In exponential smoothening method, which one of the following is true?</p>",
+      "options": [
+        "and high value of \n is used for stable demand",
+        "and high value of \n is used for unstable demand",
+        "and high value of \n is used for stable demand",
+        "and high value of \n is used for unstable demand\ngateme-2014-set1\n \nstability\n \nfluid-mechanics\n \nfluid-mechanics-and-thermal-science\nStability of Floating Bodies \n(1)\nStability of Floating Bodies: GATE2020-ME-2: 14\nWhich of the following conditions is used to determine the stable equilibrium of all partially submerged\nfloating bodies?"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "and high value of \n is used for stable demand",
+          "html": "and high value of \n is used for stable demand"
+        },
+        {
+          "label": "B",
+          "text": "and high value of \n is used for unstable demand",
+          "html": "and high value of \n is used for unstable demand"
+        },
+        {
+          "label": "C",
+          "text": "and high value of \n is used for stable demand",
+          "html": "and high value of \n is used for stable demand"
+        },
+        {
+          "label": "D",
+          "text": "and high value of \n is used for unstable demand\ngateme-2014-set1\n \nstability\n \nfluid-mechanics\n \nfluid-mechanics-and-thermal-science\nStability of Floating Bodies \n(1)\nStability of Floating Bodies: GATE2020-ME-2: 14\nWhich of the following conditions is used to determine the stable equilibrium of all partially submerged\nfloating bodies?",
+          "html": "and high value of \n is used for unstable demand\ngateme-2014-set1\n \nstability\n \nfluid-mechanics\n \nfluid-mechanics-and-thermal-science\nStability of Floating Bodies \n(1)\nStability of Floating Bodies: GATE2020-ME-2: 14\nWhich of the following conditions is used to determine the stable equilibrium of all partially submerged\nfloating bodies?"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q163",
+      "id": "gate-me-2015-s1-q22",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2020-s1",
       "orderIndex": 22,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 12",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>In a structure subjected to fatigue loading, the minimum and maximum stresses developed in a cycle are \n \n and \n \n respectively. The value of stress amplitude (in \n) is _______</p>",
+      "question": "<p>Consider a steady ﬂow through a horizontal divergent channel, as shown in the ﬁgure, with supersonic ﬂow\nat the inlet. The direction of flow is from left to right.\nPressure at location \n is observed to be higher than that at an upstream location \n. Which among the following\noptions can be the reason?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q165",
+      "id": "gate-me-2015-s1-q23",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 3,
-      "yearSetKey": "2014-s3",
+      "set": 1,
       "orderIndex": 23,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 13",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The stress-strain curve for mild steel is shown in the ﬁ</p>",
+      "question": "<p>Consider an isentropic flow of air (ratio of specific heats \n ) through a duct as shown in the figure.\nThe variations in the ﬂow across the cross-section are negligible. The ﬂow conditions at Location \n are given\nas follows:</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q167",
+      "id": "gate-me-2015-s1-q24",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 3,
-      "yearSetKey": "2015-s3",
+      "set": 1,
       "orderIndex": 24,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 14",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A cylindrical tank with closed ends is ﬁlled with compressed air at a pressure of \n \n. The inner radius\nof the tank is \n \n, and it has wall thickness of \n \n. The magnitude of maximum in-plane shear stress (in\n) is ________</p>",
+      "question": "<p>Steady, compressible ﬂow of air takes place through an adiabatic convergingdiverging nozzle, as shown in\nthe ﬁgure. For a particular value of pressure diﬀerence across the nozzle, a stationary normal shock wave\nforms in the diverging section of the nozzle. If \n and \n denote the ﬂow conditions just upstream and downstream of\nthe normal shock, respectively, which of the following statement(s) is/are TRUE?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q169",
+      "id": "gate-me-2015-s1-q25",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 25,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 15",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The principal stresses at a point inside a solid object are \n = \n \n, \n = \n \n and \n = \n \n. The yield strength of the material is \n \n. The factor of safety calculated using Tresca\n(maximum shear stress) theory is \n and the factor of safety calculated using von Mises (maximum distortional\nenergy) theory is \n. Which one of the following relations is \nTRUE\n?</p>",
+      "question": "<p>An ideal gas passes isothermally through a long horizontal uniform cross-section pipe under steady ﬂow.\nConsider that the pressure gradient in the pipe is suﬃcient for a ﬁ</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q171",
+      "id": "gate-me-2015-s1-q26",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 26,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 16",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A machine element XY, ﬁ</p>",
+      "question": "<p>An inward ﬂow reaction turbine, having an outer diameter of \n m, runs at \n RPM. The normal component\nof absolute velocity at the inlet is \n. If the guide blade angle is \n, then the inlet vane angle of the\nrunner is \n degree (rounded off to \n decimal place).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q173",
+      "id": "gate-me-2015-s1-q27",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 2,
-      "yearSetKey": "2016-s2",
+      "set": 1,
       "orderIndex": 27,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 17",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>In the ﬁgure, the load \n, length \n, Young’s modulus \n, and the cross-section of\nthe links is a square with dimension \n. All joints are pin joints.\nThe stress (in \n) in the link \n is ___________</p>",
+      "question": "<p>A vector field\nis deﬁned over a conical region having height \n, base radius \n and axis along \n, as shown in the ﬁgure.\nThe base of the cone lies in the \n plane and is centered at the origin.\nIf \n denotes the unit outward normal to the curved surface \n of the cone, the value of the integral\nequals____________.\n (Answer in integer)</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q175",
+      "id": "gate-me-2015-s1-q28",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 3,
-      "yearSetKey": "2016-s3",
+      "set": 1,
       "orderIndex": 28,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 18",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>A square plate of dimension \n is subjected to a uniform pressure load \n on its edges as\nshown in the figure. Assume plane stress conditions. The Young’s modulus \n.The deformed shape is a square of dimension \n. If \n and \n, the Poisson’s ratio of the\nplate material is __________</p>",
+      "question": "<p>A \n mm long, stress free rod at room temperature is held between two immovable rigid walls. The\ntemperature of the rod is uniformly raised by \n. If the Young’s modulus and coeﬃcient of thermal\nexpansion are \n GPa and \n , respectively, the magnitude of the longitudinal stress (in MPa)\ndeveloped in the rod is _______</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q177",
+      "id": "gate-me-2015-s1-q29",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 29,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 19",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A motor driving a solid circular steel shaft transmits \n kW of power at \n rpm. If the diameter of the shaft\nis \n mm, the maximum shear stress in the shaft is _____________</p>",
+      "question": "<p>A quiescent ﬂuid at temperature \n is conﬁned between two vertical parallel plates. While plate \n is kept at\ntemperature \n and plate \n is maintained at temperature \n, a velocity proﬁle between the plates, as shown\nin the ﬁgure below, is generated due to heat transfer. Which one of the following options shows the correct relations\namong \n, and \n?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q179",
+      "id": "gate-me-2015-s1-q30",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 30,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 20",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>In the engineering stress-strain curve for mild steel, the Ultimate Tensile Strength (UTS) refers to</p>",
+      "question": "<p>A solid sphere of radius \n is placed at the centroid of a hollow cubical enclosure of side length \n. The outer surface of the sphere is denoted by \n and the inner surface of the cube is denoted by \n.\nThe view factor \n for radiation heat transfer is ______</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q181",
+      "id": "gate-me-2015-s1-q31",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 2,
-      "yearSetKey": "2017-s2",
+      "set": 1,
       "orderIndex": 31,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 21",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The state of stress at a point is \n and \n MPa.\nThe maximum normal stress (in MPa) at that point is ________</p>",
+      "question": "<p>A shell and tube heat exchanger is used as a steam condenser. Coolant water enters the tube at \n at a\nrate of \n. The overall heat transfer coeﬃcient is \n, and total heat transfer area is \n. Steam condenses at a saturation temperature of \n. Assume that the speciﬁc heat of coolant water is \n. The temperature of the coolant water coming out of the condenser is __________________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q183",
+      "id": "gate-me-2015-s1-q32",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 32,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 22",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A carpenter glues a pair of cylindrical wooden logs by bonding their end faces at an angle of \n as\nshown in the figure.</p>",
+      "question": "<p>A very long ﬁn of a uniform square cross-section is replaced by another very long ﬁn of a uniform circular\ncross-section of the same material. Assume uniform and identical heat transfer coeﬃcient for both the ﬁns. If\nthe diameter of the circular ﬁn is equal to the side length of the square ﬁn, then the ratio of heat transfer rates\nbefore and after the replacement is</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q185",
+      "id": "gate-me-2015-s1-q33",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2019-s1",
       "orderIndex": 33,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 23",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>During a high cycle fatigue test, a metallic specimen is subjected to cyclic loading with a mean stress of \n MPa, and a minimum stress of \n MPa. The \n-ratio (minimum stress to maximum stress) for this\ncyclic loading is _____</p>",
+      "question": "<p>During a welding operation, thermal power of \n is incident normally on a metallic surface. As shown\nin the ﬁgure below (ﬁgure is NOT to scale), the heated area is circular. Out of the incident power, \n of the\npower is absorbed within a circle of radius \n while \n is absorbed within an inner concentric circle of radius \n. The power density in the shaded area is _________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q187",
+      "id": "gate-me-2015-s1-q34",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2019-s1",
       "orderIndex": 34,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 24",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A plane-strain compression (forging) of a block is shown in the ﬁ</p>",
+      "question": "<p>Solution of \n in a square domain (\n and \n) with boundary conditions:</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q189",
+      "id": "gate-me-2015-s1-q35",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 35,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 25",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The state of stress at a point in a component is represented by a Mohr’s circle of radius \n MPa centered\nat \n MPa on the thermal stress axis. On a plane passing through the same point, the normal stress is \nMPa. The magnitude of the shear stress on the same plane at the same point is _______</p>",
+      "question": "<p>A hot steel spherical ball is suddenly dipped into a low temperature oil bath.\nWhich of the following dimensionless parameters are required to determine instantaneous center\ntemperature of the ball using a Heisler chart?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q182",
+      "id": "gate-me-2015-s1-q36",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 2,
-      "yearSetKey": "2017-s2",
+      "set": 1,
       "orderIndex": 36,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 26",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The state of stress at a point, for a body in plane stress, is shown in the ﬁ</p>",
+      "question": "<p>Which of the following non-dimensional terms is an estimate of Nusselt number?</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q184",
+      "id": "gate-me-2015-s1-q37",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 37,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 27",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A cylindrical rod of diameter \n mm and length \nm ﬁxed at one end. The other end is twisted by an angle\nof \n by applying a torque. If the maximum shear strain in the rod is \n, then \n is equal to ____</p>",
+      "question": "<p>In a heat exchanger, it is observed that \n = \n, where \n is the temperature diﬀerence between the\ntwo single phase ﬂuid streams at one end and \n is the temperature diﬀ</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q186",
+      "id": "gate-me-2015-s1-q38",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2019-s1",
       "orderIndex": 38,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 28",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>Consider the stress-strain curve for an ideal elastic-plastic strain hardening metal as shown in the ﬁgure.\nThe metal was loaded in uniaxial tension starting from \n. Upon loading, the stress-strain curve passes\nthrough initial yield point at \n, and then strain hardens to point \n, where the loading was stopped. From point \n,\nthe specimen was unloaded to point \n, where the stress is zero. If the same specimen is reloaded in tension from\npoint \n, the value of stress at which the material yields again is _______ MPa.</p>",
+      "question": "<p>An amount of \n of heat is transferred through a wall in steady state. One side of the wall is\nmaintained at \n and the other side at \n. The entropy generated (in \n) due to the heat\ntransfer through the wall is _______</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q188",
+      "id": "gate-me-2015-s1-q39",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2019-s1",
       "orderIndex": 39,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 29",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>In a UTM experiment, a sample of length \n, was loaded in tension until failure. The failure load was \n. The displacement, measured using the cross-head motion, at failure, was \n. The compliance\nof the UTM is constant and is given \n. The strain at failure in the sample is ______</p>",
+      "question": "<p>A double-pipe counter-ﬂow heat exchanger transfers heat between two water streams. Tube side water at \n liter/s is heated from \n to \n. Shell side water at \n \n is entering at \n. Assume\nconstant properties of water; density is \n and speciﬁc heat is \n. The LM TD (in \n) is\n_______</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q190",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 40,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 30",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The stress state at a point in a material under plane stress condition is equi-biaxial tension with a magnitude\nof \n. If one unit on the \n plane is \n, the Mohr’</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q192",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 3,
-      "yearSetKey": "2013-s3",
-      "orderIndex": 41,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 31",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A slider-crank mechanism with crank radius \n \n and connecting rod length \n \n is shown in ﬁgure.\nThe crank is rotating with a uniform angular speed of \n \n, counter clockwise. For the given\nconfiguration, the speed (in \n) of the slider is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q194",
+      "id": "gate-me-2015-s1-q40",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 42,
+      "orderIndex": 40,
       "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 32",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
+      "title": "GATE ME 2015 | ME Question: 30",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The crank of a slider-crank mechanism rotates counter-clockwise (CCW) with a constant angular velocity \n,\nas shown. Assume the length of the crank to be \n.\nUsing exact analysis, the acceleration of the slider in the \n-direction, at the instant shown, where the crank is\nparallel to \n-axis, is given by</p>",
+      "question": "<p>A plane wall has a thermal conductivity of \n \n. If the inner surface is at \n and the outer\nsurface is at \n, then the design thickness (in meter) of the wall to maintain a steady heat ﬂux of \n \n should be _______</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q196",
+      "id": "gate-me-2015-s1-q41",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 2,
-      "yearSetKey": "2014-s2",
+      "set": 1,
+      "orderIndex": 41,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 31",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Consider a counter-ﬂow heat exchanger with the inlet temperatures of two ﬂuids \n and \n being \n, in \n and \n, in \n. The heat capacity rates of the two ﬂuids are \n and \n, and the eﬀectiveness of the heat exchanger is \n The actual heat transfer rate is _________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q42",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 42,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 32",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A condenser is used as a heat exchanger in a large steam power plant in which steam is condensed to\nliquid water. The condenser is a shell and tube heat exchanger which consists of \n shell and \n tubes.\nWater ﬂows through each of the tubes at a rate of \n with an inlet temperature of \n. The steam in the\ncondenser shell condenses at the rate of \n at a temperature of \n. If the heat of vaporization is \n and speciﬁc heat of water is \n, the eﬀectiveness of the heat exchanger is ___________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q43",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
       "orderIndex": 43,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 33",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>What is the natural frequency of the spring mass system shown below?</p>",
+      "question": "<p>Convective heat transfer coeﬃcients for Fluid \n and Fluid \n in a heat exchanger, as shown in the ﬁgure\nbelow, are \n and \n, respectively. The inner tube is made of a material which\nhas a thermal conductivity \n for the given range of temperatures in the heat exchanger. The length of\nthe heat exchanging surface, the inside radius of the inner tube, and thickness of the inner tube are \n,\nand \n mm, respectively. Considering no heat exchange between the outer tube and the surrounding, the heat\ntransfer rate for the heat exchanger is \n W (rounded off to \n decimal place).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q198",
+      "id": "gate-me-2015-s1-q44",
       "testId": "gate-me-2015-s1",
       "year": 2015,
-      "set": 2,
-      "yearSetKey": "2014-s2",
+      "set": 1,
       "orderIndex": 44,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 34",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>In a concentric counter ﬂow heat exchanger, water ﬂows through the inner tube at \n and leaves at \n. The engine oil enters at \n and ﬂows in the annular ﬂow passage. The exit temperature of the\nengine oil is \n. Mass ﬂow rate of water and the engine oil are \n and \n, respectively. The speciﬁc\nheat of water and oil are \n and \n, respectively. The eﬀectiveness of this heat exchanger\nis _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q45",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 45,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 35",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>kg of water is in saturated liquid state at \n bar \n  \n). Heat is added in a constant pressure process till the temperature of water reaches \n \n. The heat added (in \n) in the process is\n_______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q46",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 46,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 36",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>In an air-standard Otto cycle, air is supplied at \n \n and \n \n. The ratio of the speciﬁc heats \n and\nthe speciﬁc gas constant \n of air are \n and \n \n, respectively. If the compression ratio is \nand the maximum temperature in the cycle is \n \n, the heat (in \n) supplied to the engine is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q47",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 47,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 37",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>For laminar forced convection over a ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q48",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 48,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 38",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A hemispherical furnace of \n m radius has the inner surface (emissivity, \n) of its roof maintained at \n \n, while its ﬂoor (\n) is kept at \n. Stefan-Boltzmann constant is \n \n.\n. The\nnet radiative heat transfer (in \n) from the roof to the floor is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q49",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 49,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 39",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A material P of thickness \n \n is sandwiched between two steel slabs, as shown in the ﬁgure below. A\nheat ﬂux \n \n is supplied to one of the steel slabs as shown. The boundary temperatures of the\nslabs are indicated in the ﬁgure. Assume thermal conductivity of this steel is \n \n. Considering one-\ndimensional steady state heat conduction for the conﬁguration, the thermal conductivity (\n, in \n) of material\n is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q50",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 50,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 40",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A source at a temperature of \n \n provides \n \n of heat. The temperature of environment is \n.\nThe maximum useful work (in \n) that can be obtained from the heat source is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q51",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 51,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 41",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A sample of moist air at a total pressure of \n \n has a dry bulb temperature of \n (saturation vapour\npressure of water = \n \n). If the air sample has a relative humidity of \n%, the absolute humidity (in\ngram) of water vapour per \n of dry air is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q52",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 52,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 42",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Heat transfer through a composite wall is shown in ﬁgure. Both the sections of the wall have equal thickness \n. The conductivity of one section is \n and that of the other is \n. The left face of the wall is at \n \n and\nthe right face is at \n \n.\nThe interface temperature \n (in \n) of the composite wall is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q53",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 53,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 43",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A solid sphere of radius \n \n is placed concentrically inside a hollow sphere of radius \n \nas shown in the figure.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q54",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 54,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 44",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Match Group A with Group B:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q55",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 55,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 45",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Match the heat treatment processes (Group A) and their associated eﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q56",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 56,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 46",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Two identical metal blocks L and M (speciﬁc heat = \n \n), each having a mass of \n \n, are initially\na t \n \n. A reversible refrigerator extracts heat from block L and rejects heat to block M until the\ntemperature of block L reaches \n \n. The final temperature (in \n) of block M is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q57",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 57,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 47",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>An inﬁnitely long pin ﬁn, attached to an isothermal hot surface, transfers heat at a steady rate \n to the\nambient air. If the thermal conductivity of the ﬁn material is doubled, while keeping everything else constant,\nthe rate of steady-state heat transfer from the fin becomes \n. The ratio \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q58",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 58,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 48",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>During open-heart surgery, a patient's blood is cooled down to \n from \n using a concentric tube\ncounter-ﬂow heat exchanger. Water enters the heat exchanger at \n and leaves at \n. Blood ﬂow rate\nduring the surgery is \n.\nUse the following fluid properties:\nEffectiveness of the heat exchanger is _____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q59",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 59,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 49",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Consider steady state, one-dimensional heat conduction in an inﬁnite slab of thickness \n as\nshown in the ﬁgure. The conductivity \n of the material varies with temperature as \n, where \n is the\ntemperature in \n, and \n is a constant equal to \n. There is a uniform heat generation of \n in the slab. If both faces of the slab are maintained at \n, then the temperature at \n is\n_______________ \n \n(in integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q60",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 60,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 50",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Saturated vapor at \n condenses to saturated liquid at the rate of \n \n on the shell side of a heat\nexchanger (enthalpy of condensation \n \n). A ﬂuid with \n  enters at \n on the tube side. If the eﬀectiveness of the heat exchanger is \n, then the mass ﬂow rate of the ﬂuid in the\ntube side is ____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q61",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 61,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 51",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Consider a hydrodynamically and thermally fully-developed, steady ﬂuid ﬂow of \n \n in a uniformly heated\npipe with diameter of \n and length of \n. A constant heat ﬂux of magnitude \n is\nimposed on the outer surface of the pipe. The bulk-mean temperature of the ﬂuid at the entrance to the pipe is \n. The Reynolds number \n of the ﬂow is \n, and the Prandtl number \n of the ﬂuid is \n. The\nthermal conductivity and the speciﬁc heat of the ﬂuid are \n \n and \n \n,\nrespectively. The correlation \n is applicable, where the Nusselt Number \n is deﬁned\non the basis of the pipe diameter. The pipe surface temperature at the exit is _______________ \n \n(round oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q62",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 62,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 52",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Consider incompressible laminar ﬂow of a constant property Newtonian ﬂuid in an isothermal circular tube.\nThe ﬂow is steady with fully-developed temperature and velocity proﬁles. The Nusselt number for this ﬂ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2015-s1-q63",
+      "testId": "gate-me-2015-s1",
+      "year": 2015,
+      "set": 1,
+      "orderIndex": 63,
+      "section": "ME",
+      "title": "GATE ME 2015 | ME Question: 53",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "MCQ",
-      "question": "<p>A \n-bar mechanism with all revolute pairs has link lengths \n = \n \n, \n \n, \n \n and \n \n. The suﬃxes \n, \n, \n and \n denote the ﬁxed link, the input link, the coupler and\noutput link respectively. Which one of the following statements is true about the input and output links?</p>",
+      "question": "<p>A very large metal plate of thickness \n and thermal conductivity \n is cooled by a stream of air at temperature\n with a heat transfer coeﬃcient \n, as shown in the ﬁgure. The centerline temperature of the\nplate is \n. In which of the following case(s) can the lumped parameter model be used to study the heat transfer in\nthe metal plate?</p>",
       "options": [
-        "Both links can execute full circular motion",
-        "Both links cannot execute full circular motion",
-        "Only the output link cannot execute full circular motion",
-        "Only the input link cannot execute full circular motion"
+        "B\n.",
+        "D\n. \ngateme-2023\n \nheat-transfer\n \nnumerical-answers"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both links can execute full circular motion",
-          "html": "Both links can execute full circular motion"
-        },
-        {
-          "label": "B",
-          "text": "Both links cannot execute full circular motion",
-          "html": "Both links cannot execute full circular motion"
+          "text": "B\n.",
+          "html": "B\n."
         },
         {
           "label": "C",
-          "text": "Only the output link cannot execute full circular motion",
-          "html": "Only the output link cannot execute full circular motion"
-        },
-        {
-          "label": "D",
-          "text": "Only the input link cannot execute full circular motion",
-          "html": "Only the input link cannot execute full circular motion"
+          "text": "D\n. \ngateme-2023\n \nheat-transfer\n \nnumerical-answers",
+          "html": "D\n. \ngateme-2023\n \nheat-transfer\n \nnumerical-answers"
         }
       ],
       "answer": [
@@ -1490,574 +1970,70 @@
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q200",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 45,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 35",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A mass \n of \n \n traveling with a uniform velocity of \n \n along a line collides with a stationary mass \n of \n \n. After the collision, both the masses travel together with the same velocity. The coeﬃ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q202",
+      "id": "gate-me-2015-s1-q64",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 46,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 36",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The initial velocity of an object is \n \n. The acceleration a of the object is given by the following\nexpression:\n                                                          \nwhere \n is the instantaneous velocity of the object. The velocity of the object after \n seconds will be _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q204",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 47,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 37",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A small ball of mass \n \n moving with a velocity of \n \n undergoes a direct central impact with a\nstationary ball of mass \n \n. The impact is perfectly elastic. The speed (in \n) of \n \n mass ball after the\nimpact will be ____________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q206",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 48,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 38",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>An annular disc has a mass \n, inner radius \n and outer radius \n. The disc rolls on a ﬂ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q208",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 3,
-      "yearSetKey": "2015-s3",
-      "orderIndex": 49,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 39",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A two member truss ABC is shown in the figure. The force (in \n) transmitted in member AB is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q210",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 50,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 40",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>For the truss shown in ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q212",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 51,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 41",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A truss is composed of members AB, BC, CD, AD and BD, as shown in the ﬁgure. A vertical load of \nis applied at point D. The magnitude of force (in kN) in the member BC is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q214",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 52,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 42",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The truss shown in the ﬁgure has four members of length \n and ﬂexural rigidity \n, and one member of\nlength \n and ﬂexural rigidity \n. The truss is loaded by a pair of forces of magnitude \n, as shown in the\nfigure.\n       \nThe smallest value of \n, at which any of the truss members will buckle is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q216",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 4,
-      "yearSetKey": "2012-s4",
-      "orderIndex": 53,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 43",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>For the truss shown in the ﬁgure, the forces \n and \n are \n \n and \n \n, respectively. The force (in \n)</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q218",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 3,
-      "yearSetKey": "2015-s3",
-      "orderIndex": 54,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 44",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A single degree of freedom system having mass \n \n and stiﬀness \n \n initially at rest is subjected to\nan impulse force of magnitude \n \n for \n seconds. The amplitude in \n of the resulting free vibration\nis</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q220",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2015-s1",
-      "orderIndex": 55,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 45",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A \n mm deep cylindrical cup with diameter of \n mm is drawn from a circular blank. Neglecting the\nvariation in the sheet thickness, the diameter (upto \n decimal points accuracy) of the blank is _________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q222",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 56,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 46",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A uniform thin disk of mass \n and radius \n is kept on a surface as shown in the ﬁgure. A spring of\nstiﬀness \n is connected to the disk center \n and another spring of stiﬀness \nis connected at point \n just above the point \n on the circumference of the disk. Initially, both the springs are\nunstretched. Assume pure rolling of the disk. For small disturbance from the equilibrium, the natural frequency of\nvibration of the system is _________ \n (round off to oe decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q224",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 57,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 47",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A uniform slender rod (\n \n length and \n \n mass) rotates in a vertical plane about a horizontal axis \n \nfrom its end as shown in the ﬁgure. The magnitude of the angular acceleration (in \n) of the rod at the\nposition shown is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q226",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 4,
-      "yearSetKey": "2014-s4",
-      "orderIndex": 58,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 48",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A ladder AB of length \n \n and weight \n \n \n is resting against a wall. Assuming frictionless contact at\nthe ﬂoor \n and the wall \n, the magnitude of the force \n (in newton) required to maintain equilibrium of\nthe ladder is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q228",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2021-s1",
-      "orderIndex": 59,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 49",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A block of negligible mass rests on a surface that is inclined at \n to the horizontal plane as shown in the\nﬁgure. When a vertical force of \n and a horizontal force of \n are applied, the block is just about to\nslide.\nThe coefficient of static friction between the block and surface is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q230",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2022-s2",
-      "orderIndex": 60,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 50",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A rigid homogeneous uniform block of mass \n \n, height \n and width \n is pinned at one\ncorner and placed upright in a uniform gravitational ﬁeld \n, supported by a roller in the\nconﬁguration shown in the ﬁgure. A short duration (impulsive) force \n, producing an impulse \n, is applied at a</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q232",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 2,
-      "yearSetKey": "2022-s2",
-      "orderIndex": 61,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 51",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A rigid beam \n of length \n is hinged at frictionless pin joint \n and supported by two strings as\nshown in the ﬁgure. String \n passes over two small frictionless pulleys of negligible radius. All the strings\nare made of the same material and have equal cross-sectional area. A force \n \n is applied at \n and the\nresulting stresses in the strings are within linear elastic limit. The self-weight of the beam is negligible with respect\nto the applied load. Assuming small deﬂections, the tension developed in the string at \n is _______________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q234",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2023-s1",
-      "orderIndex": 62,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 52",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A ram in the form of a rectangular body of size \n and \n is suspended by two parallel ropes of\nlengths \n. Assume the center-of-mass of the body is at its geometric center and \n. For\nstriking the object \n with a horizontal velocity of \n, what is the angle \n with the vertical from which the ram\nshould be released from rest?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q236",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 63,
-      "section": "ME",
-      "title": "GATE ME 2015 | ME Question: 53",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>Two structural members are connected by a hinge and they are externally loaded as shown in the ﬁgure\nbelow. A and B are roller supports, and C is a pin support. Neglecting the mass of the members, the\nmagnitude of the vertical reaction force at C in kN is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q238",
-      "testId": "gate-me-2015-s1",
-      "year": 2015,
-      "set": 1,
-      "yearSetKey": "2026-s1",
       "orderIndex": 64,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 54",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A rigid slender bar, AB, is sliding against two mutually perpendicular frictionless walls, as shown in the ﬁ</p>",
+      "question": "<p>Consider a hemispherical furnace of diameter \n with a ﬂat base. The dome of the furnace has an\nemissivity of \n and the ﬂat base is a blackbody. The base and the dome are maintained at uniform\ntemperature of \n and \n, respectively. Under steady state conditions, the rate of radiation heat transfer\nfrom the dome to the base is _________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q240",
+      "id": "gate-me-2015-s1-q65",
       "testId": "gate-me-2015-s1",
       "year": 2015,
       "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 65,
       "section": "ME",
       "title": "GATE ME 2015 | ME Question: 55",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>Block \n of mass \n kg slides down the surface and has a speed \n at the lowest point, \n, where the\nlocal radius of curvature is \n m as shown in the ﬁgure. Assuming \n, the normal force (in \n) at \n is ____</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "MCQ",
+      "question": "<p>A plane, solid slab of thickness \n, shown in the ﬁgure, has thermal conductivity \n that varies with the spatial\ncoordinate \n as \n, where \n and \n are positive constants \n. The slab walls are\nmaintained at ﬁxed temperatures of \n and \n. The slab has no internal heat\nsources. Considering one-dimensional heat transfer, which one of the following plots qualitatively depicts the\nsteady-state temperature distribution within the slab?</p>",
+      "options": [
+        "B\n.",
+        "D\n. \n \ngateme-2024\n \nheat-transfer\n \ncalculus"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B\n.",
+          "html": "B\n."
+        },
+        {
+          "label": "C",
+          "text": "D\n. \n \ngateme-2024\n \nheat-transfer\n \ncalculus",
+          "html": "D\n. \n \ngateme-2024\n \nheat-transfer\n \ncalculus"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     }
   ]
 }

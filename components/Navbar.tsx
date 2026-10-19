@@ -10,7 +10,6 @@ import {
   X,
   ChevronDown,
   BarChart3,
-  Code2,
 } from "lucide-react";
 
 const gateLinks = [
@@ -23,7 +22,6 @@ const gateLinks = [
 
 const navigationLinks = [
   { href: "/dsa", label: "DSA Sheet" },
-  { href: "/dsa/sandbox", label: "IDE Sandbox", icon: Code2 },
   { href: "/placement", label: "Placement" },
   { href: "/analytics", label: "Study Analytics", icon: BarChart3 },
   { href: "/syllabus", label: "Syllabus" },
@@ -62,7 +60,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden items-center gap-5 text-sm font-semibold text-slate-600 md:flex lg:gap-6">
+        <div className="hidden items-center gap-5 text-sm font-semibold text-slate-600 xl:flex">
           {/* GATE Hub Dropdown */}
           <div className="relative">
             <button
@@ -134,9 +132,10 @@ export default function Navbar() {
         <div className="flex items-center gap-2.5">
           <Link
             href="/tests"
-            className="inline-flex min-h-10 items-center justify-center rounded-xl bg-blue-600 px-4 py-2 text-xs font-bold text-white shadow-sm shadow-blue-500/20 transition-all hover:bg-blue-700 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 md:px-5"
+            className="inline-flex min-h-10 items-center justify-center whitespace-nowrap rounded-xl bg-blue-600 px-3 py-2 text-xs font-bold text-white shadow-sm shadow-blue-500/20 transition-all hover:bg-blue-700 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 sm:px-4 md:px-5"
           >
-            Start Practice Free
+            <span className="hidden sm:inline">Start Practice Free</span>
+            <span className="sm:hidden">Practice</span>
           </Link>
 
           <button
@@ -152,7 +151,7 @@ export default function Navbar() {
               setMenuOpen((open) => !open);
               setGateOpen(false);
             }}
-            className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 xl:hidden"
           >
             {menuOpen ? (
               <X className="h-5 w-5" aria-hidden="true" />
@@ -167,7 +166,7 @@ export default function Navbar() {
       {menuOpen && (
         <div
           id="mobile-navigation"
-          className="border-t border-slate-200 bg-white px-5 py-3 md:hidden shadow-lg"
+          className="border-t border-slate-200 bg-white px-5 py-3 shadow-lg xl:hidden"
         >
           <nav
             aria-label="Mobile navigation"

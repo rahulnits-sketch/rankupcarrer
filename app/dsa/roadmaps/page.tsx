@@ -98,7 +98,7 @@ export default function RoadmapsPage() {
   })();
 
   return (
-    <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
+    <main className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col justify-between">
       <Navbar />
       <SubNavPills categoryTitle="EXPLORE DSA" pills={dsaNavPills} />
 
@@ -108,7 +108,7 @@ export default function RoadmapsPage() {
           <div className="mb-6 flex items-center justify-between">
             <Link
               href="/dsa"
-              className="inline-flex items-center gap-2 text-sm text-gray-400 transition hover:text-white"
+              className="inline-flex items-center gap-2 text-sm text-slate-600 transition hover:text-slate-900"
             >
               ← Back to DSA
             </Link>
@@ -116,12 +116,12 @@ export default function RoadmapsPage() {
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-500/10 text-cyan-400">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-700">
               <Flame className="h-6 w-6" />
             </div>
 
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-cyan-400">
+              <p className="text-xs font-semibold uppercase tracking-wider text-blue-700">
                 DSA Preparation & Sheets
               </p>
 
@@ -143,32 +143,32 @@ export default function RoadmapsPage() {
                 key={roadmap.id}
                 className={`group relative overflow-hidden rounded-3xl border p-6 transition duration-300 ${
                   roadmap.available
-                    ? "border-cyan-500/30 bg-white/[0.04] hover:-translate-y-1 hover:border-cyan-400 hover:bg-white/[0.07]"
-                    : "border-white/10 bg-white/[0.02] opacity-75"
+                    ? "border-blue-200 bg-slate-50 hover:-translate-y-1 hover:border-blue-400 hover:bg-slate-100"
+                    : "border-slate-200 bg-white opacity-75"
                 }`}
               >
                 {/* Glow */}
-                <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-cyan-500/10 blur-3xl" />
+                <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-blue-50 blur-3xl" />
 
                 <div className="relative">
                   {/* Icon */}
                   <div className="mb-6 flex items-center justify-between">
                     <div
                       className={`flex h-14 w-14 items-center justify-center rounded-2xl ${
-                        roadmap.available ? "bg-cyan-500/10 text-cyan-400" : "bg-white/10 text-gray-400"
+                        roadmap.available ? "bg-blue-50 text-blue-700" : "bg-slate-100 text-slate-600"
                       }`}
                     >
                       <Icon className="h-7 w-7" />
                     </div>
 
                     {!roadmap.available && (
-                      <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-gray-400">
+                      <span className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-600">
                         Coming Soon
                       </span>
                     )}
 
                     {roadmap.available && (
-                      <span className="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">
+                      <span className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
                         Available Now
                       </span>
                     )}
@@ -179,13 +179,13 @@ export default function RoadmapsPage() {
 
                   {/* Stats */}
                   <div className="mt-6 grid grid-cols-2 gap-3">
-                    <div className="rounded-2xl border border-white/10 bg-black/20 p-3">
-                      <p className="text-xs text-gray-500">Level</p>
+                    <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
+                      <p className="text-xs text-slate-500">Level</p>
                       <p className="mt-1 text-sm font-semibold">{roadmap.level}</p>
                     </div>
 
-                    <div className="rounded-2xl border border-white/10 bg-black/20 p-3">
-                      <p className="text-xs text-gray-500">Problems</p>
+                    <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
+                      <p className="text-xs text-slate-500">Problems</p>
                       <p className="mt-1 text-sm font-semibold">{roadmap.problems}</p>
                     </div>
                   </div>
@@ -193,15 +193,15 @@ export default function RoadmapsPage() {
                   {/* Progress */}
                   <div className="mt-6">
                     <div className="mb-2 flex items-center justify-between text-xs">
-                      <span className="text-gray-500">Your Progress</span>
-                      <span className="font-semibold text-gray-300">
+                      <span className="text-slate-500">Your Progress</span>
+                      <span className="font-semibold text-slate-700">
                         {currentProgress}%
                       </span>
                     </div>
 
-                    <div className="h-2 overflow-hidden rounded-full bg-white/10">
+                    <div className="h-2 overflow-hidden rounded-full bg-slate-100">
                       <div
-                        className="h-full rounded-full bg-cyan-400 transition-all duration-500"
+                        className="h-full rounded-full bg-blue-400 transition-all duration-500"
                         style={{ width: `${currentProgress}%` }}
                       />
                     </div>
@@ -212,7 +212,7 @@ export default function RoadmapsPage() {
                     {roadmap.available ? (
                       <Link
                         href={`/dsa/roadmaps/${roadmap.id}`}
-                        className="flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-4 py-3 text-sm font-bold text-black transition hover:bg-cyan-300"
+                        className="flex w-full items-center justify-center gap-2 rounded-2xl bg-blue-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-700"
                       >
                         Start Roadmap
                         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -220,7 +220,7 @@ export default function RoadmapsPage() {
                     ) : (
                       <button
                         disabled
-                        className="flex w-full cursor-not-allowed items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-semibold text-gray-500"
+                        className="flex w-full cursor-not-allowed items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-500"
                       >
                         Coming Soon
                       </button>

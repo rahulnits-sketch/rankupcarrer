@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { Check } from "lucide-react";
 import {
   getTrackerStats,
   getDailyGoals,
@@ -48,7 +49,7 @@ export default function DailyTracker() {
   const progressPercent = goals.length > 0 ? Math.round((completedCount / goals.length) * 100) : 68;
 
   return (
-    <div className="relative w-full max-w-lg select-none">
+    <div className="relative w-full max-w-lg">
       {/* Background Glow */}
       <div className="absolute -top-6 -right-6 h-64 w-64 rounded-full bg-emerald-200/40 blur-3xl pointer-events-none" />
       <div className="absolute -bottom-6 -left-6 h-64 w-64 rounded-full bg-blue-200/40 blur-3xl pointer-events-none" />
@@ -61,19 +62,19 @@ export default function DailyTracker() {
             {/* User Greeting & Bell */}
             <div className="flex items-center justify-between pb-1">
               <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-tr from-emerald-500 to-teal-400 text-white font-bold text-sm shadow-md shadow-emerald-500/20">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-tr from-emerald-700 to-teal-700 text-white font-bold text-sm shadow-md shadow-emerald-500/20">
                   R
                 </div>
                 <div>
                   <h3 className="text-sm font-bold text-slate-900 leading-none">
                     {greeting}
                   </h3>
-                  <p className="text-[11px] text-slate-500 mt-1">
+                  <p className="text-xs text-slate-500 mt-1">
                     Keep going! You&apos;re doing great.
                   </p>
                 </div>
               </div>
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-slate-600 text-xs hover:bg-slate-200 cursor-pointer">
+              <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-slate-600 text-xs">
                 🔔
               </span>
             </div>
@@ -82,7 +83,7 @@ export default function DailyTracker() {
             <div className="rounded-2xl bg-slate-50 p-3.5 border border-slate-100">
               <div className="flex items-center justify-between text-xs font-semibold text-slate-700 mb-1.5">
                 <span>Overall Daily Progress</span>
-                <span className="text-emerald-600 font-bold">{progressPercent}%</span>
+                <span className="text-emerald-700 font-bold">{progressPercent}%</span>
               </div>
               <div className="h-2.5 w-full overflow-hidden rounded-full bg-slate-200">
                 <div
@@ -98,7 +99,7 @@ export default function DailyTracker() {
                 <span className="text-lg font-extrabold text-blue-600 leading-none block">
                   {stats.testsDone}
                 </span>
-                <span className="text-[10px] font-semibold text-slate-500 mt-1 block">
+                <span className="text-xs font-semibold text-slate-600 mt-1 block">
                   Tests Done
                 </span>
               </div>
@@ -107,16 +108,16 @@ export default function DailyTracker() {
                 <span className="text-lg font-extrabold text-purple-600 leading-none block">
                   {stats.problemsSolved}
                 </span>
-                <span className="text-[10px] font-semibold text-slate-500 mt-1 block">
+                <span className="text-xs font-semibold text-slate-600 mt-1 block">
                   Problems Solved
                 </span>
               </div>
 
               <div className="rounded-2xl border border-amber-100 bg-amber-50/50 p-2.5 text-center">
-                <span className="text-lg font-extrabold text-amber-600 leading-none block">
+                <span className="text-lg font-extrabold text-amber-700 leading-none block">
                   🔥 {stats.streak}
                 </span>
-                <span className="text-[10px] font-semibold text-slate-500 mt-1 block">
+                <span className="text-xs font-semibold text-slate-600 mt-1 block">
                   Day Streak
                 </span>
               </div>
@@ -131,33 +132,37 @@ export default function DailyTracker() {
                 {goals.map((g) => (
                   <div
                     key={g.id}
-                    onClick={() => handleToggle(g.id)}
-                    className={`flex items-center justify-between rounded-xl px-3 py-2 text-xs font-medium cursor-pointer transition ${
+                    className={`flex items-center justify-between gap-1 rounded-xl border px-2 py-1 transition ${
                       g.completed
-                        ? "bg-emerald-50 text-emerald-800 border border-emerald-200/60"
-                        : "bg-slate-50 text-slate-700 hover:bg-slate-100 border border-slate-100"
+                        ? "bg-emerald-50 text-emerald-800 border-emerald-200/60"
+                        : "bg-slate-50 text-slate-700 border-slate-100"
                     }`}
                   >
-                    <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      aria-pressed={g.completed}
+                      onClick={() => handleToggle(g.id)}
+                      className="flex min-h-11 min-w-0 flex-1 items-center gap-2 rounded-lg px-1 text-left text-sm font-medium transition-colors hover:bg-black/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    >
                       <span
-                        className={`flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold ${
+                        className={`flex h-4 w-4 shrink-0 items-center justify-center rounded-full ${
                           g.completed
-                            ? "bg-emerald-500 text-white"
+                            ? "bg-emerald-700 text-white"
                             : "border border-slate-300 bg-white"
                         }`}
                       >
-                        {g.completed ? "✓" : ""}
+                        {g.completed && <Check aria-hidden="true" className="h-3 w-3" strokeWidth={3} />}
                       </span>
                       <span className={g.completed ? "line-through opacity-80" : ""}>
                         {g.text}
                       </span>
-                    </div>
+                    </button>
                     <Link
                       href={g.link}
-                      onClick={(e) => e.stopPropagation()}
-                      className="text-[10px] text-emerald-600 hover:underline font-bold"
+                      aria-label={`Open goal: ${g.text}`}
+                      className="inline-flex min-h-11 shrink-0 items-center justify-center rounded-lg px-2 text-xs font-bold text-emerald-700 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                     >
-                      Go →
+                      Open
                     </Link>
                   </div>
                 ))}
@@ -168,7 +173,7 @@ export default function DailyTracker() {
             <div className="pt-2">
               <Link
                 href={stats.lastActiveTestId ? `/test/${stats.lastActiveTestId}` : "/gate/subjects"}
-                className="flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-2.5 text-xs font-bold text-white shadow-md shadow-slate-900/10 transition hover:bg-slate-800"
+                className="flex min-h-11 w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-2.5 text-sm font-bold text-white shadow-md shadow-slate-900/10 transition hover:bg-slate-800"
               >
                 <span>Continue Learning</span>
                 <span>→</span>
@@ -179,7 +184,7 @@ export default function DailyTracker() {
           {/* Right Column: Motivational Mountain Card */}
           <div className="hidden sm:flex w-36 shrink-0 flex-col justify-between overflow-hidden rounded-2xl bg-gradient-to-b from-[#0F172A] to-[#020617] p-4 text-white shadow-inner">
             <div className="space-y-1">
-              <span className="text-[10px] font-bold tracking-widest uppercase text-emerald-400">
+              <span className="text-xs font-bold tracking-widest uppercase text-emerald-400">
                 DAILY MOTIVATION
               </span>
               <p className="text-xs font-extrabold leading-snug text-slate-100 mt-2">

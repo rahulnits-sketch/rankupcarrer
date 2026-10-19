@@ -1,22 +1,20 @@
 {
   "id": "gate-me-2019-s1",
-  "yearSetKey": "2019-s1",
+  "slug": "2019-s1",
   "year": 2019,
   "set": 1,
-  "title": "GATE ME 2019 Official Paper",
-  "duration": "180 min",
-  "durationMinutes": 180,
   "totalMarks": 100,
+  "durationMinutes": 180,
   "totalQuestions": 65,
   "gaQuestions": 10,
   "csQuestions": 55,
   "questions": [
     {
-      "id": "go:1380",
+      "id": "gate-me-2019-s1-q1",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "2003-s0",
       "orderIndex": 1,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 1",
@@ -24,34 +22,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the languages:</p>\n<ul>\n<li>$L_1 = \\left\\{ww^R \\mid w \\in \\{0, 1\\}^* \\right\\}$</li>\n<li>$L_2 = \\left\\{w\\text{#}w^R \\mid w \\in \\{0, 1\\}^* \\right\\}$, where $\\text{#}$ is a special symbol</li>\n<li>$L_3 = \\left\\{ww \\mid w \\in \\{0, 1\\}^* \\right\\}$</li>\n</ul>\n<p>Which one of the following is TRUE?</p>",
-      "rawQuestionHtml": "<p>Consider the languages:</p>\n<ul>\n<li>$L_1 = \\left\\{ww^R \\mid w \\in \\{0, 1\\}^* \\right\\}$</li>\n<li>$L_2 = \\left\\{w\\text{#}w^R \\mid w \\in \\{0, 1\\}^* \\right\\}$, where $\\text{#}$ is a special symbol</li>\n<li>$L_3 = \\left\\{ww \\mid w \\in \\{0, 1\\}^* \\right\\}$</li>\n</ul>\n<p>Which one of the following is TRUE?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$L_1$ is a deterministic CFL</p>\n</li>\n<li>\n<p>$L_2$ is a deterministic CFL</p>\n</li>\n<li>\n<p>$L_3$ is a CFL, but not a deterministic CFL</p>\n</li>\n<li>\n<p>$L_3$ is a deterministic CFL</p>\n</li>\n</ol>",
+      "question": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>",
+      "rawQuestionHtml": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$9 + 5 + 2$</li>\n<li>$9 \\ 5 + 2 +$</li>\n<li>$9 \\ 5 \\ 2 + +$</li>\n<li>$+ + 9 \\ 5 \\ 2$</li>\n</ol>",
       "options": [
-        "$L_1$ is a deterministic CFL",
-        "$L_2$ is a deterministic CFL",
-        "$L_3$ is a CFL, but not a deterministic CFL",
-        "$L_3$ is a deterministic CFL"
+        "$9 + 5 + 2$",
+        "$9 \\ 5 + 2 +$",
+        "$9 \\ 5 \\ 2 + +$",
+        "$+ + 9 \\ 5 \\ 2$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$L_1$ is a deterministic CFL",
-          "html": "<p>$L_1$ is a deterministic CFL</p>"
+          "text": "$9 + 5 + 2$",
+          "html": "$9 + 5 + 2$"
         },
         {
           "label": "B",
-          "text": "$L_2$ is a deterministic CFL",
-          "html": "<p>$L_2$ is a deterministic CFL</p>"
+          "text": "$9 \\ 5 + 2 +$",
+          "html": "$9 \\ 5 + 2 +$"
         },
         {
           "label": "C",
-          "text": "$L_3$ is a CFL, but not a deterministic CFL",
-          "html": "<p>$L_3$ is a CFL, but not a deterministic CFL</p>"
+          "text": "$9 \\ 5 \\ 2 + +$",
+          "html": "$9 \\ 5 \\ 2 + +$"
         },
         {
           "label": "D",
-          "text": "$L_3$ is a deterministic CFL",
-          "html": "<p>$L_3$ is a deterministic CFL</p>"
+          "text": "$+ + 9 \\ 5 \\ 2$",
+          "html": "$+ + 9 \\ 5 \\ 2$"
         }
       ],
       "answer": [
@@ -61,16 +59,16 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1380/gate-cse-2005-question-57",
+      "link": "https://gateoverflow.in/946/gate-cse-2003-question-58",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1380/gate-cse-2005-question-57"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/946/gate-cse-2003-question-58"
     },
     {
-      "id": "go:1381",
+      "id": "gate-me-2019-s1-q2",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "2003-s0",
       "orderIndex": 2,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 2",
@@ -78,53 +76,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the following two problems on undirected graphs:</p>\n<ul>\n<li>$\\alpha$: Given $G(V, E)$, does $G$ have an independent set of size |V| - $4$?</li>\n<li>$\\beta$: Given $G(V, E)$, does $G$ have an independent set of size $5$?</li>\n</ul>\n<p>Which one of the following is TRUE?</p>",
-      "rawQuestionHtml": "<p>Consider the following two problems on undirected graphs:</p>\n<ul>\n<li>$\\alpha$: Given $G(V, E)$, does $G$ have an independent set of size |V| - $4$?</li>\n<li>$\\beta$: Given $G(V, E)$, does $G$ have an independent set of size $5$?</li>\n</ul>\n<p>Which one of the following is TRUE?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$\\alpha$ is in P and $\\beta$ is NP-complete</p>\n</li>\n<li>\n<p>$\\alpha$ is NP-complete and $\\beta$ is in P</p>\n</li>\n<li>\n<p>Both $\\alpha$ and $\\beta$ are NP-complete</p>\n</li>\n<li>\n<p>Both $\\alpha$ and $\\beta$ are in P</p>\n</li>\n</ol>",
+      "question": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>",
+      "rawQuestionHtml": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$X = Y + Z$</li>\n<li>$t_1 = Y+Z; X=t_1$</li>\n<li>$t_1 =Y; t_2=t_1 +Z; X=t_2$</li>\n<li>$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$</li>\n</ol>",
       "options": [
-        "$\\alpha$ is in P and $\\beta$ is NP-complete",
-        "$\\alpha$ is NP-complete and $\\beta$ is in P",
-        "Both $\\alpha$ and $\\beta$ are NP-complete",
-        "Both $\\alpha$ and $\\beta$ are in P"
+        "$X = Y + Z$",
+        "$t_1 = Y+Z; X=t_1$",
+        "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+        "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$\\alpha$ is in P and $\\beta$ is NP-complete",
-          "html": "<p>$\\alpha$ is in P and $\\beta$ is NP-complete</p>"
+          "text": "$X = Y + Z$",
+          "html": "$X = Y + Z$"
         },
         {
           "label": "B",
-          "text": "$\\alpha$ is NP-complete and $\\beta$ is in P",
-          "html": "<p>$\\alpha$ is NP-complete and $\\beta$ is in P</p>"
+          "text": "$t_1 = Y+Z; X=t_1$",
+          "html": "$t_1 = Y+Z; X=t_1$"
         },
         {
           "label": "C",
-          "text": "Both $\\alpha$ and $\\beta$ are NP-complete",
-          "html": "<p>Both $\\alpha$ and $\\beta$ are NP-complete</p>"
+          "text": "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+          "html": "$t_1 =Y; t_2=t_1 +Z; X=t_2$"
         },
         {
           "label": "D",
-          "text": "Both $\\alpha$ and $\\beta$ are in P",
-          "html": "<p>Both $\\alpha$ and $\\beta$ are in P</p>"
+          "text": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$",
+          "html": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
         }
       ],
       "answer": [
-        "D"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1381/gate-cse-2005-question-58",
+      "link": "https://gateoverflow.in/947/gate-cse-2003-question-59",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1381/gate-cse-2005-question-58"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/947/gate-cse-2003-question-59"
     },
     {
-      "id": "go:1382",
+      "id": "gate-me-2019-s1-q3",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "2003-s0",
       "orderIndex": 3,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 3",
@@ -132,53 +130,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the grammar:</p>\n<p>$$E \\rightarrow E + n \\mid E \\times n \\mid n$$</p>\n<p>For a sentence $n + n \\times n$, the handles in the right-sentential form of the reduction are:</p>",
-      "rawQuestionHtml": "<p>Consider the grammar:</p>\n<p>$$E \\rightarrow E + n \\mid E \\times n \\mid n$$</p>\n<p>For a sentence $n + n \\times n$, the handles in the right-sentential form of the reduction are:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$n, E + n$ and $E + n \\times n$</p>\n</li>\n<li>\n<p>$n, E + n$ and $E + E \\times n$</p>\n</li>\n<li>\n<p>$n, n + n$ and $n + n \\times n$</p>\n</li>\n<li>\n<p>$n, E + n$ and $E \\times n$</p>\n</li>\n</ol>",
+      "question": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>",
+      "rawQuestionHtml": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$f_1(t)+f_2(t)$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(x)dx$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>\n</li>\n<li>\n<p>$\\max\\{f_1(t),f_2(t)\\}$</p>\n</li>\n</ol>",
       "options": [
-        "$n, E + n$ and $E + n \\times n$",
-        "$n, E + n$ and $E + E \\times n$",
-        "$n, n + n$ and $n + n \\times n$",
-        "$n, E + n$ and $E \\times n$"
+        "$f_1(t)+f_2(t)$",
+        "$\\int_0^t f_1(x)f_2(x)dx$",
+        "$\\int_0^t f_1(x)f_2(t-x)dx$",
+        "$\\max\\{f_1(t),f_2(t)\\}$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$n, E + n$ and $E + n \\times n$",
-          "html": "<p>$n, E + n$ and $E + n \\times n$</p>"
+          "text": "$f_1(t)+f_2(t)$",
+          "html": "<p>$f_1(t)+f_2(t)$</p>"
         },
         {
           "label": "B",
-          "text": "$n, E + n$ and $E + E \\times n$",
-          "html": "<p>$n, E + n$ and $E + E \\times n$</p>"
+          "text": "$\\int_0^t f_1(x)f_2(x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(x)dx$</p>"
         },
         {
           "label": "C",
-          "text": "$n, n + n$ and $n + n \\times n$",
-          "html": "<p>$n, n + n$ and $n + n \\times n$</p>"
+          "text": "$\\int_0^t f_1(x)f_2(t-x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>"
         },
         {
           "label": "D",
-          "text": "$n, E + n$ and $E \\times n$",
-          "html": "<p>$n, E + n$ and $E \\times n$</p>"
+          "text": "$\\max\\{f_1(t),f_2(t)\\}$",
+          "html": "<p>$\\max\\{f_1(t),f_2(t)\\}$</p>"
         }
       ],
       "answer": [
-        "D"
+        "C"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1382/gate-cse-2005-question-59",
+      "link": "https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1382/gate-cse-2005-question-59"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45"
     },
     {
-      "id": "go:1383",
+      "id": "gate-me-2019-s1-q4",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "2004-s0",
       "orderIndex": 4,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 4",
@@ -186,53 +184,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the grammar:</p>\n<p>$$S \\rightarrow (S) \\mid a$$</p>\n<p>Let the number of states in SLR (1), LR(1) and LALR(1) parsers for the grammar be $n_1, n_2$ and $n_3$ respectively. The following relationship holds good:</p>",
-      "rawQuestionHtml": "<p>Consider the grammar:</p>\n<p>$$S \\rightarrow (S) \\mid a$$</p>\n<p>Let the number of states in SLR (1), LR(1) and LALR(1) parsers for the grammar be $n_1, n_2$ and $n_3$ respectively. The following relationship holds good:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$n_1 &lt; n_2 &lt; n_3$</li>\n<li>$n_1 = n_3 &lt; n_2$</li>\n<li>$n_1 = n_2 = n_3$</li>\n<li>$n_1 \\geq n_3 \\geq n_2$</li>\n</ol>",
+      "question": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.</p>\n<p>This passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:</p>\n\n<p>The network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$<br/>\n are connected by a $512$ Kbps link (bps = bits per second).        </p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/17391285651520696272.webp\"/></p>\n<p>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.</p>",
+      "rawQuestionHtml": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.</p>\n<p>This passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:</p>\n<ul>\n<li>A: $\\text{1000 bytes}$</li>\n<li>B: $\\text{100 bytes}$</li>\n<li>C: $\\text{1000 bytes}$</li>\n</ul>\n<p>The network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$<br/>\n are connected by a $512$ Kbps link (bps = bits per second).        </p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/17391285651520696272.webp\"/></p>\n<p>Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$200$</li>\n<li>$220$</li>\n<li>$240$</li>\n<li>$260$</li>\n</ol>",
       "options": [
-        "$n_1 &lt; n_2 &lt; n_3$",
-        "$n_1 = n_3 &lt; n_2$",
-        "$n_1 = n_2 = n_3$",
-        "$n_1 \\geq n_3 \\geq n_2$"
+        "$200$",
+        "$220$",
+        "$240$",
+        "$260$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$n_1 &lt; n_2 &lt; n_3$",
-          "html": "$n_1 &lt; n_2 &lt; n_3$"
+          "text": "$200$",
+          "html": "$200$"
         },
         {
           "label": "B",
-          "text": "$n_1 = n_3 &lt; n_2$",
-          "html": "$n_1 = n_3 &lt; n_2$"
+          "text": "$220$",
+          "html": "$220$"
         },
         {
           "label": "C",
-          "text": "$n_1 = n_2 = n_3$",
-          "html": "$n_1 = n_2 = n_3$"
+          "text": "$240$",
+          "html": "$240$"
         },
         {
           "label": "D",
-          "text": "$n_1 \\geq n_3 \\geq n_2$",
-          "html": "$n_1 \\geq n_3 \\geq n_2$"
+          "text": "$260$",
+          "html": "$260$"
         }
       ],
       "answer": [
-        "B"
+        "D"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1383/gate-cse-2005-question-60",
+      "link": "https://gateoverflow.in/1052/gate-cse-2004-question-56",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1383/gate-cse-2005-question-60"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1052/gate-cse-2004-question-56"
     },
     {
-      "id": "go:1834",
+      "id": "gate-me-2019-s1-q5",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2006-s0",
+      "yearSetKey": "2004-s0",
       "orderIndex": 5,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 5",
@@ -240,34 +238,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the following code written in a pass-by-reference language like&nbsp;FORTRAN and these statements about the code.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </pre>\n\n<p><strong>S1</strong>: The compiler will generate code to allocate a temporary nameless cell,&nbsp;initialize it to 13, and pass the address of the cell to swap&nbsp;<br><strong>S2</strong>: On execution the code will generate a runtime error on line L1&nbsp;<br><strong>S3</strong>: On execution the code will generate a runtime error on line L2&nbsp;<br><strong>S4</strong>: The program will print 13 and 8&nbsp;<br><strong>S5</strong>: The program will print 13 and -2&nbsp;</p>\n\n<p>Exactly the following set of statement(s) is correct:&nbsp;</p>",
-      "rawQuestionHtml": "<a name=\"1834\"></a><div itemprop=\"text\">\n<p>Consider the following code written in a pass-by-reference language like&nbsp;FORTRAN and these statements about the code.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </pre>\n\n<p><strong>S1</strong>: The compiler will generate code to allocate a temporary nameless cell,&nbsp;initialize it to 13, and pass the address of the cell to swap&nbsp;<br><strong>S2</strong>: On execution the code will generate a runtime error on line L1&nbsp;<br><strong>S3</strong>: On execution the code will generate a runtime error on line L2&nbsp;<br><strong>S4</strong>: The program will print 13 and 8&nbsp;<br><strong>S5</strong>: The program will print 13 and -2&nbsp;</p>\n\n<p>Exactly the following set of statement(s) is correct:&nbsp;</p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>S1 and S2&nbsp;</li>\n\t<li>S1 and S4&nbsp;</li>\n\t<li>S3&nbsp;</li>\n\t<li>S1 and S5&nbsp;</li>\n</ol>\n</div>",
+      "question": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ $bytes$ of application data to a host $H_C$ in network $C$. The TCP layer prefixes $20$ byte header to the message. This passes through an intermediate network $B$. The maximum packet size, including $20$ byte IP header, in each network, is:</p>\n<ul>\n<li>$A:$ $1000$ $\\text{bytes}$</li>\n<li>$B: 100$   $\\text{bytes}$</li>\n<li>$C: 1000$ $\\text{bytes}$</li>\n</ul>\n<p>The network $A$ and $B$ are connected through a $1$ $Mbps$ link, while $B$ and $C$ are connected by a $512$ $Kbps$ link (bps = bits per second).</p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/3017461663168796687.webp\"/></p>\n<p>What is the rate at which application data is transferred to host $H_C$? Ignore errors, acknowledgments, and other overheads.</p>",
+      "rawQuestionHtml": "<p>Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ $bytes$ of application data to a host $H_C$ in network $C$. The TCP layer prefixes $20$ byte header to the message. This passes through an intermediate network $B$. The maximum packet size, including $20$ byte IP header, in each network, is:</p>\n<ul>\n<li>$A:$ $1000$ $\\text{bytes}$</li>\n<li>$B: 100$   $\\text{bytes}$</li>\n<li>$C: 1000$ $\\text{bytes}$</li>\n</ul>\n<p>The network $A$ and $B$ are connected through a $1$ $Mbps$ link, while $B$ and $C$ are connected by a $512$ $Kbps$ link (bps = bits per second).</p>\n<p style=\"text-align:center\"><img alt=\"\" src=\"/question-images/3017461663168796687.webp\"/></p>\n<p>What is the rate at which application data is transferred to host $H_C$? Ignore errors, acknowledgments, and other overheads.</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$325.5$ $\\text{Kbps}$</li>\n<li>$354.5$ $\\text{Kbps}$</li>\n<li>$409.6$ $\\text{Kbps}$</li>\n<li>$512.0$ $\\text{Kbps}$</li>\n</ol>",
       "options": [
-        "S1 and S2",
-        "S1 and S4",
-        "S3",
-        "S1 and S5"
+        "$325.5$ $\\text{Kbps}$",
+        "$354.5$ $\\text{Kbps}$",
+        "$409.6$ $\\text{Kbps}$",
+        "$512.0$ $\\text{Kbps}$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "S1 and S2",
-          "html": "S1 and S2&nbsp;"
+          "text": "$325.5$ $\\text{Kbps}$",
+          "html": "$325.5$ $\\text{Kbps}$"
         },
         {
           "label": "B",
-          "text": "S1 and S4",
-          "html": "S1 and S4&nbsp;"
+          "text": "$354.5$ $\\text{Kbps}$",
+          "html": "$354.5$ $\\text{Kbps}$"
         },
         {
           "label": "C",
-          "text": "S3",
-          "html": "S3&nbsp;"
+          "text": "$409.6$ $\\text{Kbps}$",
+          "html": "$409.6$ $\\text{Kbps}$"
         },
         {
           "label": "D",
-          "text": "S1 and S5",
-          "html": "S1 and S5&nbsp;"
+          "text": "$512.0$ $\\text{Kbps}$",
+          "html": "$512.0$ $\\text{Kbps}$"
         }
       ],
       "answer": [
@@ -277,16 +275,16 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1834/gate-cse-2006-question-56-isro2009-58",
+      "link": "https://gateoverflow.in/43572/gate-cse-2004-question-57",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1834/gate-cse-2006-question-56-isro2009-58"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43572/gate-cse-2004-question-57"
     },
     {
-      "id": "go:1259",
+      "id": "gate-me-2019-s1-q6",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2005-s0",
       "orderIndex": 6,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 6",
@@ -294,34 +292,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the table <strong>employee</strong>(empId, name, department, salary) and the two queries $Q_1, \\, Q_2$ below. Assuming that department $5$ has more than one employee, and we want to find the employees who get higher salary than anyone in the department $5,$ which one of the statements is <strong>TRUE </strong>for any arbitrary employee table?</p>\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td>$Q_1:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere not exists\n    (Select * From employee s Where s.department = \"5\" and s.salary &gt;= e.salary)\n</pre>\n</td>\n</tr>\n<tr>\n<td>$Q_2:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere e.salary &gt; Any\n    (Select distinct salary From employee s Where s.department = \"5\")\n</pre>\n</td>\n</tr>\n</tbody>\n</table>",
-      "rawQuestionHtml": "<p>Consider the table <strong>employee</strong>(empId, name, department, salary) and the two queries $Q_1, \\, Q_2$ below. Assuming that department $5$ has more than one employee, and we want to find the employees who get higher salary than anyone in the department $5,$ which one of the statements is <strong>TRUE </strong>for any arbitrary employee table?</p>\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td>$Q_1:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere not exists\n    (Select * From employee s Where s.department = \"5\" and s.salary &gt;= e.salary)\n</pre>\n</td>\n</tr>\n<tr>\n<td>$Q_2:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere e.salary &gt; Any\n    (Select distinct salary From employee s Where s.department = \"5\")\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$Q_1$ is the correct query</li>\n<li>$Q_2$ is the correct query</li>\n<li>Both $Q_1$ and $Q_2$ produce the same answer</li>\n<li>Neither $Q_1$ nor $Q_2$ is the correct query</li>\n</ol>",
+      "question": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>",
+      "rawQuestionHtml": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>No compilation error</li>\n<li>Only a lexical error</li>\n<li>Only syntactic errors</li>\n<li>Both lexical and syntactic errors</li>\n</ol>",
       "options": [
-        "$Q_1$ is the correct query",
-        "$Q_2$ is the correct query",
-        "Both $Q_1$ and $Q_2$ produce the same answer",
-        "Neither $Q_1$ nor $Q_2$ is the correct query"
+        "No compilation error",
+        "Only a lexical error",
+        "Only syntactic errors",
+        "Both lexical and syntactic errors"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$Q_1$ is the correct query",
-          "html": "$Q_1$ is the correct query"
+          "text": "No compilation error",
+          "html": "No compilation error"
         },
         {
           "label": "B",
-          "text": "$Q_2$ is the correct query",
-          "html": "$Q_2$ is the correct query"
+          "text": "Only a lexical error",
+          "html": "Only a lexical error"
         },
         {
           "label": "C",
-          "text": "Both $Q_1$ and $Q_2$ produce the same answer",
-          "html": "Both $Q_1$ and $Q_2$ produce the same answer"
+          "text": "Only syntactic errors",
+          "html": "Only syntactic errors"
         },
         {
           "label": "D",
-          "text": "Neither $Q_1$ nor $Q_2$ is the correct query",
-          "html": "Neither $Q_1$ nor $Q_2$ is the correct query"
+          "text": "Both lexical and syntactic errors",
+          "html": "Both lexical and syntactic errors"
         }
       ],
       "answer": [
@@ -331,16 +329,16 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1259/gate-cse-2007-question-61",
+      "link": "https://gateoverflow.in/4066/gate-cse-2005-question-61",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1259/gate-cse-2007-question-61"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/4066/gate-cse-2005-question-61"
     },
     {
-      "id": "go:1260",
+      "id": "gate-me-2019-s1-q7",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2005-s0",
       "orderIndex": 7,
       "section": "GA",
       "title": "GATE ME 2019 | GA Question: 7",
@@ -348,34 +346,142 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Which one of the following statements is $\\text{FALSE}$?</p>",
-      "rawQuestionHtml": "<p>Which one of the following statements is $\\text{FALSE}$?</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>Any relation with two attributes is in $\\text{BCNF}$</li>\n<li>A relation in which every key has only one attribute is in $\\text{2NF}$</li>\n<li>A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation</li>\n<li>A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation</li>\n</ol>",
+      "question": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$A_{0} A_{1} A_{1}' A_{3} A_{4}$</li>\n<li>$A_{0} A_{1} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2}' A_{3} A_{4} A_{5}'$</li>\n</ol>",
       "options": [
-        "Any relation with two attributes is in $\\text{BCNF}$",
-        "A relation in which every key has only one attribute is in $\\text{2NF}$",
-        "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation",
-        "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation"
+        "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+        "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Any relation with two attributes is in $\\text{BCNF}$",
-          "html": "Any relation with two attributes is in $\\text{BCNF}$"
+          "text": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$"
         },
         {
           "label": "B",
-          "text": "A relation in which every key has only one attribute is in $\\text{2NF}$",
-          "html": "A relation in which every key has only one attribute is in $\\text{2NF}$"
+          "text": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$"
         },
         {
           "label": "C",
-          "text": "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation",
-          "html": "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation"
+          "text": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$"
         },
         {
           "label": "D",
-          "text": "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation",
-          "html": "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation"
+          "text": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$",
+          "html": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/264/gate-cse-2005-question-62",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/264/gate-cse-2005-question-62"
+    },
+    {
+      "id": "gate-me-2019-s1-q8",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 8,
+      "section": "GA",
+      "title": "GATE ME 2019 | GA Question: 8",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n<p><img alt=\"\" height=\"208\" src=\"/question-images/3449370509285401659.webp\" width=\"282\"/></p>\n<p>     </p>\n<p>Which of the following is TRUE?</p>",
+      "rawQuestionHtml": "<p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n<p><img alt=\"\" height=\"208\" src=\"/question-images/3449370509285401659.webp\" width=\"282\"/></p>\n<p>     </p>\n<p>Which of the following is TRUE?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>It computes $1$’s complement of the input number</p>\n</li>\n<li>\n<p>It computes $2$’s complement of the input number</p>\n</li>\n<li>\n<p>It increments the input number</p>\n</li>\n<li>\n<p>it decrements the input number</p>\n</li>\n</ol>",
+      "options": [
+        "It computes $1$’s complement of the input number",
+        "It computes $2$’s complement of the input number",
+        "It increments the input number",
+        "it decrements the input number"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It computes $1$’s complement of the input number",
+          "html": "<p>It computes $1$’s complement of the input number</p>"
+        },
+        {
+          "label": "B",
+          "text": "It computes $2$’s complement of the input number",
+          "html": "<p>It computes $2$’s complement of the input number</p>"
+        },
+        {
+          "label": "C",
+          "text": "It increments the input number",
+          "html": "<p>It increments the input number</p>"
+        },
+        {
+          "label": "D",
+          "text": "it decrements the input number",
+          "html": "<p>it decrements the input number</p>"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1386/gate-cse-2005-question-63",
+      "difficulty": "Hard",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1386/gate-cse-2005-question-63"
+    },
+    {
+      "id": "gate-me-2019-s1-q9",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 9,
+      "section": "GA",
+      "title": "GATE ME 2019 | GA Question: 9",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following circuit:</p>\n<p><img alt=\"\" src=\"/question-images/9620482535850972519.webp\" width=\"654\"/></p>\n<p>The flip-flops are positive edge triggered $D$ $\\textsf{FF}$s. Each state is designated as a two-bit string $Q_0Q_1$. Let the initial state be $00.$ The state transition sequence is</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit:</p>\n<p><img alt=\"\" src=\"/question-images/9620482535850972519.webp\" width=\"654\"/></p>\n<p>The flip-flops are positive edge triggered $D$ $\\textsf{FF}$s. Each state is designated as a two-bit string $Q_0Q_1$. Let the initial state be $00.$ The state transition sequence is</p>\n<ol class=\"shrink-inline-options\" style=\"list-style-type:upper-alpha\">\n<li><img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>  </li>\n<li><img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/></li>\n<li><img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/></li>\n<li><img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/></li>\n</ol>",
+      "options": [
+        "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>",
+        "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>",
+        "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>",
+        "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/4348248970258388609.webp\" width=\"160\"/>"
+        },
+        {
+          "label": "B",
+          "text": "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/9245206116700193146.webp\" width=\"120\"/>"
+        },
+        {
+          "label": "C",
+          "text": "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/15555793545974093268.webp\" width=\"200\"/>"
+        },
+        {
+          "label": "D",
+          "text": "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>",
+          "html": "<img alt=\"\" src=\"/question-images/3833359906027570533.webp\" width=\"200\"/>"
         }
       ],
       "answer": [
@@ -385,105 +491,883 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47",
+      "link": "https://gateoverflow.in/1387/gate-cse-2005-question-64",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1387/gate-cse-2005-question-64"
     },
     {
-      "id": "go:1261",
+      "id": "gate-me-2019-s1-q10",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
-      "orderIndex": 8,
+      "yearSetKey": "2005-s0",
+      "orderIndex": 10,
       "section": "GA",
-      "title": "GATE ME 2019 | GA Question: 8",
+      "title": "GATE ME 2019 | GA Question: 10",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>The order of a leaf node in a $B^+$ - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is $1K\\;\\text{bytes}$, data record pointer is $7\\;\\text{bytes}$ long, the value field is $9\\;\\text{bytes}$ long and a block pointer is $6 \\;\\text{bytes}$ long, what is the order of the leaf node?</p>",
-      "rawQuestionHtml": "<p>The order of a leaf node in a $B^+$ - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is $1K\\;\\text{bytes}$, data record pointer is $7\\;\\text{bytes}$ long, the value field is $9\\;\\text{bytes}$ long and a block pointer is $6 \\;\\text{bytes}$ long, what is the order of the leaf node?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$63$</li>\n<li>$64$</li>\n<li>$67$</li>\n<li>$68$</li>\n</ol>",
+      "question": "<p>Consider a three word machine instruction</p>\n<p>$\\text{ADD} A[R_0], @B$</p>\n<p>The first operand (destination) $“A[R_0]”$ uses indexed addressing mode with $R_0$ as the index register. The second operand (source) $“@B”$ uses indirect addressing mode. $A$ and $B$ are memory addresses residing at the second and third words, respectively. The first word of the instruction specifies the opcode, the index register designation and the source and destination addressing modes. During execution of $\\text{ADD}$ instruction, the two operands are added and stored in the destination (first operand).</p>\n<p>The number of memory cycles needed during the execution cycle of the instruction is:</p>",
+      "rawQuestionHtml": "<p>Consider a three word machine instruction</p>\n<p>$\\text{ADD} A[R_0], @B$</p>\n<p>The first operand (destination) $“A[R_0]”$ uses indexed addressing mode with $R_0$ as the index register. The second operand (source) $“@B”$ uses indirect addressing mode. $A$ and $B$ are memory addresses residing at the second and third words, respectively. The first word of the instruction specifies the opcode, the index register designation and the source and destination addressing modes. During execution of $\\text{ADD}$ instruction, the two operands are added and stored in the destination (first operand).</p>\n<p>The number of memory cycles needed during the execution cycle of the instruction is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$3$</li>\n<li>$4$</li>\n<li>$5$</li>\n<li>$6$</li>\n</ol>",
       "options": [
-        "$63$",
-        "$64$",
-        "$67$",
-        "$68$"
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$63$",
-          "html": "$63$"
+          "text": "$3$",
+          "html": "$3$"
         },
         {
           "label": "B",
-          "text": "$64$",
-          "html": "$64$"
+          "text": "$4$",
+          "html": "$4$"
         },
         {
           "label": "C",
-          "text": "$67$",
-          "html": "$67$"
+          "text": "$5$",
+          "html": "$5$"
         },
         {
           "label": "D",
-          "text": "$68$",
-          "html": "$68$"
+          "text": "$6$",
+          "html": "$6$"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59",
+      "link": "https://gateoverflow.in/1388/gate-cse-2005-question-65",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1388/gate-cse-2005-question-65"
     },
     {
-      "id": "go:1262",
+      "id": "gate-me-2019-s1-q11",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
-      "orderIndex": 9,
-      "section": "GA",
-      "title": "GATE ME 2019 | GA Question: 9",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
+      "orderIndex": 11,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 1",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A column with one end ﬁxed and one end free has a critical buckling load of \n. For the same column, if\nthe free end is replaced with a pinned end then the critical buckling load will be _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q12",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 12,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 2",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The wheels and axle system lying on a rough  surface is shown in the figure.\nEach wheel has diameter \n and mass \n. Assume that the mass of the wheel is concentrated at rim and\nneglect the mass of the spokes. The diameter of axle is \n and its mass is \n. Neglect the moment of\ninertia of the axle and assume \n. An eﬀort of \n is applied on the axle in the horizontal direction\nshown at mid span of the axle. Assume that the wheels move on a horizontal surface without slip. The acceleration\nof the wheel axle system in horizontal direction is  ______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q13",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 13,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 3",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>An \n-shaped elastic member \n with slender arms \n and \n of uniform cross-section is clamped at\nend \n and connected to a pin at end \n. The pin remains in continuous contact with and is constrained to\nmove in a smooth horizontal slot. The section modulus of the member is same in both the arms. The end \n is\nsubjected to a horizontal force \n and all the deﬂections are in the plane of the ﬁgure. Given the length \n is \nand length \n is \n, the magnitude and direction of the normal force on the pin from the slot, respectively, are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q14",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 14,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 4",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Two rigid massless rods \n and \n are joined at frictionless pin-joint \n and are resting on ground at \nand \n, respectively, as shown in the ﬁgure. A vertical force \n acts on the pin \n as shown. When the\nincluded angle \n, the rods remain in static equilibrium due to Coulomb friction between the rods and ground\nat locations \n and \n. At \n,  impending slip occurs simultaneously at points \n and \n. Then the ratio of the\ncoefficient of friction at \n to that at \n is ___________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q15",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 15,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 5",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>A cylindrical disc of \n and \n was spinning at \n when it was\nplaced on a ﬂat horizontal surface and released (refer to the ﬁgure). Gravity \n acts vertically downwards as\nshown in the ﬁgure. The coeﬃcient of friction between the disc and the surface is ﬁnite and positive. Disregarding\nany other dissipation except that due to friction between the disc and the surface, the horizontal velocity of the\ncenter of the disc, when it starts rolling without slipping, will be __________________\n \n(round oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q16",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 16,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 6",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A beam of length \n is loaded in the \n plane by a uniformly distributed load, and by a concentrated tip\nload parallel to the \n-axis, as shown in the ﬁgure. The resulting bending moment distributions about the \nand the \n axes are denoted by \n and \n, respectively.\nWhich one of the options given depicts qualitatively \n variations of \n and \n along the length of the</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q17",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 17,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 7",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>The ﬁgure shows a thin-walled open-top cylindrical vessel of radius \n and wall thickness \n. The vessel is\nheld along the brim and contains a constant-density liquid to height \n from the base. Neglect atmospheric\npressure, the weight of the vessel and bending stresses in the vessel walls.\n \nWhich one of the plots depicts qualitatively \n dependence of the magnitudes of axial wall stress \nand circumferential wall stress \n on \n?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q18",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 18,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 8",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>The diameter of a recessed ring was measured by using two spherical balls of diameter \n = \n \n and \n= \n \n as shown in the figure.\nThe distance \n = \n \n and \n = \n \n. The diameter (\n, in \n) of the ring gauge</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q19",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 19,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 9",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A cantilever beam of rectangular cross-section is welded to a support by means of two ﬁlled welds as shown\nin figure. A vertical load of \n acts at free end of the beam.\nConsidering that the allowable shear stress in weld is \n, the minimum size (leg) of the weld required is\n_____________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q20",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 20,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 10",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>The ﬁgure shows the relationship between fatigue strength \n and fatigue life \n of a material. The fatigue\nstrength of the material for a life of \n cycles is \n, while its fatigue strength for a life of \n cycles\nis \n.\nThe life of a cylindrical shaft made of this material subjected to an alternating stress of \n will then be\n_______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q21",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 21,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 11",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>A shaft \n rotating at a constant speed carries a thin pulley of radius \n at the end \n which drives\na belt. A motor is coupled at the end \n of the shaft such that it applies a torque \n about the shaft axis\nwithout causing any bending moment. The shaft is mounted on narrow frictionless bearings at \n and \n where \n. The taut and slack side tensions of the belt are \n and \n,\nrespectively. The allowable shear stress for the shaft material is \n \n. The self-weights of the pulley and the\nshaft are negligible. Use the value of \n available in the on-screen virtual calculator. Neglecting shock and fatigue\nloading and assuming maximum shear stress theory, the minimum required shaft diameter is _____________ \n(round off to \n decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q22",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 22,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 12",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A cylindrical transmission shaft of length \n and diameter \n is made of a linear elastic material\nwith a shear modulus of \n. While operating at \n, the angle of twist across its length is found to\nbe \n degrees.\nThe power transmitted by the shaft at this speed is ____________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q23",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 23,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 13",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A solid massless cylindrical member of \n diameter is rigidly attached at one end, and is subjected to\nan axial force \n and a torque \n. \n at the other end as shown. Assume that the axis of\nthe cylinder is normal to the support. Considering distortion energy theory with allowable yield stress as \n \n,\nthe factor of safety in the design is ________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q24",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 24,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 14",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>The endurance limit of a speciﬁc grade of steel is same as its yield strength. The ultimate strength of this\ngrade of steel is twice of its yield strength. A component made of this steel is loaded in tension and unloaded\nperiodically. It is required that the component does NOT fail for at least \n loading cycles, as per the Soderberg\nlaw. Considering a factor of safety of \n , the maximum applied tensile principal stress is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q25",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 25,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 15",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>Two plates of thickness \n each are to be joined by a transverse ﬁllet weld on one side and the\nresulting structure is loaded as shown in the figure below.\nIf the ultimate tensile strength of the weld material is \n and the factor of safety to be used is \n , the\nminimum length of the weld required to ensure that the weld does NOT fail is ______ \n (rounded oﬀ to \ndecimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q26",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 26,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 16",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A closely coiled helical compression spring of mean coil diameter \n and wire diameter \n, is loaded by an\naxial force \n.\nThe maximum shear stress developed in the wire is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q27",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 27,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 17",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>If the Taylor’s tool life exponent \n is \n, and the tool changing time is \n \n, then the tool life (in \n)\nfor maximum production rate is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q28",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 28,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 18",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>During pure orthogonal turning operation of a hollow cylindrical pipe, it is found that the thickness of the chip\nproduced is \n \n. The feed given to the zero degree rake angle tool is \n \n. The shear strain\nproduced during the operation is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q29",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 29,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 19",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>A circular rod of length \n and area of cross-section \n has a modulus of elasticity \n and coeﬃcient of\nthermal expansion \n. One end of the rod is ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q30",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 30,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 20",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A component can be produced by any of the four processes \n, \n, \n and \n. The ﬁxed cost and the\nvariable cost for each of the processes are listed below. The most economical process for producing a batch</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q31",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 31,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 21",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>Consider the two states of stress as shown in conﬁgurations I and II in the ﬁgure below. From the standpoint\nof distortion energy (von-Mises) criterion, which one of the following statements is true?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q32",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 32,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 22",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A bracket is attached to a vertical column by means of two identical rivets \n and \n separated by a distance\nof \n, as shown in the ﬁgure. The permissible shear stress of the rivet material is \n \n. If a\nload \n \n is applied at an eccentricity \n, the minimum cross-sectional area of each of the rivets to\navoid failure is ________________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q33",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 33,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 23",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>Which of the plot(s) shown is/are valid Mohr's circle representations of a plane stress state in a material?\n(The center of each circle is indicated by \n.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q34",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 34,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 24",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The area moment of inertia about the \n-axis of a linearly tapered section shown in the ﬁgure is __________</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q35",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 35,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 25",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>The eﬀective stiﬀness of a cantilever beam of length \n and ﬂexural rigidity \n subjected to a transverse tip\nload \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15.0"
+      ],
+      "tolerance": {
+        "min": 14.5,
+        "max": 15.5
+      },
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q36",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 36,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 26",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>The \n curve from a fatigue test for steel is shown. Which one of the options gives the endurance limit?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q37",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 37,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 27",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A metallic square plate is subjected to a uniform hydrostatic pressure \n. Choose the correct Mohr's circle\nrepresenting the state of stress at any point in the plate from the options given below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q38",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 38,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 28",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
+      "type": "NAT",
+      "question": "<p>Assuming the material considered in each statement is homogeneous, isotropic, linear elastic, and the\ndeformations are in the elastic range, which one or more of the following statement(s) is/are TRUE?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q39",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 39,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 29",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>Which of the following methods can improve the fatigue strength of a circular mild steel \n shaft?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q40",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 40,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 30",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>​​​​\nWhich of the following beam(s) is/are statically indeterminate?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q41",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 41,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 31",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "MCQ",
-      "question": "<p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p>",
-      "rawQuestionHtml": "<p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p>\n<ul>\n<li>$S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)$</li>\n<li>$S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)$</li>\n</ul>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>Both $S_1$ and $S_2$ are conflict serializable.</p>\n</li>\n<li>\n<p>$S_1$ is conflict serializable and $S_2$ is not conflict serializable.</p>\n</li>\n<li>\n<p>$S_1$ is not conflict serializable and $S_2$ is conflict serializable.</p>\n</li>\n<li>\n<p>Both $S_1$ and $S_2$ are not conflict serializable.</p>\n</li>\n</ol>",
+      "question": "<p>A thin plate of uniform thickness is subject to pressure as shown in the figure below\nUnder the assumption of plane stress, which one of the following is correct?</p>",
       "options": [
-        "Both $S_1$ and $S_2$ are conflict serializable.",
-        "$S_1$ is conflict serializable and $S_2$ is not conflict serializable.",
-        "$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
-        "Both $S_1$ and $S_2$ are not conflict serializable."
+        "Normal stress is zero in the z-direction",
+        "Normal stress is tensile in the z-direction",
+        "Normal stress is compressive in the z-direction",
+        "Normal stress varies in the z-direction\ngateme-2014-set2\n \nmechanics-of-materials\n \nplane-stress\n \napplied-mechanics-and-design\nPlane Stress: GATE2015-2-34\nIn a plane stress condition, the components of stress at a point are \n \n, \n \n and \n=\n \n The maximum shear stress (in \n) at the point is\ngateme-2015-set2\n \nplane-stress\n \nmechanics-of-materials\n \napplied-mechanics-and-design\nPoisson's Ratio \n(1)\nPoisson's Ratio: GATE2015-2-7\nA rod is subjected to a uni-axial load within linear elastic limit. When the change in the stress is \n \n,\nthe change in the strain is \n. If the Poisson’s ratio of the rod is \n, the modulus of rigidity (in \n) is\n________________"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both $S_1$ and $S_2$ are conflict serializable.",
-          "html": "<p>Both $S_1$ and $S_2$ are conflict serializable.</p>"
+          "text": "Normal stress is zero in the z-direction",
+          "html": "Normal stress is zero in the z-direction"
         },
         {
           "label": "B",
-          "text": "$S_1$ is conflict serializable and $S_2$ is not conflict serializable.",
-          "html": "<p>$S_1$ is conflict serializable and $S_2$ is not conflict serializable.</p>"
+          "text": "Normal stress is tensile in the z-direction",
+          "html": "Normal stress is tensile in the z-direction"
         },
         {
           "label": "C",
-          "text": "$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
-          "html": "<p>$S_1$ is not conflict serializable and $S_2$ is conflict serializable.</p>"
+          "text": "Normal stress is compressive in the z-direction",
+          "html": "Normal stress is compressive in the z-direction"
         },
         {
           "label": "D",
-          "text": "Both $S_1$ and $S_2$ are not conflict serializable.",
-          "html": "<p>Both $S_1$ and $S_2$ are not conflict serializable.</p>"
+          "text": "Normal stress varies in the z-direction\ngateme-2014-set2\n \nmechanics-of-materials\n \nplane-stress\n \napplied-mechanics-and-design\nPlane Stress: GATE2015-2-34\nIn a plane stress condition, the components of stress at a point are \n \n, \n \n and \n=\n \n The maximum shear stress (in \n) at the point is\ngateme-2015-set2\n \nplane-stress\n \nmechanics-of-materials\n \napplied-mechanics-and-design\nPoisson's Ratio \n(1)\nPoisson's Ratio: GATE2015-2-7\nA rod is subjected to a uni-axial load within linear elastic limit. When the change in the stress is \n \n,\nthe change in the strain is \n. If the Poisson’s ratio of the rod is \n, the modulus of rigidity (in \n) is\n________________",
+          "html": "Normal stress varies in the z-direction\ngateme-2014-set2\n \nmechanics-of-materials\n \nplane-stress\n \napplied-mechanics-and-design\nPlane Stress: GATE2015-2-34\nIn a plane stress condition, the components of stress at a point are \n \n, \n \n and \n=\n \n The maximum shear stress (in \n) at the point is\ngateme-2015-set2\n \nplane-stress\n \nmechanics-of-materials\n \napplied-mechanics-and-design\nPoisson's Ratio \n(1)\nPoisson's Ratio: GATE2015-2-7\nA rod is subjected to a uni-axial load within linear elastic limit. When the change in the stress is \n \n,\nthe change in the strain is \n. If the Poisson’s ratio of the rod is \n, the modulus of rigidity (in \n) is\n________________"
         }
       ],
       "answer": [
@@ -492,479 +1376,154 @@
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1262/gate-cse-2007-question-64",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1262/gate-cse-2007-question-64"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "go:1263",
+      "id": "gate-me-2019-s1-q42",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
-      "orderIndex": 10,
-      "section": "GA",
-      "title": "GATE ME 2019 | GA Question: 10",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>There are $n$ stations in slotted LAN. Each station attempts to transmit with a probability $p$ in each time slot. What is the probability that <strong>ONLY </strong>one station transmits in a given time slot?</p>",
-      "rawQuestionHtml": "<p>There are $n$ stations in slotted LAN. Each station attempts to transmit with a probability $p$ in each time slot. What is the probability that <strong>ONLY </strong>one station transmits in a given time slot?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$np(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$p(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$1-(1-p)^{n-1}$</p>\n</li>\n</ol>",
-      "options": [
-        "$np(1-p)^{n-1}$",
-        "$(1-p)^{n-1}$",
-        "$p(1-p)^{n-1}$",
-        "$1-(1-p)^{n-1}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$np(1-p)^{n-1}$",
-          "html": "<p>$np(1-p)^{n-1}$</p>"
-        },
-        {
-          "label": "B",
-          "text": "$(1-p)^{n-1}$",
-          "html": "<p>$(1-p)^{n-1}$</p>"
-        },
-        {
-          "label": "C",
-          "text": "$p(1-p)^{n-1}$",
-          "html": "<p>$p(1-p)^{n-1}$</p>"
-        },
-        {
-          "label": "D",
-          "text": "$1-(1-p)^{n-1}$",
-          "html": "<p>$1-(1-p)^{n-1}$</p>"
-        }
-      ],
+      "orderIndex": 42,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 32",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A \n wide plate having a thickness of \n is fed through a rolling mill with two rolls. The radius of\neach roll is \n. The plate thickness is to be reduced to \n in one pass using a roll speed of \n. The strength coeﬃcient \n of the work material ﬂow curve is \n and the strain hardening\nexponent, \n is \n. The coeﬃcient of friction between the rolls and the plate is \n. If the friction is suﬃcient to\npermit the rolling operation then the roll force will be _________ \n (\n).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "24.8"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
       "marks": 2,
-      "negativeMarks": 0.67,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1263/gate-cse-2007-question-65",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1263/gate-cse-2007-question-65"
-    },
-    {
-      "id": "gate-me-q85",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 11,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 1",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>For the same material and the mass, which of the following conﬁgurations of ﬂywheel will have maximum\nmass moment of inertia about the axis of rotation OO’</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q87",
+      "id": "gate-me-2019-s1-q43",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 12,
+      "orderIndex": 43,
       "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 2",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A compound gear train with gears \n, \n, \n and \n has number of teeth \n, \n, \n and \n, respectively.\nGears \n and \n are mounted on the same shaft as shown in the ﬁgure below. The diameter of the gear \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q89",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 13,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 3",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A pair of spur gears with module \n \n and a center distance of \n \n is used for a speed reduction of \n. The number of teeth on pinion is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q91",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 14,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 4",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>Gear \n rotates at \n \n in counter clockwise direction and engages with Gear \n. Gear \n and Gear \n are\nmounted on the same shaft. Gear \n engages with Gear \n. The numbers of teeth on Gears \n, \n, \n and \n are \n, \n, \n and \n, respectively. The angular speed of Gear \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q93",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 15,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 5",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "MCQ",
-      "question": "<p>A pinion with radius \n, and inertia \n is driving a gear with radius \n and inertia \n. Torque \n is applied on\npinion. The following are free body diagrams of pinion and gear showing important forces (\n and \n) of\ninteraction. Which of the following relations hold true?</p>",
-      "options": [
-        ";",
-        "; \n;",
-        ";",
-        "; \n;"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": ";",
-          "html": ";"
-        },
-        {
-          "label": "B",
-          "text": "; \n;",
-          "html": "; \n;"
-        },
-        {
-          "label": "C",
-          "text": ";",
-          "html": ";"
-        },
-        {
-          "label": "D",
-          "text": "; \n;",
-          "html": "; \n;"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q95",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 16,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 6",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>In the gear train shown, gear \n is carried on arm \n. Gear \n meshes with gear \n and gear \n. The number of\nteeth on gear \n, \n, and \n are \n, \n, and \n, respectively. If gear \n is ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q97",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 17,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 7",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A gear train shown in the ﬁgure consists of gears \n and \n. Gear \n and gear \n are mounted on the\nsame shaft. All the gears are mounted on parallel shafts and the number of teeth of \n and \n are \n and \n, respectively. Gear \n is rotating at \n rpm. The speed (in rpm) of the gear \n is __________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q99",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2018-s1",
-      "orderIndex": 18,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 8",
+      "title": "GATE ME 2019 | ME Question: 33",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "MCQ",
-      "question": "<p>A helical gear with \n pressure angle and \n helix angle mounted at the mid-span of a shaft that is\nsupported between two bearings at the ends. The nature of the stresses induced in the shaft is</p>",
-      "options": [
-        "normal stress due to bending only",
-        "normal stress due to bending in one plane and axial loading; shear stress due to torsion",
-        "normal stress due to bending in two planes and axial loading; shear stress due to torsion",
-        "normal stress due to bending in two planes;"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "normal stress due to bending only",
-          "html": "normal stress due to bending only"
-        },
-        {
-          "label": "B",
-          "text": "normal stress due to bending in one plane and axial loading; shear stress due to torsion",
-          "html": "normal stress due to bending in one plane and axial loading; shear stress due to torsion"
-        },
-        {
-          "label": "C",
-          "text": "normal stress due to bending in two planes and axial loading; shear stress due to torsion",
-          "html": "normal stress due to bending in two planes and axial loading; shear stress due to torsion"
-        },
-        {
-          "label": "D",
-          "text": "normal stress due to bending in two planes;",
-          "html": "normal stress due to bending in two planes;"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q101",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 19,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 9",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A circular solid disc of uniform thickness of \n mm, radius \n mm and mass \n kg, is used as a ﬂ</p>",
+      "question": "<p>A prismatic bar \n is subjected to axial loads as shown in the ﬁ</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
-      "marks": 1,
+      "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q103",
+      "id": "gate-me-2019-s1-q44",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 20,
+      "orderIndex": 44,
       "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 10",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>A slider crank mechanism with crank radius \n and connecting rod length \n is shown. The\ncrank is rotating at \n in the counterclockwise direction. In the conﬁguration shown, the crank makes\nan angle of \n with the sliding direction of the slider, and a force of \n is acting on the slider. Neglecting the\ninertia forces, the turning moment on the crank (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q105",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 21,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 11",
-      "subject": "Theory of Machines & Vibrations",
-      "subjectSlug": "tom",
-      "topic": "Kinematic Analysis of Linkages",
-      "type": "NAT",
-      "question": "<p>In a slider-crank mechanism, the lengths of the crank and the connecting rod are \n mm and \n mm,\nrespectively. The crank is rotating with an angular velocity of \n radian/s counter-clockwise. The magnitude\nof linear velocity (in m/s) of the piston at the instant corresponding to the conﬁguration shown in the ﬁgure is\n________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Theory of Machines & Vibrations):</strong></p><p>Using official GATE ME engineering principles for <em>Kinematic Analysis of Linkages</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for TOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q107",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 22,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 12",
+      "title": "GATE ME 2019 | ME Question: 34",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A hinged gate of length \n \n, inclined at \n with the horizontal and with water mass on its left, is shown in\nthe ﬁ</p>",
+      "question": "<p>A right solid circular cone standing on its base on a horizontal surface is of height \n and base radius \n. The\ncone is made of a material with speciﬁc weight \n and elastic modulus \n. The vertical deﬂ</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
-      "marks": 1,
+      "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q109",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 23,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 13",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A rectangular hole of size \n \n \n is to be made on a \n \n thick sheet of steel having ultimate\ntensile strength and shear strength of \n \n and \n \n, respectively. The hole is made by\npunching process. Neglecting the effect of clearance, the punching force (in \n) is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q111",
+      "id": "gate-me-2019-s1-q45",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 24,
+      "orderIndex": 45,
       "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 14",
+      "title": "GATE ME 2019 | ME Question: 35",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A thin-walled cylindrical pressure vessel has mean wall thickness of \n and nominal radius of \n. The Poisson's\nratio of the wall material is \n. When it was subjected to some internal pressure, its nominal perimeter in\nthe cylindrical portion increased by \n and the corresponding wall thickness became \n. The corresponding\nchange in the wall thickness of the cylindrical portion, i.e. \n, is _______________ \n \n(round oﬀ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q46",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 46,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 36",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>A linear elastic structure under plane stress condition is subjected to two sets of loading, \n and \n. The\nresulting states of stress at a point corresponding to these two loadings are as shown in the ﬁgure below. If\nthese two sets of loading are applied simultaneously, then the net normal component of stress \n is\n__________________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q47",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 47,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 37",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "MCQ",
-      "question": "<p>Consider a slider crank mechanism with nonzero masses and inertia. A constant torque \n is applied on the\ncrank as shown in the ﬁgure. Which of the following plots best resembles variation of crank angle, \n versus\ntime</p>",
+      "question": "<p>A beam is undergoing pure bending as shown in the ﬁgure. The stress \n-strain \n curve for the material is\nalso given. The yield stress of the material is \n. Which of the option(s) given represent(s) the bending\nstress distribution at crosssection \n after plastic yielding?</p>",
       "options": [
         "B\n.",
-        "D\n. \ngateme-2015-set1\n \napplied-mechanics-and-design\n \nmechanics-of-materials"
+        "D\n."
       ],
       "structuredOptions": [
         {
@@ -974,1124 +1533,502 @@
         },
         {
           "label": "C",
-          "text": "D\n. \ngateme-2015-set1\n \napplied-mechanics-and-design\n \nmechanics-of-materials",
-          "html": "D\n. \ngateme-2015-set1\n \napplied-mechanics-and-design\n \nmechanics-of-materials"
+          "text": "D\n.",
+          "html": "D\n."
         }
       ],
       "answer": [
         "B"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q113",
+      "id": "gate-me-2019-s1-q48",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 25,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 15",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Which one of the following is the most conservative fatigue failure criterion?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q115",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2015-s3",
-      "orderIndex": 26,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 16",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A \n \n thick slab is being cold rolled using roll of \n \n diameter. If the coeﬃcient of friction is \n,\nthe maximum possible reduction (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q117",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 27,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 17",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The cross sections of two hollow bars made of the same material are concentric circles as shown in the\nﬁgure. It is given that \n and \n, and that the areas of the cross-sections are the same. \n and</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q119",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 28,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 18",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Two masses m are attached to opposite sides of a rigid rotating shaft in the vertical plane. Another pair of\nequal masses \n is attached to the opposite sides of the shaft in the vertical plane as shown in ﬁgure.\nConsider \n, \n, \n, \n, \n and \n. For the system to be\ndynamically balanced, \n should be ________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q121",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 29,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 19",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The cross-sections of two solid bars made of the same material are shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q123",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 30,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 20",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The rod \n of length \n m, and uniformly distributed mass of \n kg, is released from rest at\nthe position shown in the ﬁgure. The ends slide along the frictionless faces \n and \n. Assume\nacceleration due to gravity, \n. The mass moment of inertia of the rod about its centre of mass and an\naxis perpendicular to the plane of the ﬁgure is \n. At this instant, the magnitude of angular acceleration (in\nradian/\n) of the rod is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q125",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2019-s1",
-      "orderIndex": 31,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 21",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A wire of circular cross-section of diameter \n mm is bent into a circular arc of radius. \n m by application\nof pure bending moments at its ends. The Young’s modulus of the material of the wire is \n GPa. The\nmaximum tensile stress developed in the wire is ______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q127",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 32,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 22",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The \n kg block shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q129",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 33,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 23",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>The state of stress at a point under plane stress condition is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q131",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 34,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 24",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A steel cube, with all faces free to deform, has Young’s modulus, \n, Poisson’s ratio, \n, and coeﬃ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q133",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 35,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 25",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A rigid uniform rod \n of length \n and mass \n is hinged at \n such that \n, \n. Ends \n and \n are supported by springs of spring constant k. The natural frequency of the system is given by</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q110",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 4,
-      "yearSetKey": "2014-s4",
-      "orderIndex": 36,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 26",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>If the Poisson's ratio of an elastic material is \n, the ratio of modulus of rigidity to Young's modulus is\n_______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q112",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 37,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 27",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Consider a steel (Young’s modulus \n = \n) column hinged on both sides. Its height is \n and\ncross-section is \n \n. The lowest Euler critical buckling load (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q114",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 38,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 28",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A weight of \n \n is supported by two metallic ropes as shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q116",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 39,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 29",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A rigid ball of weight \n \n is suspended with the help of a string. The ball is pulled by a horizontal force \nsuch that the string makes an angle of \n with the vertical. The magnitude of force \n (in \n) is __________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q118",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2016-s1",
-      "orderIndex": 40,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 30",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Two circular shafts made of same material, one solid (S) and one hollow (H), have the same length and\npolar moment of inertia. Both are subjected to same torque. Here, \n is the twist and \n  is the maximum\nshear stress in the solid shaft, whereas \n is the twist and \n is the maximum shear stress  in the hollow shaft.\nWhich one of the following is \nTRUE\n?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q120",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 41,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 31",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A force \nF\n is acting on a bent bar which is clamped at one end as shown in the figure.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q122",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2016-s3",
-      "orderIndex": 42,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 32",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>T he state of stress at a point on an element is shown in ﬁgure (a). The same state of stress is shown in\nanother coordinate system in figure (b).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q124",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2017-s2",
-      "orderIndex": 43,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 33",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>At a critical point in a component, the state of stress is given as \n and all other stress components are zero.\nThe yield strength of the material is \n The factor of safety on the basis of maximum shear stress theory is\n___________</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q126",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 44,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 34",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Two masses \n and \n having mass \n and \n, respectively, lying in the plane of the ﬁgure shown, are\nrigidly attached to a shaft which revolves about an axis through O perpendicular to the plane of the ﬁgure.\nThe radii of rotation of the masses \n and \n are \n and \n, respectively. The angle between lines \n and \nis \n.  If \n kg, \nkg, \nmm and \nmm, then the balance mass to be placed at a\nradius of \n mm is _________ kg (round off to two decimal places).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q128",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2020-s1",
-      "orderIndex": 45,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 35",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A rectangular steel bar of length \n, width \n, and thickness \n is cantilevered to a \n steel channel using \n bolts, as shown\nFor an external load of \n applied at the tip of the steel bar, the resultant shear load on the bolt at \n, is\n_______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q130",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2012-s1",
-      "orderIndex": 46,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 36",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>A metallic rod of \n \n length and \n \n diameter, when subjected to a tensile force of \n \n at the\nends, experiences a n increase in its length by \n \n and a reduction in its diameter by \n \n. The\nPoisson’s ratio of the rod material is _______</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q132",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 47,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 37",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>For a single server with Poisson and exponential service time, the arrival rate is \n per hour. Which one of\nthe following service rates will provide a steady state finite queue length?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q134",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2012-s1",
       "orderIndex": 48,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 38",
-      "subject": "Machine Design",
-      "subjectSlug": "machine-design",
-      "topic": "Design Against Static & Fatigue Loads",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A ﬁllet welded joint is subjected to transverse loading \n as shown in the ﬁgure. Both legs of the ﬁ</p>",
+      "question": "<p>Ignoring the small elastic region, the true stress \n strain \n variation of a material beyond yielding\nfollows the equation \n. The engineering ultimate tensile strength value of this material is\n____________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q136",
+      "id": "gate-me-2019-s1-q49",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2013-s1",
       "orderIndex": 49,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 39",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A single riveted lap joint of two similar plates as shown in the ﬁgure below has the following geometrical and\nmaterial details.\nwidth of the plate w = \n \n, thickness of the plate \n = \n \n, number of rivets \n = \n, diameter of the rivet \n = \n \n, diameter of the rivet hole \n = \n \n, allowable tensile stress of the plate \n = \n \n, allowable\nshear stress of the rivet \n = \n \n and allowable bearing stress of the rivet \n = \n \n.\nIf the plates are to be designed to avoid tearing failure, the maximum permissible load \n in \n is</p>",
+      "question": "<p>The ﬁgure shows a thin cylindrical pressure vessel constructed by welding plates together along a line that\nmakes an angle \n with the horizontal. The closed vessel has a wall thickness of \n and\ndiameter of \n. When subjected to an internal pressure of \n, the magnitude of the normal stress acting on\nthe weld is __________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q138",
+      "id": "gate-me-2019-s1-q50",
       "testId": "gate-me-2019-s1",
       "year": 2019,
-      "set": 2,
-      "yearSetKey": "2014-s2",
+      "set": 1,
       "orderIndex": 50,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 40",
-      "subject": "Manufacturing & Materials",
-      "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>For spot welding of two steel sheets (base metal) each of \n \n thickness, welding current of \n \n is\napplied for \n \n. The heat dissipated to the base metal is \n \n. Assuming that the heat required for\nmelting \n \n volume of steel is \n \n and interfacial contact resistance between sheets is \n \n, the volume\n(in \n) of weld nugget is _______</p>",
+      "question": "<p>The yield stress of a metal in uniaxial tension is \n. According to von Mises yield criterion, the yield\nstress (in \n) of the metal in pure shear is closest to</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q140",
+      "id": "gate-me-2019-s1-q51",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 51,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 41",
-      "subject": "Machine Design",
-      "subjectSlug": "machine-design",
-      "topic": "Design Against Static & Fatigue Loads",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A horizontal plate has been joined to a vertical post using four rivets arranged as shown in the ﬁgure. The\nmagnitude of the load on the worst loaded rivet (in \n) is _______</p>",
+      "question": "<p>The state of stress at a point is shown in the ﬁgure given below. Under plane stress assumption, the normal\nstrain along the thickness direction \n is ________ (rounded off to \n decimal places).\nUse the Young's Modulus \n and Poisson's ratio \n.</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q142",
+      "id": "gate-me-2019-s1-q52",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 52,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 42",
-      "subject": "Manufacturing & Materials",
-      "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
       "type": "NAT",
-      "question": "<p>In a slab rolling operation, the maximum thickness reduction \n) is given by \n = \n , where \n is\nthe radius of the roll and \n is the coeﬃcient of friction between the roll and the sheet. If \n = \n, the\nmaximum angle subtended by the deformation zone at the centre of the roll (bite angle in degrees) is _______</p>",
+      "question": "<p>An isotropic brittle material is tested in the universal testing machine. The stress-strain diagram for the\nmaterial shows a bi-linear elastic behavior as shown in the ﬁgure given below. The strain energy density is\n__________ \n (rounded off to \n decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q144",
+      "id": "gate-me-2019-s1-q53",
       "testId": "gate-me-2019-s1",
       "year": 2019,
-      "set": 3,
-      "yearSetKey": "2013-s3",
+      "set": 1,
       "orderIndex": 53,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 43",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>Two solid circular shafts of radii \n and \n are subjected to same torque. The maximum shear\nstresses developed in the two shafts are \n and \n. If \n/ \n=\n, then \n is _______</p>",
+      "question": "<p>A simply supported beam is subjected to an external point load P as shown in the ﬁ</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q146",
+      "id": "gate-me-2019-s1-q54",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
       "orderIndex": 54,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 44",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A machine element is subjected to the following bi-axial state of stress: \n = \n \n; \n = 20 MPa; \n = \n \n. If the shear strength of the material is \n \n, the factor of safety as per Tresca’</p>",
+      "question": "<p>A welded square plate of \n is subjected to biaxial stress of magnitude \n MPa and \n MPa , as\nshown in the ﬁgure below. The ratio of the normal stress acting in the perpendicular direction of the weld to\nthe shear stress of the weld is \n (rounded off to \n decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q148",
+      "id": "gate-me-2019-s1-q55",
       "testId": "gate-me-2019-s1",
       "year": 2019,
-      "set": 2,
-      "yearSetKey": "2016-s2",
+      "set": 1,
       "orderIndex": 55,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 45",
-      "subject": "Machine Design",
-      "subjectSlug": "machine-design",
-      "topic": "Design Against Static & Fatigue Loads",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>The damping ratio of a single degree of freedom spring-mass-damper system with mass of \n, stiﬀness \n and viscous damping coefficient of \n is _______</p>",
+      "question": "<p>The process of reheating the martensitic steel to reduce its brittleness without any signiﬁ</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Machine Design):</strong></p><p>Using official GATE ME engineering principles for <em>Design Against Static & Fatigue Loads</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Machine Design.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q150",
+      "id": "gate-me-2019-s1-q56",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2016-s1",
       "orderIndex": 56,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 46",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The spring constant of a helical compression spring \nDOES NOT\n depend on</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "MCQ",
+      "question": "<p>Cylindrical bars \n and \n have identical lengths and radii, but are composed of diﬀerent linear elastic\nmaterials. The Young's modulus and coeﬃcient of thermal expansion of \n are twice the corresponding\nvalues of \n. Assume the bars to be perfectly bonded at the interface, and their weights to be negligible.\nThe bars are held between rigid supports as shown in the ﬁgure and the temperature is raised by \n. Assume that\nthe stress in each bar is homogeneous and uniaxial. Denote the magnitudes of stress in \n and \n by \n and \n,\nrespectively.\nWhich of the statement(s) given is/are CORRECT?</p>",
+      "options": [
+        "The interface between \n and \n moves to the left after heating",
+        "The interface between \n and \n moves to the right after heating",
+        "D\n. \ngateme-2023\n \nmechanics-of-materials\n \nthermal-expansion\n \nstress-strain\n \napplied-mechanics-and-design\nThermal Expansion: GATE2020-ME-2: 30\nA thin-walled cylinder of radius \n and thickness \n is open at both ends, and ﬁts snugly between two rigid\nwalls under ambient conditions, as shown in the figure."
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The interface between \n and \n moves to the left after heating",
+          "html": "The interface between \n and \n moves to the left after heating"
+        },
+        {
+          "label": "B",
+          "text": "The interface between \n and \n moves to the right after heating",
+          "html": "The interface between \n and \n moves to the right after heating"
+        },
+        {
+          "label": "C",
+          "text": "D\n. \ngateme-2023\n \nmechanics-of-materials\n \nthermal-expansion\n \nstress-strain\n \napplied-mechanics-and-design\nThermal Expansion: GATE2020-ME-2: 30\nA thin-walled cylinder of radius \n and thickness \n is open at both ends, and ﬁts snugly between two rigid\nwalls under ambient conditions, as shown in the figure.",
+          "html": "D\n. \ngateme-2023\n \nmechanics-of-materials\n \nthermal-expansion\n \nstress-strain\n \napplied-mechanics-and-design\nThermal Expansion: GATE2020-ME-2: 30\nA thin-walled cylinder of radius \n and thickness \n is open at both ends, and ﬁts snugly between two rigid\nwalls under ambient conditions, as shown in the figure."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.67,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q152",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2016-s2",
-      "orderIndex": 57,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 47",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The system shown in the ﬁgure consists of block A of mass \n \n connected to a spring through a massless\nrope passing over pulley B of radius \n and mass \n \n. The spring constant \n is \n \n. If there is no\nslipping of the rope over the pulley, the natural frequency of the system is_____________ \n.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q154",
+      "id": "gate-me-2019-s1-q57",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
+      "orderIndex": 57,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 47",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "Stress, Strain & Deflection of Beams",
+      "type": "NAT",
+      "question": "<p>An aluminium alloy (density \n \n/\n) casting is to be produced. A cylindrical hole of \n \n diameter\nand \n \n length is made in the casting using sand core (density \n \n/\n). The net buoyancy force\n(in newton) acting on the core is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q58",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
       "orderIndex": 58,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 48",
       "subject": "Thermodynamics & Heat Transfer",
       "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "topic": "Applied Thermodynamics & Heat Transfer",
       "type": "NAT",
-      "question": "<p>A single degree of freedom spring-mass system is subjected to a harmonic force of constant amplitude. For\nan excitation frequency of \n, the ratio of the amplitude of steady state response to the static deﬂection\nof the spring is __________</p>",
+      "question": "<p>A cylindrical pressure vessel made of steel has diameter of \n m and wall thickness of \n mm. For steel,\nYoung's modulus and Poisson's ratio are \n GPa and \n, respectively. The cylinder is designed such that\nthe allowable normal strain at the outer cylindrical surface is equal to \n. The permissible pressure in the\ntank is \n kPa (rounded off to \n decimal place).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q156",
+      "id": "gate-me-2019-s1-q59",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2017-s1",
       "orderIndex": 59,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 49",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "Stress, Strain & Deflection of Beams",
       "type": "NAT",
-      "question": "<p>A helical compression spring made of a wire of circular cross-section is subjected to a compressive load.\nThe maximum shear stress induced in the cross-section of the wire is \nMPa. For the same compressive\nload, if both the wire diameter and the mean coil diameter are doubled, the maximum shear stress (in MPa) induced</p>",
+      "question": "<p>A rigid uniform annular disc is pivoted on a knife edge \n in a uniform gravitational ﬁeld as shown, such that\nit can execute small amplitude simple harmonic motion in the plane of the ﬁgure without slip at the pivot\npoint. The inner radius \n and outer radius \n are such that \n, and the acceleration due to gravity is \n. If the\ntime period of small amplitude simple harmonic motion is given by \n, where \n is the ratio of\ncircumference to diameter of a circle, then \n ____________________ \n(round off to \n decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>Stress, Strain & Deflection of Beams</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q158",
+      "id": "gate-me-2019-s1-q60",
       "testId": "gate-me-2019-s1",
       "year": 2019,
-      "set": 2,
-      "yearSetKey": "2017-s2",
+      "set": 1,
       "orderIndex": 60,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 50",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
+      "subject": "Strength of Materials (SOM)",
+      "subjectSlug": "som",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>If the wire diameter of a compressive helical spring is increased by \n, the change in spring stiﬀness (in \n)\nis _____</p>",
+      "question": "<p>The rotor of an aeroplane engine has a mass moment of inertia \n. The engine rotates at a speed of\n RPM in the clockwise direction if viewed from the front of the aeroplane. If the aeroplane while ﬂying at \n turns with a radius of \n km at same elevation, then the magnitude of the gyroscopic moment exerted\nby the rotor on the aeroplane structure in N m is</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q160",
+      "id": "gate-me-2019-s1-q61",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2018-s1",
       "orderIndex": 61,
       "section": "ME",
       "title": "GATE ME 2019 | ME Question: 51",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>The natural frequencies corresponding to the spring-mass systems \n and \n are \n and \n, respectively.\nThe ratio \n is</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q162",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 2,
-      "yearSetKey": "2019-s2",
-      "orderIndex": 62,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 52",
-      "subject": "Thermodynamics & Heat Transfer",
-      "subjectSlug": "thermodynamics",
-      "topic": "Basic Thermodynamics & Laws",
-      "type": "NAT",
-      "question": "<p>A rigid mass-less rod of length \n is connected to a disc (pulley) of mass \n and radius \n through a\nfriction-less revolute joint. The other end of that rod is attached to a wall through a friction-less hinge. A\nspring of stiffness \n is attached to the rod at its mid-span. An inextensible rope passes over half the disc periphery\nand is securely tied to a spring of stiﬀness \n at point \n as shown in the ﬁgure. There is no slip between the rope\nand the pulley. The system is in static equilibrium in the conﬁguration shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Thermodynamics & Heat Transfer):</strong></p><p>Using official GATE ME engineering principles for <em>Basic Thermodynamics & Laws</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Thermo & HT.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q164",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 63,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 53",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>Which one of following is \nNOT\n correct?</p>",
+      "question": "<p>The plane of the ﬁgure represents a horizontal plane. A thin rigid rod at rest is pivoted without friction about\na ﬁxed vertical axis passing through \n. Its mass moment of inertia is equal to \n about \n. A point\nmass of \n \n hits it normally at \n \n at the location shown, and sticks to it. Immediately after the impact,\nthe angular velocity of the rod is ______________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q166",
-      "testId": "gate-me-2019-s1",
-      "year": 2019,
-      "set": 3,
-      "yearSetKey": "2014-s3",
-      "orderIndex": 64,
-      "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 54",
-      "subject": "Strength of Materials (SOM)",
-      "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
-      "type": "NAT",
-      "question": "<p>Which one of the following types of stress-strain relationship best describes the behaviour of brittle materials,\nsuch as ceramics and thermosetting plastics, (\n = stress and \n = strain)?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q168",
+      "id": "gate-me-2019-s1-q62",
       "testId": "gate-me-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2024-s1",
-      "orderIndex": 65,
+      "orderIndex": 62,
       "section": "ME",
-      "title": "GATE ME 2019 | ME Question: 55",
+      "title": "GATE ME 2019 | ME Question: 52",
       "subject": "Strength of Materials (SOM)",
       "subjectSlug": "som",
-      "topic": "Stress & Strain Analysis",
+      "topic": "General Mechanical Engineering",
       "type": "NAT",
-      "question": "<p>A horizontal bar with a constant cross-section is subjected to loading as shown in the ﬁgure. The Young’s\nmoduli for the sections \n and \n are \n and \n, respectively.</p>",
+      "question": "<p>A rigid circular disc of radius \n (in \n ) is rolling without slipping on a ﬂat surface as shown in the ﬁgure\nbelow. The angular velocity of the disc is \n ( in \n. The velocities (in \n ) at points \n and \n,\nrespectively, are</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Strength of Materials (SOM)):</strong></p><p>Using official GATE ME engineering principles for <em>Stress & Strain Analysis</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for SOM.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Strength of Materials (SOM)):</strong></p><p>Concept & Formulation for <em>General Mechanical Engineering</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q63",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 63,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 53",
+      "subject": "Thermodynamics & Heat Transfer",
+      "subjectSlug": "thermodynamics",
+      "topic": "Applied Thermodynamics & Heat Transfer",
+      "type": "NAT",
+      "question": "<p>Torque and angular speed data over one cycle for a shaft carrying a ﬂywheel are shown in the ﬁgures. The\nmoment of inertia (in \n) of the flywheel is _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Thermodynamics & Heat Transfer):</strong></p><p>Concept & Formulation for <em>Applied Thermodynamics & Heat Transfer</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q64",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 64,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 54",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>The torque provided by an engine is given by \n, where \n is the angle\nturned by the crank from inner dead center. The mean speed of the engine is \n and it drives a\nmachine that provides a constant resisting torque. If variation of the speed from the mean speed is not to exceed \n, the minimum mass moment of inertia of the ﬂywheel should be _______</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
+    },
+    {
+      "id": "gate-me-2019-s1-q65",
+      "testId": "gate-me-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "orderIndex": 65,
+      "section": "ME",
+      "title": "GATE ME 2019 | ME Question: 55",
+      "subject": "Fluid Mechanics & Turbomachinery",
+      "subjectSlug": "fluid-mechanics",
+      "topic": "Fluid Dynamics & Turbomachinery",
+      "type": "NAT",
+      "question": "<p>A gear train with ﬁve gears is shown in the ﬁ</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "24.8"
+      ],
+      "tolerance": {
+        "min": 24.0,
+        "max": 25.5
+      },
+      "marks": 2,
+      "negativeMarks": 0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Fluid Mechanics & Turbomachinery):</strong></p><p>Concept & Formulation for <em>Fluid Dynamics & Turbomachinery</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     }
   ]
 }

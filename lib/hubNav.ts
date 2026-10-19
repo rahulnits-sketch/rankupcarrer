@@ -10,7 +10,6 @@ export const gateNavPills: SubNavPill[] = [
   { label: "Preparation Guide", href: "/gate/preparation-guide" },
   { label: "Cutoffs", href: "/gate/cutoffs" },
   { label: "Eligibility", href: "/gate/eligibility" },
-  { label: "Important Questions", href: "/gate/important-questions" },
 ];
 
 export const dsaNavPills: SubNavPill[] = [

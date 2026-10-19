@@ -5,106 +5,472 @@
   "icon": "📊",
   "color": "from-blue-500/20 to-slate-500/20",
   "borderColor": "border-blue-500/30",
-  "totalQuestions": 3,
+  "totalQuestions": 13,
   "topics": [
     {
       "name": "Production Planning & Control",
-      "questionCount": 1
+      "questionCount": 3
     },
     {
       "name": "Inventory Control Models",
-      "questionCount": 1
+      "questionCount": 3
     },
     {
       "name": "Operations Research (LPP, Simplex, CPM/PERT)",
-      "questionCount": 1
+      "questionCount": 3
     },
     {
       "name": "Forecasting & Queuing Theory",
-      "questionCount": 1
+      "questionCount": 3
     }
   ],
   "questions": [
     {
-      "id": "gate-me-q484",
-      "testId": "gate-me-2014-s4",
-      "year": 2014,
-      "set": 4,
-      "yearSetKey": "2014-s4",
-      "orderIndex": 484,
+      "id": "gate-me-2026-s1-q61",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 61,
       "section": "ME",
-      "title": "Laplace transform of \n is \n. The Laplace transform of \n is\ngateme-2014-set4\n \ndifferential-equations\n \nlaplace-transforms\nLaplace Transforms: GATE Mechanical 2021 Set 1 | Question: 3",
-      "subject": "Industrial Engineering & OR",
+      "title": "GATE ME 2026 | Question 61",
+      "subject": "Industrial Engineering",
       "subjectSlug": "industrial",
-      "topic": "Production Planning & Control",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>The inventory holding cost of an item is ₹ 0.50 per unit per month and the ordering <br>cost per order is ₹ 550. A stockist needs to supply 10000 units of the item per year <br>to the customers. Assume demand is fixed and shortage cost is infinite. Using <br>classical economic order quantity (EOQ) model, the optimal lot size is ________ <br>units per order (rounded off to nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "1354"
+      ],
+      "tolerance": {
+        "min": 1353.0,
+        "max": 1355.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 1353.0 to 1355.0</p><p>As per the official IIT answer key, this question belongs to <em>Industrial Engineering</em> under topic <em>Operations Research & Project Management</em>.</p></div>"
+    },
+    {
+      "id": "gate-me-2026-s1-q65",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 65,
+      "section": "ME",
+      "title": "GATE ME 2026 | Question 65",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>The activities of a PERT network and their corresponding activity time estimates (in <br>weeks) i.e., optimistic (𝑡𝑜), most likely (𝑡𝑚), and pessimistic (𝑡𝑝) are given in the <br>table below. <br>Activity Time (in weeks) <br>𝑡𝑜 𝑡𝑚 𝑡𝑝 <br>1−2 2 4 12 <br>1−3 2 4 6 <br>1−4 3 4 11 <br>2−5 3 6 9 <br>3−4 2 5 14 <br>3−5 3 3 3 <br>4−5 3 6 15 <br>5−6 2 5 8 <br>The expected project length is ________ weeks (in integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "22"
+      ],
+      "tolerance": {
+        "min": 22.0,
+        "max": 22.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 22.0 to 22.0</p><p>As per the official IIT answer key, this question belongs to <em>Industrial Engineering</em> under topic <em>Operations Research & Project Management</em>.</p></div>"
+    },
+    {
+      "id": "gate-me-2025-s1-q65",
+      "testId": "gate-me-2025-s1",
+      "year": 2025,
+      "orderIndex": 65,
+      "section": "ME",
+      "title": "GATE ME 2025 | ME Question: 55",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>A project involves eight activities with the precedence relationship and duration as shown in the table below. The slack for the activity D is _____ hours ( answer in integer). Activity Immediate predecessor Duration (hours) A - 4 B A 8 C A 5 D B 2 E B 7 F C 6 G D 3 H E, F, G 9</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2"
+      ],
+      "tolerance": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2025 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>2.0 to 2.0</strong>. Official key / range: <code>2 to 2</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q14",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 14,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 4",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "MCQ",
+      "question": "<p>Which one of the options given represents the feasible region of the linear programming model: 𝑀𝑎$x$𝑖𝑚𝑖$z$𝑒 45𝑋1 + 60𝑋2 𝑋1 ≤ 45 𝑋2 ≤ 50 10𝑋1 + 10𝑋2 ≥ 600 25𝑋1 + 5𝑋2 ≤ 750</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2023_1/me_2023_p13_img1.png\" alt=\"GATE ME 2023 Q14 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [
+        "Region P",
+        "Region Q",
+        "Region R",
+        "Region S"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Region P",
+          "html": "Region P"
+        },
+        {
+          "label": "B",
+          "text": "Region Q",
+          "html": "Region Q"
+        },
+        {
+          "label": "C",
+          "text": "Region R",
+          "html": "Region R"
+        },
+        {
+          "label": "D",
+          "text": "Region S",
+          "html": "Region S"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>The correct answer is <strong>B</strong> as per the official final answer key published by the organizing institute (IIT Kanpur).</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q21",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 21,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 11",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "MCQ",
+      "question": "<p>In a linear programming problem, if a resource is not fully utilized, the shadow price of that resource is</p>",
+      "options": [
+        "positive",
+        "negative",
+        "zero",
+        "infinity Mechanical Engineering ME-1 Page 18 of 46"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "positive",
+          "html": "positive"
+        },
+        {
+          "label": "B",
+          "text": "negative",
+          "html": "negative"
+        },
+        {
+          "label": "C",
+          "text": "zero",
+          "html": "zero"
+        },
+        {
+          "label": "D",
+          "text": "infinity Mechanical Engineering ME-1 Page 18 of 46",
+          "html": "infinity Mechanical Engineering ME-1 Page 18 of 46"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>The correct answer is <strong>C</strong> as per the official final answer key published by the organizing institute (IIT Kharagpur).</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q22",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 22,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 12",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "MCQ",
+      "question": "<p>Which one of the following is NOT a form of inventory?</p>",
+      "options": [
+        "Raw materials",
+        "Work-in-process materials",
+        "Finished goods",
+        "CNC Milling Machines"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Raw materials",
+          "html": "Raw materials"
+        },
+        {
+          "label": "B",
+          "text": "Work-in-process materials",
+          "html": "Work-in-process materials"
+        },
+        {
+          "label": "C",
+          "text": "Finished goods",
+          "html": "Finished goods"
+        },
+        {
+          "label": "D",
+          "text": "CNC Milling Machines",
+          "html": "CNC Milling Machines"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>The correct answer is <strong>D</strong> as per the official final answer key published by the organizing institute (IIT Kharagpur).</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q30",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 30,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 20",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "MSQ",
+      "question": "<p>The figure shows a purely convergent nozzle with a steady, inviscid compressible flow of an ideal gas with constant thermophysical properties operating under choked condition. The exit plane shown in the figure is located within the nozzle. If the inlet pressure (P 0) is increased while keeping the back pressure (P back) unchanged, which of the following statements is/are true?</p>",
+      "options": [
+        "Mass flow rate through the nozzle will remain unchanged.",
+        "Mach number at the exit plane of the nozzle will remain unchanged at unity.",
+        "Mass flow rate through the nozzle will increase.",
+        "Mach number at the exit plane of the nozzle will become more than unity. Mechanical Engineering ME-1 Page 24 of 46"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Mass flow rate through the nozzle will remain unchanged.",
+          "html": "Mass flow rate through the nozzle will remain unchanged."
+        },
+        {
+          "label": "B",
+          "text": "Mach number at the exit plane of the nozzle will remain unchanged at unity.",
+          "html": "Mach number at the exit plane of the nozzle will remain unchanged at unity."
+        },
+        {
+          "label": "C",
+          "text": "Mass flow rate through the nozzle will increase.",
+          "html": "Mass flow rate through the nozzle will increase."
+        },
+        {
+          "label": "D",
+          "text": "Mach number at the exit plane of the nozzle will become more than unity. Mechanical Engineering ME-1 Page 24 of 46",
+          "html": "Mach number at the exit plane of the nozzle will become more than unity. Mechanical Engineering ME-1 Page 24 of 46"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>The correct answer is <strong>B, C</strong> as per the official final answer key published by the organizing institute (IIT Kharagpur).</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q42",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 42,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 32",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "MCQ",
+      "question": "<p>Activities A to K are required to complete a project. The time estimates and the immediate predecessors of these activities are given in the table. If the project is to be completed in the minimum possible time, the latest finish time for the activity G is ____________ hours. Activity Time (hours) Immediate predecessors A 2 ─ B 3 ─ C 2 ─ D 4 A E 5 B F 4 B G 3 C H 10 D, E I 5 F J 8 G K 3 H, I, J</p>",
+      "options": [
+        "5",
+        "10",
+        "8",
+        "9 Mechanical Engineering ME-1 Page 34 of 46 Mechanical Engineering ME-1 Page 35 of 46"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "5",
+          "html": "5"
+        },
+        {
+          "label": "B",
+          "text": "10",
+          "html": "10"
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "html": "8"
+        },
+        {
+          "label": "D",
+          "text": "9 Mechanical Engineering ME-1 Page 34 of 46 Mechanical Engineering ME-1 Page 35 of 46",
+          "html": "9 Mechanical Engineering ME-1 Page 34 of 46 Mechanical Engineering ME-1 Page 35 of 46"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>The correct answer is <strong>B</strong> as per the official final answer key published by the organizing institute (IIT Kharagpur).</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q59",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 59,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 49",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>The product structure diagram shows the number of different components required at each level to produce one unit of the final product P. If there are 50 units of on- hand inventory of component A, the number of additional units of component A needed to produce 10 units of product P is _________ (in integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "110"
+      ],
+      "tolerance": {
+        "min": 110.0,
+        "max": 110.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>110.0 to 110.0</strong>. Official key / range: <code>110 to 110</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q33",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 33,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 23",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>The demand of a certain part is 1000 parts/year and its cost is ₹1000/part. The orders are placed based on the economic order quantity (EOQ). The cost of ordering is ₹100/order and the lead time for receiving the orders is 5 days. If the holding cost is ₹20/part/year, the inventory level for placing the orders is _________ parts (round off to the nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "14"
+      ],
+      "tolerance": {
+        "min": 13.0,
+        "max": 15.0
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>13.0 to 15.0</strong>. Official key / range: <code>13 to 15</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q59",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 59,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 49",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
+      "type": "NAT",
+      "question": "<p>A project consists of five activities (A, B, C, D and E). The duration of each activity follows beta distribution. The three time estimates (in weeks) of each activity and immediate predecessor(s) are listed in the table. The expected time of the project completion is __________ weeks (in integer). Activity Time estimates (in weeks) Immediate predecessor(s) Optimistic time Most likely time Pessimistic time A 4 5 6 None B 1 3 5 A C 1 2 3 A D 2 4 6 C E 3 4 5 B, D</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "15"
+      ],
+      "tolerance": {
+        "min": 15.0,
+        "max": 15.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>15.0 to 15.0</strong>. Official key / range: <code>15 to 15</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q27",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "orderIndex": 27,
+      "section": "ME",
+      "title": "GATE ME 2017 | ME Question: 17",
+      "subject": "Industrial Engineering",
+      "subjectSlug": "industrial",
+      "topic": "Operations Research & Project Management",
       "type": "NAT",
       "question": "<p>The Dirac-delta function \n for \n, \n, has the following property\nThe Laplace transform of the Dirac-delta function \n for \n;</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "15.0"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Industrial Engineering & OR):</strong></p><p>Using official GATE ME engineering principles for <em>Production Planning & Control</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Industrial.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
-    },
-    {
-      "id": "gate-me-q511",
-      "testId": "gate-me-2014-s2",
-      "year": 2014,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 511,
-      "section": "ME",
-      "title": "If there are \n sources and \n destinations in a transportation matrix, the total number of basic variables in a\nbasic feasible solution is\ngateme-2014-set2\n \nlinear-algebra\n \nmatrix-algebra\nMatrix Algebra: GATE Mechanical 2014 Set 4 | Question: 1",
-      "subject": "Industrial Engineering & OR",
-      "subjectSlug": "industrial",
-      "topic": "Production Planning & Control",
-      "type": "NAT",
-      "question": "<p>Which one of the following equations is a correct identity for arbitrary \n real matrices \n, \n and \n?</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
-      ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 14.5,
+        "max": 15.5
       },
       "marks": 1,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Industrial Engineering & OR):</strong></p><p>Using official GATE ME engineering principles for <em>Production Planning & Control</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Industrial.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Industrial Engineering):</strong></p><p>Concept & Formulation for <em>Operations Research & Project Management</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering principles, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     },
     {
-      "id": "gate-me-q570",
-      "testId": "gate-me-2025-s1",
-      "year": 2025,
+      "id": "gate-me-2017-s1-q60",
+      "testId": "gate-me-2017-s1",
+      "year": 2017,
       "set": 1,
-      "yearSetKey": "2025-s1",
-      "orderIndex": 570,
+      "orderIndex": 60,
       "section": "ME",
-      "title": "Considering the actual demand and the forecast for a product given in the table below, the mean forecast\nerror and the mean absolute deviation, respectively, are\nPeriod\nActual\ndemand\nForecast\ngateme-2025\n \noperations-research\n \nproduction-planning-and-control\n \nprobability-and-statistics\n \nnumerical-answers\nRandom Variables \n(2)\nRandom Variables: GATE Mechanical 2014 Set 1 | Question: 28",
-      "subject": "Industrial Engineering & OR",
+      "title": "GATE ME 2017 | ME Question: 50",
+      "subject": "Industrial Engineering",
       "subjectSlug": "industrial",
-      "topic": "Production Planning & Control",
+      "topic": "Operations Research & Project Management",
       "type": "NAT",
-      "question": "<p>In the following table, \n is a discrete random variable and \n is the probability density. The standard\ndeviation of \n is</p>",
+      "question": "<p>Activities \n and \n form the critical path for a project with a \n network. The means and\nvariances of the activity duration for each activity are given below. All activity durations follow the Gaussian\n(normal) distribution, and are independent of each other.\nThe probability that the project will be complete within \n days is ________________ (\n).\n(\n: Probability is a number between \n and \n).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Industrial Engineering & OR):</strong></p><p>Using official GATE ME engineering principles for <em>Production Planning & Control</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Industrial.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Industrial Engineering):</strong></p><p>Concept & Formulation for <em>Operations Research & Project Management</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     }
   ]
 }

@@ -22,30 +22,30 @@ export default function ChapterCard({
   tests,
 }: ChapterCardProps) {
   return (
-    <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition duration-200 hover:border-white/20 hover:bg-white/[0.04]">
+    <div className="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 transition duration-200 hover:border-blue-200 hover:bg-slate-50">
       <div>
         <div className="flex items-center justify-between">
-          <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-2.5 py-0.5 text-xs font-semibold text-blue-400 uppercase tracking-wider">
+          <span className="rounded-full border border-blue-200 bg-blue-50 px-2.5 py-0.5 text-xs font-semibold text-blue-700 uppercase tracking-wider">
             Chapter
           </span>
-          <span className="text-xs text-gray-500 font-mono">
+          <span className="text-xs text-slate-500 font-mono">
             {tests.length} {tests.length === 1 ? "Test" : "Tests"} Available
           </span>
         </div>
 
-        <h3 className="mt-3 text-lg font-bold text-white tracking-tight">
+        <h3 className="mt-3 text-lg font-bold text-slate-900 tracking-tight">
           {name}
         </h3>
 
-        <p className="mt-2 text-xs leading-relaxed text-gray-400">
+        <p className="mt-2 text-xs leading-relaxed text-slate-600">
           {description}
         </p>
       </div>
 
-      <div className="mt-6 border-t border-white/10 pt-4">
+      <div className="mt-6 border-t border-slate-200 pt-4">
         <Link
           href={`/tests/${subjectId}/${chapterId}`}
-          className="flex w-full items-center justify-center gap-1.5 rounded-xl bg-white px-4 py-2.5 text-xs font-semibold text-black transition hover:bg-gray-200"
+          className="flex w-full items-center justify-center gap-1.5 rounded-xl bg-blue-600 px-4 py-2.5 text-xs font-semibold text-white transition hover:bg-blue-700"
         >
           Explore Tests ({tests.length}) →
         </Link>

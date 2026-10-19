@@ -16,39 +16,39 @@ export const branchList = [
     shortTitle: "CSE / IT",
     icon: Cpu,
     activeClass: "bg-blue-600 text-white shadow-lg shadow-blue-600/30 border-blue-500",
-    badgeClass: "bg-blue-400/20 text-blue-200",
+    badgeClass: "bg-blue-50 text-blue-700",
   },
   {
     slug: "mechanical" as GateBranchSlug,
     code: "ME",
     shortTitle: "Mechanical",
     icon: Cog,
-    activeClass: "bg-purple-600 text-white shadow-lg shadow-purple-600/30 border-purple-500",
-    badgeClass: "bg-purple-400/20 text-purple-200",
+    activeClass: "bg-blue-600 text-white shadow-lg shadow-blue-600/20 border-blue-600",
+    badgeClass: "bg-blue-50 text-blue-700",
   },
   {
     slug: "civil" as GateBranchSlug,
     code: "CE",
     shortTitle: "Civil",
     icon: Building2,
-    activeClass: "bg-emerald-600 text-white shadow-lg shadow-emerald-600/30 border-emerald-500",
-    badgeClass: "bg-emerald-400/20 text-emerald-200",
+    activeClass: "bg-blue-600 text-white shadow-lg shadow-blue-600/20 border-blue-600",
+    badgeClass: "bg-blue-50 text-blue-700",
   },
   {
     slug: "electrical" as GateBranchSlug,
     code: "EE",
     shortTitle: "Electrical",
     icon: Zap,
-    activeClass: "bg-amber-600 text-white shadow-lg shadow-amber-600/30 border-amber-500",
-    badgeClass: "bg-amber-400/20 text-amber-200",
+    activeClass: "bg-blue-600 text-white shadow-lg shadow-blue-600/20 border-blue-600",
+    badgeClass: "bg-blue-50 text-blue-700",
   },
   {
     slug: "ece" as GateBranchSlug,
     code: "EC",
     shortTitle: "Electronics (ECE)",
     icon: CircuitBoard,
-    activeClass: "bg-cyan-600 text-white shadow-lg shadow-cyan-600/30 border-cyan-500",
-    badgeClass: "bg-cyan-400/20 text-cyan-200",
+    activeClass: "bg-blue-600 text-white shadow-lg shadow-blue-600/20 border-blue-600",
+    badgeClass: "bg-blue-50 text-blue-700",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function BranchSelector({
 }: BranchSelectorProps) {
   return (
     <div className={`flex flex-col gap-2 ${className}`}>
-      <span className="text-[11px] font-bold uppercase tracking-wider text-gray-400">
+      <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500">
         Select Engineering Branch:
       </span>
       <div className="flex flex-wrap items-center gap-2">
@@ -75,7 +75,7 @@ export default function BranchSelector({
               className={`flex items-center gap-2 rounded-xl border px-3.5 py-2 text-xs font-bold transition duration-150 ${
                 isSelected
                   ? b.activeClass
-                  : "border-white/10 bg-white/5 text-gray-300 hover:border-white/20 hover:bg-white/10 hover:text-white"
+                  : "border-slate-200 bg-white text-slate-700 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
               }`}
             >
               <Icon className="h-4 w-4 shrink-0" />

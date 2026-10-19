@@ -6,13 +6,8 @@ import placementData from "@/data/placement.json";
 import SubNavPills from "@/components/SubNavPills";
 import { placementNavPills } from "@/lib/hubNav";
 import {
-  BriefcaseBusiness,
   ArrowRight,
-  Code2,
-  FileCheck2,
   Sparkles,
-  Building2,
-  CheckCircle2,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -49,16 +44,6 @@ export default function PlacementPage() {
             <p className="mt-2 text-sm text-slate-600 max-w-2xl">
               Quantitative, Verbal &amp; Logical Aptitude, Company-Specific Online Assessments (OA), and Core CS revision notes for Tier-1 product and consulting firms.
             </p>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <Link
-              href="/dsa/sandbox"
-              className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-2.5 text-xs font-bold text-white shadow-sm shadow-blue-500/20 hover:bg-blue-700 transition"
-            >
-              <Code2 className="h-4 w-4" />
-              <span>DSA IDE Sandbox</span>
-            </Link>
           </div>
         </div>
 

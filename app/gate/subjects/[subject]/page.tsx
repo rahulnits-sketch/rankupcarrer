@@ -92,51 +92,51 @@ export default async function SubjectDetailPage({ params, searchParams }: PagePr
       : `/test/gate-mock-subj-${targetBranch}-${subject}`;
 
   return (
-    <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between selection:bg-blue-500 selection:text-white">
+    <main className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col justify-between selection:bg-blue-600 selection:text-white">
       <Navbar />
       <SubNavPills categoryTitle="EXPLORE GATE" pills={gateNavPills} />
 
       <section className="mx-auto max-w-7xl px-6 py-10 md:py-16 w-full flex-1">
         {/* Breadcrumb */}
-        <div className="mb-6 flex items-center gap-2 text-xs text-gray-500">
-          <Link href="/" className="hover:text-white transition">Home</Link>
+        <div className="mb-6 flex items-center gap-2 text-xs text-slate-500">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <span>/</span>
-          <Link href={`/gate/${targetBranch}`} className="hover:text-white transition">
+          <Link href={`/gate/${targetBranch}`} className="hover:text-slate-900 transition">
             GATE {currentBranch.code}
           </Link>
           <span>/</span>
           <Link
             href={targetBranch === "cse-it" ? "/gate/subjects" : `/gate/subjects?branch=${targetBranch}`}
-            className="hover:text-white transition"
+            className="hover:text-slate-900 transition"
           >
             Subjects
           </Link>
           <span>/</span>
-          <span className="text-blue-400 font-medium">{subjectMeta.name}</span>
+          <span className="text-blue-700 font-medium">{subjectMeta.name}</span>
         </div>
 
         {/* Hero Header */}
-        <div className="mb-12 flex flex-col gap-6 rounded-3xl border border-white/10 bg-white/[0.02] p-8 md:flex-row md:items-center md:justify-between">
+        <div className="mb-12 flex flex-col gap-6 rounded-3xl border border-slate-200 bg-white p-8 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-4">
-            <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-white/5 text-3xl shadow-inner border border-white/10">
+            <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-50 text-3xl shadow-inner border border-slate-200">
               {subjectMeta.icon}
             </span>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
+                <span className="text-xs font-bold uppercase tracking-wider text-blue-700">
                   {subjectMeta.shortName} • GATE {currentBranch.code}
                 </span>
               </div>
-              <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-white mt-1">
+              <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-slate-900 mt-1">
                 {subjectMeta.name}
               </h1>
-              <p className="text-xs text-gray-400 mt-1">
+              <p className="text-xs text-slate-600 mt-1">
                 {totalQuestions} Authentic GATE Questions across {topics.length} Syllabus Topics
               </p>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3 border-t border-white/10 pt-4 md:border-t-0 md:pt-0">
+          <div className="flex flex-wrap items-center gap-3 border-t border-slate-200 pt-4 md:border-t-0 md:pt-0">
             <BackButton />
             <Link
               href={practiceAllHref}
@@ -146,7 +146,7 @@ export default async function SubjectDetailPage({ params, searchParams }: PagePr
             </Link>
             <Link
               href={subjectMockHref}
-              className="rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-xs font-semibold text-gray-300 transition hover:bg-white/10 hover:text-white"
+              className="rounded-xl border border-slate-200 bg-slate-50 px-5 py-3 text-xs font-semibold text-slate-700 transition hover:bg-slate-100 hover:text-slate-900"
             >
               ⚡ Subject Mock Test
             </Link>
@@ -155,14 +155,14 @@ export default async function SubjectDetailPage({ params, searchParams }: PagePr
 
         {/* Topics & Chapters Breakdown Grid */}
         <div className="mb-12">
-          <div className="mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/10 pb-4">
+          <div className="mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-4">
             <div>
-              <h2 className="text-xl font-bold text-white">Syllabus Topics &amp; Practice Sets</h2>
-              <p className="text-xs text-gray-400 mt-1">
+              <h2 className="text-xl font-bold text-slate-900">Syllabus Topics &amp; Practice Sets</h2>
+              <p className="text-xs text-slate-600 mt-1">
                 Select any topic to practice targeted GATE questions with instant grading and explanations.
               </p>
             </div>
-            <span className="text-xs text-blue-400 font-semibold bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20 self-start sm:self-auto">
+            <span className="text-xs text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full border border-blue-200 self-start sm:self-auto">
               {topics.length} Topic Areas
             </span>
           </div>
@@ -178,27 +178,27 @@ export default async function SubjectDetailPage({ params, searchParams }: PagePr
               return (
                 <div
                   key={t.name || idx}
-                  className="group flex flex-col justify-between rounded-2xl border border-white/10 bg-white/[0.02] p-5 transition duration-200 hover:border-blue-500/40 hover:bg-white/[0.04]"
+                  className="group flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-5 transition duration-200 hover:border-blue-500/40 hover:bg-slate-50"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-[11px] font-bold text-blue-400 uppercase tracking-wider">
+                      <span className="text-[11px] font-bold text-blue-700 uppercase tracking-wider">
                         Topic {idx + 1}
                       </span>
-                      <span className="rounded-full bg-white/5 px-2.5 py-0.5 text-[11px] font-semibold text-gray-300 border border-white/5">
+                      <span className="rounded-full bg-slate-50 px-2.5 py-0.5 text-[11px] font-semibold text-slate-700 border border-slate-200/70">
                         {t.questionCount} Questions
                       </span>
                     </div>
 
-                    <h3 className="text-base font-bold text-white group-hover:text-blue-400 transition">
+                    <h3 className="text-base font-bold text-slate-900 group-hover:text-blue-700 transition">
                       {t.name}
                     </h3>
                   </div>
 
-                  <div className="mt-5 border-t border-white/5 pt-3">
+                  <div className="mt-5 border-t border-slate-200/70 pt-3">
                     <Link
                       href={topicTestHref}
-                      className="flex w-full items-center justify-center gap-1.5 rounded-xl bg-white/5 py-2.5 text-xs font-semibold text-white transition hover:bg-blue-600 hover:text-white"
+                      className="flex w-full items-center justify-center gap-1.5 rounded-xl bg-slate-50 py-2.5 text-xs font-semibold text-slate-700 transition hover:bg-blue-600 hover:text-white"
                     >
                       <span>Practice Topic PYQs</span>
                       <span>→</span>

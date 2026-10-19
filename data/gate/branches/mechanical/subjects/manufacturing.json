@@ -5,133 +5,932 @@
   "icon": "🏭",
   "color": "from-emerald-500/20 to-teal-500/20",
   "borderColor": "border-emerald-500/30",
-  "totalQuestions": 4,
+  "totalQuestions": 32,
   "topics": [
     {
       "name": "Casting, Forming & Joining Processes",
-      "questionCount": 1
+      "questionCount": 8
     },
     {
       "name": "Machining & Machine Tool Operations",
-      "questionCount": 1
+      "questionCount": 8
     },
     {
       "name": "Metrology & Inspection",
-      "questionCount": 1
+      "questionCount": 8
     },
     {
       "name": "Engineering Materials & Heat Treatment",
-      "questionCount": 1
+      "questionCount": 8
     }
   ],
   "questions": [
     {
-      "id": "gate-me-q137",
-      "testId": "gate-me-2014-s1",
-      "year": 2014,
+      "id": "gate-me-2026-s1-q30",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
       "set": 1,
-      "yearSetKey": "2014-s1",
-      "orderIndex": 137,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 30,
       "section": "ME",
-      "title": "In solid-state welding, the contamination layers between the surfaces to be welded are removed by\ngateme-2014-set1\n \napplied-mechanics-and-design\n \nmachine-design\n \nriveted-and-welded-joints\nRiveted and Welded Joints: GATE Mechanical 2014 Set 2 | Question: 32",
+      "title": "GATE ME 2026 | Question 30",
       "subject": "Manufacturing & Materials",
       "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
-      "type": "NAT",
-      "question": "<p>For the three bolt system shown in the ﬁ</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "12.5"
+      "topic": "Machining, Tool Life & Forming",
+      "type": "MCQ",
+      "question": "<p>In relation to metal casting defects, match the following <br>Defect Description <br>P Dross I Shallow blow found on a flat casting surface <br>Q Scab II Lighter impurities appearing on the top surface <br>of a casting <br>R Scar III A rough, thin layer of metal, protruding above <br>the casting surface, on top of a thin layer of sand</p>",
+      "options": [
+        "P−II, Q−III, R−I",
+        "P−II, Q−I, R−III",
+        "P−III, Q−I, R−II",
+        "P−III, Q−II, R−I"
       ],
-      "tolerance": {
-        "min": 12.0,
-        "max": 13.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "P−II, Q−III, R−I",
+          "html": "P−II, Q−III, R−I"
+        },
+        {
+          "label": "B",
+          "text": "P−II, Q−I, R−III",
+          "html": "P−II, Q−I, R−III"
+        },
+        {
+          "label": "C",
+          "text": "P−III, Q−I, R−II",
+          "html": "P−III, Q−I, R−II"
+        },
+        {
+          "label": "D",
+          "text": "P−III, Q−II, R−I",
+          "html": "P−III, Q−II, R−I"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> A</p><p>As per the official IIT answer key, this question belongs to <em>Manufacturing & Materials</em> under topic <em>Machining, Tool Life & Forming</em>.</p></div>"
     },
     {
-      "id": "gate-me-q138",
-      "testId": "gate-me-2014-s2",
-      "year": 2014,
-      "set": 2,
-      "yearSetKey": "2014-s2",
-      "orderIndex": 138,
+      "id": "gate-me-2026-s1-q53",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 53,
       "section": "ME",
-      "title": "gure, the bolt material has shear yield strength of \n \n. For a\nfactor of safety of \n, the minimum metric specification required for the bolt is\ngateme-2014-set2\n \napplied-mechanics-and-design\n \nmachine-design\n \nriveted-and-welded-joints\nRiveted and Welded Joints: GATE Mechanical 2014 Set 3 | Question: 55",
+      "title": "GATE ME 2026 | Question 53",
       "subject": "Manufacturing & Materials",
       "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
+      "topic": "Manufacturing Science",
       "type": "NAT",
-      "question": "<p>For spot welding of two steel sheets (base metal) each of \n \n thickness, welding current of \n \n is\napplied for \n \n. The heat dissipated to the base metal is \n \n. Assuming that the heat required for\nmelting \n \n volume of steel is \n \n and interfacial contact resistance between sheets is \n \n, the volume\n(in \n) of weld nugget is _______</p>",
+      "question": "<p>Water with a density of 1000 kg/m3 comes out of an industrial condenser through <br>a horizontal pipe of 15 cm radius at the flow rate of 4.5 m3/min. The outlet of the <br>pipe is connected to a coaxial diffuser of 0.5 m length using a flange to raise the <br>pressure of water to atmospheric condition without any backflow. The inner radius <br>(𝑟, in m) of the diffuser cross-section is expressed as <br>𝑟 = 0.15 + 0.4 $x$2 <br>where, $x$ represents the axial distance of the diffuser in m, from its inlet. Considering <br>frictionless flow, the magnitude of the force exerted by the diffuser on the flange is <br>________ N (rounded off to 2 decimal places).</p><br><div class=\"my-3\"><img src=\"/question-images/gate/me/2026_1/me_2026_p42_img2.png\" style=\"max-width:100%; height:auto; border-radius:0.5rem;\" alt=\"Question 53 Diagram\"></div>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "16.3"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 15.5,
+        "max": 17.1
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 15.5 to 17.1</p><p>As per the official IIT answer key, this question belongs to <em>Manufacturing & Materials</em> under topic <em>Manufacturing Science</em>.</p></div>"
     },
     {
-      "id": "gate-me-q139",
-      "testId": "gate-me-2014-s4",
-      "year": 2014,
-      "set": 4,
-      "yearSetKey": "2014-s4",
-      "orderIndex": 139,
+      "id": "gate-me-2026-s1-q59",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 59,
       "section": "ME",
-      "title": "numerical-answers\n \napplied-mechanics-and-design\n \nmachine-design\n \nriveted-and-welded-joints\nRiveted and Welded Joints: GATE Mechanical 2014 Set 4 | Question: 55",
+      "title": "GATE ME 2026 | Question 59",
       "subject": "Manufacturing & Materials",
       "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
+      "topic": "Manufacturing Science",
       "type": "NAT",
-      "question": "<p>A butt weld joint is developed on steel plates having yield and ultimate tensile strength of \n \n and \n \n, respectively. The thickness of the plates is \n \n and width is \n \n. Improper selection of\nwelding parameters caused an undercut of \n \n depth along the weld. The maximum transverse tensile load (in \n) carrying capacity of the developed weld joint is _______</p>",
+      "question": "<p>In a deep drawing operation of a rectangular sheet metal, 30% stretching in length <br>results in 15% reduction in thickness. Assuming volume constancy, the normal <br>anisotropy of the sheet metal is ________ (rounded off to 2 decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "0.61"
+      ],
+      "tolerance": {
+        "min": 0.59,
+        "max": 0.63
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 0.59 to 0.63</p><p>As per the official IIT answer key, this question belongs to <em>Manufacturing & Materials</em> under topic <em>Manufacturing Science</em>.</p></div>"
+    },
+    {
+      "id": "gate-me-2026-s1-q60",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 60,
+      "section": "ME",
+      "title": "GATE ME 2026 | Question 60",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "NAT",
+      "question": "<p>The actual demand for castings in a factory is 500 units and 635 units for the months <br>of January 2026 and February 2026, respectively. The forecasted demand for <br>January 2026 is 250 units and smoothing constant is 0.7. Using the exponential <br>smoothing method, the forecast of the demand for castings in March 2026 <br>is________ units (in integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "572"
+      ],
+      "tolerance": {
+        "min": 572.0,
+        "max": 572.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 572.0 to 572.0</p><p>As per the official IIT answer key, this question belongs to <em>Manufacturing & Materials</em> under topic <em>Machining, Tool Life & Forming</em>.</p></div>"
+    },
+    {
+      "id": "gate-me-2026-s1-q62",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 62,
+      "section": "ME",
+      "title": "GATE ME 2026 | Question 62",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A metal has FCC crystal structure with 2.71 g/cm3 of density and 26.98 g/mol of <br>atomic weight. The Avogadro’s number is 6.023 × 1023. The atomic radius of the <br>metal is ________ nm (rounded off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.14"
+      ],
+      "tolerance": {
+        "min": 0.12,
+        "max": 0.16
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 0.12 to 0.16</p><p>As per the official IIT answer key, this question belongs to <em>Manufacturing & Materials</em> under topic <em>Manufacturing Science</em>.</p></div>"
+    },
+    {
+      "id": "gate-me-2026-s1-q64",
+      "testId": "gate-me-2026-s1",
+      "year": 2026,
+      "set": 1,
+      "yearSetKey": "2026-s1",
+      "orderIndex": 64,
+      "section": "ME",
+      "title": "GATE ME 2026 | Question 64",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "NAT",
+      "question": "<p>A drill bit during its lifetime can produce 150 through holes in a plate at a drill-speed <br>of 200 RPM. If the drill-speed increases to 300 RPM, then it can produce 60 through <br>holes in the same plate before the drill bit fails. Assume all other parameters remain <br>constant. The value of the exponent in Taylor’s tool life equation is ________ <br>(rounded off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.31"
+      ],
+      "tolerance": {
+        "min": 0.29,
+        "max": 0.33
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official Solution (GATE 2026 Mechanical Engineering):</strong></p><p><strong>Correct Answer / Range:</strong> 0.29 to 0.33</p><p>As per the official IIT answer key, this question belongs to <em>Manufacturing & Materials</em> under topic <em>Machining, Tool Life & Forming</em>.</p></div>"
+    },
+    {
+      "id": "gate-me-2025-s1-q21",
+      "testId": "gate-me-2025-s1",
+      "year": 2025,
+      "orderIndex": 21,
+      "section": "ME",
+      "title": "GATE ME 2025 | ME Question: 11",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "MCQ",
+      "question": "<p>The welding process commonly used for fabricating tailor -welded blanks of dissimilar thickness for automotive applications is</p>",
+      "options": [
+        "gas welding",
+        "laser welding",
+        "arc welding",
+        "friction welding"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "gas welding",
+          "html": "gas welding"
+        },
+        {
+          "label": "B",
+          "text": "laser welding",
+          "html": "laser welding"
+        },
+        {
+          "label": "C",
+          "text": "arc welding",
+          "html": "arc welding"
+        },
+        {
+          "label": "D",
+          "text": "friction welding",
+          "html": "friction welding"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2025 Solution:</strong></p><p>The correct answer is <strong>B</strong> as per the official final answer key published by the organizing institute (IIT Roorkee).</p></div>"
+    },
+    {
+      "id": "gate-me-2025-s1-q61",
+      "testId": "gate-me-2025-s1",
+      "year": 2025,
+      "orderIndex": 61,
+      "section": "ME",
+      "title": "GATE ME 2025 | ME Question: 51",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>Two plates of thickness 10 mm each are to be joined by a transverse fillet weld on one side and the resulting structure is loaded as shown in the figure below. If the ultimate tensile strength of the weld material is 150 MPa and the factor of safety to be used is 3, the minimum length of the weld required to ensure that the weld does NOT fail is ______ mm (rounded off to 2 decimal places).</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2025_1/me_2025_p39_img3.png\" alt=\"GATE ME 2025 Q61 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "13.1"
       ],
       "tolerance": {
         "min": 12.0,
-        "max": 13.0
+        "max": 14.2
       },
-      "marks": 1,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2025 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>12.0 to 14.2</strong>. Official key / range: <code>12.00 to 14.20 OR 18.00 to 28.40 OR 32.00 to 34.20</code>.</p></div>"
     },
     {
-      "id": "gate-me-q142",
+      "id": "gate-me-2025-s1-q64",
+      "testId": "gate-me-2025-s1",
+      "year": 2025,
+      "orderIndex": 64,
+      "section": "ME",
+      "title": "GATE ME 2025 | ME Question: 54",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A company uses 3000 units of a part annually. The units are priced as given in the table below. It costs ₹ 150 to place an order. Carrying costs are 40 percent of the purchase price per unit on an annual basis. The minimum total annual cost is ₹ _______ (rounded off to 1 decimal place). Order quantity Unit price (₹) 1 to 499 9.0 500 to 999 8.5 1000 or more 8.0</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "26050"
+      ],
+      "tolerance": {
+        "min": 26000.0,
+        "max": 26100.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2025 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>26000.0 to 26100.0</strong>. Official key / range: <code>26000.0 to 26100.0</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q29",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 29,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 19",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "MCQ",
+      "question": "<p>The “Earing” phenomenon in metal forming is associated with</p>",
+      "options": [
+        "deep drawing",
+        "rolling",
+        "extrusion",
+        "forging"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "deep drawing",
+          "html": "deep drawing"
+        },
+        {
+          "label": "B",
+          "text": "rolling",
+          "html": "rolling"
+        },
+        {
+          "label": "C",
+          "text": "extrusion",
+          "html": "extrusion"
+        },
+        {
+          "label": "D",
+          "text": "forging",
+          "html": "forging"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>The correct answer is <strong>A</strong> as per the official final answer key published by the organizing institute (IISc Bengaluru).</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q55",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 55,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 45",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A vibratory system consists of mass 𝑚, a vertical spring of stiffness 2𝑘 and a horizontal spring of stiffness 𝑘. The end A of the horizontal spring is given a horizontal motion $x$𝐴 = 𝑎 sin $\\omega$𝑡. The other end of the spring is connected to an inextensible rope that passes over two massless pulleys as shown. Assume 𝑚 = 10 kg, 𝑘 = 1.5 kN/m, and neglect friction. The magnitude of critical driving frequency for which the oscillations of mass 𝑚 tend to become excessively large is _________ rad/s (answer in integer).</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2024_1/me_2024_p32_img1.png\" alt=\"GATE ME 2024 Q55 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "30"
+      ],
+      "tolerance": {
+        "min": 29.0,
+        "max": 31.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>29.0 to 31.0</strong>. Official key / range: <code>29 to 31</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q58",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 58,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 48",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A three-hinge arch ABC in the form of a semi-circle is shown in the figure. The arch is in static equilibrium under vertical loads of 𝑃 = 100 kN and 𝑄 = 50 kN. Neglect friction at all the hinges. The magnitude of the horizontal reaction at B is ______ kN (rounded off to 1 decimal place).</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2024_1/me_2024_p33_img2.png\" alt=\"GATE ME 2024 Q58 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "37.5"
+      ],
+      "tolerance": {
+        "min": 37.0,
+        "max": 38.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>37.0 to 38.0</strong>. Official key / range: <code>37.0 to 38.0</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q59",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 59,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 49",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A band brake shown in the figure has a coefficient of friction of 0.3. The band can take a maximum force of 1.5 kN. The maximum braking force (F) that can be safely applied is _______ N (rounded off to the nearest integer).</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2024_1/me_2024_p34_img1.png\" alt=\"GATE ME 2024 Q59 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "117"
+      ],
+      "tolerance": {
+        "min": 115.0,
+        "max": 119.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>115.0 to 119.0</strong>. Official key / range: <code>115 to 119</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q61",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 61,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 51",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>Aluminium is casted in a cube-shaped mold having dimensions as 20 mm × 20 mm × 20 mm. Another mold of the same mold material is used to cast a sphere of aluminium having a diameter of 20 mm. The pouring temperature for both cases is the same. The ratio of the solidification times of the cube-shaped mold to the spherical mold is ________ (answer in integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "1"
+      ],
+      "tolerance": {
+        "min": 1.0,
+        "max": 1.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>1.0 to 1.0</strong>. Official key / range: <code>1 to 1</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q62",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 62,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 52",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A blanking operation is performed on C20 steel sheet to obtain a circular disc having a diameter of 20 mm and a thickness of 2 mm. An allowance of 0.04 is provided. The punch size used for the operation is ___________ mm (rounded off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "19.88"
+      ],
+      "tolerance": {
+        "min": 19.84,
+        "max": 19.92
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>19.84 to 19.92</strong>. Official key / range: <code>19.84 to 19.92</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2024-s1-q65",
+      "testId": "gate-me-2024-s1",
+      "year": 2024,
+      "orderIndex": 65,
+      "section": "ME",
+      "title": "GATE ME 2024 | ME Question: 55",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>In a supplier-retailer supply chain, the demand of each retailer, the capacity of each supplier, and the unit cost in rupees of material supply from each suppli er to each retailer are tabulated below. The supply chain manager wishes to minimize the total cost of transportation across the supply chain. Retailer I Retailer II Retailer III Retailer IV Capacity Supplier A 11 16 19 13 300 Supplier B 5 10 7 8 300 Supplier C 12 14 17 11 300 Supplier D 8 15 11 9 300 Demand 300 300 300 300 The optimal cost of satisfying the total demand from all retailers is _____ rupees (answer in integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12300"
+      ],
+      "tolerance": {
+        "min": 12300.0,
+        "max": 12300.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2024 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>12300.0 to 12300.0</strong>. Official key / range: <code>12300 to 12300</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q25",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 25,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 15",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "MSQ",
+      "question": "<p>In a metal casting process to manufacture parts, both patterns and moulds provide shape by dictating where the material should or should not go. Which of the option(s) given correctly describe(s) the mould and the pattern?</p>",
+      "options": [
+        "Mould walls indicate boundaries within which the molten part material is allowed, while pattern walls indicate boundaries of regions where mould material is not allowed.",
+        "Moulds can be used to make patterns.",
+        "Pattern walls indicate boundaries within which the molten part material is allowed, while mould walls indicate boundaries of regions where mould material is not allowed.",
+        "Patterns can be used to make moulds."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Mould walls indicate boundaries within which the molten part material is allowed, while pattern walls indicate boundaries of regions where mould material is not allowed.",
+          "html": "Mould walls indicate boundaries within which the molten part material is allowed, while pattern walls indicate boundaries of regions where mould material is not allowed."
+        },
+        {
+          "label": "B",
+          "text": "Moulds can be used to make patterns.",
+          "html": "Moulds can be used to make patterns."
+        },
+        {
+          "label": "C",
+          "text": "Pattern walls indicate boundaries within which the molten part material is allowed, while mould walls indicate boundaries of regions where mould material is not allowed.",
+          "html": "Pattern walls indicate boundaries within which the molten part material is allowed, while mould walls indicate boundaries of regions where mould material is not allowed."
+        },
+        {
+          "label": "D",
+          "text": "Patterns can be used to make moulds.",
+          "html": "Patterns can be used to make moulds."
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>The correct answer is <strong>A, B, D</strong> as per the official final answer key published by the organizing institute (IIT Kanpur).</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q51",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 51,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 41",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>The atomic radius of a hypothetical face-centered cubic (FCC) metal is (√2 10⁄ ) nm. The atomic weight of the metal is 24.092 g/mol. Taking Avogadro’s number to be 6.023×1023 atoms/mol, the density of the metal is ____________ kg/m3. (Answer in integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2500"
+      ],
+      "tolerance": {
+        "min": 2490.0,
+        "max": 2510.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>2490.0 to 2510.0</strong>. Official key / range: <code>2490 to 2510</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q52",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 52,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 42",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A steel sample with 1.5 wt.% carbon (no other alloying elements present) is slowly cooled from 1100 °C to just below the eutectoid temperature (723 °C). A part of the iron-cementite phase diagram is shown in the figure. The ratio of the pro-eutectoid cementite content to the total cementite content in the microstructure that develops just below the eutectoid temperature is ________. (Rounded off to two decimal places)</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2023_1/me_2023_p47_img1.png\" alt=\"GATE ME 2023 Q52 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.54"
+      ],
+      "tolerance": {
+        "min": 0.53,
+        "max": 0.55
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>0.53 to 0.55</strong>. Official key / range: <code>0.53 to 0.55</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q56",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 56,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 46",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>An optical flat is used to measure the height difference between a reference slip gauge A and a slip gauge B. Upon viewing via the optical flat using a monochromatic light of wavelength 0.5 µm, 12 fringes were observed over a length of 15 mm of gauge B. If the gauges are placed 45 mm apart, the height difference of the gauges is ______________ m. (Answer in integer)</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2023_1/me_2023_p51_img1.png\" alt=\"GATE ME 2023 Q56 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "9"
+      ],
+      "tolerance": {
+        "min": 8.999,
+        "max": 9.001
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>8.999 to 9.001</strong>. Official key / range: <code>8.999 to 9.001</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q58",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 58,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 48",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>The area moment of inertia about the y-axis of a linearly tapered section shown in the figure is _____________ m4. (Answer in integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "3024"
+      ],
+      "tolerance": {
+        "min": 3023.999,
+        "max": 3024.001
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>3023.999 to 3024.001</strong>. Official key / range: <code>3023.999 to 3024.001</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q61",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 61,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 51",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>Consider a mixture of two ideal gases, X and Y, with molar masses 𝑀̅X = 10 kg/kmol and 𝑀̅Y = 20 kg/kmol, respectively, in a container. The total pressure in the container is 100 kPa, the total volume of the container is 10 m3 and the temperature of the contents of the container is 300 K. If the mass of gas-X in the container is 2 kg, then the mass of gas-Y in the container is ____ kg. (Rounded off to one decimal place) Assume that the universal gas constant is 8314 J kmol-1K-1.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "4"
+      ],
+      "tolerance": {
+        "min": 3.9,
+        "max": 4.1
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>3.9 to 4.1</strong>. Official key / range: <code>3.9 to 4.1</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2023-s1-q65",
+      "testId": "gate-me-2023-s1",
+      "year": 2023,
+      "orderIndex": 65,
+      "section": "ME",
+      "title": "GATE ME 2023 | ME Question: 55",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>An explosion at time t = 0 releases energy 𝐸 at the origin in a space filled with a gas of density  . Subsequently, a hemispherical blast wave propagates radially outwards as shown in the figure. Let R denote the radius of the front of the hemispherical blast wave. The radius R follows the relationship 𝑅 = 𝑘 𝑡𝑎𝐸𝑏$\\rho$𝑐, where k is a dimensionless constant. The value of exponent a is ___________. (Rounded off to one decimal place) END OF QUESTION PAPER</p><div class=\"my-4 text-center\"><img src=\"/question-images/gate/me/2023_1/me_2023_p56_img1.png\" alt=\"GATE ME 2023 Q65 Diagram\" class=\"max-w-full max-h-96 mx-auto rounded border border-slate-200 dark:border-slate-700 shadow-sm\" /></div>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.4"
+      ],
+      "tolerance": {
+        "min": 0.39,
+        "max": 0.41
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2023 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>0.39 to 0.41</strong>. Official key / range: <code>0.39 to 0.41</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q52",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 52,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 42",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A thin-walled cylindrical pressure vessel has mean wall thickness of 𝑡 and nominal radius of 𝑟. The Poisson’s ratio of the wall material is 1/3. When it was subjected to some internal pressure, its nominal perimeter in the cylindrical portion increased by 0.1% and the corresponding wall thickness became 𝑡̅. The corresponding change in the wall thickness of the cylindrical portion, i.e. 100 × (𝑡̅ - 𝑡)/𝑡, is ________% (round off to 3 decimal places). $\\omega$ 𝑟 𝑚 𝑔 Mechanical Engineering ME-1 Page 41 of 46</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "-0.06"
+      ],
+      "tolerance": {
+        "min": -0.062,
+        "max": -0.058
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>-0.062 to -0.058</strong>. Official key / range: <code>-0.062 to -0.058</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q55",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 55,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 45",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A 1 mm thick cylindrical tube, 100 mm in diameter, is orthogonally turned such that the entire wall thickness of the tube is cut in a single pass. The axial feed of the tool is 1 m/minute and the specific cutting energy ( u) of the tube material is Mechanical Engineering ME-1 Page 42 of 46 6 J mmଷ⁄ . Neglect contribution of feed force towards power. The power required to carry out this operation is _________ kW (round off to one decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "31"
+      ],
+      "tolerance": {
+        "min": 30.0,
+        "max": 32.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>30.0 to 32.0</strong>. Official key / range: <code>30.0 to 32.0</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s1-q63",
+      "testId": "gate-me-2022-s1",
+      "year": 2022,
+      "orderIndex": 63,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 1 | ME Question: 53",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A steady two-dimensional flow field is specified by the stream function 𝜓 = 𝑘$x$ଷ$y$, where $x$ and $y$ are in meter and the constant 𝑘 = 1 m s. The magnitude of acceleration at a point (x, y) = (1 m, 1 m) is ________ m/s2 (round off to 2 decimal places). Mechanical Engineering ME-1 Page 45 of 46</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "4.24"
+      ],
+      "tolerance": {
+        "min": 4.2,
+        "max": 4.28
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>4.2 to 4.28</strong>. Official key / range: <code>4.20 to 4.28</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q54",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 54,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 44",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "NAT",
+      "question": "<p>A straight-teeth horizontal slab milling cutter is shown in the figure. It has 4 teeth and diameter (D) of 200 mm. The rotational speed of the cutter is 100 rpm and the linear feed given to the workpiece is 1000 mm/minute. The width of the workpiece (w) is 100 mm, and the entire width is milled in a single pass of the cutter. The cutting force/tooth is given by 𝐹 = 𝐾𝑡௖𝑤, where specific cutting force 𝐾 = 10 N/mmଶ, w is the width of cut, and 𝑡௖ is the uncut chip thickness. The depth of cut ( d) is 𝐷/2, and hence the assumption of ௗ ஽ ≪ 1 is invalid. The maximum cutting force required is ________ kN (round off to one decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2.5"
+      ],
+      "tolerance": {
+        "min": 2.4,
+        "max": 2.6
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>2.4 to 2.6</strong>. Official key / range: <code>2.4 to 2.6</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q56",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 56,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 46",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>The best size wire is fitted in a groove of a metric screw such that the wire touches the flanks of the thread on the pitch line as shown in the figure. The pitch ( 𝑝) and included angle of the thread are 4 mm and 60º, respectively. The diameter of the best size wire is ___________ mm (round off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2.31"
+      ],
+      "tolerance": {
+        "min": 2.29,
+        "max": 2.33
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>2.29 to 2.33</strong>. Official key / range: <code>2.29 to 2.33</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q57",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 57,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 47",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Machining, Tool Life & Forming",
+      "type": "NAT",
+      "question": "<p>In a direct current arc welding process, the power source has an open circuit voltage of 100 V and short circuit current of 1000 A. Assume a linear relationship between voltage and current. The arc voltage ( V) varies with the arc length ( l) as V = 10 + 5l, where V is in volts and l is in mm. The maximum available arc power during the process is _________ kVA (in integer). Mechanical Engineering ME-2 Page 45 of 49</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "25"
+      ],
+      "tolerance": {
+        "min": 25.0,
+        "max": 25.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>25.0 to 25.0</strong>. Official key / range: <code>25 to 25</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q58",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 58,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 48",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A cylindrical billet of 100 mm diameter and 100 mm length is extruded by a direct extrusion process to produce a bar of L-section. The cross sectional dimensions of this L-section bar are shown in the figure. The total extrusion pressure ( 𝑝) in MPa for the above process is related to extrusion ratio (𝑟) as 𝑝 = 𝐾௦ $\\sigma$௠ ൤0.8 + 1.5 ln (𝑟) +2𝑙𝑑଴൨ , where $\\sigma$௠ is the mean flow strength of the billet material in MPa, 𝑙 is the portion of the billet length remaining to be extruded in mm, 𝑑଴ is the initial diameter of the billet in mm, and 𝐾௦ is the die shape factor. If the mean flow strength of the billet material is 50 MPa and the die shape factor is 1.05, then the maximum force required at the start of extrusion is ________ kN (round off to one decimal place). Mechanical Engineering ME-2 Page 46 of 49</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2429"
+      ],
+      "tolerance": {
+        "min": 2426.0,
+        "max": 2432.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>2426.0 to 2432.0</strong>. Official key / range: <code>2426.0 to 2432.0</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2022-s2-q62",
+      "testId": "gate-me-2022-s2",
+      "year": 2022,
+      "orderIndex": 62,
+      "section": "ME",
+      "title": "GATE ME 2022 Set 2 | ME Question: 52",
+      "subject": "Manufacturing & Materials",
+      "subjectSlug": "manufacturing",
+      "topic": "Manufacturing Science",
+      "type": "NAT",
+      "question": "<p>A uniform wooden rod (specific gravity = 0.6, diameter = 4 cm and length = 8 m) is immersed in the water and is hinged without friction at point A on the waterline as shown in the figure. A solid spherical ball made of lead (specific gravity = 11.4) is attached to the free end of the rod to keep the assembly in static equilibrium inside the water. For simplicity, assume that the radius of the ball is much smaller than the length of the rod. Assume density of water = 103 kg/m3 and π = 3.14. Radius of the ball is _______ cm (round off to 2 decimal places). A Mechanical Engineering ME-2 Page 48 of 49</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "3.59"
+      ],
+      "tolerance": {
+        "min": 3.48,
+        "max": 3.7
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE ME 2022 Solution:</strong></p><p>For this NAT question, the official key accepts numerical values in the range <strong>3.48 to 3.7</strong>. Official key / range: <code>3.48 to 3.70</code>.</p></div>"
+    },
+    {
+      "id": "gate-me-2017-s1-q51",
       "testId": "gate-me-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2017-s1",
-      "orderIndex": 142,
+      "orderIndex": 51,
       "section": "ME",
-      "title": "A\n. \nB\n. \nC\n. \nD\n. \n5.24\n5.24.1\n5.25\n5.25.1\nA\n. \nB\n. \nC\n. \nD\n. \n5.26\n5.26.1\nA\n. \nB\n. \nC\n. \nD\n. \n5.26.2\nA\n. \nB\n. \nC\n. \nD\n. \n5.26.3\ngateme-2017-set1\n \napplied-mechanics-and-design\n \nmachine-design\n \nriveted-and-welded-joints\nRolling \n(1)\nRolling: GATE2015-1-37",
+      "title": "GATE ME 2017 | ME Question: 41",
       "subject": "Manufacturing & Materials",
       "subjectSlug": "manufacturing",
-      "topic": "Casting, Forming & Joining Processes",
+      "topic": "Machining, Tool Life & Forming",
       "type": "NAT",
-      "question": "<p>In a slab rolling operation, the maximum thickness reduction \n) is given by \n = \n , where \n is\nthe radius of the roll and \n is the coeﬃcient of friction between the roll and the sheet. If \n = \n, the\nmaximum angle subtended by the deformation zone at the centre of the roll (bite angle in degrees) is _______</p>",
+      "question": "<p>The values of a function \n obtained for different values of \n are shown in the table below.\n0\n0.25\n0.5\n0.75\n1.0\n0.9\n2.0\n1.5\n1.8\n0.4\nUsing Simpson's one-third rule,\n _________</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "12.5"
+        "24.8"
       ],
       "tolerance": {
-        "min": 12.0,
-        "max": 13.0
+        "min": 24.0,
+        "max": 25.5
       },
       "marks": 2,
       "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Manufacturing & Materials):</strong></p><p>Using official GATE ME engineering principles for <em>Casting, Forming & Joining Processes</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Concept: Standard GATE problem formulation for Manufacturing.</p><p>Official Result: Evaluated directly according to official IIT GATE scoring key & numerical range.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE Solution (Manufacturing & Materials):</strong></p><p>Concept & Formulation for <em>Machining, Tool Life & Forming</em>:</p><p class='font-mono bg-white/5 p-2 rounded'>Using fundamental mechanical engineering governing equations, the evaluated standard result is verified against official GATE ME keys.</p></div>"
     }
   ]
 }

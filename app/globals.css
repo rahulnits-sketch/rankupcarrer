@@ -46,6 +46,62 @@ body {
   }
 }
 
+/* Question, Option & Math Typography Styling */
+.math-content {
+  color: #0f172a;
+}
+
+.math-content p {
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.math-content table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: auto;
+  max-width: 100%;
+}
+
+.math-content th,
+.math-content td {
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.math-content th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* MathJax custom error suppression / styling: no glaring red/yellow banners */
+mjx-merror {
+  background: transparent !important;
+  color: inherit !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+/* MathJax Container & Display Math (Matrices, Equations) */
+mjx-container {
+  display: inline-block;
+  color: inherit !important;
+  outline: none !important;
+}
+
+mjx-container[display="true"] {
+  display: block !important;
+  margin: 0.85rem auto !important;
+  text-align: center !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
 /* Question and Option Image Styling */
 .math-content img,
 .inline-math-content img {
@@ -61,6 +117,91 @@ body {
   vertical-align: middle;
 }
 
-.math-content p {
-  margin-bottom: 0.5rem;
+/* Atmospheric Animations & Floats */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes float-reverse {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.06);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: float-reverse 7s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 8s ease-in-out infinite;
+}
+
+/* Ken Burns background zoom & slow cinematic drift animation */
+@keyframes kenburns {
+  0% {
+    transform: scale(1.02) translate(0%, 0%);
+  }
+  50% {
+    transform: scale(1.10) translate(-1.2%, -0.8%);
+  }
+  100% {
+    transform: scale(1.05) translate(0.8%, 0.6%);
+  }
+}
+
+.animate-kenburns {
+  animation: kenburns 14s ease-in-out infinite alternate;
+}
+
+@keyframes kenburns-alt {
+  0% {
+    transform: scale(1.08) translate(1%, 0.5%);
+  }
+  50% {
+    transform: scale(1.02) translate(-0.8%, -0.5%);
+  }
+  100% {
+    transform: scale(1.11) translate(-0.5%, 0.8%);
+  }
+}
+
+.animate-kenburns-alt {
+  animation: kenburns-alt 16s ease-in-out infinite alternate;
+}
+
+/* Slide Progress Animation */
+@keyframes slide-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-slide-progress {
+  animation: slide-progress 6.5s linear infinite;
 }

@@ -10,43 +10,43 @@ export default function AptitudePage() {
   const moduleInfo = placementData.modules.find((m) => m.id === "aptitude")!;
 
   return (
-    <main className="min-h-screen bg-[#08090b] text-white flex flex-col justify-between">
+    <main className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col justify-between">
       <Navbar />
       <SubNavPills categoryTitle="EXPLORE PLACEMENT" pills={placementNavPills} />
 
       <section className="mx-auto max-w-7xl px-6 py-12 md:py-16 w-full flex-1">
         {/* Breadcrumb */}
-        <div className="mb-6 flex items-center gap-2 text-xs text-gray-500">
-          <Link href="/" className="hover:text-white transition">Home</Link>
+        <div className="mb-6 flex items-center gap-2 text-xs text-slate-500">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <span>/</span>
-          <Link href="/placement" className="hover:text-white transition">Placement Prep</Link>
+          <Link href="/placement" className="hover:text-slate-900 transition">Placement Prep</Link>
           <span>/</span>
-          <span className="text-amber-400 font-medium">Quantitative Aptitude</span>
+          <span className="text-amber-700 font-medium">Quantitative Aptitude</span>
         </div>
 
         {/* Header */}
-        <div className="mb-10 rounded-2xl border border-amber-500/20 bg-amber-500/[0.03] p-8">
+        <div className="mb-10 rounded-2xl border border-amber-200 bg-amber-500/[0.03] p-8">
           <div className="flex items-center gap-3">
-            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-500/10 text-2xl">
+            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-50 text-2xl">
               {moduleInfo.icon}
             </span>
             <div>
-              <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+              <span className="text-xs font-semibold uppercase tracking-wider text-amber-700">
                 Module Assessment
               </span>
-              <h1 className="text-2xl font-bold tracking-tight text-white md:text-3xl">
+              <h1 className="text-2xl font-bold tracking-tight text-slate-900 md:text-3xl">
                 {moduleInfo.title}
               </h1>
             </div>
           </div>
 
-          <p className="mt-4 text-xs leading-relaxed text-gray-400 max-w-2xl">
+          <p className="mt-4 text-xs leading-relaxed text-slate-600 max-w-2xl">
             {moduleInfo.description}
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
             {moduleInfo.topics.map((t) => (
-              <span key={t} className="rounded-lg border border-white/10 bg-white/5 px-3 py-1 text-xs text-gray-300">
+              <span key={t} className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700">
                 {t}
               </span>
             ))}
@@ -56,8 +56,8 @@ export default function AptitudePage() {
         {/* Tests List */}
         <div>
           <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-white">Available Aptitude Tests</h2>
-            <Link href="/placement" className="text-xs font-semibold text-amber-400 hover:text-amber-300">
+            <h2 className="text-lg font-semibold text-slate-900">Available Aptitude Tests</h2>
+            <Link href="/placement" className="text-xs font-semibold text-amber-700 hover:text-amber-800">
               ← Back to Placement Modules
             </Link>
           </div>
