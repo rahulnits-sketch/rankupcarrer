@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://cse-gate.vercel.app/sitemap.xml',
+    sitemap: 'https://rankupcarrer.vercel.app/sitemap.xml',
   };
 }

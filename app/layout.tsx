@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cse-gate.vercel.app"),
+  metadataBase: new URL("https://rankupcarrer.vercel.app"),
   title: {
     default: "RankUp Career - All Engineering GATE Prep (CSE, ME, CE, EE, ECE), DSA & Placements",
     template: "%s | RankUp Career",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "RankUp Career - All Engineering GATE Prep, PYQs, DSA & Placements",
     description:
       "Practice 38 years of GATE PYQs across CSE, ME, CE, EE & ECE with detailed step-by-step solutions, CBT mock tests, curated DSA sheets, and aptitude tests.",
-    url: "https://cse-gate.vercel.app",
+    url: "https://rankupcarrer.vercel.app",
     siteName: "RankUp Career",
     locale: "en_US",
     type: "website",
@@ -116,20 +116,20 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "EducationalOrganization",
-                  "@id": "https://cse-gate.vercel.app/#organization",
+                  "@id": "https://rankupcarrer.vercel.app/#organization",
                   "name": "RankUp Career",
-                  "url": "https://cse-gate.vercel.app",
-                  "logo": "https://cse-gate.vercel.app/favicon.ico",
+                  "url": "https://rankupcarrer.vercel.app",
+                  "logo": "https://rankupcarrer.vercel.app/favicon.ico",
                   "description": "All-in-one preparation portal for GATE (CSE, ME, CE, EE, ECE), chapter-wise PYQs (1987-2026), DSA coding sheets, and campus placements."
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://cse-gate.vercel.app/#website",
-                  "url": "https://cse-gate.vercel.app",
+                  "@id": "https://rankupcarrer.vercel.app/#website",
+                  "url": "https://rankupcarrer.vercel.app",
                   "name": "RankUp Career",
                   "potentialAction": {
                     "@type": "SearchAction",
-                    "target": "https://cse-gate.vercel.app/gate/pyq?q={search_term_string}",
+                    "target": "https://rankupcarrer.vercel.app/gate/pyq?q={search_term_string}",
                     "query-input": "required name=search_term_string"
                   }
                 }
