@@ -13,9 +13,6 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/Glossy%20Blue%20Gradient%20Checkmark.png",
-  },
   metadataBase: new URL("https://rankupcarrer.vercel.app"),
   title: {
     default: "RankUp Career - All Engineering GATE Prep (CSE, ME, CE, EE, ECE), DSA & Placements",
