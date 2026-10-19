@@ -2,10 +2,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import {
   ArrowRight,
-  Check,
   Menu,
   X,
   ChevronDown,
@@ -46,13 +46,14 @@ export default function Navbar() {
             setGateOpen(false);
           }}
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white shadow-md shadow-blue-500/20">
-            <Check
-              className="h-5 w-5"
-              strokeWidth={3}
-              aria-hidden="true"
-            />
-          </span>
+          <Image
+            src="/Glossy Blue Gradient Checkmark.png"
+            alt=""
+            width={32}
+            height={32}
+            className="h-8 w-8 rounded-lg object-cover shadow-sm"
+            priority
+          />
 
           <span>
             RankUp <span className="text-blue-600">Career</span>

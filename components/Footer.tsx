@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Check, Mail, MessageCircle, Phone } from "lucide-react";
+import Image from "next/image";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 
 const footerLinks = [
   { href: "/", label: "Home" },
@@ -20,9 +21,13 @@ export default function Footer() {
             href="/"
             className="flex shrink-0 items-center gap-2 text-base font-extrabold tracking-tight text-slate-900"
           >
-            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-blue-600 text-white shadow-sm shadow-blue-500/20">
-              <Check className="h-4 w-4" strokeWidth={3} aria-hidden="true" />
-            </span>
+            <Image
+              src="/Glossy Blue Gradient Checkmark.png"
+              alt=""
+              width={28}
+              height={28}
+              className="h-7 w-7 rounded-lg object-cover"
+            />
             <span>
               RankUp <span className="text-blue-600">Career</span>
             </span>

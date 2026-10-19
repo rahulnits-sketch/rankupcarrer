@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/Glossy%20Blue%20Gradient%20Checkmark.png",
+  },
   metadataBase: new URL("https://rankupcarrer.vercel.app"),
   title: {
     default: "RankUp Career - All Engineering GATE Prep (CSE, ME, CE, EE, ECE), DSA & Placements",
@@ -119,7 +122,7 @@ export default function RootLayout({
                   "@id": "https://rankupcarrer.vercel.app/#organization",
                   "name": "RankUp Career",
                   "url": "https://rankupcarrer.vercel.app",
-                  "logo": "https://rankupcarrer.vercel.app/favicon.ico",
+                  "logo": "https://rankupcarrer.vercel.app/Glossy%20Blue%20Gradient%20Checkmark.png",
                   "description": "All-in-one preparation portal for GATE (CSE, ME, CE, EE, ECE), chapter-wise PYQs (1987-2026), DSA coding sheets, and campus placements."
                 },
                 {
