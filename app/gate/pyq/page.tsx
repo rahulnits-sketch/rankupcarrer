@@ -111,7 +111,7 @@ function GatePyqContent() {
           GATE {currentBranch.code} Previous Year Questions (1987 – 2026) with Step-by-Step Solutions
         </h1>
         <p className="mt-2 text-sm text-slate-600 sm:text-base max-w-4xl">
-          Practice 38 years of authentic GATE {currentBranch.name} ({currentBranch.code}) solved question papers in authentic CBT online test format. Filter by year, examine derivations, and master the official IIT syllabus.
+          Practice 38 years of authentic {currentBranch.title} ({currentBranch.code}) solved question papers in authentic CBT online test format. Filter by year, examine derivations, and master the official IIT syllabus.
         </p>
       </div>
 
