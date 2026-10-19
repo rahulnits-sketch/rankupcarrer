@@ -116,6 +116,69 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    // Multi-branch GATE Hubs
+    {
+      url: `${baseUrl}/gate/cse-it`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gate/mechanical`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gate/civil`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gate/electrical`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gate/ece`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    // DSA Roadmaps
+    {
+      url: `${baseUrl}/dsa/roadmaps/blind-75`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/dsa/roadmaps/neetcode-150`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/dsa/roadmaps/love-babbar`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/dsa/roadmaps/coder-army`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    // Company placement tests
+    {
+      url: `${baseUrl}/placement/company-mocks`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
   ];
 
   // Subject pages

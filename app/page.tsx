@@ -364,7 +364,7 @@ export default function Home() {
                 CBT Examination Engine
               </span>
               <h2 className="mt-1 text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl">
-                How CheckMate Prepares You for D-Day
+                How RankUp Career Prepares You for D-Day
               </h2>
             </div>
           </div>

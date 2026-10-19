@@ -105,6 +105,15 @@ function GatePyqContent() {
         <span className="text-blue-700 font-medium">PYQ Paper</span>
       </div>
 
+      {/* Primary SEO Heading */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
+          GATE {currentBranch.code} Previous Year Questions (1987 – 2026) with Step-by-Step Solutions
+        </h1>
+        <p className="mt-2 text-sm text-slate-600 sm:text-base max-w-4xl">
+          Practice 38 years of authentic GATE {currentBranch.name} ({currentBranch.code}) solved question papers in authentic CBT online test format. Filter by year, examine derivations, and master the official IIT syllabus.
+        </p>
+      </div>
 
       {/* Engineering Branch Selector */}
       <div className="mb-10 rounded-2xl border border-slate-200 bg-white p-4 sm:p-5">

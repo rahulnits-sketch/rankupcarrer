@@ -81,7 +81,7 @@ export default function InstitutionalHeritage() {
             >
               <Image
                 src={item.src}
-                alt=""
+                alt={`${item.name} - Premier Engineering & GATE Target Institution`}
                 fill
                 priority={index === 0}
                 sizes="100vw"

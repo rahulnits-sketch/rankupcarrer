@@ -188,7 +188,7 @@ export default function ResultPage() {
       <header className="border-b border-slate-200 px-6 py-4 sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-xs">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <Link href="/" className="text-lg font-extrabold tracking-tight text-slate-900">
-            CheckMate <span className="text-blue-600">CBT Analytics</span>
+            RankUp Career <span className="text-blue-600">CBT Analytics</span>
           </Link>
 
           <div className="flex items-center gap-2.5">

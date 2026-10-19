@@ -24,7 +24,7 @@ export default function Footer() {
               <Check className="h-4 w-4" strokeWidth={3} aria-hidden="true" />
             </span>
             <span>
-              CheckMate <span className="text-blue-600">College</span>
+              RankUp <span className="text-blue-600">Career</span>
             </span>
           </Link>
           <p className="text-xs text-slate-500">
@@ -50,23 +50,23 @@ export default function Footer() {
         <div className="flex items-center gap-2.5">
           <a
             href="tel:9708915535"
-            aria-label="Call CheckMate GATE"
+            aria-label="Call RankUp Career"
             className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-blue-300 hover:bg-blue-50 hover:text-blue-600"
           >
             <Phone className="h-4 w-4" aria-hidden="true" />
           </a>
           <a
-            href="https://wa.me/919708915535?text=Hi%2C%20I%20have%20a%20query%20regarding%20CheckMate%20GATE"
+            href="https://wa.me/919708915535?text=Hi%2C%20I%20have%20a%20query%20regarding%20RankUp%20Career"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chat with CheckMate GATE on WhatsApp"
+            aria-label="Chat with RankUp Career on WhatsApp"
             className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-600"
           >
             <MessageCircle className="h-4 w-4" aria-hidden="true" />
           </a>
           <a
             href="mailto:rkumarraj733@gmail.com"
-            aria-label="Email CheckMate GATE"
+            aria-label="Email RankUp Career"
             className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600"
           >
             <Mail className="h-4 w-4" aria-hidden="true" />
@@ -74,7 +74,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-slate-100 py-3 text-center text-xs text-slate-600">
-        © 2026 CheckMate College. Built for GATE CSE, PSU & Tier-1 Tech Placement Aspirants.
+        © 2026 RankUp Career. Built for GATE CSE, PSU & Tier-1 Tech Placement Aspirants.
       </div>
     </footer>
   );

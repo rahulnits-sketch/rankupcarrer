@@ -55,7 +55,7 @@ export default function Navbar() {
           </span>
 
           <span>
-            CheckMate <span className="text-blue-600">College</span>
+            RankUp <span className="text-blue-600">Career</span>
           </span>
         </Link>
 

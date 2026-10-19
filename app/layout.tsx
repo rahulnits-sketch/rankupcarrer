@@ -15,26 +15,33 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://cse-gate.vercel.app"),
   title: {
-    default: "CheckMate College - CSE GATE Prep, PYQs & DSA Placement Preparation",
-    template: "%s | CheckMate College",
+    default: "RankUp Career - All Engineering GATE Prep (CSE, ME, CE, EE, ECE), DSA & Placements",
+    template: "%s | RankUp Career",
   },
   description:
-    "Comprehensive preparation platform for CSE GATE with previous year questions (PYQ), detailed solutions, topic-wise DSA roadmaps, and campus placement interview prep.",
+    "Comprehensive preparation platform for all GATE engineering branches (CSE, Mechanical, Civil, Electrical, ECE) with 38-year PYQs (1987-2026), chapter-wise tests, curated DSA sheets, and campus placement prep.",
   keywords: [
-    "CSE GATE",
-    "GATE CSE",
-    "GATE CSE PYQ",
-    "GATE PYQ with solutions",
-    "DSA placement preparation",
-    "GATE Computer Science test series",
-    "Campus placement preparation",
-    "DSA roadmap",
-    "GATE CSE mock test",
-    "GATE CSE subjects",
+    "GATE Preparation All Branches",
+    "GATE CSE PYQ with solutions",
+    "GATE Mechanical PYQ solved papers",
+    "GATE Civil Engineering test series",
+    "GATE Electrical Engineering mock test",
+    "GATE ECE previous year questions",
+    "GATE chapter wise questions 1987 to 2026",
+    "Striver A2Z DSA sheet practice",
+    "Blind 75 NeetCode roadmap",
+    "Topic wise DSA practice problems",
+    "Campus placement aptitude questions",
+    "TCS NQT Infosys placement mock test",
+    "Software engineer interview questions with answers",
+    "GATE CBT mock test 2026"
   ],
-  authors: [{ name: "CheckMate College" }],
-  creator: "CheckMate College",
-  publisher: "CheckMate College",
+  authors: [{ name: "RankUp Career" }],
+  creator: "RankUp Career",
+  publisher: "RankUp Career",
+  alternates: {
+    canonical: "./",
+  },
   robots: {
     index: true,
     follow: true,
@@ -47,19 +54,19 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "CheckMate College - CSE GATE, PYQs & DSA Placement Preparation",
+    title: "RankUp Career - All Engineering GATE Prep, PYQs, DSA & Placements",
     description:
-      "Practice CSE GATE previous year questions, take mock tests, and master DSA & aptitude for tech placements.",
+      "Practice 38 years of GATE PYQs across CSE, ME, CE, EE & ECE with detailed step-by-step solutions, CBT mock tests, curated DSA sheets, and aptitude tests.",
     url: "https://cse-gate.vercel.app",
-    siteName: "CheckMate College",
+    siteName: "RankUp Career",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CheckMate College - CSE GATE, PYQs & DSA Placement Preparation",
+    title: "RankUp Career - All Engineering GATE Prep, PYQs, DSA & Placements",
     description:
-      "Practice CSE GATE previous year questions, take mock tests, and master DSA & aptitude for campus placements.",
+      "Practice 38 years of GATE PYQs across CSE, ME, CE, EE & ECE with detailed step-by-step solutions, CBT mock tests, curated DSA sheets, and aptitude tests.",
   },
 };
 
@@ -100,6 +107,35 @@ export default function RootLayout({
           id="MathJax-script"
           async
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "EducationalOrganization",
+                  "@id": "https://cse-gate.vercel.app/#organization",
+                  "name": "RankUp Career",
+                  "url": "https://cse-gate.vercel.app",
+                  "logo": "https://cse-gate.vercel.app/favicon.ico",
+                  "description": "All-in-one preparation portal for GATE (CSE, ME, CE, EE, ECE), chapter-wise PYQs (1987-2026), DSA coding sheets, and campus placements."
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://cse-gate.vercel.app/#website",
+                  "url": "https://cse-gate.vercel.app",
+                  "name": "RankUp Career",
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://cse-gate.vercel.app/gate/pyq?q={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                  }
+                }
+              ]
+            })
+          }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-[#f8fafc] text-[#0f172a] selection:bg-blue-600 selection:text-white">

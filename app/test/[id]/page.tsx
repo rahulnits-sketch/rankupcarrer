@@ -547,7 +547,7 @@ export default function TestPage() {
               href="/"
               className="shrink-0 text-base font-extrabold tracking-tight text-slate-900"
             >
-              CheckMate <span className="text-blue-600">CBT</span>
+              RankUp Career <span className="text-blue-600">CBT</span>
             </Link>
             <span className="text-slate-300">|</span>
             <span className="truncate text-xs font-bold text-slate-800 max-w-[280px] sm:max-w-md">
