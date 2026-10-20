@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rankupcarrer.vercel.app"),
+  metadataBase: new URL("https://rankupcareer.vercel.app"),
   title: {
     default: "RankUp Career - All Engineering GATE Prep (CSE, ME, CE, EE, ECE), DSA & Placements",
     template: "%s | RankUp Career",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "RankUp Career - All Engineering GATE Prep, PYQs, DSA & Placements",
     description:
       "Practice 38 years of GATE PYQs across CSE, ME, CE, EE & ECE with detailed step-by-step solutions, CBT mock tests, curated DSA sheets, and aptitude tests.",
-    url: "https://rankupcarrer.vercel.app",
+    url: "https://rankupcareer.vercel.app",
     siteName: "RankUp Career",
     locale: "en_US",
     type: "website",
@@ -117,20 +117,20 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "EducationalOrganization",
-                  "@id": "https://rankupcarrer.vercel.app/#organization",
+                  "@id": "https://rankupcareer.vercel.app/#organization",
                   "name": "RankUp Career",
-                  "url": "https://rankupcarrer.vercel.app",
-                  "logo": "https://rankupcarrer.vercel.app/Glossy%20Blue%20Gradient%20Checkmark.png",
+                  "url": "https://rankupcareer.vercel.app",
+                  "logo": "https://rankupcareer.vercel.app/Glossy%20Blue%20Gradient%20Checkmark.png",
                   "description": "All-in-one preparation portal for GATE (CSE, ME, CE, EE, ECE), chapter-wise PYQs (1987-2026), DSA coding sheets, and campus placements."
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://rankupcarrer.vercel.app/#website",
-                  "url": "https://rankupcarrer.vercel.app",
+                  "@id": "https://rankupcareer.vercel.app/#website",
+                  "url": "https://rankupcareer.vercel.app",
                   "name": "RankUp Career",
                   "potentialAction": {
                     "@type": "SearchAction",
-                    "target": "https://rankupcarrer.vercel.app/gate/pyq?q={search_term_string}",
+                    "target": "https://rankupcareer.vercel.app/gate/pyq?q={search_term_string}",
                     "query-input": "required name=search_term_string"
                   }
                 }
