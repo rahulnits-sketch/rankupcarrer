@@ -72,26 +72,23 @@ export default function InstitutionalHeritage() {
       >
         {INSTITUTIONS.map((item, index) => {
           const isActive = index === currentIndex;
+          if (!isActive) return null;
+
           return (
             <div
               key={item.id}
-              className={`absolute inset-0 transition-opacity duration-1200 ease-in-out ${
-                isActive ? "opacity-35 sm:opacity-45" : "opacity-0 pointer-events-none"
-              }`}
+              className="absolute inset-0 opacity-35 transition-opacity duration-1200 ease-in-out sm:opacity-45"
             >
               <Image
                 src={item.src}
                 alt={`${item.name} - Premier Engineering & GATE Target Institution`}
                 fill
-                priority={index === 0}
+                priority
+                quality={70}
                 sizes="100vw"
-                className={`object-cover object-center ${
-                  isActive
-                    ? index % 2 === 0
-                      ? "animate-kenburns"
-                      : "animate-kenburns-alt"
-                    : "scale-100"
-                }`}
+                className={
+                  index % 2 === 0 ? "animate-kenburns object-cover object-center" : "animate-kenburns-alt object-cover object-center"
+                }
               />
             </div>
           );

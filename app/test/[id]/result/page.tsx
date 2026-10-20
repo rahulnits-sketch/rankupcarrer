@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Question } from "../page";
 import MathContent from "@/components/MathContent";
+import MathJaxLoader from "@/components/MathJaxLoader";
 import {
   CheckCircle2,
   XCircle,
@@ -143,6 +144,7 @@ export default function ResultPage() {
   if (!result) {
     return (
       <main className="flex min-h-screen flex-col items-center justify-center bg-[#f8fafc] p-6 text-slate-800">
+        <MathJaxLoader />
         <div className="rounded-3xl border border-slate-200 bg-white p-8 text-center max-w-md w-full shadow-lg">
           <p className="text-lg font-bold text-slate-900">No test result found.</p>
           <p className="mt-2 text-xs text-slate-500">
@@ -184,6 +186,7 @@ export default function ResultPage() {
 
   return (
     <main className="min-h-screen bg-[#f8fafc] text-slate-900 selection:bg-blue-600 selection:text-white">
+      <MathJaxLoader />
       {/* Top Header */}
       <header className="border-b border-slate-200 px-6 py-4 sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-xs">
         <div className="mx-auto flex max-w-7xl items-center justify-between">

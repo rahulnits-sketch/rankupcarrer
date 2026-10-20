@@ -6,6 +6,7 @@ import Link from "next/link";
 import questionData from "@/data/questions.json";
 import { getGateQuestionsForTest } from "@/lib/gate";
 import MathContent from "@/components/MathContent";
+import MathJaxLoader from "@/components/MathJaxLoader";
 import GateScientificCalculator from "@/components/cbt/GateScientificCalculator";
 import QuestionPaperModal from "@/components/cbt/QuestionPaperModal";
 import {
@@ -538,6 +539,7 @@ export default function TestPage() {
 
   return (
     <main className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col justify-between selection:bg-blue-600 selection:text-white">
+      <MathJaxLoader />
       {/* Official TCS iON Examination Header - FR-2.1 */}
       <header className="sticky top-0 z-40 border-b border-slate-200 bg-white shadow-xs">
         {/* Top Info Bar */}

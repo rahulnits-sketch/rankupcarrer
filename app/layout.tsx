@@ -84,32 +84,6 @@ export default function RootLayout({
     >
       <head>
         <script
-          dangerouslySetInnerHTML={{
-            __html: `window.MathJax = ${JSON.stringify({
-              tex: {
-                inlineMath: [["$", "$"], ["\\(", "\\)"]],
-                displayMath: [["$$", "$$"], ["\\[", "\\]"]],
-                processEscapes: true,
-                packages: { "[+]": ["ams", "color", "base"] }
-              },
-              chtml: {
-                fontURL: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2"
-              },
-              startup: {
-                typeset: false
-              },
-              options: {
-                skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
-              }
-            })};`,
-          }}
-        />
-        <script
-          id="MathJax-script"
-          async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-        />
-        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
