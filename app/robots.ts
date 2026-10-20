@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://rankupcarrer.vercel.app/sitemap.xml',
+    sitemap: 'https://rankupcareer.vercel.app/sitemap.xml',
   };
 }

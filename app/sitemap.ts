@@ -3,7 +3,7 @@ import pyqManifest from '@/data/gate/pyq/manifest.json';
 import subjectsManifest from '@/data/gate/subjects/manifest.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rankupcarrer.vercel.app';
+  const baseUrl = 'https://rankupcareer.vercel.app';
   const now = new Date();
 
   // Core static landing pages with top priority
