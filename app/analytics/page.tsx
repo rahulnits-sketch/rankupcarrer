@@ -5,15 +5,12 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {
-  Flame,
   Award,
   TrendingUp,
   Target,
-  CheckCircle2,
   AlertCircle,
   ArrowRight,
   BookOpen,
-  Calendar,
   Sparkles,
   BarChart3,
   Landmark,
@@ -272,114 +269,6 @@ export default function AnalyticsPage() {
               <span>Take Full 65-Q CBT Mock</span>
               <ArrowRight className="h-4 w-4" />
             </Link>
-          </div>
-        </div>
-
-        {/* Section 1: Daily Habit Engine - FR-4.1 */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Active 18-Day Streak Card */}
-          <div className="rounded-3xl border border-amber-200 bg-gradient-to-br from-amber-50/70 via-white to-white p-6 md:p-8 shadow-xs">
-            <div className="flex items-center justify-between">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-tr from-amber-500 to-orange-400 text-white shadow-md shadow-amber-500/30">
-                <Flame className="h-6 w-6" />
-              </div>
-              <span className="rounded-full bg-amber-100 border border-amber-200 px-3 py-1 font-mono text-xs font-bold text-amber-900">
-                AIR-100 Trajectory
-              </span>
-            </div>
-
-            <div className="mt-5">
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
-                Current Preparation Streak
-              </span>
-              <div className="flex items-baseline gap-2 mt-1">
-                <span className="font-mono text-4xl md:text-5xl font-black text-slate-900">
-                  18
-                </span>
-                <span className="text-base font-bold text-amber-700">Days Active</span>
-              </div>
-              <p className="text-xs text-slate-500 mt-2">
-                Personal Best: <strong>24 Days</strong>. Consistency is the single highest predictor of sub-100 AIR rank.
-              </p>
-            </div>
-
-            {/* Daily Quota Completion Checklist */}
-            <div className="mt-6 border-t border-amber-100 pt-4 space-y-2.5">
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-700 block mb-1">
-                Today&apos;s Target Quota (3/3 Completed)
-              </span>
-              <div className="flex items-center gap-2.5 text-xs font-medium text-slate-700">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span>1 Full CBT Practice Test (OS Scheduling)</span>
-              </div>
-              <div className="flex items-center gap-2.5 text-xs font-medium text-slate-700">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span>2 SDE Coding Problems (Trapping Rain Water)</span>
-              </div>
-              <div className="flex items-center gap-2.5 text-xs font-medium text-slate-700">
-                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span>Textbook Revision: DBMS Serializability (Korth)</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Activity Heatmap Grid */}
-          <div className="lg:col-span-2 rounded-3xl border border-slate-200 bg-white p-6 md:p-8 shadow-xs flex flex-col justify-between">
-            <div>
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-2">
-                  <Calendar className="h-4 w-4 text-blue-600" />
-                  <h3 className="text-sm font-bold text-slate-900">
-                    28-Day Practice Consistency Grid
-                  </h3>
-                </div>
-                <span className="text-xs text-slate-500 font-medium">
-                  Last 4 Weeks Activity
-                </span>
-              </div>
-
-              {/* 4 weeks x 7 days interactive grid */}
-              <div className="grid grid-cols-7 gap-2 pt-2">
-                {Array.from({ length: 28 }).map((_, i) => {
-                  const day = i + 1;
-                  const isActive = day > 10; // 18-day continuous streak
-                  const isIntense = day % 3 === 0;
-
-                  return (
-                    <div
-                      key={day}
-                      title={`Day ${day}: ${isActive ? (isIntense ? "2 Tests + 4 DSA Solved" : "1 Test Solved") : "Rest Day"}`}
-                      className={`h-10 rounded-xl flex items-center justify-center font-mono text-[11px] font-bold transition hover:scale-105 cursor-pointer ${
-                        isActive
-                          ? isIntense
-                            ? "bg-blue-600 text-white shadow-xs shadow-blue-500/20"
-                            : "bg-blue-100 text-blue-800"
-                          : "bg-slate-100 text-slate-400"
-                      }`}
-                    >
-                      {day}
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4 text-xs text-slate-500">
-              <div className="flex items-center gap-3">
-                <span className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded bg-slate-100" /> Less
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded bg-blue-100" /> Active
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded bg-blue-600" /> High Intensity
-                </span>
-              </div>
-              <span className="font-semibold text-slate-700">
-                48 Total Hours Logged this Month
-              </span>
-            </div>
           </div>
         </div>
 
