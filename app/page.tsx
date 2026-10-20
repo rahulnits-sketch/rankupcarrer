@@ -2,7 +2,6 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import InstitutionalHeritage from "@/components/landing/InstitutionalHeritage";
-import DailyTracker from "@/components/landing/DailyTracker";
 import {
   ArrowRight,
   BriefcaseBusiness,
