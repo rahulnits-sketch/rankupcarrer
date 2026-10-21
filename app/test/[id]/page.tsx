@@ -13,8 +13,6 @@ import {
   Calculator,
   FileText,
   AlertTriangle,
-  User,
-  Target,
   ArrowRight,
   ArrowLeft,
   RotateCcw,
@@ -557,20 +555,6 @@ export default function TestPage() {
             </span>
           </div>
 
-          {/* Candidate Profile Box with Goal Target - FR-2.1 */}
-          <div className="flex items-center gap-3 bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-xs">
-            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-[11px]">
-              <User className="h-4 w-4" />
-            </div>
-            <div className="leading-tight">
-              <span className="font-bold text-slate-900 block">Candidate: Rahul Kumar</span>
-              <span className="text-[11px] text-slate-500 font-mono">Roll: CS26S12948</span>
-            </div>
-            <div className="hidden sm:flex items-center gap-1.5 border-l border-slate-200 pl-3 ml-1 text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded font-bold text-[11px]">
-              <Target className="h-3.5 w-3.5" />
-              <span>Goal: AIR ≤ 100 (IIT-B / IISc)</span>
-            </div>
-          </div>
         </div>
 
         {/* Action Controls & Countdown Clock Bar */}
