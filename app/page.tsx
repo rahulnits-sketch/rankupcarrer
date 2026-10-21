@@ -297,7 +297,7 @@ export default function Home() {
                   ROADMAP 01
                 </span>
                 <h3 className="mt-3 text-xl font-bold text-slate-900 group-hover:text-blue-600 transition">
-                  How to Crack GATE CSE
+                  How to Crack GATE 
                 </h3>
                 <p className="mt-3 text-xs leading-relaxed text-slate-600">
                   Balancing college semester exams with GATE prep, mastering high-weightage subjects first, and optimal PYQ revision cycles.
