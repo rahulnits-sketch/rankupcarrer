@@ -1,749 +1,748 @@
 {
   "id": "electromagnetics",
   "name": "Electromagnetic Fields",
-  "shortName": "EM Fields",
+  "shortName": "Electromagnetics",
   "icon": "🧲",
-  "color": "from-pink-500/20 to-rose-500/20",
-  "borderColor": "border-pink-500/30",
-  "totalQuestions": 15,
+  "color": "from-indigo-500/20 to-purple-500/20",
+  "borderColor": "border-indigo-500/30",
+  "totalQuestions": 27,
   "topics": [
     {
-      "name": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "questionCount": 3
+      "name": "Electrostatics, Coulomb's & Gauss's Law",
+      "questionCount": 6
     },
     {
-      "name": "Biot-Savart Law & Ampere's Circuital Law",
-      "questionCount": 3
+      "name": "Magnetostatics, Biot-Savart & Ampere's Law",
+      "questionCount": 6
     },
     {
       "name": "Faraday's Law & Maxwell's Equations",
-      "questionCount": 3
+      "questionCount": 6
     },
     {
-      "name": "Wave Propagation in Dielectrics & Conductors",
-      "questionCount": 3
+      "name": "Poynting Vector & Electromagnetic Waves",
+      "questionCount": 6
     }
   ],
   "questions": [
     {
       "id": "gate-ee-elec-q1",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — EM Fields | Faraday's Law & Maxwell's Equations",
+      "title": "GATE EE 2026 | EE Question: 5",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
       "topic": "Faraday's Law & Maxwell's Equations",
       "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "question": "<p>A uniform ring charge of radius R carries a total charge 𝑄. Which one of the \nfollowing options correctly quantifies the magnitude of the force on a point \ncharge of strength 𝑞 kept at the center of the ring?  \n \n(𝜖 is the permittivity of the medium)</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "𝑄𝑞 4𝜋𝜖𝑅",
+        "𝑄𝑞 4𝜋𝜖𝑅2",
+        "0",
+        "𝑞 4𝜋𝜖𝑅 × 𝑄2𝜋𝑅"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "𝑄𝑞 4𝜋𝜖𝑅",
+          "html": "𝑄𝑞 4𝜋𝜖𝑅"
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
+          "text": "𝑄𝑞 4𝜋𝜖𝑅2",
+          "html": "𝑄𝑞 4𝜋𝜖𝑅2"
         },
         {
           "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
+          "text": "0",
+          "html": "0"
         },
         {
           "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "𝑞 4𝜋𝜖𝑅 × 𝑄2𝜋𝑅",
+          "html": "𝑞 4𝜋𝜖𝑅 × 𝑄2𝜋𝑅"
         }
       ],
       "answer": [
-        "A"
+        "C"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q2",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q2",
+      "title": "GATE EE 2026 | EE Question: 6",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
       "topic": "Faraday's Law & Maxwell's Equations",
       "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "question": "<p>A positive point charge with velocity 𝑣⃗  =  5 𝑥̂ enters a region having electric \nfield 𝐸⃗⃗  =  4 𝑦̂ and magnetic field 𝐵⃗⃗  =  − 6 𝑧̂. Which one of the following \nstatements is correct for the force on the charge as it enters the region?</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "The force will be along the magnetic field but perpendicular to the electric field",
+        "The force will be along the electric field but perpendicular to the magnetic field",
+        "The force will be perpendicular to both electric and magnetic field",
+        "The magnetic field does not exert any force on the charge"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "The force will be along the magnetic field but perpendicular to the electric field",
+          "html": "The force will be along the magnetic field but perpendicular to the electric field"
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
+          "text": "The force will be along the electric field but perpendicular to the magnetic field",
+          "html": "The force will be along the electric field but perpendicular to the magnetic field"
         },
         {
           "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
+          "text": "The force will be perpendicular to both electric and magnetic field",
+          "html": "The force will be perpendicular to both electric and magnetic field"
         },
         {
           "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "The magnetic field does not exert any force on the charge",
+          "html": "The magnetic field does not exert any force on the charge"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q3",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q3",
+      "title": "GATE EE 2026 | EE Question: 41",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
+      "topic": "Faraday's Law & Maxwell's Equations",
       "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "question": "<p>The figure shows an arbitrarily shaped planar conducting loop A in the XY plane. \nTwo nonintersecting regions with areas 𝑎1 and 𝑎2  within the loop are subjected to \nmagnetic fields 𝐵⃗⃗1 = 𝑚√2 sin(𝜔𝑡) (1 𝑥̂ + 0 𝑦̂ + 1 𝑧̂ ) , and  \n 𝐵⃗⃗2 =  − 𝑛√2 cos(2𝜔𝑡 + 𝜋/4) (0 𝑥̂ + 1 𝑦̂ + 1 𝑧̂ ) , respectively.   \n \nWhat is the expression for the induced rms voltage in loop A?</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "√𝑎12𝜔2𝑚2 + 4𝑎22𝜔2𝑛2 4",
+        "√𝑎12𝜔2𝑚2 + 4𝑎22𝜔2𝑛2 2",
+        "√𝑎12𝜔2𝑚2 − 2𝑎22𝜔2𝑛2 2",
+        "√𝑎12𝜔2𝑚2 + 2𝑎22𝜔2𝑛2"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "√𝑎12𝜔2𝑚2 + 4𝑎22𝜔2𝑛2 4",
+          "html": "√𝑎12𝜔2𝑚2 + 4𝑎22𝜔2𝑛2 4"
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
+          "text": "√𝑎12𝜔2𝑚2 + 4𝑎22𝜔2𝑛2 2",
+          "html": "√𝑎12𝜔2𝑚2 + 4𝑎22𝜔2𝑛2 2"
         },
         {
           "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
+          "text": "√𝑎12𝜔2𝑚2 − 2𝑎22𝜔2𝑛2 2",
+          "html": "√𝑎12𝜔2𝑚2 − 2𝑎22𝜔2𝑛2 2"
         },
         {
           "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "√𝑎12𝜔2𝑚2 + 2𝑎22𝜔2𝑛2",
+          "html": "√𝑎12𝜔2𝑚2 + 2𝑎22𝜔2𝑛2"
         }
       ],
       "answer": [
         "A"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q4",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 4,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q4",
+      "title": "GATE EE 2026 | EE Question: 53",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A uniform spherical volume charge distribution of radius 2 m, centered at  \nthe origin, has a strength of  \n3\n𝜋 × 10−6 C/m3. A point charge of strength 𝜋 ×\n8.854 × 10−12 C is moved from (– 3, 0, – 4) to (0, 0, 4) in Cartesian coordinate \nsystem. The relative permittivity of the medium is 1 and the coordinate values are \nin meters. \n \nThe work done during the process is ______ µJ \n \n(Round off to two decimal places)</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "0.4"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "tolerance": {
+        "min": 0.38,
+        "max": 0.42
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>0.4</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q5",
       "testId": "gate-subject-electrical-electromagnetics",
       "year": 2024,
+      "set": 1,
       "orderIndex": 5,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q5",
+      "title": "GATE EE 2024 | EE Question: 41",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>In the (𝑥, 𝑦, 𝑧) coordinate system, three point-charges 𝑄, 𝑄, and 𝛼𝑄 are located in \nfree space at (−1, 0, 0), (1, 0, 0), and (0, −1, 0), respectively. The value of 𝛼 for the \nelectric field to be zero at (0, 0.5, 0) is ______________ (rounded off to 1 decimal \nplace).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "-1.6"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "tolerance": {
+        "min": -1.7,
+        "max": -1.5
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>-1.6</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q6",
       "testId": "gate-subject-electrical-electromagnetics",
       "year": 2024,
+      "set": 1,
       "orderIndex": 6,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q6",
+      "title": "GATE EE 2024 | EE Question: 42",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
       "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
+      "type": "NAT",
+      "question": "<p>The given equation represents a magnetic field strength 𝐻̅(𝑟, 𝜃, 𝜙) in the spherical \ncoordinate system, in free space. Here, 𝑟̂ and 𝜃̂ represent the unit vectors along 𝑟 \nand 𝜃, respectively. The value of  𝑃 in the equation should be ____________ \n(rounded off to the nearest integer). \n 𝐻̅(𝑟, 𝜃, 𝜙) = 1𝑟3 (𝑟̂𝑃 cos 𝜃 + 𝜃̂ sin 𝜃)</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "2"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "tolerance": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>2</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q7",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 7,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q7",
+      "title": "GATE EE 2023 | EE Question: 33",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "MSQ",
+      "question": "<p>In the figure, the electric field E and the magnetic field B point to x and z directions, \nrespectively, and have constant magnitudes.  A positive charge ‘q’ is released from \nrest at the origin. Which of the following statement(s) is/are true.</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "The charge will move in the direction of z with constant velocity.",
+        "The charge will always move on the y-z plane only.",
+        "The trajectory of the charge will be a circle.",
+        "The charge will progress in the direction of y."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "The charge will move in the direction of z with constant velocity.",
+          "html": "The charge will move in the direction of z with constant velocity."
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
+          "text": "The charge will always move on the y-z plane only.",
+          "html": "The charge will always move on the y-z plane only."
         },
         {
           "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
+          "text": "The trajectory of the charge will be a circle.",
+          "html": "The trajectory of the charge will be a circle."
         },
         {
           "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "The charge will progress in the direction of y.",
+          "html": "The charge will progress in the direction of y."
         }
       ],
       "answer": [
         "A"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q8",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 8,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q8",
+      "title": "GATE EE 2023 | EE Question: 51",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>An infinite surface of linear current density 𝐊 = 5𝐚̂𝐱 A/m exists on the x-y plane, \nas shown in the figure. The magnitude of the magnetic field intensity (H) at a point \n(1,1,1) due to the surface current in Amp ere/meter is _______  (Round off to 2 \ndecimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "2.5"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "tolerance": {
+        "min": 2.49,
+        "max": 2.51
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>2.5</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q9",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 9,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q9",
+      "title": "GATE EE 2022 | EE Question: 13",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
+      "topic": "Faraday's Law & Maxwell's Equations",
       "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "question": "<p>A long conducting cylinder having a radius ‘b’ is placed along the z axis. The current \ndensity is 𝐉 = Jୟ rଷ zො   for the region r < b where r is the distance in the radial direction. \nThe magnetic field intensity (H) for the region inside the conductor (i.e. for r < b) is</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "Jୟ 4 rସ",
+        "Jୟ 3 rଷ",
+        "Jୟ 5 rସ",
+        "Jୟ rଷ"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "Jୟ 4 rସ",
+          "html": "Jୟ 4 rସ"
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
+          "text": "Jୟ 3 rଷ",
+          "html": "Jୟ 3 rଷ"
         },
         {
           "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
+          "text": "Jୟ 5 rସ",
+          "html": "Jୟ 5 rସ"
         },
         {
           "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "Jୟ rଷ",
+          "html": "Jୟ rଷ"
         }
       ],
       "answer": [
-        "A"
+        "C"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-elec-q10",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 10,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q10",
+      "title": "GATE EE 2022 | EE Question: 35",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
       "topic": "Faraday's Law & Maxwell's Equations",
       "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "question": "<p>If the magnetic field intensity ( H) in a conducting region is given by the expression, \n𝐇 =  𝑥ଶ ı̂ + 𝑥ଶ𝑦ଶ ȷ̂ + 𝑥ଶ𝑦ଶ 𝑧ଶ k෠  A/m. The magnitude of the current density, in \nA/m2, at 𝑥 = 1 m, 𝑦 = 2 m, and 𝑧 = 1 m, is</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "8",
+        "12",
+        "16",
+        "20 GATE 2022"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "8",
+          "html": "8"
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
+          "text": "12",
+          "html": "12"
         },
         {
           "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
+          "text": "16",
+          "html": "16"
         },
         {
           "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "20 GATE 2022",
+          "html": "20 GATE 2022"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electromagnetic Fields):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
+      "year": 2021,
+      "set": 1,
+      "qno": 42,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>Consider a large parallel plate capacitor. The gap \n between the two plates is ﬁlled entirely with a dielectric\nslab of relative permittivity \n. The plates are initially charged to a potential diﬀerence of \n volts and then\ndisconnected from the source. If the dielectric slab is pulled out completely, then the ratio of the new electric ﬁeld \n in the gap to the original electric field \n is ________.\ngateee-2021\n \nnumerical-answers\n \nelectric-circuits\nElectric Field Intensity \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a large parallel plate capacitor. The gap \n between the two plates is ﬁlled entirely with a dielectric\nslab of relative permittivity \n. The plates are initially charged to a potential diﬀerence of \n volts and then\ndisconnected from the source. If the dielectric slab is pulled out completely, then the ratio of the new electric ﬁeld \n in the gap to the original electric field \n is ________.\ngateee-2021\n \nnumerical-answers\n \nelectric-circuits\nElectric Field Intensity \n(1",
       "id": "gate-ee-elec-q11",
       "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
       "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q11",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 27",
+      "answer": "D"
     },
     {
-      "id": "gate-ee-elec-q12",
-      "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
-      "orderIndex": 12,
+      "year": 2021,
+      "set": 1,
+      "qno": 5,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q12",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-elec-q13",
-      "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
-      "orderIndex": 13,
-      "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q13",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-elec-q14",
-      "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
-      "orderIndex": 14,
-      "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q14",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
       "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "type": "NAT",
+      "question": "<p>Which one of the following vector functions represents a magnetic field \n?\ngateee-2021\n \ncalculus\n \nfield-vectors\nAnswer key\n☟\nFourier Series \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Which one of the following vector functions represents a magnetic field \n?\ngateee-2021\n \ncalculus\n \nfield-vectors\nAnswer key\n☟\nFourier Series \n(2",
+      "id": "gate-ee-elec-q12",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 12,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 32",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-elec-q15",
-      "testId": "gate-subject-electrical-electromagnetics",
-      "year": 2024,
-      "orderIndex": 15,
+      "year": 2020,
+      "set": 1,
+      "qno": 33,
       "section": "EE",
-      "title": "GATE EE Practice — EM Fields | Q15",
       "subject": "Electromagnetic Fields",
       "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>The static electric ﬁeld inside a dielectric medium with relative permittivity, \n, expressed in\ncylindrical coordinate system is given by the following expression \n where \n are unit vectors along \n directions, respectively. If the above expression represents a\nvalid electrostatic ﬁeld inside the medium, then the volume charge density associated with this ﬁeld in terms of\nfree space permittivity, \n in \n units is given by:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The static electric ﬁeld inside a dielectric medium with relative permittivity, \n, expressed in\ncylindrical coordinate system is given by the following expression \n where \n are unit vectors along \n directions, respectively. If the above expression represents a\nvalid electrostatic ﬁeld inside the medium, then the volume charge density associated with this ﬁeld in terms of\nfree space permittivity, \n in \n units is given by:",
+      "id": "gate-ee-elec-q13",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 13,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 20,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A co-axial Cylindrical capacitor is shown in the Figure(i) has dielectric with relative permittivity \n.\nWhen one – fourth portion of the dielectric is replaced with another dielectric of relative permittivity \n, as\nshown in the Figure(ii), the capacitance is doubled. The value of  \n is _________.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A co-axial Cylindrical capacitor is shown in the Figure(i) has dielectric with relative permittivity \n.\nWhen one – fourth portion of the dielectric is replaced with another dielectric of relative permittivity \n, as\nshown in the Figure(ii), the capacitance is doubled. The value of  \n is _________.\ngate2019",
+      "id": "gate-ee-elec-q14",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 14,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 25",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>The capacitance of an air-ﬁlled parallel-plate capacitor is \n pF. When a dielectric slab whose thickness is\nhalf the distance between the plates, is placed on one of the plates covering it entirely, the capacitance\nbecomes \n pF. Neglecting the fringing eﬀects, the relative permittivity of the dielectric is ___________ (up to \ndecimal places)\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The capacitance of an air-ﬁlled parallel-plate capacitor is \n pF. When a dielectric slab whose thickness is\nhalf the distance between the plates, is placed on one of the plates covering it entirely, the capacitance\nbecomes \n pF. Neglecting the fringing eﬀects, the relative permittivity of the dielectric is ___________ (up to \ndecimal places)\ngate2018",
+      "id": "gate-ee-elec-q15",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 15,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 12",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 4,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A solid iron cylinder is placed in a region containing a uniform magnetic ﬁeld such that the cylinder axis is\nparallel to the magnetic field direction. The magnetic field lines inside the cylinder will\n\n \nelectromagnetic-theory\nFaraday Law \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A solid iron cylinder is placed in a region containing a uniform magnetic ﬁeld such that the cylinder axis is\nparallel to the magnetic field direction. The magnetic field lines inside the cylinder will\n\n \nelectromagnetic-theory\nFaraday Law \n(1",
+      "id": "gate-ee-elec-q16",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 16,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 16,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A parallel plate capacitor ﬁlled with two dielectrics is shown in the ﬁgure below. If the electric ﬁeld in the</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A parallel plate capacitor ﬁlled with two dielectrics is shown in the ﬁgure below. If the electric ﬁeld in the",
+      "id": "gate-ee-elec-q17",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 17,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 33",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A soft-iron toroid is concentric with a long straight conductor carrying a direct current \n. If the relative\npermeability \n of soft-iron is \n, the ratio of the magnetic ﬂux densities at two adjacent points located\njust inside and just outside the toroid, is ________.\n\n \ncurrent-carrying-conductor\n \nelectromagnetism\n \nfaradays-law\n \nnumerical-answers\nDielectric \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A soft-iron toroid is concentric with a long straight conductor carrying a direct current \n. If the relative\npermeability \n of soft-iron is \n, the ratio of the magnetic ﬂux densities at two adjacent points located\njust inside and just outside the toroid, is ________.\n\n \ncurrent-carrying-conductor\n \nelectromagnetism\n \nfaradays-law\n \nnumerical-answers\nDielectric \n(1)",
+      "id": "gate-ee-elec-q18",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 18,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 55",
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "set": 3,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A perfectly conducting metal plate is placed in \n plane in a right handed coordinate system. A charge\nof \n  columbs is placed at coordinate \n. \n  is the permittivity of free space. Assume \n,\n,\nto be unit vectors along \n, \n and \n axes respectively. At the coordinate \n, the electric ﬁeld vector \n will be</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A perfectly conducting metal plate is placed in \n plane in a right handed coordinate system. A charge\nof \n  columbs is placed at coordinate \n. \n  is the permittivity of free space. Assume \n,\n,\nto be unit vectors along \n, \n and \n axes respectively. At the coordinate \n, the electric ﬁeld vector \n will be",
+      "id": "gate-ee-elec-q19",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 19
+    },
+    {
+      "year": 2014,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>is the capacitance of a parallel plate capacitor with air as dielectric \n as in ﬁgure \n. If, half of the\nentire gap as shown in ﬁgure \n is ﬁlled with a dielectric of permittivity \n , the expression for the modiﬁed\ncapacitance is\n\n \ndielectric\n \ncapacitance\nElectric Circuits \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "is the capacitance of a parallel plate capacitor with air as dielectric \n as in ﬁgure \n. If, half of the\nentire gap as shown in ﬁgure \n is ﬁlled with a dielectric of permittivity \n , the expression for the modiﬁed\ncapacitance is\n\n \ndielectric\n \ncapacitance\nElectric Circuits \n(2",
+      "id": "gate-ee-elec-q20",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 20
+    },
+    {
+      "year": 2026,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A uniform ring charge of radius \n carries a total charge \n. Which one of the following options correctly\nquantifies the magnitude of the force on a point charge of strength \n kept at the center of the ring?\n( \n is the permittivity of the medium)\ngate2026</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A uniform ring charge of radius \n carries a total charge \n. Which one of the following options correctly\nquantifies the magnitude of the force on a point charge of strength \n kept at the center of the ring?\n( \n is the permittivity of the medium)\ngate2026",
+      "id": "gate-ee-elec-q21",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 21
+    },
+    {
+      "year": 2026,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A uniform spherical volume charge distribution of radius \n m, centered at the origin, has a strength of \n. A point charge of strength \n is moved from ( \n ) to ( \n ) in Cartesian coordinate system. The relative permittivity of the medium is \n and the coordinate values are\nin meters.\nThe work done during the process is \n \n(Round off to two decimal places)\ngate2026</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A uniform spherical volume charge distribution of radius \n m, centered at the origin, has a strength of \n. A point charge of strength \n is moved from ( \n ) to ( \n ) in Cartesian coordinate system. The relative permittivity of the medium is \n and the coordinate values are\nin meters.\nThe work done during the process is \n \n(Round off to two decimal places)\ngate2026",
+      "id": "gate-ee-elec-q22",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 22
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>Consider a one-turn rectangular loop of wire placed in a uniform magnetic ﬁeld as shown in the ﬁgure. The\nplane of the loop is perpendicular to the ﬁeld lines. The resistance of the loop is \n, and its inductance\nis negligible. The magnetic ﬂux density (in Tesla) is a function of time, and is given by \n, where \n radian/second. The power absorbed (in Watt) by the loop from the magnetic field is _________.\n\n \nmagnetic-flux-density\n \nfield-lines\n \nnumerical-answers</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a one-turn rectangular loop of wire placed in a uniform magnetic ﬁeld as shown in the ﬁgure. The\nplane of the loop is perpendicular to the ﬁeld lines. The resistance of the loop is \n, and its inductance\nis negligible. The magnetic ﬂux density (in Tesla) is a function of time, and is given by \n, where \n radian/second. The power absorbed (in Watt) by the loop from the magnetic field is _________.\n\n \nmagnetic-flux-density\n \nfield-lines\n \nnumerical-answers",
+      "id": "gate-ee-elec-q23",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 23
+    },
+    {
+      "year": 2014,
+      "set": 2,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>The magnitude of magnetic ﬂux density (\n ) at a point having normal distance \n meters from an inﬁnitely\nextended wire carrying current of \n \n is \n (in \n units)  (in SI units). An inﬁnitely extended wire is laid\nalong the \n-axis and is carrying current of \n \n in the \n \n direction. Another inﬁnitely extended wire is laid\nalong the \n-axis and is carrying \n \n current in the \n \n direction. \n is permeability of free space. Assume \nand \n  to be unit vectors along \n, \n and \n axes respectively.\nAssuming right handed coordinate system, magnetic field intensity, \n at coordinate \n will be\n\n \nflux-density\n \nfield-intensity\nMagnetic Field Intensity \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The magnitude of magnetic ﬂux density (\n ) at a point having normal distance \n meters from an inﬁnitely\nextended wire carrying current of \n \n is \n (in \n units)  (in SI units). An inﬁnitely extended wire is laid\nalong the \n-axis and is carrying current of \n \n in the \n \n direction. Another inﬁnitely extended wire is laid\nalong the \n-axis and is carrying \n \n current in the \n \n direction. \n is permeability of free space. Assume \nand \n  to be unit vectors along \n, \n and \n axes respectively.\nAssuming right handed coordinate system, magnetic field intensity, \n at coordinate \n will be\n\n \nflux-density\n \nfield-intensity\nMagnetic Field Intensity \n(1",
+      "id": "gate-ee-elec-q24",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 24
+    },
+    {
+      "year": 2014,
+      "set": 2,
+      "qno": 42,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>The horizontally placed conductors of a single phase line operating at \n \n are having outside diameter\nof \n \n, and the spacing between centers of the conductors is \n \n. The permittivity of free space is \n. The capacitance to ground per kilometer of each line is\n\n \nrelative-permitivity\n \npermeability\nScalar Product \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The horizontally placed conductors of a single phase line operating at \n \n are having outside diameter\nof \n \n, and the spacing between centers of the conductors is \n \n. The permittivity of free space is \n. The capacitance to ground per kilometer of each line is\n\n \nrelative-permitivity\n \npermeability\nScalar Product \n(1",
+      "id": "gate-ee-elec-q25",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 25
+    },
+    {
+      "year": 2015,
+      "set": 2,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>Two semi-inﬁnite dielectric regions are separated by a plane boundary at \n. The dielectric constants\nof region \n and region \n are \n and \n, respectively. Region \n has uniform electric ﬁeld \n, where \n, and \n are unit vectors along the \n and \n axes, respectively. The\nelectric field in region \n is\n\n \nelectric-field\n \ndielectric-constant\nElectrical Machines \n(9</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Two semi-inﬁnite dielectric regions are separated by a plane boundary at \n. The dielectric constants\nof region \n and region \n are \n and \n, respectively. Region \n has uniform electric ﬁeld \n, where \n, and \n are unit vectors along the \n and \n axes, respectively. The\nelectric field in region \n is\n\n \nelectric-field\n \ndielectric-constant\nElectrical Machines \n(9",
+      "id": "gate-ee-elec-q26",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 26
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 12,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A steady current \n is ﬂowing in the \n direction through each of two inﬁnitely long wires at \n as\nshown in the figure. The permeability of the medium is \n. The \n-field at \n is\n \n\n \npermeability\n \nsteady-current\nSteady State \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A steady current \n is ﬂowing in the \n direction through each of two inﬁnitely long wires at \n as\nshown in the figure. The permeability of the medium is \n. The \n-field at \n is\n \n\n \npermeability\n \nsteady-current\nSteady State \n(1",
+      "id": "gate-ee-elec-q27",
+      "testId": "gate-subject-electrical-electromagnetics",
+      "orderIndex": 27
     }
   ]
 }

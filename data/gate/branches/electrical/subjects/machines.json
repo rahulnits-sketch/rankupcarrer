@@ -5,114 +5,163 @@
   "icon": "⚙️",
   "color": "from-blue-500/20 to-indigo-500/20",
   "borderColor": "border-blue-500/30",
-  "totalQuestions": 15,
+  "totalQuestions": 97,
   "topics": [
     {
       "name": "Single-Phase & Three-Phase Transformers",
-      "questionCount": 3
+      "questionCount": 24
     },
     {
       "name": "DC Machines (Motors & Generators)",
-      "questionCount": 3
+      "questionCount": 24
     },
     {
       "name": "Three-Phase Induction Motors",
-      "questionCount": 3
+      "questionCount": 24
     },
     {
       "name": "Synchronous Machines (Alternators & Motors)",
-      "questionCount": 3
+      "questionCount": 24
     }
   ],
   "questions": [
     {
       "id": "gate-ee-mach-q1",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — Machines | Single-Phase & Three-Phase Transformers",
+      "title": "GATE EE 2026 | EE Question: 7",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
       "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "0.77"
+      "type": "MCQ",
+      "question": "<p>A 15 kVA, 1100 V/220 V, single-phase two-winding transformer is configured as \na 1.32 kV/1.1 kV autotransformer.  \nWhat will be the rating of the autotransformer?</p>",
+      "options": [
+        "60 kVA",
+        "75 kVA",
+        "90 kVA",
+        "100 kVA"
       ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "60 kVA",
+          "html": "60 kVA"
+        },
+        {
+          "label": "B",
+          "text": "75 kVA",
+          "html": "75 kVA"
+        },
+        {
+          "label": "C",
+          "text": "90 kVA",
+          "html": "90 kVA"
+        },
+        {
+          "label": "D",
+          "text": "100 kVA",
+          "html": "100 kVA"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q2",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE — Machines | Three-Phase Induction Motors",
+      "title": "GATE EE 2026 | EE Question: 10",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Three-Phase Induction Motors",
-      "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "4.0"
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>A certain application requires power at a frequency of 16.67 Hz, while the \navailable grid frequency is 50 Hz. A 3-phase synchronous motor connected to the \n50 Hz, 3-phase grid, driving a synchronous generator, is used for this application. \nWhich one of the following combinations is a suitable choice for the number of \npoles in the motor and generator, respectively?</p>",
+      "options": [
+        "2, 6",
+        "6, 2",
+        "4, 6",
+        "6, 4"
       ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "2, 6",
+          "html": "2, 6"
+        },
+        {
+          "label": "B",
+          "text": "6, 2",
+          "html": "6, 2"
+        },
+        {
+          "label": "C",
+          "text": "4, 6",
+          "html": "4, 6"
+        },
+        {
+          "label": "D",
+          "text": "6, 4",
+          "html": "6, 4"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q3",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE — Machines | DC Machines (Motors & Generators)",
+      "title": "GATE EE 2026 | EE Question: 11",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "DC Machines (Motors & Generators)",
+      "topic": "Single-Phase & Three-Phase Transformers",
       "type": "MCQ",
-      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "question": "<p>Which one of the following options is correct regarding the typical  \ndouble-squirrel-cage structure used in induction motors?</p>",
       "options": [
-        "DC Series Motor",
-        "DC Shunt Motor",
-        "Cumulative Compound Motor",
-        "Differentially Compounded Motor"
+        "At starting, a larger portion of the rotor current flows in the outer cage",
+        "At starting, a larger portion of the rotor current flows in the inner cage",
+        "At rated speed, most of the rotor current flows in the outer cage",
+        "The purpose of the double-squirrel-cage structure is to lower the effective rotor resistance at starting"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "DC Series Motor",
-          "html": "DC Series Motor"
+          "text": "At starting, a larger portion of the rotor current flows in the outer cage",
+          "html": "At starting, a larger portion of the rotor current flows in the outer cage"
         },
         {
           "label": "B",
-          "text": "DC Shunt Motor",
-          "html": "DC Shunt Motor"
+          "text": "At starting, a larger portion of the rotor current flows in the inner cage",
+          "html": "At starting, a larger portion of the rotor current flows in the inner cage"
         },
         {
           "label": "C",
-          "text": "Cumulative Compound Motor",
-          "html": "Cumulative Compound Motor"
+          "text": "At rated speed, most of the rotor current flows in the outer cage",
+          "html": "At rated speed, most of the rotor current flows in the outer cage"
         },
         {
           "label": "D",
-          "text": "Differentially Compounded Motor",
-          "html": "Differentially Compounded Motor"
+          "text": "The purpose of the double-squirrel-cage structure is to lower the effective rotor resistance at starting",
+          "html": "The purpose of the double-squirrel-cage structure is to lower the effective rotor resistance at starting"
         }
       ],
       "answer": [
@@ -121,71 +170,96 @@
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q4",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 4,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q4",
+      "title": "GATE EE 2026 | EE Question: 12",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
       "topic": "Single-Phase & Three-Phase Transformers",
-      "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "4.0"
+      "type": "MCQ",
+      "question": "<p>The figure shows the single-line diagram of a synchronous generator delivering P \n= 50 MW of power at unity power factor to an infinite bus. \n \n𝐼𝑠 denotes the stator current phasor. If the field excitation is increased, which one \nof the following options correctly describes its effect on the stator current, power \nfactor, and load angle of the machine?</p>",
+      "options": [
+        "Stator current increases, power factor becomes lagging, load angle remains the same",
+        "Stator current decreases, power factor becomes leading, load angle remains the same",
+        "Stator current increases, power factor becomes lagging, load angle decreases",
+        "Stator current increases, power factor becomes leading, load angle increases"
       ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Stator current increases, power factor becomes lagging, load angle remains the same",
+          "html": "Stator current increases, power factor becomes lagging, load angle remains the same"
+        },
+        {
+          "label": "B",
+          "text": "Stator current decreases, power factor becomes leading, load angle remains the same",
+          "html": "Stator current decreases, power factor becomes leading, load angle remains the same"
+        },
+        {
+          "label": "C",
+          "text": "Stator current increases, power factor becomes lagging, load angle decreases",
+          "html": "Stator current increases, power factor becomes lagging, load angle decreases"
+        },
+        {
+          "label": "D",
+          "text": "Stator current increases, power factor becomes leading, load angle increases",
+          "html": "Stator current increases, power factor becomes leading, load angle increases"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q5",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 5,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q5",
+      "title": "GATE EE 2026 | EE Question: 21",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "DC Machines (Motors & Generators)",
-      "type": "MCQ",
-      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MSQ",
+      "question": "<p>A 220V/12V single-phase transformer is designed for use in India and rated  \n100 VA at 50 Hz. Later, this unit is shipped to the USA where it is used as a \n110V/6V transformer at 60 Hz.  \nWhich of the following statements is/are correct?</p>",
       "options": [
-        "DC Series Motor",
-        "DC Shunt Motor",
-        "Cumulative Compound Motor",
-        "Differentially Compounded Motor"
+        "No-load current drawn would be smaller for operation in the USA compared to that in India",
+        "For the same load current, the losses would be higher in the USA compared to that in India",
+        "The peak magnetic flux density in the core would be higher while operating in the USA compared to that in India",
+        "The eddy current losses in the core would be approximately 44% higher while operating in the USA compared to that in India"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "DC Series Motor",
-          "html": "DC Series Motor"
+          "text": "No-load current drawn would be smaller for operation in the USA compared to that in India",
+          "html": "No-load current drawn would be smaller for operation in the USA compared to that in India"
         },
         {
           "label": "B",
-          "text": "DC Shunt Motor",
-          "html": "DC Shunt Motor"
+          "text": "For the same load current, the losses would be higher in the USA compared to that in India",
+          "html": "For the same load current, the losses would be higher in the USA compared to that in India"
         },
         {
           "label": "C",
-          "text": "Cumulative Compound Motor",
-          "html": "Cumulative Compound Motor"
+          "text": "The peak magnetic flux density in the core would be higher while operating in the USA compared to that in India",
+          "html": "The peak magnetic flux density in the core would be higher while operating in the USA compared to that in India"
         },
         {
           "label": "D",
-          "text": "Differentially Compounded Motor",
-          "html": "Differentially Compounded Motor"
+          "text": "The eddy current losses in the core would be approximately 44% higher while operating in the USA compared to that in India",
+          "html": "The eddy current losses in the core would be approximately 44% higher while operating in the USA compared to that in India"
         }
       ],
       "answer": [
@@ -193,293 +267,452 @@
       ],
       "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q6",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 6,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q6",
+      "title": "GATE EE 2026 | EE Question: 28",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Three-Phase Induction Motors",
-      "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "0.77"
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>Three single-phase 11kV/3.3kV transformers are connected to form a  \nthree-phase transformer bank with connections as shown. \n \n \nConsidering ABC phase sequence, the vector group of the transformer is:</p>",
+      "options": [
+        "Dd0",
+        "Dd4",
+        "Dd6",
+        "Dd10"
       ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Dd0",
+          "html": "Dd0"
+        },
+        {
+          "label": "B",
+          "text": "Dd4",
+          "html": "Dd4"
+        },
+        {
+          "label": "C",
+          "text": "Dd6",
+          "html": "Dd6"
+        },
+        {
+          "label": "D",
+          "text": "Dd10",
+          "html": "Dd10"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q7",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 7,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q7",
+      "title": "GATE EE 2026 | EE Question: 29",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Synchronous Machines (Alternators & Motors)",
-      "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "4.0"
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>In the circuit shown, the phase currents are  \n572.812 50.115AIj \nA \n254.525 459.175BIj  \nA  \n207.083 444.091CIj  \nA \n \nGiven that the CTs are ideal with no saturation, and the turns ratio of the Main CT \nis 300:5 and that of the Auxiliary Transformer (ΥnΔ) is 2:1 on every phase, the \nvalue of \nARI , rounded off to three decimal places, is:</p>",
+      "options": [
+        "0 A",
+        "0.653 17.556 o A",
+        "537.240 4.105 o A",
+        "8.954 4.105 o A"
       ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "0 A",
+          "html": "0 A"
+        },
+        {
+          "label": "B",
+          "text": "0.653 17.556 o A",
+          "html": "0.653 17.556 o A"
+        },
+        {
+          "label": "C",
+          "text": "537.240 4.105 o A",
+          "html": "537.240 4.105 o A"
+        },
+        {
+          "label": "D",
+          "text": "8.954 4.105 o A",
+          "html": "8.954 4.105 o A"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q8",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 8,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q8",
+      "title": "GATE EE 2026 | EE Question: 31",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
       "topic": "Single-Phase & Three-Phase Transformers",
       "type": "MCQ",
-      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "question": "<p>A three-phase two-winding transformer has a voltage transformation ratio \n0.866 0.5P\nS\nV jV \n, where \nPV  is the primary side voltage in p.u., and \nSV  is the \nsecondary side voltage in p.u. \nPI  and \nSI  represent the currents injected into the \nprimary and secondary sides of the transformer, respectively. The admittance \ncorresponding to the leakage impedance of the transformer referred to the \nsecondary is \nty  p.u. Neglect the magnetizing branch. \n \nThe Y bus representation of this transformer is:</p>",
       "options": [
-        "DC Series Motor",
-        "DC Shunt Motor",
-        "Cumulative Compound Motor",
-        "Differentially Compounded Motor"
+        "0.866 0.5 0.866 0.5 0.866 0.5 0.866 0.5 tt PP SS tt yy IV jj IV yy jj             ",
+        "P t t P S t t S I y y V I y y V             ",
+        "0.866 0.5 0.866 0.5 t t PP SS t t yyIV j IV y yj             ",
+        "0.866 0.5 0.866 0.5 t t PP SS t t yyIV j IV y yj             "
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "DC Series Motor",
-          "html": "DC Series Motor"
+          "text": "0.866 0.5 0.866 0.5 0.866 0.5 0.866 0.5 tt PP SS tt yy IV jj IV yy jj             ",
+          "html": "0.866 0.5 0.866 0.5 0.866 0.5 0.866 0.5 tt PP SS tt yy IV jj IV yy jj             "
         },
         {
           "label": "B",
-          "text": "DC Shunt Motor",
-          "html": "DC Shunt Motor"
+          "text": "P t t P S t t S I y y V I y y V             ",
+          "html": "P t t P S t t S I y y V I y y V             "
         },
         {
           "label": "C",
-          "text": "Cumulative Compound Motor",
-          "html": "Cumulative Compound Motor"
+          "text": "0.866 0.5 0.866 0.5 t t PP SS t t yyIV j IV y yj             ",
+          "html": "0.866 0.5 0.866 0.5 t t PP SS t t yyIV j IV y yj             "
         },
         {
           "label": "D",
-          "text": "Differentially Compounded Motor",
-          "html": "Differentially Compounded Motor"
+          "text": "0.866 0.5 0.866 0.5 t t PP SS t t yyIV j IV y yj             ",
+          "html": "0.866 0.5 0.866 0.5 t t PP SS t t yyIV j IV y yj             "
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-mach-q9",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 9,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q9",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "DC Machines (Motors & Generators)",
-      "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "0.77"
-      ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
-    },
-    {
-      "id": "gate-ee-mach-q10",
-      "testId": "gate-subject-electrical-machines",
-      "year": 2024,
-      "orderIndex": 10,
-      "section": "EE",
-      "title": "GATE EE Practice — Machines | Q10",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Three-Phase Induction Motors",
-      "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "4.0"
-      ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
-    },
-    {
-      "id": "gate-ee-mach-q11",
-      "testId": "gate-subject-electrical-machines",
-      "year": 2024,
-      "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE Practice — Machines | Q11",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Synchronous Machines (Alternators & Motors)",
-      "type": "MCQ",
-      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
-      "options": [
-        "DC Series Motor",
-        "DC Shunt Motor",
-        "Cumulative Compound Motor",
-        "Differentially Compounded Motor"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "DC Series Motor",
-          "html": "DC Series Motor"
-        },
-        {
-          "label": "B",
-          "text": "DC Shunt Motor",
-          "html": "DC Shunt Motor"
-        },
-        {
-          "label": "C",
-          "text": "Cumulative Compound Motor",
-          "html": "Cumulative Compound Motor"
-        },
-        {
-          "label": "D",
-          "text": "Differentially Compounded Motor",
-          "html": "Differentially Compounded Motor"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
-    },
-    {
-      "id": "gate-ee-mach-q12",
-      "testId": "gate-subject-electrical-machines",
-      "year": 2024,
-      "orderIndex": 12,
-      "section": "EE",
-      "title": "GATE EE Practice — Machines | Q12",
+      "title": "GATE EE 2026 | EE Question: 49",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
       "topic": "Single-Phase & Three-Phase Transformers",
       "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
+      "question": "<p>A balanced three-phase supply is given to a 30 kW, 4-pole, 400 V, 50 Hz, wound \nrotor induction motor with Y-connected stator and rotor windings. The motor is \ndriving a constant torque load. With shorted sliprings, the machine runs at 1476 \nrpm. \n \nWhen an external non-inductive resistance of 0.27 Ω per phase is connected in \nseries in the rotor circuit, the steady-state speed drops to 1404 rpm. \n  \nNeglecting rotational losses, the actual per phase rotor winding resistance  \nis ____  Ω \n \n(Round off to two decimal places)</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "0.77"
+        "0.09"
       ],
       "tolerance": {
-        "min": 0.75,
-        "max": 0.8
+        "min": 0.09,
+        "max": 0.09
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>0.09</strong>.</p></div>"
     },
     {
+      "year": 2025,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Instrument(s) required to synchronize an alternator to the grid is/are\n\n \nelectrical-machines\n \nelectrical-and-electronic-measurements\n \npower-systems\nAnswer key\n☟</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Instrument(s) required to synchronize an alternator to the grid is/are\n\n \nelectrical-machines\n \nelectrical-and-electronic-measurements\n \npower-systems\nAnswer key\n☟",
+      "id": "gate-ee-mach-q10",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 10,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 18",
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The induced emf in a \n pole, \n-phase star connected synchronous motor is considered to be\nequal and in phase with the terminal voltage under no load condition. On application of a mechanical load,\nthe induced emf phasor is deﬂected by an angle of \n mechanical with respect to the terminal voltage phasor. If\nthe synchronous reactance is \n, and stator resistance is negligible, then the motor armature current magnitude,\nin ampere, during loaded condition is closest to, \n (round off to two decimal places).\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The induced emf in a \n pole, \n-phase star connected synchronous motor is considered to be\nequal and in phase with the terminal voltage under no load condition. On application of a mechanical load,\nthe induced emf phasor is deﬂected by an angle of \n mechanical with respect to the terminal voltage phasor. If\nthe synchronous reactance is \n, and stator resistance is negligible, then the motor armature current magnitude,\nin ampere, during loaded condition is closest to, \n (round off to two decimal places).\ngate2025",
+      "id": "gate-ee-mach-q11",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 11,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 34,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n series motor with negligible series resistance is running at a certain speed driving a load, where the\nload torque varies as cube of the speed. The motor is fed from a \n source and draws \narmature current. Assume linear magnetic circuit. The external resistance, in \n, that must be connected in series\nwith the armature to reduce the speed of the motor by half, is closest to\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n series motor with negligible series resistance is running at a certain speed driving a load, where the\nload torque varies as cube of the speed. The motor is fed from a \n source and draws \narmature current. Assume linear magnetic circuit. The external resistance, in \n, that must be connected in series\nwith the armature to reduce the speed of the motor by half, is closest to\ngate2025",
+      "id": "gate-ee-mach-q12",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 12,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 23",
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n-phase, \n pole, \n star connected induction motor has the following parameters referred to\nthe stator:\nStator resistance, magnetizing reactance and core loss of the motor are neglected. The motor is run with constant\n control from a drive. For maximum starting torque, the voltage and frequency output, respectively, from the\ndrive, is closest to,\n\n \nelectrical-machines\n \npower-electronics\n \nnumerical-answers\nPower Factor \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-phase, \n pole, \n star connected induction motor has the following parameters referred to\nthe stator:\nStator resistance, magnetizing reactance and core loss of the motor are neglected. The motor is run with constant\n control from a drive. For maximum starting torque, the voltage and frequency output, respectively, from the\ndrive, is closest to,\n\n \nelectrical-machines\n \npower-electronics\n \nnumerical-answers\nPower Factor \n(1",
       "id": "gate-ee-mach-q13",
       "testId": "gate-subject-electrical-machines",
-      "year": 2024,
       "orderIndex": 13,
-      "section": "EE",
-      "title": "GATE EE Practice — Machines | Q13",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "DC Machines (Motors & Generators)",
-      "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "4.0"
-      ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 32",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-mach-q14",
-      "testId": "gate-subject-electrical-machines",
-      "year": 2024,
-      "orderIndex": 14,
+      "year": 2025,
+      "set": 1,
+      "qno": 16,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q14",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Three-Phase Induction Motors",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The operating region of the developed torque \n and speed \n of an induction motor drive is given by\nthe shaded region \n in the ﬁgure. The load torque \n characteristic is also shown. The motor\ndrive moves from the initial operating point \n to the ﬁnal operating point \n. Which one of the following trajectories\nwill take the shortest time?\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The operating region of the developed torque \n and speed \n of an induction motor drive is given by\nthe shaded region \n in the ﬁgure. The load torque \n characteristic is also shown. The motor\ndrive moves from the initial operating point \n to the ﬁnal operating point \n. Which one of the following trajectories\nwill take the shortest time?\ngate2025",
+      "id": "gate-ee-mach-q14",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 14,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 33",
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
       "type": "MCQ",
-      "question": "<p>Which type of DC motor is most widely preferred for electric traction and crane hoisting applications owing to its exceptionally high starting torque?</p>",
+      "question": "<p>The transformer connection given in the ﬁgure is part of a balanced \n-phase circuit where the phase\nsequence is \" \n \". The primary to secondary turns ratio is \n. If \n, then the\nrelationship between \n and \n will be</p>",
       "options": [
-        "DC Series Motor",
-        "DC Shunt Motor",
-        "Cumulative Compound Motor",
-        "Differentially Compounded Motor"
+        "and lags by .",
+        "and leads by .",
+        "and lags by .",
+        "and leads by . gate2025"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "DC Series Motor",
-          "html": "DC Series Motor"
+          "text": "and lags by .",
+          "html": "and lags by ."
         },
         {
           "label": "B",
-          "text": "DC Shunt Motor",
-          "html": "DC Shunt Motor"
+          "text": "and leads by .",
+          "html": "and leads by ."
         },
         {
           "label": "C",
-          "text": "Cumulative Compound Motor",
-          "html": "Cumulative Compound Motor"
+          "text": "and lags by .",
+          "html": "and lags by ."
         },
         {
           "label": "D",
-          "text": "Differentially Compounded Motor",
-          "html": "Differentially Compounded Motor"
+          "text": "and leads by . gate2025",
+          "html": "and leads by . gate2025"
+        }
+      ],
+      "raw_content": "The transformer connection given in the ﬁgure is part of a balanced \n-phase circuit where the phase\nsequence is \" \n \". The primary to secondary turns ratio is \n. If \n, then the\nrelationship between \n and \n will be\n \nA\n. \n and \n lags \n by \n.\nB\n. \n and \n leads \n by \n.\nC\n. \n and \n lags \n by \n.\nD\n. \n and \n leads \n by \n.\ngate2025",
+      "id": "gate-ee-mach-q15",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 15,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2025 | EE Question: 39",
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Using shunt capacitors, the power factor of a \n -phase, \n induction motor (drawing \n at \npf lag ) is to be corrected to \n pf lag. The line current of the capacitor bank, in \n, is \n(round off to one decimal place).\n\n \nnumerical-answers\n \npower-systems\n \npower-factor\n \nelectric-circuits\nPower Flows \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Using shunt capacitors, the power factor of a \n -phase, \n induction motor (drawing \n at \npf lag ) is to be corrected to \n pf lag. The line current of the capacitor bank, in \n, is \n(round off to one decimal place).\n\n \nnumerical-answers\n \npower-systems\n \npower-factor\n \nelectric-circuits\nPower Flows \n(1",
+      "id": "gate-ee-mach-q16",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 16,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 39,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>In the system shown below, the generator was initially supplying power to the grid. A temporary LLLG\nbolted fault occurs at \n very close to circuit breaker \n. The circuit breakers open to isolate the line. The\nfault self-clears. The circuit breakers reclose and restore the line. Which one of the following diagrams best\nindicates the rotor accelerating and decelerating areas?\n \ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the system shown below, the generator was initially supplying power to the grid. A temporary LLLG\nbolted fault occurs at \n very close to circuit breaker \n. The circuit breakers open to isolate the line. The\nfault self-clears. The circuit breakers reclose and restore the line. Which one of the following diagrams best\nindicates the rotor accelerating and decelerating areas?\n \ngate2025",
+      "id": "gate-ee-mach-q17",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 17,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "id": "gate-ee-mach-q18",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 18,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 7",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>A three phase, 50 Hz, 6 pole induction motor runs at 960 rpm. The stator copper \nloss, core loss, and the rotational loss of the motor can be neglected. The percentage \nefficiency of the motor is</p>",
+      "options": [
+        "92",
+        "94",
+        "96",
+        "98"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "92",
+          "html": "92"
+        },
+        {
+          "label": "B",
+          "text": "94",
+          "html": "94"
+        },
+        {
+          "label": "C",
+          "text": "96",
+          "html": "96"
+        },
+        {
+          "label": "D",
+          "text": "98",
+          "html": "98"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q19",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 19,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 8",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>Which one of the following options represents possible voltage polarities in a single \nphase two winding transformer? Here, 𝑉𝑝 is the applied primary voltage, 𝐸𝑝 is the \ninduced primary voltage, 𝑉𝑠 is the open circuit secondary voltage, and 𝐸𝑠 is the \ninduced secondary voltage.</p>",
+      "options": [
+        "(B)",
+        "(D) + − 𝑉𝑝 + − + − + − 𝐸𝑝 𝑉𝑠 𝐸𝑠 + 𝑉𝑝 − − + + − + − 𝑉𝑠 𝐸𝑠 𝐸𝑝 𝑉𝑝 + − 𝐸𝑠 + 𝐸𝑝 𝑉𝑠 − + − + − + 𝑉𝑝 − − 𝐸𝑝 𝑉𝑠 𝐸𝑠 + − + − +"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "(B)",
+          "html": "(B)"
+        },
+        {
+          "label": "B",
+          "text": "(D) + − 𝑉𝑝 + − + − + − 𝐸𝑝 𝑉𝑠 𝐸𝑠 + 𝑉𝑝 − − + + − + − 𝑉𝑠 𝐸𝑠 𝐸𝑝 𝑉𝑝 + − 𝐸𝑠 + 𝐸𝑝 𝑉𝑠 − + − + − + 𝑉𝑝 − − 𝐸𝑝 𝑉𝑠 𝐸𝑠 + − + − +",
+          "html": "(D) + − 𝑉𝑝 + − + − + − 𝐸𝑝 𝑉𝑠 𝐸𝑠 + 𝑉𝑝 − − + + − + − 𝑉𝑠 𝐸𝑠 𝐸𝑝 𝑉𝑝 + − 𝐸𝑠 + 𝐸𝑝 𝑉𝑠 − + − + − + 𝑉𝑝 − − 𝐸𝑝 𝑉𝑠 𝐸𝑠 + − + − +"
         }
       ],
       "answer": [
@@ -488,32 +721,2005 @@
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>In a DC series motor, field flux $\\Phi \\propto I_a$ before saturation, so torque $T \\propto I_a^2$. This parabolic torque-current characteristic provides extremely high starting torque.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
-      "id": "gate-ee-mach-q15",
+      "id": "gate-ee-mach-q20",
       "testId": "gate-subject-electrical-machines",
       "year": 2024,
-      "orderIndex": 15,
+      "set": 1,
+      "orderIndex": 20,
       "section": "EE",
-      "title": "GATE EE Practice — Machines | Q15",
+      "title": "GATE EE 2024 | EE Question: 13",
       "subject": "Electrical Machines",
       "subjectSlug": "machines",
-      "topic": "Synchronous Machines (Alternators & Motors)",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The table lists two instrument transformers and their features: \nInstrument Transformers Features \n P) Primary is connected in parallel to the grid \nX) Current Transformer (CT) Q) Open circuited secondary is not desirable \nY) Potential Transformer (PT) R) Primary current is the line current  \n S) Secondary burden affects the primary current \nThe correct matching of the two columns is</p>",
+      "options": [
+        "X matches with P and Q; Y matches with R and S.",
+        "X matches with P and R; Y matches with Q and S.",
+        "X matches with Q and R; Y matches with P and S.",
+        "X matches with Q and S; Y matches with P and R."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "X matches with P and Q; Y matches with R and S.",
+          "html": "X matches with P and Q; Y matches with R and S."
+        },
+        {
+          "label": "B",
+          "text": "X matches with P and R; Y matches with Q and S.",
+          "html": "X matches with P and R; Y matches with Q and S."
+        },
+        {
+          "label": "C",
+          "text": "X matches with Q and R; Y matches with P and S.",
+          "html": "X matches with Q and R; Y matches with P and S."
+        },
+        {
+          "label": "D",
+          "text": "X matches with Q and S; Y matches with P and R.",
+          "html": "X matches with Q and S; Y matches with P and R."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q21",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 30",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>A 3-phase, 11 kV, 10 MVA synchronous generator is connected to an inductive \nload of power factor (√3/2) via a lossless line with a per-phase inductive reactance \nof 5 Ω. The per -phase synchronous reactance of the generator is 30 Ω with \nnegligible armature resistance. If the generator is producing the rated current at the \nrated voltage, then the power factor at the terminal of the generator is</p>",
+      "options": [
+        "0.63 lagging.",
+        "0.87 lagging.",
+        "0.63 leading.",
+        "0.87 leading."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "0.63 lagging.",
+          "html": "0.63 lagging."
+        },
+        {
+          "label": "B",
+          "text": "0.87 lagging.",
+          "html": "0.87 lagging."
+        },
+        {
+          "label": "C",
+          "text": "0.63 leading.",
+          "html": "0.63 leading."
+        },
+        {
+          "label": "D",
+          "text": "0.87 leading.",
+          "html": "0.87 leading."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q22",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 44",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
       "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
+      "question": "<p>A 3-phase star connected slip ring induction motor has the following parameters \nreferred to the stator: \n𝑅𝑠 = 3 Ω, 𝑋𝑠 = 2 Ω, 𝑋𝑟′ = 2 Ω, 𝑅𝑟′ = 2.5 Ω \nThe per phase stator to rotor effective turns ratio is 3:1. The rotor winding is also \nstar connected. The magnetizing reactance and core loss of the motor can be \nneglected. To have maximum torque at starting, the value of the extra resistance in \nohms (referred to the rotor side) to be connected in series with each phase of the \nrotor winding is _________ (rounded off to 2 decimal places).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "0.77"
+        "0.28"
       ],
       "tolerance": {
-        "min": 0.75,
-        "max": 0.8
+        "min": 0.26,
+        "max": 0.29
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>0.28</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q23",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 23,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 45",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A 5 kW, 220  V DC shunt motor has 0.5 Ω armature resistance including brushes . \nThe motor draws a no -load current of 3 A . The field current is constant at 1 A. \nAssuming that t he core and rotational losses are constant and independent of the \nload, the current (in amperes) drawn by the motor  while delivering the rated load , \nfor the best possible efficiency, is ________ (rounded off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "27.29"
+      ],
+      "tolerance": {
+        "min": 27.19,
+        "max": 27.39
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>27.29</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q24",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 24,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 55",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A single-phase full -controlled thyristor converter bridge is used for regenerative \nbraking of a separately excited DC motor with the following specifications:  \nRated armature voltage 210 V \nRated armature current 10 A \nRated speed 1200 rpm \nArmature resistance 1 Ω \nInput to the converter bridge 240 V at 50 Hz \nThe armature of the DC motor is fed from the \nfull-controlled bridge and the field current is kept \nconstant. \nAssume that the motor is running at 600 rpm and the armature terminals of the \nmotor are suitably reversed for regenerative braking. If the armature current of the \nmotor is to be maintained at the rated value, the triggering angle of the converter \nbridge in degrees should be ____________ (rounded off to 2 decimal places). \n \n𝐿 = 2 mH \n𝑉𝑖 = 20 V 𝑉𝑜 = 40 V 10 Ω \n𝐼𝑜 𝐼𝑖 \n𝑆 \n+\n_\n+\n_</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "114.5"
+      ],
+      "tolerance": {
+        "min": 113.0,
+        "max": 116.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>114.5</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q25",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 25,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 5",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The following columns present various modes of induction machine operation and \nthe ranges of slip \n               A                                              B \nMode of operation                     Range of Slip \na. Running in generator mode       p) From 0.0 to 1.0 \nb. Running in motor mode                q) From 1.0 to 2.0 \nc. Plugging in motor mode         r) From -1.0 to 0.0 \nThe correct matching between the elements in column A with those of column B is</p>",
+      "options": [
+        "a-r, b-p, and c-q",
+        "a-r, b-q, and c-p",
+        "a-p, b-r, and c-q",
+        "a-q, b-p, and c-r"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "a-r, b-p, and c-q",
+          "html": "a-r, b-p, and c-q"
+        },
+        {
+          "label": "B",
+          "text": "a-r, b-q, and c-p",
+          "html": "a-r, b-q, and c-p"
+        },
+        {
+          "label": "C",
+          "text": "a-p, b-r, and c-q",
+          "html": "a-p, b-r, and c-q"
+        },
+        {
+          "label": "D",
+          "text": "a-q, b-p, and c-r",
+          "html": "a-q, b-p, and c-r"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q26",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 26,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 6",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>A 10-pole, 50 Hz, 240 V, single phase induction motor runs at 540 RPM while driving \nrated load. The frequency of induced rotor currents due to backward field is</p>",
+      "options": [
+        "100 Hz",
+        "95 Hz",
+        "10 Hz",
+        "5 Hz"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "100 Hz",
+          "html": "100 Hz"
+        },
+        {
+          "label": "B",
+          "text": "95 Hz",
+          "html": "95 Hz"
+        },
+        {
+          "label": "C",
+          "text": "10 Hz",
+          "html": "10 Hz"
+        },
+        {
+          "label": "D",
+          "text": "5 Hz",
+          "html": "5 Hz"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q27",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 27,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 12",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The four stator conductors (A, A, B and B) of a rotating machine are carrying DC \ncurrents of the same value, the directions of which are shown in the figure  (i). The \nrotor coils a-a and b-b  are formed by connecting the back ends of conductors ‘ a’ \nand ‘a’ and ‘b’ and ‘b’, respectively, as shown in figure (ii). The e.m.f. induced in \ncoil a-a  and coil b-b  are denoted by Ea-a and Eb-b, respectively. If the rotor is \nrotated at uniform angular speed  rad/s in the clockwise direction then which of the \nfollowing correctly describes the Ea-a and Eb-b ?  \n \n \n \n figure (i): cross-sectional view            figure (ii): rotor winding connection diagram</p>",
+      "options": [
+        "Ea-a and Eb-b have finite magnitudes and are in the same phase",
+        "Ea-a and Eb-b have finite magnitudes with Eb-b leading Ea-a",
+        "Ea-a and Eb-b have finite magnitudes with Ea-a leading Eb-b",
+        "Ea-a = Eb-b = 0"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Ea-a and Eb-b have finite magnitudes and are in the same phase",
+          "html": "Ea-a and Eb-b have finite magnitudes and are in the same phase"
+        },
+        {
+          "label": "B",
+          "text": "Ea-a and Eb-b have finite magnitudes with Eb-b leading Ea-a",
+          "html": "Ea-a and Eb-b have finite magnitudes with Eb-b leading Ea-a"
+        },
+        {
+          "label": "C",
+          "text": "Ea-a and Eb-b have finite magnitudes with Ea-a leading Eb-b",
+          "html": "Ea-a and Eb-b have finite magnitudes with Ea-a leading Eb-b"
+        },
+        {
+          "label": "D",
+          "text": "Ea-a = Eb-b = 0",
+          "html": "Ea-a = Eb-b = 0"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q28",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 28,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 20",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A separately excited DC motor rated 400 V, 15 A, 1500 RPM drives a constant torque \nload at rated speed operating from 400 V DC supply drawing rat ed current. The \narmature resistance is 1.2 . If the supply voltage drops by 10%  with field current \nunaltered then the resultant speed of the motor in RPM is ____________ (Round off \nto the nearest integer). \n  \n \n \n \n \n \n \n \n \n \nR1 = 2,  \nR2 = 2,  \nR3 = 3 \nL = 10 mH \nC = 100 F \nR1 \n L \nR2  \n C \nR3 \n10 A, \nDC \nK \nVL</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "1342.5"
+      ],
+      "tolerance": {
+        "min": 1340.0,
+        "max": 1345.0
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>1342.5</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q29",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 29,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 31",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The three-bus power system shown in the figure has one alternator connected to \nbus 2 which supplies 200 MW and 40 MVAr power. Bus 3 is infinite bus having a \nvoltage of magnitude | V3| =1.0 p.u.  and angle of -15. A variable current source, \n|I| is connected at bus 1 and controlled such that the magnitude of the bus 1 \nvoltage is maintained at 1.05 p.u. and the phase angle of the source current,  \n = 1\n𝜋\n2, where 1 is the phase angle of the bus 1 voltage. The three buses can be \ncategorized for load flow analysis as</p>",
+      "options": [
+        "𝐵𝑢𝑠 1 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑃 − 𝑄 𝑏𝑢𝑠",
+        "𝐵𝑢𝑠 1 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠",
+        "𝐵𝑢𝑠 1 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠",
+        "𝐵𝑢𝑠 1 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝐵𝑢𝑠 1 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑃 − 𝑄 𝑏𝑢𝑠",
+          "html": "𝐵𝑢𝑠 1 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑃 − 𝑄 𝑏𝑢𝑠"
+        },
+        {
+          "label": "B",
+          "text": "𝐵𝑢𝑠 1 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠",
+          "html": "𝐵𝑢𝑠 1 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠"
+        },
+        {
+          "label": "C",
+          "text": "𝐵𝑢𝑠 1 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠",
+          "html": "𝐵𝑢𝑠 1 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠"
+        },
+        {
+          "label": "D",
+          "text": "𝐵𝑢𝑠 1 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠",
+          "html": "𝐵𝑢𝑠 1 𝑃 − |𝑉| 𝑏𝑢𝑠 𝐵𝑢𝑠 2 𝑃 − 𝑄 𝑏𝑢𝑠 𝐵𝑢𝑠 3 𝑆𝑙𝑎𝑐𝑘 𝑏𝑢𝑠"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q30",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 30,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 37",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three-phase synchronous motor with synchronous impedance of 0.1+j0.3 per unit \nper phase has a static stability limit of 2.5 per unit. The correspondi ng excitation \nvoltage in per unit is ___________ (Round off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "1.58"
+      ],
+      "tolerance": {
+        "min": 1.58,
+        "max": 1.59
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>1.58</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q31",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 31,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 38",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three phase 415 V, 50 Hz, 6-pole, 960 RPM, 4 HP squirrel cage induction motor \ndrives a constant torque load at rated speed operating from rated supply and \ndelivering rated output. If the supply voltage and frequency are reduced by 20%, \nthe resultant speed of the motor in RPM (neglecting the stator leakage impedance \nand rotational losses) is __________ (Round off to the nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "760"
+      ],
+      "tolerance": {
+        "min": 760.0,
+        "max": 760.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>760</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q32",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 32,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 43",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>When the winding c-d of the single -phase, 50 Hz, two winding transformer is \nsupplied from an AC current source of frequency 50 Hz, the rated voltage of 200 V \n(rms), 50 Hz is obtained at the open -circuited terminals a-b. The c ross sectional \narea of the core is 5000 mm 2 and the average core length traversed by the mutual \nflux is 500 mm. The maximum allowable flux density in the core is Bmax = 1 Wb/m2 \nand the relative permeability of the core material is 5000 . The leakage impedance \nof the winding a-b and winding c-d at 50 Hz are (5 + j100×0.16)  and (11.25 + \nj100×0.36) , respectively. Considering the magnetizing characteristics to be \nlinear and neglecting core loss, the self-inductance of the winding a-b in millihenry \nis ___________ (Round off to 1 decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2200"
+      ],
+      "tolerance": {
+        "min": 2150.0,
+        "max": 2250.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>2200</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q33",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 33,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 50",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The two -bus power system shown in figure (i) has one alternator supplying a \nsynchronous motor load through a Y -Δ transformer. The positive, negative and \nzero-sequence diagrams of the system are shown in figures (ii), (iii) and ( iv), \nrespectively. All reactances in the sequence diagrams are in p.u. For a bolted line-\nto-line fault (fault impedance = zero) between phases ‘b’ and ‘c’ at bus 1, neglecting \nall pre-fault currents, the magnitude of the fault current  (from phase ‘b’ to ‘c’) in \np.u. is _____________ (Round off to 2 decimal places).  \n  \n \n \n \n \nfigure (i): Single-line diagram of the power system \n \n \n \n \n \nfigure (ii): Positive-sequence network        figure (iii): Negative-sequence network \n \n \n \n \n \n                                    figure (iv): Zero-sequence network  \n \n  \n2 \n jxn \nSynchronous \nMotor \nT1 \n1\nAlternator \n𝐸𝑚\"  \n𝐸𝑔\" \nj0.3 \nj0.1 \nj0.1 \n2 \n 1 \nj0.09 \nj0.15 \nj0.1 \nj0.06 \nj0.05 \n2 \n 1 \nj0.1 \nj0.3 \n2 \n 1 \nj0.1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "7.2"
+      ],
+      "tolerance": {
+        "min": 7.1,
+        "max": 7.3
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>7.2</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q34",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 34,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 3",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The most commonly used relay, for the protection of an alternator against loss of \nexcitation, is</p>",
+      "options": [
+        "offset Mho relay.",
+        "over current relay.",
+        "differential relay.",
+        "Buchholz relay."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "offset Mho relay.",
+          "html": "offset Mho relay."
+        },
+        {
+          "label": "B",
+          "text": "over current relay.",
+          "html": "over current relay."
+        },
+        {
+          "label": "C",
+          "text": "differential relay.",
+          "html": "differential relay."
+        },
+        {
+          "label": "D",
+          "text": "Buchholz relay.",
+          "html": "Buchholz relay."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q35",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 35,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 14",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The type of single-phase induction motor, expected to have the maximum power \nfactor during steady state running condition, is</p>",
+      "options": [
+        "split phase (resistance start).",
+        "shaded pole.",
+        "capacitor start.",
+        "capacitor start, capacitor run. GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "split phase (resistance start).",
+          "html": "split phase (resistance start)."
+        },
+        {
+          "label": "B",
+          "text": "shaded pole.",
+          "html": "shaded pole."
+        },
+        {
+          "label": "C",
+          "text": "capacitor start.",
+          "html": "capacitor start."
+        },
+        {
+          "label": "D",
+          "text": "capacitor start, capacitor run. GATE 2022",
+          "html": "capacitor start, capacitor run. GATE 2022"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q36",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 36,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 25",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The frequencies of the stator and rotor currents flowing in a three-phase 8-pole \ninduction motor are 40 Hz and 1 Hz, respectively. The motor speed, in rpm, is \n_________________. (round off to nearest integer) \n  \n \n \nGATE 2022</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "585"
+      ],
+      "tolerance": {
+        "min": 580.0,
+        "max": 590.0
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>585</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q37",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 37,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 47",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A 20 MVA, 11.2 kV, 4-pole, 50 Hz alternator has an inertia constant of  \n15 MJ/MVA. If the input and output powers of the alternator are 15 MW and \n10 MW, respectively, the angular acceleration in mechanical degree/s 2 is \n__________. (round off to nearest integer) \n  \n \n \n \nGATE 2022</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "75"
+      ],
+      "tolerance": {
+        "min": 74.0,
+        "max": 76.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>75</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q38",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 38,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 52",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A 280 V, separately excited DC motor with armature resistance of 1 Ω and constant \nfield excitation drives a load. The load torque is proportional to the speed. The \nmotor draws a current of 30 A when running at a speed of 1000 rpm. Neglect \nfrictional losses in the motor. The speed, in rpm, at which the motor will run, if an \nadditional resistance of value 10 Ω  is connected in series with the armature, is \n__________. (round off to nearest integer)   \n  \n \n \n \n \n \n \n \n \n \nGATE 2022</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "482.5"
+      ],
+      "tolerance": {
+        "min": 480.0,
+        "max": 485.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>482.5</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q39",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 39,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 53",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A 4-pole induction motor with inertia of 0.1 kg-m 2 drives a constant load torque of \n2 Nm. The speed of the motor is increased linearly from 1000 rpm to 1500 rpm in \n4 seconds as shown in the figure below. Neglect losses in the motor. The energy, in \njoules, consumed by the motor during the speed change is ____________. ( round \noff to nearest integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "687.5"
+      ],
+      "tolerance": {
+        "min": 675.0,
+        "max": 700.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>687.5</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q40",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 40,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 54",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A star-connected 3-phase, 400 V, 50 kVA, 50 Hz synchronous motor has a \nsynchronous reactance of 1 ohm per phase with negligible armature resistance. The \nshaft load on the motor is 10 kW while the power factor is 0.8 leading. The loss in \nthe motor is 2 kW. The magnitude of the per phase excitation emf of the motor, in \nvolts, is __________.  (round off to nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "244"
+      ],
+      "tolerance": {
+        "min": 240.0,
+        "max": 248.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>244</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-mach-q41",
+      "testId": "gate-subject-electrical-machines",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 41,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 55",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A 3-phase, 415 V, 4-pole, 50 Hz induction motor draws 5 times the rated current at \nrated voltage at starting. It is required to bring down the starting current from the \nsupply to 2 times of the rated current using a 3-phase autotransformer. If the \nmagnetizing impedance of the induction motor and no load current of the \nautotransformer is neglected, then the transformation ratio of the autotransformer is \ngiven by ____________. (round off to two decimal places). \n  \n \n \n \n \n \n\n \nQ. No. Session  Question \nType \nSubject \nName \nKey/Range Mark  \n1 2 MCQ GA D 1 \n2 2 MCQ GA A 1 \n3 2 MCQ GA A 1 \n4 2 MCQ GA A 1 \n5 2 MCQ GA C 1 \n6 2 MCQ GA C 2 \n7 2 MCQ GA A 2 \n8 2 MCQ GA B 2 \n9 2 MCQ GA A 2 \n10 2 MCQ GA C 2 \n11 2 MCQ EE B OR D 1 \n12 2 MCQ EE D 1 \n13 2 MCQ EE A 1 \n14 2 MCQ EE D 1 \n15 2 MCQ EE B 1 \n16 2 MCQ EE B 1 \n17 2 MCQ EE A 1 \n18 2 MCQ EE B 1 \n19 2 MCQ EE C 1 \n20 2 MCQ EE B 1 \n21 2 MCQ EE C 1 \n22 2 MCQ EE C 1 \n23 2 MCQ EE C 1 \n24 2 MCQ EE D 1 \n25 2 MCQ EE A 1 \n26 2 NAT EE  10 to 10  1 \n27 2 NAT EE  48 to 48  1 \n28 2 NAT EE 250 to 250  1 \n29 2 NAT EE 12.3 to 12.7  1 \n30 2 NAT EE 13 to 13  1 \n31 2 NAT EE 4.95 to 5.05 1 \n32 2 NAT EE 795 to 805 1 \n33 2 NAT EE 0.43  to  0.47 1 \n34 2 NAT EE 20 to 20  1 \n35 2 NAT EE 580 to 590 1 \n36 2 MCQ EE C 2 \n37 2 MCQ EE A 2 \n38 2 MCQ EE B 2 \n39 2 MCQ EE A 2 \n40 2 MCQ EE C 2 \n41 2 MCQ EE A 2 \n42 2 MCQ EE A 2 \n43 2 MCQ EE B 2 \n44 2 MCQ EE C 2 \n \n45 2 MCQ EE B 2 \n46 2 MCQ EE D 2 \n47 2 MCQ EE C 2 \n48 2 MCQ EE B 2 \n49 2 MCQ EE B 2 \n50 2 MCQ EE B 2 \n51 2 MCQ EE C 2 \n52 2 MCQ EE C 2 \n53 2 MCQ EE B 2 \n54 2 NAT EE 0.99 to 1.01  2 \n55 2 NAT EE 98 to 102  2 \n56 2 NAT EE 188 to 192 OR 198 to 202  2 \n57 2 NAT EE 74 to 76 2 \n58 2 NAT EE 3170 to 3190 2 \n59 2 NAT EE 17.3 to 18 2 \n60 2 NAT EE 0.46 to 0.48 2 \n61 2 NAT EE 165 to 171 2 \n62 2 NAT EE 480 to 485 2 \n63 2 NAT EE 675 to 700 OR 1725 to 1740 2 \n64 2 NAT EE 240 to 248 2 \n65 2 NAT EE 0.61 to 0.65 2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.63"
+      ],
+      "tolerance": {
+        "min": 0.61,
+        "max": 0.65
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical Machines):</strong></p><p>Authentic official examination key: <strong>0.63</strong>.</p></div>"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The power input to a \n induction motor running at \n is \n .\nThe total stator losses are \n. If the total friction and windage losses are \n, then the eﬃciency\nis _____________\n.\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The power input to a \n induction motor running at \n is \n .\nThe total stator losses are \n. If the total friction and windage losses are \n, then the eﬃciency\nis _____________\n.\ngateee-2021",
+      "id": "gate-ee-mach-q42",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 42,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>In a single-phase transformer, the total iron loss is \n at nominal voltage of \n and frequency \n. The total iron loss is \n at \n and \n. Then, at nominal voltage and frequency, the\nhysteresis loss and eddy current loss respectively are\ngateee-2021\n \nelectrical-machines\n \nnumerical-answers</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a single-phase transformer, the total iron loss is \n at nominal voltage of \n and frequency \n. The total iron loss is \n at \n and \n. Then, at nominal voltage and frequency, the\nhysteresis loss and eddy current loss respectively are\ngateee-2021\n \nelectrical-machines\n \nnumerical-answers",
+      "id": "gate-ee-mach-q43",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 43,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 23",
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 44,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A belt-driven \n shunt generator running at \n delivers \n to a \n grid. It\ncontinues to run as a motor when the belt breaks, taking \n from the \n grid. The armature\nresistance is \n \n, ﬁeld resistance is \n, and brush drop is \n. Ignoring armature reaction, the speed of\nthe motor is _____  \n. (Round off to \n decimal places.)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A belt-driven \n shunt generator running at \n delivers \n to a \n grid. It\ncontinues to run as a motor when the belt breaks, taking \n from the \n grid. The armature\nresistance is \n \n, ﬁeld resistance is \n, and brush drop is \n. Ignoring armature reaction, the speed of\nthe motor is _____  \n. (Round off to \n decimal places.)\ngateee-2021",
+      "id": "gate-ee-mach-q44",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 44,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 24",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>An air-core radio-frequency transformer as shown has a primary winding and a secondary winding. The\nmutual inductance \n between the windings of the transformer is ____________ \n.(Round oﬀ to \ndecimal places.)\n \ngateee-2021\n \nnumerical-answers\n \ninductance\n \nelectrical-machines\nInduction \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An air-core radio-frequency transformer as shown has a primary winding and a secondary winding. The\nmutual inductance \n between the windings of the transformer is ____________ \n.(Round oﬀ to \ndecimal places.)\n \ngateee-2021\n \nnumerical-answers\n \ninductance\n \nelectrical-machines\nInduction \n(1)",
+      "id": "gate-ee-mach-q45",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 45,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 26",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>An \n-pole, \n, three-phase, slip-ring induction motor has an eﬀective rotor resistance of \n per\nphase. Its speed at maximum torque is \n. The additional resistance per phase that must be\ninserted in the rotor to achieve maximum torque at start is _____________ \n. (Round oﬀ to \n decimal places.)\nNeglect magnetizing current and stator leakage impedance. Consider equivalent circuit parameters referred to\nstator.\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An \n-pole, \n, three-phase, slip-ring induction motor has an eﬀective rotor resistance of \n per\nphase. Its speed at maximum torque is \n. The additional resistance per phase that must be\ninserted in the rotor to achieve maximum torque at start is _____________ \n. (Round oﬀ to \n decimal places.)\nNeglect magnetizing current and stator leakage impedance. Consider equivalent circuit parameters referred to\nstator.\ngateee-2021",
+      "id": "gate-ee-mach-q46",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 46,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 19,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>An alternator with internal voltage of \n and synchronous reactance of \n is connected by a\ntransmission line of reactance \n to a synchronous motor having synchronous reactance \nand internal voltage of \n.\nIf the real power supplied by the alternator is \n, then \n is _________ degrees. (Round oﬀ to \ndecimal places.)\n(Machines are of non-salient type. Neglect resistances.)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An alternator with internal voltage of \n and synchronous reactance of \n is connected by a\ntransmission line of reactance \n to a synchronous motor having synchronous reactance \nand internal voltage of \n.\nIf the real power supplied by the alternator is \n, then \n is _________ degrees. (Round oﬀ to \ndecimal places.)\n(Machines are of non-salient type. Neglect resistances.)\ngateee-2021",
+      "id": "gate-ee-mach-q47",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 47,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The casual signal with \n-transformer \n is \n(\n is the unit step signal)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The casual signal with \n-transformer \n is \n(\n is the unit step signal)\ngateee-2021",
+      "id": "gate-ee-mach-q48",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 48,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 34,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Consider a permanent magnet dc \n motor which is initially at rest. At \n, a dc voltage of \n is\napplied to the motor. Its speed monotonically increase from \n to \n  in \n and ﬁnally\nsettles to \n. Assuming that the armature inductance of the motor is negligible, the transfer function for the\nmotor is\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a permanent magnet dc \n motor which is initially at rest. At \n, a dc voltage of \n is\napplied to the motor. Its speed monotonically increase from \n to \n  in \n and ﬁnally\nsettles to \n. Assuming that the armature inductance of the motor is negligible, the transfer function for the\nmotor is\ngate2020",
+      "id": "gate-ee-mach-q49",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 49,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 9",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The temperature of the coolant oil bath for a transformer is monitored using the circuit shown. It contains a\nthermistor with a temperature-dependent resistance, \n, where \n is the\ntemperature in \n. The temperature coeﬃcient, \n, is \n. Circuit parameters: \n. The error in the output signal (in \n , rounded oﬀ to \n decimal places)\nat \n is ____________.\n          \n\n \nnumerical-answers\n \nelectric-circuits\n \nanalog-and-digital-electronics\nBiasing \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The temperature of the coolant oil bath for a transformer is monitored using the circuit shown. It contains a\nthermistor with a temperature-dependent resistance, \n, where \n is the\ntemperature in \n. The temperature coeﬃcient, \n, is \n. Circuit parameters: \n. The error in the output signal (in \n , rounded oﬀ to \n decimal places)\nat \n is ____________.\n          \n\n \nnumerical-answers\n \nelectric-circuits\n \nanalog-and-digital-electronics\nBiasing \n(1",
+      "id": "gate-ee-mach-q50",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 50,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 15",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A single-phase, \n, \n, \n transformer with laminated \n steel core has rated\nno-load loss of \n. When the high-voltage winding is excited with \n, \n sinusoidal ac supply,\nthe no-load losses are found to be \n. When the high-voltage winding of the same transformer is supplied\nfrom a \n, \n sinusoidal ac source, the no-load losses will be _____________________\n (rounded oﬀ\nto \n decimal places).\n\n \nnumerical-answers\n \nelectrical-machines</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase, \n, \n, \n transformer with laminated \n steel core has rated\nno-load loss of \n. When the high-voltage winding is excited with \n, \n sinusoidal ac supply,\nthe no-load losses are found to be \n. When the high-voltage winding of the same transformer is supplied\nfrom a \n, \n sinusoidal ac source, the no-load losses will be _____________________\n (rounded oﬀ\nto \n decimal places).\n\n \nnumerical-answers\n \nelectrical-machines",
+      "id": "gate-ee-mach-q51",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 51,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The ﬁgure below shows the per-phase Open Circuit Characteristics (measured in \n) and Short Circuit\nCharacteristics (measured in \n) of a \n, \n, \n, \n-pole, \n-phase, delta connected\nalternator, driven at \n. The field current, \n is measured in \n. Readings taken are marked as respective \n coordinates in the ﬁgure. Ratio of the unsaturated and saturated synchronous impedances \n of the alternator is closest to:\n                        \ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The ﬁgure below shows the per-phase Open Circuit Characteristics (measured in \n) and Short Circuit\nCharacteristics (measured in \n) of a \n, \n, \n, \n-pole, \n-phase, delta connected\nalternator, driven at \n. The field current, \n is measured in \n. Readings taken are marked as respective \n coordinates in the ﬁgure. Ratio of the unsaturated and saturated synchronous impedances \n of the alternator is closest to:\n                        \ngate2020",
+      "id": "gate-ee-mach-q52",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 52,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 17",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three-phase cylindrical rotor synchronous generator has a synchronous reactance \n and a negligible\narmature resistance. The magnitude of per phase terminal voltage is \n and the magnitude of per phase\ninduced emf is \n. Considering the following two statements, \n and \n,\n: For any three-phase balanced leading load connected across the terminals of this synchronous generator, \nis always more than \n: For any three-phase balanced lagging load connected across the terminals of this synchronous generator, \nis always less than \nWhich of the following options is correct?\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase cylindrical rotor synchronous generator has a synchronous reactance \n and a negligible\narmature resistance. The magnitude of per phase terminal voltage is \n and the magnitude of per phase\ninduced emf is \n. Considering the following two statements, \n and \n,\n: For any three-phase balanced leading load connected across the terminals of this synchronous generator, \nis always more than \n: For any three-phase balanced lagging load connected across the terminals of this synchronous generator, \nis always less than \nWhich of the following options is correct?\ngate2020",
+      "id": "gate-ee-mach-q53",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 53,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 18",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 17,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three-phase, \n, \n-pole induction motor runs at no-load with a slip of \n. With full load, the slip\nincreases to \n. The \n speed regulation of the motor (rounded oﬀ to \n decimal places) is\n_____________________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase, \n, \n-pole induction motor runs at no-load with a slip of \n. With full load, the slip\nincreases to \n. The \n speed regulation of the motor (rounded oﬀ to \n decimal places) is\n_____________________.\ngate2020",
+      "id": "gate-ee-mach-q54",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 54,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 32",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 28,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n dc shunt motor has an armature resistance of \n and a ﬁeld resistance of \n. When the\nmotor is operated on no-load at rated voltage, it draws an armature current of \n and runs at \n.\nWhen a load is coupled to the motor, it draws total line current of \n at rated voltage, with a \n reduction in the\nair-gap ﬂux due to armature reaction. Voltage drop across the brushes can be taken as \n per brush under all\noperating conditions. The speed of the motor, in \n under this loaded condition, is closest to:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n dc shunt motor has an armature resistance of \n and a ﬁeld resistance of \n. When the\nmotor is operated on no-load at rated voltage, it draws an armature current of \n and runs at \n.\nWhen a load is coupled to the motor, it draws total line current of \n at rated voltage, with a \n reduction in the\nair-gap ﬂux due to armature reaction. Voltage drop across the brushes can be taken as \n per brush under all\noperating conditions. The speed of the motor, in \n under this loaded condition, is closest to:",
+      "id": "gate-ee-mach-q55",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 55,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 33",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A cylindrical rotor synchronous generator with constant real power output and constant terminal voltage is\nsuppling \n current to a \n lagging power factor load. An ideal reactor is now connected in parallel\nwith the load, as a result of which the total lagging reactive power requirement of the load is twice the previous\nvalue while the real power remains unchanged. The armature current is now ___________________ \n (rounded\noff to \n decimal places).\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A cylindrical rotor synchronous generator with constant real power output and constant terminal voltage is\nsuppling \n current to a \n lagging power factor load. An ideal reactor is now connected in parallel\nwith the load, as a result of which the total lagging reactive power requirement of the load is twice the previous\nvalue while the real power remains unchanged. The armature current is now ___________________ \n (rounded\noff to \n decimal places).\ngate2020",
+      "id": "gate-ee-mach-q56",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 56,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A cylindrical rotor synchronous generator has steady state synchronous reactance of \n and\nsubtransient reactance of \n. It is operating at \n terminal voltage with an internal \n of \n. Following a three-phase solid short circuit fault at the terminal of the generator, the magnitude of\nthe subtransient internal \n (rounded off to \n decimal places) is ____________ \n.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A cylindrical rotor synchronous generator has steady state synchronous reactance of \n and\nsubtransient reactance of \n. It is operating at \n terminal voltage with an internal \n of \n. Following a three-phase solid short circuit fault at the terminal of the generator, the magnitude of\nthe subtransient internal \n (rounded off to \n decimal places) is ____________ \n.\ngate2020",
+      "id": "gate-ee-mach-q57",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 57,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 23,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A single \n synchronous generator on droop control was delivering \n power to a system. Due\nto increase in load, generator power had to be increased by \n, as a result of which, system\nfrequency dropped to \n. Further increase in load in the system resulted in a frequency of \n. At\nthis condition, the power in \n supplied by the generator is _________________ (rounded oﬀ to \n decimal\nplaces).\n\n \nnumerical-answers\n \npower-systems</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single \n synchronous generator on droop control was delivering \n power to a system. Due\nto increase in load, generator power had to be increased by \n, as a result of which, system\nfrequency dropped to \n. Further increase in load in the system resulted in a frequency of \n. At\nthis condition, the power in \n supplied by the generator is _________________ (rounded oﬀ to \n decimal\nplaces).\n\n \nnumerical-answers\n \npower-systems",
+      "id": "gate-ee-mach-q58",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 58,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>Two buses, \n, are connected with a transmission line admittance \n, at the two ends of which there\nare ideal transformers with turns ratios as shown. Bus admittance matrix for the system is:</p>",
+      "options": [
+        "B .",
+        "D . gate2020"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D . gate2020",
+          "html": "D . gate2020"
+        }
+      ],
+      "raw_content": "Two buses, \n, are connected with a transmission line admittance \n, at the two ends of which there\nare ideal transformers with turns ratios as shown. Bus admittance matrix for the system is:\nA\n. \nB\n. \nC\n. \nD\n. \ngate2020",
+      "id": "gate-ee-mach-q59",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 59,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2020 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 10,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The parameter of an equivalent circuit of a three-phase induction motor aﬀected by reducing the rms value\nof the supply voltage at the rated frequency is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The parameter of an equivalent circuit of a three-phase induction motor aﬀected by reducing the rms value\nof the supply voltage at the rated frequency is\ngate2019",
+      "id": "gate-ee-mach-q60",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 60,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 20",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three-phase synchronous motor draws \n from the line at unity power factor at rated load.\nConsidering the same line voltage and load, the line current at a power factor of \n leading is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase synchronous motor draws \n from the line at unity power factor at rated load.\nConsidering the same line voltage and load, the line current at a power factor of \n leading is\ngate2019",
+      "id": "gate-ee-mach-q61",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 61,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 21",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V DC shunt motor takes \n A at no-load. It draws \n A when running at full-load at \n rpm. The\narmature and shunt resistance are \n and \n, respectively. The no-load speed in rpm (round oﬀ to\ntwo decimal places) is _____.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V DC shunt motor takes \n A at no-load. It draws \n A when running at full-load at \n rpm. The\narmature and shunt resistance are \n and \n, respectively. The no-load speed in rpm (round oﬀ to\ntwo decimal places) is _____.\ngate2019",
+      "id": "gate-ee-mach-q62",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 62,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A delta-connected, \n kW, \n V(line), three-phase, \n-pole, \n-Hz squirrel-cage induction moor has the\nfollowing equivalent circuit parameters per phase referred to the stator: \n, \n, \n. Neglect shunt branch in the equivalent circuit. The starting line current in amperes (round\noff to two decimal places) when it is connected to a \n V(line), \n Hz, three-phase AC source is _______\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A delta-connected, \n kW, \n V(line), three-phase, \n-pole, \n-Hz squirrel-cage induction moor has the\nfollowing equivalent circuit parameters per phase referred to the stator: \n, \n, \n. Neglect shunt branch in the equivalent circuit. The starting line current in amperes (round\noff to two decimal places) when it is connected to a \n V(line), \n Hz, three-phase AC source is _______\ngate2019",
+      "id": "gate-ee-mach-q63",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 63,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 23",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n single-phase transformer has a secondary terminal voltage of \n when loaded.\nThe regulation of the transformer is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n single-phase transformer has a secondary terminal voltage of \n when loaded.\nThe regulation of the transformer is\ngate2019",
+      "id": "gate-ee-mach-q64",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 64,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 24",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V(line), three-phase, Y-connected, synchronous motor has a synchronous impedance of \n. The motor draws the rated current of \n A at \n pf leading. The rms value of\nline-to-line internal voltage in volts (round off to two decimal places) is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V(line), three-phase, Y-connected, synchronous motor has a synchronous impedance of \n. The motor draws the rated current of \n A at \n pf leading. The rms value of\nline-to-line internal voltage in volts (round off to two decimal places) is _________\ngate2019",
+      "id": "gate-ee-mach-q65",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 65,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Five alternators each rated \n MVA, \n kV with \n of reactance on its own base are connected in\nparallel to a busbar. The short circuit level in  MVA at the busbar is ____________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Five alternators each rated \n MVA, \n kV with \n of reactance on its own base are connected in\nparallel to a busbar. The short circuit level in  MVA at the busbar is ____________\ngate2019",
+      "id": "gate-ee-mach-q66",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 66,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 2,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>In a salient pole synchronous motor, the developed reluctance torque attains the maximum value when the\nload angle in electrical degrees is\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a salient pole synchronous motor, the developed reluctance torque attains the maximum value when the\nload angle in electrical degrees is\ngate2018",
+      "id": "gate-ee-mach-q67",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 67,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A separately excited dc motor has an armature resistance \n. The ﬁeld excitation is kept\nconstant. At an armature voltage of \n V, the motor produces a torque of \n Nm at zero speed.\nNeglecting all mechanical losses, the no-load speed of the motor (in \n) for an armature voltage of \n V\nis ____________ (up to \n decimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A separately excited dc motor has an armature resistance \n. The ﬁeld excitation is kept\nconstant. At an armature voltage of \n V, the motor produces a torque of \n Nm at zero speed.\nNeglecting all mechanical losses, the no-load speed of the motor (in \n) for an armature voltage of \n V\nis ____________ (up to \n decimal places).\ngate2018",
+      "id": "gate-ee-mach-q68",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 68,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 20",
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 51,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n-phase \n kVA, \n ( \n), \n Hz transformer has primary (high voltage side) resistance per\nphase of \n and secondary (low voltage side) resistance per phase of \n. Iron loss of the\ntransformer is \n. The full load \n eﬃciency of the transformer operated at unity power factor is _______ (up\nto \n decimal places)\n\n \nnumerical-answers\n \nelectrical-machines\n \npower-systems</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-phase \n kVA, \n ( \n), \n Hz transformer has primary (high voltage side) resistance per\nphase of \n and secondary (low voltage side) resistance per phase of \n. Iron loss of the\ntransformer is \n. The full load \n eﬃciency of the transformer operated at unity power factor is _______ (up\nto \n decimal places)\n\n \nnumerical-answers\n \nelectrical-machines\n \npower-systems",
+      "id": "gate-ee-mach-q69",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 69,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 21",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 54,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The equivalent circuit of a single phase induction motor is shown in the ﬁgure, where the parameters are \n, \n and \n is the slip. At no-load, the motor speed can be\napproximated to the synchronous speed.  The no-load lagging power factor of the motor is __________ (up to \ndecimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The equivalent circuit of a single phase induction motor is shown in the ﬁgure, where the parameters are \n, \n and \n is the slip. At no-load, the motor speed can be\napproximated to the synchronous speed.  The no-load lagging power factor of the motor is __________ (up to \ndecimal places).\ngate2018",
+      "id": "gate-ee-mach-q70",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 70,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 23",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 1,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A single-phase \n kVA, \n V / \n V, \n Hz transformer has a voltage has a voltage drop of \nacross its series impedance at full load. Of this, \n is due to resistance. The percentage regulation of the\ntransformer at full load with \n lagging power factor is\n\n \nelectrical-machines\n \ntransformer\n \nsingle-phase-transformers\nSlip Speed \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase \n kVA, \n V / \n V, \n Hz transformer has a voltage has a voltage drop of \nacross its series impedance at full load. Of this, \n is due to resistance. The percentage regulation of the\ntransformer at full load with \n lagging power factor is\n\n \nelectrical-machines\n \ntransformer\n \nsingle-phase-transformers\nSlip Speed \n(2",
+      "id": "gate-ee-mach-q71",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 71,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 24",
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 26,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A transformer with toroidal core of permeability \n is shown in the ﬁgure. Assuming uniform ﬂux density\nacross the circular core cross-section of radius \n, and neglecting any leakage ﬂux, the best\nestimate for the mean radius \n is\n\n \ntransformer\n \nelectric-circuits\n \nelectromagnetic-fields</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A transformer with toroidal core of permeability \n is shown in the ﬁgure. Assuming uniform ﬂux density\nacross the circular core cross-section of radius \n, and neglecting any leakage ﬂux, the best\nestimate for the mean radius \n is\n\n \ntransformer\n \nelectric-circuits\n \nelectromagnetic-fields",
+      "id": "gate-ee-mach-q72",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 72,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 25",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n bus admittance matrix for an electric power system has \n non-zero elements. The\nminimum number of branches (transmission lines and transformers) in this system are _________ (up to \ndecimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n bus admittance matrix for an electric power system has \n non-zero elements. The\nminimum number of branches (transmission lines and transformers) in this system are _________ (up to \ndecimal places).\ngate2018",
+      "id": "gate-ee-mach-q73",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 73,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 48",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Consider a lossy transmission line with \n and \n as the sending and receiving end voltages, respectively.\n and \n are the series impedance and reactance of the line, respectively. The steady-state stability limit\nfor the transmission line will be\n\n \npower-systems\n \nsteady-state\n \nstability\nStep Down Transformer \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a lossy transmission line with \n and \n as the sending and receiving end voltages, respectively.\n and \n are the series impedance and reactance of the line, respectively. The steady-state stability limit\nfor the transmission line will be\n\n \npower-systems\n \nsteady-state\n \nstability\nStep Down Transformer \n(1",
+      "id": "gate-ee-mach-q74",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 74,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 52",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \nV DC series motor runs drawing a current of \n A from the supply. Armature and ﬁeld circuit\nresistances are \n and \n, respectively. The load torque varies as the square of the speed. The ﬂux\nin the motor may be taken as being proportional to the armature current. To reduce the speed of the motor by \n%, the resistance in ohms that should be added in series with the armature is ______. (Give the answer up to\ntwo decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \nV DC series motor runs drawing a current of \n A from the supply. Armature and ﬁeld circuit\nresistances are \n and \n, respectively. The load torque varies as the square of the speed. The ﬂux\nin the motor may be taken as being proportional to the armature current. To reduce the speed of the motor by \n%, the resistance in ohms that should be added in series with the armature is ______. (Give the answer up to\ntwo decimal places.)",
+      "id": "gate-ee-mach-q75",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 75,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 36",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A separately excited \n generator supplies \nA to a \nV DC grid. The generator is running at \nRPM. The armature resistance of the generator is \n. If the speed of the generator is increased to \n RPM, the current in amperes supplied by the generator to the \n grid is ______. (Give the answer up to\none decimal place.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A separately excited \n generator supplies \nA to a \nV DC grid. The generator is running at \nRPM. The armature resistance of the generator is \n. If the speed of the generator is increased to \n RPM, the current in amperes supplied by the generator to the \n grid is ______. (Give the answer up to\none decimal place.)",
+      "id": "gate-ee-mach-q76",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 76,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 37",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n-phase, \n-pole, \nV, \nHz squirrel-cage induction motor is operating at a slip of \n. The speed of\nthe rotor flux in mechanical rad/sec, sensed by a stationary observer, is closest to\n\n \nelectrical-machines\n \nnumerical-answers</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-phase, \n-pole, \nV, \nHz squirrel-cage induction motor is operating at a slip of \n. The speed of\nthe rotor flux in mechanical rad/sec, sensed by a stationary observer, is closest to\n\n \nelectrical-machines\n \nnumerical-answers",
+      "id": "gate-ee-mach-q77",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 77,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 38",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V, \n kW, \n rpm separately excited \n motor has an armature resistance \n. When\nthe motor operates at rated speed and with rated terminal voltage, the electromagnetic torque developed\nby the motor is \nNm. Neglecting the rotational losses of the machine, the current drawn by the motor from the \nV supply is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V, \n kW, \n rpm separately excited \n motor has an armature resistance \n. When\nthe motor operates at rated speed and with rated terminal voltage, the electromagnetic torque developed\nby the motor is \nNm. Neglecting the rotational losses of the machine, the current drawn by the motor from the \nV supply is",
+      "id": "gate-ee-mach-q78",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 78,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 39",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 42,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V DC shunt motor takes \nA at no load. It takes \nA on full load while running at \n rpm. The\narmature resistance is \n, and the shunt ﬁeld resistance is \n. The no load speed, in rpm, is\n_________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V DC shunt motor takes \nA at no load. It takes \nA on full load while running at \n rpm. The\narmature resistance is \n, and the shunt ﬁeld resistance is \n. The no load speed, in rpm, is\n_________.",
+      "id": "gate-ee-mach-q79",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 79,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A star-connected, \nk W, \n V (line), \n-phase, \nHz squirrel cage induction motor has following\nequivalent circuit parameters per phase referred to the stator: \n. Neglect shunt branch in the equivalent circuit. The\nstarting current (in Ampere) for this motor when connected to an \n V (line), \n Hz, \n-phase AC source is\n_________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A star-connected, \nk W, \n V (line), \n-phase, \nHz squirrel cage induction motor has following\nequivalent circuit parameters per phase referred to the stator: \n. Neglect shunt branch in the equivalent circuit. The\nstarting current (in Ampere) for this motor when connected to an \n V (line), \n Hz, \n-phase AC source is\n_________.",
+      "id": "gate-ee-mach-q80",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 80,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>If a synchronous motor is running at a leading power factor, its excitation induced voltage \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If a synchronous motor is running at a leading power factor, its excitation induced voltage \n is",
+      "id": "gate-ee-mach-q81",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 81,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>If the primary line voltage rating is \nkV (Y side) of a \nkVA, \n transformer (the per phase turns\nratio is \n), then the line current rating of the secondary side (in Ampere) is _______.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If the primary line voltage rating is \nkV (Y side) of a \nkVA, \n transformer (the per phase turns\nratio is \n), then the line current rating of the secondary side (in Ampere) is _______.",
+      "id": "gate-ee-mach-q82",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 82,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>The direction of rotation of a single-phase capacitor run induction motor is reversed by</p>",
+      "options": [
+        "Interchanging the terminals of the AC supply.",
+        "Interchanging the terminals of the capacitor.",
+        "Interchanging the terminals of the auxiliary winding.",
+        "Interchanging the terminals of both the windings. pitch-factor coil-span stator-slots flux-per-pole Constant Dc Field Winding (1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Interchanging the terminals of the AC supply.",
+          "html": "Interchanging the terminals of the AC supply."
+        },
+        {
+          "label": "B",
+          "text": "Interchanging the terminals of the capacitor.",
+          "html": "Interchanging the terminals of the capacitor."
+        },
+        {
+          "label": "C",
+          "text": "Interchanging the terminals of the auxiliary winding.",
+          "html": "Interchanging the terminals of the auxiliary winding."
+        },
+        {
+          "label": "D",
+          "text": "Interchanging the terminals of both the windings. pitch-factor coil-span stator-slots flux-per-pole Constant Dc Field Winding (1",
+          "html": "Interchanging the terminals of both the windings. pitch-factor coil-span stator-slots flux-per-pole Constant Dc Field Winding (1"
+        }
+      ],
+      "raw_content": "The direction of rotation of a single-phase capacitor run induction motor is reversed by\nA\n. \nInterchanging the terminals of the AC supply.\nB\n. \nInterchanging the terminals of the capacitor.\nC\n. \nInterchanging the terminals of the auxiliary winding.\nD\n. \nInterchanging the terminals of both the windings.\n\n \npitch-factor\n \ncoil-span\n \nstator-slots\n \nflux-per-pole\nConstant Dc Field Winding \n(1",
+      "id": "gate-ee-mach-q83",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 83,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2016 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three-phase, \n salient-pole synchronous motor has a per-phase direct-axis reactance \n of \npu and a per-phase quadrature-axis reactance \n of \n pu. Resistance of the machine is negligible. It\nis drawing full-load current at \n pf(leading). When the terminal voltage is \n pu, per-phase induced voltage, in pu,\nis _______.\n\n \ndamper-winding\n \nconstant-dc-field-winding\n \nreactive-power\n \nnumerical-answers\nCore \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase, \n salient-pole synchronous motor has a per-phase direct-axis reactance \n of \npu and a per-phase quadrature-axis reactance \n of \n pu. Resistance of the machine is negligible. It\nis drawing full-load current at \n pf(leading). When the terminal voltage is \n pu, per-phase induced voltage, in pu,\nis _______.\n\n \ndamper-winding\n \nconstant-dc-field-winding\n \nreactive-power\n \nnumerical-answers\nCore \n(1",
+      "id": "gate-ee-mach-q84",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 84,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>If an ideal transformer has an inductive load element at port \n as shown in the ﬁgure below, the equivalent\ninductance at port \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If an ideal transformer has an inductive load element at port \n as shown in the ﬁgure below, the equivalent\ninductance at port \n is",
+      "id": "gate-ee-mach-q85",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 85,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 3,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The following ﬁgure shows the connection of an ideal transformer with primary to secondary turns ratio of \n. The applied primary voltage is \n (rms), \n. The rms value of the current \n, in\nampere, is _________.\n\n \nisolation\n \nwindings\n \nturn-ratio\n \nnumerical-answers\nLap Winding \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The following ﬁgure shows the connection of an ideal transformer with primary to secondary turns ratio of \n. The applied primary voltage is \n (rms), \n. The rms value of the current \n, in\nampere, is _________.\n\n \nisolation\n \nwindings\n \nturn-ratio\n \nnumerical-answers\nLap Winding \n(1",
+      "id": "gate-ee-mach-q86",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 86,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The starting line current of a \n V, \n-phase, delta connected induction motor is \n A, when the rated\nvoltage is applied to its stator winding. The starting line current at a reduced voltage of \n V, in ampere,\nis __________.\n\n \nline-current\n \ninduction-motor\n \nnumerical-answers\nLoss Less Transformer \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The starting line current of a \n V, \n-phase, delta connected induction motor is \n A, when the rated\nvoltage is applied to its stator winding. The starting line current at a reduced voltage of \n V, in ampere,\nis __________.\n\n \nline-current\n \ninduction-motor\n \nnumerical-answers\nLoss Less Transformer \n(1)",
+      "id": "gate-ee-mach-q87",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 87,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n shunt generator delivers \n at a terminal voltage of \n. The armature and the shunt ﬁeld\nresistances are \n and \n respectively. The stray losses are \n. The percentage eﬃciency of\nthe \n generator is _________.\n\n \nefficiency\n \ncore-losses\n \nmisc-losses\n \nnumerical-answers\nMultiple Selects \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n shunt generator delivers \n at a terminal voltage of \n. The armature and the shunt ﬁeld\nresistances are \n and \n respectively. The stray losses are \n. The percentage eﬃciency of\nthe \n generator is _________.\n\n \nefficiency\n \ncore-losses\n \nmisc-losses\n \nnumerical-answers\nMultiple Selects \n(1",
+      "id": "gate-ee-mach-q88",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 88,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 17,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n MVA, \n kV, \n Hz, star-connected, unloaded three-phase alternator has a synchronous reactance\nof \n p.u. and a sub-transient reactance of \n p.u. If a \n-phase short circuit occurs close to the generator\nterminals, the ratio of initial and final values of the sinusoidal component of the short circuit current is ________.\n\n \nreactive-power-supplier\n \nfield-emf\n \nelectrical-angle\n \nmechanical-angle\n \nnumerical-answers\nRevolution Per Minute \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n MVA, \n kV, \n Hz, star-connected, unloaded three-phase alternator has a synchronous reactance\nof \n p.u. and a sub-transient reactance of \n p.u. If a \n-phase short circuit occurs close to the generator\nterminals, the ratio of initial and final values of the sinusoidal component of the short circuit current is ________.\n\n \nreactive-power-supplier\n \nfield-emf\n \nelectrical-angle\n \nmechanical-angle\n \nnumerical-answers\nRevolution Per Minute \n(1",
+      "id": "gate-ee-mach-q89",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 89,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 48",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n-pole, lap-connected, separately excited \n motor is drawing a steady current of \n A while running at \n rpm. A good approximation for the waveshape of the current in an armature conductor of the motor is\ngiven by</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-pole, lap-connected, separately excited \n motor is drawing a steady current of \n A while running at \n rpm. A good approximation for the waveshape of the current in an armature conductor of the motor is\ngiven by",
+      "id": "gate-ee-mach-q90",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 90,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 16,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "MCQ",
+      "question": "<p>In a constant \n induction motor drive, the slip at the maximum torque</p>",
+      "options": [
+        "Is directly proportional to the synchronous speed.",
+        "Remains constant with respect to the synchronous speed.",
+        "Has an inverse relation with the synchronous speed.",
+        "Has no relation with the synchronous speed. slip-speed synchronous-speed Speed (1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Is directly proportional to the synchronous speed.",
+          "html": "Is directly proportional to the synchronous speed."
+        },
+        {
+          "label": "B",
+          "text": "Remains constant with respect to the synchronous speed.",
+          "html": "Remains constant with respect to the synchronous speed."
+        },
+        {
+          "label": "C",
+          "text": "Has an inverse relation with the synchronous speed.",
+          "html": "Has an inverse relation with the synchronous speed."
+        },
+        {
+          "label": "D",
+          "text": "Has no relation with the synchronous speed. slip-speed synchronous-speed Speed (1",
+          "html": "Has no relation with the synchronous speed. slip-speed synchronous-speed Speed (1"
+        }
+      ],
+      "raw_content": "In a constant \n induction motor drive, the slip at the maximum torque\nA\n. \nIs directly proportional to the synchronous speed.\nB\n. \nRemains constant with respect to the synchronous speed.\nC\n. \nHas an inverse relation with the synchronous speed.\nD\n. \nHas no relation with the synchronous speed.\n\n \nslip-speed\n \nsynchronous-speed\nSpeed \n(1",
+      "id": "gate-ee-mach-q91",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 91,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2016 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A single-phase \n transformer has an iron loss of \n at the rated condition. When\noperated at \n, the iron loss is \n. When operated at \n, the value of the\nhysteresis loss divided by the eddy current loss is _______.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase \n transformer has an iron loss of \n at the rated condition. When\noperated at \n, the iron loss is \n. When operated at \n, the value of the\nhysteresis loss divided by the eddy current loss is _______.",
+      "id": "gate-ee-mach-q92",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 92,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 51",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V, \n Hz, two-winding transformer is rated at \n kVA. Its windings are connected as an auto-\ntransformer of rating \n V. A resistive load of \n is connected to the high voltage (\n V) side of\nthe auto-transformer. The value of equivalent load resistance (in Ohm) as seen from low voltage side is\n_________.\n\n \nelectric-circuits\n \ntwo-winding\n \ntransformer\n \nauto-transformer\n \nnumerical-answers\nVariable Resistor \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V, \n Hz, two-winding transformer is rated at \n kVA. Its windings are connected as an auto-\ntransformer of rating \n V. A resistive load of \n is connected to the high voltage (\n V) side of\nthe auto-transformer. The value of equivalent load resistance (in Ohm) as seen from low voltage side is\n_________.\n\n \nelectric-circuits\n \ntwo-winding\n \ntransformer\n \nauto-transformer\n \nnumerical-answers\nVariable Resistor \n(1",
+      "id": "gate-ee-mach-q93",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 93,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A DC motor has the following speciﬁcations: \n hp, \n A, \n V; ﬂux/pole \n Wb, number of poles \n, number of conductors \n, number of parallel paths \n. Armature resistance\n. The\narmature reaction is negligible and rotational losses are \n W. The motor operates from a \n V DC supply. If\nthe motor runs at \n rpm, the output torque produced (in Nm) is ________.\n\n \narmature-resistance\n \noutput-torque\n \nnumber-of-parallel-paths\n \nnumerical-answers\nArmature Terminals \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A DC motor has the following speciﬁcations: \n hp, \n A, \n V; ﬂux/pole \n Wb, number of poles \n, number of conductors \n, number of parallel paths \n. Armature resistance\n. The\narmature reaction is negligible and rotational losses are \n W. The motor operates from a \n V DC supply. If\nthe motor runs at \n rpm, the output torque produced (in Nm) is ________.\n\n \narmature-resistance\n \noutput-torque\n \nnumber-of-parallel-paths\n \nnumerical-answers\nArmature Terminals \n(1",
+      "id": "gate-ee-mach-q94",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 94,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 52",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A separately excited \n generator has an armature resistance of \n and negligible armature\ninductance. At rated ﬁeld current and rated rotor speed, its open-circuit voltage is \n. When this\ngenerator is operated at half the rated speed, with half the rated ﬁeld current, an uncharged \n capacitor is\nsuddenly connected across the armature terminals. Assume that the speed remains unchanged during the\ntransient. At what time (in microsecond) after the capacitor is connected will the voltage across it reach \n?\n\n \nseparately-excited\n \narmature-terminals\nArmature Winding \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A separately excited \n generator has an armature resistance of \n and negligible armature\ninductance. At rated ﬁeld current and rated rotor speed, its open-circuit voltage is \n. When this\ngenerator is operated at half the rated speed, with half the rated ﬁeld current, an uncharged \n capacitor is\nsuddenly connected across the armature terminals. Assume that the speed remains unchanged during the\ntransient. At what time (in microsecond) after the capacitor is connected will the voltage across it reach \n?\n\n \nseparately-excited\n \narmature-terminals\nArmature Winding \n(1",
+      "id": "gate-ee-mach-q95",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 95,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>With an armature voltage of \n V and rated ﬁeld winding voltage, the speed of a separately excited \nmotor driving a fan is \n rpm, and its armature current is \n A. The armature resistance is \n. The load\ntorque of the fan load is proportional to the square of the rotor speed. Neglecting rotational losses, the value of the\narmature voltage (in Volt) which will reduce the rotor speed to \n rpm is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "With an armature voltage of \n V and rated ﬁeld winding voltage, the speed of a separately excited \nmotor driving a fan is \n rpm, and its armature current is \n A. The armature resistance is \n. The load\ntorque of the fan load is proportional to the square of the rotor speed. Neglecting rotational losses, the value of the\narmature voltage (in Volt) which will reduce the rotor speed to \n rpm is _________.",
+      "id": "gate-ee-mach-q96",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 96,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 54",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V, \n-phase, \n-pole, \n Hz inductor motor of wound rotor type is supplied at rated voltage and\nfrequency. The stator resistance, magnetizing reactance, and core loss are negligible. The maximum\ntorque produced by the rotor is \n of full load torque and it occurs at \n slip. The actual rotor resistance is \n. The value of external resistance (in Ohm) which must be inserted in a rotor phase if the maximum\ntorque is to occur at start is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V, \n-phase, \n-pole, \n Hz inductor motor of wound rotor type is supplied at rated voltage and\nfrequency. The stator resistance, magnetizing reactance, and core loss are negligible. The maximum\ntorque produced by the rotor is \n of full load torque and it occurs at \n slip. The actual rotor resistance is \n. The value of external resistance (in Ohm) which must be inserted in a rotor phase if the maximum\ntorque is to occur at start is _________.",
+      "id": "gate-ee-mach-q97",
+      "testId": "gate-subject-electrical-machines",
+      "orderIndex": 97,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 55",
+      "answer": "D"
     }
   ]
 }

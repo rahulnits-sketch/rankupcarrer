@@ -27,26 +27,6 @@ function GatePyqContent() {
     return getPyqManifest(selectedBranch);
   }, [selectedBranch]);
 
-  // Extract all distinct years in descending order
-  const distinctYears = useMemo(() => {
-    const set = new Set<number>();
-    currentManifest.forEach((p) => set.add(p.year));
-    return Array.from(set).sort((a, b) => b - a);
-  }, [currentManifest]);
-
-  const [selectedYear, setSelectedYear] = useState<number>(distinctYears[0] || 2024);
-  const [selectedPaperKey, setSelectedPaperKey] = useState<string>("");
-
-  // Sync state if branch changes or on initial load
-  useEffect(() => {
-    if (distinctYears.length > 0) {
-      const topYear = distinctYears[0];
-      setSelectedYear(topYear);
-      const firstP = currentManifest.find((p) => p.year === topYear);
-      if (firstP) setSelectedPaperKey(firstP.yearSetKey);
-    }
-  }, [selectedBranch, distinctYears, currentManifest]);
-
   // Sync if URL query param changes
   useEffect(() => {
     const b = searchParams.get("branch") as GateBranchSlug;
@@ -57,28 +37,9 @@ function GatePyqContent() {
 
   const handleBranchChange = (newBranch: GateBranchSlug) => {
     setSelectedBranch(newBranch);
-    const newManifest = getPyqManifest(newBranch);
-    const newYears = Array.from(new Set(newManifest.map((p) => p.year))).sort((a, b) => b - a);
-    if (newYears.length > 0) {
-      setSelectedYear(newYears[0]);
-      const firstP = newManifest.find((p) => p.year === newYears[0]);
-      if (firstP) setSelectedPaperKey(firstP.yearSetKey);
-    }
     const url = newBranch === "cse-it" ? "/gate/pyq" : `/gate/pyq?branch=${newBranch}`;
     window.history.replaceState(null, "", url);
   };
-
-  // Papers for the selected year
-  const yearPapers = useMemo(() => {
-    return currentManifest.filter((p) => p.year === selectedYear);
-  }, [currentManifest, selectedYear]);
-
-  // Currently selected paper
-  const activePaper = useMemo(() => {
-    const match = currentManifest.find((p) => p.yearSetKey === selectedPaperKey);
-    if (match && match.year === selectedYear) return match;
-    return yearPapers[0] || currentManifest[0];
-  }, [currentManifest, selectedPaperKey, selectedYear, yearPapers]);
 
   // Search filter
   const filteredPapers = useMemo(() => {
@@ -123,131 +84,8 @@ function GatePyqContent() {
         />
       </div>
 
-      {/* Interactive Year Selector & Active Paper Hero Card */}
-      <div className="mb-12 grid gap-8 lg:grid-cols-[1fr_380px]">
-        {/* Main Paper Selection / Hero */}
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 md:p-8 backdrop-blur">
-          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-200 pb-6">
-            <div>
-
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-1">
-                {activePaper?.title || `GATE ${currentBranch.code} ${selectedYear}`}
-              </h2>
-            </div>
-
-            {/* Set Selector if multiple sets available for the selected year */}
-            {yearPapers.length > 1 && (
-              <div className="flex flex-wrap items-center gap-2 bg-slate-50 border border-slate-200 p-1 rounded-xl">
-                {yearPapers.map((p) => {
-                  const label = p.title.includes("Set")
-                    ? `Set ${p.set}`
-                    : p.title.replace(new RegExp(`GATE\\s+(?:${currentBranch.code}|CSE)?\\s*\\d{4}\\s*—?\\s*`, "i"), "") || `Paper ${p.set}`;
-                  return (
-                    <button
-                      key={p.yearSetKey}
-                      onClick={() => setSelectedPaperKey(p.yearSetKey)}
-                      className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition ${
-                        activePaper?.yearSetKey === p.yearSetKey
-                          ? "bg-blue-600 text-white shadow"
-                          : "text-slate-600 hover:text-slate-900"
-                      }`}
-                    >
-                      {label}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-
-          {/* Paper Metrics Grid */}
-          <div className="my-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-center">
-              <span className="text-2xl font-bold text-blue-700">{activePaper?.totalQuestions ?? 0}</span>
-              <p className="mt-1 text-xs text-slate-600">Total Questions</p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-center">
-              <span className="text-2xl font-bold text-emerald-700">{activePaper?.totalMarks ?? 100}</span>
-              <p className="mt-1 text-xs text-slate-600">Total Marks</p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-center">
-              <span className="text-2xl font-bold text-amber-700">{activePaper?.durationMinutes ?? 180} min</span>
-              <p className="mt-1 text-xs text-slate-600">Exam Duration</p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-center">
-              <span className="text-2xl font-bold text-blue-700">
-                {currentBranch.code} Section
-              </span>
-              <p className="mt-1 text-xs text-slate-600">Official Exam</p>
-            </div>
-          </div>
-
-
-          {/* Start Button */}
-          <div className="flex flex-wrap items-center gap-4">
-            {activePaper && (
-              <Link
-                href={`/test/${activePaper.id}`}
-                className="inline-flex items-center gap-3 rounded-2xl bg-blue-600 px-8 py-4 text-sm font-bold text-white shadow-xl shadow-blue-600/30 transition hover:scale-105 hover:bg-blue-500"
-              >
-                <span>Start Full Exam</span>
-                <span className="text-base">→</span>
-              </Link>
-            )}
-
-            <span className="text-xs text-slate-600">
-              Instant GATE Analysis &amp; Official Solutions upon submission.
-            </span>
-          </div>
-        </div>
-
-        {/* Quick Year Browser Sidebar */}
-        <aside className="rounded-3xl border border-slate-200 bg-white p-6 flex flex-col justify-between">
-          <div>
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-sm font-bold uppercase tracking-wider text-slate-600">
-                Select Year ({distinctYears.length})
-              </h3>
-              <span className="text-xs text-blue-700 font-semibold">
-                {distinctYears[distinctYears.length - 1]}–{distinctYears[0]}
-              </span>
-            </div>
-
-            {/* Year Grid */}
-            <div className="grid grid-cols-4 gap-2 max-h-[420px] overflow-y-auto pr-1">
-              {distinctYears.map((yr) => (
-                <button
-                  key={yr}
-                  onClick={() => {
-                    setSelectedYear(yr);
-                    const firstP = currentManifest.find((p) => p.year === yr);
-                    if (firstP) setSelectedPaperKey(firstP.yearSetKey);
-                  }}
-                  className={`py-2 text-xs font-bold rounded-xl border transition ${
-                    selectedYear === yr
-                      ? "bg-blue-600 text-white border-blue-400 shadow-md shadow-blue-600/30"
-                      : "border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-                  }`}
-                >
-                  {yr}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="border-t border-slate-200 pt-4 mt-6 text-center">
-            <p className="text-xs text-slate-500">
-              All {currentManifest.length} papers verified with official answer keys &amp; solutions.
-            </p>
-          </div>
-        </aside>
-      </div>
-
       {/* Complete Historical Papers Catalog Grid */}
-      <div className="mt-14">
+      <div className="mt-10">
         <div className="mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
           <div>
             <h2 className="text-xl font-bold text-slate-900">

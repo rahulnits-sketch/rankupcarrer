@@ -3,586 +3,2150 @@
   "name": "Power Electronics & Drives",
   "shortName": "Power Electronics",
   "icon": "🔋",
-  "color": "from-emerald-500/20 to-teal-500/20",
-  "borderColor": "border-emerald-500/30",
-  "totalQuestions": 15,
+  "color": "from-rose-500/20 to-red-500/20",
+  "borderColor": "border-rose-500/30",
+  "totalQuestions": 77,
   "topics": [
     {
-      "name": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "questionCount": 3
+      "name": "Power Semiconductor Devices (Thyristor, MOSFET, IGBT)",
+      "questionCount": 19
     },
     {
       "name": "Phase Controlled Rectifiers (Single & Three Phase)",
-      "questionCount": 3
+      "questionCount": 19
     },
     {
       "name": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "questionCount": 3
+      "questionCount": 19
     },
     {
-      "name": "Inverters & PWM Techniques",
-      "questionCount": 3
+      "name": "Voltage Source Inverters & PWM Techniques",
+      "questionCount": 19
     }
   ],
   "questions": [
     {
       "id": "gate-ee-powe-q1",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — Power Electronics | Phase Controlled Rectifiers (Single & Three Phase)",
+      "title": "GATE EE 2026 | EE Question: 1",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
       "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
+      "type": "MCQ",
+      "question": "<p>Consider the infinite-length, discrete-time sequence 𝑥[𝑛] = 0.9|𝑛|, where \n𝑛 is an integer. The region of convergence of its Z-transform 𝑋(𝑧) is given by: \n(Note: 𝑧 is a complex variable)</p>",
+      "options": [
+        "|𝑧| > 0.9",
+        "|𝑧| < 0.9",
+        "0.9 < |𝑧| < 1/0.9",
+        "{𝑧 such that |𝑧| < 0.9 } ∪ { 𝑧 such that |𝑧| > 1/0.9 }"
       ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "|𝑧| > 0.9",
+          "html": "|𝑧| > 0.9"
+        },
+        {
+          "label": "B",
+          "text": "|𝑧| < 0.9",
+          "html": "|𝑧| < 0.9"
+        },
+        {
+          "label": "C",
+          "text": "0.9 < |𝑧| < 1/0.9",
+          "html": "0.9 < |𝑧| < 1/0.9"
+        },
+        {
+          "label": "D",
+          "text": "{𝑧 such that |𝑧| < 0.9 } ∪ { 𝑧 such that |𝑧| > 1/0.9 }",
+          "html": "{𝑧 such that |𝑧| < 0.9 } ∪ { 𝑧 such that |𝑧| > 1/0.9 }"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q2",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE — Power Electronics | DC-DC Choppers (Buck, Boost, Buck-Boost)",
+      "title": "GATE EE 2026 | EE Question: 2",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
+      "question": "<p>Let 𝑥𝑐(𝑡) be any continuous-time periodic signal with period 𝑇 . It is sampled \nuniformly with a sampling period 𝑇𝑠 where 𝑇𝑠 ≠ 𝑇 , resulting in the discrete \nsequence  \n𝑥[𝑛] = 𝑥𝑐(𝑛𝑇𝑠), where 𝑛 is an integer. \nWhich one of the following statements is correct about 𝑥[𝑛]?</p>",
       "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
+        "𝑥[𝑛] will always be periodic with period 𝑇/𝑇𝑠 for all values of 𝑇/𝑇𝑠",
+        "𝑥[𝑛] will always be periodic with period 1 for all values of 𝑇/𝑇𝑠",
+        "𝑥[𝑛] will never be periodic",
+        "𝑥[𝑛] will be periodic if and only if 𝑇/𝑇𝑠 is a rational number"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
+          "text": "𝑥[𝑛] will always be periodic with period 𝑇/𝑇𝑠 for all values of 𝑇/𝑇𝑠",
+          "html": "𝑥[𝑛] will always be periodic with period 𝑇/𝑇𝑠 for all values of 𝑇/𝑇𝑠"
         },
         {
           "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
+          "text": "𝑥[𝑛] will always be periodic with period 1 for all values of 𝑇/𝑇𝑠",
+          "html": "𝑥[𝑛] will always be periodic with period 1 for all values of 𝑇/𝑇𝑠"
         },
         {
           "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
+          "text": "𝑥[𝑛] will never be periodic",
+          "html": "𝑥[𝑛] will never be periodic"
         },
         {
           "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
+          "text": "𝑥[𝑛] will be periodic if and only if 𝑇/𝑇𝑠 is a rational number",
+          "html": "𝑥[𝑛] will be periodic if and only if 𝑇/𝑇𝑠 is a rational number"
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q3",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q3",
+      "title": "GATE EE 2026 | EE Question: 37",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
-      "topic": "Inverters & PWM Techniques",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
+      "question": "<p>Consider the single-phase voltage source inverter circuit feeding an inductive  \nload (L). Assume that the power MOSFET switches are ideal. S1 and S2 are \nswitched on during the first 10 µs, and S3 and S4 are switched on during the next \n10 µs in a switching cycle. The switches in the same leg are thus switched in a \ncomplementary fashion. Neglect the dead time. The waveform of the inductor \ncurrent (iL) in the steady state is triangular with a peak value of 5 A as shown.  \n \nThe rms value of the current through the switch S1 is:</p>",
       "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
+        "2.88 A",
+        "2.04 A",
+        "3.54 A",
+        "2.50 A"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
+          "text": "2.88 A",
+          "html": "2.88 A"
         },
         {
           "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
+          "text": "2.04 A",
+          "html": "2.04 A"
         },
         {
           "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
+          "text": "3.54 A",
+          "html": "3.54 A"
         },
         {
           "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
+          "text": "2.50 A",
+          "html": "2.50 A"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q4",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 4,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q4",
+      "title": "GATE EE 2026 | EE Question: 38",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>Consider the boost converter circuit shown. Assume that the semiconductor \ndevices are ideal. In steady state, the inductor current rises linearly from 0 A  \nto 6 A in the first 10 µs and then falls linearly from 6 A to 0 A in the next  \n10 µs of every switching cycle as shown. The load resistance R is 10 Ω and  \nthe capacitance C is 500 µF.  \n \nNeglect the ripple in the output voltage. What is the input voltage Vdc?</p>",
+      "options": [
+        "10.0 V",
+        "15.0 V",
+        "7.5 V",
+        "12.5 V"
       ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "10.0 V",
+          "html": "10.0 V"
+        },
+        {
+          "label": "B",
+          "text": "15.0 V",
+          "html": "15.0 V"
+        },
+        {
+          "label": "C",
+          "text": "7.5 V",
+          "html": "7.5 V"
+        },
+        {
+          "label": "D",
+          "text": "12.5 V",
+          "html": "12.5 V"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
+      "year": 2025,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A nullator is deﬁned as a circuit element where the voltage across the device and the current through the\ndevice are both zero. A series combination of a nullator and a resistor of value, \n, will behave as a\n\n \nanalog-and-digital-electronics\n \nelectric-circuits\nAnalog to Digital Converter \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A nullator is deﬁned as a circuit element where the voltage across the device and the current through the\ndevice are both zero. A series combination of a nullator and a resistor of value, \n, will behave as a\n\n \nanalog-and-digital-electronics\n \nelectric-circuits\nAnalog to Digital Converter \n(1",
       "id": "gate-ee-powe-q5",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
       "orderIndex": 5,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 3",
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 37,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q5",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
       "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
-      "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
-      "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
-        },
-        {
-          "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
-        },
-        {
-          "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
-        },
-        {
-          "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
-    },
-    {
+      "type": "NAT",
+      "question": "<p>An ideal sinusoidal voltage source \n feeds an ideal inductor \n through an\nideal SCR with ﬁring angle \n. If \n, then the peak of the inductor current, in ampere, is\nclosest to\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An ideal sinusoidal voltage source \n feeds an ideal inductor \n through an\nideal SCR with ﬁring angle \n. If \n, then the peak of the inductor current, in ampere, is\nclosest to\ngate2025",
       "id": "gate-ee-powe-q6",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
       "orderIndex": 6,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q6",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-powe-q7",
-      "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
-      "orderIndex": 7,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q7",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Inverters & PWM Techniques",
-      "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
-      "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
-        },
-        {
-          "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
-        },
-        {
-          "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
-        },
-        {
-          "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 14",
+      "answer": "C"
     },
     {
-      "id": "gate-ee-powe-q8",
-      "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
-      "orderIndex": 8,
+      "year": 2025,
+      "set": 1,
+      "qno": 5,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q8",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-powe-q9",
-      "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
-      "orderIndex": 9,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q9",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
       "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
-      "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
-      "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
-        },
-        {
-          "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
-        },
-        {
-          "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
-        },
-        {
-          "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "type": "NAT",
+      "question": "<p>Consider discrete random variables \n and \n with probabilities as follows:\nGiven \n, the expected value of \n is\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider discrete random variables \n and \n with probabilities as follows:\nGiven \n, the expected value of \n is\ngate2025",
+      "id": "gate-ee-powe-q7",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 7,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 31",
+      "answer": "D"
     },
     {
+      "year": 2025,
+      "set": 1,
+      "qno": 17,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The input voltage \n and current \n of a converter are given by,\nwhere, \n. The input power factor of the converter is closest to\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The input voltage \n and current \n of a converter are given by,\nwhere, \n. The input power factor of the converter is closest to\ngate2025",
+      "id": "gate-ee-powe-q8",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 8,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In the circuit with ideal devices, the power MOSFET is operated with a duty cycle of \n in a switching\ncycle with \n and \n. The power delivered by the current source, in W, is \n (round\noff to the nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit with ideal devices, the power MOSFET is operated with a duty cycle of \n in a switching\ncycle with \n and \n. The power delivered by the current source, in W, is \n (round\noff to the nearest integer).",
+      "id": "gate-ee-powe-q9",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 9,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 35",
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 36,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The \n-phase modulating waveforms \n and \n, used in sinusoidal PWM in a Voltage Source\nInverter (VSI) are\nwhere \n is the fundamental frequency. The modulating waveforms are compared with a \n triangular carrier whose magnitude varies between \n and \n . The VSI has a DC link voltage of \nand feeds a star connected motor. The per phase fundamental RMS motor voltage, in volts, is closest to\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The \n-phase modulating waveforms \n and \n, used in sinusoidal PWM in a Voltage Source\nInverter (VSI) are\nwhere \n is the fundamental frequency. The modulating waveforms are compared with a \n triangular carrier whose magnitude varies between \n and \n . The VSI has a DC link voltage of \nand feeds a star connected motor. The per phase fundamental RMS motor voltage, in volts, is closest to\ngate2025",
       "id": "gate-ee-powe-q10",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
       "orderIndex": 10,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q10",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 36",
+      "answer": "B"
     },
     {
+      "year": 2025,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The steady state capacitor current of a conventional DC-DC buck converter, working in CCM, is shown in\none switching cycle. If the input voltage is \n, the value of the inductor used, in \n, is \n(round off to one decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The steady state capacitor current of a conventional DC-DC buck converter, working in CCM, is shown in\none switching cycle. If the input voltage is \n, the value of the inductor used, in \n, is \n(round off to one decimal place).",
       "id": "gate-ee-powe-q11",
       "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
       "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q11",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Inverters & PWM Techniques",
-      "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
-      "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
-        },
-        {
-          "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
-        },
-        {
-          "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
-        },
-        {
-          "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 38",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-powe-q12",
-      "testId": "gate-subject-electrical-power-electronics",
-      "year": 2024,
-      "orderIndex": 12,
+      "year": 2025,
+      "set": 1,
+      "qno": 10,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q12",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
+      "question": "<p>Consider a discrete-time linear time-invariant (LTI) system \n, where</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
+      "raw_content": "Consider a discrete-time linear time-invariant (LTI) system \n, where",
+      "id": "gate-ee-powe-q12",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 12,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 47",
+      "answer": "D"
     },
     {
       "id": "gate-ee-powe-q13",
       "testId": "gate-subject-electrical-power-electronics",
       "year": 2024,
+      "set": 1,
       "orderIndex": 13,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q13",
+      "title": "GATE EE 2024 | EE Question: 18",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
       "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
+      "question": "<p>A single-phase triac based AC voltage controller feeds a series RL load. The input \nAC supply is 230 V, 50 Hz. The values of R and L are 10 Ω and 18.37 mH , \nrespectively. The minimum triggering angle of the triac to obtain controllable output \nvoltage is</p>",
       "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
+        "15°",
+        "30°",
+        "45°",
+        "60°"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
+          "text": "15°",
+          "html": "15°"
         },
         {
           "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
+          "text": "30°",
+          "html": "30°"
         },
         {
           "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
+          "text": "45°",
+          "html": "45°"
         },
         {
           "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
+          "text": "60°",
+          "html": "60°"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q14",
       "testId": "gate-subject-electrical-power-electronics",
       "year": 2024,
+      "set": 1,
       "orderIndex": 14,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q14",
+      "title": "GATE EE 2024 | EE Question: 19",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MSQ",
+      "question": "<p>Let 𝑋 be a discrete random variable that is uniformly distributed over the set   \n{−10, −9, ⋯ , 0, ⋯ , 9, 10}. Which of the following  random variables is/are \nuniformly distributed?</p>",
+      "options": [
+        "𝑋2",
+        "𝑋3",
+        "(𝑋 − 5)2",
+        "(𝑋 + 10)2"
       ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝑋2",
+          "html": "𝑋2"
+        },
+        {
+          "label": "B",
+          "text": "𝑋3",
+          "html": "𝑋3"
+        },
+        {
+          "label": "C",
+          "text": "(𝑋 − 5)2",
+          "html": "(𝑋 − 5)2"
+        },
+        {
+          "label": "D",
+          "text": "(𝑋 + 10)2",
+          "html": "(𝑋 + 10)2"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q15",
       "testId": "gate-subject-electrical-power-electronics",
       "year": 2024,
+      "set": 1,
       "orderIndex": 15,
       "section": "EE",
-      "title": "GATE EE Practice — Power Electronics | Q15",
+      "title": "GATE EE 2024 | EE Question: 25",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
-      "topic": "Inverters & PWM Techniques",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A forced commutated thyristorized step -down chopper is shown in the figure. \nNeglect the ON-state drop across the power devices. Assume th at the capacitor is \ninitially charged to 50 V with the polarity shown in the figure. The load current (𝐼𝐿) \ncan be assumed to be constant at 10 A.  Initially, ThM is ON and Th A is OFF. The \nturn-off time available to ThM in microseconds, when ThA is triggered, is_________ \n(rounded off to the nearest integer). \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nThM \nThA \n𝐿 \n10 𝜇F \n+ \n \n− \n \n𝐼𝐿 = 10 A \n50 V Constant \nCurrent \nLoad \n+ \n \n−</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "50"
+      ],
+      "tolerance": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>50</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q16",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 16,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 28",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "MCQ",
-      "question": "<p>A DC-DC step-down (buck) converter has an input voltage of $48\\text{ V}$ and duty cycle $D = 0.25$. Under continuous conduction mode, the steady-state average output voltage is:</p>",
+      "question": "<p>Consider the discrete-time systems 𝑇1 and 𝑇2 defined as follows: \n{𝑇1𝑥}[𝑛] = 𝑥[0] + 𝑥[1] + ⋯ + 𝑥[𝑛] \n{𝑇2𝑥}[𝑛] = 𝑥[0] + 12 𝑥[1] + ⋯ + 12𝑛 𝑥[𝑛] \nWhich one of the following statements is true?</p>",
       "options": [
-        "$12\\text{ V}$",
-        "$24\\text{ V}$",
-        "$36\\text{ V}$",
-        "$192\\text{ V}$"
+        "𝑇1 and 𝑇2 are BIBO stable.",
+        "𝑇1 and 𝑇2 are not BIBO stable.",
+        "𝑇1 is BIBO stable but 𝑇2 is not BIBO stable.",
+        "𝑇1 is not BIBO stable but 𝑇2 is BIBO stable."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$12\\text{ V}$",
-          "html": "$12\\text{ V}$"
+          "text": "𝑇1 and 𝑇2 are BIBO stable.",
+          "html": "𝑇1 and 𝑇2 are BIBO stable."
         },
         {
           "label": "B",
-          "text": "$24\\text{ V}$",
-          "html": "$24\\text{ V}$"
+          "text": "𝑇1 and 𝑇2 are not BIBO stable.",
+          "html": "𝑇1 and 𝑇2 are not BIBO stable."
         },
         {
           "label": "C",
-          "text": "$36\\text{ V}$",
-          "html": "$36\\text{ V}$"
+          "text": "𝑇1 is BIBO stable but 𝑇2 is not BIBO stable.",
+          "html": "𝑇1 is BIBO stable but 𝑇2 is not BIBO stable."
         },
         {
           "label": "D",
-          "text": "$192\\text{ V}$",
-          "html": "$192\\text{ V}$"
+          "text": "𝑇1 is not BIBO stable but 𝑇2 is BIBO stable.",
+          "html": "𝑇1 is not BIBO stable but 𝑇2 is BIBO stable."
         }
       ],
       "answer": [
-        "A"
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q17",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 17,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 29",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>If the Z-transform of a finite-duration discrete-time signal 𝑥[𝑛] is 𝑋(𝑧), then the Z-\ntransform of the signal 𝑦[𝑛] = 𝑥[2𝑛]  is</p>",
+      "options": [
+        "𝑌(𝑧) = 𝑋(𝑧2)",
+        "𝑌(𝑧) = 12 [𝑋(𝑧−1/2 ) + 𝑋(−𝑧−1/2)]",
+        "𝑌(𝑧) = 12 [𝑋(𝑧1/2 ) + 𝑋(−𝑧1/2)]",
+        "𝑌(𝑧) = 12 [𝑋(𝑧2 ) + 𝑋(−𝑧2)]"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝑌(𝑧) = 𝑋(𝑧2)",
+          "html": "𝑌(𝑧) = 𝑋(𝑧2)"
+        },
+        {
+          "label": "B",
+          "text": "𝑌(𝑧) = 12 [𝑋(𝑧−1/2 ) + 𝑋(−𝑧−1/2)]",
+          "html": "𝑌(𝑧) = 12 [𝑋(𝑧−1/2 ) + 𝑋(−𝑧−1/2)]"
+        },
+        {
+          "label": "C",
+          "text": "𝑌(𝑧) = 12 [𝑋(𝑧1/2 ) + 𝑋(−𝑧1/2)]",
+          "html": "𝑌(𝑧) = 12 [𝑋(𝑧1/2 ) + 𝑋(−𝑧1/2)]"
+        },
+        {
+          "label": "D",
+          "text": "𝑌(𝑧) = 12 [𝑋(𝑧2 ) + 𝑋(−𝑧2)]",
+          "html": "𝑌(𝑧) = 12 [𝑋(𝑧2 ) + 𝑋(−𝑧2)]"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q18",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 18,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 52",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single -phase half -controlled bridge converter supplies an inductive load with \nripple free load current. The triggering angle of the converter is 60°. The ratio of \nthe rms value of the fundamental component of the input current to the rms value \nof the total input current of the bridge is _________ (rounded off to 3 decimal \nplaces).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.95"
+      ],
+      "tolerance": {
+        "min": 0.94,
+        "max": 0.97
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>0.95</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q19",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 19,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 53",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase full bridge voltage source inverter (VSI) feeds a purely inductive \nload. The inverter output voltage is a square wave in 180° conduction mode. The \nfundamental frequency of the output voltage is 50 Hz. If the DC input voltage of \nthe inverter is 100 V and the value of the load inductance is 20 mH, the peak -to-\npeak load current in amperes is _________ (rounded off to the nearest integer).  \n  \n \n10.5 kΩ 101 kΩ \n9.5 kΩ \n101.5 kΩ \n𝑣in1 \n𝑣in2 \n𝑣o \n_\n+\n+\n+\n_\n_\n+\n_</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "50"
+      ],
+      "tolerance": {
+        "min": 50.0,
+        "max": 50.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>50</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q20",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2024,
+      "set": 1,
+      "orderIndex": 20,
+      "section": "EE",
+      "title": "GATE EE 2024 | EE Question: 54",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In the DC-DC converter shown in the figure, the current through the inductor is \ncontinuous. The switching frequency is 500 Hz. The voltage (𝑉𝑜) across the load is \nassumed to be constant and ripple free. The peak inductor current in amperes is \n_________ (rounded off to the nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "13"
+      ],
+      "tolerance": {
+        "min": 13.0,
+        "max": 13.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>13</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q21",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 7",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>A continuous-time system that is initially at rest is described by \n𝑑𝑦(𝑡)\n𝑑𝑡 + 3𝑦(𝑡) = 2𝑥(𝑡), \nwhere 𝑥(𝑡) is the input voltage and 𝑦(𝑡) is the output voltage. The impulse response \nof the system is</p>",
+      "options": [
+        "3𝑒−2𝑡",
+        "1 3 𝑒−2𝑡𝑢(𝑡)",
+        "2𝑒−3𝑡𝑢(𝑡)",
+        "2𝑒−3𝑡"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "3𝑒−2𝑡",
+          "html": "3𝑒−2𝑡"
+        },
+        {
+          "label": "B",
+          "text": "1 3 𝑒−2𝑡𝑢(𝑡)",
+          "html": "1 3 𝑒−2𝑡𝑢(𝑡)"
+        },
+        {
+          "label": "C",
+          "text": "2𝑒−3𝑡𝑢(𝑡)",
+          "html": "2𝑒−3𝑡𝑢(𝑡)"
+        },
+        {
+          "label": "D",
+          "text": "2𝑒−3𝑡",
+          "html": "2𝑒−3𝑡"
+        }
+      ],
+      "answer": [
+        "C"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>For a buck converter, $V_o = D \\cdot V_s = 0.25 \\times 48\\text{ V} = 12\\text{ V}$.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q22",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 9",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>The 𝑍-transform of a discrete signal 𝑥[𝑛] is \n 𝑋(𝑧) = 4𝑧\n(𝑧−15)(𝑧−23)(𝑧−3)  with 𝑅𝑂𝐶 = 𝑅 .  \nWhich one of the following statements is true?</p>",
+      "options": [
+        "Discrete-time Fourier transform of x[n] converges if R is |𝑧| > 3",
+        "Discrete-time Fourier transform of x[n] converges if R is 23 < |𝑧| < 3",
+        "Discrete-time Fourier transform of x[n] converges if R is such that x[n] is a left- sided sequence",
+        "Discrete-time Fourier transform of x[n] converges if R is such that x[n] is a right- sided sequence"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Discrete-time Fourier transform of x[n] converges if R is |𝑧| > 3",
+          "html": "Discrete-time Fourier transform of x[n] converges if R is |𝑧| > 3"
+        },
+        {
+          "label": "B",
+          "text": "Discrete-time Fourier transform of x[n] converges if R is 23 < |𝑧| < 3",
+          "html": "Discrete-time Fourier transform of x[n] converges if R is 23 < |𝑧| < 3"
+        },
+        {
+          "label": "C",
+          "text": "Discrete-time Fourier transform of x[n] converges if R is such that x[n] is a left- sided sequence",
+          "html": "Discrete-time Fourier transform of x[n] converges if R is such that x[n] is a left- sided sequence"
+        },
+        {
+          "label": "D",
+          "text": "Discrete-time Fourier transform of x[n] converges if R is such that x[n] is a right- sided sequence",
+          "html": "Discrete-time Fourier transform of x[n] converges if R is such that x[n] is a right- sided sequence"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q23",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 23,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 13",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>The chopper circuit shown in figure (i) feeds power to a 5 A DC constant current \nsource. The switching frequency of the chopper is 100 kHz. All the components can \nbe assumed to be ideal. The gate signals of switches S1 and S2 are shown in figure \n(ii). Average voltage across the 5 A current source is</p>",
+      "options": [
+        "10 V",
+        "6 V",
+        "12 V",
+        "20 V S1 20 V + figure (i) D1 S2 D2 5 A figure (ii) Gate Signal of S1 3 time in s5 8 10 Gate Signal of S2 0 High Low"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "10 V",
+          "html": "10 V"
+        },
+        {
+          "label": "B",
+          "text": "6 V",
+          "html": "6 V"
+        },
+        {
+          "label": "C",
+          "text": "12 V",
+          "html": "12 V"
+        },
+        {
+          "label": "D",
+          "text": "20 V S1 20 V + figure (i) D1 S2 D2 5 A figure (ii) Gate Signal of S1 3 time in s5 8 10 Gate Signal of S2 0 High Low",
+          "html": "20 V S1 20 V + figure (i) D1 S2 D2 5 A figure (ii) Gate Signal of S1 3 time in s5 8 10 Gate Signal of S2 0 High Low"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q24",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 24,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 36",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>Consider the state-space description of an LTI system with matrices \n𝐴 = [ 0 1−1 −2] , 𝐵 = [01] , 𝐶 = [3 −2], 𝐷 = 1 \nFor the input, sin(𝜔𝑡), 𝜔 > 0, the value of 𝜔 for which the steady-state output of \nthe system will be zero, is ___________ (Round off to the nearest integer). \n  \n10 V + + +20 V 40 V\n4 A, DC 2 A, DC\nD2\nD1\nD3\nS</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "2"
+      ],
+      "tolerance": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>2</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q25",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 25,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 39",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The period of the discrete -time signal 𝑥[𝑛] described by the equation below is   \n𝑁 = ___________________ (Round off to the nearest integer). \n 𝑥[𝑛] = 1 + 3𝑠𝑖𝑛 (15𝜋8 𝑛 + 3𝜋4 ) − 5sin (𝜋3 𝑛 − 𝜋4)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "48"
+      ],
+      "tolerance": {
+        "min": 48.0,
+        "max": 48.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>48</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q26",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 26,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 40",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The discrete-time Fourier transform of a signal 𝑥[𝑛] is 𝑋(Ω) = (1 + 𝑐𝑜𝑠Ω)𝑒−𝑗Ω. \nConsider that 𝑥𝑝[𝑛] is a periodic signal of period N = 5 such that  \n𝑥𝑝[𝑛] = 𝑥[𝑛], for 𝑛 = 0, 1 ,2  \n                                               = 0, for 𝑛 = 3, 4 \nNote that 𝑥𝑝[𝑛] = ∑ 𝑎𝑘𝑒𝑗2𝜋𝑁 𝑘𝑛𝑁−1𝑘=0 .  The magnitude of the Fourier series coefficient \n𝑎3 is _______________ (Round off to 3 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.04"
+      ],
+      "tolerance": {
+        "min": 0.037,
+        "max": 0.039
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>0.04</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q27",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 27,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 45",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The circuit shown in the figure has reached steady state with  thyristor ‘T’ in OFF \ncondition. Assume that the latching and holding currents of the thyristor are zero. \nThe thyristor is turned ON at t = 0 sec. The duration in microseconds for which the \nthyristor would conduct , before it turns off, is _____ (Round off to 2 decimal \nplaces).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "7.3"
+      ],
+      "tolerance": {
+        "min": 7.1,
+        "max": 7.5
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>7.3</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q28",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 28,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 48",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The single phase rectifier consisting of three thyristors T1, T2, T3 and a diode D1 \nfeed power to a 10 A constant current load. T1 and T3 are fired at α = 60° and T2 is \nfired at α = 240°. The reference for α is the positive zero crossing of Vin. The average \nvoltage VO across the load in volts is _____ (Round off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "39.75"
+      ],
+      "tolerance": {
+        "min": 39.0,
+        "max": 40.5
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>39.75</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q29",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 29,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 52",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The closed curve shown in the figure is described by  \n 𝑟 = 1 + 𝑐𝑜𝑠𝜃, where 𝑟 = √𝑥2 + 𝑦2;   𝑥 = 𝑟𝑐𝑜𝑠𝜃, 𝑦 = 𝑟𝑠𝑖𝑛𝜃 \nThe magnitude of the  line integral of the vector field 𝐹 = −𝑦𝑖̂ + 𝑥𝑗̂ around the \nclosed curve is ____________ (Round off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "9.5"
+      ],
+      "tolerance": {
+        "min": 9.0,
+        "max": 10.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>9.5</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q30",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 30,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 12",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>A charger supplies 100 W at 20 V for charging the battery of a laptop. The power \ndevices, used in the converter inside the charger, operate at a switching frequency of \n200 kHz. Which power device is best suited for this purpose?</p>",
+      "options": [
+        "IGBT",
+        "Thyristor",
+        "MOSFET",
+        "BJT GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "IGBT",
+          "html": "IGBT"
+        },
+        {
+          "label": "B",
+          "text": "Thyristor",
+          "html": "Thyristor"
+        },
+        {
+          "label": "C",
+          "text": "MOSFET",
+          "html": "MOSFET"
+        },
+        {
+          "label": "D",
+          "text": "BJT GATE 2022",
+          "html": "BJT GATE 2022"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q31",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 31,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 22",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase full-bridge diode rectifier feeds a resistive load of 50 Ω from a 200 V, \n50 Hz single phase AC supply. If the diodes are ideal, then the active power, in watts, \ndrawn by the load is _____________. (round off to nearest integer).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "800"
+      ],
+      "tolerance": {
+        "min": 795.0,
+        "max": 805.0
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>800</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q32",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 32,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 23",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The voltage at the input of an AC-DC rectifier is given by 𝑣(𝑡) = 230√2 sin 𝜔𝑡 where \n𝜔 = 2𝜋 ×  50 rad/s. The input current drawn by the rectifier is given by  \n𝑖(𝑡) = 10 sinቀ𝜔𝑡 − గଷቁ + 4 sinቀ3𝜔𝑡 − గ଺ቁ + 3sinቀ5𝜔𝑡 − గଷቁ.  \nThe input power factor, (rounded off to two decimal places), is, _________________ \nlag.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.45"
+      ],
+      "tolerance": {
+        "min": 0.43,
+        "max": 0.47
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>0.45</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q33",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 33,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 39",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>The discrete time Fourier series representation of a signal 𝑥[𝑛] with period 𝑁 is \nwritten as 𝑥[𝑛] = ∑ 𝑎௞𝑒௝(ଶ௞௡గ ே )⁄ேିଵ௞ୀ଴ . A discrete time periodic signal with period \n𝑁 = 3, has the non-zero Fourier series coefficients: 𝑎ିଷ = 2 and 𝑎ସ = 1. The \nsignal is</p>",
+      "options": [
+        "2 + 2𝑒ିቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰",
+        "1 + 2𝑒ቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰",
+        "1 + 2𝑒ቀ௝మഏయ ௡ቁcos ൬2𝜋6 𝑛൰",
+        "2 + 2𝑒ቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰ GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "2 + 2𝑒ିቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰",
+          "html": "2 + 2𝑒ିቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰"
+        },
+        {
+          "label": "B",
+          "text": "1 + 2𝑒ቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰",
+          "html": "1 + 2𝑒ቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰"
+        },
+        {
+          "label": "C",
+          "text": "1 + 2𝑒ቀ௝మഏయ ௡ቁcos ൬2𝜋6 𝑛൰",
+          "html": "1 + 2𝑒ቀ௝మഏయ ௡ቁcos ൬2𝜋6 𝑛൰"
+        },
+        {
+          "label": "D",
+          "text": "2 + 2𝑒ቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰ GATE 2022",
+          "html": "2 + 2𝑒ቀ௝మഏల ௡ቁcos ൬2𝜋6 𝑛൰ GATE 2022"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q34",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 34,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 49",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>For the ideal AC-DC rectifier circuit shown in the figure below, the load current \nmagnitude is Idc = 15 A and is ripple free.  The thyristors are fired with a delay angle \nof 45 o. The amplitude of the fundamental component of the source current, in \namperes, is __________. (round off to two decimal places)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "17.65"
+      ],
+      "tolerance": {
+        "min": 17.3,
+        "max": 18.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>17.65</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q35",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 35,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 50",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A 3-phase grid-connected voltage source converter with DC link voltage of 1000 V \nis switched using sinusoidal Pulse Width Modulation (PWM) technique. If the grid \nphase current is 10 A and the 3-phase complex power supplied by the converter is \ngiven by (−4000 − 𝑗3000) VA, then the modulation index used in sinusoidal \nPWM is  ___________. (round off to two decimal places)  \nGATE 2022</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "0.47"
+      ],
+      "tolerance": {
+        "min": 0.46,
+        "max": 0.48
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>0.47</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q36",
+      "testId": "gate-subject-electrical-power-electronics",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 36,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 51",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The  steady state current flowing through the inductor of a DC-DC buck boost \nconverter is given in the figure below. If the peak-to-peak ripple in the output \nvoltage of the converter is 1 V, then the value of the output capacitor, in µF, is \n_______________. (round off to nearest integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "168"
+      ],
+      "tolerance": {
+        "min": 165.0,
+        "max": 171.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Electronics & Drives):</strong></p><p>Authentic official examination key: <strong>168</strong>.</p></div>"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A \n Schmitt-trigger inverter has a low output level of \n and a high output level of \n. It has input\nthresholds of \n and \n. The input capacitance and output resistance of the Schmitt-trigger are\nnegligible. The frequency of the oscillator shown is ____________\n.(Round off to \n decimal places.)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n Schmitt-trigger inverter has a low output level of \n and a high output level of \n. It has input\nthresholds of \n and \n. The input capacitance and output resistance of the Schmitt-trigger are\nnegligible. The frequency of the oscillator shown is ____________\n.(Round off to \n decimal places.)\ngateee-2021",
+      "id": "gate-ee-powe-q37",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 37,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 1",
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A counter is constructed with three \n ﬂip-ﬂops. The input-output pairs are named \n, \nand \n, where the subscript \n denotes the least signiﬁcant bit. The output sequence is desired to\nbe the Gray-code sequence \n and \n, repeating periodically. Note that\nthe bits are listed in the \n format. The combinational logic expression for \n is\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A counter is constructed with three \n ﬂip-ﬂops. The input-output pairs are named \n, \nand \n, where the subscript \n denotes the least signiﬁcant bit. The output sequence is desired to\nbe the Gray-code sequence \n and \n, repeating periodically. Note that\nthe bits are listed in the \n format. The combinational logic expression for \n is\ngateee-2021",
+      "id": "gate-ee-powe-q38",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 38,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 2",
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>Consider the boost converter shown. Switch \n is operating at \n with a duty cycle of \n. Assume\nthe diode and switch to be ideal. Under steady-state condition, the average resistance \n as seen by the\nsource is __________ \n.\n(Round off to \n decimal places).\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the boost converter shown. Switch \n is operating at \n with a duty cycle of \n. Assume\nthe diode and switch to be ideal. Under steady-state condition, the average resistance \n as seen by the\nsource is __________ \n.\n(Round off to \n decimal places).\ngateee-2021",
+      "id": "gate-ee-powe-q39",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 39,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 54,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>Consider the buck-boost converter shown. Switch \n is operating at \n and \n duty-cycle. Assume\ndiode and switch to be ideal. Under steady-state condition, the average current ﬂowing through the\nindicator is ____________\n.\n \ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the buck-boost converter shown. Switch \n is operating at \n and \n duty-cycle. Assume\ndiode and switch to be ideal. Under steady-state condition, the average current ﬂowing through the\nindicator is ____________\n.\n \ngateee-2021",
+      "id": "gate-ee-powe-q40",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 40,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase full-bridge inverter fed by a \n produces a symmetric quasi-square waveform\nacross '\n' as shown. To achieve a modulation index of \n, the angle \n expressed in degrees should be\n_______________. (Round off to \n decimal places.)\n(Modulation index is deﬁned as the ratio of the peak of the fundamental component of \n to the applied \nvalue.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase full-bridge inverter fed by a \n produces a symmetric quasi-square waveform\nacross '\n' as shown. To achieve a modulation index of \n, the angle \n expressed in degrees should be\n_______________. (Round off to \n decimal places.)\n(Modulation index is deﬁned as the ratio of the peak of the fundamental component of \n to the applied \nvalue.)",
+      "id": "gate-ee-powe-q41",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 41,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>Two discrete-time linear time-invariant systems with impulse responses \nand \n are connected in cascade, where \n is the Kronecker delta. The impulse\nresponse of the cascaded system is</p>",
+      "options": [
+        "B .",
+        "D . gateee-2021"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D . gateee-2021",
+          "html": "D . gateee-2021"
+        }
+      ],
+      "raw_content": "Two discrete-time linear time-invariant systems with impulse responses \nand \n are connected in cascade, where \n is the Kronecker delta. The impulse\nresponse of the cascaded system is\nA\n. \nB\n. \nC\n. \nD\n. \ngateee-2021",
+      "id": "gate-ee-powe-q42",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 42,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2021 | EE Question: 55",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In the \n converter circuit shown, switch \n is switched at a frequency of \n with a duty ratio of \n. All components of the circuit are ideal, and the initial current in the inductor is zero. Energy stored in\nthe inductor in \n (rounded off to \n decimal places) at the end of \n complete switching cycles is _________.\n                   \ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the \n converter circuit shown, switch \n is switched at a frequency of \n with a duty ratio of \n. All components of the circuit are ideal, and the initial current in the inductor is zero. Energy stored in\nthe inductor in \n (rounded off to \n decimal places) at the end of \n complete switching cycles is _________.\n                   \ngate2020",
+      "id": "gate-ee-powe-q43",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 43,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 37",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 51,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase, full-bridge, fully controlled thyristor rectiﬁer feeds a load comprising a \n resistance in\nseries with a very large inductance. The rectiﬁer is fed from an ideal \n, \n sinusoidal source\nthrough cables which have negligible internal resistance and a total inductance of \n. If the thyristors are\ntriggered at an angle \n, the commutation overlap angle in degree (rounded oﬀ to \n decimal places) is\n_______________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase, full-bridge, fully controlled thyristor rectiﬁer feeds a load comprising a \n resistance in\nseries with a very large inductance. The rectiﬁer is fed from an ideal \n, \n sinusoidal source\nthrough cables which have negligible internal resistance and a total inductance of \n. If the thyristors are\ntriggered at an angle \n, the commutation overlap angle in degree (rounded oﬀ to \n decimal places) is\n_______________.\ngate2020",
+      "id": "gate-ee-powe-q44",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 44,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 38",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase inverter is fed from a \n dc source and is controlled using a quasi-square wave\nmodulation scheme to produce an output waveform, \n, as shown. The angle \n is adjusted to entirely\neliminate the \n harmonic component from the output voltage. Under this condition, for \n, the magnitude of\nthe \n harmonic component as a percentage of the magnitude of the fundamental component is _____________\n(rounded off to \n decimal places).\n\n \nnumerical-answers\n \npower-electronics\n \nsignals-and-systems\nThyristor \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase inverter is fed from a \n dc source and is controlled using a quasi-square wave\nmodulation scheme to produce an output waveform, \n, as shown. The angle \n is adjusted to entirely\neliminate the \n harmonic component from the output voltage. Under this condition, for \n, the magnitude of\nthe \n harmonic component as a percentage of the magnitude of the fundamental component is _____________\n(rounded off to \n decimal places).\n\n \nnumerical-answers\n \npower-electronics\n \nsignals-and-systems\nThyristor \n(1",
+      "id": "gate-ee-powe-q45",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 45,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 39",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 12,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>Thyristor \n is triggered at an angle \n (in degree), and \n at angle \n, in each cycle of the\nsinusoidal input voltage. Assume both thyristors to be ideal. To control the load power over the range \n to \n, the minimum range of variation in \n is:\n      \n\n \nthyristor\n \npower-electronics\n \nelectric-circuits\nAnswer Keys</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Thyristor \n is triggered at an angle \n (in degree), and \n at angle \n, in each cycle of the\nsinusoidal input voltage. Assume both thyristors to be ideal. To control the load power over the range \n to \n, the minimum range of variation in \n is:\n      \n\n \nthyristor\n \npower-electronics\n \nelectric-circuits\nAnswer Keys",
+      "id": "gate-ee-powe-q46",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 46,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 39,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>Which of the following options is true for a linear time-invariant discrete time system that obeys the\ndifference equation:</p>",
+      "options": [
+        "is unaffected by the values of",
+        "The system is necessarily causal.",
+        "The system impulse response is non-zero at infinitely many instants.",
+        "When , the function is solely determined by the function . gate2020"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "is unaffected by the values of",
+          "html": "is unaffected by the values of"
+        },
+        {
+          "label": "B",
+          "text": "The system is necessarily causal.",
+          "html": "The system is necessarily causal."
+        },
+        {
+          "label": "C",
+          "text": "The system impulse response is non-zero at infinitely many instants.",
+          "html": "The system impulse response is non-zero at infinitely many instants."
+        },
+        {
+          "label": "D",
+          "text": "When , the function is solely determined by the function . gate2020",
+          "html": "When , the function is solely determined by the function . gate2020"
+        }
+      ],
+      "raw_content": "Which of the following options is true for a linear time-invariant discrete time system that obeys the\ndifference equation:\nA\n. \n is unaffected by the values of \nB\n. \nThe system is necessarily causal.\nC\n. \nThe system impulse response is non-zero at infinitely many instants.\nD\n. \nWhen \n, the function \n is solely determined by the function \n.\ngate2020",
+      "id": "gate-ee-powe-q47",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 47,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2020 | EE Question: 51",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The output voltage of a single-phase full-bridge voltage source inverter is controlled by unipolar PWM with\none pulse per half cycle. For the fundamental rms Component of the output voltage to be \n of DC\nvoltage, the required pulse width in degrees (round off up to one decimal place) is ___________.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The output voltage of a single-phase full-bridge voltage source inverter is controlled by unipolar PWM with\none pulse per half cycle. For the fundamental rms Component of the output voltage to be \n of DC\nvoltage, the required pulse width in degrees (round off up to one decimal place) is ___________.\ngate2019",
+      "id": "gate-ee-powe-q48",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 48,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A DC-DC buck converter operates in continuous conduction mode. It has \n V input voltage, and it feeds a\nresistive load of \n. The switching frequency of the converter is \n Hz. If switch-on duration is \n ms,\nthe load power is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A DC-DC buck converter operates in continuous conduction mode. It has \n V input voltage, and it feeds a\nresistive load of \n. The switching frequency of the converter is \n Hz. If switch-on duration is \n ms,\nthe load power is\ngate2019",
+      "id": "gate-ee-powe-q49",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 49,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In a DC-DC boost converter, the duty ratio is controlled to regulate the output voltage at \n V. The input\nDC voltage is \n V. The output power is \n W. The switching frequency is \n kHz. Assume ideal\ncomponents and a very large output ﬁlter capacitor. The converter operates at the boundary between continuous\nand discontinuous conduction modes. The value of the boost inductor (in \n) is ________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a DC-DC boost converter, the duty ratio is controlled to regulate the output voltage at \n V. The input\nDC voltage is \n V. The output power is \n W. The switching frequency is \n kHz. Assume ideal\ncomponents and a very large output ﬁlter capacitor. The converter operates at the boundary between continuous\nand discontinuous conduction modes. The value of the boost inductor (in \n) is ________\ngate2019",
+      "id": "gate-ee-powe-q50",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 50,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 54,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A fully-controlled three-phase bridge converter is working from a \n V, \n Hz AC supply. It is supplying\nconstant current of \n A a \n V to a DC load. Assume large inductive smoothing and neglect overlap.\nThe rms value of the AC line current in amperes (round off to two decimal places) is _______\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A fully-controlled three-phase bridge converter is working from a \n V, \n Hz AC supply. It is supplying\nconstant current of \n A a \n V to a DC load. Assume large inductive smoothing and neglect overlap.\nThe rms value of the AC line current in amperes (round off to two decimal places) is _______\ngate2019",
+      "id": "gate-ee-powe-q51",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 51,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase fully-controlled thyristor converter is used to obtain an average voltage of \n V with \n A\nconstant current to feed a DC load. It is fed from single-phase AC supply of \n V, \n Hz. Neglect the\nsource impedance. The power factor (round off to two decimal places) of AC mains is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase fully-controlled thyristor converter is used to obtain an average voltage of \n V with \n A\nconstant current to feed a DC load. It is fed from single-phase AC supply of \n V, \n Hz. Neglect the\nsource impedance. The power factor (round off to two decimal places) of AC mains is _________\ngate2019",
+      "id": "gate-ee-powe-q52",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 52,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A six-pulse thyristor bridge rectiﬁer is connected to a balanced three-phase, \n AC source. Assuming\nthat the DC output current of the rectiﬁer is constant, the lowest harmonic component in the AC input\ncurrent is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A six-pulse thyristor bridge rectiﬁer is connected to a balanced three-phase, \n AC source. Assuming\nthat the DC output current of the rectiﬁer is constant, the lowest harmonic component in the AC input\ncurrent is\ngate2019",
+      "id": "gate-ee-powe-q53",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 53,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 23,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The waveform of the current drawn by a semi-converter from a sinusoidal AC voltage source is shown in\nthe ﬁgure. If \n A, the rms value of fundamental component of the current is ________ A (up to \ndecimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The waveform of the current drawn by a semi-converter from a sinusoidal AC voltage source is shown in\nthe ﬁgure. If \n A, the rms value of fundamental component of the current is ________ A (up to \ndecimal places).\ngate2018",
+      "id": "gate-ee-powe-q54",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 54,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 39",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The ﬁgure shows two buck converters connected in parallel. The common input dc voltage for the\nconverters has a value of \n. The converters have inductors of identical value. The load resistance is \n. The capacitor voltage has negligible ripple. Both converters operate in the continuous conduction mode. The\nswitching frequency is \n kHz, and the switch control signals are as shown. The circuit operates in the steady\nstate. Assuming that the converters share the load equally, the average value of \n, the current of switch \n (in\nAmpere), is ____________ (up to \n decimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The ﬁgure shows two buck converters connected in parallel. The common input dc voltage for the\nconverters has a value of \n. The converters have inductors of identical value. The load resistance is \n. The capacitor voltage has negligible ripple. Both converters operate in the continuous conduction mode. The\nswitching frequency is \n kHz, and the switch control signals are as shown. The circuit operates in the steady\nstate. Assuming that the converters share the load equally, the average value of \n, the current of switch \n (in\nAmpere), is ____________ (up to \n decimal places).\ngate2018",
+      "id": "gate-ee-powe-q55",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 55,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A dc to dc converter shown in the ﬁgure is charging a battery bank, \n whose voltage is constant at \n. \n is another battery bank whose voltage is constant at \n. The value of the inductor, \n is \nmH and the ideal switch, \n is operated with a switching frequency of \n kHz with a duty ratio of \n. Once the\ncircuit has attained steady state and assuming the diode D to be ideal, the power transferred from \n to \n (in\nWatt) is ___________ (up to \n decimal places)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A dc to dc converter shown in the ﬁgure is charging a battery bank, \n whose voltage is constant at \n. \n is another battery bank whose voltage is constant at \n. The value of the inductor, \n is \nmH and the ideal switch, \n is operated with a switching frequency of \n kHz with a duty ratio of \n. Once the\ncircuit has attained steady state and assuming the diode D to be ideal, the power transferred from \n to \n (in\nWatt) is ___________ (up to \n decimal places)",
+      "id": "gate-ee-powe-q56",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 56,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 38,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "MCQ",
+      "question": "<p>Consider the two continuous-time signals defined below:\nThese signals are sampled with a sampling period of \n seconds to obtain discrete-time signals \n and\n, respectively. Which one of the following statements is true?</p>",
+      "options": [
+        "The energy of is greater than the energy of",
+        "The energy of is greater than the energy of",
+        "and have equal energies",
+        "Neither nor is a finite-energy signal gate2018"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The energy of is greater than the energy of",
+          "html": "The energy of is greater than the energy of"
+        },
+        {
+          "label": "B",
+          "text": "The energy of is greater than the energy of",
+          "html": "The energy of is greater than the energy of"
+        },
+        {
+          "label": "C",
+          "text": "and have equal energies",
+          "html": "and have equal energies"
+        },
+        {
+          "label": "D",
+          "text": "Neither nor is a finite-energy signal gate2018",
+          "html": "Neither nor is a finite-energy signal gate2018"
+        }
+      ],
+      "raw_content": "Consider the two continuous-time signals defined below:\nThese signals are sampled with a sampling period of \n seconds to obtain discrete-time signals \n and\n, respectively. Which one of the following statements is true?\nA\n. \nThe energy of \n is greater than the energy of \nB\n. \nThe energy of \n is greater than the energy of \nC\n. \n and \n have equal energies\nD\n. \nNeither \n nor \n is a finite-energy signal\ngate2018",
+      "id": "gate-ee-powe-q57",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 57,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2018 | EE Question: 54",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>Consider the system described by the following state space representation\nI f \n is a unit step input and \n, the value of output \n at \n sec (rounded oﬀ to three\ndecimal places) is ___________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the system described by the following state space representation\nI f \n is a unit step input and \n, the value of output \n at \n sec (rounded oﬀ to three\ndecimal places) is ___________.",
+      "id": "gate-ee-powe-q58",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 58,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 10",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A full-bridge converter supplying an \n load is shown in ﬁgure. The ﬁring angle of the bridge converter\nis \n°. The supply voltage \n. The inductor \n is large\nenough to make the output current \n a smooth dc current. Switches are lossless. The real power fed back to the\nsource, in \n, is _________.\n\n \nfull-bridge-converter\n \nnumerical-answers\nGain Factor \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A full-bridge converter supplying an \n load is shown in ﬁgure. The ﬁring angle of the bridge converter\nis \n°. The supply voltage \n. The inductor \n is large\nenough to make the output current \n a smooth dc current. Switches are lossless. The real power fed back to the\nsource, in \n, is _________.\n\n \nfull-bridge-converter\n \nnumerical-answers\nGain Factor \n(1",
+      "id": "gate-ee-powe-q59",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 59,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 2",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A \n boost converter, as shown in the ﬁgure below, is used to boost \n V to \n V, at a power\nof \n kW. All devices are ideal. Considering continuous inductor current, the rms current in the solid state\nswitch \n, in ampere, is _________.\n\n \nboost-converter\n \ninductor-current\n \nnumerical-answers\nInterfacing \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n boost converter, as shown in the ﬁgure below, is used to boost \n V to \n V, at a power\nof \n kW. All devices are ideal. Considering continuous inductor current, the rms current in the solid state\nswitch \n, in ampere, is _________.\n\n \nboost-converter\n \ninductor-current\n \nnumerical-answers\nInterfacing \n(1",
+      "id": "gate-ee-powe-q60",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 60,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 3",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A \n-bit ﬂash Analog to Digital Converter \n is given below. The input is \n Volts. The\nexpression for the \n of the output \n as a Boolean function of \n, and \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-bit ﬂash Analog to Digital Converter \n is given below. The input is \n Volts. The\nexpression for the \n of the output \n as a Boolean function of \n, and \n is",
+      "id": "gate-ee-powe-q61",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 61,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase bi-directional voltage source converter \n is shown in the ﬁgure below. All devices are\nideal. It is used to charge a battery at \n V with power of \n kW from a source \n V (rms), \n Hz\nsinusoidal \n mains at unity p.f. If its \n side interfacing inductor is \n mH and the switches are operated at \nkHz, then the phase shift \n between \n mains voltage \n and fundamental \n rms \n voltage \n, in\ndegree, is __________.\n\n \nvoltage-source-converter\n \nphase-shift\n \nnumerical-answers\nVoltage Source Inverter \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase bi-directional voltage source converter \n is shown in the ﬁgure below. All devices are\nideal. It is used to charge a battery at \n V with power of \n kW from a source \n V (rms), \n Hz\nsinusoidal \n mains at unity p.f. If its \n side interfacing inductor is \n mH and the switches are operated at \nkHz, then the phase shift \n between \n mains voltage \n and fundamental \n rms \n voltage \n, in\ndegree, is __________.\n\n \nvoltage-source-converter\n \nphase-shift\n \nnumerical-answers\nVoltage Source Inverter \n(1",
+      "id": "gate-ee-powe-q62",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 62,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 8",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A three-phase Voltage Source Inverter \n as shown in the ﬁgure is feeding a delta connected resistive\nload of \n/phase. If it is fed from a \n V battery, with \n° conduction of solid-state devices, the power\nconsumed by the load, in kW, is __________.\n\n \nvoltage-source-inverter\n \nsolid-state-devices\n \nnumerical-answers\nVoltage Vs Current \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase Voltage Source Inverter \n as shown in the ﬁgure is feeding a delta connected resistive\nload of \n/phase. If it is fed from a \n V battery, with \n° conduction of solid-state devices, the power\nconsumed by the load, in kW, is __________.\n\n \nvoltage-source-inverter\n \nsolid-state-devices\n \nnumerical-answers\nVoltage Vs Current \n(1",
+      "id": "gate-ee-powe-q63",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 63,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 9",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase full-bridge voltage source inverter \n is fed from a \n battery. A pulse of \nduration is used to trigger the appropriate devices in each half-cycle. The rms value of the fundamental\ncomponent of the output voltage, in volts, is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase full-bridge voltage source inverter \n is fed from a \n battery. A pulse of \nduration is used to trigger the appropriate devices in each half-cycle. The rms value of the fundamental\ncomponent of the output voltage, in volts, is",
+      "id": "gate-ee-powe-q64",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 64,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 32",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 20,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A buck-boost \n converter, shown in the ﬁgure below, is used to convert \n battery voltage to \n voltage to feed a load of \n. It is operated at \n with an inductor of \n and output\ncapacitor of \n. All devices are considered to be ideal. The peak voltage across the solid-state switch \n,\nin volt, is _______.\n\n \nduty-cycle\n \nhigh-frequency-switch\n \nbidirectional-switch\n \nreverse-diode\n \nnumerical-answers</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A buck-boost \n converter, shown in the ﬁgure below, is used to convert \n battery voltage to \n voltage to feed a load of \n. It is operated at \n with an inductor of \n and output\ncapacitor of \n. All devices are considered to be ideal. The peak voltage across the solid-state switch \n,\nin volt, is _______.\n\n \nduty-cycle\n \nhigh-frequency-switch\n \nbidirectional-switch\n \nreverse-diode\n \nnumerical-answers",
+      "id": "gate-ee-powe-q65",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 65,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 38",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A buck converter, as shown in Figure (a) below, is working in steady state. The output voltage and the\ninductor current can be assumed to be ripple free. Figure (b) shows the inductor voltage \n during a\ncomplete switching interval. Assuming all devices are ideal, the duty cycle of the buck converter is ___________.\n\n \nvoltage-level-shift\n \ncontinuous-conduction-mode\n \nboundary-conditions\n \nreverse-current\n \nnumerical-answers\nWien \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A buck converter, as shown in Figure (a) below, is working in steady state. The output voltage and the\ninductor current can be assumed to be ripple free. Figure (b) shows the inductor voltage \n during a\ncomplete switching interval. Assuming all devices are ideal, the duty cycle of the buck converter is ___________.\n\n \nvoltage-level-shift\n \ncontinuous-conduction-mode\n \nboundary-conditions\n \nreverse-current\n \nnumerical-answers\nWien \n(1",
+      "id": "gate-ee-powe-q66",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 66,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 40,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A n \n-bit, unipolar Successive Approximation Register type ADC is used to convert \n V to digital\nequivalent output. The reference voltage is \n V. The output of the ADC, at the end of 3rd clock pulse\nafter the start of conversion, is\n\n \nanalog-to-digital-converter\n \nregisters</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A n \n-bit, unipolar Successive Approximation Register type ADC is used to convert \n V to digital\nequivalent output. The reference voltage is \n V. The output of the ADC, at the end of 3rd clock pulse\nafter the start of conversion, is\n\n \nanalog-to-digital-converter\n \nregisters",
+      "id": "gate-ee-powe-q67",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 67,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 3",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In the given rectiﬁer, the delay angle of the thyristor \n measured from the positive going zero crossing of \n is \n. If the input voltage \n is \n, the average voltage across \n (in Volt) under\nsteady-state is _________.\n\n \nbridge-rectifier\n \ndiodes\n \nthyrister\n \nnumerical-answers\nChopper \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the given rectiﬁer, the delay angle of the thyristor \n measured from the positive going zero crossing of \n is \n. If the input voltage \n is \n, the average voltage across \n (in Volt) under\nsteady-state is _________.\n\n \nbridge-rectifier\n \ndiodes\n \nthyrister\n \nnumerical-answers\nChopper \n(1",
+      "id": "gate-ee-powe-q68",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 68,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In the following chopper, the duty ratio of switch \n is \n. If the inductor and capacitor are suﬃciently large\nto ensure continuous inductor current and ripple free capacitor voltage, the charging current (in Ampere) of\nthe \n battery, under steady-state, is _______.\n\n \nchopper\n \nsteady-state\n \nnumerical-answers\nClipper Circuits \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the following chopper, the duty ratio of switch \n is \n. If the inductor and capacitor are suﬃciently large\nto ensure continuous inductor current and ripple free capacitor voltage, the charging current (in Ampere) of\nthe \n battery, under steady-state, is _______.\n\n \nchopper\n \nsteady-state\n \nnumerical-answers\nClipper Circuits \n(1",
+      "id": "gate-ee-powe-q69",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 69,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The single-phase full-bridge voltage source inverter (VSI), shown in ﬁgure, has an output frequency of \n. It uses unipolar pulse width modulation with switching frequency of \n kHz and modulation index\no f \n. For \n mH, \n, and \n, the amplitude of the fundamental\ncomponent in the output voltage \n (in Volt) under steady-state is ________.\n\n \nmodulation-index\n \npulse-width-modulation\n \nnumerical-answers\nMosfet \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The single-phase full-bridge voltage source inverter (VSI), shown in ﬁgure, has an output frequency of \n. It uses unipolar pulse width modulation with switching frequency of \n kHz and modulation index\no f \n. For \n mH, \n, and \n, the amplitude of the fundamental\ncomponent in the output voltage \n (in Volt) under steady-state is ________.\n\n \nmodulation-index\n \npulse-width-modulation\n \nnumerical-answers\nMosfet \n(1",
+      "id": "gate-ee-powe-q70",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 70,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 9",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>For the switching converter shown in the following figure, assume steady-state operation. Also assume that\nthe components are ideal, the inductor current is always positive and continuous and switching period is \n. If the voltage \n is as shown, the duty cycle of the switch \n is ________.\n\n \nsteady-state-operation\n \nreverse-current\n \nnumerical-answers\nRipple Current \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the switching converter shown in the following figure, assume steady-state operation. Also assume that\nthe components are ideal, the inductor current is always positive and continuous and switching period is \n. If the voltage \n is as shown, the duty cycle of the switch \n is ________.\n\n \nsteady-state-operation\n \nreverse-current\n \nnumerical-answers\nRipple Current \n(1",
+      "id": "gate-ee-powe-q71",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 71,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 12",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A self commutating switch \n, operated at duty cycle \n is used to control the load voltage as shown in\nthe figure</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A self commutating switch \n, operated at duty cycle \n is used to control the load voltage as shown in\nthe figure",
+      "id": "gate-ee-powe-q72",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 72,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 13",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In the following circuit, the input voltage \n is \n. For \n, the average voltage\nacross \n (in Volts) under steady-state is nearest to\n\n \nsteady-state-operation\n \ndiodes\nStep Down Converter \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the following circuit, the input voltage \n is \n. For \n, the average voltage\nacross \n (in Volts) under steady-state is nearest to\n\n \nsteady-state-operation\n \ndiodes\nStep Down Converter \n(1",
+      "id": "gate-ee-powe-q73",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 73,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A buck converter feeding a variable resistive load is shown in the ﬁgure. The switching frequency of the\nswitch \n is \n kHz and the duty ratio is \n. The output voltage \n is \n V. Assume that all the\ncomponents are ideal, and that the output voltage is ripple-free. The value of \n (in Ohm) that will make the\ninductor current (\n) just continuous is _________.\n\n \nstep-down-converter\n \nripple-voltages\n \nnumerical-answers\nSum of Products \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A buck converter feeding a variable resistive load is shown in the ﬁgure. The switching frequency of the\nswitch \n is \n kHz and the duty ratio is \n. The output voltage \n is \n V. Assume that all the\ncomponents are ideal, and that the output voltage is ripple-free. The value of \n (in Ohm) that will make the\ninductor current (\n) just continuous is _________.\n\n \nstep-down-converter\n \nripple-voltages\n \nnumerical-answers\nSum of Products \n(2",
+      "id": "gate-ee-powe-q74",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 74,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 17",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The ﬁlters \n and \n having characteristics as shown in Figures \n and \n are connected as shown in\nFigure \n.\nThe cut-oﬀ frequencies of \n and \n are \n and \n respectively. If \n, the resultant circuit exhibits the\ncharacteristic of a\n\n \noperational-amplifier\n \nvoltage-divider\nVoltage Source Converter \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The ﬁlters \n and \n having characteristics as shown in Figures \n and \n are connected as shown in\nFigure \n.\nThe cut-oﬀ frequencies of \n and \n are \n and \n respectively. If \n, the resultant circuit exhibits the\ncharacteristic of a\n\n \noperational-amplifier\n \nvoltage-divider\nVoltage Source Converter \n(1)",
+      "id": "gate-ee-powe-q75",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 75,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A Bode magnitude plot for the transfer function \n of a plant is shown in the ﬁgure. Which one of the\nfollowing transfer functions best describes the plant?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A Bode magnitude plot for the transfer function \n of a plant is shown in the ﬁgure. Which one of the\nfollowing transfer functions best describes the plant?",
+      "id": "gate-ee-powe-q76",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 76,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 20",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>The voltages developed across the \n and \n resistors shown in the ﬁgure are \n and \n respectively,\nwith the polarity as marked. What is the power (in Watt) delivered by the \n voltage source?\n\n \nvoltage-source\n \npolarity\nPower Electronics Inverters \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The voltages developed across the \n and \n resistors shown in the ﬁgure are \n and \n respectively,\nwith the polarity as marked. What is the power (in Watt) delivered by the \n voltage source?\n\n \nvoltage-source\n \npolarity\nPower Electronics Inverters \n(1",
+      "id": "gate-ee-powe-q77",
+      "testId": "gate-subject-electrical-power-electronics",
+      "orderIndex": 77,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 45",
+      "answer": "C"
     }
   ]
 }

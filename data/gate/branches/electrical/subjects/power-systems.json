@@ -1,458 +1,432 @@
 {
   "id": "power-systems",
   "name": "Power Systems & Protection",
-  "shortName": "Power Sys",
-  "icon": "🔌",
-  "color": "from-red-500/20 to-orange-500/20",
-  "borderColor": "border-red-500/30",
-  "totalQuestions": 15,
+  "shortName": "Power Systems",
+  "icon": "🏭",
+  "color": "from-emerald-500/20 to-teal-500/20",
+  "borderColor": "border-emerald-500/30",
+  "totalQuestions": 41,
   "topics": [
     {
       "name": "Transmission Line Models & Performance",
-      "questionCount": 3
-    },
-    {
-      "name": "Symmetrical & Unsymmetrical Fault Analysis",
-      "questionCount": 3
+      "questionCount": 10
     },
     {
       "name": "Power System Stability & Swing Equation",
-      "questionCount": 3
+      "questionCount": 10
     },
     {
-      "name": "Economic Load Dispatch & Protection Relays",
-      "questionCount": 3
+      "name": "Symmetrical & Unsymmetrical Fault Analysis",
+      "questionCount": 10
+    },
+    {
+      "name": "Protective Relays & Circuit Breakers",
+      "questionCount": 10
     }
   ],
   "questions": [
     {
       "id": "gate-ee-powe-q1",
       "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — Power Sys | Power System Stability & Swing Equation",
+      "title": "GATE EE 2026 | EE Question: 8",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Power System Stability & Swing Equation",
+      "topic": "Transmission Line Models & Performance",
       "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "question": "<p>Consider a power system with N  buses, of which P  are generator buses and the \nremaining Q  are load buses (where there is no generation).  \nAssume that there are no reactive power-limit violations at the generator buses.  \nWhat is the size of the Jacobian matrix in the Newton-Raphson load flow \nmethod?</p>",
       "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        "2𝑁 × 2𝑁",
+        "(2𝑁 − 1 − 𝑃) × (2𝑁 − 1 − 𝑃)",
+        "(2𝑁 − 𝑄) × (2𝑁 − 𝑄)",
+        "(𝑃 + 𝑄) × (𝑃 + 𝑄)"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+          "text": "2𝑁 × 2𝑁",
+          "html": "2𝑁 × 2𝑁"
         },
         {
           "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+          "text": "(2𝑁 − 1 − 𝑃) × (2𝑁 − 1 − 𝑃)",
+          "html": "(2𝑁 − 1 − 𝑃) × (2𝑁 − 1 − 𝑃)"
         },
         {
           "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+          "text": "(2𝑁 − 𝑄) × (2𝑁 − 𝑄)",
+          "html": "(2𝑁 − 𝑄) × (2𝑁 − 𝑄)"
         },
         {
           "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+          "text": "(𝑃 + 𝑄) × (𝑃 + 𝑄)",
+          "html": "(𝑃 + 𝑄) × (𝑃 + 𝑄)"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q2",
       "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE — Power Sys | Transmission Line Models & Performance",
+      "title": "GATE EE 2026 | EE Question: 9",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
       "topic": "Transmission Line Models & Performance",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
+      "type": "MCQ",
+      "question": "<p>The initial three-phase voltage phasors (𝑉̅𝐴 , 𝑉̅𝐵 ,  and 𝑉̅𝐶) at a bus of a power \nnetwork are as shown in Case-1. Due to a disturbance, the bus voltage phasors \nchanged in phase by a small angle 𝛥𝜃, and the magnitudes remained the same as \ndepicted in Case-2.  \n \nWhich one of the following statements is correct about the zero sequence \ncomponents?</p>",
+      "options": [
+        "The zero sequence components in Case-1 and Case-2 have the same phase angle and magnitude",
+        "The magnitude of the zero sequence component in Case-1 is greater than that in Case-2",
+        "The magnitude of the zero sequence component in Case-2 is greater than that in Case-1",
+        "The zero sequence components in Case-1 and Case-2 have the same magnitude but different phase angles"
       ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The zero sequence components in Case-1 and Case-2 have the same phase angle and magnitude",
+          "html": "The zero sequence components in Case-1 and Case-2 have the same phase angle and magnitude"
+        },
+        {
+          "label": "B",
+          "text": "The magnitude of the zero sequence component in Case-1 is greater than that in Case-2",
+          "html": "The magnitude of the zero sequence component in Case-1 is greater than that in Case-2"
+        },
+        {
+          "label": "C",
+          "text": "The magnitude of the zero sequence component in Case-2 is greater than that in Case-1",
+          "html": "The magnitude of the zero sequence component in Case-2 is greater than that in Case-1"
+        },
+        {
+          "label": "D",
+          "text": "The zero sequence components in Case-1 and Case-2 have the same magnitude but different phase angles",
+          "html": "The zero sequence components in Case-1 and Case-2 have the same magnitude but different phase angles"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q3",
       "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q3",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
-    },
-    {
-      "id": "gate-ee-powe-q4",
-      "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 4,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q4",
+      "title": "GATE EE 2026 | EE Question: 30",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
       "topic": "Transmission Line Models & Performance",
       "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "question": "<p>The operating characteristic of a reactance relay is given by \n1X  ,  \nwhere X is the reactance calculated by the relay. Its operating characteristic  \nin the admittance plane (G-B plane, where G and B denote conductance and \nsusceptance, respectively, expressed in Ʊ) is given by:</p>",
       "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        "22 1( 0.5) 4GB  ",
+        "1B",
+        "22 1( 1) 2GB  ",
+        "22 1( 1) 2GB  "
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+          "text": "22 1( 0.5) 4GB  ",
+          "html": "22 1( 0.5) 4GB  "
         },
         {
           "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+          "text": "1B",
+          "html": "1B"
         },
         {
           "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+          "text": "22 1( 1) 2GB  ",
+          "html": "22 1( 1) 2GB  "
         },
         {
           "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+          "text": "22 1( 1) 2GB  ",
+          "html": "22 1( 1) 2GB  "
         }
       ],
       "answer": [
         "A"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
-      "id": "gate-ee-powe-q5",
+      "id": "gate-ee-powe-q4",
       "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 5,
+      "year": 2026,
+      "set": 1,
+      "orderIndex": 4,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q5",
+      "title": "GATE EE 2026 | EE Question: 44",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MSQ",
+      "question": "<p>For the balanced 3-phase transmission line shown, consider the following cases:  \nCase-1: |𝑉1| = 1.1 p. u. , |𝑉2| = 0.9 p. 𝑢. , 𝑍 = 0.75∠0𝑜 𝑝. 𝑢. and \n𝜃12 = 𝜃1 − 𝜃2 = 0𝑜 \nCase-2: |𝑉1| = 1.1 p. u. , |𝑉2| = 0.9 p. u. , 𝑍 = 0.75∠90𝑜 𝑝. 𝑢. and \n𝜃12 = 𝜃1 − 𝜃2 = 90𝑜 \n \nWhich of the following statements is/are correct about real power loss and \nreactive power loss in the line?</p>",
+      "options": [
+        "Real power loss in Case-1 is more than that in Case-2",
+        "Real power loss in Case-2 is more than that in Case-1",
+        "Reactive power loss in Case-1 is more than that in Case-2",
+        "Reactive power loss in Case-2 is more than that in Case-1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Real power loss in Case-1 is more than that in Case-2",
+          "html": "Real power loss in Case-1 is more than that in Case-2"
+        },
+        {
+          "label": "B",
+          "text": "Real power loss in Case-2 is more than that in Case-1",
+          "html": "Real power loss in Case-2 is more than that in Case-1"
+        },
+        {
+          "label": "C",
+          "text": "Reactive power loss in Case-1 is more than that in Case-2",
+          "html": "Reactive power loss in Case-1 is more than that in Case-2"
+        },
+        {
+          "label": "D",
+          "text": "Reactive power loss in Case-2 is more than that in Case-1",
+          "html": "Reactive power loss in Case-2 is more than that in Case-1"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 12,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "question": "<p>Selected data points of the step response of a stable ﬁrst-order linear time-invariant (LTI) system are given\nbelow. The closest value of the time-constant, in sec, of the system is\n\n \nsignals-and-systems\n \nnumerical-answers\n \ncontrol-systems\nStability \n(3)</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "raw_content": "Selected data points of the step response of a stable ﬁrst-order linear time-invariant (LTI) system are given\nbelow. The closest value of the time-constant, in sec, of the system is\n\n \nsignals-and-systems\n \nnumerical-answers\n \ncontrol-systems\nStability \n(3)",
+      "id": "gate-ee-powe-q5",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 5,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 11",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-powe-q6",
-      "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 6,
+      "year": 2025,
+      "set": 1,
+      "qno": 23,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q6",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Power System Stability & Swing Equation",
-      "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
-      "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
-        },
-        {
-          "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
-        },
-        {
-          "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
-        },
-        {
-          "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A symmetrical fault (through a fault impedance of \n ) occurs at bus \n. Neglecting pre-fault loading\nconditions, the voltage at bus \n, during the fault is \n (round off to three decimal places).\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A symmetrical fault (through a fault impedance of \n ) occurs at bus \n. Neglecting pre-fault loading\nconditions, the voltage at bus \n, during the fault is \n (round off to three decimal places).\ngate2025",
+      "id": "gate-ee-powe-q6",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 6,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 43",
+      "answer": "D"
     },
     {
       "id": "gate-ee-powe-q7",
       "testId": "gate-subject-electrical-power-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 7,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q7",
+      "title": "GATE EE 2024 | EE Question: 9",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The figure shows the single line diagram of a 4 -bus power network. Branches 𝑏1, \n𝑏2, 𝑏3, and 𝑏4 have impedances 4𝑧, 𝑧, 2𝑧, and 4𝑧 per-unit (pu), respectively, where  \n𝑧 = 𝑟 + 𝑗𝑥, with 𝑟 > 0 and 𝑥 > 0. The current drawn from each load bus (marked \nas arrows) is equal to 𝐼 pu, where 𝐼 ≠ 0. If the network is to operate with minimum \nloss, the branch that should be opened is</p>",
+      "options": [
+        "𝑏1",
+        "𝑏2",
+        "𝑏3",
+        "𝑏4 𝑏1 𝑏2 𝑏3 𝑏4 𝐼 𝐼 𝐼"
       ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝑏1",
+          "html": "𝑏1"
+        },
+        {
+          "label": "B",
+          "text": "𝑏2",
+          "html": "𝑏2"
+        },
+        {
+          "label": "C",
+          "text": "𝑏3",
+          "html": "𝑏3"
+        },
+        {
+          "label": "D",
+          "text": "𝑏4 𝑏1 𝑏2 𝑏3 𝑏4 𝐼 𝐼 𝐼",
+          "html": "𝑏4 𝑏1 𝑏2 𝑏3 𝑏4 𝐼 𝐼 𝐼"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q8",
       "testId": "gate-subject-electrical-power-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 8,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q8",
+      "title": "GATE EE 2024 | EE Question: 31",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
       "topic": "Transmission Line Models & Performance",
       "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "question": "<p>For the three -bus lossless power network shown in the figure, the voltage \nmagnitudes at all the buses are equal to 1 per unit (pu), and the differences of the \nvoltage phase angles are very small. The line reactance s are marked in the figure, \nwhere 𝛼, 𝛽, 𝛾, and 𝑥 are strictly positive. The bus injections 𝑃1 and 𝑃2 are in pu. If \n𝑃1 = 𝑚𝑃2, where 𝑚 > 0, and the real power flow from bus 1 to bus 2 is 0 pu, then \nwhich one of the following options is correct?</p>",
       "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        "𝛾 = 𝑚𝛽",
+        "𝛽 = 𝑚𝛾",
+        "𝛼 = 𝑚𝛾",
+        "𝛼 = 𝑚𝛽 𝑗𝛼𝑥 Ω 𝑃2 𝑃1 𝑗𝛽𝑥 Ω 𝑗𝛾𝑥 Ω bus 1 bus 2 bus 3"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+          "text": "𝛾 = 𝑚𝛽",
+          "html": "𝛾 = 𝑚𝛽"
         },
         {
           "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+          "text": "𝛽 = 𝑚𝛾",
+          "html": "𝛽 = 𝑚𝛾"
         },
         {
           "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+          "text": "𝛼 = 𝑚𝛾",
+          "html": "𝛼 = 𝑚𝛾"
         },
         {
           "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+          "text": "𝛼 = 𝑚𝛽 𝑗𝛼𝑥 Ω 𝑃2 𝑃1 𝑗𝛽𝑥 Ω 𝑗𝛾𝑥 Ω bus 1 bus 2 bus 3",
+          "html": "𝛼 = 𝑚𝛽 𝑗𝛼𝑥 Ω 𝑃2 𝑃1 𝑗𝛽𝑥 Ω 𝑗𝛾𝑥 Ω bus 1 bus 2 bus 3"
         }
       ],
       "answer": [
         "A"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q9",
       "testId": "gate-subject-electrical-power-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 9,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q9",
+      "title": "GATE EE 2024 | EE Question: 46",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
+      "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "question": "<p>The single line diagram of a lossless system is shown in the figure. The system is \noperating in steady-state at a stable equilibrium point with the power output of the \ngenerator being 𝑃𝑚𝑎𝑥 sin 𝛿, where 𝛿 is the load angle and the mechanical power \ninput is 0.5𝑃𝑚𝑎𝑥. A fault occurs on line 2 such that the power output of the generator \nis less than 0.5𝑃𝑚𝑎𝑥 during the fault. After the fault is cleared by opening line 2, the \npower output of the generator is {𝑃𝑚𝑎𝑥/√2} sin 𝛿. If the critical fault clearing angle \nis 𝜋/2 radians, the accelerating area on the power angle curve is ______ times 𝑃𝑚𝑎𝑥 \n(rounded off to 2 decimal places). \n \nLine 1\nLine 2 Infinite \nbus\nGenerator \nbus</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "316.2"
+        "0.11"
       ],
       "tolerance": {
-        "min": 314.0,
-        "max": 318.0
+        "min": 0.1,
+        "max": 0.12
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>0.11</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q10",
       "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 10,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q10",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Power System Stability & Swing Equation",
-      "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
-      "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
-        },
-        {
-          "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
-        },
-        {
-          "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
-        },
-        {
-          "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
-    },
-    {
-      "id": "gate-ee-powe-q11",
-      "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q11",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
-    },
-    {
-      "id": "gate-ee-powe-q12",
-      "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 12,
-      "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q12",
+      "title": "GATE EE 2023 | EE Question: 10",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
       "topic": "Transmission Line Models & Performance",
       "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "question": "<p>For the three -bus power system shown in the figure,  the trip signals to the circuit \nbreakers B1 to B9 are provided by overcurrent relays R 1 to R9, respectively, some of \nwhich have directional properties also. The necessary condition for the system to be \nprotected for short circuit fault at any part of the system between bus 1 and the R-L \nloads with isolation of m inimum portion of the network using m inimum number of \ndirectional relays is</p>",
       "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        "R3 and R4 are directional overcurrent relays blocking faults towards bus 2",
+        "R3 and R4 are directional overcurrent relays blocking faults towards bus 2 and R7 is directional overcurrent relay blocking faults towards bus 3",
+        "R3 and R4 are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively, R7 is directional overcurrent relay blocking faults towards Line 3 and R5 is directional overcurrent relay blocking faults towards bus 2",
+        "R3 and R4 are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively. Line 3 Line 2 Line 1 2 B3 B1 B5 B7 B9 3 3 B8 B2 B4 R-L load 1 B6 R-L load"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+          "text": "R3 and R4 are directional overcurrent relays blocking faults towards bus 2",
+          "html": "R3 and R4 are directional overcurrent relays blocking faults towards bus 2"
         },
         {
           "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+          "text": "R3 and R4 are directional overcurrent relays blocking faults towards bus 2 and R7 is directional overcurrent relay blocking faults towards bus 3",
+          "html": "R3 and R4 are directional overcurrent relays blocking faults towards bus 2 and R7 is directional overcurrent relay blocking faults towards bus 3"
         },
         {
           "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+          "text": "R3 and R4 are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively, R7 is directional overcurrent relay blocking faults towards Line 3 and R5 is directional overcurrent relay blocking faults towards bus 2",
+          "html": "R3 and R4 are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively, R7 is directional overcurrent relay blocking faults towards Line 3 and R5 is directional overcurrent relay blocking faults towards bus 2"
         },
         {
           "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+          "text": "R3 and R4 are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively. Line 3 Line 2 Line 1 2 B3 B1 B5 B7 B9 3 3 B8 B2 B4 R-L load 1 B6 R-L load",
+          "html": "R3 and R4 are directional overcurrent relays blocking faults towards Line 1 and Line 2, respectively. Line 3 Line 2 Line 1 2 B3 B1 B5 B7 B9 3 3 B8 B2 B4 R-L load 1 B6 R-L load"
         }
       ],
       "answer": [
@@ -461,105 +435,710 @@
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q11",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 11,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 18",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MSQ",
+      "question": "<p>The bus admittance (Ybus) matrix of a 3-bus power system is given below. \n       1             2         3 \n1\n2\n3\n[\n−𝑗15 𝑗10 𝑗5\n𝑗10 −𝑗13.5 𝑗4\n𝑗5 𝑗4 −𝑗8\n] \nConsidering that there is no shunt inductor connected to any of the buses, w hich of \nthe following can NOT be true?</p>",
+      "options": [
+        "Line charging capacitor of finite value is present in all three lines",
+        "Line charging capacitor of finite value is present in line 2-3 only",
+        "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 1 only",
+        "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 3 only"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Line charging capacitor of finite value is present in all three lines",
+          "html": "Line charging capacitor of finite value is present in all three lines"
+        },
+        {
+          "label": "B",
+          "text": "Line charging capacitor of finite value is present in line 2-3 only",
+          "html": "Line charging capacitor of finite value is present in line 2-3 only"
+        },
+        {
+          "label": "C",
+          "text": "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 1 only",
+          "html": "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 1 only"
+        },
+        {
+          "label": "D",
+          "text": "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 3 only",
+          "html": "Line charging capacitor of finite value is present in line 2-3 only and shunt capacitor of finite value is present in bus 3 only"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-powe-q12",
+      "testId": "gate-subject-electrical-power-systems",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 12,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 5",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "MCQ",
+      "question": "<p>The valid positive, negative and zero sequence impedances (in p.u.), respectively, for \na 220 kV, fully transposed three-phase transmission line, from the given choices are</p>",
+      "options": [
+        "1.1, 0.15 and 0.08",
+        "0.15, 0.15 and 0.35",
+        "0.2, 0.2 and 0.2",
+        "0.1, 0.3 and 0.1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "1.1, 0.15 and 0.08",
+          "html": "1.1, 0.15 and 0.08"
+        },
+        {
+          "label": "B",
+          "text": "0.15, 0.15 and 0.35",
+          "html": "0.15, 0.15 and 0.35"
+        },
+        {
+          "label": "C",
+          "text": "0.2, 0.2 and 0.2",
+          "html": "0.2, 0.2 and 0.2"
+        },
+        {
+          "label": "D",
+          "text": "0.1, 0.3 and 0.1",
+          "html": "0.1, 0.3 and 0.1"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-powe-q13",
       "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 13,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q13",
+      "title": "GATE EE 2022 | EE Question: 48",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
+      "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "question": "<p>Consider an ideal full-bridge single-phase DC-AC inverter with a DC bus voltage \nmagnitude of 1000 V. The inverter output voltage 𝑣(𝑡) shown below, is obtained \nwhen diagonal switches of the inverter are switched with 50 % duty cycle. The \ninverter feeds a load with a sinusoidal current given by, 𝑖(𝑡) = 10 sin(𝜔𝑡 − గଷ) A, \nwhere 𝜔 =\nଶగ\n்  . The active power, in watts, delivered to the load is _________. \n(round off to nearest integer)</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "316.2"
+        "3180"
       ],
       "tolerance": {
-        "min": 314.0,
-        "max": 318.0
+        "min": 3170.0,
+        "max": 3190.0
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Power Systems & Protection):</strong></p><p>Authentic official examination key: <strong>3180</strong>.</p></div>"
     },
     {
-      "id": "gate-ee-powe-q14",
-      "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 14,
+      "year": 2021,
+      "set": 1,
+      "qno": 34,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q14",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Power System Stability & Swing Equation",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In the ﬁgure shown, self-impedances of the two transmission lines are \n each, and \n is the mutual impedance. Bus voltages shown in the ﬁgure are in \n. Given that \n,\nthe maximum steady-state real power that can be transferred in \n from Bus-\n to Bus-\n is\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the ﬁgure shown, self-impedances of the two transmission lines are \n each, and \n is the mutual impedance. Bus voltages shown in the ﬁgure are in \n. Given that \n,\nthe maximum steady-state real power that can be transferred in \n from Bus-\n to Bus-\n is\ngateee-2021",
+      "id": "gate-ee-powe-q14",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 14,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A \n-Bus network is shown. Consider generators as ideal voltage sources. If rows \n and \n of the \nmatrix correspond to Bus \n and \n, respectively, then \n of the network is\nA\n. \nB\n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-Bus network is shown. Consider generators as ideal voltage sources. If rows \n and \n of the \nmatrix correspond to Bus \n and \n, respectively, then \n of the network is\nA\n. \nB\n.",
+      "id": "gate-ee-powe-q15",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 15,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>Consider a power system consisting of \n number of buses. Buses in this power system are categorized\ninto slack bus, \n buses and \n buses for load ﬂow study. The number of \n buses is \n. The\nbalanced Newton-Raphson method is used to carry out load ﬂow study in polar form. \n are sub-\nmatrices of the Jacobian matrix \n as shown below:\nThe dimension of the sub-matrix \n is \ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a power system consisting of \n number of buses. Buses in this power system are categorized\ninto slack bus, \n buses and \n buses for load ﬂow study. The number of \n buses is \n. The\nbalanced Newton-Raphson method is used to carry out load ﬂow study in polar form. \n are sub-\nmatrices of the Jacobian matrix \n as shown below:\nThe dimension of the sub-matrix \n is \ngateee-2021",
+      "id": "gate-ee-powe-q16",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 16,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 52",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>Bus \n with voltage magnitude \n is sending reactive power \n towards bus \n with voltage\nmagnitude \n through a lossless transmission line of  reactance \n. Keeping the voltage at bus \nﬁxed at \n, magnitude of voltage at bus \n is changed, so that the reactive power \n sent from bus \n is\nincreased by \n. Real power ﬂow through the line under both the conditions is zero. The new value of the\nvoltage magnitude, \n, in \n ( rounded off to \n decimal places), at bus \n is___________________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Bus \n with voltage magnitude \n is sending reactive power \n towards bus \n with voltage\nmagnitude \n through a lossless transmission line of  reactance \n. Keeping the voltage at bus \nﬁxed at \n, magnitude of voltage at bus \n is changed, so that the reactive power \n sent from bus \n is\nincreased by \n. Real power ﬂow through the line under both the conditions is zero. The new value of the\nvoltage magnitude, \n, in \n ( rounded off to \n decimal places), at bus \n is___________________.\ngate2020",
+      "id": "gate-ee-powe-q17",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 17,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A lossless transmission line with \n \n reactance per phase uniformly distributed along the length of the\nline, connecting a generator bus to a load bus, is protected up to \n of its length by a distance relay\nplaced at the generator bus. The generator terminal voltage is \n \n. There is no generation at the load bus. The\nthreshold \n current for operation of the distance relay for a solid three phase-to-ground fault on the transmission\nline is closest to:\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A lossless transmission line with \n \n reactance per phase uniformly distributed along the length of the\nline, connecting a generator bus to a load bus, is protected up to \n of its length by a distance relay\nplaced at the generator bus. The generator terminal voltage is \n \n. There is no generation at the load bus. The\nthreshold \n current for operation of the distance relay for a solid three phase-to-ground fault on the transmission\nline is closest to:\ngate2020",
+      "id": "gate-ee-powe-q18",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 18,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>Out of the following options, the most relevant information needed to specify the real power \n at the \nbuses in a load flow analysis is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Out of the following options, the most relevant information needed to specify the real power \n at the \nbuses in a load flow analysis is",
+      "id": "gate-ee-powe-q19",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 19,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 23,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The total impedance of the secondary winding, leads, and burden of a \n A CT is \n. If the fault current\nis \n times the rated primary current of the CT, the VA output of the CT is_________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The total impedance of the secondary winding, leads, and burden of a \n A CT is \n. If the fault current\nis \n times the rated primary current of the CT, the VA output of the CT is_________\ngate2019",
+      "id": "gate-ee-powe-q20",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 20,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 18",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In a \n kV system, the series inductance up to the point of circuit breaker location is \n mH. The shunt\ncapacitance at the circuit breaker terminal is \n. The critical value of resistance in ohms required to\nbe connected across the circuit breaker contacts which will give no transient oscillation is ______\n\n \nnumerical-answers\n \nelectric-circuits\nElectric Machines \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a \n kV system, the series inductance up to the point of circuit breaker location is \n mH. The shunt\ncapacitance at the circuit breaker terminal is \n. The critical value of resistance in ohms required to\nbe connected across the circuit breaker contacts which will give no transient oscillation is ______\n\n \nnumerical-answers\n \nelectric-circuits\nElectric Machines \n(1)",
+      "id": "gate-ee-powe-q21",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 21,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The \n matrix of a two-bus power system having two identical parallel lines connected between them in\npu is given as\nThe magnitude of the series reactance of each line in pu  (round off upto one decimal place) is__________.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The \n matrix of a two-bus power system having two identical parallel lines connected between them in\npu is given as\nThe magnitude of the series reactance of each line in pu  (round off upto one decimal place) is__________.\ngate2019",
+      "id": "gate-ee-powe-q22",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 22,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 48",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A three-phase \n Hz, \n kV transmission line is \n km long. The line inductance is \n mH/km per phase,\nand the capacitance is \n per phase. The line is under open circuit condition at the receiving\nend and energized with \n kV at the sending end, the receiving end line voltage in kV (round oﬀ to two decimal\nplaces) will be _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase \n Hz, \n kV transmission line is \n km long. The line inductance is \n mH/km per phase,\nand the capacitance is \n per phase. The line is under open circuit condition at the receiving\nend and energized with \n kV at the sending end, the receiving end line voltage in kV (round oﬀ to two decimal\nplaces) will be _________\ngate2019",
+      "id": "gate-ee-powe-q23",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 23,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A \n kV, \n Hz, \n MVA generator has the positive, negative, and zero sequence reactances of \n pu, \n pu, and \n pu, respectively. The neutral of the generator is grounded with a reactance so that the\nfault current for a bolted LG fault and that of a bolted three-phase fault at the generator terminal are equal. The\nvalue of grounding reactance in ohms (round off to one decimal place) is ___________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n kV, \n Hz, \n MVA generator has the positive, negative, and zero sequence reactances of \n pu, \n pu, and \n pu, respectively. The neutral of the generator is grounded with a reactance so that the\nfault current for a bolted LG fault and that of a bolted three-phase fault at the generator terminal are equal. The\nvalue of grounding reactance in ohms (round off to one decimal place) is ___________\ngate2019",
+      "id": "gate-ee-powe-q24",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 24,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 51",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 51,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In the single machine inﬁnite bus system shown below, the generator is delivering the real power of \n pu\nat \n power factor lagging to the inﬁnite bus. The power angle of the generator in degrees (round oﬀ to\none decimal place) is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the single machine inﬁnite bus system shown below, the generator is delivering the real power of \n pu\nat \n power factor lagging to the inﬁnite bus. The power angle of the generator in degrees (round oﬀ to\none decimal place) is _________\ngate2019",
+      "id": "gate-ee-powe-q25",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 25,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 52",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The per-unit power output of a salient-pole generator which is connected to an inﬁnite bus, is given by the\nexpression, \n, where \n is the load angle. Newton-Raphson method is used to\ncalculate the value of \n for \n. If the initial guess is \n, then its value (in degree) at the end of the ﬁrst\niteration is\n\n \npower-systems\n \nnumerical-methods\nOvercurrent \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The per-unit power output of a salient-pole generator which is connected to an inﬁnite bus, is given by the\nexpression, \n, where \n is the load angle. Newton-Raphson method is used to\ncalculate the value of \n for \n. If the initial guess is \n, then its value (in degree) at the end of the ﬁrst\niteration is\n\n \npower-systems\n \nnumerical-methods\nOvercurrent \n(1)",
+      "id": "gate-ee-powe-q26",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 26,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 20,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The series impedance matrix of a short three-phase transmission line in phase coordinates is \n. If the positive sequence impedance is \n, and the zero sequence is \n, then the imaginary part of \n (in \n) is ___________ (up to \n decimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The series impedance matrix of a short three-phase transmission line in phase coordinates is \n. If the positive sequence impedance is \n, and the zero sequence is \n, then the imaginary part of \n (in \n) is ___________ (up to \n decimal places).\ngate2018",
+      "id": "gate-ee-powe-q27",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 27,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The positive, negative and zero sequence impedances of a \n MVA, three-phase, \n kV, star-\ngounded, \n Hz generator are \n pu, \n pu and \n pu respectively on the machine rating base.\nThe machine is unloaded and working at the rated terminal voltage. If the grounding impedance of the generator\nis \n pu, then the magnitude of fault current for a \n-phase to ground fault (in kA) is __________ (up to \ndecimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The positive, negative and zero sequence impedances of a \n MVA, three-phase, \n kV, star-\ngounded, \n Hz generator are \n pu, \n pu and \n pu respectively on the machine rating base.\nThe machine is unloaded and working at the rated terminal voltage. If the grounding impedance of the generator\nis \n pu, then the magnitude of fault current for a \n-phase to ground fault (in kA) is __________ (up to \ndecimal places).\ngate2018",
+      "id": "gate-ee-powe-q28",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 28,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 28,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The positive, negative and zero sequence impedances of a three phase generator are \n and \nrespectively. For a line-to-line fault with fault impedance \n, the fault current is \n, where \n is the\nfault current with zero fault impedance. The relation between \n and \n is\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The positive, negative and zero sequence impedances of a three phase generator are \n and \nrespectively. For a line-to-line fault with fault impedance \n, the fault current is \n, where \n is the\nfault current with zero fault impedance. The relation between \n and \n is\ngate2018",
+      "id": "gate-ee-powe-q29",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 29,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>Consider the two bus power system network with given loads as shown in the ﬁgure. All the values shown\nin the ﬁgure are in per unit. The reactive power supplied by generator \n and \n are \n and \nrespectively. The per unit values of \n, \n, and line reactive power loss \n respectively are\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the two bus power system network with given loads as shown in the ﬁgure. All the values shown\nin the ﬁgure are in per unit. The reactive power supplied by generator \n and \n are \n and \nrespectively. The per unit values of \n, \n, and line reactive power loss \n respectively are\ngate2018",
+      "id": "gate-ee-powe-q30",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 30,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The phase cross-over frequency of the transfer function \n in rad/s is\n\n \nmathematical-representation\n \ncross-over-frequency\n \n180-phase-shift\n \nbode-stability-criteria\nNyquist Plot \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The phase cross-over frequency of the transfer function \n in rad/s is\n\n \nmathematical-representation\n \ncross-over-frequency\n \n180-phase-shift\n \nbode-stability-criteria\nNyquist Plot \n(1",
+      "id": "gate-ee-powe-q31",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 31,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A capacitive voltage divider is used to measure the bus voltage \n in a high-voltage \n Hz AC system as\nshown in the ﬁgure. The measurement capacitors \n and \n have tolerances of \n on their nominal\ncapacitance values. If the bus voltage \n is \n rms, the maximum rms output voltage \n (in \n),\nconsidering the capacitor tolerances, is _______.\n\n \ncapacitive-voltage-divider\n \ntolerance\n \nnumerical-answers\nCapacitor \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A capacitive voltage divider is used to measure the bus voltage \n in a high-voltage \n Hz AC system as\nshown in the ﬁgure. The measurement capacitors \n and \n have tolerances of \n on their nominal\ncapacitance values. If the bus voltage \n is \n rms, the maximum rms output voltage \n (in \n),\nconsidering the capacitor tolerances, is _______.\n\n \ncapacitive-voltage-divider\n \ntolerance\n \nnumerical-answers\nCapacitor \n(1",
+      "id": "gate-ee-powe-q32",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 32,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 36",
+      "answer": "B"
+    },
+    {
+      "year": 2013,
+      "set": 1,
+      "qno": 40,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The signal flow graph for a system is given below. The transfer function  \n  for this system is\n\n \ncontrollers\n \nstability\nConvolution Integral \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The signal flow graph for a system is given below. The transfer function  \n  for this system is\n\n \ncontrollers\n \nstability\nConvolution Integral \n(1",
+      "id": "gate-ee-powe-q33",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 33
+    },
+    {
+      "year": 2014,
+      "set": 3,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
       "type": "MCQ",
-      "question": "<p>The dynamic swing equation governing the rotor acceleration of a synchronous machine connected to an infinite bus is written as:</p>",
+      "question": "<p>A single-input single-output feedback system has forward transfer function \n and feedback transfer\nfunction \n. It is given that \n . Which of the following is true about the stability of the\nsystem?</p>",
       "options": [
-        "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-        "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-        "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-        "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+        "The system is always stable",
+        "The system is stable if all zeros of are in left half of the s-plane",
+        "The system is stable if all poles of are in left half of the s-plane",
+        "It is not possible to say whether or not the system is stable from the information given"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_m - P_e$"
+          "text": "The system is always stable",
+          "html": "The system is always stable"
         },
         {
           "label": "B",
-          "text": "$M \\frac{d \\delta}{dt} = P_m - P_e$",
-          "html": "$M \\frac{d \\delta}{dt} = P_m - P_e$"
+          "text": "The system is stable if all zeros of are in left half of the s-plane",
+          "html": "The system is stable if all zeros of are in left half of the s-plane"
         },
         {
           "label": "C",
-          "text": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$",
-          "html": "$M \\frac{d^2 \\delta}{dt^2} = P_e - P_m$"
+          "text": "The system is stable if all poles of are in left half of the s-plane",
+          "html": "The system is stable if all poles of are in left half of the s-plane"
         },
         {
           "label": "D",
-          "text": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$",
-          "html": "$M^2 \\frac{d^2 \\delta}{dt^2} = P_m + P_e$"
+          "text": "It is not possible to say whether or not the system is stable from the information given",
+          "html": "It is not possible to say whether or not the system is stable from the information given"
         }
       ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>Swing equation: $M \\frac{d^2 \\delta}{dt^2} = P_a = P_m - P_e$, where $M$ is the angular momentum, $P_m$ is shaft mechanical power input, and $P_e$ is electrical power output.</p></div>"
+      "raw_content": "A single-input single-output feedback system has forward transfer function \n and feedback transfer\nfunction \n. It is given that \n . Which of the following is true about the stability of the\nsystem?\nA\n. \nThe system is always stable\nB\n. \nThe system is stable if all zeros of \n are in left half of the s-plane\nC\n. \nThe system is stable if all poles of \n  are in left half of the s-plane\nD\n. \nIt is not possible to say whether or not the system is stable from the information given",
+      "id": "gate-ee-powe-q34",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 34
     },
     {
-      "id": "gate-ee-powe-q15",
-      "testId": "gate-subject-electrical-power-systems",
-      "year": 2024,
-      "orderIndex": 15,
+      "year": 2022,
+      "set": 1,
+      "qno": 9,
       "section": "EE",
-      "title": "GATE EE Practice — Power Sys | Q15",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
+      "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "question": "<p>The open loop transfer function of a unity gain negative feedback system is given by \n. The range of \n for which the system is stable, is\n\n \ncontrol-systems\n \nstability\n \ntransfer-function\nStability Study \n(1</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "raw_content": "The open loop transfer function of a unity gain negative feedback system is given by \n. The range of \n for which the system is stable, is\n\n \ncontrol-systems\n \nstability\n \ntransfer-function\nStability Study \n(1",
+      "id": "gate-ee-powe-q35",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 35
+    },
+    {
+      "year": 2014,
+      "set": 2,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The total power dissipated in the circuit, shown in the figure, is \n \n.\nThe voltmeter, across the load, reads \n \n. The value of \n is ___________.\n\n \npower-loss\n \nreactance\n \nnumerical-answers\nPower Systems \n(7</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The total power dissipated in the circuit, shown in the figure, is \n \n.\nThe voltmeter, across the load, reads \n \n. The value of \n is ___________.\n\n \npower-loss\n \nreactance\n \nnumerical-answers\nPower Systems \n(7",
+      "id": "gate-ee-powe-q36",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 36
+    },
+    {
+      "year": 2014,
+      "set": 2,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A parallel plate capacitor consisting two dielectric materials is shown in the ﬁgure. The middle dielectric\nslab is placed symmetrically with respect to the plates.\nIf the potential diﬀerence between one of the plates and the nearest surface of dielectric interface is \n \n, then\nthe ratio \n : \n is\n\n \ndielectric\n \npotential-difference\nAnswer key\n☟\nPower Systems \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A parallel plate capacitor consisting two dielectric materials is shown in the ﬁgure. The middle dielectric\nslab is placed symmetrically with respect to the plates.\nIf the potential diﬀerence between one of the plates and the nearest surface of dielectric interface is \n \n, then\nthe ratio \n : \n is\n\n \ndielectric\n \npotential-difference\nAnswer key\n☟\nPower Systems \n(1",
+      "id": "gate-ee-powe-q37",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 37
+    },
+    {
+      "year": 2017,
+      "set": 2,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In a load ﬂow problem solved by Newton-Raphson method with polar coordinates, the size of the Jacobian\nis \n. If there are \nPV buses in addition to \n buses and a slack bus, the total number of buses\nin the system is ______.\n\n \nnumerical-answers\n \nnumerical-methods\n \nnewton-raphson-method\nNumerical Methods \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a load ﬂow problem solved by Newton-Raphson method with polar coordinates, the size of the Jacobian\nis \n. If there are \nPV buses in addition to \n buses and a slack bus, the total number of buses\nin the system is ______.\n\n \nnumerical-answers\n \nnumerical-methods\n \nnewton-raphson-method\nNumerical Methods \n(1",
+      "id": "gate-ee-powe-q38",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 38
+    },
+    {
+      "year": 2012,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In the \n-phase inverter circuit shown, the load is balanced and the gating scheme is \n-conduction\nmode. All the switching devices are ideal.\nIf the dc bus voltage \n V, the power consumed by \n-phase load is\ngate2012</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the \n-phase inverter circuit shown, the load is balanced and the gating scheme is \n-conduction\nmode. All the switching devices are ideal.\nIf the dc bus voltage \n V, the power consumed by \n-phase load is\ngate2012",
+      "id": "gate-ee-powe-q39",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 39
+    },
+    {
+      "year": 2022,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>Consider an ideal full-bridge single-phase \n inverter with a \n bus voltage magnitude of \n \n.\nThe inverter output voltage \n shown below, is obtained when diagonal switches of the inverter are\nswitched with \n duty cycle. The inverter feeds a load with a sinusoidal current given by, \n, where \n. The active power, in watts, delivered to the load is _____________.\n(round off to nearest integer)\n \ngate2022</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider an ideal full-bridge single-phase \n inverter with a \n bus voltage magnitude of \n \n.\nThe inverter output voltage \n shown below, is obtained when diagonal switches of the inverter are\nswitched with \n duty cycle. The inverter feeds a load with a sinusoidal current given by, \n, where \n. The active power, in watts, delivered to the load is _____________.\n(round off to nearest integer)\n \ngate2022",
+      "id": "gate-ee-powe-q40",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 40
+    },
+    {
+      "year": 2026,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The operating characteristic of a reactance relay is given by \n, where \n is the reactance\ncalculated by the relay. Its operating characteristic in the admittance plane ( \n plane, where \n and \ndenote conductance and susceptance, respectively, expressed in \n ) is given by:\n\n \npower-systems\n \nprotection\n \nadmittance\n \nrelays\nAverage Power \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The operating characteristic of a reactance relay is given by \n, where \n is the reactance\ncalculated by the relay. Its operating characteristic in the admittance plane ( \n plane, where \n and \ndenote conductance and susceptance, respectively, expressed in \n ) is given by:\n\n \npower-systems\n \nprotection\n \nadmittance\n \nrelays\nAverage Power \n(1",
+      "id": "gate-ee-powe-q41",
+      "testId": "gate-subject-electrical-power-systems",
+      "orderIndex": 41
     }
   ]
 }

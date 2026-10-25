@@ -2,748 +2,1298 @@
   "id": "measurements",
   "name": "Electrical & Electronic Measurements",
   "shortName": "Measurements",
-  "icon": "⏱️",
+  "icon": "🧭",
   "color": "from-cyan-500/20 to-blue-500/20",
   "borderColor": "border-cyan-500/30",
-  "totalQuestions": 15,
+  "totalQuestions": 53,
   "topics": [
     {
       "name": "PMMC, Moving Iron & Dynamometer Instruments",
-      "questionCount": 3
+      "questionCount": 13
     },
     {
       "name": "Measurement of Resistance, Inductance & Capacitance (Bridges)",
-      "questionCount": 3
+      "questionCount": 13
     },
     {
       "name": "Digital Voltmeters & Instrument Transformers",
-      "questionCount": 3
+      "questionCount": 13
     },
     {
       "name": "Cathode Ray Oscilloscope (CRO)",
-      "questionCount": 3
+      "questionCount": 13
     }
   ],
   "questions": [
     {
       "id": "gate-ee-meas-q1",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — Measurements | PMMC, Moving Iron & Dynamometer Instruments",
+      "title": "GATE EE 2026 | EE Question: 33",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
       "topic": "PMMC, Moving Iron & Dynamometer Instruments",
       "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
+      "question": "<p>The electrical network shown has an independent voltage source (10 V) and  \na current source (1 u(t) mA). \n \nThe voltage across the capacitor at time instants (in seconds) \nt = 0+, t = 0.50, and t = ∞, respectively, is:</p>",
       "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
+        "8.00 V, 28.00 V, 26.36 V",
+        "8.00 V, 26.36 V, 28.00 V",
+        "10.00 V, 26.36 V, 28.00 V",
+        "10.00 V, 28.00 V, 26.36 V"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
+          "text": "8.00 V, 28.00 V, 26.36 V",
+          "html": "8.00 V, 28.00 V, 26.36 V"
         },
         {
           "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
+          "text": "8.00 V, 26.36 V, 28.00 V",
+          "html": "8.00 V, 26.36 V, 28.00 V"
         },
         {
           "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
+          "text": "10.00 V, 26.36 V, 28.00 V",
+          "html": "10.00 V, 26.36 V, 28.00 V"
         },
         {
           "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
+          "text": "10.00 V, 28.00 V, 26.36 V",
+          "html": "10.00 V, 28.00 V, 26.36 V"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q2",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q2",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Digital Voltmeters & Instrument Transformers",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
-    },
-    {
-      "id": "gate-ee-meas-q3",
-      "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
-      "orderIndex": 3,
-      "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q3",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Cathode Ray Oscilloscope (CRO)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
-    },
-    {
-      "id": "gate-ee-meas-q4",
-      "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
-      "orderIndex": 4,
-      "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q4",
+      "title": "GATE EE 2026 | EE Question: 47",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
       "topic": "PMMC, Moving Iron & Dynamometer Instruments",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "type": "NAT",
+      "question": "<p>The resistance values of the Wheatstone bridge shown are:\nP = 2000 Ω, Q = 500 Ω,R = 3000 Ω\n. The battery voltage \nE = 50V .  \nThe battery has an internal resistance of 1 \n  and the Galvanometer (G)  \nhas a resistance of 50 \n . \n \nThe value of the resistance S for balanced condition is _____________ Ω \n(Answer in integer)</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "750"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "tolerance": {
+        "min": 750.0,
+        "max": 750.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>750</strong>.</p></div>"
     },
     {
-      "id": "gate-ee-meas-q5",
-      "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
-      "orderIndex": 5,
+      "year": 2025,
+      "set": 1,
+      "qno": 40,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q5",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Measurement of Resistance, Inductance & Capacitance (Bridges)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>An air ﬁlled cylindrical capacitor (capacitance \n ) of length \n, with \n and \n as its inner and outer radii,\nrespectively, consists of two coaxial conducting surfaces. Its cross-sectional view is shown in Fig. \n. In\norder to increase the capacitance, a dielectric material of relative permittivity \n is inserted inside \n of the\nannular region as shown in Fig. \n. The value of \n for which the capacitance of the capacitor in Fig. \n,\nbecomes \n is\n\n \nelectric-circuits\n \ncapacitor\n \ndielectric\nCapacitor Voltage \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An air ﬁlled cylindrical capacitor (capacitance \n ) of length \n, with \n and \n as its inner and outer radii,\nrespectively, consists of two coaxial conducting surfaces. Its cross-sectional view is shown in Fig. \n. In\norder to increase the capacitance, a dielectric material of relative permittivity \n is inserted inside \n of the\nannular region as shown in Fig. \n. The value of \n for which the capacitance of the capacitor in Fig. \n,\nbecomes \n is\n\n \nelectric-circuits\n \ncapacitor\n \ndielectric\nCapacitor Voltage \n(1",
+      "id": "gate-ee-meas-q3",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 3,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 13",
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In an experiment to measure the active power drawn by a single-phase RL Load connected to an AC\nsource through a \n resistor, three voltmeters are connected as shown in the ﬁgure below. The voltmeter\nreadings are as follows: \n. Assuming perfect resistors and ideal\nvoltmeters, the Load-active power measured in this experiment, in \n, is \n (round oﬀ to one decimal\nplace).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In an experiment to measure the active power drawn by a single-phase RL Load connected to an AC\nsource through a \n resistor, three voltmeters are connected as shown in the ﬁgure below. The voltmeter\nreadings are as follows: \n. Assuming perfect resistors and ideal\nvoltmeters, the Load-active power measured in this experiment, in \n, is \n (round oﬀ to one decimal\nplace).",
+      "id": "gate-ee-meas-q4",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 4,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 20",
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the Wheatstone bridge shown below, the sensitivity of the bridge in terms of change in balancing voltage\n for unit change in the resistance \n, in \n, is \n (round off to two decimal places).\n \n\n \nnumerical-answers\n \nelectric-circuits\n \nelectrical-and-electronic-measurements\nLatching Circuit \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the Wheatstone bridge shown below, the sensitivity of the bridge in terms of change in balancing voltage\n for unit change in the resistance \n, in \n, is \n (round off to two decimal places).\n \n\n \nnumerical-answers\n \nelectric-circuits\n \nelectrical-and-electronic-measurements\nLatching Circuit \n(1",
+      "id": "gate-ee-meas-q5",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 5,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 21",
+      "answer": "D"
     },
     {
       "id": "gate-ee-meas-q6",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 6,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q6",
+      "title": "GATE EE 2023 | EE Question: 19",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Digital Voltmeters & Instrument Transformers",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The value of parameters of the circuit shown in the figure are  \nR1 = 2, R2 = 2, R3 = 3, L = 10 mH, C = 100 F \nFor time t < 0, the circuit is at steady state with the switch ‘K’ in closed condition. If \nthe switch is  opened at t = 0, the value of the voltage across the inductor (VL) at \nt = 0+ in Volts is ____________  (Round off to 1 decimal place).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "8"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "min": 7.9,
+        "max": 8.1
+      },
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>8</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q7",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 7,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q7",
+      "title": "GATE EE 2023 | EE Question: 29",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Cathode Ray Oscilloscope (CRO)",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
       "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
+      "question": "<p>A 3-phase, star-connected, balanced load is supplied from a 3-phase, 400 V (rms), \nbalanced voltage source with phase sequence R-Y-B, as shown in the figure. If the \nwattmeter reading is −400 W and the line current is 𝐼𝑅 = 2 A (rms), then the power \nfactor of the load per phase is</p>",
       "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
+        "Unity",
+        "0.5 leading",
+        "0.866 leading",
+        "0.707 lagging 3 Phase 400 V Balanced Source 3 Phase Star Connected Balanced Load M L C V Wattmeter + - R Y B IR"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
+          "text": "Unity",
+          "html": "Unity"
         },
         {
           "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
+          "text": "0.5 leading",
+          "html": "0.5 leading"
         },
         {
           "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
+          "text": "0.866 leading",
+          "html": "0.866 leading"
         },
         {
           "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
+          "text": "0.707 lagging 3 Phase 400 V Balanced Source 3 Phase Star Connected Balanced Load M L C V Wattmeter + - R Y B IR",
+          "html": "0.707 lagging 3 Phase 400 V Balanced Source 3 Phase Star Connected Balanced Load M L C V Wattmeter + - R Y B IR"
         }
       ],
       "answer": [
-        "A"
+        "C"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q8",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 8,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q8",
+      "title": "GATE EE 2023 | EE Question: 41",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
       "topic": "PMMC, Moving Iron & Dynamometer Instruments",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "type": "NAT",
+      "question": "<p>For the circuit shown, if 𝑖 = 𝑠𝑖𝑛1000𝑡, the instantaneous value of the Thevenin’s \nequivalent voltage (in Volts) across the terminals a-b at time t = 5 ms is __________ \n(Round off to 2 decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "-12"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "tolerance": {
+        "min": -12.1,
+        "max": -11.9
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>-12</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q9",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 9,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q9",
+      "title": "GATE EE 2023 | EE Question: 44",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Measurement of Resistance, Inductance & Capacitance (Bridges)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The circuit shown in the figure  is initially in the steady state with the switch K in \nopen condition and 𝐾̅ in closed condition. The switch K is closed and 𝐾̅ is opened \nsimultaneously at the instant t = t1, where t1 > 0. The minimum value of  t1 in \nmilliseconds, such that there is no transient in the voltage across the 100 F \ncapacitor, is ____________ (Round off to 2 decimal places). \n  \n \n \n \n \n \n  \n100F \n5V \n10 \n10 \n  \n𝒊(𝒕) = \n𝒔𝒊𝒏𝟏𝟎𝟎𝟎𝒕 \nK \n𝑲̅ \nVab =  \n200 V, 50 Hz \nd \na \n c \nb \n50 Hz, AC \ncurrent source</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "1.57"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "tolerance": {
+        "min": 1.56,
+        "max": 1.58
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>1.57</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q10",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 10,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q10",
+      "title": "GATE EE 2023 | EE Question: 47",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Digital Voltmeters & Instrument Transformers",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In a given 8-bit general purpose micro-controller there are following flags. \nC-Carry, A-Auxiliary Carry, O-Overflow flag, P-Parity (0 for even, 1 for odd)  \nR0 and R1 are the two general purpose registers of the micro-controller. \nAfter execution of the following instructions, the decimal equivalent of the binary \nsequence of the flag pattern [CAOP] will be __________. \n MOV R0, +0x60   \nMOV R1, +0x46 \nADD R0, R1</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "2"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "tolerance": {
+        "min": 2.0,
+        "max": 2.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>2</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q11",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 11,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q11",
+      "title": "GATE EE 2023 | EE Question: 54",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Cathode Ray Oscilloscope (CRO)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A balanced delta connected load consisting of the series connection of one resistor \n(R = 15 ) and a capacitor ( C = 212.21 F) in each phase is connected to  three-\nphase, 50 Hz, 415 V supply terminals  through a line having an inductance of   \nL = 31.83 mH per phase, as shown in the figure. Considering the change in the \nsupply terminal voltage with loading to be negligible, the magnitude of the voltage \nacross th e terminals VAB in Volts is _____________ (Round off to the nearest \ninteger).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "415"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "tolerance": {
+        "min": 414.0,
+        "max": 416.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>415</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q12",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 12,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q12",
+      "title": "GATE EE 2022 | EE Question: 8",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
       "topic": "PMMC, Moving Iron & Dynamometer Instruments",
       "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
+      "question": "<p>A balanced Wheatstone bridge 𝐴𝐵𝐶𝐷 has the following arm resistances: \n𝑅஺஻ = 1 𝑘Ω ± 2.1% ; 𝑅஻஼ = 100 Ω ± 0.5% ;𝑅஼஽ is an unknown resistance;  \n 𝑅஽஺ = 300 Ω ± 0.4%. The value of 𝑅஼஽ and its accuracy is</p>",
       "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
+        "30 Ω ± 3 Ω",
+        "30 Ω ± 0.9 Ω",
+        "3000 Ω ± 90 Ω",
+        "3000 Ω ± 3 Ω GATE 2022"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
+          "text": "30 Ω ± 3 Ω",
+          "html": "30 Ω ± 3 Ω"
         },
         {
           "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
+          "text": "30 Ω ± 0.9 Ω",
+          "html": "30 Ω ± 0.9 Ω"
         },
         {
           "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
+          "text": "3000 Ω ± 90 Ω",
+          "html": "3000 Ω ± 90 Ω"
         },
         {
           "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
+          "text": "3000 Ω ± 3 Ω GATE 2022",
+          "html": "3000 Ω ± 3 Ω GATE 2022"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q13",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 13,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q13",
+      "title": "GATE EE 2022 | EE Question: 11",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Measurement of Resistance, Inductance & Capacitance (Bridges)",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
       "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
+      "question": "<p>In the circuit shown below, a three-phase star-connected unbalanced load is connected \nto a balanced three-phase supply of 100√3 𝑉 with phase sequence 𝐴𝐵𝐶. The star \nconnected load has 𝑍஺ = 10 Ω and 𝑍஻ = 20∠60୭ Ω. The value of 𝑍஼ in Ω, for which \nthe voltage difference across the nodes 𝑛 and 𝑛′ is zero, is</p>",
       "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
+        "20∠−30୭",
+        "20∠30୭",
+        "20∠−60୭",
+        "20∠60୭"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
+          "text": "20∠−30୭",
+          "html": "20∠−30୭"
         },
         {
           "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
+          "text": "20∠30୭",
+          "html": "20∠30୭"
         },
         {
           "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
+          "text": "20∠−60୭",
+          "html": "20∠−60୭"
         },
         {
           "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
+          "text": "20∠60୭",
+          "html": "20∠60୭"
         }
       ],
       "answer": [
-        "A"
+        "C"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q14",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 14,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q14",
+      "title": "GATE EE 2022 | EE Question: 21",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Digital Voltmeters & Instrument Transformers",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the circuit shown below, the switch 𝑆 is closed at 𝑡 = 0. The magnitude of the steady \nstate voltage, in volts, across the 6 Ω resistor is _________. ( round off to two decimal \nplaces). \n \n \n  \nGATE 2022</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "5"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "min": 4.95,
+        "max": 5.05
+      },
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>5</strong>.</p></div>"
     },
     {
       "id": "gate-ee-meas-q15",
       "testId": "gate-subject-electrical-measurements",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 15,
       "section": "EE",
-      "title": "GATE EE Practice — Measurements | Q15",
+      "title": "GATE EE 2022 | EE Question: 24",
       "subject": "Electrical & Electronic Measurements",
       "subjectSlug": "measurements",
-      "topic": "Cathode Ray Oscilloscope (CRO)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>Two balanced three-phase loads, as shown in the figure, are connected to a 100√3 V, \nthree-phase, 50 Hz main supply. Given 𝑍ଵ = (18 + 𝑗24) Ω and 𝑍ଶ = (6 + 𝑗8) Ω . The \nammeter reading, in amperes, is _______. (round off to nearest integer)</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "20"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "min": 20.0,
+        "max": 20.0
+      },
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>20</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-meas-q16",
+      "testId": "gate-subject-electrical-measurements",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 16,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 45",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the circuit shown below, the magnitude of the voltage Vଵ in volts, across the 8 𝑘Ω  \nresistor is ______________. (round off to nearest integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "100"
+      ],
+      "tolerance": {
+        "min": 98.0,
+        "max": 102.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Electrical & Electronic Measurements):</strong></p><p>Authentic official examination key: <strong>100</strong>.</p></div>"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 23,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the \n circuit shown, beta of the \n transistor is \n. Assume \n. The voltage across\n will be \n when \n is __________ \n.\n(Round off to \n decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the \n circuit shown, beta of the \n transistor is \n. Assume \n. The voltage across\n will be \n when \n is __________ \n.\n(Round off to \n decimal places.)",
+      "id": "gate-ee-meas-q17",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 17,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 8",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A signal generator having a source resistance of \n is set to generate a \n sinewave. Open circuit\nterminal voltage is \n peak-to-peak. Connecting a capacitor across the terminals reduces the voltage to \n peak-to-peak. The value of this capacitor is _____________\n. (Round off to \n decimal places.)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A signal generator having a source resistance of \n is set to generate a \n sinewave. Open circuit\nterminal voltage is \n peak-to-peak. Connecting a capacitor across the terminals reduces the voltage to \n peak-to-peak. The value of this capacitor is _____________\n. (Round off to \n decimal places.)\ngateee-2021",
+      "id": "gate-ee-meas-q18",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 18,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 51,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A \n square wave, switching between \n and \n, is applied to a \n high-pass ﬁlter circuit as\nshown. The output voltage waveform across the resistor is \n peak-to-peak. If the resistance \n is \n, then the value \n is ______________\n. (Round off to \n decimal places.)\n \ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n square wave, switching between \n and \n, is applied to a \n high-pass ﬁlter circuit as\nshown. The output voltage waveform across the resistor is \n peak-to-peak. If the resistance \n is \n, then the value \n is ______________\n. (Round off to \n decimal places.)\n \ngateee-2021",
+      "id": "gate-ee-meas-q19",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 19,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 4,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>For the network shown, the equivalent Thevenin voltage and Thevenin impedance as seen across\nterminals ‘\n’ is\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the network shown, the equivalent Thevenin voltage and Thevenin impedance as seen across\nterminals ‘\n’ is\ngateee-2021",
+      "id": "gate-ee-meas-q20",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 20,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 17",
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the circuit shown, a \n Zener diode is used to regulate the voltage across load \n. The input is an\nunregulated \n voltage with a minimum value of \n and a maximum value of \n. The value of \n is \n. The Zener diode has a maximum rated power dissipation of \n. Assuming the Zener diode to be ideal,\nthe minimum value of \n is _________________ \n.\ngateee-2021\n \nnumerical-answers\n \nzener-diode\n \nelectric-circuits\nAnswer key\n☟\nAnswer Keys\n3.1.1\nTBA\n3.2.1\n0.22 : 0.23\n3.3.1\nA\n3.4.1\nB\n3.4.2\nA\n3.4.3\nC\n3.5.1\n74.0 : 76.0\n3.6.1\n16.70 :\n17.70\n3.7.1\n11.75 :\n12.25\n3.8.1\nC\n3.9.1\n6.8 : 7.2\n3.10.1\n9.9 : 10.1\n3.11.1\nD\n3.12.1\nD\n3.13.1\n0.14 :\n0.16\n3.14.1\n1.9 : 2.1\n3.15.1\n3 : 3\n3.16.1\nB\n3.17.1\n1.9 : 2.1\n3.18.1\n330 :\n330\n3.19.1\n0.5 : 0.5\n3.20.1\n0.48 : 0.52\n3.21.1\n11.25 :\n11.50\n3.22.1\nA\n3.23.1\nB\n3.23.2\nB\n3.23.3\nD\n3.23.4\nD\n3.23.5\nA\n3.23.6\nC\n3.23.7\nA\n3.23.8\nA\n3.23.9\nC\n3.23.10\nC\n3.23.11\nB\n3.23.12\nA\n3.23.13\n0 : 0\n3.23.14\nB\n3.23.15\n248 : 252\n3.23.16\n2.9 : 3.1\n3.23.17\nD\n3.23.18\nA\n3.23.19\n3 : 3.1\n3.23.20\n3 : 3\n3.23.21\n99 : 101\n3.23.22\nD\n3.23.23\nD\n3.23.24\nC\n3.23.25\n9.50 :\n10.50\n3.23.26\n0.45 :\n0.55\n3.23.27\nB\n3.23.28\nA\n3.23.29\n89.00 :\n91.00\n3.23.30\n2.50 :\n2.55\n3.23.31\n5.70 :\n5.85\n3.23.32\n10.0 : 10.0\n3.23.33\n50.0 : 50.0\n3.23.34\nB\n3.23.35\nB\n3.23.36\n1.3 : 1.5\n3.23.37\nB\n3.23.38\n0.45 : 0.47\n3.23.39\n0 : 0\n3.23.40\n585.0 :\n590.0\n3.23.41\n1.700 :\n1.750\n3.23.42\n13.80 :\n14.20\n3.23.43\nC\n3.23.44\n54.00 :\n56.00\n3.23.45\n20.00 :\n20.00\n3.23.46\n-3.30 : -\n3.20\n3.23.47\n2.30 : 2.50\n3.23.48\nC\n3.23.49\n1.40 :\n1.42\n3.23.50\n48:48\n3.23.51\n250:250\n3.23.52\n4.95:5.05\n3.23.53\n98:102\n3.23.54\n7.9 TO\n8.1\n3.23.55\n5.9 TO\n6.1\n3.23.56\n-12.1 TO\n-11.9</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown, a \n Zener diode is used to regulate the voltage across load \n. The input is an\nunregulated \n voltage with a minimum value of \n and a maximum value of \n. The value of \n is \n. The Zener diode has a maximum rated power dissipation of \n. Assuming the Zener diode to be ideal,\nthe minimum value of \n is _________________ \n.\ngateee-2021\n \nnumerical-answers\n \nzener-diode\n \nelectric-circuits\nAnswer key\n☟\nAnswer Keys\n3.1.1\nTBA\n3.2.1\n0.22 : 0.23\n3.3.1\nA\n3.4.1\nB\n3.4.2\nA\n3.4.3\nC\n3.5.1\n74.0 : 76.0\n3.6.1\n16.70 :\n17.70\n3.7.1\n11.75 :\n12.25\n3.8.1\nC\n3.9.1\n6.8 : 7.2\n3.10.1\n9.9 : 10.1\n3.11.1\nD\n3.12.1\nD\n3.13.1\n0.14 :\n0.16\n3.14.1\n1.9 : 2.1\n3.15.1\n3 : 3\n3.16.1\nB\n3.17.1\n1.9 : 2.1\n3.18.1\n330 :\n330\n3.19.1\n0.5 : 0.5\n3.20.1\n0.48 : 0.52\n3.21.1\n11.25 :\n11.50\n3.22.1\nA\n3.23.1\nB\n3.23.2\nB\n3.23.3\nD\n3.23.4\nD\n3.23.5\nA\n3.23.6\nC\n3.23.7\nA\n3.23.8\nA\n3.23.9\nC\n3.23.10\nC\n3.23.11\nB\n3.23.12\nA\n3.23.13\n0 : 0\n3.23.14\nB\n3.23.15\n248 : 252\n3.23.16\n2.9 : 3.1\n3.23.17\nD\n3.23.18\nA\n3.23.19\n3 : 3.1\n3.23.20\n3 : 3\n3.23.21\n99 : 101\n3.23.22\nD\n3.23.23\nD\n3.23.24\nC\n3.23.25\n9.50 :\n10.50\n3.23.26\n0.45 :\n0.55\n3.23.27\nB\n3.23.28\nA\n3.23.29\n89.00 :\n91.00\n3.23.30\n2.50 :\n2.55\n3.23.31\n5.70 :\n5.85\n3.23.32\n10.0 : 10.0\n3.23.33\n50.0 : 50.0\n3.23.34\nB\n3.23.35\nB\n3.23.36\n1.3 : 1.5\n3.23.37\nB\n3.23.38\n0.45 : 0.47\n3.23.39\n0 : 0\n3.23.40\n585.0 :\n590.0\n3.23.41\n1.700 :\n1.750\n3.23.42\n13.80 :\n14.20\n3.23.43\nC\n3.23.44\n54.00 :\n56.00\n3.23.45\n20.00 :\n20.00\n3.23.46\n-3.30 : -\n3.20\n3.23.47\n2.30 : 2.50\n3.23.48\nC\n3.23.49\n1.40 :\n1.42\n3.23.50\n48:48\n3.23.51\n250:250\n3.23.52\n4.95:5.05\n3.23.53\n98:102\n3.23.54\n7.9 TO\n8.1\n3.23.55\n5.9 TO\n6.1\n3.23.56\n-12.1 TO\n-11.9",
+      "id": "gate-ee-meas-q21",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 21,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the circuit shown, the input \n is a  sinusoidal \n voltage having an \n value of \n. The\nworst-case peak-inverse voltage seen across any diode is ____________\n. (Round oﬀ to \n decimal\nplaces.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown, the input \n is a  sinusoidal \n voltage having an \n value of \n. The\nworst-case peak-inverse voltage seen across any diode is ____________\n. (Round oﬀ to \n decimal\nplaces.)",
+      "id": "gate-ee-meas-q22",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 22,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The cross-section of a metal-oxide-semiconductor structure is shown schematically. Starting from\nan uncharged condition, a bias of \n is applied to the gate contact with respect to the body contact. The\ncharge inside the silicon dioxide layer is then measured to be \n. The total charge contained within the dashed\nbox shown, upon application of bias, expressed as a multiple of \n (absolute value in Coulombs, rounded oﬀ to\nthe nearest integer) is___________\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The cross-section of a metal-oxide-semiconductor structure is shown schematically. Starting from\nan uncharged condition, a bias of \n is applied to the gate contact with respect to the body contact. The\ncharge inside the silicon dioxide layer is then measured to be \n. The total charge contained within the dashed\nbox shown, upon application of bias, expressed as a multiple of \n (absolute value in Coulombs, rounded oﬀ to\nthe nearest integer) is___________\ngate2020",
+      "id": "gate-ee-meas-q23",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 23,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 3",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>Consider the diode circuit shown below. The diode, D, obeys the current-voltage characteristic \n, where \n is the voltage across the diode and \n is the\ncurrent through it. The circuit is biased so that voltage, \n and current, \n. If you had to design this circuit\nto transfer maximum power from the current source \n to a resistive load (not shown) at the output, what values\nof \n would you choose?\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the diode circuit shown below. The diode, D, obeys the current-voltage characteristic \n, where \n is the voltage across the diode and \n is the\ncurrent through it. The circuit is biased so that voltage, \n and current, \n. If you had to design this circuit\nto transfer maximum power from the current source \n to a resistive load (not shown) at the output, what values\nof \n would you choose?\ngate2020",
+      "id": "gate-ee-meas-q24",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 24,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 4",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 54,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A n \n microprocessor acesses two memory locations \n and \n, that contain \n-bit\nnumbers \n and \n, respectively. The following program is executed:\nLXI H\n,\n2001H\n \nMVI A\n,\n \n21\n H\n \nINX H\n \nADD M\n \nINX H\n \nMOV M\n,\n A\n \nHLT\nAt the end of this program, the memory location \n contains the number in decimal \n form\n_____________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A n \n microprocessor acesses two memory locations \n and \n, that contain \n-bit\nnumbers \n and \n, respectively. The following program is executed:\nLXI H\n,\n2001H\n \nMVI A\n,\n \n21\n H\n \nINX H\n \nADD M\n \nINX H\n \nMOV M\n,\n A\n \nHLT\nAt the end of this program, the memory location \n contains the number in decimal \n form\n_____________.\ngate2020",
+      "id": "gate-ee-meas-q25",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 25,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>Currents through ammeters \n and \n in the ﬁgure are \n, respectively. The reading of\nthe ammeter \n (rounded off to \n decimal places) is_______\n.\n                                                                  \ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Currents through ammeters \n and \n in the ﬁgure are \n, respectively. The reading of\nthe ammeter \n (rounded off to \n decimal places) is_______\n.\n                                                                  \ngate2020",
+      "id": "gate-ee-meas-q26",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 26,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A resistor and a capacitor are connected in series to a \n supply through a switch. The switch is\nclosed at \n, and the capacitor voltage is found to cross \n at \n, where \n is the circuit time\nconstant. The absolute value of percentage change required in the initial capacitor voltage if the zero crossing has\nto happen at \n is _______________________ (rounded off to \n decimal places).\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A resistor and a capacitor are connected in series to a \n supply through a switch. The switch is\nclosed at \n, and the capacitor voltage is found to cross \n at \n, where \n is the circuit time\nconstant. The absolute value of percentage change required in the initial capacitor voltage if the zero crossing has\nto happen at \n is _______________________ (rounded off to \n decimal places).\ngate2020",
+      "id": "gate-ee-meas-q27",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 27,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 14",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A non-ideal \n-based \n junction diode is tested by sweeping the bias applied across its terminals from \n to \n. The eﬀective thermal voltage, \n, for the diode is measured to be \n . The\nresolution of the voltage source in the measurement range is \n \n . The percentage uncertainty (rounded oﬀ to \n decimal places) in the measured current at a bias voltage of \n is  ____________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A non-ideal \n-based \n junction diode is tested by sweeping the bias applied across its terminals from \n to \n. The eﬀective thermal voltage, \n, for the diode is measured to be \n . The\nresolution of the voltage source in the measurement range is \n \n . The percentage uncertainty (rounded oﬀ to \n decimal places) in the measured current at a bias voltage of \n is  ____________.\ngate2020",
+      "id": "gate-ee-meas-q28",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 28,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 31",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A single-phase, full-bridge diode rectiﬁer fed from a \n \n, \n \n sinusoidal source supplies a series\ncombination of ﬁnite resistance, \n, and a very large inductance, \n. The two most dominant frequency\ncomponents in the source current are:\n\n \nfull-bridge\n \npower-electronics\n \nelectric-circuits\n \nnumerical-answers\nPower Electronics \n(64</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase, full-bridge diode rectiﬁer fed from a \n \n, \n \n sinusoidal source supplies a series\ncombination of ﬁnite resistance, \n, and a very large inductance, \n. The two most dominant frequency\ncomponents in the source current are:\n\n \nfull-bridge\n \npower-electronics\n \nelectric-circuits\n \nnumerical-answers\nPower Electronics \n(64",
+      "id": "gate-ee-meas-q29",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 29,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 35",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>Windings \n and \n have \n turns each and are wound on the same iron core as shown, along with\nwinding \n which has \n turns. The ﬁgure shows the sense (clockwise/anti-clockwise) of each of the\nwindings only and does not reﬂect the exact number of turns. If windings \n and \n are supplied with\nbalanced \n-phase voltages at \n and there is no core saturation, the no-load \n voltage (in \n, rounded oﬀ\nto \n decimal places) across winding \n is\n_______________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Windings \n and \n have \n turns each and are wound on the same iron core as shown, along with\nwinding \n which has \n turns. The ﬁgure shows the sense (clockwise/anti-clockwise) of each of the\nwindings only and does not reﬂect the exact number of turns. If windings \n and \n are supplied with\nbalanced \n-phase voltages at \n and there is no core saturation, the no-load \n voltage (in \n, rounded oﬀ\nto \n decimal places) across winding \n is\n_______________.",
+      "id": "gate-ee-meas-q30",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 30,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 41,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A \n capacitor charged to \n V is discharged through a \n resistor. The time in ms (round oﬀ to\ntwo decimal places) required for the voltage across the capacitor to drop to \n V is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n capacitor charged to \n V is discharged through a \n resistor. The time in ms (round oﬀ to\ntwo decimal places) required for the voltage across the capacitor to drop to \n V is _________\ngate2019",
+      "id": "gate-ee-meas-q31",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 31,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 14",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The voltage across and the current through a load are expressed as follows\nThe average power in watts (round off to one decimal place) consumed by the load is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The voltage across and the current through a load are expressed as follows\nThe average power in watts (round off to one decimal place) consumed by the load is _________.",
+      "id": "gate-ee-meas-q32",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 32,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A moving coil instrument having a resistance of \n, gives a full-scale deﬂection when the current is \nmA. What should be the value of the series resistance, so that it can be used as a voltmeter for measuring\npotential difference up to \n V?\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A moving coil instrument having a resistance of \n, gives a full-scale deﬂection when the current is \nmA. What should be the value of the series resistance, so that it can be used as a voltmeter for measuring\npotential difference up to \n V?\ngate2019",
+      "id": "gate-ee-meas-q33",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 33,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 44,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The magnetic circuit shown below has uniform cross-sectional area and air gap of \n cm. The mean path\nlength of the core is \n cm. Assume that leakage and fringing ﬂuxes are negligible. When the core relative\npermeability is assumed to be inﬁnite, the magnetic ﬂux density computed in the air gap is \n tesla. With same\nAmpere-turns, if the core relative permeability is assumed to be \n (linear), the ﬂux density in tesla (round oﬀ\nto three decimal places) calculated in the air gap is _______\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The magnetic circuit shown below has uniform cross-sectional area and air gap of \n cm. The mean path\nlength of the core is \n cm. Assume that leakage and fringing ﬂuxes are negligible. When the core relative\npermeability is assumed to be inﬁnite, the magnetic ﬂux density computed in the air gap is \n tesla. With same\nAmpere-turns, if the core relative permeability is assumed to be \n (linear), the ﬂux density in tesla (round oﬀ\nto three decimal places) calculated in the air gap is _______\ngate2019",
+      "id": "gate-ee-meas-q34",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 34,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 26",
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The voltage across the circuit in the ﬁgure, and the current through it, are given by the following\nexpressions:\nwhere \n. If the average power delivered to the circuit is zero, then the value of \n (in Ampere)\nis _______ (up to \n decimal places)\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The voltage across the circuit in the ﬁgure, and the current through it, are given by the following\nexpressions:\nwhere \n. If the average power delivered to the circuit is zero, then the value of \n (in Ampere)\nis _______ (up to \n decimal places)\ngate2018",
+      "id": "gate-ee-meas-q35",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 35,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 14",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The voltage \n across the terminals \n and \n as shown in the ﬁgure, is a sinusoidal voltage having a\nfrequency \n. When the inductor current \n is in phase with the voltage \n, the\nmagnitude of the impedance \n (in \n) seen between the terminals \n and \n is __________ (up to \n decimal\nplaces)\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The voltage \n across the terminals \n and \n as shown in the ﬁgure, is a sinusoidal voltage having a\nfrequency \n. When the inductor current \n is in phase with the voltage \n, the\nmagnitude of the impedance \n (in \n) seen between the terminals \n and \n is __________ (up to \n decimal\nplaces)\ngate2018",
+      "id": "gate-ee-meas-q36",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 36,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 15",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 27,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A \n Ampere moving iron ammeter has an internal resistance of \n and inductance of \n. A\nshunt coil is connected to extend its range to \n Ampere for all operating frequencies. The time\nconstant in milliseconds and resistance in \n of the shunt coil respectively are\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n Ampere moving iron ammeter has an internal resistance of \n and inductance of \n. A\nshunt coil is connected to extend its range to \n Ampere for all operating frequencies. The time\nconstant in milliseconds and resistance in \n of the shunt coil respectively are\ngate2018",
+      "id": "gate-ee-meas-q37",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 37,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 18",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>Two wattmeter method is used for measurement of power in a balanced three-phase load supplied from a\nbalanced three-phase system. If one of the wattmeters reads half of the other (both positive), then the</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Two wattmeter method is used for measurement of power in a balanced three-phase load supplied from a\nbalanced three-phase system. If one of the wattmeters reads half of the other (both positive), then the",
+      "id": "gate-ee-meas-q38",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 38,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 51",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A stationary closed Lissajous pattern on an oscilloscope has \n horizontal tangencies and \n vertical\ntangencies for a horizontal input with frequency \nkHz. The frequency of the vertical input is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A stationary closed Lissajous pattern on an oscilloscope has \n horizontal tangencies and \n vertical\ntangencies for a horizontal input with frequency \nkHz. The frequency of the vertical input is",
+      "id": "gate-ee-meas-q39",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 39,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 35",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 44,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The magnitude of magnetic ﬂux density (B) in micro Teslas \n, at the centre of a loop of wire wound as\na regular hexagon of side length \n carrying a current \n, and placed in vacuum as shown in the\nfigure is _________. (Give the answer up to two decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The magnitude of magnetic ﬂux density (B) in micro Teslas \n, at the centre of a loop of wire wound as\na regular hexagon of side length \n carrying a current \n, and placed in vacuum as shown in the\nfigure is _________. (Give the answer up to two decimal places.)",
+      "id": "gate-ee-meas-q40",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 40,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The voltage \n across and the current \n through a semiconductor switch during a turn-ON transition\nare shown in figure. The energy dissipated during the turn-ON transition, in \n, is _______.\n\n \nsemi-conductor-devices\n \nbipolar-junction\n \ntransistors\n \nturn-on-characteristics-of-transistor\n \nnumerical-answers\nBjt \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The voltage \n across and the current \n through a semiconductor switch during a turn-ON transition\nare shown in figure. The energy dissipated during the turn-ON transition, in \n, is _______.\n\n \nsemi-conductor-devices\n \nbipolar-junction\n \ntransistors\n \nturn-on-characteristics-of-transistor\n \nnumerical-answers\nBjt \n(1",
+      "id": "gate-ee-meas-q41",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 41,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 27,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>For the circuit shown below, taking the opamp as ideal, the output voltage \n in terms of the input\nvoltages \n and \n is\n\n \noperational-amplifier\n \nfeed-back-resistance\n \nrevese\nGalvanometer \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the circuit shown below, taking the opamp as ideal, the output voltage \n in terms of the input\nvoltages \n and \n is\n\n \noperational-amplifier\n \nfeed-back-resistance\n \nrevese\nGalvanometer \n(1",
+      "id": "gate-ee-meas-q42",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 42,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 27",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 23,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In the circuit shown below, the voltage and current sources are ideal. The voltage \n across the current\nsource, in volts, is\n\n \nsuperposition\n \nthevenin's-theorem\n \nnorton-theorem\n \nresistive-load</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown below, the voltage and current sources are ideal. The voltage \n across the current\nsource, in volts, is\n\n \nsuperposition\n \nthevenin's-theorem\n \nnorton-theorem\n \nresistive-load",
+      "id": "gate-ee-meas-q43",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 43,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 31",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A resistance and a coil are connected in series and supplied from a single phase, \n ac source\nas shown in the ﬁgure below. The rms values of plausible voltages across the resistance \n and coil \n respectively, in volts, are\n\n \nclosed-loop\n \nseries-current\n \nvoltage-blocker\n \nsinusoidal-source\nSignals and Systems \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A resistance and a coil are connected in series and supplied from a single phase, \n ac source\nas shown in the ﬁgure below. The rms values of plausible voltages across the resistance \n and coil \n respectively, in volts, are\n\n \nclosed-loop\n \nseries-current\n \nvoltage-blocker\n \nsinusoidal-source\nSignals and Systems \n(2",
+      "id": "gate-ee-meas-q44",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 44,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 35",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 19,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A three-phase diode bridge rectiﬁer is feeding a constant \n current of \n to a highly inductive load. If\nthree-phase, \n source is supplying to this bridge rectiﬁer then the rms value of the current\nin each diode, in ampere, is ___________.\n\n \nline-current\n \nwaveform\n \ntriplen-harmonics\n \nmagnetization-inductance\n \nnumerical-answers\nVoltage Gain \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase diode bridge rectiﬁer is feeding a constant \n current of \n to a highly inductive load. If\nthree-phase, \n source is supplying to this bridge rectiﬁer then the rms value of the current\nin each diode, in ampere, is ___________.\n\n \nline-current\n \nwaveform\n \ntriplen-harmonics\n \nmagnetization-inductance\n \nnumerical-answers\nVoltage Gain \n(1",
+      "id": "gate-ee-meas-q45",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 45,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A rotating conductor of \n m length is placed in a radially outward (about the \n-axis) magnetic ﬂux density \n of \n Tesla as shown in ﬁgure below. Conductor is parallel to and at \n m distance from the \n-axis. The\nspeed of the conductor in r.p.m. required to induce a voltage of \n V across it, should be __________.\n\n \nmagnetic-flux-density\n \nconductor\n \nnumerical-answers\nCoulomb's Law \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A rotating conductor of \n m length is placed in a radially outward (about the \n-axis) magnetic ﬂux density \n of \n Tesla as shown in ﬁgure below. Conductor is parallel to and at \n m distance from the \n-axis. The\nspeed of the conductor in r.p.m. required to induce a voltage of \n V across it, should be __________.\n\n \nmagnetic-flux-density\n \nconductor\n \nnumerical-answers\nCoulomb's Law \n(2",
+      "id": "gate-ee-meas-q46",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 46,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A \n moving coil ammeter has a voltage drop of \n across its terminals at full scale deﬂection.\nThe external shunt resistance (in milliohms) needed to extend its range to \n is _______.\n\n \ncurrent-measurement\n \nammeter\n \nnumerical-answers\nAmplifier \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n moving coil ammeter has a voltage drop of \n across its terminals at full scale deﬂection.\nThe external shunt resistance (in milliohms) needed to extend its range to \n is _______.\n\n \ncurrent-measurement\n \nammeter\n \nnumerical-answers\nAmplifier \n(1",
+      "id": "gate-ee-meas-q47",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 47,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>Of the four characteristics given below, which are the major requirements for an instrumentation amplifier?\nP. High common mode rejection ratio\nQ. High input impedance\nR. High linearity\nS. High output impedance\n\n \namplifier\n \nbjts\nAnalog and Digital Electronics \n(3</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Of the four characteristics given below, which are the major requirements for an instrumentation amplifier?\nP. High common mode rejection ratio\nQ. High input impedance\nR. High linearity\nS. High output impedance\n\n \namplifier\n \nbjts\nAnalog and Digital Electronics \n(3",
+      "id": "gate-ee-meas-q48",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 48,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 35",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The coils of a wattmeter have resistances \n and \n; their inductances may be neglected. The\nwattmeter is connected as shown in the ﬁgure, to measure the power consumed by a load, which draws \n at power factor \n. The voltage across the load terminals is \n. The percentage error on the wattmeter\nreading is ________.\n\n \npower-measurement\n \ncoils\n \npower-factor\n \nnumerical-answers\nCurrent Divider Circuit \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The coils of a wattmeter have resistances \n and \n; their inductances may be neglected. The\nwattmeter is connected as shown in the ﬁgure, to measure the power consumed by a load, which draws \n at power factor \n. The voltage across the load terminals is \n. The percentage error on the wattmeter\nreading is ________.\n\n \npower-measurement\n \ncoils\n \npower-factor\n \nnumerical-answers\nCurrent Divider Circuit \n(1",
+      "id": "gate-ee-meas-q49",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 49,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 37",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>When the Wheatstone bridge shown in the ﬁgure is used to ﬁnd the value of resistor \n, the galvanometer\n indicates zero current when \n and \n. If \n is known with \ntolerance on its nominal value of \n , what is the range of \n in Ohms?\n\n \nbridge-circuit\n \ngalvanometer\n \ntolerance\nGround \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "When the Wheatstone bridge shown in the ﬁgure is used to ﬁnd the value of resistor \n, the galvanometer\n indicates zero current when \n and \n. If \n is known with \ntolerance on its nominal value of \n , what is the range of \n in Ohms?\n\n \nbridge-circuit\n \ngalvanometer\n \ntolerance\nGround \n(1)",
+      "id": "gate-ee-meas-q50",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 50,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>In a linear two-port network, when \n V is applied to Port \n, a current of \n A ﬂows through Port \n when it is\nshort-circuited. When \n V is applied to Port \n, a current of \n A ﬂows through a \n resistance\nconnected across Port \n. When \n V is applied to Port \n, the current (in Ampere) through a \n resistance</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a linear two-port network, when \n V is applied to Port \n, a current of \n A ﬂows through Port \n when it is\nshort-circuited. When \n V is applied to Port \n, a current of \n A ﬂows through a \n resistance\nconnected across Port \n. When \n V is applied to Port \n, the current (in Ampere) through a \n resistance",
+      "id": "gate-ee-meas-q51",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 51,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The circuit shown is meant to supply a resistive load \n from two separate \n voltage sources. The\nswitches \n and \n are controlled so that only one of them is \n at any instant. \n is turned on for \n and \n is turned on for \n in a \n switching cycle time period. Assuming continuous conduction\nof the inductor current and negligible ripple on the capacitor voltage, the output voltage \n (in Volt) across \n is\n_______.\n\n \nripple-voltages\n \ntime-period\n \nnumerical-answers\nTwo Winding \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The circuit shown is meant to supply a resistive load \n from two separate \n voltage sources. The\nswitches \n and \n are controlled so that only one of them is \n at any instant. \n is turned on for \n and \n is turned on for \n in a \n switching cycle time period. Assuming continuous conduction\nof the inductor current and negligible ripple on the capacitor voltage, the output voltage \n (in Volt) across \n is\n_______.\n\n \nripple-voltages\n \ntime-period\n \nnumerical-answers\nTwo Winding \n(1",
+      "id": "gate-ee-meas-q52",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 52,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>An unbalanced \n Wheatstone bridge is shown in the ﬁgure. At what value of \n will the magnitude of \nbe maximum?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An unbalanced \n Wheatstone bridge is shown in the ﬁgure. At what value of \n will the magnitude of \nbe maximum?",
+      "id": "gate-ee-meas-q53",
+      "testId": "gate-subject-electrical-measurements",
+      "orderIndex": 53,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 51",
+      "answer": "D"
     }
   ]
 }

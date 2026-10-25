@@ -16,7 +16,7 @@
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2006-s0",
       "orderIndex": 1,
       "section": "GA",
       "title": "GATE EE 2017 | GA Question: 1",
@@ -24,34 +24,88 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:</p>\n<table border=\"1\" cellpadding=\"1\" style=\"width:463px; border-spacing: 1px;\">\n<tbody>\n<tr>\n<td>\n<pre class=\"c_cpp\">/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n</pre>\n</td>\n<td style=\"width:207px\">\n<pre class=\"c_cpp\">/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.</p>\n<p>Which one of the following statements is TRUE about the construct?</p>",
-      "rawQuestionHtml": "<p>Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:</p>\n<table border=\"1\" cellpadding=\"1\" style=\"width:463px; border-spacing: 1px;\">\n<tbody>\n<tr>\n<td>\n<pre class=\"c_cpp\">/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n</pre>\n</td>\n<td style=\"width:207px\">\n<pre class=\"c_cpp\">/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.</p>\n<p>Which one of the following statements is TRUE about the construct?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>It does not ensure mutual exclusion.</p>\n</li>\n<li>\n<p>It does not ensure bounded waiting.</p>\n</li>\n<li>\n<p>It requires that processes enter the critical section in strict alteration.</p>\n</li>\n<li>\n<p>It does not prevent deadlocks, but ensures mutual exclusion.</p>\n</li>\n</ol>",
+      "question": "<p>Consider the following code written in a pass-by-reference language like&nbsp;FORTRAN and these statements about the code.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </pre>\n\n<p><strong>S1</strong>: The compiler will generate code to allocate a temporary nameless cell,&nbsp;initialize it to 13, and pass the address of the cell to swap&nbsp;<br><strong>S2</strong>: On execution the code will generate a runtime error on line L1&nbsp;<br><strong>S3</strong>: On execution the code will generate a runtime error on line L2&nbsp;<br><strong>S4</strong>: The program will print 13 and 8&nbsp;<br><strong>S5</strong>: The program will print 13 and -2&nbsp;</p>\n\n<p>Exactly the following set of statement(s) is correct:&nbsp;</p>",
+      "rawQuestionHtml": "<a name=\"1834\"></a><div itemprop=\"text\">\n<p>Consider the following code written in a pass-by-reference language like&nbsp;FORTRAN and these statements about the code.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </pre>\n\n<p><strong>S1</strong>: The compiler will generate code to allocate a temporary nameless cell,&nbsp;initialize it to 13, and pass the address of the cell to swap&nbsp;<br><strong>S2</strong>: On execution the code will generate a runtime error on line L1&nbsp;<br><strong>S3</strong>: On execution the code will generate a runtime error on line L2&nbsp;<br><strong>S4</strong>: The program will print 13 and 8&nbsp;<br><strong>S5</strong>: The program will print 13 and -2&nbsp;</p>\n\n<p>Exactly the following set of statement(s) is correct:&nbsp;</p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>S1 and S2&nbsp;</li>\n\t<li>S1 and S4&nbsp;</li>\n\t<li>S3&nbsp;</li>\n\t<li>S1 and S5&nbsp;</li>\n</ol>\n</div>",
       "options": [
-        "It does not ensure mutual exclusion.",
-        "It does not ensure bounded waiting.",
-        "It requires that processes enter the critical section in strict alteration.",
-        "It does not prevent deadlocks, but ensures mutual exclusion."
+        "S1 and S2",
+        "S1 and S4",
+        "S3",
+        "S1 and S5"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "It does not ensure mutual exclusion.",
-          "html": "<p>It does not ensure mutual exclusion.</p>"
+          "text": "S1 and S2",
+          "html": "S1 and S2&nbsp;"
         },
         {
           "label": "B",
-          "text": "It does not ensure bounded waiting.",
-          "html": "<p>It does not ensure bounded waiting.</p>"
+          "text": "S1 and S4",
+          "html": "S1 and S4&nbsp;"
         },
         {
           "label": "C",
-          "text": "It requires that processes enter the critical section in strict alteration.",
-          "html": "<p>It requires that processes enter the critical section in strict alteration.</p>"
+          "text": "S3",
+          "html": "S3&nbsp;"
         },
         {
           "label": "D",
-          "text": "It does not prevent deadlocks, but ensures mutual exclusion.",
-          "html": "<p>It does not prevent deadlocks, but ensures mutual exclusion.</p>"
+          "text": "S1 and S5",
+          "html": "S1 and S5&nbsp;"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1834/gate-cse-2006-question-56-isro2009-58",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1834/gate-cse-2006-question-56-isro2009-58"
+    },
+    {
+      "id": "gate-ee-2017-s1-q2",
+      "testId": "gate-ee-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2006-s0",
+      "orderIndex": 2,
+      "section": "GA",
+      "title": "GATE EE 2017 | GA Question: 2",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following translation scheme. </p>\n<ul>\n<li>$ S\\rightarrow ER$</li>\n<li>$ R\\rightarrow *E\\left \\{ \\text{print}(\\text{‘}*\\text{’}); \\right \\} R\\mid \\varepsilon $</li>\n<li>$ E\\rightarrow F+E\\left \\{ \\text{print}(\\text{‘}+\\text{’}); \\right \\}\\mid F $</li>\n<li>$ F\\rightarrow (S)\\mid id \\left \\{ \\text{print}(id.value); \\right \\} $</li>\n</ul>\n<p>Here $id$ is a token that represents an integer and $id.value$ represents the corresponding integer value. For an input $\\text{‘}2 * 3 + 4\\text{’},$  this translation scheme prints </p>",
+      "rawQuestionHtml": "<p>Consider the following translation scheme. </p>\n<ul>\n<li>$ S\\rightarrow ER$</li>\n<li>$ R\\rightarrow *E\\left \\{ \\text{print}(\\text{‘}*\\text{’}); \\right \\} R\\mid \\varepsilon $</li>\n<li>$ E\\rightarrow F+E\\left \\{ \\text{print}(\\text{‘}+\\text{’}); \\right \\}\\mid F $</li>\n<li>$ F\\rightarrow (S)\\mid id \\left \\{ \\text{print}(id.value); \\right \\} $</li>\n</ul>\n<p>Here $id$ is a token that represents an integer and $id.value$ represents the corresponding integer value. For an input $\\text{‘}2 * 3 + 4\\text{’},$  this translation scheme prints </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$2 * 3 + 4$</li>\n<li>$2 * +3 \\ 4$</li>\n<li>$2 \\ 3 * 4 +$</li>\n<li>$2 \\ 3 \\ 4+*$</li>\n</ol>",
+      "options": [
+        "$2 * 3 + 4$",
+        "$2 * +3 \\ 4$",
+        "$2 \\ 3 * 4 +$",
+        "$2 \\ 3 \\ 4+*$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$2 * 3 + 4$",
+          "html": "$2 * 3 + 4$"
+        },
+        {
+          "label": "B",
+          "text": "$2 * +3 \\ 4$",
+          "html": "$2 * +3 \\ 4$"
+        },
+        {
+          "label": "C",
+          "text": "$2 \\ 3 * 4 +$",
+          "html": "$2 \\ 3 * 4 +$"
+        },
+        {
+          "label": "D",
+          "text": "$2 \\ 3 \\ 4+*$",
+          "html": "$2 \\ 3 \\ 4+*$"
         }
       ],
       "answer": [
@@ -61,19 +115,73 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1256/gate-cse-2007-question-58",
+      "link": "https://gateoverflow.in/1837/gate-cse-2006-question-59",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1256/gate-cse-2007-question-58"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1837/gate-cse-2006-question-59"
     },
     {
-      "id": "gate-ee-2017-s1-q2",
+      "id": "gate-ee-2017-s1-q3",
+      "testId": "gate-ee-2017-s1",
+      "year": 2017,
+      "set": 1,
+      "yearSetKey": "2006-s0",
+      "orderIndex": 3,
+      "section": "GA",
+      "title": "GATE EE 2017 | GA Question: 3",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>Consider the following C code segment. </p>\n<pre class=\"prettyprint lang-c_cpp\">for (i = 0, i &lt; n; i++)\n{ \n    for (j = 0; j &lt; n; j++)\n    { \n        if (i%2)\n        { \n            x += (4*j + 5*i); \n            y += (7 + 4*j); \n        } \n    } \n}\n</pre>\n<p>Which one of the following is false? </p>",
+      "rawQuestionHtml": "<p>Consider the following C code segment. </p>\n<pre class=\"prettyprint lang-c_cpp\">for (i = 0, i &lt; n; i++)\n{ \n    for (j = 0; j &lt; n; j++)\n    { \n        if (i%2)\n        { \n            x += (4*j + 5*i); \n            y += (7 + 4*j); \n        } \n    } \n}\n</pre>\n<p>Which one of the following is false? </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>The code contains loop invariant computation </li>\n<li>There is scope of common sub-expression elimination in this code </li>\n<li>There is scope of strength reduction in this code </li>\n<li>There is scope of dead code elimination in this code </li>\n</ol>",
+      "options": [
+        "The code contains loop invariant computation",
+        "There is scope of common sub-expression elimination in this code",
+        "There is scope of strength reduction in this code",
+        "There is scope of dead code elimination in this code"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The code contains loop invariant computation",
+          "html": "The code contains loop invariant computation"
+        },
+        {
+          "label": "B",
+          "text": "There is scope of common sub-expression elimination in this code",
+          "html": "There is scope of common sub-expression elimination in this code"
+        },
+        {
+          "label": "C",
+          "text": "There is scope of strength reduction in this code",
+          "html": "There is scope of strength reduction in this code"
+        },
+        {
+          "label": "D",
+          "text": "There is scope of dead code elimination in this code",
+          "html": "There is scope of dead code elimination in this code"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1838/gate-cse-2006-question-60",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1838/gate-cse-2006-question-60"
+    },
+    {
+      "id": "gate-ee-2017-s1-q4",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
       "yearSetKey": "2007-s0",
-      "orderIndex": 2,
+      "orderIndex": 4,
       "section": "GA",
-      "title": "GATE EE 2017 | GA Question: 2",
+      "title": "GATE EE 2017 | GA Question: 4",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Quantitative Aptitude",
@@ -120,14 +228,14 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2428/gate-cse-2007-question-59"
     },
     {
-      "id": "gate-ee-2017-s1-q3",
+      "id": "gate-ee-2017-s1-q5",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
       "yearSetKey": "2007-s0",
-      "orderIndex": 3,
+      "orderIndex": 5,
       "section": "GA",
-      "title": "GATE EE 2017 | GA Question: 3",
+      "title": "GATE EE 2017 | GA Question: 5",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
@@ -174,154 +282,46 @@
       "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1258/gate-cse-2007-question-60"
     },
     {
-      "id": "gate-ee-2017-s1-q4",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2008-s0",
-      "orderIndex": 4,
-      "section": "GA",
-      "title": "GATE EE 2017 | GA Question: 4",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:</p>",
-      "rawQuestionHtml": "<p>In the slow start phase of the TCP congestion algorithm, the size of the congestion window:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>does not increase</p>\n</li>\n<li>\n<p>increase linearly</p>\n</li>\n<li>\n<p>increases quadratically</p>\n</li>\n<li>\n<p>increases exponentially</p>\n</li>\n</ol>",
-      "options": [
-        "does not increase",
-        "increase linearly",
-        "increases quadratically",
-        "increases exponentially"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "does not increase",
-          "html": "<p>does not increase</p>"
-        },
-        {
-          "label": "B",
-          "text": "increase linearly",
-          "html": "<p>increase linearly</p>"
-        },
-        {
-          "label": "C",
-          "text": "increases quadratically",
-          "html": "<p>increases quadratically</p>"
-        },
-        {
-          "label": "D",
-          "text": "increases exponentially",
-          "html": "<p>increases exponentially</p>"
-        }
-      ],
-      "answer": [
-        "D"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/479/gate-cse-2008-question-56",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/479/gate-cse-2008-question-56"
-    },
-    {
-      "id": "gate-ee-2017-s1-q5",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2008-s0",
-      "orderIndex": 5,
-      "section": "GA",
-      "title": "GATE EE 2017 | GA Question: 5",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>If a class $B$ network on the Internet has a subnet mask of $255.255.248.0$, what is the maximum number of hosts per subnet?</p>",
-      "rawQuestionHtml": "<p>If a class $B$ network on the Internet has a subnet mask of $255.255.248.0$, what is the maximum number of hosts per subnet?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$1022$</li>\n<li>$1023$</li>\n<li>$2046$</li>\n<li>$2047$</li>\n</ol>",
-      "options": [
-        "$1022$",
-        "$1023$",
-        "$2046$",
-        "$2047$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$1022$",
-          "html": "$1022$"
-        },
-        {
-          "label": "B",
-          "text": "$1023$",
-          "html": "$1023$"
-        },
-        {
-          "label": "C",
-          "text": "$2046$",
-          "html": "$2046$"
-        },
-        {
-          "label": "D",
-          "text": "$2047$",
-          "html": "$2047$"
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/480/gate-cse-2008-question-57",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/480/gate-cse-2008-question-57"
-    },
-    {
       "id": "gate-ee-2017-s1-q6",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2010-s0",
+      "yearSetKey": "2007-s0",
       "orderIndex": 6,
       "section": "GA",
       "title": "GATE EE 2017 | GA Question: 6",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Analytical & Logical Reasoning",
+      "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>If $137 + 276 = 435$ how much is $731+672?$</p>",
-      "rawQuestionHtml": "<p>If $137 + 276 = 435$ how much is $731+672?$</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$534$</li>\n<li>$1403$</li>\n<li>$1623$</li>\n<li>$1513$</li>\n</ol>",
+      "question": "<p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p>",
+      "rawQuestionHtml": "<p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p>\n<ul>\n<li>$S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)$</li>\n<li>$S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)$</li>\n</ul>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>Both $S_1$ and $S_2$ are conflict serializable.</p>\n</li>\n<li>\n<p>$S_1$ is conflict serializable and $S_2$ is not conflict serializable.</p>\n</li>\n<li>\n<p>$S_1$ is not conflict serializable and $S_2$ is conflict serializable.</p>\n</li>\n<li>\n<p>Both $S_1$ and $S_2$ are not conflict serializable.</p>\n</li>\n</ol>",
       "options": [
-        "$534$",
-        "$1403$",
-        "$1623$",
-        "$1513$"
+        "Both $S_1$ and $S_2$ are conflict serializable.",
+        "$S_1$ is conflict serializable and $S_2$ is not conflict serializable.",
+        "$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
+        "Both $S_1$ and $S_2$ are not conflict serializable."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$534$",
-          "html": "$534$"
+          "text": "Both $S_1$ and $S_2$ are conflict serializable.",
+          "html": "<p>Both $S_1$ and $S_2$ are conflict serializable.</p>"
         },
         {
           "label": "B",
-          "text": "$1403$",
-          "html": "$1403$"
+          "text": "$S_1$ is conflict serializable and $S_2$ is not conflict serializable.",
+          "html": "<p>$S_1$ is conflict serializable and $S_2$ is not conflict serializable.</p>"
         },
         {
           "label": "C",
-          "text": "$1623$",
-          "html": "$1623$"
+          "text": "$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
+          "html": "<p>$S_1$ is not conflict serializable and $S_2$ is conflict serializable.</p>"
         },
         {
           "label": "D",
-          "text": "$1513$",
-          "html": "$1513$"
+          "text": "Both $S_1$ and $S_2$ are not conflict serializable.",
+          "html": "<p>Both $S_1$ and $S_2$ are not conflict serializable.</p>"
         }
       ],
       "answer": [
@@ -331,70 +331,70 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2369/gate-cse-2010-question-61",
+      "link": "https://gateoverflow.in/1262/gate-cse-2007-question-64",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2369/gate-cse-2010-question-61"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1262/gate-cse-2007-question-64"
     },
     {
       "id": "gate-ee-2017-s1-q7",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2010-s0",
+      "yearSetKey": "2007-s0",
       "orderIndex": 7,
       "section": "GA",
       "title": "GATE EE 2017 | GA Question: 7",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Analytical & Logical Reasoning",
+      "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:</p>\n<ol style=\"list-style-type:lower-roman\">\n<li>Hari's age $+$ Gita's age $&gt;$ Irfan's age $+$ Saira's age</li>\n<li>The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.</li>\n<li>There are no twins.</li>\n</ol>\n<p>In what order they were born (oldest first)?</p>",
-      "rawQuestionHtml": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:</p>\n<ol style=\"list-style-type:lower-roman\">\n<li>Hari's age $+$ Gita's age $&gt;$ Irfan's age $+$ Saira's age</li>\n<li>The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.</li>\n<li>There are no twins.</li>\n</ol>\n<p>In what order they were born (oldest first)?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$\\text{HSIG}$</li>\n<li>$\\text{SGHI}$</li>\n<li>$\\text{IGSH}$</li>\n<li>$\\text{IHSG}$</li>\n</ol>",
+      "question": "<p>There are $n$ stations in slotted LAN. Each station attempts to transmit with a probability $p$ in each time slot. What is the probability that <strong>ONLY </strong>one station transmits in a given time slot?</p>",
+      "rawQuestionHtml": "<p>There are $n$ stations in slotted LAN. Each station attempts to transmit with a probability $p$ in each time slot. What is the probability that <strong>ONLY </strong>one station transmits in a given time slot?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$np(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$p(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$1-(1-p)^{n-1}$</p>\n</li>\n</ol>",
       "options": [
-        "$\\text{HSIG}$",
-        "$\\text{SGHI}$",
-        "$\\text{IGSH}$",
-        "$\\text{IHSG}$"
+        "$np(1-p)^{n-1}$",
+        "$(1-p)^{n-1}$",
+        "$p(1-p)^{n-1}$",
+        "$1-(1-p)^{n-1}$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$\\text{HSIG}$",
-          "html": "$\\text{HSIG}$"
+          "text": "$np(1-p)^{n-1}$",
+          "html": "<p>$np(1-p)^{n-1}$</p>"
         },
         {
           "label": "B",
-          "text": "$\\text{SGHI}$",
-          "html": "$\\text{SGHI}$"
+          "text": "$(1-p)^{n-1}$",
+          "html": "<p>$(1-p)^{n-1}$</p>"
         },
         {
           "label": "C",
-          "text": "$\\text{IGSH}$",
-          "html": "$\\text{IGSH}$"
+          "text": "$p(1-p)^{n-1}$",
+          "html": "<p>$p(1-p)^{n-1}$</p>"
         },
         {
           "label": "D",
-          "text": "$\\text{IHSG}$",
-          "html": "$\\text{IHSG}$"
+          "text": "$1-(1-p)^{n-1}$",
+          "html": "<p>$1-(1-p)^{n-1}$</p>"
         }
       ],
       "answer": [
-        "B"
+        "A"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2370/gate-cse-2010-question-62",
+      "link": "https://gateoverflow.in/1263/gate-cse-2007-question-65",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2370/gate-cse-2010-question-62"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1263/gate-cse-2007-question-65"
     },
     {
       "id": "gate-ee-2017-s1-q8",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2010-s0",
+      "yearSetKey": "2008-s0",
       "orderIndex": 8,
       "section": "GA",
       "title": "GATE EE 2017 | GA Question: 8",
@@ -402,142 +402,142 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p><strong>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.</strong></p>\n<p>Which of the following statements best sums up the meaning of the above passage:</p>",
-      "rawQuestionHtml": "<p><strong>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.</strong></p>\n<p>Which of the following statements best sums up the meaning of the above passage:</p>\n<ol style=\"list-style-type: upper-alpha;\">\n<li>Modern warfare has resulted in civil strife.</li>\n<li>Chemical agents are useful in modern warfare.</li>\n<li>People in military establishments like to use chemical agents in war.</li>\n<li>Use of chemical agents in warfare would be undesirable.</li>\n</ol>",
+      "question": "<p>Choose the correct option to fill $?1$ and $?2$ so that the program below prints an input string in reverse order. Assume that the input string is terminated by a new line character.</p>\n<pre class=\"prettyprint lang-c_cpp\">void reverse(void) \n{ \n    int c;\n    if(?1) reverse;\n    ?2 \n} \nmain \n{ \n    printf(\"Enter text\"); \n    printf(\"\\n\"); \n    reverse; \n    printf(\"\\n\"); \n}</pre>",
+      "rawQuestionHtml": "<p>Choose the correct option to fill $?1$ and $?2$ so that the program below prints an input string in reverse order. Assume that the input string is terminated by a new line character.</p>\n<pre class=\"prettyprint lang-c_cpp\">void reverse(void) \n{ \n    int c;\n    if(?1) reverse;\n    ?2 \n} \nmain \n{ \n    printf(\"Enter text\"); \n    printf(\"\\n\"); \n    reverse; \n    printf(\"\\n\"); \n}</pre>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$?1$ is $(getchar != ’\\setminus n’)$</p>\n$?2$ is $getchar(c);$</li>\n<li>\n<p>$?1$ is $((c = getchar ) !=’\\setminus n’)$</p>\n<p>$?2$ is $getchar(c);$</p>\n</li>\n<li>\n<p>$?1$ is $(c != ’\\setminus n’)$</p>\n<p>$?2$ is $putchar(c);$</p>\n</li>\n<li>\n<p>$?1$ is $((c = getchar ) != ’\\setminus n’)$</p>\n<p>$?2$ is $putchar(c);$</p>\n</li>\n</ol>",
       "options": [
-        "Modern warfare has resulted in civil strife.",
-        "Chemical agents are useful in modern warfare.",
-        "People in military establishments like to use chemical agents in war.",
-        "Use of chemical agents in warfare would be undesirable."
+        "$?1$ is $(getchar != ’\\setminus n’)$ $?2$ is $getchar(c);$",
+        "$?1$ is $((c = getchar ) !=’\\setminus n’)$ $?2$ is $getchar(c);$",
+        "$?1$ is $(c != ’\\setminus n’)$ $?2$ is $putchar(c);$",
+        "$?1$ is $((c = getchar ) != ’\\setminus n’)$ $?2$ is $putchar(c);$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Modern warfare has resulted in civil strife.",
-          "html": "Modern warfare has resulted in civil strife."
+          "text": "$?1$ is $(getchar != ’\\setminus n’)$ $?2$ is $getchar(c);$",
+          "html": "<p>$?1$ is $(getchar != ’\\setminus n’)$</p>\n$?2$ is $getchar(c);$"
         },
         {
           "label": "B",
-          "text": "Chemical agents are useful in modern warfare.",
-          "html": "Chemical agents are useful in modern warfare."
+          "text": "$?1$ is $((c = getchar ) !=’\\setminus n’)$ $?2$ is $getchar(c);$",
+          "html": "<p>$?1$ is $((c = getchar ) !=’\\setminus n’)$</p>\n<p>$?2$ is $getchar(c);$</p>"
         },
         {
           "label": "C",
-          "text": "People in military establishments like to use chemical agents in war.",
-          "html": "People in military establishments like to use chemical agents in war."
+          "text": "$?1$ is $(c != ’\\setminus n’)$ $?2$ is $putchar(c);$",
+          "html": "<p>$?1$ is $(c != ’\\setminus n’)$</p>\n<p>$?2$ is $putchar(c);$</p>"
         },
         {
           "label": "D",
-          "text": "Use of chemical agents in warfare would be undesirable.",
-          "html": "Use of chemical agents in warfare would be undesirable."
+          "text": "$?1$ is $((c = getchar ) != ’\\setminus n’)$ $?2$ is $putchar(c);$",
+          "html": "<p>$?1$ is $((c = getchar ) != ’\\setminus n’)$</p>\n<p>$?2$ is $putchar(c);$</p>"
         }
       ],
       "answer": [
-        "C"
+        "D"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2371/gate-cse-2010-question-63",
+      "link": "https://gateoverflow.in/484/gate-cse-2008-question-61",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2371/gate-cse-2010-question-63"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/484/gate-cse-2008-question-61"
     },
     {
       "id": "gate-ee-2017-s1-q9",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2010-s0",
+      "yearSetKey": "2008-s0",
       "orderIndex": 9,
       "section": "GA",
       "title": "GATE EE 2017 | GA Question: 9",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
+      "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?</p>",
-      "rawQuestionHtml": "<p>$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$20$ days</li>\n<li>$18$ days</li>\n<li>$16$ days</li>\n<li>$15$ days</li>\n</ol>",
+      "question": "<p>The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers $1, 2, 3, 4, 5, 6, 7$ in the given order. What will be the contents of the list after function completes execution?</p>\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct node {\n    int value;\n    struct node *next;\n};\n\nvoid rearrange(struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while(q) {\n        temp = p -&gt; value; p-&gt;value =  q -&gt; value;\n        q-&gt;value = temp; p = q -&gt;next;\n        q = p? p -&gt;next : 0;\n    }   \n}\n</pre>",
+      "rawQuestionHtml": "<p>The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers $1, 2, 3, 4, 5, 6, 7$ in the given order. What will be the contents of the list after function completes execution?</p>\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct node {\n    int value;\n    struct node *next;\n};\n\nvoid rearrange(struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while(q) {\n        temp = p -&gt; value; p-&gt;value =  q -&gt; value;\n        q-&gt;value = temp; p = q -&gt;next;\n        q = p? p -&gt;next : 0;\n    }   \n}\n</pre>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$1, 2 ,3, 4, 5, 6, 7$</li>\n<li>$2, 1, 4 ,3, 6, 5, 7$</li>\n<li>$1, 3, 2, 5, 4, 7, 6$</li>\n<li>$2, 3, 4, 5, 6, 7, 1$</li>\n</ol>",
       "options": [
-        "$20$ days",
-        "$18$ days",
-        "$16$ days",
-        "$15$ days"
+        "$1, 2 ,3, 4, 5, 6, 7$",
+        "$2, 1, 4 ,3, 6, 5, 7$",
+        "$1, 3, 2, 5, 4, 7, 6$",
+        "$2, 3, 4, 5, 6, 7, 1$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$20$ days",
-          "html": "$20$ days"
+          "text": "$1, 2 ,3, 4, 5, 6, 7$",
+          "html": "$1, 2 ,3, 4, 5, 6, 7$"
         },
         {
           "label": "B",
-          "text": "$18$ days",
-          "html": "$18$ days"
+          "text": "$2, 1, 4 ,3, 6, 5, 7$",
+          "html": "$2, 1, 4 ,3, 6, 5, 7$"
         },
         {
           "label": "C",
-          "text": "$16$ days",
-          "html": "$16$ days"
+          "text": "$1, 3, 2, 5, 4, 7, 6$",
+          "html": "$1, 3, 2, 5, 4, 7, 6$"
         },
         {
           "label": "D",
-          "text": "$15$ days",
-          "html": "$15$ days"
+          "text": "$2, 3, 4, 5, 6, 7, 1$",
+          "html": "$2, 3, 4, 5, 6, 7, 1$"
         }
       ],
       "answer": [
-        "D"
+        "B"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2372/gate-cse-2010-question-64",
+      "link": "https://gateoverflow.in/485/gate-cse-2008-question-62",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2372/gate-cse-2010-question-64"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/485/gate-cse-2008-question-62"
     },
     {
       "id": "gate-ee-2017-s1-q10",
       "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2010-s0",
+      "yearSetKey": "2008-s0",
       "orderIndex": 10,
       "section": "GA",
       "title": "GATE EE 2017 | GA Question: 10",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
-      "topic": "Quantitative Aptitude",
+      "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?</p>",
-      "rawQuestionHtml": "<p>Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$50$</li>\n<li>$51$</li>\n<li>$52$</li>\n<li>$54$</li>\n</ol>",
+      "question": "<p>Which of the following statements about synchronous and asynchronous I/O is NOT true?</p>",
+      "rawQuestionHtml": "<p>Which of the following statements about synchronous and asynchronous I/O is NOT true?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O</p>\n</li>\n<li>\n<p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>\n</li>\n<li>\n<p>A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O call does not wait for completion of the I/O</p>\n</li>\n<li>\n<p>In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O</p>\n</li>\n</ol>",
       "options": [
-        "$50$",
-        "$51$",
-        "$52$",
-        "$54$"
+        "An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O",
+        "In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O",
+        "A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O call does not wait for completion of the I/O",
+        "In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$50$",
-          "html": "$50$"
+          "text": "An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O",
+          "html": "<p>An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O</p>"
         },
         {
           "label": "B",
-          "text": "$51$",
-          "html": "$51$"
+          "text": "In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O",
+          "html": "<p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>"
         },
         {
           "label": "C",
-          "text": "$52$",
-          "html": "$52$"
+          "text": "A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O call does not wait for completion of the I/O",
+          "html": "<p>A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O call does not wait for completion of the I/O</p>"
         },
         {
           "label": "D",
-          "text": "$54$",
-          "html": "$54$"
+          "text": "In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O",
+          "html": "<p>In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O</p>"
         }
       ],
       "answer": [
@@ -547,2019 +547,1298 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/2373/gate-cse-2010-question-65",
+      "link": "https://gateoverflow.in/487/gate-cse-2008-question-64-isro2009-13",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/2373/gate-cse-2010-question-65"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/487/gate-cse-2008-question-64-isro2009-13"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The circuit shown in the ﬁgure uses matched transistors with a thermal voltage \nm V. The base\ncurrents of the transistors are negligible. The value of the resistance \n in \n that is required to provide \n bias current for the diﬀerential ampliﬁer block shown is ________.(Give the answer up to one decimal\nplace.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The circuit shown in the ﬁgure uses matched transistors with a thermal voltage \nm V. The base\ncurrents of the transistors are negligible. The value of the resistance \n in \n that is required to provide \n bias current for the diﬀerential ampliﬁer block shown is ________.(Give the answer up to one decimal\nplace.)",
       "id": "gate-ee-2017-s1-q11",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 1",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 1",
+      "answer": "D"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 10,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>For a \n-input logic circuit shown below, the output \n can be expressed as</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For a \n-input logic circuit shown below, the output \n can be expressed as",
       "id": "gate-ee-2017-s1-q12",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 12,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 2",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 2",
+      "answer": "C"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The logical gate implemented using the circuit shown below where \n and \n are inputs (with \nV as digital\n and \nV as digital \n) and \n is the output, is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The logical gate implemented using the circuit shown below where \n and \n are inputs (with \nV as digital\n and \nV as digital \n) and \n is the output, is",
       "id": "gate-ee-2017-s1-q13",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 13,
-      "section": "EE",
+      "marks": 1,
+      "negativeMarks": 0.0,
       "title": "GATE EE 2017 | EE Question: 3",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
       "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
+      "question": "<p>The approximate transfer characteristic for the circuit shown below with an ideal operational ampliﬁer and\ndiode will be</p>",
       "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
+        "B .",
+        "D ."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
+          "text": "B .",
+          "html": "B ."
         },
         {
           "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
+          "text": "D .",
+          "html": "D ."
         }
       ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
+      "raw_content": "The approximate transfer characteristic for the circuit shown below with an ideal operational ampliﬁer and\ndiode will be\nA\n. \nB\n. \nC\n. \nD\n.",
       "id": "gate-ee-2017-s1-q14",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 14,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 4",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "title": "GATE EE 2017 | EE Question: 4",
+      "answer": "A"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>For the synchronous sequential circuit shown below, the output \n is zero for the initial conditions \nThe minimum number of clock cycles after which the output \n would again become zero is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the synchronous sequential circuit shown below, the output \n is zero for the initial conditions \nThe minimum number of clock cycles after which the output \n would again become zero is _________.",
       "id": "gate-ee-2017-s1-q15",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 15,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 5",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 5",
+      "answer": "D"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A closed loop system has the characteristic equation given by \n. For this\nsystem to be stable, which one of the following conditions should be satisfied?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A closed loop system has the characteristic equation given by \n. For this\nsystem to be stable, which one of the following conditions should be satisfied?",
       "id": "gate-ee-2017-s1-q16",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 16,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 6",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 6",
+      "answer": "C"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider the unity feedback control system shown. The value of \n that results in a phase margin of the\nsystem to be \n is _________. (Give the answer up to two decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the unity feedback control system shown. The value of \n that results in a phase margin of the\nsystem to be \n is _________. (Give the answer up to two decimal places.)",
       "id": "gate-ee-2017-s1-q17",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 17,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 7",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 7",
+      "answer": "B"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 34,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The root locus of the feedback control system having the characteristic equation \nwhere \n, enters into the real axis at.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The root locus of the feedback control system having the characteristic equation \nwhere \n, enters into the real axis at.",
       "id": "gate-ee-2017-s1-q18",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 18,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 8",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 8",
+      "answer": "A"
     },
     {
+      "year": 2017,
+      "set": 1,
+      "qno": 36,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>Which of the following systems has maximum peak overshoot due to a unit step input?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Which of the following systems has maximum peak overshoot due to a unit step input?",
       "id": "gate-ee-2017-s1-q19",
       "testId": "gate-ee-2017-s1",
-      "year": 2017,
       "orderIndex": 19,
-      "section": "EE",
+      "marks": 1,
+      "negativeMarks": 0.0,
       "title": "GATE EE 2017 | EE Question: 9",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "answer": "D"
     },
     {
-      "id": "gate-ee-2017-s1-q20",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 20,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 10",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q21",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 21,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 11",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q22",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 22,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 12",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q23",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 23,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 13",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q24",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 24,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 14",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q25",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 25,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 15",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q26",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 26,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 16",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q27",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 27,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 17",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q28",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 28,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 18",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q29",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 29,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 19",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q30",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 30,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 20",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q31",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 31,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 21",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q32",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 32,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 22",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q33",
-      "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 33,
+      "qno": 46,
       "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 23",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Probability & Statistics",
-      "type": "MCQ",
-      "question": "<p>An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is</p>",
-      "rawQuestionHtml": "\n<a name=\"523079\"></a><div itemprop=\"text\"><p>An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$1 / 4$</li><li>$1 / 3$</li><li>$1 / 2$</li><li>$2 / 3$</li></ol></div>\n",
-      "options": [
-        "$1 / 4$",
-        "$1 / 3$",
-        "$1 / 2$",
-        "$2 / 3$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$1 / 4$",
-          "html": "$1 / 4$"
-        },
-        {
-          "label": "B",
-          "text": "$1 / 3$",
-          "html": "$1 / 3$"
-        },
-        {
-          "label": "C",
-          "text": "$1 / 2$",
-          "html": "$1 / 2$"
-        },
-        {
-          "label": "D",
-          "text": "$2 / 3$",
-          "html": "$2 / 3$"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1"
-    },
-    {
-      "id": "gate-ee-2017-s1-q34",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 34,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 24",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Matrices",
-      "type": "MCQ",
-      "question": "<p>For $n&gt;1$, the maximum multiplicity of any eigenvalue of an $n \\times n$ matrix with elements from $\\mathbb{R}$ is</p>",
-      "rawQuestionHtml": "\n<a name=\"523077\"></a><div itemprop=\"text\"><p>For $n&gt;1$, the maximum multiplicity of any eigenvalue of an $n \\times n$ matrix with elements from $\\mathbb{R}$ is</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$n$</li><li>$n-1$</li><li>$1$</li><li>$n+1$</li></ol></div>\n",
-      "options": [
-        "$n$",
-        "$n-1$",
-        "$1$",
-        "$n+1$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$n$",
-          "html": "$n$"
-        },
-        {
-          "label": "B",
-          "text": "$n-1$",
-          "html": "$n-1$"
-        },
-        {
-          "label": "C",
-          "text": "$1$",
-          "html": "$1$"
-        },
-        {
-          "label": "D",
-          "text": "$n+1$",
-          "html": "$n+1$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/523077/gate-cse-2026-set-1-question-3",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523077/gate-cse-2026-set-1-question-3"
-    },
-    {
-      "id": "gate-ee-2017-s1-q35",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 35,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 25",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Matrices",
-      "type": "MSQ",
-      "question": "<p>Let $n&gt;1$. Consider an $n \\times n$ matrix $M$ with its elements from $\\mathbb{R}$. Let the vector $(0,1,0,0, \\ldots, 0) \\in \\mathbb{R}^{n}$ be in the null space of $M$.<br><br>Which of the following options is/are always correct?</p>",
-      "rawQuestionHtml": "\n<a name=\"523070\"></a><div itemprop=\"text\"><p>Let $n&gt;1$. Consider an $n \\times n$ matrix $M$ with its elements from $\\mathbb{R}$. Let the vector $(0,1,0,0, \\ldots, 0) \\in \\mathbb{R}^{n}$ be in the null space of $M$.<br><br>Which of the following options is/are always correct?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>Determinant of $M$ is $1$</li><li>Determinant of $M$ is $0$</li><li>Rank of $M$ is $1$</li><li>There are at least two non-zero vectors in the null space of $M$</li></ol></div>\n",
-      "options": [
-        "Determinant of $M$ is $1$",
-        "Determinant of $M$ is $0$",
-        "Rank of $M$ is $1$",
-        "There are at least two non-zero vectors in the null space of $M$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Determinant of $M$ is $1$",
-          "html": "Determinant of $M$ is $1$"
-        },
-        {
-          "label": "B",
-          "text": "Determinant of $M$ is $0$",
-          "html": "Determinant of $M$ is $0$"
-        },
-        {
-          "label": "C",
-          "text": "Rank of $M$ is $1$",
-          "html": "Rank of $M$ is $1$"
-        },
-        {
-          "label": "D",
-          "text": "There are at least two non-zero vectors in the null space of $M$",
-          "html": "There are at least two non-zero vectors in the null space of $M$"
-        }
-      ],
-      "answer": [
-        "B",
-        "D"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10"
-    },
-    {
-      "id": "gate-ee-2017-s1-q36",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 36,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 26",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q37",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 37,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 27",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Transfer Function & Block Diagram Reduction",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q38",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 38,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 28",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q39",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 39,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 29",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Transfer Function & Block Diagram Reduction",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q40",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 40,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 30",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q41",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 41,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 31",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
       "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
+      "question": "<p>Consider the system described by the following state space representation\nI f \n is a unit step input and \n, the value of output \n at \n sec (rounded oﬀ to three\ndecimal places) is ___________.</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "raw_content": "Consider the system described by the following state space representation\nI f \n is a unit step input and \n, the value of output \n at \n sec (rounded oﬀ to three\ndecimal places) is ___________.",
+      "id": "gate-ee-2017-s1-q20",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 20,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 10",
+      "answer": "C"
     },
     {
-      "id": "gate-ee-2017-s1-q42",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 42,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 32",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q43",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 43,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 33",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q44",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 44,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 34",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q45",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 45,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 35",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q46",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 46,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 36",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q47",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 47,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 37",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q48",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 48,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 38",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers & Applications",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q49",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 49,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 39",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q50",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 50,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 40",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q51",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 51,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 41",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Diodes, BJT & MOSFET Circuits",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q52",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 52,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 42",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers & Applications",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q53",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 53,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 43",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q54",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 54,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 44",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q55",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 55,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 45",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Diodes, BJT & MOSFET Circuits",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q56",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 56,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 46",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers & Applications",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q57",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 57,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 47",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q58",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 58,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 48",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q59",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 59,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 49",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Diodes, BJT & MOSFET Circuits",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q60",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 60,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 50",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Operational Amplifiers & Applications",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q61",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 61,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 51",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q62",
-      "testId": "gate-ee-2017-s1",
-      "year": 2017,
-      "orderIndex": 62,
-      "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 52",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2017-s1-q63",
-      "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 63,
+      "qno": 6,
       "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 53",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Calculus",
-      "type": "MSQ",
-      "question": "<p>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined as follows:<br>\\[<br>f(x)=\\left(\\frac{|x|}{2}-x\\right)\\left(x-\\frac{|x|}{2}\\right)<br>\\]<br>Which of the following statements is/are true?</p>",
-      "rawQuestionHtml": "\n<a name=\"523044\"></a><div itemprop=\"text\"><p>Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined as follows:<br>\\[<br>f(x)=\\left(\\frac{|x|}{2}-x\\right)\\left(x-\\frac{|x|}{2}\\right)<br>\\]<br>Which of the following statements is/are true?</p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li>$f$ has a local maximum</li><li>$f$ has a local minimum</li><li>$f^{\\prime}$ is continuous over $\\mathbb{R}$</li><li>$f^{\\prime}$ is not differentiable over $\\mathbb{R}$</li></ol></div>\n",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>When a unit ramp input is applied to the unity feedback system having closed loop transfer function \n, the steady state error will be</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "When a unit ramp input is applied to the unity feedback system having closed loop transfer function \n, the steady state error will be",
+      "id": "gate-ee-2017-s1-q21",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 21,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>In the system whose signal ﬂow graph is shown in the ﬁgure, \n and \n are inputs. The transfer\nfunction \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the system whose signal ﬂow graph is shown in the ﬁgure, \n and \n are inputs. The transfer\nfunction \n is",
+      "id": "gate-ee-2017-s1-q22",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 22,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 12",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of the system \n whose state-space equations are given below is:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of the system \n whose state-space equations are given below is:",
+      "id": "gate-ee-2017-s1-q23",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 23,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 13",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>For a system having transfer function \n, a unit step input is applied at time \n. The value of\nthe response of the system at \n (rounded off to three decimal places) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For a system having transfer function \n, a unit step input is applied at time \n. The value of\nthe response of the system at \n (rounded off to three decimal places) is ________.",
+      "id": "gate-ee-2017-s1-q24",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 24,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 14",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of a system is given by,\nLet the output of the system be \n for the input, \n. Then the minimum\nand maximum values of \n (in radians) are respectively</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of a system is given by,\nLet the output of the system be \n for the input, \n. Then the minimum\nand maximum values of \n (in radians) are respectively",
+      "id": "gate-ee-2017-s1-q25",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 25,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 15",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function \n of a compensator is given below.\nThe frequency range in which the phase (lead) introduced by the compensator reaches the maximum is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function \n of a compensator is given below.\nThe frequency range in which the phase (lead) introduced by the compensator reaches the maximum is",
+      "id": "gate-ee-2017-s1-q26",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 26,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>For the circuit shown in the ﬁgure below, assume that diodes \n and \n are ideal. The \ncomponents of voltages \n and \n, respectively are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the circuit shown in the ﬁgure below, assume that diodes \n and \n are ideal. The \ncomponents of voltages \n and \n, respectively are",
+      "id": "gate-ee-2017-s1-q27",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 27,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 17",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The power supplied by the \nV source in the figure shown below is __________ \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The power supplied by the \nV source in the figure shown below is __________ \n.",
+      "id": "gate-ee-2017-s1-q28",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 28,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 18",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 19,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The equivalent resistance between the terminals \n and \n is __________ \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The equivalent resistance between the terminals \n and \n is __________ \n.",
+      "id": "gate-ee-2017-s1-q29",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 29,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>The passive two-port networks are connected in cascade as shown in ﬁgure. A voltage source is\nconnected at port \n.\nGiven\n and \n are the generalized circuit constants. If the Thevenin equivalent circuit at\nport \n consists of a voltage source \n and an impedance \n, connected in series, then</p>",
       "options": [
-        "$f$ has a local maximum",
-        "$f$ has a local minimum",
-        "$f^{\\prime}$ is continuous over $\\mathbb{R}$",
-        "$f^{\\prime}$ is not differentiable over $\\mathbb{R}$"
+        "B .",
+        "D ."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$f$ has a local maximum",
-          "html": "$f$ has a local maximum"
+          "text": "B .",
+          "html": "B ."
         },
         {
           "label": "B",
-          "text": "$f$ has a local minimum",
-          "html": "$f$ has a local minimum"
+          "text": "D .",
+          "html": "D ."
+        }
+      ],
+      "raw_content": "The passive two-port networks are connected in cascade as shown in ﬁgure. A voltage source is\nconnected at port \n.\nGiven\n and \n are the generalized circuit constants. If the Thevenin equivalent circuit at\nport \n consists of a voltage source \n and an impedance \n, connected in series, then\nA\n. \nB\n. \nC\n. \nD\n.",
+      "id": "gate-ee-2017-s1-q30",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 30,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "title": "GATE EE 2017 | EE Question: 20",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 41,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The switch in the ﬁgure below was closed for a long time. It is opened at \n. The current in the inductor\nof \nH for \n, is \n\n \nelectric-circuits</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The switch in the ﬁgure below was closed for a long time. It is opened at \n. The current in the inductor\nof \nH for \n, is \n\n \nelectric-circuits",
+      "id": "gate-ee-2017-s1-q31",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 31,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 21",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>In the circuit shown below, the maximum power transferred to the resistor \n is ______ W.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown below, the maximum power transferred to the resistor \n is ______ W.",
+      "id": "gate-ee-2017-s1-q32",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 32,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>For the given \n-port network, the value of transfer impedance \n in ohms is _________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the given \n-port network, the value of transfer impedance \n in ohms is _________.",
+      "id": "gate-ee-2017-s1-q33",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 33,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 23",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The initial charge in the \n F capacitor present in the circuit shown is zero. The energy in joules transferred\nfrom the \n source until steady state condition is reached equals _________. (Give the answer up to one\ndecimal place.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The initial charge in the \n F capacitor present in the circuit shown is zero. The energy in joules transferred\nfrom the \n source until steady state condition is reached equals _________. (Give the answer up to one\ndecimal place.)",
+      "id": "gate-ee-2017-s1-q34",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 34,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 24",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>In the circuit shown below, the value of capacitor \n required for maximum power to be transferred to the\nload is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown below, the value of capacitor \n required for maximum power to be transferred to the\nload is",
+      "id": "gate-ee-2017-s1-q35",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 35,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 25",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>For the circuit shown in the ﬁgure below, it is given that \n. The transistor has \n and \n when the \n junction is forward biased.\nFor this circuit, the value of \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the circuit shown in the ﬁgure below, it is given that \n. The transistor has \n and \n when the \n junction is forward biased.\nFor this circuit, the value of \n is",
+      "id": "gate-ee-2017-s1-q36",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 36,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 26",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 38,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>For the circuit shown below, assume that the \n is ideal.\nWhich one of the following is TRUE?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the circuit shown below, assume that the \n is ideal.\nWhich one of the following is TRUE?",
+      "id": "gate-ee-2017-s1-q37",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 37,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 27",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>A thin soap bubble of radius \n cm, and thickness \n, is at a potential of \n V with\nrespect to a reference point at inﬁnity. The bubble bursts and becomes a single spherical drop of a soap\n(assuming all the soap is contained in the drop) of radius \n. The volume of the soap in the thin bubble is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A thin soap bubble of radius \n cm, and thickness \n, is at a potential of \n V with\nrespect to a reference point at inﬁnity. The bubble bursts and becomes a single spherical drop of a soap\n(assuming all the soap is contained in the drop) of radius \n. The volume of the soap in the thin bubble is",
+      "id": "gate-ee-2017-s1-q38",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 38,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 28",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>For the balanced \n connected \n-phase circuit shown in the ﬁgure below, the line-line voltage is \nV rms and the total power absorbed by the load is \n W at a power factor of \n leading.\nThe approximate value of the impedance \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the balanced \n connected \n-phase circuit shown in the ﬁgure below, the line-line voltage is \nV rms and the total power absorbed by the load is \n W at a power factor of \n leading.\nThe approximate value of the impedance \n is",
+      "id": "gate-ee-2017-s1-q39",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 39,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 29",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 41,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>For the network given in the figure below, the Thevenin's voltage \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the network given in the figure below, the Thevenin's voltage \n is",
+      "id": "gate-ee-2017-s1-q40",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 40,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 30",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 12,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>The slope and level detector circuit in a \n has a delay of \nns. The start - stop sweep generator has\na response time of \nns. In order to display correctly, a delay line of</p>",
+      "options": [
+        "ns has to be inserted into the -channel",
+        "ns has to be inserted into the -channel",
+        "ns has to be inserted into both and -channels",
+        "ns has to be inserted into both and -channels"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "ns has to be inserted into the -channel",
+          "html": "ns has to be inserted into the -channel"
+        },
+        {
+          "label": "B",
+          "text": "ns has to be inserted into the -channel",
+          "html": "ns has to be inserted into the -channel"
         },
         {
           "label": "C",
-          "text": "$f^{\\prime}$ is continuous over $\\mathbb{R}$",
-          "html": "$f^{\\prime}$ is continuous over $\\mathbb{R}$"
+          "text": "ns has to be inserted into both and -channels",
+          "html": "ns has to be inserted into both and -channels"
         },
         {
           "label": "D",
-          "text": "$f^{\\prime}$ is not differentiable over $\\mathbb{R}$",
-          "html": "$f^{\\prime}$ is not differentiable over $\\mathbb{R}$"
+          "text": "ns has to be inserted into both and -channels",
+          "html": "ns has to be inserted into both and -channels"
         }
       ],
-      "answer": [
-        "A",
-        "C",
-        "D"
-      ],
-      "tolerance": null,
+      "raw_content": "The slope and level detector circuit in a \n has a delay of \nns. The start - stop sweep generator has\na response time of \nns. In order to display correctly, a delay line of \nA\n. \nns has to be inserted into the \n-channel\nB\n. \nns has to be inserted into the \n-channel\nC\n. \nns has to be inserted into both \n and \n-channels\nD\n. \nns has to be inserted into both \n and \n-channels",
+      "id": "gate-ee-2017-s1-q41",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 41,
       "marks": 2,
-      "negativeMarks": 0,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/523044/gate-cse-2026-set-1-question-36",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523044/gate-cse-2026-set-1-question-36"
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2017 | EE Question: 31",
+      "answer": "D"
     },
     {
-      "id": "gate-ee-2017-s1-q64",
-      "testId": "gate-ee-2017-s1",
       "year": 2017,
       "set": 1,
-      "yearSetKey": "2026-s1",
-      "orderIndex": 64,
+      "qno": 23,
       "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 54",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Matrices",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "Let $X$ be a random variable which takes values in the set $\\{1,2,3,4,5,6,7,8\\}$. Further, $\\operatorname{Pr}(X=1)=\\operatorname{Pr}(X=2)=\\operatorname{Pr}(X=5)=\\operatorname{Pr}(X=7)=\\frac{1}{6}$ and $\\operatorname{Pr}(X=3)=\\operatorname{Pr}(X=4)=\\operatorname{Pr}(X=6)=\\operatorname{Pr}(X=8)=\\frac{1}{12}$.<br>\n<br>\nThe expected value of $X$, denoted by $E[X]$, is equal to $\\_\\_\\_\\_$. (rounded off to two decimal places)",
-      "rawQuestionHtml": "\n<a name=\"523032\"></a><div itemprop=\"text\">Let $X$ be a random variable which takes values in the set $\\{1,2,3,4,5,6,7,8\\}$. Further, $\\operatorname{Pr}(X=1)=\\operatorname{Pr}(X=2)=\\operatorname{Pr}(X=5)=\\operatorname{Pr}(X=7)=\\frac{1}{6}$ and $\\operatorname{Pr}(X=3)=\\operatorname{Pr}(X=4)=\\operatorname{Pr}(X=6)=\\operatorname{Pr}(X=8)=\\frac{1}{12}$.<br>\n<br>\nThe expected value of $X$, denoted by $E[X]$, is equal to $\\_\\_\\_\\_$. (rounded off to two decimal places)</div>\n",
+      "question": "<p>The following measurements are obtained on a single phase load \n%, \n% and\n%. If the power factor is calculated using these measurements, the worst case error in the\ncalculated power factor in percent is _______. (Give answer up to one decimal place.)</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "4.25"
-      ],
-      "tolerance": {
-        "abs": 0.009999999999999787
-      },
+      "raw_content": "The following measurements are obtained on a single phase load \n%, \n% and\n%. If the power factor is calculated using these measurements, the worst case error in the\ncalculated power factor in percent is _______. (Give answer up to one decimal place.)",
+      "id": "gate-ee-2017-s1-q42",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 42,
       "marks": 2,
-      "negativeMarks": 0,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 32",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-2017-s1-q65",
-      "testId": "gate-ee-2017-s1",
       "year": 2017,
-      "set": 2,
-      "yearSetKey": "2026-s2",
-      "orderIndex": 65,
+      "set": 1,
+      "qno": 47,
       "section": "EE",
-      "title": "GATE EE 2017 | EE Question: 55",
-      "subject": "Engineering Mathematics",
-      "subjectSlug": "engg-math",
-      "topic": "Linear Algebra & Matrices",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "The determinant of a $4 \\times 4$ matrix $A$ is $3$. The value of the determinant of $2 A$ is $\\_\\_\\_\\_$. (answer in integer)",
-      "rawQuestionHtml": "\n<a name=\"523094\"></a><div itemprop=\"text\">The determinant of a $4 \\times 4$ matrix $A$ is $3$. The value of the determinant of $2 A$ is $\\_\\_\\_\\_$. (answer in integer)</div>\n",
+      "question": "<p>A \n digit timer counter possesses a base clock of frequency \n MHz. When measuring a particular\ninput, the reading obtained is the same in:\ni\n. \nFrequency mode of operation with a gating time of one second and\nii\n. \n Period mode of operation (in the \nns scale).\nThe frequency of the unknown input (reading obtained) in Hz is _______.\n\n \nnumerical-answers\n \nelectrical-and-electronic-measurements</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "48"
-      ],
-      "tolerance": {
-        "abs": 0.01
-      },
+      "raw_content": "A \n digit timer counter possesses a base clock of frequency \n MHz. When measuring a particular\ninput, the reading obtained is the same in:\ni\n. \nFrequency mode of operation with a gating time of one second and\nii\n. \n Period mode of operation (in the \nns scale).\nThe frequency of the unknown input (reading obtained) in Hz is _______.\n\n \nnumerical-answers\n \nelectrical-and-electronic-measurements",
+      "id": "gate-ee-2017-s1-q43",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 43,
       "marks": 2,
-      "negativeMarks": 0,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/523094/gate-cse-2026-set-2-question-52",
-      "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/523094/gate-cse-2026-set-2-question-52"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 33",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>Two resistors with nominal resistance values \n and \n have additive uncertainties \n and \n,\nrespectively. When these resistances are connected in parallel, the standard deviation of the error in the\nequivalent resistance \n is</p>",
+      "options": [
+        "B .",
+        "D ."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D .",
+          "html": "D ."
+        }
+      ],
+      "raw_content": "Two resistors with nominal resistance values \n and \n have additive uncertainties \n and \n,\nrespectively. When these resistances are connected in parallel, the standard deviation of the error in the\nequivalent resistance \n is\nA\n. \nB\n. \nC\n. \nD\n.",
+      "id": "gate-ee-2017-s1-q44",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 44,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2017 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A stationary closed Lissajous pattern on an oscilloscope has \n horizontal tangencies and \n vertical\ntangencies for a horizontal input with frequency \nkHz. The frequency of the vertical input is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A stationary closed Lissajous pattern on an oscilloscope has \n horizontal tangencies and \n vertical\ntangencies for a horizontal input with frequency \nkHz. The frequency of the vertical input is",
+      "id": "gate-ee-2017-s1-q45",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 45,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 35",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \nV DC series motor runs drawing a current of \n A from the supply. Armature and ﬁeld circuit\nresistances are \n and \n, respectively. The load torque varies as the square of the speed. The ﬂux\nin the motor may be taken as being proportional to the armature current. To reduce the speed of the motor by \n%, the resistance in ohms that should be added in series with the armature is ______. (Give the answer up to\ntwo decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \nV DC series motor runs drawing a current of \n A from the supply. Armature and ﬁeld circuit\nresistances are \n and \n, respectively. The load torque varies as the square of the speed. The ﬂux\nin the motor may be taken as being proportional to the armature current. To reduce the speed of the motor by \n%, the resistance in ohms that should be added in series with the armature is ______. (Give the answer up to\ntwo decimal places.)",
+      "id": "gate-ee-2017-s1-q46",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 46,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 36",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A separately excited \n generator supplies \nA to a \nV DC grid. The generator is running at \nRPM. The armature resistance of the generator is \n. If the speed of the generator is increased to \n RPM, the current in amperes supplied by the generator to the \n grid is ______. (Give the answer up to\none decimal place.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A separately excited \n generator supplies \nA to a \nV DC grid. The generator is running at \nRPM. The armature resistance of the generator is \n. If the speed of the generator is increased to \n RPM, the current in amperes supplied by the generator to the \n grid is ______. (Give the answer up to\none decimal place.)",
+      "id": "gate-ee-2017-s1-q47",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 47,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 37",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n-phase, \n-pole, \nV, \nHz squirrel-cage induction motor is operating at a slip of \n. The speed of\nthe rotor flux in mechanical rad/sec, sensed by a stationary observer, is closest to\n\n \nelectrical-machines\n \nnumerical-answers</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-phase, \n-pole, \nV, \nHz squirrel-cage induction motor is operating at a slip of \n. The speed of\nthe rotor flux in mechanical rad/sec, sensed by a stationary observer, is closest to\n\n \nelectrical-machines\n \nnumerical-answers",
+      "id": "gate-ee-2017-s1-q48",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 48,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 38",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V, \n kW, \n rpm separately excited \n motor has an armature resistance \n. When\nthe motor operates at rated speed and with rated terminal voltage, the electromagnetic torque developed\nby the motor is \nNm. Neglecting the rotational losses of the machine, the current drawn by the motor from the \nV supply is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V, \n kW, \n rpm separately excited \n motor has an armature resistance \n. When\nthe motor operates at rated speed and with rated terminal voltage, the electromagnetic torque developed\nby the motor is \nNm. Neglecting the rotational losses of the machine, the current drawn by the motor from the \nV supply is",
+      "id": "gate-ee-2017-s1-q49",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 49,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 39",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 42,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V DC shunt motor takes \nA at no load. It takes \nA on full load while running at \n rpm. The\narmature resistance is \n, and the shunt ﬁeld resistance is \n. The no load speed, in rpm, is\n_________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V DC shunt motor takes \nA at no load. It takes \nA on full load while running at \n rpm. The\narmature resistance is \n, and the shunt ﬁeld resistance is \n. The no load speed, in rpm, is\n_________.",
+      "id": "gate-ee-2017-s1-q50",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 50,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A star-connected, \nk W, \n V (line), \n-phase, \nHz squirrel cage induction motor has following\nequivalent circuit parameters per phase referred to the stator: \n. Neglect shunt branch in the equivalent circuit. The\nstarting current (in Ampere) for this motor when connected to an \n V (line), \n Hz, \n-phase AC source is\n_________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A star-connected, \nk W, \n V (line), \n-phase, \nHz squirrel cage induction motor has following\nequivalent circuit parameters per phase referred to the stator: \n. Neglect shunt branch in the equivalent circuit. The\nstarting current (in Ampere) for this motor when connected to an \n V (line), \n Hz, \n-phase AC source is\n_________.",
+      "id": "gate-ee-2017-s1-q51",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 51,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>If a synchronous motor is running at a leading power factor, its excitation induced voltage \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If a synchronous motor is running at a leading power factor, its excitation induced voltage \n is",
+      "id": "gate-ee-2017-s1-q52",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 52,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 45,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>If the primary line voltage rating is \nkV (Y side) of a \nkVA, \n transformer (the per phase turns\nratio is \n), then the line current rating of the secondary side (in Ampere) is _______.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If the primary line voltage rating is \nkV (Y side) of a \nkVA, \n transformer (the per phase turns\nratio is \n), then the line current rating of the secondary side (in Ampere) is _______.",
+      "id": "gate-ee-2017-s1-q53",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 53,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 44,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The magnitude of magnetic ﬂux density (B) in micro Teslas \n, at the centre of a loop of wire wound as\na regular hexagon of side length \n carrying a current \n, and placed in vacuum as shown in the\nfigure is _________. (Give the answer up to two decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The magnitude of magnetic ﬂux density (B) in micro Teslas \n, at the centre of a loop of wire wound as\na regular hexagon of side length \n carrying a current \n, and placed in vacuum as shown in the\nfigure is _________. (Give the answer up to two decimal places.)",
+      "id": "gate-ee-2017-s1-q54",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 54,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>Consider an electron, a neutron and a proton initially at rest and placed along a straight line such that the\nneutron is exactly at the center of the line joining the electron and proton. At \n, the particles are\nreleased but are constrained to move along the same straight line. Which of these will collide first?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider an electron, a neutron and a proton initially at rest and placed along a straight line such that the\nneutron is exactly at the center of the line joining the electron and proton. At \n, the particles are\nreleased but are constrained to move along the same straight line. Which of these will collide first?",
+      "id": "gate-ee-2017-s1-q55",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 55,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 2,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>Consider a solid sphere of radius \n cm made of a perfect electric conductor. If one million electrons are\nadded to this sphere, these electrons will be distributed</p>",
+      "options": [
+        "Uniformly over the entire volume of the sphere.",
+        "Uniformly over the outer surface of the sphere.",
+        "Concentrated around the centre of the sphere.",
+        "Along a straight line passing through the centre of the sphere. electromagnetic-fields"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Uniformly over the entire volume of the sphere.",
+          "html": "Uniformly over the entire volume of the sphere."
+        },
+        {
+          "label": "B",
+          "text": "Uniformly over the outer surface of the sphere.",
+          "html": "Uniformly over the outer surface of the sphere."
+        },
+        {
+          "label": "C",
+          "text": "Concentrated around the centre of the sphere.",
+          "html": "Concentrated around the centre of the sphere."
+        },
+        {
+          "label": "D",
+          "text": "Along a straight line passing through the centre of the sphere. electromagnetic-fields",
+          "html": "Along a straight line passing through the centre of the sphere. electromagnetic-fields"
+        }
+      ],
+      "raw_content": "Consider a solid sphere of radius \n cm made of a perfect electric conductor. If one million electrons are\nadded to this sphere, these electrons will be distributed\nA\n. \nUniformly over the entire volume of the sphere.\nB\n. \nUniformly over the outer surface of the sphere.\nC\n. \nConcentrated around the centre of the sphere.\nD\n. \nAlong a straight line passing through the centre of the sphere.\n\n \nelectromagnetic-fields",
+      "id": "gate-ee-2017-s1-q56",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 56,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2017 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 4,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A solid iron cylinder is placed in a region containing a uniform magnetic ﬁeld such that the cylinder axis is\nparallel to the magnetic field direction. The magnetic field lines inside the cylinder will\n\n \nelectromagnetic-theory\nFaraday Law \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A solid iron cylinder is placed in a region containing a uniform magnetic ﬁeld such that the cylinder axis is\nparallel to the magnetic field direction. The magnetic field lines inside the cylinder will\n\n \nelectromagnetic-theory\nFaraday Law \n(1",
+      "id": "gate-ee-2017-s1-q57",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 57,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 26,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Let \n and \n.\nConsider the composition of \n and \n, i.e., \n. The number of discontinuities in \npresent in the interval \n is:\n\n \ncalculus\n \ncontinuity\nContinuity and Differentiability \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n and \n.\nConsider the composition of \n and \n, i.e., \n. The number of discontinuities in \npresent in the interval \n is:\n\n \ncalculus\n \ncontinuity\nContinuity and Differentiability \n(2",
+      "id": "gate-ee-2017-s1-q58",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 58,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 48",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 26,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>A function \n is defined as\n, where \nWhich one of the following statement is TRUE?</p>",
+      "options": [
+        "is NOT differentiable at for any values of and .",
+        "is differentiable at for the unique values of and .",
+        "is differentiable at for all values of and such that .",
+        "is differentiable at for all values of and . calculus continuity-and-differentiability Answer key ☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "is NOT differentiable at for any values of and .",
+          "html": "is NOT differentiable at for any values of and ."
+        },
+        {
+          "label": "B",
+          "text": "is differentiable at for the unique values of and .",
+          "html": "is differentiable at for the unique values of and ."
+        },
+        {
+          "label": "C",
+          "text": "is differentiable at for all values of and such that .",
+          "html": "is differentiable at for all values of and such that ."
+        },
+        {
+          "label": "D",
+          "text": "is differentiable at for all values of and . calculus continuity-and-differentiability Answer key ☟",
+          "html": "is differentiable at for all values of and . calculus continuity-and-differentiability Answer key ☟"
+        }
+      ],
+      "raw_content": "A function \n is defined as\n, where \nWhich one of the following statement is TRUE?\nA\n. \n is NOT differentiable at \n for any values of \n and \n.\nB\n. \n is differentiable at \n for the unique values of \n and \n.\nC\n. \n is differentiable at \n for all values of \n and \n such that \n.\nD\n. \n is differentiable at \n for all values of \n and \n.\n\n \ncalculus\n \ncontinuity-and-differentiability\nAnswer key\n☟",
+      "id": "gate-ee-2017-s1-q59",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 59,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2017 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 27,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The value of the contour integral in the complex plane  \n along the contour \n, taken\ncounter- clockwise is\n\n \ncalculus\n \ncontour-integral\nContour Plots \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The value of the contour integral in the complex plane  \n along the contour \n, taken\ncounter- clockwise is\n\n \ncalculus\n \ncontour-integral\nContour Plots \n(1",
+      "id": "gate-ee-2017-s1-q60",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 60,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 19,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>Let \n and \n be integers satisfying the following equations\nThe value of \n is _______.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n and \n be integers satisfying the following equations\nThe value of \n is _______.",
+      "id": "gate-ee-2017-s1-q61",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 61,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 51",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 20,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>Let \n and \n. The value of \n equals _________. (Give the answer up to\nthree decimal places).</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n and \n. The value of \n equals _________. (Give the answer up to\nthree decimal places).",
+      "id": "gate-ee-2017-s1-q62",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 62,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 52",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 17,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>Let \n, where \n is the region shown in the ﬁgure and \n. The value of \nequals _________. (Give the answer up to two decimal places.)\n∯\n∯</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n, where \n is the region shown in the ﬁgure and \n. The value of \nequals _________. (Give the answer up to two decimal places.)\n∯\n∯",
+      "id": "gate-ee-2017-s1-q63",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 63,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 3,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "MCQ",
+      "question": "<p>The ﬁgures show diagramatic representations of vector ﬁelds \n respectively. Which one of the\nfollowing choices is true?</p>",
+      "options": [
+        "B .",
+        "D ."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D .",
+          "html": "D ."
+        }
+      ],
+      "raw_content": "The ﬁgures show diagramatic representations of vector ﬁelds \n respectively. Which one of the\nfollowing choices is true?\nA\n. \nB\n. \nC\n. \nD\n.",
+      "id": "gate-ee-2017-s1-q64",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 64,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2017 | EE Question: 54",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 2,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>For a complex number \n is\n\n \ncalculus\n \nlimits\n \ncomplex-number</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For a complex number \n is\n\n \ncalculus\n \nlimits\n \ncomplex-number",
+      "id": "gate-ee-2017-s1-q65",
+      "testId": "gate-ee-2017-s1",
+      "orderIndex": 65,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 55",
+      "answer": "D"
     }
   ]
 }

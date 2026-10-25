@@ -5,400 +5,1456 @@
   "icon": "💾",
   "color": "from-sky-500/20 to-indigo-500/20",
   "borderColor": "border-sky-500/30",
-  "totalQuestions": 15,
+  "totalQuestions": 51,
   "topics": [
     {
       "name": "Diodes, BJT & MOSFET Circuits",
-      "questionCount": 3
+      "questionCount": 12
     },
     {
       "name": "Operational Amplifiers & Applications",
-      "questionCount": 3
+      "questionCount": 12
     },
     {
       "name": "Combinational & Sequential Logic Design",
-      "questionCount": 3
+      "questionCount": 12
     },
     {
       "name": "Microprocessors & Data Converters",
-      "questionCount": 3
+      "questionCount": 12
     }
   ],
   "questions": [
     {
       "id": "gate-ee-anal-q1",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — Analog & Digital | Operational Amplifiers & Applications",
+      "title": "GATE EE 2026 | EE Question: 17",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
       "topic": "Operational Amplifiers & Applications",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
+      "type": "MCQ",
+      "question": "<p>The figure shows a straight-line approximation for the forward characteristics of  \na power diode. A continuous on-state current of 15 A is flowing through the \ndiode.  \n \nWhat is the power loss in the diode?</p>",
+      "options": [
+        "32.8 W",
+        "21.2 W",
+        "18.6 W",
+        "23.1 W"
       ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "32.8 W",
+          "html": "32.8 W"
+        },
+        {
+          "label": "B",
+          "text": "21.2 W",
+          "html": "21.2 W"
+        },
+        {
+          "label": "C",
+          "text": "18.6 W",
+          "html": "18.6 W"
+        },
+        {
+          "label": "D",
+          "text": "23.1 W",
+          "html": "23.1 W"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q2",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q2",
+      "title": "GATE EE 2026 | EE Question: 18",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>Consider the circuit shown in Figure (a). A gate pulse vg is applied between time \ninstants t0 and t1. After t1, during the MOSFET turn OFF process, it experiences a \nvoltage overshoot.  \n       \n(a)                                                                (b) \nBased on the vds waveforms shown in Figure (b), which one of the following \noptions is correct?</p>",
+      "options": [
+        "𝑅1 > 𝑅2 > 𝑅3",
+        "𝑅1 > 𝑅3 > 𝑅2",
+        "𝑅3 > 𝑅2 > 𝑅1",
+        "𝑅2 > 𝑅3 > 𝑅1"
       ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝑅1 > 𝑅2 > 𝑅3",
+          "html": "𝑅1 > 𝑅2 > 𝑅3"
+        },
+        {
+          "label": "B",
+          "text": "𝑅1 > 𝑅3 > 𝑅2",
+          "html": "𝑅1 > 𝑅3 > 𝑅2"
+        },
+        {
+          "label": "C",
+          "text": "𝑅3 > 𝑅2 > 𝑅1",
+          "html": "𝑅3 > 𝑅2 > 𝑅1"
+        },
+        {
+          "label": "D",
+          "text": "𝑅2 > 𝑅3 > 𝑅1",
+          "html": "𝑅2 > 𝑅3 > 𝑅1"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q3",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q3",
+      "title": "GATE EE 2026 | EE Question: 23",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
+      "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
+      "question": "<p>In the linear regulator circuit shown, the base to emitter voltage VBE of the BJT  \nis 0.6 V. The Zener diode clamps the base voltage to 5.4 V. Ignore the biasing \ncurrent of the Zener diode and BJT.  \nThe maximum possible efficiency of the regulator circuit is ___________ %  \n(Round off to one decimal place)</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "-5.0"
+        "47.75"
       ],
       "tolerance": {
-        "min": -5.1,
-        "max": -4.9
+        "min": 47.5,
+        "max": 48.0
       },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>47.75</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q4",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 4,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q4",
+      "title": "GATE EE 2026 | EE Question: 24",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Diodes, BJT & MOSFET Circuits",
+      "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
+      "question": "<p>Consider the circuit shown. Assume that the diode D is ideal. The supply voltage \nvs = 325 sin(2𝜋50𝑡) V, 𝐿 = 500 µH, and 𝑅 =  10 Ω. The peak diode current (in \namperes) is ______________   \n(Round off to one decimal place)</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "-5.0"
+        "32.4"
       ],
       "tolerance": {
-        "min": -5.1,
-        "max": -4.9
+        "min": 32.3,
+        "max": 32.5
       },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>32.4</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q5",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 5,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q5",
+      "title": "GATE EE 2026 | EE Question: 36",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
       "topic": "Operational Amplifiers & Applications",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
+      "type": "MCQ",
+      "question": "<p>The MOSFET switches shown in the circuit are ideal. \n \nWhich of the following is the correct option for Boolean logical expression of the \noutput (OUT), and the maximum possible power (P) consumed by the circuit?</p>",
+      "options": [
+        "OUT = AB + C̅ ̅̅̅̅̅̅̅̅̅̅, P = 5 mW",
+        "OUT = (A + B)C̅̅̅̅̅̅̅̅̅̅̅̅̅ , P = 5 mW",
+        "OUT = ABC̅̅̅̅̅̅̅ + C̅ , P = 7.5 mW",
+        "OUT = AB̅̅̅̅C , P = 7.5 mW"
       ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "OUT = AB + C̅ ̅̅̅̅̅̅̅̅̅̅, P = 5 mW",
+          "html": "OUT = AB + C̅ ̅̅̅̅̅̅̅̅̅̅, P = 5 mW"
+        },
+        {
+          "label": "B",
+          "text": "OUT = (A + B)C̅̅̅̅̅̅̅̅̅̅̅̅̅ , P = 5 mW",
+          "html": "OUT = (A + B)C̅̅̅̅̅̅̅̅̅̅̅̅̅ , P = 5 mW"
+        },
+        {
+          "label": "C",
+          "text": "OUT = ABC̅̅̅̅̅̅̅ + C̅ , P = 7.5 mW",
+          "html": "OUT = ABC̅̅̅̅̅̅̅ + C̅ , P = 7.5 mW"
+        },
+        {
+          "label": "D",
+          "text": "OUT = AB̅̅̅̅C , P = 7.5 mW",
+          "html": "OUT = AB̅̅̅̅C , P = 7.5 mW"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q6",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 6,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q6",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-anal-q7",
-      "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
-      "orderIndex": 7,
-      "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q7",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-anal-q8",
-      "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
-      "orderIndex": 8,
-      "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q8",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Diodes, BJT & MOSFET Circuits",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
-    },
-    {
-      "id": "gate-ee-anal-q9",
-      "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
-      "orderIndex": 9,
-      "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q9",
+      "title": "GATE EE 2026 | EE Question: 51",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
       "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
+      "question": "<p>Consider the circuit shown. Assume that the diode (D) is ideal. \n \nGiven vs  =  100 sin(2𝜋50𝑡) V, 𝑉𝑑𝑐  =  50 V, and 𝑅 =  10 Ω, the average value \nof the current through the diode is ___________ A \n(Round off to two decimal places)</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "-5.0"
+        "1.09"
       ],
       "tolerance": {
-        "min": -5.1,
-        "max": -4.9
+        "min": 1.04,
+        "max": 1.14
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>1.09</strong>.</p></div>"
     },
     {
+      "year": 2025,
+      "set": 1,
+      "qno": 28,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>In the circuit, \n is an ideal current source. The transistors \n and \n are assumed to be biased in\nsaturation, wherein \n is the input signal and \n is ﬁxed \n voltage. Both transistors have a small\nsignal resistance of \n and trans-conductance of \n. The small signal output impedance of this circuit is\ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit, \n is an ideal current source. The transistors \n and \n are assumed to be biased in\nsaturation, wherein \n is the input signal and \n is ﬁxed \n voltage. Both transistors have a small\nsignal resistance of \n and trans-conductance of \n. The small signal output impedance of this circuit is\ngate2025",
+      "id": "gate-ee-anal-q7",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 7,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 1",
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>Which one of the following statements is true about the small signal voltage gain of a MOSFET based\nsingle stage amplifier?</p>",
+      "options": [
+        "Common source and common gate amplifiers are both inverting amplifiers",
+        "Common source and common gate amplifiers are both non-inverting amplifiers",
+        "Common source amplifier is inverting and common gate amplifier is non-inverting amplifier",
+        "Common source amplifier is non-inverting and common gate amplifier is inverting amplifier gate2025"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Common source and common gate amplifiers are both inverting amplifiers",
+          "html": "Common source and common gate amplifiers are both inverting amplifiers"
+        },
+        {
+          "label": "B",
+          "text": "Common source and common gate amplifiers are both non-inverting amplifiers",
+          "html": "Common source and common gate amplifiers are both non-inverting amplifiers"
+        },
+        {
+          "label": "C",
+          "text": "Common source amplifier is inverting and common gate amplifier is non-inverting amplifier",
+          "html": "Common source amplifier is inverting and common gate amplifier is non-inverting amplifier"
+        },
+        {
+          "label": "D",
+          "text": "Common source amplifier is non-inverting and common gate amplifier is inverting amplifier gate2025",
+          "html": "Common source amplifier is non-inverting and common gate amplifier is inverting amplifier gate2025"
+        }
+      ],
+      "raw_content": "Which one of the following statements is true about the small signal voltage gain of a MOSFET based\nsingle stage amplifier?\nA\n. \nCommon source and common gate amplifiers are both inverting amplifiers\nB\n. \nCommon source and common gate amplifiers are both non-inverting amplifiers\nC\n. \nCommon source amplifier is inverting and common gate amplifier is non-inverting amplifier\nD\n. \nCommon source amplifier is non-inverting and common gate amplifier is inverting amplifier\ngate2025",
+      "id": "gate-ee-anal-q8",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 8,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "title": "GATE EE 2025 | EE Question: 2",
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The op-amps in the following circuit are ideal. The voltage gain of the circuit is \n (round oﬀ to\nthe nearest integer).\n \ngate2025</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The op-amps in the following circuit are ideal. The voltage gain of the circuit is \n (round oﬀ to\nthe nearest integer).\n \ngate2025",
+      "id": "gate-ee-anal-q9",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 9,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>Assuming ideal op-amps, the circuit represents a</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Assuming ideal op-amps, the circuit represents a",
       "id": "gate-ee-anal-q10",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
       "orderIndex": 10,
-      "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q10",
-      "subject": "Analog & Digital Electronics",
-      "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 6",
+      "answer": "C"
     },
     {
-      "id": "gate-ee-anal-q11",
-      "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
-      "orderIndex": 11,
+      "year": 2025,
+      "set": 1,
+      "qno": 12,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q11",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
+      "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
+      "question": "<p>In the following circuit, the transistor is in active mode and \n. To get \n, we replace \nwith \n. Then the ratio \n/ \n is _________.\n\n \namplifying-transistor\n \ncommom-emitter\n \nnumerical-answers\nAnalog and Digital Electronics \n(29</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "-5.0"
-      ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
+      "raw_content": "In the following circuit, the transistor is in active mode and \n. To get \n, we replace \nwith \n. Then the ratio \n/ \n is _________.\n\n \namplifying-transistor\n \ncommom-emitter\n \nnumerical-answers\nAnalog and Digital Electronics \n(29",
+      "id": "gate-ee-anal-q11",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 11,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 52",
+      "answer": "B"
     },
     {
       "id": "gate-ee-anal-q12",
       "testId": "gate-subject-electrical-analog-digital",
       "year": 2024,
+      "set": 1,
       "orderIndex": 12,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q12",
+      "title": "GATE EE 2024 | EE Question: 32",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Diodes, BJT & MOSFET Circuits",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>A BJT biasing circuit is shown in the figure, where 𝑉𝐵𝐸 = 0.7 V and 𝛽 = 100. The \nQuiescent Point values of 𝑉𝐶𝐸 and 𝐼𝐶 are respectively</p>",
+      "options": [
+        "4.6 V and 2.46 mA",
+        "3.5 V and 2.46 mA",
+        "2.61 V and 3.13 mA",
+        "4.6 V and 3.13 mA 𝑅1 = 100 kΩ 𝑅2 = 50 kΩ 𝑅𝐶 = 2 kΩ 𝑅𝐸 = 1 kΩ 𝐼𝐶 + 𝑉𝐶𝐸 _ 𝑉𝐶𝐶 = +12 V"
       ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "4.6 V and 2.46 mA",
+          "html": "4.6 V and 2.46 mA"
+        },
+        {
+          "label": "B",
+          "text": "3.5 V and 2.46 mA",
+          "html": "3.5 V and 2.46 mA"
+        },
+        {
+          "label": "C",
+          "text": "2.61 V and 3.13 mA",
+          "html": "2.61 V and 3.13 mA"
+        },
+        {
+          "label": "D",
+          "text": "4.6 V and 3.13 mA 𝑅1 = 100 kΩ 𝑅2 = 50 kΩ 𝑅𝐶 = 2 kΩ 𝑅𝐸 = 1 kΩ 𝐼𝐶 + 𝑉𝐶𝐸 _ 𝑉𝐶𝐶 = +12 V",
+          "html": "4.6 V and 3.13 mA 𝑅1 = 100 kΩ 𝑅2 = 50 kΩ 𝑅𝐶 = 2 kΩ 𝑅𝐸 = 1 kΩ 𝐼𝐶 + 𝑉𝐶𝐸 _ 𝑉𝐶𝐶 = +12 V"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q13",
       "testId": "gate-subject-electrical-analog-digital",
       "year": 2024,
+      "set": 1,
       "orderIndex": 13,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q13",
+      "title": "GATE EE 2024 | EE Question: 50",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
       "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
+      "question": "<p>In the given circuit, the diodes are ideal.  The current 𝐼 through the diode 𝐷1 in \nmilliamperes is ___________ (rounded off to two decimal places). \n \n  \n \n  \n \n1 kΩ \n1 kΩ \n1 kΩ \n1 kΩ \n𝐼 𝐷1 \n𝐷2 \n+10 V +3 V</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "-5.0"
+        "1.67"
       ],
       "tolerance": {
-        "min": -5.1,
-        "max": -4.9
+        "min": 1.64,
+        "max": 1.7
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>1.67</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q14",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 14,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q14",
+      "title": "GATE EE 2023 | EE Question: 27",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Combinational & Sequential Logic Design",
-      "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "-5.0"
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>Consider the OP AMP based circuit shown in the figure. Ignore the conduction \ndrops of diodes D1 and D2. All the components are ideal and the breakdown voltage \nof the Zener is 5 V. Which of the following statements is true?</p>",
+      "options": [
+        "The maximum and minimum values of the output voltage VO are +15 V and -10 V, respectively.",
+        "The maximum and minimum values of the output voltage VO are +5 V and -15 V, respectively.",
+        "The maximum and minimum values of the output voltage VO are +10 V and -5 V, respectively.",
+        "The maximum and minimum values of the output voltage VO are +5 V and -10 V, respectively. OP+Vin = 10sin(1000t) V 1 k 1 k VO +15 V -15 V + D1 D2DZ + -"
       ],
-      "tolerance": {
-        "min": -5.1,
-        "max": -4.9
-      },
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The maximum and minimum values of the output voltage VO are +15 V and -10 V, respectively.",
+          "html": "The maximum and minimum values of the output voltage VO are +15 V and -10 V, respectively."
+        },
+        {
+          "label": "B",
+          "text": "The maximum and minimum values of the output voltage VO are +5 V and -15 V, respectively.",
+          "html": "The maximum and minimum values of the output voltage VO are +5 V and -15 V, respectively."
+        },
+        {
+          "label": "C",
+          "text": "The maximum and minimum values of the output voltage VO are +10 V and -5 V, respectively.",
+          "html": "The maximum and minimum values of the output voltage VO are +10 V and -5 V, respectively."
+        },
+        {
+          "label": "D",
+          "text": "The maximum and minimum values of the output voltage VO are +5 V and -10 V, respectively. OP+Vin = 10sin(1000t) V 1 k 1 k VO +15 V -15 V + D1 D2DZ + -",
+          "html": "The maximum and minimum values of the output voltage VO are +5 V and -10 V, respectively. OP+Vin = 10sin(1000t) V 1 k 1 k VO +15 V -15 V + D1 D2DZ + -"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-anal-q15",
       "testId": "gate-subject-electrical-analog-digital",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 15,
       "section": "EE",
-      "title": "GATE EE Practice — Analog & Digital | Q15",
+      "title": "GATE EE 2023 | EE Question: 46",
       "subject": "Analog & Digital Electronics",
       "subjectSlug": "analog-digital",
-      "topic": "Microprocessors & Data Converters",
+      "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>An ideal op-amp in inverting amplifier configuration has input resistance $R_1 = 10\\,\\text{k}\\Omega$ and feedback resistance $R_f = 100\\,\\text{k}\\Omega$. If input voltage is $V_{\\text{in}} = 0.5\\text{ V}$, the output voltage $V_{\\text{out}} = -\\frac{R_f}{R_1} V_{\\text{in}}$ (in Volts) is ________.</p>",
+      "question": "<p>Neglecting the delays due to the logic gates in the circuit shown in figure, the \ndecimal equivalent of the binary  sequence [ABCD] of initial logic states, which \nwill not change with clock, is ____________. \n \n \n  \n \n \n \n4 \n100 V\n+\nT L = 4 \nC = 1 \n F</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "-5.0"
+        "8"
       ],
       "tolerance": {
-        "min": -5.1,
-        "max": -4.9
+        "min": 8.0,
+        "max": 8.0
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Analog & Digital Electronics):</strong></p><p>Inverting voltage gain $A_v = -\\frac{R_f}{R_1} = -\\frac{100}{10} = -10$. Output $V_{\\text{out}} = -10 \\times 0.5\\text{ V} = -5.0\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>8</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q16",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 16,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 49",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The Zener diode in circuit has a breakdown voltage of 5 V. The current gain β of \nthe transistor in the active region in 99. Ignore base -emitter voltage drop VBE. The \ncurrent through the 20 Ω resistance in milliamperes is ________(Round off to  2 \ndecimal places). \n \n \nT1\nT2 T3\nVin = 100 sin(100\n t) V\n+\nD1\n10 A VO\n+\n-\n20 \n25 V +\n10 \n7 k\n 5 V Zener\n = 99</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "250"
+      ],
+      "tolerance": {
+        "min": 245.0,
+        "max": 255.0
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>250</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q17",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 17,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 2",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>For an ideal MOSFET biased in saturation, the magnitude of the small signal \ncurrent gain for a common drain amplifier is</p>",
+      "options": [
+        "0",
+        "1",
+        "100",
+        "infinite GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "label": "C",
+          "text": "100",
+          "html": "100"
+        },
+        {
+          "label": "D",
+          "text": "infinite GATE 2022",
+          "html": "infinite GATE 2022"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q18",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 18,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 15",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>For the circuit shown below with ideal diodes, the output will be</p>",
+      "options": [
+        "𝑉௢௨௧ = 𝑉௜௡ for 𝑉௜௡ > 0",
+        "𝑉௢௨௧ = 𝑉௜௡ for 𝑉௜௡ < 0",
+        "𝑉௢௨௧ = −𝑉௜௡ for 𝑉௜௡ > 0",
+        "𝑉௢௨௧ = −𝑉௜௡ for 𝑉௜௡ < 0"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝑉௢௨௧ = 𝑉௜௡ for 𝑉௜௡ > 0",
+          "html": "𝑉௢௨௧ = 𝑉௜௡ for 𝑉௜௡ > 0"
+        },
+        {
+          "label": "B",
+          "text": "𝑉௢௨௧ = 𝑉௜௡ for 𝑉௜௡ < 0",
+          "html": "𝑉௢௨௧ = 𝑉௜௡ for 𝑉௜௡ < 0"
+        },
+        {
+          "label": "C",
+          "text": "𝑉௢௨௧ = −𝑉௜௡ for 𝑉௜௡ > 0",
+          "html": "𝑉௢௨௧ = −𝑉௜௡ for 𝑉௜௡ > 0"
+        },
+        {
+          "label": "D",
+          "text": "𝑉௢௨௧ = −𝑉௜௡ for 𝑉௜௡ < 0",
+          "html": "𝑉௢௨௧ = −𝑉௜௡ for 𝑉௜௡ < 0"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q19",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 19,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 16",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A MOD 2 and a MOD 5 up-counter when cascaded together results in a MOD ______ \ncounter. (in integer)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "10"
+      ],
+      "tolerance": {
+        "min": 10.0,
+        "max": 10.0
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>10</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q20",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 20,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 19",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The maximum clock frequency in MHz of a 4-stage ripple counter, utilizing flip-\nflops, with each flip-flop having a propagation delay of 20 ns, is ___________. \n(round off to one decimal place)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "answer": [
+        "12.5"
+      ],
+      "tolerance": {
+        "min": 12.3,
+        "max": 12.7
+      },
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>12.5</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q21",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 21,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 26",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>The output impedance of a non-ideal operational amplifier is denoted by Z୭୳୲. The \nvariation in the magnitude of Z୭୳୲ with increasing frequency, f, in the circuit shown \nbelow, is best represented by</p>",
+      "options": [
+        "(B) log(f) log(|Zout|)",
+        "GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "(B) log(f) log(|Zout|)",
+          "html": "(B) log(f) log(|Zout|)"
+        },
+        {
+          "label": "B",
+          "text": "GATE 2022",
+          "html": "GATE 2022"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-anal-q22",
+      "testId": "gate-subject-electrical-analog-digital",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 22,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 41",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>Let 𝑅 be a region in the first quadrant of the 𝑥𝑦 plane enclosed by a closed curve 𝐶 \nconsidered in counter-clockwise direction. Which of the following expressions does \nnot represent the area of the region 𝑅?</p>",
+      "options": [
+        "ඵ 𝑑𝑥𝑑𝑦 ோ",
+        "ර 𝑥𝑑𝑦 ஼",
+        "ර 𝑦𝑑𝑥 ஼",
+        "1 2 ර (𝑥𝑑𝑦 − 𝑦𝑑𝑥)஼ GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "ඵ 𝑑𝑥𝑑𝑦 ோ",
+          "html": "ඵ 𝑑𝑥𝑑𝑦 ோ"
+        },
+        {
+          "label": "B",
+          "text": "ර 𝑥𝑑𝑦 ஼",
+          "html": "ර 𝑥𝑑𝑦 ஼"
+        },
+        {
+          "label": "C",
+          "text": "ර 𝑦𝑑𝑥 ஼",
+          "html": "ර 𝑦𝑑𝑥 ஼"
+        },
+        {
+          "label": "D",
+          "text": "1 2 ර (𝑥𝑑𝑦 − 𝑦𝑑𝑥)஼ GATE 2022",
+          "html": "1 2 ර (𝑥𝑑𝑦 − 𝑦𝑑𝑥)஼ GATE 2022"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Analog & Digital Electronics):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 28,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>Let \n and \n be the vertices of a rectangle \n in the complex plane.\nAssuming that \n is traversed in counter-clockwise direction, the value of the contour integral \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n and \n be the vertices of a rectangle \n in the complex plane.\nAssuming that \n is traversed in counter-clockwise direction, the value of the contour integral \n is",
+      "id": "gate-ee-anal-q23",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 23,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 30",
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A \n-bit synchronous binary up-counter is clocked with a frequency \n.The two most signiﬁcant bits are\n together to form an output \n. Measurements show that \n is periodic, and the duration for which \n remains high in each period is \n. The clock frequency \n is ____________\n (Round oﬀ to \ndecimal places.)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n-bit synchronous binary up-counter is clocked with a frequency \n.The two most signiﬁcant bits are\n together to form an output \n. Measurements show that \n is periodic, and the duration for which \n remains high in each period is \n. The clock frequency \n is ____________\n (Round oﬀ to \ndecimal places.)\ngateee-2021",
+      "id": "gate-ee-anal-q24",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 24,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A non-ideal diode is biased with a voltage of \n, and a diode current of \n is measured. The thermal\nvoltage is \n and the ideality factor for the diode is \n. The voltage, in \n, at which the measured\ncurrent increases to \n is closest to:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A non-ideal diode is biased with a voltage of \n, and a diode current of \n is measured. The thermal\nvoltage is \n and the ideality factor for the diode is \n. The voltage, in \n, at which the measured\ncurrent increases to \n is closest to:",
+      "id": "gate-ee-anal-q25",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 25,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The value of the following complex integral, with \n representing the unit circle centered at origin in the\ncounterclockwise sense, is:\n\n \ncomplex-variables\n \ncauchys-integral-theorem\nComplex Conjugate \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The value of the following complex integral, with \n representing the unit circle centered at origin in the\ncounterclockwise sense, is:\n\n \ncomplex-variables\n \ncauchys-integral-theorem\nComplex Conjugate \n(1",
+      "id": "gate-ee-anal-q26",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 26,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 27",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 16,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>Given, \n is the gate-source voltage, \n is the drain source voltage, and \n is the threshold voltage of\nan enhancement type NMOS transistor, the conditions for transistor to be biased in saturation are\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Given, \n is the gate-source voltage, \n is the drain source voltage, and \n is the threshold voltage of\nan enhancement type NMOS transistor, the conditions for transistor to be biased in saturation are\ngate2019",
+      "id": "gate-ee-anal-q27",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 27,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 1",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The enhancement type MOSFET in the circuit below operates according to the square law. \n, the threshold voltage \n is \n mV. Ignore channel length modulation. The\noutput voltage \n is\n\n \nanalog-and-digital-electronics\n \nelectric-circuits</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The enhancement type MOSFET in the circuit below operates according to the square law. \n, the threshold voltage \n is \n mV. Ignore channel length modulation. The\noutput voltage \n is\n\n \nanalog-and-digital-electronics\n \nelectric-circuits",
+      "id": "gate-ee-anal-q28",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 28,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 2",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The output expression for the Karnaugh map shown below is\n\n \nanalog-and-digital-electronics\n \nboolean-function\n \nk-map\nKarnaugh Map \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The output expression for the Karnaugh map shown below is\n\n \nanalog-and-digital-electronics\n \nboolean-function\n \nk-map\nKarnaugh Map \n(1",
+      "id": "gate-ee-anal-q29",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 29,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 27,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The closed-loop line integral \nevaluated Counter-clockwise, is \n\n \ncomplex-variables\n \ncauchys-integral-theorem\n \nline-integral\nTrigonometry \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The closed-loop line integral \nevaluated Counter-clockwise, is \n\n \ncomplex-variables\n \ncauchys-integral-theorem\n \nline-integral\nTrigonometry \n(1",
+      "id": "gate-ee-anal-q30",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 30,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 31",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 15,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The op-amp shown in the figure is ideal. The input impedance \n is given by\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The op-amp shown in the figure is ideal. The input impedance \n is given by\ngate2018",
+      "id": "gate-ee-anal-q31",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 31,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 1",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 41,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>In the circuit shown in the ﬁgure, the bipolar junction transistor (BJT) has a current gain \n. The\nbase-emitter voltage drop is a constant, \n. The value of the Thevenin equivalent resistance \n (in \n) as shown in the figure is _________ (up to \n decimal places)\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown in the ﬁgure, the bipolar junction transistor (BJT) has a current gain \n. The\nbase-emitter voltage drop is a constant, \n. The value of the Thevenin equivalent resistance \n (in \n) as shown in the figure is _________ (up to \n decimal places)\ngate2018",
+      "id": "gate-ee-anal-q32",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 32,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 13,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The value of the integral \n in counter clockwise direction around a circle \n of radius \n with center\nat the point \n is\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The value of the integral \n in counter clockwise direction around a circle \n of radius \n with center\nat the point \n is\ngate2018",
+      "id": "gate-ee-anal-q33",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 33,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 32",
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 3,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A single phase fully controlled rectiﬁer is supplying a load with an anti-parallel diode as shown in the ﬁgure.\nAll switches and diodes are ideal. Which one of the following is true for instantaneous load voltage and\ncurrent?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single phase fully controlled rectiﬁer is supplying a load with an anti-parallel diode as shown in the ﬁgure.\nAll switches and diodes are ideal. Which one of the following is true for instantaneous load voltage and\ncurrent?",
+      "id": "gate-ee-anal-q34",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 34,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 40",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The circuit shown in the ﬁgure uses matched transistors with a thermal voltage \nm V. The base\ncurrents of the transistors are negligible. The value of the resistance \n in \n that is required to provide \n bias current for the diﬀerential ampliﬁer block shown is ________.(Give the answer up to one decimal\nplace.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The circuit shown in the ﬁgure uses matched transistors with a thermal voltage \nm V. The base\ncurrents of the transistors are negligible. The value of the resistance \n in \n that is required to provide \n bias current for the diﬀerential ampliﬁer block shown is ________.(Give the answer up to one decimal\nplace.)",
+      "id": "gate-ee-anal-q35",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 35,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 1",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>The approximate transfer characteristic for the circuit shown below with an ideal operational ampliﬁer and\ndiode will be</p>",
+      "options": [
+        "B .",
+        "D ."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D .",
+          "html": "D ."
+        }
+      ],
+      "raw_content": "The approximate transfer characteristic for the circuit shown below with an ideal operational ampliﬁer and\ndiode will be\nA\n. \nB\n. \nC\n. \nD\n.",
+      "id": "gate-ee-anal-q36",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 36,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "title": "GATE EE 2017 | EE Question: 4",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>For the circuit shown in the ﬁgure below, assume that diodes \n and \n are ideal. The \ncomponents of voltages \n and \n, respectively are</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the circuit shown in the ﬁgure below, assume that diodes \n and \n are ideal. The \ncomponents of voltages \n and \n, respectively are",
+      "id": "gate-ee-anal-q37",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 37,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 17",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>For the circuit shown in the ﬁgure below, it is given that \n. The transistor has \n and \n when the \n junction is forward biased.\nFor this circuit, the value of \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the circuit shown in the ﬁgure below, it is given that \n. The transistor has \n and \n when the \n junction is forward biased.\nFor this circuit, the value of \n is",
+      "id": "gate-ee-anal-q38",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 38,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 26",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A \n digit timer counter possesses a base clock of frequency \n MHz. When measuring a particular\ninput, the reading obtained is the same in:\ni\n. \nFrequency mode of operation with a gating time of one second and\nii\n. \n Period mode of operation (in the \nns scale).\nThe frequency of the unknown input (reading obtained) in Hz is _______.\n\n \nnumerical-answers\n \nelectrical-and-electronic-measurements</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n digit timer counter possesses a base clock of frequency \n MHz. When measuring a particular\ninput, the reading obtained is the same in:\ni\n. \nFrequency mode of operation with a gating time of one second and\nii\n. \n Period mode of operation (in the \nns scale).\nThe frequency of the unknown input (reading obtained) in Hz is _______.\n\n \nnumerical-answers\n \nelectrical-and-electronic-measurements",
+      "id": "gate-ee-anal-q39",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 39,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 33",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 27,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The value of the contour integral in the complex plane  \n along the contour \n, taken\ncounter- clockwise is\n\n \ncalculus\n \ncontour-integral\nContour Plots \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The value of the contour integral in the complex plane  \n along the contour \n, taken\ncounter- clockwise is\n\n \ncalculus\n \ncontour-integral\nContour Plots \n(1",
+      "id": "gate-ee-anal-q40",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 40,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 50",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 36,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The current state \n of a two \n ﬂip-ﬂop system is \n. Assume that the clock rise-time is much\nsmaller than the delay of the \n flip-flop. The next state of the system is\n\n \nregisters\n \nflip-flops\n \nmemory-storing-elements\nModulation Index \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The current state \n of a two \n ﬂip-ﬂop system is \n. Assume that the clock rise-time is much\nsmaller than the delay of the \n flip-flop. The next state of the system is\n\n \nregisters\n \nflip-flops\n \nmemory-storing-elements\nModulation Index \n(1",
+      "id": "gate-ee-anal-q41",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 41,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>Consider the following circuit which uses a \n-to-\n multiplexer as shown in the ﬁgure below. The Boolean\nexpression for output \n in terms of \n and \n is\n\n \nanalog-and-digital-electronics\n \ncombinational-circuits\n \nmultiplexer\nNegative Feedback \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the following circuit which uses a \n-to-\n multiplexer as shown in the ﬁgure below. The Boolean\nexpression for output \n in terms of \n and \n is\n\n \nanalog-and-digital-electronics\n \ncombinational-circuits\n \nmultiplexer\nNegative Feedback \n(1",
+      "id": "gate-ee-anal-q42",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 42,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 23,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A steady dc current of \n \n is ﬂowing through a power module \n as shown in Figure (a). The \n characteristics of the \n and the diode \n are shown in Figures \n and \n, respectively.\nThe conduction power loss in the power module \n, in watts, is _________.\n\n \nvoltage-vs-current\n \ntransistor\n \ndiode\n \nnumerical-answers\nZener Diode \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A steady dc current of \n \n is ﬂowing through a power module \n as shown in Figure (a). The \n characteristics of the \n and the diode \n are shown in Figures \n and \n, respectively.\nThe conduction power loss in the power module \n, in watts, is _________.\n\n \nvoltage-vs-current\n \ntransistor\n \ndiode\n \nnumerical-answers\nZener Diode \n(1",
+      "id": "gate-ee-anal-q43",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 43,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 10",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 12,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>A transistor circuit is given below. The Zener diode breakdown voltage is \n V as shown. Take base to\nemitter voltage drop to be \n V. The value of the current gain \n is _________.\n\n \nsemi-conductor-devices\n \nreverse-saturation-mode\n \nvoltage-divider\n \nnumerical-answers\nRl Circuit \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A transistor circuit is given below. The Zener diode breakdown voltage is \n V as shown. Take base to\nemitter voltage drop to be \n V. The value of the current gain \n is _________.\n\n \nsemi-conductor-devices\n \nreverse-saturation-mode\n \nvoltage-divider\n \nnumerical-answers\nRl Circuit \n(1",
+      "id": "gate-ee-anal-q44",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 44,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 39,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The saturation voltage of the ideal op-amp shown below is \n V. The output voltage \n of the following\ncircuit in the steady-state is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The saturation voltage of the ideal op-amp shown below is \n V. The output voltage \n of the following\ncircuit in the steady-state is",
+      "id": "gate-ee-anal-q45",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 45,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 2",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 15,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>When a bipolar junction transistor is operating in the saturation mode, which one of the following\nstatements is TRUE about the state of its collector-base \n and the base-emitter \n junctions?</p>",
+      "options": [
+        "The junction is forward biased and the junction is reverse biased.",
+        "The junction is reverse biased and the junction is forward biased.",
+        "Both the and junctions are forward biased.",
+        "Both the and junctions are reverse biased. bjt-as-switch common-emitter Boolean Function (6"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "The junction is forward biased and the junction is reverse biased.",
+          "html": "The junction is forward biased and the junction is reverse biased."
+        },
+        {
+          "label": "B",
+          "text": "The junction is reverse biased and the junction is forward biased.",
+          "html": "The junction is reverse biased and the junction is forward biased."
+        },
+        {
+          "label": "C",
+          "text": "Both the and junctions are forward biased.",
+          "html": "Both the and junctions are forward biased."
+        },
+        {
+          "label": "D",
+          "text": "Both the and junctions are reverse biased. bjt-as-switch common-emitter Boolean Function (6",
+          "html": "Both the and junctions are reverse biased. bjt-as-switch common-emitter Boolean Function (6"
+        }
+      ],
+      "raw_content": "When a bipolar junction transistor is operating in the saturation mode, which one of the following\nstatements is TRUE about the state of its collector-base \n and the base-emitter \n junctions?\nA\n. \nThe \n junction is forward biased and the \n junction is reverse biased.\nB\n. \nThe \n junction is reverse biased and the \n junction is forward biased.\nC\n. \nBoth the \n and \n junctions are forward biased.\nD\n. \nBoth the \n and \n junctions are reverse biased.\n\n \nbjt-as-switch\n \ncommon-emitter\nBoolean Function \n(6",
+      "id": "gate-ee-anal-q46",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 46,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "title": "GATE EE 2015 | EE Question: 4",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The ﬁgure shows a digital circuit constructed using negative edge triggered \n ﬂip ﬂops. Assume a\nstarting state of \n. This state \n will repeat after _______ number of cycles\nof the clock \n.\n\n \nflip-flops\n \nlatches\n \nnumerical-answers\nLeast Significant Bit \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The ﬁgure shows a digital circuit constructed using negative edge triggered \n ﬂip ﬂops. Assume a\nstarting state of \n. This state \n will repeat after _______ number of cycles\nof the clock \n.\n\n \nflip-flops\n \nlatches\n \nnumerical-answers\nLeast Significant Bit \n(2",
+      "id": "gate-ee-anal-q47",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 47,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 15,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>In the \n multiplexer, the output \n is given by \n. Find the required input \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the \n multiplexer, the output \n is given by \n. Find the required input \n.",
+      "id": "gate-ee-anal-q48",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 48,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 10",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 38,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "MCQ",
+      "question": "<p>A Boolean function \n is to be implemented using an \n multiplexer (\nis \n). The inputs \n are connected to the select inputs \n of the multiplexer respectively.\nWhich one of the following options gives the correct inputs to pins \n in order?</p>",
+      "options": [
+        "B .",
+        "D . analog-and-digital-electronics combinational-circuits multiplexer Answer key ☟"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D . analog-and-digital-electronics combinational-circuits multiplexer Answer key ☟",
+          "html": "D . analog-and-digital-electronics combinational-circuits multiplexer Answer key ☟"
+        }
+      ],
+      "raw_content": "A Boolean function \n is to be implemented using an \n multiplexer (\nis \n). The inputs \n are connected to the select inputs \n of the multiplexer respectively.\nWhich one of the following options gives the correct inputs to pins \n in order?\nA\n. \n \nB\n. \nC\n. \n \nD\n. \n\n \nanalog-and-digital-electronics\n \ncombinational-circuits\n \nmultiplexer\nAnswer key\n☟",
+      "id": "gate-ee-anal-q49",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 49,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "title": "GATE EE 2015 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>In the given circuit, the silicon transistor has \n and a collector voltage \n. Then the ratio of \n and \n is _________.\n\n \nsilicon-transistor\n \nactive-mode\n \nnumerical-answers\nSource \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the given circuit, the silicon transistor has \n and a collector voltage \n. Then the ratio of \n and \n is _________.\n\n \nsilicon-transistor\n \nactive-mode\n \nnumerical-answers\nSource \n(1",
+      "id": "gate-ee-anal-q50",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 50,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 15",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 39,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The op-amp shown in the ﬁgure has a ﬁnite gain \n and an inﬁnite input resistance. A step-\nvoltage \n is applied at the input at time \n as shown. Assuming that the operational ampliﬁer\nis not saturated, the time constant (in millisecond) of the output voltage \n is\n\n \ntime-constant\n \noperational-amplifier\nTime Response \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The op-amp shown in the ﬁgure has a ﬁnite gain \n and an inﬁnite input resistance. A step-\nvoltage \n is applied at the input at time \n as shown. Assuming that the operational ampliﬁer\nis not saturated, the time constant (in millisecond) of the output voltage \n is\n\n \ntime-constant\n \noperational-amplifier\nTime Response \n(1)",
+      "id": "gate-ee-anal-q51",
+      "testId": "gate-subject-electrical-analog-digital",
+      "orderIndex": 51,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 31",
+      "answer": "D"
     }
   ]
 }

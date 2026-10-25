@@ -16,61 +16,37 @@
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "1998-s0",
       "orderIndex": 1,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 1",
       "subject": "General Aptitude",
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>Consider the following two problems on undirected graphs:</p>\n<ul>\n<li>$\\alpha$: Given $G(V, E)$, does $G$ have an independent set of size |V| - $4$?</li>\n<li>$\\beta$: Given $G(V, E)$, does $G$ have an independent set of size $5$?</li>\n</ul>\n<p>Which one of the following is TRUE?</p>",
-      "rawQuestionHtml": "<p>Consider the following two problems on undirected graphs:</p>\n<ul>\n<li>$\\alpha$: Given $G(V, E)$, does $G$ have an independent set of size |V| - $4$?</li>\n<li>$\\beta$: Given $G(V, E)$, does $G$ have an independent set of size $5$?</li>\n</ul>\n<p>Which one of the following is TRUE?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$\\alpha$ is in P and $\\beta$ is NP-complete</p>\n</li>\n<li>\n<p>$\\alpha$ is NP-complete and $\\beta$ is in P</p>\n</li>\n<li>\n<p>Both $\\alpha$ and $\\beta$ are NP-complete</p>\n</li>\n<li>\n<p>Both $\\alpha$ and $\\beta$ are in P</p>\n</li>\n</ol>",
-      "options": [
-        "$\\alpha$ is in P and $\\beta$ is NP-complete",
-        "$\\alpha$ is NP-complete and $\\beta$ is in P",
-        "Both $\\alpha$ and $\\beta$ are NP-complete",
-        "Both $\\alpha$ and $\\beta$ are in P"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$\\alpha$ is in P and $\\beta$ is NP-complete",
-          "html": "<p>$\\alpha$ is in P and $\\beta$ is NP-complete</p>"
-        },
-        {
-          "label": "B",
-          "text": "$\\alpha$ is NP-complete and $\\beta$ is in P",
-          "html": "<p>$\\alpha$ is NP-complete and $\\beta$ is in P</p>"
-        },
-        {
-          "label": "C",
-          "text": "Both $\\alpha$ and $\\beta$ are NP-complete",
-          "html": "<p>Both $\\alpha$ and $\\beta$ are NP-complete</p>"
-        },
-        {
-          "label": "D",
-          "text": "Both $\\alpha$ and $\\beta$ are in P",
-          "html": "<p>Both $\\alpha$ and $\\beta$ are in P</p>"
-        }
-      ],
+      "type": "NAT",
+      "question": "In a computer system where the ‘best-fit’ algorithm is used for allocating ‘jobs’ to ‘memory partitions’, the following situation was encountered:$$\\begin{array}{|l|l|} \\hline  \\textbf{Partitions size in $KB$} &amp; \\textbf{$4K \\ 8K \\ 20K \\ 2K$} \\\\\\hline \\textbf{Job sizes in $KB$} &amp; \\text{$2K \\ 14K \\ 3K \\ 6K \\ 6K \\ 10K \\ 20K \\ 2K$} \\\\\\hline  \\textbf{Time for execution} &amp; \\text{$4 \\ 10 \\ 2 \\ 1 \\ 4 \\ 1 \\ 8 \\ 6$} \\\\\\hline  \\end{array}$$When will the $20K$ job complete?",
+      "rawQuestionHtml": "In a computer system where the ‘best-fit’ algorithm is used for allocating ‘jobs’ to ‘memory partitions’, the following situation was encountered:$$\\begin{array}{|l|l|} \\hline  \\textbf{Partitions size in $KB$} &amp; \\textbf{$4K \\ 8K \\ 20K \\ 2K$} \\\\\\hline \\textbf{Job sizes in $KB$} &amp; \\text{$2K \\ 14K \\ 3K \\ 6K \\ 6K \\ 10K \\ 20K \\ 2K$} \\\\\\hline  \\textbf{Time for execution} &amp; \\text{$4 \\ 10 \\ 2 \\ 1 \\ 4 \\ 1 \\ 8 \\ 6$} \\\\\\hline  \\end{array}$$When will the $20K$ job complete?",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "D"
+        "19"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "abs": 0.01
+      },
       "marks": 1,
-      "negativeMarks": 0.33,
+      "negativeMarks": 0,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1381/gate-cse-2005-question-58",
+      "link": "https://gateoverflow.in/12963/gate-cse-1998-question-7-b",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1381/gate-cse-2005-question-58"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/12963/gate-cse-1998-question-7-b"
     },
     {
       "id": "gate-ee-2019-s1-q2",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "2003-s0",
       "orderIndex": 2,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 2",
@@ -78,53 +54,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the grammar:</p>\n<p>$$E \\rightarrow E + n \\mid E \\times n \\mid n$$</p>\n<p>For a sentence $n + n \\times n$, the handles in the right-sentential form of the reduction are:</p>",
-      "rawQuestionHtml": "<p>Consider the grammar:</p>\n<p>$$E \\rightarrow E + n \\mid E \\times n \\mid n$$</p>\n<p>For a sentence $n + n \\times n$, the handles in the right-sentential form of the reduction are:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$n, E + n$ and $E + n \\times n$</p>\n</li>\n<li>\n<p>$n, E + n$ and $E + E \\times n$</p>\n</li>\n<li>\n<p>$n, n + n$ and $n + n \\times n$</p>\n</li>\n<li>\n<p>$n, E + n$ and $E \\times n$</p>\n</li>\n</ol>",
+      "question": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>",
+      "rawQuestionHtml": "<p>Consider the translation scheme shown below.</p>\n<ul>\n<li>$S \\rightarrow T\\;R$</li>\n<li>$R \\rightarrow + T \\{\\text{print}(‘+’);\\} R\\mid \\varepsilon$</li>\n<li>$T  \\rightarrow$ <strong>num </strong>$\\{\\text{print}$(<strong>num.</strong>val)$;\\}$</li>\n</ul>\n<p>Here <strong>num</strong> is a token that represents an integer and <strong>num</strong>.val represents the corresponding integer value. For an input string ‘$9 + 5 + 2$’, this translation scheme will print</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$9 + 5 + 2$</li>\n<li>$9 \\ 5 + 2 +$</li>\n<li>$9 \\ 5 \\ 2 + +$</li>\n<li>$+ + 9 \\ 5 \\ 2$</li>\n</ol>",
       "options": [
-        "$n, E + n$ and $E + n \\times n$",
-        "$n, E + n$ and $E + E \\times n$",
-        "$n, n + n$ and $n + n \\times n$",
-        "$n, E + n$ and $E \\times n$"
+        "$9 + 5 + 2$",
+        "$9 \\ 5 + 2 +$",
+        "$9 \\ 5 \\ 2 + +$",
+        "$+ + 9 \\ 5 \\ 2$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$n, E + n$ and $E + n \\times n$",
-          "html": "<p>$n, E + n$ and $E + n \\times n$</p>"
+          "text": "$9 + 5 + 2$",
+          "html": "$9 + 5 + 2$"
         },
         {
           "label": "B",
-          "text": "$n, E + n$ and $E + E \\times n$",
-          "html": "<p>$n, E + n$ and $E + E \\times n$</p>"
+          "text": "$9 \\ 5 + 2 +$",
+          "html": "$9 \\ 5 + 2 +$"
         },
         {
           "label": "C",
-          "text": "$n, n + n$ and $n + n \\times n$",
-          "html": "<p>$n, n + n$ and $n + n \\times n$</p>"
+          "text": "$9 \\ 5 \\ 2 + +$",
+          "html": "$9 \\ 5 \\ 2 + +$"
         },
         {
           "label": "D",
-          "text": "$n, E + n$ and $E \\times n$",
-          "html": "<p>$n, E + n$ and $E \\times n$</p>"
+          "text": "$+ + 9 \\ 5 \\ 2$",
+          "html": "$+ + 9 \\ 5 \\ 2$"
         }
       ],
       "answer": [
-        "D"
+        "B"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1382/gate-cse-2005-question-59",
+      "link": "https://gateoverflow.in/946/gate-cse-2003-question-58",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1382/gate-cse-2005-question-59"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/946/gate-cse-2003-question-58"
     },
     {
       "id": "gate-ee-2019-s1-q3",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2005-s0",
+      "yearSetKey": "2003-s0",
       "orderIndex": 3,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 3",
@@ -132,34 +108,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the grammar:</p>\n<p>$$S \\rightarrow (S) \\mid a$$</p>\n<p>Let the number of states in SLR (1), LR(1) and LALR(1) parsers for the grammar be $n_1, n_2$ and $n_3$ respectively. The following relationship holds good:</p>",
-      "rawQuestionHtml": "<p>Consider the grammar:</p>\n<p>$$S \\rightarrow (S) \\mid a$$</p>\n<p>Let the number of states in SLR (1), LR(1) and LALR(1) parsers for the grammar be $n_1, n_2$ and $n_3$ respectively. The following relationship holds good:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$n_1 &lt; n_2 &lt; n_3$</li>\n<li>$n_1 = n_3 &lt; n_2$</li>\n<li>$n_1 = n_2 = n_3$</li>\n<li>$n_1 \\geq n_3 \\geq n_2$</li>\n</ol>",
+      "question": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>",
+      "rawQuestionHtml": "<p>Consider the syntax directed definition shown below.$$\\begin{array}{ll}<br/>\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\<br/>\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp;\\\\<br/>\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\<br/>\n&amp;\\qquad E.place = t;\\}\\\\<br/>\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}<br/>\n\\end{array}$$Here, $gen$ is a function that generates the output code, and $newtemp$ is a function that returns the name of a new temporary variable on every call. Assume that $t_i'$s are the temporary variable names generated by $newtemp$. For the statement $\\text{‘}X : = Y + Z\\text{'},$ the $3$-address code sequence generated by this definition is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$X = Y + Z$</li>\n<li>$t_1 = Y+Z; X=t_1$</li>\n<li>$t_1 =Y; t_2=t_1 +Z; X=t_2$</li>\n<li>$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$</li>\n</ol>",
       "options": [
-        "$n_1 &lt; n_2 &lt; n_3$",
-        "$n_1 = n_3 &lt; n_2$",
-        "$n_1 = n_2 = n_3$",
-        "$n_1 \\geq n_3 \\geq n_2$"
+        "$X = Y + Z$",
+        "$t_1 = Y+Z; X=t_1$",
+        "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+        "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$n_1 &lt; n_2 &lt; n_3$",
-          "html": "$n_1 &lt; n_2 &lt; n_3$"
+          "text": "$X = Y + Z$",
+          "html": "$X = Y + Z$"
         },
         {
           "label": "B",
-          "text": "$n_1 = n_3 &lt; n_2$",
-          "html": "$n_1 = n_3 &lt; n_2$"
+          "text": "$t_1 = Y+Z; X=t_1$",
+          "html": "$t_1 = Y+Z; X=t_1$"
         },
         {
           "label": "C",
-          "text": "$n_1 = n_2 = n_3$",
-          "html": "$n_1 = n_2 = n_3$"
+          "text": "$t_1 =Y; t_2=t_1 +Z; X=t_2$",
+          "html": "$t_1 =Y; t_2=t_1 +Z; X=t_2$"
         },
         {
           "label": "D",
-          "text": "$n_1 \\geq n_3 \\geq n_2$",
-          "html": "$n_1 \\geq n_3 \\geq n_2$"
+          "text": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$",
+          "html": "$t_1 =Y; t_2=Z; t_3=t_1+t_2; X=t_3$"
         }
       ],
       "answer": [
@@ -169,16 +145,16 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1383/gate-cse-2005-question-60",
+      "link": "https://gateoverflow.in/947/gate-cse-2003-question-59",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1383/gate-cse-2005-question-60"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/947/gate-cse-2003-question-59"
     },
     {
       "id": "gate-ee-2019-s1-q4",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2006-s0",
+      "yearSetKey": "2003-s0",
       "orderIndex": 4,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 4",
@@ -186,88 +162,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the following code written in a pass-by-reference language like&nbsp;FORTRAN and these statements about the code.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </pre>\n\n<p><strong>S1</strong>: The compiler will generate code to allocate a temporary nameless cell,&nbsp;initialize it to 13, and pass the address of the cell to swap&nbsp;<br><strong>S2</strong>: On execution the code will generate a runtime error on line L1&nbsp;<br><strong>S3</strong>: On execution the code will generate a runtime error on line L2&nbsp;<br><strong>S4</strong>: The program will print 13 and 8&nbsp;<br><strong>S5</strong>: The program will print 13 and -2&nbsp;</p>\n\n<p>Exactly the following set of statement(s) is correct:&nbsp;</p>",
-      "rawQuestionHtml": "<a name=\"1834\"></a><div itemprop=\"text\">\n<p>Consider the following code written in a pass-by-reference language like&nbsp;FORTRAN and these statements about the code.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </pre>\n\n<p><strong>S1</strong>: The compiler will generate code to allocate a temporary nameless cell,&nbsp;initialize it to 13, and pass the address of the cell to swap&nbsp;<br><strong>S2</strong>: On execution the code will generate a runtime error on line L1&nbsp;<br><strong>S3</strong>: On execution the code will generate a runtime error on line L2&nbsp;<br><strong>S4</strong>: The program will print 13 and 8&nbsp;<br><strong>S5</strong>: The program will print 13 and -2&nbsp;</p>\n\n<p>Exactly the following set of statement(s) is correct:&nbsp;</p>\n\n<ol style=\"list-style-type: upper-alpha;\"><li>S1 and S2&nbsp;</li>\n\t<li>S1 and S4&nbsp;</li>\n\t<li>S3&nbsp;</li>\n\t<li>S1 and S5&nbsp;</li>\n</ol>\n</div>",
+      "question": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>",
+      "rawQuestionHtml": "<p>A program consists of two modules executed sequentially. Let $f_1(t)$ and $f_2(t)$ respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by </p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$f_1(t)+f_2(t)$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(x)dx$</p>\n</li>\n<li>\n<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>\n</li>\n<li>\n<p>$\\max\\{f_1(t),f_2(t)\\}$</p>\n</li>\n</ol>",
       "options": [
-        "S1 and S2",
-        "S1 and S4",
-        "S3",
-        "S1 and S5"
+        "$f_1(t)+f_2(t)$",
+        "$\\int_0^t f_1(x)f_2(x)dx$",
+        "$\\int_0^t f_1(x)f_2(t-x)dx$",
+        "$\\max\\{f_1(t),f_2(t)\\}$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "S1 and S2",
-          "html": "S1 and S2&nbsp;"
+          "text": "$f_1(t)+f_2(t)$",
+          "html": "<p>$f_1(t)+f_2(t)$</p>"
         },
         {
           "label": "B",
-          "text": "S1 and S4",
-          "html": "S1 and S4&nbsp;"
+          "text": "$\\int_0^t f_1(x)f_2(x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(x)dx$</p>"
         },
         {
           "label": "C",
-          "text": "S3",
-          "html": "S3&nbsp;"
+          "text": "$\\int_0^t f_1(x)f_2(t-x)dx$",
+          "html": "<p>$\\int_0^t f_1(x)f_2(t-x)dx$</p>"
         },
         {
           "label": "D",
-          "text": "S1 and S5",
-          "html": "S1 and S5&nbsp;"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1834/gate-cse-2006-question-56-isro2009-58",
-      "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1834/gate-cse-2006-question-56-isro2009-58"
-    },
-    {
-      "id": "gate-ee-2019-s1-q5",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "set": 1,
-      "yearSetKey": "2006-s0",
-      "orderIndex": 5,
-      "section": "GA",
-      "title": "GATE EE 2019 | GA Question: 5",
-      "subject": "General Aptitude",
-      "subjectSlug": "aptitude",
-      "topic": "Verbal Aptitude & Grammar",
-      "type": "MCQ",
-      "question": "<p>Consider this C code to swap two integers and these five statements: the code</p>\n<pre class=\"prettyprint lang-c_cpp\">  <code>void swap (int *px, int *py) \n     { \n        *px = *px - *py;\n        *py = *px + *py;\n        *px = *py - *px;\n     }</code></pre>\n<p><strong>S1</strong>: will generate a compilation error </p>\n<p><strong>S2</strong>: may generate a segmentation fault at runtime depending on the arguments passed </p>\n<p><strong>S3</strong>: correctly implements the swap procedure for all input pointers referring to integers stored in memory locations accessible to the process</p>\n<p><strong>S4</strong>: implements the swap procedure correctly for some but not all valid input pointers </p>\n<p><strong>S5</strong>: may add or subtract integers and pointers</p>",
-      "rawQuestionHtml": "<p>Consider this C code to swap two integers and these five statements: the code</p>\n<pre class=\"prettyprint lang-c_cpp\">  <code>void swap (int *px, int *py) \n     { \n        *px = *px - *py;\n        *py = *px + *py;\n        *px = *py - *px;\n     }</code></pre>\n<p><strong>S1</strong>: will generate a compilation error </p>\n<p><strong>S2</strong>: may generate a segmentation fault at runtime depending on the arguments passed </p>\n<p><strong>S3</strong>: correctly implements the swap procedure for all input pointers referring to integers stored in memory locations accessible to the process</p>\n<p><strong>S4</strong>: implements the swap procedure correctly for some but not all valid input pointers </p>\n<p><strong>S5</strong>: may add or subtract integers and pointers</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>S1</li>\n<li>S2 and S3</li>\n<li>S2 and S4</li>\n<li>S2 and S5</li>\n</ol>",
-      "options": [
-        "S1",
-        "S2 and S3",
-        "S2 and S4",
-        "S2 and S5"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "S1",
-          "html": "S1"
-        },
-        {
-          "label": "B",
-          "text": "S2 and S3",
-          "html": "S2 and S3"
-        },
-        {
-          "label": "C",
-          "text": "S2 and S4",
-          "html": "S2 and S4"
-        },
-        {
-          "label": "D",
-          "text": "S2 and S5",
-          "html": "S2 and S5"
+          "text": "$\\max\\{f_1(t),f_2(t)\\}$",
+          "html": "<p>$\\max\\{f_1(t),f_2(t)\\}$</p>"
         }
       ],
       "answer": [
@@ -277,16 +199,70 @@
       "marks": 1,
       "negativeMarks": 0.33,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1835/gate-cse-2006-question-57",
+      "link": "https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45",
       "difficulty": "Medium",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1835/gate-cse-2006-question-57"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/948/gate-cse-2003-question-60-isro2007-45"
+    },
+    {
+      "id": "gate-ee-2019-s1-q5",
+      "testId": "gate-ee-2019-s1",
+      "year": 2019,
+      "set": 1,
+      "yearSetKey": "2004-s0",
+      "orderIndex": 5,
+      "section": "GA",
+      "title": "GATE EE 2019 | GA Question: 5",
+      "subject": "General Aptitude",
+      "subjectSlug": "aptitude",
+      "topic": "Verbal Aptitude & Grammar",
+      "type": "MCQ",
+      "question": "<p>A circuit outputs a digit in the form of $4$ bits. $0$ is represented by $0000, 1$ by $0001, \\ldots, 9$ by $1001$. A combinational circuit is to be designed which takes these $4$ bits as input and outputs $1$ if the digit $\\geq$ $5$, and $0$ otherwise. If only $\\textsf{AND}, \\textsf{OR}$ and $\\textsf{NOT}$ gates may be used, what is the minimum number of gates required?</p>",
+      "rawQuestionHtml": "<p>A circuit outputs a digit in the form of $4$ bits. $0$ is represented by $0000, 1$ by $0001, \\ldots, 9$ by $1001$. A combinational circuit is to be designed which takes these $4$ bits as input and outputs $1$ if the digit $\\geq$ $5$, and $0$ otherwise. If only $\\textsf{AND}, \\textsf{OR}$ and $\\textsf{NOT}$ gates may be used, what is the minimum number of gates required?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$2$</li>\n<li>$3$</li>\n<li>$4$</li>\n<li>$5$</li>\n</ol>",
+      "options": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "$2$",
+          "html": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$3$",
+          "html": "$3$"
+        },
+        {
+          "label": "C",
+          "text": "$4$",
+          "html": "$4$"
+        },
+        {
+          "label": "D",
+          "text": "$5$",
+          "html": "$5$"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "source": "GATE CSE / GateOverflow",
+      "link": "https://gateoverflow.in/1053/gate-cse-2004-question-58",
+      "difficulty": "Medium",
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1053/gate-cse-2004-question-58"
     },
     {
       "id": "gate-ee-2019-s1-q6",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2004-s0",
       "orderIndex": 6,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 6",
@@ -294,53 +270,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the table <strong>employee</strong>(empId, name, department, salary) and the two queries $Q_1, \\, Q_2$ below. Assuming that department $5$ has more than one employee, and we want to find the employees who get higher salary than anyone in the department $5,$ which one of the statements is <strong>TRUE </strong>for any arbitrary employee table?</p>\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td>$Q_1:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere not exists\n    (Select * From employee s Where s.department = \"5\" and s.salary &gt;= e.salary)\n</pre>\n</td>\n</tr>\n<tr>\n<td>$Q_2:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere e.salary &gt; Any\n    (Select distinct salary From employee s Where s.department = \"5\")\n</pre>\n</td>\n</tr>\n</tbody>\n</table>",
-      "rawQuestionHtml": "<p>Consider the table <strong>employee</strong>(empId, name, department, salary) and the two queries $Q_1, \\, Q_2$ below. Assuming that department $5$ has more than one employee, and we want to find the employees who get higher salary than anyone in the department $5,$ which one of the statements is <strong>TRUE </strong>for any arbitrary employee table?</p>\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td>$Q_1:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere not exists\n    (Select * From employee s Where s.department = \"5\" and s.salary &gt;= e.salary)\n</pre>\n</td>\n</tr>\n<tr>\n<td>$Q_2:$</td>\n<td>\n<pre class=\"sql\">Select e.empId\nFrom employee e\nWhere e.salary &gt; Any\n    (Select distinct salary From employee s Where s.department = \"5\")\n</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$Q_1$ is the correct query</li>\n<li>$Q_2$ is the correct query</li>\n<li>Both $Q_1$ and $Q_2$ produce the same answer</li>\n<li>Neither $Q_1$ nor $Q_2$ is the correct query</li>\n</ol>",
+      "question": "<p>A 4-bit carry look ahead adder, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND, NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented forms and the delay of each gate is one time unit, what is the overall propagation delay of the adder? Assume that the carry network has been implemented using two-level AND-OR logic.</p>",
+      "rawQuestionHtml": "<p>A 4-bit carry look ahead adder, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND, NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented forms and the delay of each gate is one time unit, what is the overall propagation delay of the adder? Assume that the carry network has been implemented using two-level AND-OR logic.</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>4 time units</li>\n<li>6 time units</li>\n<li>10 time units</li>\n<li>12 time units</li>\n</ol>",
       "options": [
-        "$Q_1$ is the correct query",
-        "$Q_2$ is the correct query",
-        "Both $Q_1$ and $Q_2$ produce the same answer",
-        "Neither $Q_1$ nor $Q_2$ is the correct query"
+        "4 time units",
+        "6 time units",
+        "10 time units",
+        "12 time units"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$Q_1$ is the correct query",
-          "html": "$Q_1$ is the correct query"
+          "text": "4 time units",
+          "html": "4 time units"
         },
         {
           "label": "B",
-          "text": "$Q_2$ is the correct query",
-          "html": "$Q_2$ is the correct query"
+          "text": "6 time units",
+          "html": "6 time units"
         },
         {
           "label": "C",
-          "text": "Both $Q_1$ and $Q_2$ produce the same answer",
-          "html": "Both $Q_1$ and $Q_2$ produce the same answer"
+          "text": "10 time units",
+          "html": "10 time units"
         },
         {
           "label": "D",
-          "text": "Neither $Q_1$ nor $Q_2$ is the correct query",
-          "html": "Neither $Q_1$ nor $Q_2$ is the correct query"
+          "text": "12 time units",
+          "html": "12 time units"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1259/gate-cse-2007-question-61",
+      "link": "https://gateoverflow.in/1057/gate-cse-2004-question-62",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1259/gate-cse-2007-question-61"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1057/gate-cse-2004-question-62"
     },
     {
       "id": "gate-ee-2019-s1-q7",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2004-s0",
       "orderIndex": 7,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 7",
@@ -348,34 +324,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Which one of the following statements is $\\text{FALSE}$?</p>",
-      "rawQuestionHtml": "<p>Which one of the following statements is $\\text{FALSE}$?</p>\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n<li>Any relation with two attributes is in $\\text{BCNF}$</li>\n<li>A relation in which every key has only one attribute is in $\\text{2NF}$</li>\n<li>A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation</li>\n<li>A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation</li>\n</ol>",
+      "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers $R_1, R_2$ and $R_3.$ $$\\begin{array}{|l|l|c|} \\hline \\text {Instruction}  &amp;  \\text{Operation }&amp; \\text{Instruction size} \\\\&amp;&amp; \\text{(in words)} \\\\\\hline \\text{MOV $R_1,5000$} &amp; \\text{$R_1$} \\leftarrow  \\text{Memory$[5000]$}&amp; \\text{$2$} \\\\\\hline\\text{MOV $R2,(R1)$} &amp; \\text{$R2$} \\leftarrow  \\text{Memory$[(R_1)]$}&amp; \\text{$1$} \\\\\\hline \\text{ADD $R_2,R_3$} &amp; \\text{$R2$} \\leftarrow  \\text{$R_2 + R_3$} &amp; \\text{$1$} \\\\\\hline \\text{MOV $6000,R_2$} &amp; \\text{Memory$[6000]$} \\leftarrow  \\text{$R_2$} &amp; \\text{$2$} \\\\\\hline \\text{HALT} &amp; \\text{Machine Halts} &amp; \\text{$1$} \\\\\\hline \\end{array}$$Consider that the memory is byte addressable with size $32$ bits, and the program has been loaded starting from memory location $1000$ (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be</p>",
+      "rawQuestionHtml": "<p>Consider the following program segment for a hypothetical CPU having three user registers $R_1, R_2$ and $R_3.$ $$\\begin{array}{|l|l|c|} \\hline \\text {Instruction}  &amp;  \\text{Operation }&amp; \\text{Instruction size} \\\\&amp;&amp; \\text{(in words)} \\\\\\hline \\text{MOV $R_1,5000$} &amp; \\text{$R_1$} \\leftarrow  \\text{Memory$[5000]$}&amp; \\text{$2$} \\\\\\hline\\text{MOV $R2,(R1)$} &amp; \\text{$R2$} \\leftarrow  \\text{Memory$[(R_1)]$}&amp; \\text{$1$} \\\\\\hline \\text{ADD $R_2,R_3$} &amp; \\text{$R2$} \\leftarrow  \\text{$R_2 + R_3$} &amp; \\text{$1$} \\\\\\hline \\text{MOV $6000,R_2$} &amp; \\text{Memory$[6000]$} \\leftarrow  \\text{$R_2$} &amp; \\text{$2$} \\\\\\hline \\text{HALT} &amp; \\text{Machine Halts} &amp; \\text{$1$} \\\\\\hline \\end{array}$$Consider that the memory is byte addressable with size $32$ bits, and the program has been loaded starting from memory location $1000$ (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$1007$</li>\n<li>$1020$</li>\n<li>$1024$</li>\n<li>$1028$</li>\n</ol>",
       "options": [
-        "Any relation with two attributes is in $\\text{BCNF}$",
-        "A relation in which every key has only one attribute is in $\\text{2NF}$",
-        "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation",
-        "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation"
+        "$1007$",
+        "$1020$",
+        "$1024$",
+        "$1028$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Any relation with two attributes is in $\\text{BCNF}$",
-          "html": "Any relation with two attributes is in $\\text{BCNF}$"
+          "text": "$1007$",
+          "html": "$1007$"
         },
         {
           "label": "B",
-          "text": "A relation in which every key has only one attribute is in $\\text{2NF}$",
-          "html": "A relation in which every key has only one attribute is in $\\text{2NF}$"
+          "text": "$1020$",
+          "html": "$1020$"
         },
         {
           "label": "C",
-          "text": "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation",
-          "html": "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation"
+          "text": "$1024$",
+          "html": "$1024$"
         },
         {
           "label": "D",
-          "text": "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation",
-          "html": "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation"
+          "text": "$1028$",
+          "html": "$1028$"
         }
       ],
       "answer": [
@@ -385,16 +361,16 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47",
+      "link": "https://gateoverflow.in/1058/gate-cse-2004-question-63",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1058/gate-cse-2004-question-63"
     },
     {
       "id": "gate-ee-2019-s1-q8",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2004-s0",
       "orderIndex": 8,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 8",
@@ -402,53 +378,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>The order of a leaf node in a $B^+$ - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is $1K\\;\\text{bytes}$, data record pointer is $7\\;\\text{bytes}$ long, the value field is $9\\;\\text{bytes}$ long and a block pointer is $6 \\;\\text{bytes}$ long, what is the order of the leaf node?</p>",
-      "rawQuestionHtml": "<p>The order of a leaf node in a $B^+$ - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is $1K\\;\\text{bytes}$, data record pointer is $7\\;\\text{bytes}$ long, the value field is $9\\;\\text{bytes}$ long and a block pointer is $6 \\;\\text{bytes}$ long, what is the order of the leaf node?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$63$</li>\n<li>$64$</li>\n<li>$67$</li>\n<li>$68$</li>\n</ol>",
+      "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers $R_1, R_2$ and $R_3.$</p>\n<p>\\begin{array}{|l|l|c|} \\hline \\text {Instruction}  &amp;  \\text{Operation }&amp; \\text{Instruction size (in Words)} \\\\\\hline \\text{MOV $R_1,5000$} <br/>\n&amp; \\text{$R1$} \\leftarrow  \\text{Memory$[5000]$}&amp; \\text{$2$} \\\\\\hline\\text{MOV $R_2(R_1)$} &amp; \\text{$R2$} \\leftarrow  \\text{Memory$[(R_1)]$}&amp; \\text{$1$} \\\\\\hline \\text{ADD $R_2,R_3$} &amp; \\text{$R_2$} \\leftarrow  \\text{$R_2 + R_3$} &amp; \\text{$1$} \\\\\\hline \\text{MOV $6000,R_2$} &amp; \\text{Memory$[6000]$} \\leftarrow  \\text{$R_2$} &amp; \\text{$2$} \\\\\\hline \\text{Halt} &amp; \\text{Machine Halts} &amp; \\text{$1$} \\\\\\hline \\end{array}</p>\n<p>Let the clock cycles required for various operations be as follows:</p>\n<p>\\begin{array}{|l|l|} \\hline \\text {Register to/from memory transfer}  &amp;  \\text{3 clock cycles } \\\\\\hline  \\text {ADD with both operands in register}  &amp;  \\text{1 clock cycles } \\\\\\hline \\text {Instruction fetch and decode}  &amp;  \\text{2 clock cycles }\\\\\\hline \\end{array}</p>\n<p>The total number of clock cycles required to execute the program is</p>",
+      "rawQuestionHtml": "<p>Consider the following program segment for a hypothetical CPU having three user registers $R_1, R_2$ and $R_3.$</p>\n<p>\\begin{array}{|l|l|c|} \\hline \\text {Instruction}  &amp;  \\text{Operation }&amp; \\text{Instruction size (in Words)} \\\\\\hline \\text{MOV $R_1,5000$} <br/>\n&amp; \\text{$R1$} \\leftarrow  \\text{Memory$[5000]$}&amp; \\text{$2$} \\\\\\hline\\text{MOV $R_2(R_1)$} &amp; \\text{$R2$} \\leftarrow  \\text{Memory$[(R_1)]$}&amp; \\text{$1$} \\\\\\hline \\text{ADD $R_2,R_3$} &amp; \\text{$R_2$} \\leftarrow  \\text{$R_2 + R_3$} &amp; \\text{$1$} \\\\\\hline \\text{MOV $6000,R_2$} &amp; \\text{Memory$[6000]$} \\leftarrow  \\text{$R_2$} &amp; \\text{$2$} \\\\\\hline \\text{Halt} &amp; \\text{Machine Halts} &amp; \\text{$1$} \\\\\\hline \\end{array}</p>\n<p>Let the clock cycles required for various operations be as follows:</p>\n<p>\\begin{array}{|l|l|} \\hline \\text {Register to/from memory transfer}  &amp;  \\text{3 clock cycles } \\\\\\hline  \\text {ADD with both operands in register}  &amp;  \\text{1 clock cycles } \\\\\\hline \\text {Instruction fetch and decode}  &amp;  \\text{2 clock cycles }\\\\\\hline \\end{array}</p>\n<p>The total number of clock cycles required to execute the program is</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$29$</li>\n<li>$24$</li>\n<li>$23$</li>\n<li>$20$</li>\n</ol>",
       "options": [
-        "$63$",
-        "$64$",
-        "$67$",
-        "$68$"
+        "$29$",
+        "$24$",
+        "$23$",
+        "$20$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$63$",
-          "html": "$63$"
+          "text": "$29$",
+          "html": "$29$"
         },
         {
           "label": "B",
-          "text": "$64$",
-          "html": "$64$"
+          "text": "$24$",
+          "html": "$24$"
         },
         {
           "label": "C",
-          "text": "$67$",
-          "html": "$67$"
+          "text": "$23$",
+          "html": "$23$"
         },
         {
           "label": "D",
-          "text": "$68$",
-          "html": "$68$"
+          "text": "$20$",
+          "html": "$20$"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59",
+      "link": "https://gateoverflow.in/43570/gate-cse-2004-question-64",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/43570/gate-cse-2004-question-64"
     },
     {
       "id": "gate-ee-2019-s1-q9",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2005-s0",
       "orderIndex": 9,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 9",
@@ -456,53 +432,53 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p>",
-      "rawQuestionHtml": "<p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p>\n<ul>\n<li>$S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)$</li>\n<li>$S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)$</li>\n</ul>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>Both $S_1$ and $S_2$ are conflict serializable.</p>\n</li>\n<li>\n<p>$S_1$ is conflict serializable and $S_2$ is not conflict serializable.</p>\n</li>\n<li>\n<p>$S_1$ is not conflict serializable and $S_2$ is conflict serializable.</p>\n</li>\n<li>\n<p>Both $S_1$ and $S_2$ are not conflict serializable.</p>\n</li>\n</ol>",
+      "question": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>",
+      "rawQuestionHtml": "<p>Consider line number $3$ of the following C-program.</p>\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int main() {                /*Line 1 */\n    int I, N;               /*Line 2 */\n    fro (I=0, I&lt;N, I++);\t/*Line 3 */\n}</pre>\n<p>Identify the compiler’s response about this line while creating the object-module:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>No compilation error</li>\n<li>Only a lexical error</li>\n<li>Only syntactic errors</li>\n<li>Both lexical and syntactic errors</li>\n</ol>",
       "options": [
-        "Both $S_1$ and $S_2$ are conflict serializable.",
-        "$S_1$ is conflict serializable and $S_2$ is not conflict serializable.",
-        "$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
-        "Both $S_1$ and $S_2$ are not conflict serializable."
+        "No compilation error",
+        "Only a lexical error",
+        "Only syntactic errors",
+        "Both lexical and syntactic errors"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both $S_1$ and $S_2$ are conflict serializable.",
-          "html": "<p>Both $S_1$ and $S_2$ are conflict serializable.</p>"
+          "text": "No compilation error",
+          "html": "No compilation error"
         },
         {
           "label": "B",
-          "text": "$S_1$ is conflict serializable and $S_2$ is not conflict serializable.",
-          "html": "<p>$S_1$ is conflict serializable and $S_2$ is not conflict serializable.</p>"
+          "text": "Only a lexical error",
+          "html": "Only a lexical error"
         },
         {
           "label": "C",
-          "text": "$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
-          "html": "<p>$S_1$ is not conflict serializable and $S_2$ is conflict serializable.</p>"
+          "text": "Only syntactic errors",
+          "html": "Only syntactic errors"
         },
         {
           "label": "D",
-          "text": "Both $S_1$ and $S_2$ are not conflict serializable.",
-          "html": "<p>Both $S_1$ and $S_2$ are not conflict serializable.</p>"
+          "text": "Both lexical and syntactic errors",
+          "html": "Both lexical and syntactic errors"
         }
       ],
       "answer": [
-        "C"
+        "A"
       ],
       "tolerance": null,
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1262/gate-cse-2007-question-64",
+      "link": "https://gateoverflow.in/4066/gate-cse-2005-question-61",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1262/gate-cse-2007-question-64"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/4066/gate-cse-2005-question-61"
     },
     {
       "id": "gate-ee-2019-s1-q10",
       "testId": "gate-ee-2019-s1",
       "year": 2019,
       "set": 1,
-      "yearSetKey": "2007-s0",
+      "yearSetKey": "2005-s0",
       "orderIndex": 10,
       "section": "GA",
       "title": "GATE EE 2019 | GA Question: 10",
@@ -510,34 +486,34 @@
       "subjectSlug": "aptitude",
       "topic": "Verbal Aptitude & Grammar",
       "type": "MCQ",
-      "question": "<p>There are $n$ stations in slotted LAN. Each station attempts to transmit with a probability $p$ in each time slot. What is the probability that <strong>ONLY </strong>one station transmits in a given time slot?</p>",
-      "rawQuestionHtml": "<p>There are $n$ stations in slotted LAN. Each station attempts to transmit with a probability $p$ in each time slot. What is the probability that <strong>ONLY </strong>one station transmits in a given time slot?</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>\n<p>$np(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$p(1-p)^{n-1}$</p>\n</li>\n<li>\n<p>$1-(1-p)^{n-1}$</p>\n</li>\n</ol>",
+      "question": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>",
+      "rawQuestionHtml": "<p>Consider the following circuit involving a positive edge triggered D FF.</p>\n<p><img alt=\"\" height=\"213\" src=\"/question-images/14188554105723082797.webp\" width=\"555\"/></p>\n<p>Consider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.</p>\n<p><img alt=\"\" height=\"261\" src=\"/question-images/11403173226895472133.webp\" width=\"563\"/></p>\n<p>Let $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:</p>\n<ol style=\"list-style-type:upper-alpha\">\n<li>$A_{0} A_{1} A_{1}' A_{3} A_{4}$</li>\n<li>$A_{0} A_{1} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2} A_{2}' A_{3} A_{4}$</li>\n<li>$A_{1} A_{2}' A_{3} A_{4} A_{5}'$</li>\n</ol>",
       "options": [
-        "$np(1-p)^{n-1}$",
-        "$(1-p)^{n-1}$",
-        "$p(1-p)^{n-1}$",
-        "$1-(1-p)^{n-1}$"
+        "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+        "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+        "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$np(1-p)^{n-1}$",
-          "html": "<p>$np(1-p)^{n-1}$</p>"
+          "text": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{1}' A_{3} A_{4}$"
         },
         {
           "label": "B",
-          "text": "$(1-p)^{n-1}$",
-          "html": "<p>$(1-p)^{n-1}$</p>"
+          "text": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{0} A_{1} A_{2}' A_{3} A_{4}$"
         },
         {
           "label": "C",
-          "text": "$p(1-p)^{n-1}$",
-          "html": "<p>$p(1-p)^{n-1}$</p>"
+          "text": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+          "html": "$A_{1} A_{2} A_{2}' A_{3} A_{4}$"
         },
         {
           "label": "D",
-          "text": "$1-(1-p)^{n-1}$",
-          "html": "<p>$1-(1-p)^{n-1}$</p>"
+          "text": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$",
+          "html": "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
         }
       ],
       "answer": [
@@ -547,1959 +523,1164 @@
       "marks": 2,
       "negativeMarks": 0.67,
       "source": "GATE CSE / GateOverflow",
-      "link": "https://gateoverflow.in/1263/gate-cse-2007-question-65",
+      "link": "https://gateoverflow.in/264/gate-cse-2005-question-62",
       "difficulty": "Hard",
-      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/1263/gate-cse-2007-question-65"
+      "explanation": "Refer to official GATE answer key & GateOverflow discussion at: https://gateoverflow.in/264/gate-cse-2005-question-62"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 16,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>Given, \n is the gate-source voltage, \n is the drain source voltage, and \n is the threshold voltage of\nan enhancement type NMOS transistor, the conditions for transistor to be biased in saturation are\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Given, \n is the gate-source voltage, \n is the drain source voltage, and \n is the threshold voltage of\nan enhancement type NMOS transistor, the conditions for transistor to be biased in saturation are\ngate2019",
       "id": "gate-ee-2019-s1-q11",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 1",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Digital Voltmeters & Instrument Transformers",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 1",
+      "answer": "D"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The enhancement type MOSFET in the circuit below operates according to the square law. \n, the threshold voltage \n is \n mV. Ignore channel length modulation. The\noutput voltage \n is\n\n \nanalog-and-digital-electronics\n \nelectric-circuits</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The enhancement type MOSFET in the circuit below operates according to the square law. \n, the threshold voltage \n is \n mV. Ignore channel length modulation. The\noutput voltage \n is\n\n \nanalog-and-digital-electronics\n \nelectric-circuits",
       "id": "gate-ee-2019-s1-q12",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 12,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 2",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Cathode Ray Oscilloscope (CRO)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 2",
+      "answer": "C"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 36,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>In the circuit shown below, \n and \n are digital inputs, and \n is a digital output. The Equivalent circuit is a\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the circuit shown below, \n and \n are digital inputs, and \n is a digital output. The Equivalent circuit is a\ngate2019",
       "id": "gate-ee-2019-s1-q13",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 13,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 3",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 3",
+      "answer": "B"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 17,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A current controlled current source (CCCS) has an input impedance of \n and output impedance of \n. When this CCCS is used in a negative feedback closed loop with a loop gain of \n, the closed loop\noutput impedance is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A current controlled current source (CCCS) has an input impedance of \n and output impedance of \n. When this CCCS is used in a negative feedback closed loop with a loop gain of \n, the closed loop\noutput impedance is",
       "id": "gate-ee-2019-s1-q14",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 14,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 4",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Measurement of Resistance, Inductance & Capacitance (Bridges)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 4",
+      "answer": "A"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The output expression for the Karnaugh map shown below is\n\n \nanalog-and-digital-electronics\n \nboolean-function\n \nk-map\nKarnaugh Map \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The output expression for the Karnaugh map shown below is\n\n \nanalog-and-digital-electronics\n \nboolean-function\n \nk-map\nKarnaugh Map \n(1",
       "id": "gate-ee-2019-s1-q15",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 15,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 5",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Digital Voltmeters & Instrument Transformers",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 5",
+      "answer": "D"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The asymptotic Bode magnitude plot of a minimum phase transfer function \n is shown below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The asymptotic Bode magnitude plot of a minimum phase transfer function \n is shown below.",
       "id": "gate-ee-2019-s1-q16",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 16,
-      "section": "EE",
+      "marks": 1,
+      "negativeMarks": 0.0,
       "title": "GATE EE 2019 | EE Question: 6",
-      "subject": "Electrical & Electronic Measurements",
-      "subjectSlug": "measurements",
-      "topic": "Cathode Ray Oscilloscope (CRO)",
-      "type": "MCQ",
-      "question": "<p>A Permanent Magnet Moving Coil (PMMC) instrument responds strictly to:</p>",
-      "options": [
-        "The true average (DC) value of current",
-        "The Root Mean Square (RMS) value of current",
-        "The peak-to-peak amplitude",
-        "The instantaneous power"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "The true average (DC) value of current",
-          "html": "The true average (DC) value of current"
-        },
-        {
-          "label": "B",
-          "text": "The Root Mean Square (RMS) value of current",
-          "html": "The Root Mean Square (RMS) value of current"
-        },
-        {
-          "label": "C",
-          "text": "The peak-to-peak amplitude",
-          "html": "The peak-to-peak amplitude"
-        },
-        {
-          "label": "D",
-          "text": "The instantaneous power",
-          "html": "The instantaneous power"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical & Electronic Measurements):</strong></p><p>Because deflecting torque in PMMC is proportional to instantaneous current ($T_d = BINA$), over an AC cycle the net torque averages out to zero. Hence it strictly registers the average (DC) component.</p></div>"
+      "answer": "C"
     },
     {
-      "id": "gate-ee-2019-s1-q17",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 17,
+      "set": 1,
+      "qno": 15,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 7",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q18",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 18,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 8",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q19",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 19,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 9",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q20",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 20,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 10",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q21",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 21,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 11",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q22",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 22,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 12",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q23",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 23,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 13",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q24",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 24,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 14",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q25",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 25,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 15",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q26",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 26,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 16",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q27",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 27,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 17",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q28",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 28,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 18",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Coulomb's Law, Gauss's Law & Electric Potential",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q29",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 29,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 19",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Biot-Savart Law & Ampere's Circuital Law",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q30",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 30,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 20",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Faraday's Law & Maxwell's Equations",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q31",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 31,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 21",
-      "subject": "Electromagnetic Fields",
-      "subjectSlug": "electromagnetics",
-      "topic": "Wave Propagation in Dielectrics & Conductors",
-      "type": "MCQ",
-      "question": "<p>Maxwell's divergence equation $\\nabla \\cdot \\vec{B} = 0$ physically asserts that:</p>",
-      "options": [
-        "Isolated magnetic monopoles do not exist in nature",
-        "Electric field is conservative in static conditions",
-        "Magnetic flux changes induce an electromotive force",
-        "Total charge inside a closed volume is conserved"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Isolated magnetic monopoles do not exist in nature",
-          "html": "Isolated magnetic monopoles do not exist in nature"
-        },
-        {
-          "label": "B",
-          "text": "Electric field is conservative in static conditions",
-          "html": "Electric field is conservative in static conditions"
-        },
-        {
-          "label": "C",
-          "text": "Magnetic flux changes induce an electromotive force",
-          "html": "Magnetic flux changes induce an electromotive force"
-        },
-        {
-          "label": "D",
-          "text": "Total charge inside a closed volume is conserved",
-          "html": "Total charge inside a closed volume is conserved"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electromagnetic Fields):</strong></p><p>$\\nabla \\cdot \\vec{B} = 0$ states that magnetic flux lines are always continuous closed loops, proving that isolated single magnetic poles (monopoles) do not exist.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q32",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 32,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 22",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
       "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
+      "type": "NAT",
+      "question": "<p>The characteristic equation of a linear time-invariant (LTI) system is given by\nThe system is BIBO stable if\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The characteristic equation of a linear time-invariant (LTI) system is given by\nThe system is BIBO stable if\ngate2019",
+      "id": "gate-ee-2019-s1-q17",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 17,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 7",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-2019-s1-q33",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 33,
+      "set": 1,
+      "qno": 31,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 23",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider a state-variable model of a system\nwhere \n is the output, and \n is the input. The damping ratio \n and the undamped natural frequency \n (rad/sec)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a state-variable model of a system\nwhere \n is the output, and \n is the input. The damping ratio \n and the undamped natural frequency \n (rad/sec)",
+      "id": "gate-ee-2019-s1-q18",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 18,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 8",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-2019-s1-q34",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 34,
+      "set": 1,
+      "qno": 14,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 24",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The open loop transfer function of a unity feedback system is given by\nIn \n plane, the Nyquist plot of \n passes through the negative real axis at the point\n\n \ncontrol-systems\n \nfeedback-system\n \nnyquist-plot\nOpen Loop System \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The open loop transfer function of a unity feedback system is given by\nIn \n plane, the Nyquist plot of \n passes through the negative real axis at the point\n\n \ncontrol-systems\n \nfeedback-system\n \nnyquist-plot\nOpen Loop System \n(1",
+      "id": "gate-ee-2019-s1-q19",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 19,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 9",
+      "answer": "D"
     },
     {
-      "id": "gate-ee-2019-s1-q35",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 35,
+      "set": 1,
+      "qno": 30,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 25",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of a phase lead compensator is given by\nThe frequency (in rad/sec), at which \n is maximum, is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of a phase lead compensator is given by\nThe frequency (in rad/sec), at which \n is maximum, is\ngate2019",
+      "id": "gate-ee-2019-s1-q20",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 20,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 10",
+      "answer": "C"
     },
     {
-      "id": "gate-ee-2019-s1-q36",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 36,
+      "set": 1,
+      "qno": 12,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 26",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
+      "question": "<p>In the circuit shown below, the switch is closed at \n. The value of \n in degrees which will give the\nmaximum value of DC offset of the current at the time of switching is\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "4.0"
-      ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "raw_content": "In the circuit shown below, the switch is closed at \n. The value of \n in degrees which will give the\nmaximum value of DC offset of the current at the time of switching is\ngate2019",
+      "id": "gate-ee-2019-s1-q21",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 21,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 11",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-2019-s1-q37",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 37,
+      "set": 1,
+      "qno": 19,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 27",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Three-Phase Induction Motors",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
+      "question": "<p>The current \n is ﬂowing in the circuit shown below in amperes (round oﬀ to one decimal place) is\n_________</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "0.77"
-      ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "raw_content": "The current \n is ﬂowing in the circuit shown below in amperes (round oﬀ to one decimal place) is\n_________",
+      "id": "gate-ee-2019-s1-q22",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 22,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 12",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-2019-s1-q38",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 38,
+      "set": 1,
+      "qno": 34,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 28",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Synchronous Machines (Alternators & Motors)",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
+      "question": "<p>In the circuit below, the operational ampliﬁer is ideal. If \n mV and \n mV, he output voltage \n is\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "4.0"
-      ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "raw_content": "In the circuit below, the operational ampliﬁer is ideal. If \n mV and \n mV, he output voltage \n is\ngate2019",
+      "id": "gate-ee-2019-s1-q23",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 23,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 13",
+      "answer": "D"
     },
     {
-      "id": "gate-ee-2019-s1-q39",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 39,
+      "set": 1,
+      "qno": 41,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 29",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "DC Machines (Motors & Generators)",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
       "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
+      "question": "<p>A \n capacitor charged to \n V is discharged through a \n resistor. The time in ms (round oﬀ to\ntwo decimal places) required for the voltage across the capacitor to drop to \n V is _________\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "0.77"
-      ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "raw_content": "A \n capacitor charged to \n V is discharged through a \n resistor. The time in ms (round oﬀ to\ntwo decimal places) required for the voltage across the capacitor to drop to \n V is _________\ngate2019",
+      "id": "gate-ee-2019-s1-q24",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 24,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 14",
+      "answer": "C"
     },
     {
-      "id": "gate-ee-2019-s1-q40",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 40,
+      "set": 1,
+      "qno": 42,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 30",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Three-Phase Induction Motors",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
+      "question": "<p>The current \n flowing in the circuit shown in amperes is ____________\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "4.0"
-      ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "raw_content": "The current \n flowing in the circuit shown in amperes is ____________\ngate2019",
+      "id": "gate-ee-2019-s1-q25",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 25,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 15",
+      "answer": "B"
     },
     {
-      "id": "gate-ee-2019-s1-q41",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 41,
+      "set": 1,
+      "qno": 43,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 31",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Single-Phase & Three-Phase Transformers",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
       "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
+      "question": "<p>The voltage across and the current through a load are expressed as follows\nThe average power in watts (round off to one decimal place) consumed by the load is _________.</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "0.77"
-      ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
+      "raw_content": "The voltage across and the current through a load are expressed as follows\nThe average power in watts (round off to one decimal place) consumed by the load is _________.",
+      "id": "gate-ee-2019-s1-q26",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 26,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 16",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-2019-s1-q42",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 42,
+      "set": 1,
+      "qno": 38,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 32",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "DC Machines (Motors & Generators)",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
       "type": "NAT",
-      "question": "<p>A 4-pole, $50\\text{ Hz}$, 3-phase induction motor runs at a rotor speed of $1440\\text{ rpm}$. The synchronous speed is $1500\\text{ rpm}$. The percentage slip $s$ of the motor is ________ percent.</p>",
+      "question": "<p>The line currents of a three-phase four wire system are square waves with amplitude of \n A. These\nthree currents are phase shifted by \n with respect to each other. The rms value of neutral current is\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "4.0"
-      ],
-      "tolerance": {
-        "min": 3.9,
-        "max": 4.1
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Synchronous speed $N_s = \\frac{120 f}{P} = \\frac{120 \\times 50}{4} = 1500\\text{ rpm}$. Slip $s = \\frac{N_s - N}{N_s} \\times 100\\% = \\frac{1500 - 1440}{1500} \\times 100\\% = \\frac{60}{1500} \\times 100\\% = 4.0\\%$.</p></div>"
+      "raw_content": "The line currents of a three-phase four wire system are square waves with amplitude of \n A. These\nthree currents are phase shifted by \n with respect to each other. The rms value of neutral current is\ngate2019",
+      "id": "gate-ee-2019-s1-q27",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 27,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 17",
+      "answer": "D"
     },
     {
-      "id": "gate-ee-2019-s1-q43",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 43,
+      "set": 1,
+      "qno": 23,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 33",
-      "subject": "Electrical Machines",
-      "subjectSlug": "machines",
-      "topic": "Synchronous Machines (Alternators & Motors)",
-      "type": "NAT",
-      "question": "<p>A $10\\text{ kVA}$, $2000/200\\text{ V}$, $50\\text{ Hz}$ single-phase transformer has full-load iron loss of $150\\text{ W}$ and full-load copper loss of $250\\text{ W}$. The maximum efficiency occurs at a fraction $x$ of full load equal to ________ (rounded off to two decimal places).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "0.77"
-      ],
-      "tolerance": {
-        "min": 0.75,
-        "max": 0.8
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Electrical Machines):</strong></p><p>Maximum efficiency occurs when variable copper loss equals constant iron loss: $x^2 P_{cu} = P_i \\implies x = \\sqrt{\\frac{P_i}{P_{cu}}} = \\sqrt{\\frac{150}{250}} = \\sqrt{0.6} \\approx 0.7746 = 0.77$ of full load.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q44",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 44,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 34",
       "subject": "Power Systems & Protection",
       "subjectSlug": "power-systems",
       "topic": "Transmission Line Models & Performance",
       "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
+      "question": "<p>The total impedance of the secondary winding, leads, and burden of a \n A CT is \n. If the fault current\nis \n times the rated primary current of the CT, the VA output of the CT is_________\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "raw_content": "The total impedance of the secondary winding, leads, and burden of a \n A CT is \n. If the fault current\nis \n times the rated primary current of the CT, the VA output of the CT is_________\ngate2019",
+      "id": "gate-ee-2019-s1-q28",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 28,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 18",
+      "answer": "C"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>A moving coil instrument having a resistance of \n, gives a full-scale deﬂection when the current is \nmA. What should be the value of the series resistance, so that it can be used as a voltmeter for measuring\npotential difference up to \n V?\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A moving coil instrument having a resistance of \n, gives a full-scale deﬂection when the current is \nmA. What should be the value of the series resistance, so that it can be used as a voltmeter for measuring\npotential difference up to \n V?\ngate2019",
+      "id": "gate-ee-2019-s1-q29",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 29,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 19",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 10,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>The parameter of an equivalent circuit of a three-phase induction motor aﬀected by reducing the rms value\nof the supply voltage at the rated frequency is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The parameter of an equivalent circuit of a three-phase induction motor aﬀected by reducing the rms value\nof the supply voltage at the rated frequency is\ngate2019",
+      "id": "gate-ee-2019-s1-q30",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 30,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 20",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A three-phase synchronous motor draws \n from the line at unity power factor at rated load.\nConsidering the same line voltage and load, the line current at a power factor of \n leading is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase synchronous motor draws \n from the line at unity power factor at rated load.\nConsidering the same line voltage and load, the line current at a power factor of \n leading is\ngate2019",
+      "id": "gate-ee-2019-s1-q31",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 31,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 21",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V DC shunt motor takes \n A at no-load. It draws \n A when running at full-load at \n rpm. The\narmature and shunt resistance are \n and \n, respectively. The no-load speed in rpm (round oﬀ to\ntwo decimal places) is _____.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V DC shunt motor takes \n A at no-load. It draws \n A when running at full-load at \n rpm. The\narmature and shunt resistance are \n and \n, respectively. The no-load speed in rpm (round oﬀ to\ntwo decimal places) is _____.\ngate2019",
+      "id": "gate-ee-2019-s1-q32",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 32,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 47,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A delta-connected, \n kW, \n V(line), three-phase, \n-pole, \n-Hz squirrel-cage induction moor has the\nfollowing equivalent circuit parameters per phase referred to the stator: \n, \n, \n. Neglect shunt branch in the equivalent circuit. The starting line current in amperes (round\noff to two decimal places) when it is connected to a \n V(line), \n Hz, three-phase AC source is _______\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A delta-connected, \n kW, \n V(line), three-phase, \n-pole, \n-Hz squirrel-cage induction moor has the\nfollowing equivalent circuit parameters per phase referred to the stator: \n, \n, \n. Neglect shunt branch in the equivalent circuit. The starting line current in amperes (round\noff to two decimal places) when it is connected to a \n V(line), \n Hz, three-phase AC source is _______\ngate2019",
+      "id": "gate-ee-2019-s1-q33",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 33,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 23",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n single-phase transformer has a secondary terminal voltage of \n when loaded.\nThe regulation of the transformer is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n single-phase transformer has a secondary terminal voltage of \n when loaded.\nThe regulation of the transformer is\ngate2019",
+      "id": "gate-ee-2019-s1-q34",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 34,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 24",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 20,
+      "section": "EE",
+      "subject": "Electromagnetic Fields",
+      "subjectSlug": "electromagnetics",
+      "topic": "Faraday's Law & Maxwell's Equations",
+      "type": "NAT",
+      "question": "<p>A co-axial Cylindrical capacitor is shown in the Figure(i) has dielectric with relative permittivity \n.\nWhen one – fourth portion of the dielectric is replaced with another dielectric of relative permittivity \n, as\nshown in the Figure(ii), the capacitance is doubled. The value of  \n is _________.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A co-axial Cylindrical capacitor is shown in the Figure(i) has dielectric with relative permittivity \n.\nWhen one – fourth portion of the dielectric is replaced with another dielectric of relative permittivity \n, as\nshown in the Figure(ii), the capacitance is doubled. The value of  \n is _________.\ngate2019",
+      "id": "gate-ee-2019-s1-q35",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 35,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 25",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 44,
+      "section": "EE",
+      "subject": "Electrical & Electronic Measurements",
+      "subjectSlug": "measurements",
+      "topic": "PMMC, Moving Iron & Dynamometer Instruments",
+      "type": "NAT",
+      "question": "<p>The magnetic circuit shown below has uniform cross-sectional area and air gap of \n cm. The mean path\nlength of the core is \n cm. Assume that leakage and fringing ﬂuxes are negligible. When the core relative\npermeability is assumed to be inﬁnite, the magnetic ﬂux density computed in the air gap is \n tesla. With same\nAmpere-turns, if the core relative permeability is assumed to be \n (linear), the ﬂux density in tesla (round oﬀ\nto three decimal places) calculated in the air gap is _______\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The magnetic circuit shown below has uniform cross-sectional area and air gap of \n cm. The mean path\nlength of the core is \n cm. Assume that leakage and fringing ﬂuxes are negligible. When the core relative\npermeability is assumed to be inﬁnite, the magnetic ﬂux density computed in the air gap is \n tesla. With same\nAmpere-turns, if the core relative permeability is assumed to be \n (linear), the ﬂux density in tesla (round oﬀ\nto three decimal places) calculated in the air gap is _______\ngate2019",
+      "id": "gate-ee-2019-s1-q36",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 36,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 26",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 39,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>If \n and \n, then \n at \n  is _______\n\n \nnumerical-answers\n \ncalculus\n \ndivergence\nDouble Integral \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If \n and \n, then \n at \n  is _______\n\n \nnumerical-answers\n \ncalculus\n \ndivergence\nDouble Integral \n(2",
+      "id": "gate-ee-2019-s1-q37",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 37,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 27",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 28,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>A periodic function \n, with a period of \n, is represented as its Fourier series,\nif\nthe Fourier series coefficients \n and \n of \nare\n\n \ncalculus\n \nfourier-series\nIntegral \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A periodic function \n, with a period of \n, is represented as its Fourier series,\nif\nthe Fourier series coefficients \n and \n of \nare\n\n \ncalculus\n \nfourier-series\nIntegral \n(1",
+      "id": "gate-ee-2019-s1-q38",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 38,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 28",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>If \n, the value of line integral \n evaluated over contour \n formed by the\nsegments \n is___________.\n\n \nnumerical-answers\n \ncalculus\n \nline-integral\nMaxima Minima \n(8</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "If \n, the value of line integral \n evaluated over contour \n formed by the\nsegments \n is___________.\n\n \nnumerical-answers\n \ncalculus\n \nline-integral\nMaxima Minima \n(8",
+      "id": "gate-ee-2019-s1-q39",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 39,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 29",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 4,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>Which one of the following functions is analytic in the region \n ?\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Which one of the following functions is analytic in the region \n ?\ngate2019",
+      "id": "gate-ee-2019-s1-q40",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 40,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 30",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 27,
+      "section": "EE",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
+      "type": "NAT",
+      "question": "<p>The closed-loop line integral \nevaluated Counter-clockwise, is \n\n \ncomplex-variables\n \ncauchys-integral-theorem\n \nline-integral\nTrigonometry \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The closed-loop line integral \nevaluated Counter-clockwise, is \n\n \ncomplex-variables\n \ncauchys-integral-theorem\n \nline-integral\nTrigonometry \n(1",
+      "id": "gate-ee-2019-s1-q41",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 41,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 31",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 3,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The partial differential equation \n where \n is known as</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The partial differential equation \n where \n is known as",
+      "id": "gate-ee-2019-s1-q42",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 42,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 32",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 2,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>is \n matrix with eigenvalues \n and \n The eigenvalues of \n are\n\n \nlinear-algebra\n \nmatrices\n \neigen-values\nAnswer key\n☟</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "is \n matrix with eigenvalues \n and \n The eigenvalues of \n are\n\n \nlinear-algebra\n \nmatrices\n \neigen-values\nAnswer key\n☟",
+      "id": "gate-ee-2019-s1-q43",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 43,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 33",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 26,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>Consider a \n matrix \n, where \n and \n are the column vectors. Suppose \n, where \n and \n are the row vecotrs. Consider the Following statements:\nStatement \n: \n and \n Statement \n: \n and</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a \n matrix \n, where \n and \n are the column vectors. Suppose \n, where \n and \n are the row vecotrs. Consider the Following statements:\nStatement \n: \n and \n Statement \n: \n and",
+      "id": "gate-ee-2019-s1-q44",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 44,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The rank of the matrix, \n, is  ______________.\n\n \nnumerical-answers\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nAnswer key\n☟\nRoots \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The rank of the matrix, \n, is  ______________.\n\n \nnumerical-answers\n \nlinear-algebra\n \nmatrices\n \nrank-of-matrix\nAnswer key\n☟\nRoots \n(1",
       "id": "gate-ee-2019-s1-q45",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 45,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 35",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 35",
+      "answer": "D"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 1,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The inverse Laplace transform of \n for</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The inverse Laplace transform of \n for",
       "id": "gate-ee-2019-s1-q46",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 46,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 36",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 36",
+      "answer": "B"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 13,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The output response of a system is denoted as \n, and its Laplace transform is given by\nThe steady state value of \n is\n\n \ntransform-theory\n \nlaplace-transform\nTransform Theory \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The output response of a system is denoted as \n, and its Laplace transform is given by\nThe steady state value of \n is\n\n \ntransform-theory\n \nlaplace-transform\nTransform Theory \n(2",
       "id": "gate-ee-2019-s1-q47",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 47,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 37",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 37",
+      "answer": "C"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 40,
+      "section": "EE",
+      "subject": "Engineering Mathematics",
+      "subjectSlug": "engg-math",
+      "topic": "Linear Algebra & Matrix Rank",
+      "type": "NAT",
+      "question": "<p>The probability of a resistor being deﬂective is \n. There are \n such resistors in a circuit. The\nprobability of two or more defective resistors in the circuit (round oﬀ to two decimal places) is\n_______________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The probability of a resistor being deﬂective is \n. There are \n such resistors in a circuit. The\nprobability of two or more defective resistors in the circuit (round oﬀ to two decimal places) is\n_______________\ngate2019",
       "id": "gate-ee-2019-s1-q48",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 48,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 38",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 38",
+      "answer": "A"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Electric Circuits & Networks",
+      "subjectSlug": "circuits",
+      "topic": "Network Theorems (Thevenin, Norton, Superposition)",
+      "type": "NAT",
+      "question": "<p>The mean-square of a zero-mean random process is \n where \n is Boltzmann’s constant, \n is the\nabsolute temperature, and \n is a capacitance. The standard deviation of the random process is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The mean-square of a zero-mean random process is \n where \n is Boltzmann’s constant, \n is the\nabsolute temperature, and \n is a capacitance. The standard deviation of the random process is",
       "id": "gate-ee-2019-s1-q49",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 49,
-      "section": "EE",
+      "marks": 2,
+      "negativeMarks": 0.0,
       "title": "GATE EE 2019 | EE Question: 39",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
+      "answer": "D"
     },
     {
-      "id": "gate-ee-2019-s1-q50",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 50,
+      "set": 1,
+      "qno": 25,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 40",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Symmetrical & Unsymmetrical Fault Analysis",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q51",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 51,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 41",
-      "subject": "Power Systems & Protection",
-      "subjectSlug": "power-systems",
-      "topic": "Economic Load Dispatch & Protection Relays",
-      "type": "NAT",
-      "question": "<p>A $400\\text{ kV}$, 3-phase lossless transmission line has total series inductance $L = 1.0\\text{ mH/km}$ and shunt capacitance $C = 0.01\\,\\mu\\text{F/km}$. The surge impedance $Z_c = \\sqrt{L/C}$ (in Ohms) of the line is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "316.2"
-      ],
-      "tolerance": {
-        "min": 314.0,
-        "max": 318.0
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Systems & Protection):</strong></p><p>$Z_c = \\sqrt{\\frac{L}{C}} = \\sqrt{\\frac{1.0 \\times 10^{-3}}{0.01 \\times 10^{-6}}} = \\sqrt{10^5} = 316.23\\,\\Omega$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q52",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 52,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 42",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q53",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 53,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 43",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Transfer Function & Block Diagram Reduction",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q54",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 54,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 44",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q55",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 55,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 45",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Transfer Function & Block Diagram Reduction",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q56",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 56,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 46",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q57",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 57,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 47",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Transfer Function & Block Diagram Reduction",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q58",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 58,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 48",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-2019-s1-q59",
-      "testId": "gate-ee-2019-s1",
-      "year": 2019,
-      "orderIndex": 59,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 49",
       "subject": "Power Electronics & Drives",
       "subjectSlug": "power-electronics",
       "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
       "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
+      "question": "<p>The output voltage of a single-phase full-bridge voltage source inverter is controlled by unipolar PWM with\none pulse per half cycle. For the fundamental rms Component of the output voltage to be \n of DC\nvoltage, the required pulse width in degrees (round off up to one decimal place) is ___________.\ngate2019</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
+      "raw_content": "The output voltage of a single-phase full-bridge voltage source inverter is controlled by unipolar PWM with\none pulse per half cycle. For the fundamental rms Component of the output voltage to be \n of DC\nvoltage, the required pulse width in degrees (round off up to one decimal place) is ___________.\ngate2019",
+      "id": "gate-ee-2019-s1-q50",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 50,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 40",
+      "answer": "B"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 37,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A DC-DC buck converter operates in continuous conduction mode. It has \n V input voltage, and it feeds a\nresistive load of \n. The switching frequency of the converter is \n Hz. If switch-on duration is \n ms,\nthe load power is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A DC-DC buck converter operates in continuous conduction mode. It has \n V input voltage, and it feeds a\nresistive load of \n. The switching frequency of the converter is \n Hz. If switch-on duration is \n ms,\nthe load power is\ngate2019",
+      "id": "gate-ee-2019-s1-q51",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 51,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 41",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>In a DC-DC boost converter, the duty ratio is controlled to regulate the output voltage at \n V. The input\nDC voltage is \n V. The output power is \n W. The switching frequency is \n kHz. Assume ideal\ncomponents and a very large output ﬁlter capacitor. The converter operates at the boundary between continuous\nand discontinuous conduction modes. The value of the boost inductor (in \n) is ________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a DC-DC boost converter, the duty ratio is controlled to regulate the output voltage at \n V. The input\nDC voltage is \n V. The output power is \n W. The switching frequency is \n kHz. Assume ideal\ncomponents and a very large output ﬁlter capacitor. The converter operates at the boundary between continuous\nand discontinuous conduction modes. The value of the boost inductor (in \n) is ________\ngate2019",
+      "id": "gate-ee-2019-s1-q52",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 52,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 42",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 54,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A fully-controlled three-phase bridge converter is working from a \n V, \n Hz AC supply. It is supplying\nconstant current of \n A a \n V to a DC load. Assume large inductive smoothing and neglect overlap.\nThe rms value of the AC line current in amperes (round off to two decimal places) is _______\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A fully-controlled three-phase bridge converter is working from a \n V, \n Hz AC supply. It is supplying\nconstant current of \n A a \n V to a DC load. Assume large inductive smoothing and neglect overlap.\nThe rms value of the AC line current in amperes (round off to two decimal places) is _______\ngate2019",
+      "id": "gate-ee-2019-s1-q53",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 53,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 43",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A single-phase fully-controlled thyristor converter is used to obtain an average voltage of \n V with \n A\nconstant current to feed a DC load. It is fed from single-phase AC supply of \n V, \n Hz. Neglect the\nsource impedance. The power factor (round off to two decimal places) of AC mains is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A single-phase fully-controlled thyristor converter is used to obtain an average voltage of \n V with \n A\nconstant current to feed a DC load. It is fed from single-phase AC supply of \n V, \n Hz. Neglect the\nsource impedance. The power factor (round off to two decimal places) of AC mains is _________\ngate2019",
+      "id": "gate-ee-2019-s1-q54",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 54,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 44",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Power Electronics & Drives",
+      "subjectSlug": "power-electronics",
+      "topic": "Phase Controlled Rectifiers (Single & Three Phase)",
+      "type": "NAT",
+      "question": "<p>A six-pulse thyristor bridge rectiﬁer is connected to a balanced three-phase, \n AC source. Assuming\nthat the DC output current of the rectiﬁer is constant, the lowest harmonic component in the AC input\ncurrent is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A six-pulse thyristor bridge rectiﬁer is connected to a balanced three-phase, \n AC source. Assuming\nthat the DC output current of the rectiﬁer is constant, the lowest harmonic component in the AC input\ncurrent is\ngate2019",
+      "id": "gate-ee-2019-s1-q55",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 55,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 45",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In a \n kV system, the series inductance up to the point of circuit breaker location is \n mH. The shunt\ncapacitance at the circuit breaker terminal is \n. The critical value of resistance in ohms required to\nbe connected across the circuit breaker contacts which will give no transient oscillation is ______\n\n \nnumerical-answers\n \nelectric-circuits\nElectric Machines \n(1)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In a \n kV system, the series inductance up to the point of circuit breaker location is \n mH. The shunt\ncapacitance at the circuit breaker terminal is \n. The critical value of resistance in ohms required to\nbe connected across the circuit breaker contacts which will give no transient oscillation is ______\n\n \nnumerical-answers\n \nelectric-circuits\nElectric Machines \n(1)",
+      "id": "gate-ee-2019-s1-q56",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 56,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 46",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 48,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>A \n V(line), three-phase, Y-connected, synchronous motor has a synchronous impedance of \n. The motor draws the rated current of \n A at \n pf leading. The rms value of\nline-to-line internal voltage in volts (round off to two decimal places) is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n V(line), three-phase, Y-connected, synchronous motor has a synchronous impedance of \n. The motor draws the rated current of \n A at \n pf leading. The rms value of\nline-to-line internal voltage in volts (round off to two decimal places) is _________\ngate2019",
+      "id": "gate-ee-2019-s1-q57",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 57,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 47",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 21,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>The \n matrix of a two-bus power system having two identical parallel lines connected between them in\npu is given as\nThe magnitude of the series reactance of each line in pu  (round off upto one decimal place) is__________.\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The \n matrix of a two-bus power system having two identical parallel lines connected between them in\npu is given as\nThe magnitude of the series reactance of each line in pu  (round off upto one decimal place) is__________.\ngate2019",
+      "id": "gate-ee-2019-s1-q58",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 58,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 48",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Electrical Machines",
+      "subjectSlug": "machines",
+      "topic": "Single-Phase & Three-Phase Transformers",
+      "type": "NAT",
+      "question": "<p>Five alternators each rated \n MVA, \n kV with \n of reactance on its own base are connected in\nparallel to a busbar. The short circuit level in  MVA at the busbar is ____________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Five alternators each rated \n MVA, \n kV with \n of reactance on its own base are connected in\nparallel to a busbar. The short circuit level in  MVA at the busbar is ____________\ngate2019",
+      "id": "gate-ee-2019-s1-q59",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 59,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 49",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A three-phase \n Hz, \n kV transmission line is \n km long. The line inductance is \n mH/km per phase,\nand the capacitance is \n per phase. The line is under open circuit condition at the receiving\nend and energized with \n kV at the sending end, the receiving end line voltage in kV (round oﬀ to two decimal\nplaces) will be _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A three-phase \n Hz, \n kV transmission line is \n km long. The line inductance is \n mH/km per phase,\nand the capacitance is \n per phase. The line is under open circuit condition at the receiving\nend and energized with \n kV at the sending end, the receiving end line voltage in kV (round oﬀ to two decimal\nplaces) will be _________\ngate2019",
       "id": "gate-ee-2019-s1-q60",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 60,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 50",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 50",
+      "answer": "A"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>A \n kV, \n Hz, \n MVA generator has the positive, negative, and zero sequence reactances of \n pu, \n pu, and \n pu, respectively. The neutral of the generator is grounded with a reactance so that the\nfault current for a bolted LG fault and that of a bolted three-phase fault at the generator terminal are equal. The\nvalue of grounding reactance in ohms (round off to one decimal place) is ___________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A \n kV, \n Hz, \n MVA generator has the positive, negative, and zero sequence reactances of \n pu, \n pu, and \n pu, respectively. The neutral of the generator is grounded with a reactance so that the\nfault current for a bolted LG fault and that of a bolted three-phase fault at the generator terminal are equal. The\nvalue of grounding reactance in ohms (round off to one decimal place) is ___________\ngate2019",
       "id": "gate-ee-2019-s1-q61",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 61,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 51",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 51",
+      "answer": "D"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 51,
+      "section": "EE",
+      "subject": "Power Systems & Protection",
+      "subjectSlug": "power-systems",
+      "topic": "Transmission Line Models & Performance",
+      "type": "NAT",
+      "question": "<p>In the single machine inﬁnite bus system shown below, the generator is delivering the real power of \n pu\nat \n power factor lagging to the inﬁnite bus. The power angle of the generator in degrees (round oﬀ to\none decimal place) is _________\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the single machine inﬁnite bus system shown below, the generator is delivering the real power of \n pu\nat \n power factor lagging to the inﬁnite bus. The power angle of the generator in degrees (round oﬀ to\none decimal place) is _________\ngate2019",
       "id": "gate-ee-2019-s1-q62",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 62,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 52",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 52",
+      "answer": "B"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The symbols, \n and \n represent positive quantities, and \n is the unit step function. Which one of the\nfollowing impulse responses is NOT the output of a causal linear time-invariant system?\n\n \nsignals-and-systems\n \ncontrol-systems</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The symbols, \n and \n represent positive quantities, and \n is the unit step function. Which one of the\nfollowing impulse responses is NOT the output of a causal linear time-invariant system?\n\n \nsignals-and-systems\n \ncontrol-systems",
       "id": "gate-ee-2019-s1-q63",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 63,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 53",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 53",
+      "answer": "C"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A system transfer function is \n If \n and all the other coeﬃcient are\npositive, the transfer function represents a\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A system transfer function is \n If \n and all the other coeﬃcient are\npositive, the transfer function represents a\ngate2019",
       "id": "gate-ee-2019-s1-q64",
       "testId": "gate-ee-2019-s1",
-      "year": 2019,
       "orderIndex": 64,
-      "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 54",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "Power Semiconductor Devices (SCR, MOSFET, IGBT)",
-      "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 54",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-2019-s1-q65",
-      "testId": "gate-ee-2019-s1",
       "year": 2019,
-      "orderIndex": 65,
+      "set": 1,
+      "qno": 12,
       "section": "EE",
-      "title": "GATE EE 2019 | EE Question: 55",
-      "subject": "Power Electronics & Drives",
-      "subjectSlug": "power-electronics",
-      "topic": "DC-DC Choppers (Buck, Boost, Buck-Boost)",
+      "subject": "Analog & Digital Electronics",
+      "subjectSlug": "analog-digital",
+      "topic": "Operational Amplifiers & Applications",
       "type": "NAT",
-      "question": "<p>A single-phase full-wave controlled bridge rectifier is fed from a $230\\text{ V}$ (RMS), $50\\text{ Hz}$ AC source. The firing angle is $\\alpha = 60^\\circ$. Assuming continuous conduction, the average DC output voltage $V_{dc} = \\frac{2 V_m}{\\pi} \\cos \\alpha$ (in Volts) is ________ (round off to one decimal place).</p>",
+      "question": "<p>In the following circuit, the transistor is in active mode and \n. To get \n, we replace \nwith \n. Then the ratio \n/ \n is _________.\n\n \namplifying-transistor\n \ncommom-emitter\n \nnumerical-answers\nAnalog and Digital Electronics \n(29</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "103.5"
-      ],
-      "tolerance": {
-        "min": 102.0,
-        "max": 105.0
-      },
+      "raw_content": "In the following circuit, the transistor is in active mode and \n. To get \n, we replace \nwith \n. Then the ratio \n/ \n is _________.\n\n \namplifying-transistor\n \ncommom-emitter\n \nnumerical-answers\nAnalog and Digital Electronics \n(29",
+      "id": "gate-ee-2019-s1-q65",
+      "testId": "gate-ee-2019-s1",
+      "orderIndex": 65,
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Power Electronics & Drives):</strong></p><p>$V_m = 230 \\times \\sqrt{2} = 325.27\\text{ V}$. $V_{dc} = \\frac{2 V_m}{\\pi} \\cos(60^\\circ) = \\frac{2 \\times 325.27}{\\pi} \\times 0.5 = \\frac{325.27}{3.1416} = 103.54\\text{ V}$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 55",
+      "answer": "D"
     }
   ]
 }

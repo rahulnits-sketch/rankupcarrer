@@ -1,579 +1,652 @@
 {
   "id": "control-systems",
   "name": "Control Systems",
-  "shortName": "Control Sys",
+  "shortName": "Control",
   "icon": "🎛️",
   "color": "from-purple-500/20 to-violet-500/20",
   "borderColor": "border-purple-500/30",
-  "totalQuestions": 15,
+  "totalQuestions": 62,
   "topics": [
     {
       "name": "Transfer Function & Block Diagram Reduction",
-      "questionCount": 3
+      "questionCount": 15
     },
     {
       "name": "Time-Domain Specifications & Routh-Hurwitz Criterion",
-      "questionCount": 3
+      "questionCount": 15
     },
     {
-      "name": "Root Locus & Bode Plots",
-      "questionCount": 3
+      "name": "Root Locus, Bode Plots & Nyquist Stability",
+      "questionCount": 15
     },
     {
-      "name": "State-Space Analysis & Controllability",
-      "questionCount": 3
+      "name": "State Space Representations & Compensators",
+      "questionCount": 15
     }
   ],
   "questions": [
     {
       "id": "gate-ee-cont-q1",
       "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 1,
       "section": "EE",
-      "title": "GATE EE — Control Sys | Time-Domain Specifications & Routh-Hurwitz Criterion",
+      "title": "GATE EE 2026 | EE Question: 19",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The asymptotic Bode magnitude plot of a system is shown. \n \nWhich one of the following options best represents the transfer function of the \nsystem?</p>",
+      "options": [
+        "𝐺(𝑠) = 1 + 𝑠𝜔0 𝑠 𝜔0",
+        "𝐺(𝑠) = 𝑠 𝜔0 1 + 𝑠𝜔0",
+        "𝐺(𝑠) = 1 + 𝑠𝜔0 1 − 𝑠𝜔0",
+        "𝐺(𝑠) = 1 − 𝑠𝜔0 1 + 𝑠𝜔0"
       ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝐺(𝑠) = 1 + 𝑠𝜔0 𝑠 𝜔0",
+          "html": "𝐺(𝑠) = 1 + 𝑠𝜔0 𝑠 𝜔0"
+        },
+        {
+          "label": "B",
+          "text": "𝐺(𝑠) = 𝑠 𝜔0 1 + 𝑠𝜔0",
+          "html": "𝐺(𝑠) = 𝑠 𝜔0 1 + 𝑠𝜔0"
+        },
+        {
+          "label": "C",
+          "text": "𝐺(𝑠) = 1 + 𝑠𝜔0 1 − 𝑠𝜔0",
+          "html": "𝐺(𝑠) = 1 + 𝑠𝜔0 1 − 𝑠𝜔0"
+        },
+        {
+          "label": "D",
+          "text": "𝐺(𝑠) = 1 − 𝑠𝜔0 1 + 𝑠𝜔0",
+          "html": "𝐺(𝑠) = 1 − 𝑠𝜔0 1 + 𝑠𝜔0"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q2",
       "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE — Control Sys | Transfer Function & Block Diagram Reduction",
+      "title": "GATE EE 2026 | EE Question: 27",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
       "topic": "Transfer Function & Block Diagram Reduction",
       "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "question": "<p>In the circuit shown, the open loop gain of the operational amplifier is A0 = 105.  \n \nWhat is the voltage gain of the circuit?   \n(Round off to two decimal places)</p>",
       "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
+        "–16.67",
+        "–20.00",
+        "–21.00",
+        "–12.67"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
+          "text": "–16.67",
+          "html": "–16.67"
         },
         {
           "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
+          "text": "–20.00",
+          "html": "–20.00"
         },
         {
           "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
+          "text": "–21.00",
+          "html": "–21.00"
         },
         {
           "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
+          "text": "–12.67",
+          "html": "–12.67"
         }
       ],
       "answer": [
         "A"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q3",
       "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
+      "year": 2026,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q3",
+      "title": "GATE EE 2026 | EE Question: 42",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "State-Space Analysis & Controllability",
+      "topic": "Transfer Function & Block Diagram Reduction",
       "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "question": "<p>A system is characterized by the following state equation and output equation (𝑢: \ninput, 𝐱: state vector, 𝑦: output) \n𝐱̇ = [ 𝑎 𝑏−𝑎 0] 𝐱 + [10] 𝑢 \n𝑦 =  [1 2] 𝐱 \nWhat are the values of 𝑎 and 𝑏 for which the poles of the transfer function are at \n–2 + j3 and –2 – j3 ?</p>",
       "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
+        "𝑎 = 4, 𝑏 = 3.25",
+        "𝑎 = – 4, 𝑏 = 3.25",
+        "𝑎 = 4, 𝑏 = – 3.25",
+        "𝑎 = – 4, 𝑏 = – 3.25"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
+          "text": "𝑎 = 4, 𝑏 = 3.25",
+          "html": "𝑎 = 4, 𝑏 = 3.25"
         },
         {
           "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
+          "text": "𝑎 = – 4, 𝑏 = 3.25",
+          "html": "𝑎 = – 4, 𝑏 = 3.25"
         },
         {
           "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
+          "text": "𝑎 = 4, 𝑏 = – 3.25",
+          "html": "𝑎 = 4, 𝑏 = – 3.25"
         },
         {
           "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
+          "text": "𝑎 = – 4, 𝑏 = – 3.25",
+          "html": "𝑎 = – 4, 𝑏 = – 3.25"
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2026 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
-      "id": "gate-ee-cont-q4",
-      "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
-      "orderIndex": 4,
+      "year": 2025,
+      "set": 1,
+      "qno": 13,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q4",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
       "topic": "Transfer Function & Block Diagram Reduction",
       "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
+      "question": "<p>The Nyquist plot of a strictly stable \n having the numerator polynomial as \n encircles the critical\npoint \n once in the anti-clockwise direction. Which one of the following statements on the closed-loop\nsystem shown in figure, is correct?\ngate2025</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
+      "raw_content": "The Nyquist plot of a strictly stable \n having the numerator polynomial as \n encircles the critical\npoint \n once in the anti-clockwise direction. Which one of the following statements on the closed-loop\nsystem shown in figure, is correct?\ngate2025",
+      "id": "gate-ee-cont-q4",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 4,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 7",
+      "answer": "B"
     },
     {
+      "year": 2025,
+      "set": 1,
+      "qno": 19,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The open-loop transfer function of the system shown in the figure, is\nFor \n, which of the following real axis point(s) is/are on the root locus?\n\n \ncontrol-systems\nAnswer key\n☟</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The open-loop transfer function of the system shown in the figure, is\nFor \n, which of the following real axis point(s) is/are on the root locus?\n\n \ncontrol-systems\nAnswer key\n☟",
       "id": "gate-ee-cont-q5",
       "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
       "orderIndex": 5,
-      "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q5",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
-      "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
-      "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
-        },
-        {
-          "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
-        },
-        {
-          "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
-        },
-        {
-          "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 8",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-cont-q6",
-      "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
-      "orderIndex": 6,
+      "year": 2025,
+      "set": 1,
+      "qno": 55,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q6",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
+      "topic": "Transfer Function & Block Diagram Reduction",
       "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
+      "question": "<p>A controller \n of the form \n is to be designed for the plant \n as shown in the\nﬁgure. The value of \n that yields a phase margin of \n at the gain cross-over frequency of \n is \n (round off to one decimal place).</p>",
       "options": [],
       "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
+      "raw_content": "A controller \n of the form \n is to be designed for the plant \n as shown in the\nﬁgure. The value of \n that yields a phase margin of \n at the gain cross-over frequency of \n is \n (round off to one decimal place).",
+      "id": "gate-ee-cont-q6",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 6,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 10",
+      "answer": "C"
     },
     {
       "id": "gate-ee-cont-q7",
       "testId": "gate-subject-electrical-control-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 7,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q7",
+      "title": "GATE EE 2024 | EE Question: 10",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "State-Space Analysis & Controllability",
+      "topic": "Transfer Function & Block Diagram Reduction",
       "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "question": "<p>For the block-diagram shown in the figure, the transfer function 𝐶(𝑠)𝑅(𝑠) is</p>",
       "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
+        "𝐺(𝑠) 1 + 2𝐺(𝑠)",
+        "− 𝐺(𝑠)1 + 2𝐺(𝑠)",
+        "𝐺(𝑠) 1 − 2𝐺(𝑠)",
+        "− 𝐺(𝑠)1 − 2𝐺(𝑠) 𝐺(𝑠) 𝐶(𝑠) 𝑅(𝑠) + _ + _"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
+          "text": "𝐺(𝑠) 1 + 2𝐺(𝑠)",
+          "html": "𝐺(𝑠) 1 + 2𝐺(𝑠)"
         },
         {
           "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
+          "text": "− 𝐺(𝑠)1 + 2𝐺(𝑠)",
+          "html": "− 𝐺(𝑠)1 + 2𝐺(𝑠)"
         },
         {
           "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
+          "text": "𝐺(𝑠) 1 − 2𝐺(𝑠)",
+          "html": "𝐺(𝑠) 1 − 2𝐺(𝑠)"
         },
         {
           "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
+          "text": "− 𝐺(𝑠)1 − 2𝐺(𝑠) 𝐺(𝑠) 𝐶(𝑠) 𝑅(𝑠) + _ + _",
+          "html": "− 𝐺(𝑠)1 − 2𝐺(𝑠) 𝐺(𝑠) 𝐶(𝑠) 𝑅(𝑠) + _ + _"
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q8",
       "testId": "gate-subject-electrical-control-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 8,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q8",
+      "title": "GATE EE 2024 | EE Question: 47",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
       "topic": "Transfer Function & Block Diagram Reduction",
       "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
+      "question": "<p>Consider the closed-loop system shown in the figure with \n𝐺(𝑠) = 𝐾(𝑠2 − 2𝑠 + 2)(𝑠2 + 2𝑠 + 5) . \nThe root locus for the closed-loop system is to be drawn for 0 ≤ 𝐾 < ∞. The angle \nof departure (between 0° and 360°) of the root locus branch drawn from the pole \n(−1 + 𝑗2), in degrees, is _________________ (rounded off to the nearest integer).</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "48.0"
+        "6"
       ],
       "tolerance": {
-        "min": 47.5,
-        "max": 48.5
+        "min": 4.0,
+        "max": 8.0
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>6</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q9",
       "testId": "gate-subject-electrical-control-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 9,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q9",
+      "title": "GATE EE 2024 | EE Question: 48",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
-      "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
-      "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
-        },
-        {
-          "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
-        },
-        {
-          "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
-        },
-        {
-          "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
-        }
-      ],
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider the stable closed -loop system shown in the figure. The asymptotic Bode \nmagnitude plot of 𝐺(𝑠) has a constant slope of −20 dB/decade at  least till                \n100 rad/sec with the gain crossover frequency being 10 rad/sec. The asymptotic \nBode phase plot remains constant at −90° at least till 𝜔 = 10 rad/sec.  The steady-\nstate error of the closed -loop system for a unit ramp input is ______________ \n(rounded off to 2 decimal places).  \n  \n \n \n \n  \n \n  \n𝐺(𝑠) \n𝐶(𝑠) \n𝑅(𝑠) \n + \n_ \n𝐺(𝑠) \n𝐶(𝑠) \n𝑅(𝑠) \n + \n_</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "0.1"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "tolerance": {
+        "min": 0.09,
+        "max": 0.11
+      },
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>0.1</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q10",
       "testId": "gate-subject-electrical-control-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 10,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q10",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-cont-q11",
-      "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
-      "orderIndex": 11,
-      "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q11",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "State-Space Analysis & Controllability",
-      "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
-      "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
-        },
-        {
-          "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
-        },
-        {
-          "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
-        },
-        {
-          "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
-    },
-    {
-      "id": "gate-ee-cont-q12",
-      "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
-      "orderIndex": 12,
-      "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q12",
+      "title": "GATE EE 2024 | EE Question: 49",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
       "topic": "Transfer Function & Block Diagram Reduction",
       "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
+      "question": "<p>Consider the stable closed -loop system shown in the figure. The magnitude and \nphase values of the frequency response of 𝐺(𝑠) are given in the table. The value of \nthe gain 𝐾𝐼 (> 0) for a 50° phase margin is _______ (rounded off to 2 decimal \nplaces). \n \n \n𝜔 in rad/sec Magnitude in dB Phase in degrees \n0.5 −7 −40 \n1.0 −10 −80 \n2.0 −18 −130 \n10.0 −40 −200 \n  \n \n \n \n  \n \n \n \n \n  \n𝐺(𝑠) \n𝐶(𝑠) \n𝑅(𝑠) \n + \n_ \n𝐾𝐼\n𝑠</p>",
       "options": [],
       "structuredOptions": [],
       "answer": [
-        "48.0"
+        "1.12"
       ],
       "tolerance": {
-        "min": 47.5,
-        "max": 48.5
+        "min": 1.11,
+        "max": 1.13
       },
       "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>1.12</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q11",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 11,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 2",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>For the block diagram shown in the figure, the transfer function 𝑌(𝑠)𝑅(𝑠) is</p>",
+      "options": [
+        "2𝑠 + 3 𝑠 + 1",
+        "3𝑠 + 2 𝑠 − 1",
+        "𝑠 + 1 3𝑠 + 2",
+        "3𝑠 + 2 𝑠 + 1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "2𝑠 + 3 𝑠 + 1",
+          "html": "2𝑠 + 3 𝑠 + 1"
+        },
+        {
+          "label": "B",
+          "text": "3𝑠 + 2 𝑠 − 1",
+          "html": "3𝑠 + 2 𝑠 − 1"
+        },
+        {
+          "label": "C",
+          "text": "𝑠 + 1 3𝑠 + 2",
+          "html": "𝑠 + 1 3𝑠 + 2"
+        },
+        {
+          "label": "D",
+          "text": "3𝑠 + 2 𝑠 + 1",
+          "html": "3𝑠 + 2 𝑠 + 1"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q12",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2023,
+      "set": 1,
+      "orderIndex": 12,
+      "section": "EE",
+      "title": "GATE EE 2023 | EE Question: 3",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>In the Nyquist plot of the open-loop transfer function \n𝐺(𝑠)𝐻(𝑠) = 3𝑠 + 5𝑠 − 1  \ncorresponding to the feedback loop shown in the figure, the infinite semi-circular arc \nof the Nyquist contour in s-plane is mapped into a point at</p>",
+      "options": [
+        "𝐺(𝑠)𝐻(𝑠) = ∞",
+        "𝐺(𝑠)𝐻(𝑠) = 0",
+        "𝐺(𝑠)𝐻(𝑠) = 3",
+        "𝐺(𝑠)𝐻(𝑠) = −5 G(s) H(s) -"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝐺(𝑠)𝐻(𝑠) = ∞",
+          "html": "𝐺(𝑠)𝐻(𝑠) = ∞"
+        },
+        {
+          "label": "B",
+          "text": "𝐺(𝑠)𝐻(𝑠) = 0",
+          "html": "𝐺(𝑠)𝐻(𝑠) = 0"
+        },
+        {
+          "label": "C",
+          "text": "𝐺(𝑠)𝐻(𝑠) = 3",
+          "html": "𝐺(𝑠)𝐻(𝑠) = 3"
+        },
+        {
+          "label": "D",
+          "text": "𝐺(𝑠)𝐻(𝑠) = −5 G(s) H(s) -",
+          "html": "𝐺(𝑠)𝐻(𝑠) = −5 G(s) H(s) -"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q13",
       "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 13,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q13",
+      "title": "GATE EE 2023 | EE Question: 26",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "Time-Domain Specifications & Routh-Hurwitz Criterion",
+      "topic": "Transfer Function & Block Diagram Reduction",
       "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "question": "<p>The magnitude and phase  plots of an LTI system are  shown in the figure.  The \ntransfer function of the system is</p>",
       "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
+        "2.51𝑒−0.032𝑠",
+        "𝑒−2.514𝑠 𝑠 + 1",
+        "1.04𝑒−2.514𝑠",
+        "2.51𝑒−1.047𝑠"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
+          "text": "2.51𝑒−0.032𝑠",
+          "html": "2.51𝑒−0.032𝑠"
         },
         {
           "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
+          "text": "𝑒−2.514𝑠 𝑠 + 1",
+          "html": "𝑒−2.514𝑠 𝑠 + 1"
         },
         {
           "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
+          "text": "1.04𝑒−2.514𝑠",
+          "html": "1.04𝑒−2.514𝑠"
         },
         {
           "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
+          "text": "2.51𝑒−1.047𝑠",
+          "html": "2.51𝑒−1.047𝑠"
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-cont-q14",
       "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 14,
       "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q14",
+      "title": "GATE EE 2023 | EE Question: 28",
       "subject": "Control Systems",
       "subjectSlug": "control-systems",
-      "topic": "Root Locus & Bode Plots",
-      "type": "NAT",
-      "question": "<p>The open-loop transfer function of a unity feedback system is $G(s) = \\frac{K}{s(s+2)(s+4)}$. Using Routh-Hurwitz stability criterion, the maximum value of $K$ for closed-loop stability is ________.</p>",
-      "options": [],
-      "structuredOptions": [],
-      "answer": [
-        "48.0"
-      ],
-      "tolerance": {
-        "min": 47.5,
-        "max": 48.5
-      },
-      "marks": 2,
-      "negativeMarks": 0,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Characteristic equation: $1 + G(s) = 0 \\implies s(s^2 + 6s + 8) + K = 0 \\implies s^3 + 6s^2 + 8s + K = 0$. Routh array first column entries: $s^3: 1$, $s^2: 6$, $s^1: \\frac{6(8) - K}{6} = \\frac{48 - K}{6}$, $s^0: K$. For stability, all terms must be positive: $48 - K > 0 \\implies K < 48$.</p></div>"
-    },
-    {
-      "id": "gate-ee-cont-q15",
-      "testId": "gate-subject-electrical-control-systems",
-      "year": 2024,
-      "orderIndex": 15,
-      "section": "EE",
-      "title": "GATE EE Practice — Control Sys | Q15",
-      "subject": "Control Systems",
-      "subjectSlug": "control-systems",
-      "topic": "State-Space Analysis & Controllability",
+      "topic": "Transfer Function & Block Diagram Reduction",
       "type": "MCQ",
-      "question": "<p>A standard second-order system has closed-loop transfer function $T(s) = \\frac{100}{s^2 + 12s + 100}$. The damping ratio $\\zeta$ of the system is:</p>",
+      "question": "<p>Consider a lead compensator of the form \n𝐾(𝑠) =\n1 + 𝑠𝑎\n1 + 𝑠𝛽𝑎 , 𝛽 > 1, 𝑎 > 0 \nThe frequency at which this compensator produces maximum phase lead is 4 rad/s. \nAt this frequency, the gain amplification provided by the controller, assuming \nasymptotic Bode-magnitude plot of 𝐾(𝑠), is 6 dB. The values of 𝑎, 𝛽, respectively, \nare</p>",
       "options": [
-        "$0.6$",
-        "$0.5$",
-        "$0.8$",
-        "$1.2$"
+        "1, 16",
+        "2, 4",
+        "3, 5",
+        "2.66, 2.25"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "$0.6$",
-          "html": "$0.6$"
+          "text": "1, 16",
+          "html": "1, 16"
         },
         {
           "label": "B",
-          "text": "$0.5$",
-          "html": "$0.5$"
+          "text": "2, 4",
+          "html": "2, 4"
         },
         {
           "label": "C",
-          "text": "$0.8$",
-          "html": "$0.8$"
+          "text": "3, 5",
+          "html": "3, 5"
         },
         {
           "label": "D",
-          "text": "$1.2$",
-          "html": "$1.2$"
+          "text": "2.66, 2.25",
+          "html": "2.66, 2.25"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q15",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 15,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 1",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The transfer function of a real system, 𝐻(𝑠), is given as: \n 𝐻(𝑠) = ஺௦ା஻௦మା஼௦ା஽   ,     \nwhere 𝐴, 𝐵, 𝐶 and 𝐷 are positive constants. This system cannot operate as</p>",
+      "options": [
+        "low pass filter.",
+        "high pass filter.",
+        "band pass filter.",
+        "an integrator."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "low pass filter.",
+          "html": "low pass filter."
+        },
+        {
+          "label": "B",
+          "text": "high pass filter.",
+          "html": "high pass filter."
+        },
+        {
+          "label": "C",
+          "text": "band pass filter.",
+          "html": "band pass filter."
+        },
+        {
+          "label": "D",
+          "text": "an integrator.",
+          "html": "an integrator."
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q16",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 16,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 7",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The Bode magnitude plot of a first order stable system is constant with frequency. \nThe asymptotic value of the high frequency phase, for the system, is −180୭. This \nsystem has</p>",
+      "options": [
+        "one LHP pole and one RHP zero at the same frequency.",
+        "one LHP pole and one LHP zero at the same frequency.",
+        "two LHP poles and one RHP zero.",
+        "two RHP poles and one LHP zero."
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "one LHP pole and one RHP zero at the same frequency.",
+          "html": "one LHP pole and one RHP zero at the same frequency."
+        },
+        {
+          "label": "B",
+          "text": "one LHP pole and one LHP zero at the same frequency.",
+          "html": "one LHP pole and one LHP zero at the same frequency."
+        },
+        {
+          "label": "C",
+          "text": "two LHP poles and one RHP zero.",
+          "html": "two LHP poles and one RHP zero."
+        },
+        {
+          "label": "D",
+          "text": "two RHP poles and one LHP zero.",
+          "html": "two RHP poles and one LHP zero."
         }
       ],
       "answer": [
@@ -582,7 +655,1123 @@
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Control Systems):</strong></p><p>Standard form: $\\frac{\\omega_n^2}{s^2 + 2\\zeta \\omega_n s + \\omega_n^2}$. Here $\\omega_n^2 = 100 \\implies \\omega_n = 10\\text{ rad/s}$. Then $2\\zeta \\omega_n = 12 \\implies 2\\zeta(10) = 12 \\implies \\zeta = \\frac{12}{20} = 0.6$.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q17",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 17,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 9",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The open loop transfer function of a unity gain negative feedback system is given by  \n𝐺(𝑠) =  ௞௦మାସ௦ିହ  . The range of 𝑘 for which the system is stable, is</p>",
+      "options": [
+        "𝑘 > 3",
+        "𝑘 < 3",
+        "𝑘 > 5",
+        "𝑘 < 5"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝑘 > 3",
+          "html": "𝑘 > 3"
+        },
+        {
+          "label": "B",
+          "text": "𝑘 < 3",
+          "html": "𝑘 < 3"
+        },
+        {
+          "label": "C",
+          "text": "𝑘 > 5",
+          "html": "𝑘 > 5"
+        },
+        {
+          "label": "D",
+          "text": "𝑘 < 5",
+          "html": "𝑘 < 5"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "tolerance": null,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q18",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 18,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 28",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The open loop transfer function of a unity gain negative feedback system is given \nas  \n𝐺(𝑠) =  ଵ௦(௦ାଵ) . \nThe Nyquist contour in the 𝑠-plane encloses the entire right half plane and a small \nneighbourhood around the origin in the left half plane, as shown in the figure below. \nThe number of encirclements of the point (−1 + 𝑗0) by the Nyquist plot of 𝐺(𝑠), \ncorresponding to the Nyquist contour, is denoted as 𝑁. Then 𝑁 equals to</p>",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3 GATE 2022"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "0",
+          "html": "0"
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "html": "1"
+        },
+        {
+          "label": "C",
+          "text": "2",
+          "html": "2"
+        },
+        {
+          "label": "D",
+          "text": "3 GATE 2022",
+          "html": "3 GATE 2022"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>B</strong>.</p></div>"
+    },
+    {
+      "id": "gate-ee-cont-q19",
+      "testId": "gate-subject-electrical-control-systems",
+      "year": 2022,
+      "set": 1,
+      "orderIndex": 19,
+      "section": "EE",
+      "title": "GATE EE 2022 | EE Question: 29",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The damping ratio and undamped natural frequency of a closed loop system as \nshown in the figure, are denoted as 𝜁 and 𝜔௡, respectively. The values of 𝜁 and 𝜔௡ \nare</p>",
+      "options": [
+        "𝜁 = 0.5 and 𝜔௡ = 10 rad/s",
+        "𝜁 = 0.1 and 𝜔௡ = 10 rad/s",
+        "𝜁 = 0.707 and 𝜔௡ = 10 rad/s",
+        "𝜁 = 0.707 and 𝜔௡ = 100 rad/s"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "𝜁 = 0.5 and 𝜔௡ = 10 rad/s",
+          "html": "𝜁 = 0.5 and 𝜔௡ = 10 rad/s"
+        },
+        {
+          "label": "B",
+          "text": "𝜁 = 0.1 and 𝜔௡ = 10 rad/s",
+          "html": "𝜁 = 0.1 and 𝜔௡ = 10 rad/s"
+        },
+        {
+          "label": "C",
+          "text": "𝜁 = 0.707 and 𝜔௡ = 10 rad/s",
+          "html": "𝜁 = 0.707 and 𝜔௡ = 10 rad/s"
+        },
+        {
+          "label": "D",
+          "text": "𝜁 = 0.707 and 𝜔௡ = 100 rad/s",
+          "html": "𝜁 = 0.707 and 𝜔௡ = 100 rad/s"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "tolerance": null,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Control Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 20,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The Bode magnitude plot for the transfer function \n of the circuit is as shown. The value of \n is\n_____________\n. (Round off to \n decimal places.)\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The Bode magnitude plot for the transfer function \n of the circuit is as shown. The value of \n is\n_____________\n. (Round off to \n decimal places.)\ngateee-2021",
+      "id": "gate-ee-cont-q20",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 20,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 3",
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 49,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The state space representation of a first-order system is given as \nwhere,\n is the state variable, \n is the control input and \n is the controlled output. Let \n be the control\nlaw, where \n is the controller gain. To place a closed-loop pole at \n, the value of \n is ___________________.\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The state space representation of a first-order system is given as \nwhere,\n is the state variable, \n is the control input and \n is the controlled output. Let \n be the control\nlaw, where \n is the controller gain. To place a closed-loop pole at \n, the value of \n is ___________________.\ngateee-2021",
+      "id": "gate-ee-cont-q21",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 21,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>For the closed-loop system shown, the transfer function \n is\ngateee-2021\n \ncontrol-systems\n \ntransfer-function</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the closed-loop system shown, the transfer function \n is\ngateee-2021\n \ncontrol-systems\n \ntransfer-function",
+      "id": "gate-ee-cont-q22",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 22,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider a closed-loop system as shown. \n is the plant transfer function and \n is the compensator. For a unit-step input, the output response has damped oscillations. The damped\nnatural frequency is ___________________ \n. (Round off to \n decimal places.)\n \ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a closed-loop system as shown. \n is the plant transfer function and \n is the compensator. For a unit-step input, the output response has damped oscillations. The damped\nnatural frequency is ___________________ \n. (Round off to \n decimal places.)\n \ngateee-2021",
+      "id": "gate-ee-cont-q23",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 23,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 26,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>In the open interval \n, the polynomial \n has\ngateee-2021\n \ncalculus\n \npolynomials\nRouth Hurwitz Array \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "In the open interval \n, the polynomial \n has\ngateee-2021\n \ncalculus\n \npolynomials\nRouth Hurwitz Array \n(1",
+      "id": "gate-ee-cont-q24",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 24,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 34",
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider a negative unity feedback system with forward path transfer function \n, where \n are positive real numbers. For a Nyquist path\nenclosing the entire imaginary axis and right half of the \n in the clockwise direction, the Nyquist plot of \n, encircles the origin of \n once in the clockwise direction and never passes through\nthis origin for a certain value of \n. Then, the number of poles of \n lying in the open right half of the \n-\nplane is__________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a negative unity feedback system with forward path transfer function \n, where \n are positive real numbers. For a Nyquist path\nenclosing the entire imaginary axis and right half of the \n in the clockwise direction, the Nyquist plot of \n, encircles the origin of \n once in the clockwise direction and never passes through\nthis origin for a certain value of \n. Then, the number of poles of \n lying in the open right half of the \n-\nplane is__________.\ngate2020",
+      "id": "gate-ee-cont-q25",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 25,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 36,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider a negative unity feedback system with the forward path transfer function \nwhere \n is a positive real number. The value of \n for which the system will have some of its poles on the\nimaginary axis is ____________.\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a negative unity feedback system with the forward path transfer function \nwhere \n is a positive real number. The value of \n for which the system will have some of its poles on the\nimaginary axis is ____________.\ngate2020",
+      "id": "gate-ee-cont-q26",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 26,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 10",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 38,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The causal realization of a system transfer function \n having poles at \n and zeroes at \n will be \ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The causal realization of a system transfer function \n having poles at \n and zeroes at \n will be \ngate2020",
+      "id": "gate-ee-cont-q27",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 27,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "set": 1,
+      "qno": 41,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A stable real linear time-invariant system with single pole at \n, has a transfer function \nwith a \n gain of \n. The smallest positive frequency, in \n, at unity gain is closest to:\ngate2020</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A stable real linear time-invariant system with single pole at \n, has a transfer function \nwith a \n gain of \n. The smallest positive frequency, in \n, at unity gain is closest to:\ngate2020",
+      "id": "gate-ee-cont-q28",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 28,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2020 | EE Question: 54",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 17,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A current controlled current source (CCCS) has an input impedance of \n and output impedance of \n. When this CCCS is used in a negative feedback closed loop with a loop gain of \n, the closed loop\noutput impedance is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A current controlled current source (CCCS) has an input impedance of \n and output impedance of \n. When this CCCS is used in a negative feedback closed loop with a loop gain of \n, the closed loop\noutput impedance is",
+      "id": "gate-ee-cont-q29",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 29,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 4",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The asymptotic Bode magnitude plot of a minimum phase transfer function \n is shown below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The asymptotic Bode magnitude plot of a minimum phase transfer function \n is shown below.",
+      "id": "gate-ee-cont-q30",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 30,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider a state-variable model of a system\nwhere \n is the output, and \n is the input. The damping ratio \n and the undamped natural frequency \n (rad/sec)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a state-variable model of a system\nwhere \n is the output, and \n is the input. The damping ratio \n and the undamped natural frequency \n (rad/sec)",
+      "id": "gate-ee-cont-q31",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 31,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 8",
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 14,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The open loop transfer function of a unity feedback system is given by\nIn \n plane, the Nyquist plot of \n passes through the negative real axis at the point\n\n \ncontrol-systems\n \nfeedback-system\n \nnyquist-plot\nOpen Loop System \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The open loop transfer function of a unity feedback system is given by\nIn \n plane, the Nyquist plot of \n passes through the negative real axis at the point\n\n \ncontrol-systems\n \nfeedback-system\n \nnyquist-plot\nOpen Loop System \n(1",
+      "id": "gate-ee-cont-q32",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 32,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 9",
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of a phase lead compensator is given by\nThe frequency (in rad/sec), at which \n is maximum, is\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of a phase lead compensator is given by\nThe frequency (in rad/sec), at which \n is maximum, is\ngate2019",
+      "id": "gate-ee-cont-q33",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 33,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 10",
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A system transfer function is \n If \n and all the other coeﬃcient are\npositive, the transfer function represents a\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A system transfer function is \n If \n and all the other coeﬃcient are\npositive, the transfer function represents a\ngate2019",
+      "id": "gate-ee-cont-q34",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 34,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 54",
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider a unity feedback system with forward transfer function given by\nThe steady-state error in the output of the system for a unit-step input is _______ (up to \n decimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a unity feedback system with forward transfer function given by\nThe steady-state error in the output of the system for a unit-step input is _______ (up to \n decimal places).\ngate2018",
+      "id": "gate-ee-cont-q35",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 35,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 5",
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 46,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The unit step response \n of a unity feedback system with open loop transfer function \n is shown in the figure. The value of \n is ___________ (up to \n decimal places).\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The unit step response \n of a unity feedback system with open loop transfer function \n is shown in the figure. The value of \n is ___________ (up to \n decimal places).\ngate2018",
+      "id": "gate-ee-cont-q36",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 36,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Match the transfer functions of the second-order systems with the nature of the systems given below.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Match the transfer functions of the second-order systems with the nature of the systems given below.",
+      "id": "gate-ee-cont-q37",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 37,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A closed loop system has the characteristic equation given by \n. For this\nsystem to be stable, which one of the following conditions should be satisfied?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A closed loop system has the characteristic equation given by \n. For this\nsystem to be stable, which one of the following conditions should be satisfied?",
+      "id": "gate-ee-cont-q38",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 38,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 6",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 22,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider the unity feedback control system shown. The value of \n that results in a phase margin of the\nsystem to be \n is _________. (Give the answer up to two decimal places.)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the unity feedback control system shown. The value of \n that results in a phase margin of the\nsystem to be \n is _________. (Give the answer up to two decimal places.)",
+      "id": "gate-ee-cont-q39",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 39,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 34,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The root locus of the feedback control system having the characteristic equation \nwhere \n, enters into the real axis at.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The root locus of the feedback control system having the characteristic equation \nwhere \n, enters into the real axis at.",
+      "id": "gate-ee-cont-q40",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 40,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 8",
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>When a unit ramp input is applied to the unity feedback system having closed loop transfer function \n, the steady state error will be</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "When a unit ramp input is applied to the unity feedback system having closed loop transfer function \n, the steady state error will be",
+      "id": "gate-ee-cont-q41",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 41,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 33,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of the system \n whose state-space equations are given below is:</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of the system \n whose state-space equations are given below is:",
+      "id": "gate-ee-cont-q42",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 42,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 13",
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>For a system having transfer function \n, a unit step input is applied at time \n. The value of\nthe response of the system at \n (rounded off to three decimal places) is ________.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For a system having transfer function \n, a unit step input is applied at time \n. The value of\nthe response of the system at \n (rounded off to three decimal places) is ________.",
+      "id": "gate-ee-cont-q43",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 43,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 14",
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of a system is given by,\nLet the output of the system be \n for the input, \n. Then the minimum\nand maximum values of \n (in radians) are respectively</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of a system is given by,\nLet the output of the system be \n for the input, \n. Then the minimum\nand maximum values of \n (in radians) are respectively",
+      "id": "gate-ee-cont-q44",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 44,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 15",
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function \n of a compensator is given below.\nThe frequency range in which the phase (lead) introduced by the compensator reaches the maximum is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function \n of a compensator is given below.\nThe frequency range in which the phase (lead) introduced by the compensator reaches the maximum is",
+      "id": "gate-ee-cont-q45",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 45,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2017 | EE Question: 16",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 52,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The gain at the breakaway point of the root locus of a unity feedback system with open loop transfer\nfunction \n is\n\n \nbode-plot\n \nbreakaway-point\n \nunity-feedback-system\nCascaded Blocks \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The gain at the breakaway point of the root locus of a unity feedback system with open loop transfer\nfunction \n is\n\n \nbode-plot\n \nbreakaway-point\n \nunity-feedback-system\nCascaded Blocks \n(1",
+      "id": "gate-ee-cont-q46",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 46,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 11",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 6,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The transfer function of a system is \n. The steady state output \n is \n for the\ninput \n. The values of \n and \n respectively are\n\n \nlaplace-transform\n \nconvolution-integral\n \nfeed-back-transfer-function\nDamping Ratio \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The transfer function of a system is \n. The steady state output \n is \n for the\ninput \n. The values of \n and \n respectively are\n\n \nlaplace-transform\n \nconvolution-integral\n \nfeed-back-transfer-function\nDamping Ratio \n(1",
+      "id": "gate-ee-cont-q47",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 47,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 12",
+      "answer": "A"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 50,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>A second-order real system has the following properties:\na) the damping ratio \n and undamped natural frequency \n rad/s\nb) the steady state value of the output, to a unit step input, is \n.\nThe transfer function of the system is\n\n \ndamping-ratio\n \nnatural-frequency\nDynamic System \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A second-order real system has the following properties:\na) the damping ratio \n and undamped natural frequency \n rad/s\nb) the steady state value of the output, to a unit step input, is \n.\nThe transfer function of the system is\n\n \ndamping-ratio\n \nnatural-frequency\nDynamic System \n(1",
+      "id": "gate-ee-cont-q48",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 48,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 13",
+      "answer": "D"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Consider the following asymptotic Bode magnitude plot (\n is in rad/s).\nWhich one of the following transfer functions is best represented by the above Bode magnitude plot?\n\n \nlogarithmic-plot\n \ngain-k\n \nintegral-and-derivative-factor\nMapping \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider the following asymptotic Bode magnitude plot (\n is in rad/s).\nWhich one of the following transfer functions is best represented by the above Bode magnitude plot?\n\n \nlogarithmic-plot\n \ngain-k\n \nintegral-and-derivative-factor\nMapping \n(1",
+      "id": "gate-ee-cont-q49",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 49,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 14",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>Loop transfer function of a feedback system is \n. Take the Nyquist contour in the\nclockwise direction. Then, the Nyquist plot of \n encircles \n \n\n \nclosed-loop-system\n \nnyquist-plot\n \nmapping\nMarginally Stable \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Loop transfer function of a feedback system is \n. Take the Nyquist contour in the\nclockwise direction. Then, the Nyquist plot of \n encircles \n \n\n \nclosed-loop-system\n \nnyquist-plot\n \nmapping\nMarginally Stable \n(1",
+      "id": "gate-ee-cont-q50",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 50,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 15",
+      "answer": "B"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 39,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The open loop transfer function of a unity feedback control system is given by\nThe closed loop system will be stable if\n\n \ntransfer-function\n \nunity-feedback-control-system\nAnswer Keys\n2.1.1\nD\n2.1.2\nC\n2.2.1\nB\n2.2.2\nA\n2.2.3\nC\n2.2.4\nD\n2.2.5\nB\n2.2.6\n0.09 :\n0.11\n2.2.7\nA\n2.3.1\nA\n2.4.1\nA\n2.5.1\nD\n2.6.1\nC\n2.6.2\nB\n2.7.1\nA\n2.7.2\nA\n2.7.3\nA\n2.7.4\nD\n2.7.5\n1.01 : 1.06\n2.7.6\nB\n2.7.7\nC\n2.7.8\n1.280 :\n1.287\n2.7.9\nD\n2.7.10\n0.65 : 0.69\n2.7.11\n8.0 : 8.0\n2.7.12\nC\n2.7.13\nA\n2.7.14\n2 : 2\n2.7.15\nC\n2.7.16\n9.50 :\n9.60\n2.7.17\n1 : 1\n2.7.18\nB\n2.7.19\nB\n2.7.20\n4:8\n2.7.21\n0.09:0.11\n2.7.22\n1.11:1.13\n2.7.23\nD\n2.7.24\nA;C\n2.7.25\nB\n2.7.26\n0.1:0.1\n2.8.1\nA\n2.9.1\nB\n2.10.1\nB\n2.11.1\nC\n2.12.1\n0.61 :\n0.63\n2.12.2\nA\n2.12.3\nD\n2.13.1\nB\n2.14.1\nB\n2.15.1\nB</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The open loop transfer function of a unity feedback control system is given by\nThe closed loop system will be stable if\n\n \ntransfer-function\n \nunity-feedback-control-system\nAnswer Keys\n2.1.1\nD\n2.1.2\nC\n2.2.1\nB\n2.2.2\nA\n2.2.3\nC\n2.2.4\nD\n2.2.5\nB\n2.2.6\n0.09 :\n0.11\n2.2.7\nA\n2.3.1\nA\n2.4.1\nA\n2.5.1\nD\n2.6.1\nC\n2.6.2\nB\n2.7.1\nA\n2.7.2\nA\n2.7.3\nA\n2.7.4\nD\n2.7.5\n1.01 : 1.06\n2.7.6\nB\n2.7.7\nC\n2.7.8\n1.280 :\n1.287\n2.7.9\nD\n2.7.10\n0.65 : 0.69\n2.7.11\n8.0 : 8.0\n2.7.12\nC\n2.7.13\nA\n2.7.14\n2 : 2\n2.7.15\nC\n2.7.16\n9.50 :\n9.60\n2.7.17\n1 : 1\n2.7.18\nB\n2.7.19\nB\n2.7.20\n4:8\n2.7.21\n0.09:0.11\n2.7.22\n1.11:1.13\n2.7.23\nD\n2.7.24\nA;C\n2.7.25\nB\n2.7.26\n0.1:0.1\n2.8.1\nA\n2.9.1\nB\n2.10.1\nB\n2.11.1\nC\n2.12.1\n0.61 :\n0.63\n2.12.2\nA\n2.12.3\nD\n2.13.1\nB\n2.14.1\nB\n2.15.1\nB",
+      "id": "gate-ee-cont-q51",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 51,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 18",
+      "answer": "C"
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 15,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>and \n are the input resistances of circuits as shown below. The circuits extend inﬁnitely in the\ndirection shown. Which one of the following statements is TRUE?\n\n \ncircuit-reduction\n \nseries-combination\n \nparallel-combination\nClosed Loop \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "and \n are the input resistances of circuits as shown below. The circuits extend inﬁnitely in the\ndirection shown. Which one of the following statements is TRUE?\n\n \ncircuit-reduction\n \nseries-combination\n \nparallel-combination\nClosed Loop \n(1",
+      "id": "gate-ee-cont-q52",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 52,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2016 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 10,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The impulse response \n of a system, \n, is as shown in Figure \n. What is the maximum value attained\nby the impulse response of two cascaded blocks of \n as shown in Figure \n?\n \n\n \nimpulse-response\n \ncascaded-blocks\nClosed Loop System \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The impulse response \n of a system, \n, is as shown in Figure \n. What is the maximum value attained\nby the impulse response of two cascaded blocks of \n as shown in Figure \n?\n \n\n \nimpulse-response\n \ncascaded-blocks\nClosed Loop System \n(2",
+      "id": "gate-ee-cont-q53",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 53,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 21",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 54,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>An open loop transfer function \n of a system is\nFor a unity feedback system, the breakaway point of the root loci on the real axis occurs at,</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An open loop transfer function \n of a system is\nFor a unity feedback system, the breakaway point of the root loci on the real axis occurs at,",
+      "id": "gate-ee-cont-q54",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 54,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 22",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>Nyquist plots of two functions \n and \n are shown in figure.\nNyquist plot of the product of \n and \n is</p>",
+      "options": [
+        "B .",
+        "D . stability nyquist-plot imaginary-roots Linear Time Invariant System (1)"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "B .",
+          "html": "B ."
+        },
+        {
+          "label": "B",
+          "text": "D . stability nyquist-plot imaginary-roots Linear Time Invariant System (1)",
+          "html": "D . stability nyquist-plot imaginary-roots Linear Time Invariant System (1)"
+        }
+      ],
+      "raw_content": "Nyquist plots of two functions \n and \n are shown in figure.\nNyquist plot of the product of \n and \n is\nA\n. \nB\n. \nC\n. \nD\n. \n\n \nstability\n \nnyquist-plot\n \nimaginary-roots\nLinear Time Invariant System \n(1)",
+      "id": "gate-ee-cont-q55",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 55,
+      "marks": 1,
+      "negativeMarks": 0.33,
+      "title": "GATE EE 2015 | EE Question: 25",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 24,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>An open loop control system results in a response of \n for a unit impulse input. The \n gain of the control system is ________.\n\n \nopen-loop-system\n \nindependant-system\n \nnumerical-answers\nOperational Amplifier \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "An open loop control system results in a response of \n for a unit impulse input. The \n gain of the control system is ________.\n\n \nopen-loop-system\n \nindependant-system\n \nnumerical-answers\nOperational Amplifier \n(1",
+      "id": "gate-ee-cont-q56",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 56,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 26",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 11,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The operational ampliﬁer shown in the ﬁgure is ideal. The input voltage (in Volt) is \n. The amplitude of the output voltage \n (in Volt) is ________.\n\n \noperational-amplifier\n \npid-controller\n \nnumerical-answers\nRoot Locus \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The operational ampliﬁer shown in the ﬁgure is ideal. The input voltage (in Volt) is \n. The amplitude of the output voltage \n (in Volt) is ________.\n\n \noperational-amplifier\n \npid-controller\n \nnumerical-answers\nRoot Locus \n(1",
+      "id": "gate-ee-cont-q57",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 57,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 27",
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The open loop poles of a third order unity feedback system are at \n. Let the frequency\ncorresponding to the point where the root locus of the system transits to unstable region be \n. Now\nsuppose we introduce a zero in the open loop transfer function at \n, while keeping all the earlier open loop poles\nintact. Which one of the following is TRUE about the point where the root locus of the modiﬁed system transits to\nunstable region?</p>",
+      "options": [
+        "It corresponds to a frequency greater than",
+        "It corresponds to a frequency less than",
+        "It corresponds to a frequency",
+        "Root locus of modified system never transits to unstable region"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "It corresponds to a frequency greater than",
+          "html": "It corresponds to a frequency greater than"
+        },
+        {
+          "label": "B",
+          "text": "It corresponds to a frequency less than",
+          "html": "It corresponds to a frequency less than"
+        },
+        {
+          "label": "C",
+          "text": "It corresponds to a frequency",
+          "html": "It corresponds to a frequency"
+        },
+        {
+          "label": "D",
+          "text": "Root locus of modified system never transits to unstable region",
+          "html": "Root locus of modified system never transits to unstable region"
+        }
+      ],
+      "raw_content": "The open loop poles of a third order unity feedback system are at \n. Let the frequency\ncorresponding to the point where the root locus of the system transits to unstable region be \n. Now\nsuppose we introduce a zero in the open loop transfer function at \n, while keeping all the earlier open loop poles\nintact. Which one of the following is TRUE about the point where the root locus of the modiﬁed system transits to\nunstable region?\nA\n. \nIt corresponds to a frequency greater than \nB\n. \nIt corresponds to a frequency less than \nC\n. \nIt corresponds to a frequency \nD\n. \nRoot locus of modified system never transits to unstable region",
+      "id": "gate-ee-cont-q58",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 58,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2015 | EE Question: 28",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "MCQ",
+      "question": "<p>The transfer function of a second order real system with a perfectly ﬂat magnitude response of unity has a\npole at \n. List all the poles and zeroes.</p>",
+      "options": [
+        "Poles at , no zeroes.",
+        "Poles at , one zero at origin.",
+        "Poles at , , zeroes at , .",
+        "Poles at , zeroes at . second-order-real-system poles zeroes Signal Flow Graph (1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "Poles at , no zeroes.",
+          "html": "Poles at , no zeroes."
+        },
+        {
+          "label": "B",
+          "text": "Poles at , one zero at origin.",
+          "html": "Poles at , one zero at origin."
+        },
+        {
+          "label": "C",
+          "text": "Poles at , , zeroes at , .",
+          "html": "Poles at , , zeroes at , ."
+        },
+        {
+          "label": "D",
+          "text": "Poles at , zeroes at . second-order-real-system poles zeroes Signal Flow Graph (1",
+          "html": "Poles at , zeroes at . second-order-real-system poles zeroes Signal Flow Graph (1"
+        }
+      ],
+      "raw_content": "The transfer function of a second order real system with a perfectly ﬂat magnitude response of unity has a\npole at \n. List all the poles and zeroes.\nA\n. \nPoles at \n, no zeroes.\nB\n. \nPoles at \n, one zero at origin.\nC\n. \nPoles at \n, \n, zeroes at \n, \n.\nD\n. \nPoles at \n, zeroes at \n.\n\n \nsecond-order-real-system\n \npoles\n \nzeroes\nSignal Flow Graph \n(1",
+      "id": "gate-ee-cont-q59",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 59,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2015 | EE Question: 29",
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 25,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>For the signal-ﬂow graph shown in the ﬁgure, which one of the following expressions is equal to the\ntransfer function \n ?\n\n \nsignal-flow-graph\n \ntransfer-function\nSignals and Systems \n(5</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the signal-ﬂow graph shown in the ﬁgure, which one of the following expressions is equal to the\ntransfer function \n ?\n\n \nsignal-flow-graph\n \ntransfer-function\nSignals and Systems \n(5",
+      "id": "gate-ee-cont-q60",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 60,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 30",
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 53,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>The unit step response of a system with the transfer function \n is given by which one of the\nfollowing waveforms?</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The unit step response of a system with the transfer function \n is given by which one of the\nfollowing waveforms?",
+      "id": "gate-ee-cont-q61",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 61,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 32",
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "set": 1,
+      "qno": 55,
+      "section": "EE",
+      "subject": "Control Systems",
+      "subjectSlug": "control-systems",
+      "topic": "Transfer Function & Block Diagram Reduction",
+      "type": "NAT",
+      "question": "<p>For the system governed by the set of equations:\nthe transfer function \n is given by</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "For the system governed by the set of equations:\nthe transfer function \n is given by",
+      "id": "gate-ee-cont-q62",
+      "testId": "gate-subject-electrical-control-systems",
+      "orderIndex": 62,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2015 | EE Question: 33",
+      "answer": "C"
     }
   ]
 }

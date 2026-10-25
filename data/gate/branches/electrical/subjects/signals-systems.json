@@ -5,112 +5,86 @@
   "icon": "📶",
   "color": "from-indigo-500/20 to-blue-500/20",
   "borderColor": "border-indigo-500/30",
-  "totalQuestions": 15,
+  "totalQuestions": 37,
   "topics": [
     {
       "name": "Continuous & Discrete Time Signals",
-      "questionCount": 3
+      "questionCount": 9
     },
     {
       "name": "LTI Systems, Convolution & Impulse Response",
-      "questionCount": 3
+      "questionCount": 9
     },
     {
       "name": "Fourier Series & Fourier Transform",
-      "questionCount": 3
+      "questionCount": 9
     },
     {
       "name": "Laplace Transform & Z-Transform",
-      "questionCount": 3
+      "questionCount": 9
     }
   ],
   "questions": [
     {
-      "id": "gate-ee-sign-q1",
-      "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
-      "orderIndex": 1,
+      "year": 2025,
+      "set": 1,
+      "qno": 30,
       "section": "EE",
-      "title": "GATE EE — Signals | LTI Systems, Convolution & Impulse Response",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
       "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "type": "NAT",
+      "question": "<p>Let continuous-time signals \n and \n be\nConsider the convolution \n. Then \n is\n\n \nsignals-and-systems\n \nnumerical-answers\n \nconvolution\nDifferential Equations \n(2</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let continuous-time signals \n and \n be\nConsider the convolution \n. Then \n is\n\n \nsignals-and-systems\n \nnumerical-answers\n \nconvolution\nDifferential Equations \n(2",
+      "id": "gate-ee-sign-q1",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 1,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2025 | EE Question: 46",
+      "answer": "A"
     },
     {
       "id": "gate-ee-sign-q2",
       "testId": "gate-subject-electrical-signals-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 2,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q2",
+      "title": "GATE EE 2024 | EE Question: 5",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
+      "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>Suppose signal  𝑦(𝑡) is obtained by the time -reversal of  signal 𝑥(𝑡), i.e.,                  \n𝑦(𝑡) = 𝑥(−𝑡), −∞ < 𝑡 < ∞. Which one of the following options is always true \nfor the convolution of 𝑥(𝑡) and 𝑦(𝑡)?</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        "It is an even signal.",
+        "It is an odd signal.",
+        "It is a causal signal.",
+        "It is an anti-causal signal."
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": "It is an even signal.",
+          "html": "It is an even signal."
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": "It is an odd signal.",
+          "html": "It is an odd signal."
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": "It is a causal signal.",
+          "html": "It is a causal signal."
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": "It is an anti-causal signal.",
+          "html": "It is an anti-causal signal."
         }
       ],
       "answer": [
@@ -119,94 +93,73 @@
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Signals & Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-sign-q3",
       "testId": "gate-subject-electrical-signals-systems",
       "year": 2024,
+      "set": 1,
       "orderIndex": 3,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q3",
+      "title": "GATE EE 2024 | EE Question: 23",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let\n()X   be the Fourier transform of the signal  \n𝑥(𝑡) =  𝑒−𝑡4 cos 𝑡,        − ∞ < 𝑡 < ∞. \nThe value of the derivative of \n()X  at \n0=  is _______ (rounded off to 1 decimal \nplace).</p>",
+      "options": [],
+      "structuredOptions": [],
       "answer": [
-        "A"
+        "0"
       ],
-      "tolerance": null,
+      "tolerance": {
+        "min": 0.0,
+        "max": 0.0
+      },
       "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "negativeMarks": 0.0,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2024 Solution (Signals & Systems):</strong></p><p>Authentic official examination key: <strong>0</strong>.</p></div>"
     },
     {
       "id": "gate-ee-sign-q4",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
+      "year": 2023,
+      "set": 1,
       "orderIndex": 4,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q4",
+      "title": "GATE EE 2023 | EE Question: 8",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
+      "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>The Fourier transform 𝑋(𝜔) of the signal 𝑥(𝑡) is given by \n𝑋(𝜔) = 1, for |𝜔| < 𝑊𝑜 \n          = 0, for |𝜔| > 𝑊0 \n Which one of the following statements is true?</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        "𝑥(𝑡) tends to be an impulse as 𝑊0 → ∞.",
+        "𝑥(0) decreases as 𝑊0increases.",
+        "At 𝑡 = 𝜋2𝑊0, 𝑥(𝑡) = − 1𝜋",
+        "At 𝑡 = 𝜋2𝑊0, 𝑥(𝑡) = 1𝜋"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": "𝑥(𝑡) tends to be an impulse as 𝑊0 → ∞.",
+          "html": "𝑥(𝑡) tends to be an impulse as 𝑊0 → ∞."
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": "𝑥(0) decreases as 𝑊0increases.",
+          "html": "𝑥(0) decreases as 𝑊0increases."
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": "At 𝑡 = 𝜋2𝑊0, 𝑥(𝑡) = − 1𝜋",
+          "html": "At 𝑡 = 𝜋2𝑊0, 𝑥(𝑡) = − 1𝜋"
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": "At 𝑡 = 𝜋2𝑊0, 𝑥(𝑡) = 1𝜋",
+          "html": "At 𝑡 = 𝜋2𝑊0, 𝑥(𝑡) = 1𝜋"
         }
       ],
       "answer": [
@@ -215,535 +168,826 @@
       "tolerance": null,
       "marks": 1,
       "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2023 Solution (Signals & Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-sign-q5",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 5,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q5",
+      "title": "GATE EE 2022 | EE Question: 27",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
       "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>An LTI system is shown in the figure where  \n𝐺(𝑠) =  ଵ଴଴௦మା଴.ଵ௦ାଵ଴    . \nThe steady state output of the system, to the input 𝑟(𝑡), is given as  \n𝑦(𝑡) = 𝑎 + 𝑏 𝑠𝑖𝑛(10𝑡 + 𝜃). The values of ‘𝑎’ and ‘𝑏’ will be</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        "𝑎 = 1, 𝑏 = 10",
+        "𝑎 = 10, 𝑏 = 1",
+        "𝑎 = 1, 𝑏 = 100",
+        "𝑎 = 100, 𝑏 = 1 GATE 2022"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": "𝑎 = 1, 𝑏 = 10",
+          "html": "𝑎 = 1, 𝑏 = 10"
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": "𝑎 = 10, 𝑏 = 1",
+          "html": "𝑎 = 10, 𝑏 = 1"
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": "𝑎 = 1, 𝑏 = 100",
+          "html": "𝑎 = 1, 𝑏 = 100"
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": "𝑎 = 100, 𝑏 = 1 GATE 2022",
+          "html": "𝑎 = 100, 𝑏 = 1 GATE 2022"
         }
       ],
       "answer": [
         "A"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Signals & Systems):</strong></p><p>Authentic official examination key: <strong>A</strong>.</p></div>"
     },
     {
       "id": "gate-ee-sign-q6",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 6,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q6",
+      "title": "GATE EE 2022 | EE Question: 36",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
+      "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>Let a causal LTI system be governed by the following differential equation \n𝑦(𝑡) + ଵସ ௗ௬ௗ௧ = 2𝑥(𝑡),  where 𝑥(𝑡) and 𝑦(𝑡) are the input and output respectively.  \nIts impulse response is</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        "2𝑒ିభర௧𝑢(𝑡)",
+        "2𝑒ିସ௧𝑢(𝑡)",
+        "8𝑒ିభర௧𝑢(𝑡)",
+        "8𝑒ିସ௧𝑢(𝑡)"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": "2𝑒ିభర௧𝑢(𝑡)",
+          "html": "2𝑒ିభర௧𝑢(𝑡)"
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": "2𝑒ିସ௧𝑢(𝑡)",
+          "html": "2𝑒ିସ௧𝑢(𝑡)"
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": "8𝑒ିభర௧𝑢(𝑡)",
+          "html": "8𝑒ିభర௧𝑢(𝑡)"
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": "8𝑒ିସ௧𝑢(𝑡)",
+          "html": "8𝑒ିସ௧𝑢(𝑡)"
         }
       ],
       "answer": [
-        "A"
+        "D"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Signals & Systems):</strong></p><p>Authentic official examination key: <strong>D</strong>.</p></div>"
     },
     {
       "id": "gate-ee-sign-q7",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
+      "year": 2022,
+      "set": 1,
       "orderIndex": 7,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q7",
+      "title": "GATE EE 2022 | EE Question: 37",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
+      "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>Let an input  𝑥(𝑡) = 2 sin(10𝜋𝑡) + 5cos(15𝜋𝑡) + 7sin(42𝜋𝑡) + 4cos(45𝜋𝑡) is \npassed through an LTI system having an impulse response, \n                            ℎ(𝑡) = 2ቀୱ୧୬ (ଵ଴గ௧)గ௧ ቁ cos (40𝜋𝑡).  \nThe output of the system is</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        "2 sin(10𝜋𝑡) + 5𝑐𝑜𝑠(15𝜋𝑡)",
+        "5𝑐𝑜𝑠(15𝜋𝑡) + 7 sin(42𝜋𝑡)",
+        "7 sin(42𝜋𝑡) + 4𝑐𝑜𝑠(45𝜋𝑡)",
+        "2 sin(10𝜋𝑡) + 4𝑐𝑜𝑠(45𝜋𝑡) GATE 2022"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": "2 sin(10𝜋𝑡) + 5𝑐𝑜𝑠(15𝜋𝑡)",
+          "html": "2 sin(10𝜋𝑡) + 5𝑐𝑜𝑠(15𝜋𝑡)"
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": "5𝑐𝑜𝑠(15𝜋𝑡) + 7 sin(42𝜋𝑡)",
+          "html": "5𝑐𝑜𝑠(15𝜋𝑡) + 7 sin(42𝜋𝑡)"
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": "7 sin(42𝜋𝑡) + 4𝑐𝑜𝑠(45𝜋𝑡)",
+          "html": "7 sin(42𝜋𝑡) + 4𝑐𝑜𝑠(45𝜋𝑡)"
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": "2 sin(10𝜋𝑡) + 4𝑐𝑜𝑠(45𝜋𝑡) GATE 2022",
+          "html": "2 sin(10𝜋𝑡) + 4𝑐𝑜𝑠(45𝜋𝑡) GATE 2022"
         }
       ],
       "answer": [
-        "A"
+        "C"
       ],
       "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "explanation": "<div class='space-y-2'><p><strong>Official GATE EE 2022 Solution (Signals & Systems):</strong></p><p>Authentic official examination key: <strong>C</strong>.</p></div>"
     },
     {
+      "year": 2021,
+      "set": 1,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let \n be an even function, i.e. \n for all \n. Let the Fourier transform of \n be deﬁned as \n. Suppose \n for all \n, and \n. Then\ngateee-2021</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n be an even function, i.e. \n for all \n. Let the Fourier transform of \n be deﬁned as \n. Suppose \n for all \n, and \n. Then\ngateee-2021",
       "id": "gate-ee-sign-q8",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
       "orderIndex": 8,
-      "section": "EE",
-      "title": "GATE EE Practice — Signals | Q8",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 38",
+      "answer": "A"
     },
     {
+      "year": 2021,
+      "set": 1,
+      "qno": 43,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Consider a continuous-time signal \n deﬁned by \n for \n, and \n for \n.\nLet the Fourier transform of \n be deﬁned as \n. The maximum magnitude of \n is ___________.\ngateee-2021\n \nnumerical-answers\n \ntransform-theory\n \nfourier-transform\nInverse Laplace Transform \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a continuous-time signal \n deﬁned by \n for \n, and \n for \n.\nLet the Fourier transform of \n be deﬁned as \n. The maximum magnitude of \n is ___________.\ngateee-2021\n \nnumerical-answers\n \ntransform-theory\n \nfourier-transform\nInverse Laplace Transform \n(1",
       "id": "gate-ee-sign-q9",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
       "orderIndex": 9,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 39",
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "set": 1,
+      "qno": 27,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q9",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
       "topic": "LTI Systems, Convolution & Impulse Response",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
+      "type": "NAT",
+      "question": "<p>Suppose the probability that a coin toss shows \"head\" is \n, where \n. The coin is tossed\nrepeatedly until the first \"head\" appears. The expected number of tosses required is\ngateee-2021\n \nprobability-and-statistics\nSampling \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Suppose the probability that a coin toss shows \"head\" is \n, where \n. The coin is tossed\nrepeatedly until the first \"head\" appears. The expected number of tosses required is\ngateee-2021\n \nprobability-and-statistics\nSampling \n(1",
       "id": "gate-ee-sign-q10",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
       "orderIndex": 10,
-      "section": "EE",
-      "title": "GATE EE Practice — Signals | Q10",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2021 | EE Question: 42",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-sign-q11",
-      "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
-      "orderIndex": 11,
+      "year": 2020,
+      "set": 1,
+      "qno": 37,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q11",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-sign-q12",
-      "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
-      "orderIndex": 12,
-      "section": "EE",
-      "title": "GATE EE Practice — Signals | Q12",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Continuous & Discrete Time Signals",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
-    },
-    {
-      "id": "gate-ee-sign-q13",
-      "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
-      "orderIndex": 13,
-      "section": "EE",
-      "title": "GATE EE Practice — Signals | Q13",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
       "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>Suppose for input \n a linear time-invariant system with impulse response \n produces output \n,so\nthat \n. Further, if \n, which of the following statements is true?</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        "For all",
+        "For some but not all",
+        "For all",
+        "For some but not all gate2020"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": "For all",
+          "html": "For all"
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": "For some but not all",
+          "html": "For some but not all"
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": "For all",
+          "html": "For all"
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": "For some but not all gate2020",
+          "html": "For some but not all gate2020"
         }
       ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "raw_content": "Suppose for input \n a linear time-invariant system with impulse response \n produces output \n,so\nthat \n. Further, if \n, which of the following statements is true?\nA\n. \nFor all \nB\n. \nFor some but not all \nC\n. \nFor all \nD\n. \nFor some but not all \ngate2020",
+      "id": "gate-ee-sign-q11",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 11,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2020 | EE Question: 50",
+      "answer": "A"
     },
     {
+      "year": 2019,
+      "set": 1,
+      "qno": 15,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The characteristic equation of a linear time-invariant (LTI) system is given by\nThe system is BIBO stable if\ngate2019</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The characteristic equation of a linear time-invariant (LTI) system is given by\nThe system is BIBO stable if\ngate2019",
+      "id": "gate-ee-sign-q12",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 12,
+      "marks": 1,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 7",
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "set": 1,
+      "qno": 7,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The symbols, \n and \n represent positive quantities, and \n is the unit step function. Which one of the\nfollowing impulse responses is NOT the output of a causal linear time-invariant system?\n\n \nsignals-and-systems\n \ncontrol-systems</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The symbols, \n and \n represent positive quantities, and \n is the unit step function. Which one of the\nfollowing impulse responses is NOT the output of a causal linear time-invariant system?\n\n \nsignals-and-systems\n \ncontrol-systems",
+      "id": "gate-ee-sign-q13",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 13,
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2019 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "set": 1,
+      "qno": 40,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The Fourier transform of a continuous-time signal \n is given by \n,\nwhere \n and \n denoes frequency. Then the value of \n at \n is _________ (up to \n decimal\nplace). (\n denotes the logarithm base \n)\ngate2018</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The Fourier transform of a continuous-time signal \n is given by \n,\nwhere \n and \n denoes frequency. Then the value of \n at \n is _________ (up to \n decimal\nplace). (\n denotes the logarithm base \n)\ngate2018",
       "id": "gate-ee-sign-q14",
       "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
       "orderIndex": 14,
-      "section": "EE",
-      "title": "GATE EE Practice — Signals | Q14",
-      "subject": "Signals & Systems",
-      "subjectSlug": "signals-systems",
-      "topic": "Fourier Series & Fourier Transform",
-      "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
-      "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
-      ],
-      "structuredOptions": [
-        {
-          "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
-        },
-        {
-          "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
-        },
-        {
-          "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
-        },
-        {
-          "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "marks": 2,
+      "negativeMarks": 0.0,
+      "title": "GATE EE 2018 | EE Question: 38",
+      "answer": "A"
     },
     {
-      "id": "gate-ee-sign-q15",
-      "testId": "gate-subject-electrical-signals-systems",
-      "year": 2024,
-      "orderIndex": 15,
+      "year": 2018,
+      "set": 1,
+      "qno": 16,
       "section": "EE",
-      "title": "GATE EE Practice — Signals | Q15",
       "subject": "Signals & Systems",
       "subjectSlug": "signals-systems",
-      "topic": "Laplace Transform & Z-Transform",
+      "topic": "LTI Systems, Convolution & Impulse Response",
       "type": "MCQ",
-      "question": "<p>A continuous-time LTI system with impulse response $h(t) = e^{-2t} u(t)$ is:</p>",
+      "question": "<p>A continuous-time input signal \n is an eigenfunction of an LTI system, if the output is</p>",
       "options": [
-        "Both causal and BIBO stable",
-        "Causal but BIBO unstable",
-        "Non-causal but BIBO stable",
-        "Neither causal nor stable"
+        ", where is an eigenvalue",
+        ", where is an eigenvalue and is a complex exponential signal",
+        ", where is a complex exponential signal",
+        ", where is an eigenvalue and is a frequency response of the system gate2018"
       ],
       "structuredOptions": [
         {
           "label": "A",
-          "text": "Both causal and BIBO stable",
-          "html": "Both causal and BIBO stable"
+          "text": ", where is an eigenvalue",
+          "html": ", where is an eigenvalue"
         },
         {
           "label": "B",
-          "text": "Causal but BIBO unstable",
-          "html": "Causal but BIBO unstable"
+          "text": ", where is an eigenvalue and is a complex exponential signal",
+          "html": ", where is an eigenvalue and is a complex exponential signal"
         },
         {
           "label": "C",
-          "text": "Non-causal but BIBO stable",
-          "html": "Non-causal but BIBO stable"
+          "text": ", where is a complex exponential signal",
+          "html": ", where is a complex exponential signal"
         },
         {
           "label": "D",
-          "text": "Neither causal nor stable",
-          "html": "Neither causal nor stable"
+          "text": ", where is an eigenvalue and is a frequency response of the system gate2018",
+          "html": ", where is an eigenvalue and is a frequency response of the system gate2018"
         }
       ],
-      "answer": [
-        "A"
+      "raw_content": "A continuous-time input signal \n is an eigenfunction of an LTI system, if the output is\nA\n. \n, where \n is an eigenvalue\nB\n. \n, where \n is an eigenvalue and \n is a complex exponential signal\nC\n. \n,  where \n is a complex exponential signal\nD\n. \n, where \n is an eigenvalue and \n is a frequency response of the system\ngate2018",
+      "id": "gate-ee-sign-q15",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 15,
+      "marks": 2,
+      "negativeMarks": 0.66,
+      "title": "GATE EE 2018 | EE Question: 53",
+      "answer": "C"
+    },
+    {
+      "year": 2013,
+      "set": 1,
+      "qno": 18,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>A band-limited signal with a maximum frequency of \n is to be sampled. According to the sampling\ntheorem, the sampling frequency in \n which is not valid is\n\n \nband-width\n \nsampling-theorem\nBinary Code \n(3</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A band-limited signal with a maximum frequency of \n is to be sampled. According to the sampling\ntheorem, the sampling frequency in \n which is not valid is\n\n \nband-width\n \nsampling-theorem\nBinary Code \n(3",
+      "id": "gate-ee-sign-q16",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 16
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 30,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let a causal LTI system be characterised by the following differential equation, with initial rest condition\nwhere, \n and \n are the input and output respectively. The impulse response of the system is (\n is the unit\nstep function)</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let a causal LTI system be characterised by the following differential equation, with initial rest condition\nwhere, \n and \n are the input and output respectively. The impulse response of the system is (\n is the unit\nstep function)",
+      "id": "gate-ee-sign-q17",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 17
+    },
+    {
+      "year": 2012,
+      "set": 1,
+      "qno": 42,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The Fourier transform of a signal \n is \n. The value of \n is\ngate2012</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The Fourier transform of a signal \n is \n. The value of \n is\ngate2012",
+      "id": "gate-ee-sign-q18",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 18
+    },
+    {
+      "year": 2014,
+      "set": 3,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>A function \n is shown in the figure.\nThe Fourier transform \n of \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A function \n is shown in the figure.\nThe Fourier transform \n of \n is",
+      "id": "gate-ee-sign-q19",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 19
+    },
+    {
+      "year": 2015,
+      "set": 2,
+      "qno": 29,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Consider a signal defined by\nIts Fourier Transform is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a signal defined by\nIts Fourier Transform is",
+      "id": "gate-ee-sign-q20",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 20
+    },
+    {
+      "year": 2014,
+      "set": 1,
+      "qno": 35,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "MCQ",
+      "question": "<p>Let \n be continuous time signal and let \nbe its Fourier Transform defined by\n                             \ndefine \n by\n                              \nWhat is the relationship between \n and</p>",
+      "options": [
+        "would always be proportional to .",
+        "would be proportional to if is an even function.",
+        "would be proportional to only if is a sinusoidal function.",
+        "would never be proportional to . fourier-transform unit-step-function continuous time signal Convergence (1"
       ],
-      "tolerance": null,
-      "marks": 1,
-      "negativeMarks": 0.33,
-      "explanation": "<div class='space-y-2'><p><strong>Step-by-Step Solution (Signals & Systems):</strong></p><p>Causality: $h(t) = 0$ for $t < 0$ due to $u(t)$. Stability: $\\int_{-\\infty}^{\\infty} |h(t)| dt = \\int_0^\\infty e^{-2t} dt = \\left[-\\frac{e^{-2t}}{2}\\right]_0^\\infty = \\frac{1}{2} < \\infty$. Hence both causal and BIBO stable.</p></div>"
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "would always be proportional to .",
+          "html": "would always be proportional to ."
+        },
+        {
+          "label": "B",
+          "text": "would be proportional to if is an even function.",
+          "html": "would be proportional to if is an even function."
+        },
+        {
+          "label": "C",
+          "text": "would be proportional to only if is a sinusoidal function.",
+          "html": "would be proportional to only if is a sinusoidal function."
+        },
+        {
+          "label": "D",
+          "text": "would never be proportional to . fourier-transform unit-step-function continuous time signal Convergence (1",
+          "html": "would never be proportional to . fourier-transform unit-step-function continuous time signal Convergence (1"
+        }
+      ],
+      "raw_content": "Let \n be continuous time signal and let \nbe its Fourier Transform defined by\n                             \ndefine \n by\n                              \nWhat is the relationship between \n and \nA\n. \n would always be proportional to \n.\nB\n. \n would be proportional to \n if \n is an even function.\nC\n. \n would be proportional to \n only if \n is a sinusoidal function.\nD\n. \n would never be proportional to \n.\n\n \nfourier-transform\n \nunit-step-function\n \ncontinuous time\n \nsignal\nConvergence \n(1",
+      "id": "gate-ee-sign-q21",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 21
+    },
+    {
+      "year": 2014,
+      "set": 3,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>A signal is represented by\nThe Fourier transform of the convolved signal \n= \n is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A signal is represented by\nThe Fourier transform of the convolved signal \n= \n is",
+      "id": "gate-ee-sign-q22",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 22
+    },
+    {
+      "year": 2024,
+      "set": 1,
+      "qno": 5,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Suppose signal \n is obtained by the time-reversal of signal \n, i.e., \n.\nWhich one of the following options is always true for the convolution of \n and \n?\n\n \nsignals-and-systems\n \nconvolution\nAnswer key\n☟</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Suppose signal \n is obtained by the time-reversal of signal \n, i.e., \n.\nWhich one of the following options is always true for the convolution of \n and \n?\n\n \nsignals-and-systems\n \nconvolution\nAnswer key\n☟",
+      "id": "gate-ee-sign-q23",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 23
+    },
+    {
+      "year": 2022,
+      "set": 1,
+      "qno": 36,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let a casual \n system be governed by the following diﬀerential equation \n, where \n and \n are the input ant output respectively. Its impulse response is\ngate2022</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let a casual \n system be governed by the following diﬀerential equation \n, where \n and \n are the input ant output respectively. Its impulse response is\ngate2022",
+      "id": "gate-ee-sign-q24",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 24
+    },
+    {
+      "year": 2016,
+      "set": 2,
+      "qno": 28,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let \n and \n be two signals whose Fourier Transforms are as shown in the\nfigure below. In the figure, \n denotes the impulse response.\nFor the system shown above, the minimum sampling rate required to sample \n, so that \n can be uniquely\nreconstructed from its samples, is\n\n \neven-functions\n \nimpulse-response\n \nexponential-function\nFourier Series \n(3</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n and \n be two signals whose Fourier Transforms are as shown in the\nfigure below. In the figure, \n denotes the impulse response.\nFor the system shown above, the minimum sampling rate required to sample \n, so that \n can be uniquely\nreconstructed from its samples, is\n\n \neven-functions\n \nimpulse-response\n \nexponential-function\nFourier Series \n(3",
+      "id": "gate-ee-sign-q25",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 25
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let the signal\nbe passed through an LTI system with frequency response \n, as given in the figure below.\nThe fourier series representation of the output is given as</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let the signal\nbe passed through an LTI system with frequency response \n, as given in the figure below.\nThe fourier series representation of the output is given as",
+      "id": "gate-ee-sign-q26",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 26
+    },
+    {
+      "year": 2023,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The Fourier transform \n of the signal \n is given by\nWhich one of the following statements is true?\n\n \nsignals-and-systems\n \nfourier-transform\n \nnumerical-answers\nHigh Pass Filter \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The Fourier transform \n of the signal \n is given by\nWhich one of the following statements is true?\n\n \nsignals-and-systems\n \nfourier-transform\n \nnumerical-answers\nHigh Pass Filter \n(1",
+      "id": "gate-ee-sign-q27",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 27
+    },
+    {
+      "year": 2014,
+      "set": 1,
+      "qno": 9,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "MCQ",
+      "question": "<p>is nonzero only for \n , and similarly, \n is non zero only for \n. Let \n  be\nconvolution of \n and \n Which one of the following statements is TRUE?</p>",
+      "options": [
+        "can be nonzero over an unbounded interval.",
+        "is nonzero for",
+        "is zero outside of",
+        "is nonzero for convolution interval Laplace Transform (1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "can be nonzero over an unbounded interval.",
+          "html": "can be nonzero over an unbounded interval."
+        },
+        {
+          "label": "B",
+          "text": "is nonzero for",
+          "html": "is nonzero for"
+        },
+        {
+          "label": "C",
+          "text": "is zero outside of",
+          "html": "is zero outside of"
+        },
+        {
+          "label": "D",
+          "text": "is nonzero for convolution interval Laplace Transform (1",
+          "html": "is nonzero for convolution interval Laplace Transform (1"
+        }
+      ],
+      "raw_content": "is nonzero only for \n , and similarly, \n is non zero only for \n. Let \n  be\nconvolution of \n and \n Which one of the following statements is TRUE?\nA\n. \n can be nonzero over an unbounded interval.\nB\n. \n is nonzero for \nC\n. \n is zero outside of \nD\n. \n is nonzero for \n\n \nconvolution\n \ninterval\nLaplace Transform \n(1",
+      "id": "gate-ee-sign-q28",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 28
+    },
+    {
+      "year": 2014,
+      "set": 2,
+      "qno": 10,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Consider an \n system with impulse response \n . If the output of the system is \n  then the input, \n, is given by\n\n \nimpulse-response\n \nlti-system\nMirror \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider an \n system with impulse response \n . If the output of the system is \n  then the input, \n, is given by\n\n \nimpulse-response\n \nlti-system\nMirror \n(1",
+      "id": "gate-ee-sign-q29",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 29
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 34,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "MCQ",
+      "question": "<p>Suppose \n and \n have the Fourier transforms as shown below.\nWhich one of the following statements is TRUE?</p>",
+      "options": [
+        "and are complex and is also complex with nonzero imaginary part",
+        "and are real and is also real",
+        "and are complex but is real",
+        "and are imaginary but is real mirror signal Multiple Selects (1"
+      ],
+      "structuredOptions": [
+        {
+          "label": "A",
+          "text": "and are complex and is also complex with nonzero imaginary part",
+          "html": "and are complex and is also complex with nonzero imaginary part"
+        },
+        {
+          "label": "B",
+          "text": "and are real and is also real",
+          "html": "and are real and is also real"
+        },
+        {
+          "label": "C",
+          "text": "and are complex but is real",
+          "html": "and are complex but is real"
+        },
+        {
+          "label": "D",
+          "text": "and are imaginary but is real mirror signal Multiple Selects (1",
+          "html": "and are imaginary but is real mirror signal Multiple Selects (1"
+        }
+      ],
+      "raw_content": "Suppose \n and \n have the Fourier transforms as shown below.\nWhich one of the following statements is TRUE?\nA\n. \n and \n are complex and \nis also complex with nonzero imaginary part\nB\n. \n and \n are real and \nis also real\nC\n. \n and \n are complex but \n is real\nD\n. \n and \n are imaginary but \n is real\n\n \nmirror\n \nsignal\nMultiple Selects \n(1",
+      "id": "gate-ee-sign-q30",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 30
+    },
+    {
+      "year": 2013,
+      "set": 1,
+      "qno": 4,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The impulse response a the system is \n For an input \n, the output is</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The impulse response a the system is \n For an input \n, the output is",
+      "id": "gate-ee-sign-q31",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 31
+    },
+    {
+      "year": 2017,
+      "set": 2,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>The output \n of the following system is to be sampled, so as to reconstruct it from its samples uniquely.\nThe required minimum sampling rate is\n\n \nsignals-and-systems\n \nsampling-theorem\n \nnumerical-answers\nSausality \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "The output \n of the following system is to be sampled, so as to reconstruct it from its samples uniquely.\nThe required minimum sampling rate is\n\n \nsignals-and-systems\n \nsampling-theorem\n \nnumerical-answers\nSausality \n(1",
+      "id": "gate-ee-sign-q32",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 32
+    },
+    {
+      "year": 2014,
+      "set": 1,
+      "qno": 34,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let \n be the \n – transform of a causal signal \n Then, the values of \n and \n are\n\n \nz-transform\n \nsausality\nScaling Properties \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n be the \n – transform of a causal signal \n Then, the values of \n and \n are\n\n \nz-transform\n \nsausality\nScaling Properties \n(1",
+      "id": "gate-ee-sign-q33",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 33
+    },
+    {
+      "year": 2016,
+      "set": 1,
+      "qno": 8,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Consider a continuous-time system with input \n and output \n given by \n.\nThis system is\n\n \nsampling-theorem\n \nscaling-properties\n \ncausal-system\nShifting Theorems \n(1</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Consider a continuous-time system with input \n and output \n given by \n.\nThis system is\n\n \nsampling-theorem\n \nscaling-properties\n \ncausal-system\nShifting Theorems \n(1",
+      "id": "gate-ee-sign-q34",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 34
+    },
+    {
+      "year": 2012,
+      "set": 1,
+      "qno": 31,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>L e t \n denote the convolution of \n and \n, where \n and \n is a casual\nsequence. If \n and \n, then \n equals\n\n \nsignals-and-systems</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "L e t \n denote the convolution of \n and \n, where \n and \n is a casual\nsequence. If \n and \n, then \n equals\n\n \nsignals-and-systems",
+      "id": "gate-ee-sign-q35",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 35
+    },
+    {
+      "year": 2017,
+      "set": 1,
+      "qno": 3,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>Let \n, where \"*\" denotes convolution. Let \n be a positive real-valued constant. Choose the\ncorrect expression for \n.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "Let \n, where \"*\" denotes convolution. Let \n be a positive real-valued constant. Choose the\ncorrect expression for \n.",
+      "id": "gate-ee-sign-q36",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 36
+    },
+    {
+      "year": 2017,
+      "set": 2,
+      "qno": 32,
+      "section": "EE",
+      "subject": "Signals & Systems",
+      "subjectSlug": "signals-systems",
+      "topic": "LTI Systems, Convolution & Impulse Response",
+      "type": "NAT",
+      "question": "<p>A cascade system having the impulse responses \n and \n is shown in\nthe figure below, where symbol \n denotes the time origin.</p>",
+      "options": [],
+      "structuredOptions": [],
+      "raw_content": "A cascade system having the impulse responses \n and \n is shown in\nthe figure below, where symbol \n denotes the time origin.",
+      "id": "gate-ee-sign-q37",
+      "testId": "gate-subject-electrical-signals-systems",
+      "orderIndex": 37
     }
   ]
 }
